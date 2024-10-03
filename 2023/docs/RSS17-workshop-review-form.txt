@@ -1,0 +1,124 @@
+Review Form
+
+1. Title of Proposed Event
+--------------------------------------------------------------------
+
+
+2. How important is this topic to the robotics community?
+-------------------------------------------------------------
+
+[] excellent
+[] quite important
+[] not so much
+[] unimportant
+
+Please provide a statement regarding relevance:
+
+
+3. How interesting will this workshop be to RSS participants?
+-------------------------------------------------------------
+
+[] excellent
+[] quite interesting
+[] not so much
+[] uninteresting
+
+Please provide a statement regarding interest:
+
+
+4. What is the status of the workshop website?
+----------------------------------------------
+
+[] excellent
+[] quite good
+[] not so good
+[] poor
+
+Please provide a statement regarding the submitted URL:
+
+
+5. Is the suggested duration of the workshop appropriate?
+---------------------------------------------------------
+
+[] Yes
+[] No, too long
+[] No, too short
+
+6. Is there a sufficient number of speakers/participants involved? Are
+they relevant to the scope of the project?
+----------------------------------------------------------
+
+[] excellent
+[] quite good
+[] not so good
+[] poor
+
+Please provide a statement regarding the submitted list of speakers:
+
+
+7. Do the organizers have a good plan for soliciting participation?
+-----------------------------------------------------------
+
+[] excellent
+[] quite good
+[] not so good
+[] poor
+
+Please provide a statement regarding the plan for soliciting
+participation:
+
+
+8. Have the organizers made an effort to encourage discussion and
+interactions during their proposed event?
+-----------------------------------------------------------
+
+[] excellent
+[] quite good
+[] not so good
+[] poor
+
+Please provide a statement regarding the expected interactivity of the
+proposed event:
+
+9. Have the organized outlined how they might encourage speakers to focus on the topic and tailor their talks to the workshop?
+-----------------------------------------------------------
+
+[] excellent
+[] quite good
+[] not so good
+[] poor
+
+Please explain:
+
+
+10. If outlier track: how well does the proposal push the boundaries of traditional academic workshops by examining ideas that are (i) important for the field; (ii) hard done by the formal peer-review process?
+-----------------------------------------------------------
+
+[] excellent
+[] quite good
+[] not so good
+[] poor
+[] not outlier track
+
+Please provide a statement regarding how well the proposal pushes the boundaries of traditional academic workshops:
+
+
+11. Main Strength/Weakness of Workshop Proposal
+----------------------------------------------
+
++:
+ 
+-:
+
+
+Please provide feedback to the organizers on how they could improve
+their event and its impact:
+
+
+12. Overall Recommendation
+--------------------------
+
+[] Strong accept
+[] Weak accept
+[] Weak reject
+[] Strong reject

@@ -1,0 +1,51 @@
+[
+    {
+        "Order": 1,
+        "Title": "RT-H: Action Hierarchies using Language",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 101,
+        "Authors": "Suneel Belkhale, Tianli Ding, Ted Xiao, Pierre Sermanet, Quan Vuong, Jonathan Tompson, Yevgen Chebotar, Debidatta Dwibedi, Dorsa Sadigh"
+    },
+    {
+        "Order": 2,
+        "Title": "RoboCasa: Large-Scale Simulation of Household Tasks for Generalist Robots",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 102,
+        "Authors": "Soroush Nasiriany, Abhiram Maddukuri, Lance Zhang, Adeet Parikh, Aaron Lo, Abhishek Joshi, Ajay Mandlekar, Yuke Zhu"
+    },
+    {
+        "Order": 3,
+        "Title": "Render and Diffuse: Aligning Image and Action Spaces for Diffusion-based Behaviour Cloning",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 103,
+        "Authors": "Vitalis Vosylius, Younggyo Seo, Jafar Uruç, Stephen James"
+    },
+    {
+        "Order": 4,
+        "Title": "Vid2Robot: End-to-end Video-conditioned Policy Learning with Cross-Attention Transformers",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 104,
+        "Authors": "Vidhi Jain, Maria Attarian, Nikhil J Joshi, Ayzaan Wahid, Danny Driess, Quan Vuong, Pannag R Sanketi, Pierre Sermanet, Stefan Welker, Christine Chan, Igor Gilitschenski, Yonatan Bisk, Debidatta Dwibedi"
+    },
+    {
+        "Order": 5,
+        "Title": "Offline Imitation Learning Through Graph Search and Retrieval",
+        "Location": "Commissiekamer 2",
+        "PosterBoardNr": 201,
+        "Authors": "Zhao-Heng Yin, Pieter Abbeel"
+    },
+    {
+        "Order": 6,
+        "Title": "RVT-2: Learning Precise Manipulation from Few Demonstrations",
+        "Location": "Commissiekamer 2",
+        "PosterBoardNr": 202,
+        "Authors": "Ankit Goyal, Valts Blukis, Jie Xu, Yijie Guo, Yu-Wei Chao, Dieter Fox"
+    },
+    {
+        "Order": 7,
+        "Title": "Imitation Bootstrapped Reinforcement Learning",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 301,
+        "Authors": "Hengyuan Hu, Suvir Mirchandani, Dorsa Sadigh"
+    }
+]

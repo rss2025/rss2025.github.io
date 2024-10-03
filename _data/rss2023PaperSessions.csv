@@ -1,0 +1,15 @@
+Date,Time,SessionName,SessionLink,C1,C1A,C2,C2A
+11-Jul,9:00am-10:00am,1. Human-Centered Robotics,1.%20Human-Centered%20Robotics,Dorsa Sadigh,Stanford University,Tapomayukh Bhattacharjee,Cornell University
+11-Jul,11:00am-12:00pm,2. Manipulation from Demonstrations and Teleoperation,2.%20Manipulation%20from%20Demonstrations%20and%20Teleoperation,Florian Shkurti,University of Toronto,Dongheui Lee,TU Wien
+11-Jul,1:30pm-2:30pm,3. Self-supervision and RL for Manipulation,3.%20Self-supervision%20and%20RL%20for%20Manipulation,Joseph Lim,KAIST,Jens Kober,TU Delft
+11-Jul,3:00pm-4:00pm,4. Large Data and Vision-Language Models for Robotics,4.%20Large%20Data%20and%20Vision-Language%20Models%20for%20Robotics,Lerrel Pinto,NYU,Yuke Zhu,UT-Austin
+12-Jul,9:00am-10:00am,5. Simulation and Sim2Real,5.%20Simulation%20and%20Sim2Real,Gregory Chirikjian,National University of Singapore,Hao Su,UC San Diego
+12-Jul,11:00am-12:00pm,6. Grasping and Manipulation,6.%20Grasping%20and%20Manipulation,Abhishek Gupta,University of Washington,Juxi Leitner,Monash University
+12-Jul,1:30pm-2:30pm,7. Mobile Manipulation and Locomotion,7.%20Mobile%20Manipulation%20and%20Locomotion,Hae-Won Park,KAIST,Tirthankar Bandyopadhyay,CSIRO
+12-Jul,3:00pm-4:00pm,8. Robot Planning,8.%20Robot%20Planning,Dylan Shell,Texas A&M University,Ian Abraham,Yale University
+13-Jul,9:00am-10:00am,9. Robot State Estimation,9.%20Robot%20State%20Estimation,Luca Carlone,MIT,Ayoung Kim,Seoul National University
+13-Jul,11:00am-12:00pm,10. Robot Perception,10.%20Robot%20Perception,Christoffer Heckman,University of Colorado Boulder,David Rosen,Northeastern University
+13-Jul,1:30pm-2:30pm,11. Control & Dynamics,11.%20Control%20%26%20Dynamics,Nadia Figueroa,University of Pennsylvania,Nima Fazeli,University of Michigan
+13-Jul,3:00pm-4:00pm,12. Robot Mechanisms & Control,12.%20Robot%20Mechanisms%20%26%20Control,Ankur Mehta,UCLA,Jiachen Zhang,CU Hong Kong
+14-Jul,9:00am-10:00am,13. Autonomous Vehicles & Field Robotics,13.%20Autonomous%20Vehicles%20%26%20Field%20Robotics,Shoudong Huang,University of Technology Sydney,Jen Jen Chung,Univ. of. Queensland
+14-Jul,10:00am-11:00am,14. Multi-Robot and Aerial Systems,14.%20Multi-Robot%20and%20Aerial%20Systems,Han-Lim Choi,KAIST,Lantao Liu,Indiana University

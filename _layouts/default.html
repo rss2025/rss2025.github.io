@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+{% include head.html %}
+
+<body>
+  {% include topnav.html %}
+  <div class="container">
+    <div class="row">
+      {% include sidebar.html %}
+      <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+        {{ content }}
+        <br>
+        <center>
+          <footer style="color: lightslategray;">
+            <small style="line-height: 95%;">
+              <p style="padding-bottom: 2px; margin-bottom: 2px;">This website uses Google Analytics for page views.</p>
+              <p>&copy; 2024 RSS Foundation.</p>
+            </small>
+          </footer>
+        </center>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

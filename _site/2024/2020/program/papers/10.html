@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Facebook images -->
+  <meta property="og:image" content="/images/rss_2020.png"/>
+
+  <title>
+    
+      The Dark Side of Embodiment - Teaming Up With Robots VS Disembodied Agents &middot; Robotics: Science and Systems
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66594011-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="../../public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="../../atom.xml">
+
+</head>
+
+  <body>
+    <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <a href="../../index.html">
+                    <img style="text-align:center" src="../../images/rsslogotext-white.png" width="100%">
+                        </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-11 col-xs-12 col-lg-offset-4 col-md-offset-2 col-sm-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" style="margin-top: 10px; text-align: center;"
+                        href="../../index.html">RSS 2020</a>
+                    <a class="navbar-brand hidden-xs"
+                        href="../../index.html">RSS 2020</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="10.html#">home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--li><a href="/blog/">Latest</a></li-->
+                                <li><a href="http://www.roboticsproceedings.org/">Previous Proceedings</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="10.html#">attending<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/info/index.html">Instructions for Conference Attendees</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/registration/index.html">Registration</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/inclusion/index.html">Inclusion@RSS</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/pioneers/index.html">RSS Pioneers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="10.html#">committees<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/organizers/index.html">Organizing Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/pc/index.html">Program Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/foundation/index.html">RSS Foundation</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="10.html#">information<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/authorinfo/index.html">Author Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfp/index.html">Call for Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/callForParticipation/index.html">Call for Participation</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfw/index.html">Call for Workshops</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/studentHelpers/index.html">Information for Student Helpers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/sponsorship/index.html">Sponsors</a></li>
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="10.html#">program<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../detailed/index.html">Detailed Program</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../awards/index.html">Paper Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../keynote/index.html">Keynote Talk</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../testoftimeaward/index.html">Test of Time Award</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../careerawards/index.html">Early Career Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../papers.html">Accepted Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../workshops/index.html">Workshops</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-lg-offset-1 hidden-xs hidden-sm text-right" id="sidebar"/>
+<!-- No sidebar on small screens -->
+<a class="sidebar-nav-item" href="../../index.html">Home</a>
+<!--br>
+ <a class="sidebar-nav-item" href="/blog/">Latest</a-->
+<br>
+<a class="sidebar-nav-item" href="http://www.roboticsproceedings.org/">RSS Proceedings</a>
+<br>
+
+<br>
+
+
+
+<b>attending</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/info/index.html">Instructions for Conference Attendees</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/registration/index.html">Registration</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/inclusion/index.html">Inclusion@RSS</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/pioneers/index.html">RSS Pioneers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>committees</b>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/organizers/index.html">Organizing Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/pc/index.html">Program Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/foundation/index.html">RSS Foundation</a>
+<br>
+
+
+
+<br>
+
+
+
+<b>information</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/authorinfo/index.html">Author Information</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfp/index.html">Call for Papers</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/callForParticipation/index.html">Call for Participation</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfw/index.html">Call for Workshops</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/studentHelpers/index.html">Information for Student Helpers</a>
+<br>
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/sponsorship/index.html">Sponsors</a>
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<b>program</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../detailed/index.html">Detailed Program</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../awards/index.html">Paper Awards</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../keynote/index.html">Keynote Talk</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../testoftimeaward/index.html">Test of Time Award</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../careerawards/index.html">Early Career Awards</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../papers.html">Accepted Papers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../workshops/index.html">Workshops</a>
+<br>
+
+
+
+<br>
+
+
+<b>follow us</b>
+<br>
+<a href="https://twitter.com/RoboticsSciSys"><i class="fa fa-twitter"></i> Twitter </a>
+<br>
+<a href="https://www.facebook.com/RoboticsSciSys"><i class="fa fa-facebook"></i>  Facebook  </a>
+<br>
+
+</div>
+
+        <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+          <div class="page">
+  <h3 class="page-title">The Dark Side of Embodiment - Teaming Up With Robots VS Disembodied Agents</h1>
+  <br/>
+  <p style="color:black; font-size: 120%; text-align: center;"><em><a href="https://pipzcorreiaz.github.io">Filipa Correia</a>,  <a href="https://github.com/SamGomes">Samuel Gomes</a>,  <a href="https://gaips.inesc-id.pt/component/gaips/people/displayPerson/8/12">Samuel Mascarenhas</a>,  <a href="https://gaips.inesc-id.pt/~fmelo">Francisco Melo</a>,  <a href="https://ana-paiva.com">Ana Paiva</a></em></p>
+
+<table width="30%"> <tr>
+<td style="width: 20%; text-align: center;"><a href="http://www.roboticsproceedings.org/rss16/p010.pdf"><img src="../../images/paper_link.png" width="50" height="60" /> </a> </td>
+
+<td style="width: 20%; text-align: center;"><a href="https://github.com/SamGomes/for-the-record"><img src="../../images/software_link.png" width="50" height="60" /> </a> </td>
+
+</tr></table>
+
+<h3 id="abstract">Abstract</h3>
+<html><p style="color:gray; font-size: 100%; text-align: justified;">
+In the past years, research on the embodiment of interactive social agents has been focused on comparisons between robots and virtually-displayed agents. Our work contributes to this line of research by providing a comparison between social robots and disembodied agents exploring the role of embodiment within group interactions. We conducted a user study where participants formed a team with two agents to play a Collective Risk Dilemma (CRD). Besides having two levels of embodiment as between-subjects ---physically-embodied and disembodied---, we also manipulated the agents' degree of cooperation as a within-subjects variable ---one of the agents used a prosocial strategy and the other used selfish strategy. Our results show that while trust levels were similar between the two conditions of embodiment, participants identified more with the team of embodied agents. Surprisingly, when the agents were disembodied, the prosocial agent was rated more positively and the selfish agent was rated more negatively, compared to when they were embodied. The obtained results support that embodied interactions might improve how humans relate with agents in team settings. However, if the social aspects can positively mask selfish behaviours, as our results suggest, a dark side of embodiment may emerge.
+</p></html>
+
+<h3 id="live-paper-discussion-information">Live Paper Discussion Information</h3>
+<html>
+<table width="50%">
+<tr> <th rowspan="2"><a href="https://pheedloop.com/rss2020/virtual/#session_ueqhHA"><img src="../../images/pheedloop_link.png" width="70" height="70" /> </a> </th> <th> Start Time </th> <th> End Time </th> </tr>
+<tr> <td> 07/14 15:00 UTC </td><td> 07/14 17:00 UTC </td></tr>
+</table> <br /> </html>
+<h3 id="virtual-conference-presentation">Virtual Conference Presentation</h3>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/iffv8gV8XQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="paper-reviews">Paper Reviews</h3>
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 1</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+There is a lot that I liked about this paper. I commend the authors on designing and running a complex experimental protocol that evaluated autonomous robots and agents in a team game setting. The paper is well written and clearly laid out, describing the hypotheses and findings extensively and providing a good discussion of the findings. Furthermore I liked the honest and thoughtful discussion of the negative results found in this study. 
+
+Overall, this research aims at a very interesting question related to agent embodiment in team settings. 
+
+I wish that the authors would have more clearly developed theories and predictions for clearly identified and motivated issues surrounding these topics. Herein lies my main critique of the current paper. 
+
+The authors spend almost three pages setting up topics such as embodiment and team dynamics, but do not converge on a clear theory that their experiment is trying to test. What is the relationship between the studied constructs? What effects would you predict? And importantly, why does it matter to future HRI? In other words, what is the main research question that the authors have? 
+ 
+Instead the lengthy introduction and related work moves straight into a list of hypotheses, which seem overreaching (in the sense that there are too many of them) and unfocused. My sense is that this experiment actually gets at some really interesting relationships between trust, group success, and embodiment, but the authors never clearly state these questions. A more focused description of the research question would make this work much stronger. 
+
+As a result of this lack of focus, the authors combine a lot of different manipulations and measured dependent variable, which also contributed to the lack of focus in this work. Clear experimental manipulations targeting one or two sharp research questions would be preferred. 
+
+For example, I was left confused about the hypothesis that the perception of the pro-social agent will be more positive in the embodied condition. Do authors thing that it will be less positive in the disembodied condition? A "compared to" phrase might have disambiguated this.  
+
+An additional issue with the paper is that the authors do not explain the mechanism of the game. This is a crucial part to understanding the experiment and the ability to judge it and possibly replicate it in the future. 
+
+The sample diversity is commendable, in comparison to many HRI studies. However, I found the significant differences between the two main conditions (embodiment) to be too large. The confounds are striking, as can be seen - for example - in the large drop-out rate for the online participants. Why not have people in the lab experiment the disembodied condition? 
+
+I would also have liked to know how the agents' behavior was monitored in the online condition (and, in fact, in the lab condition as well). 
+
+As a smaller point, the Abstract can be much shortened and focus on the findings. 
+
+In summary, this research gets at some very interesting questions, but the research questions are not well set up, resulting in a large number of confounding manipulations and somewhat unfocused dependent variables. The authors make many good choices, but the lack of theory and clear research questions, along with a lack of detail about the actual procedure, are strong drawbacks of the currently submitted work.  
+
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 2</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+This paper is overall very well written and makes a relevant contribution to the HRI community by discussing the implication of embodiment in human-agent teams in a mixed-motive context. While I am overall in favor of accepting the paper, I have some comments, mostly related to the readability and organization of arguments in the paper and the presentation of the results.
+
+I. Introduction
+The introduction could be a bit more concise in motivating the main contributions of the paper, which are (a) the comparison of an unembodied unimodal agent and an embodied multimodal agent and (b) the interaction with two agents in a mixed-motive task. Right now, the introduction is too detailed in motivating both contributions. This overlaps partially with section II and III, but it also makes the introduction harder to follow because one loses focus.
+I feel the information that is conveyed in Fig. 1 is rather confusing and could be more understandable conveyed inside the text. If a picture were to be added for this, I would merge it with Fig. 2 to make it more apparent what is considered the environment and what modalities of interaction exist. 
+
+II. Embodiment
+This section in turn would benefit from adding some of the details that were given in the introduction to make it more understandable. Specifically, the first part of the argument is hard to follow because the ‘social embodiment’ is the only one of the six embodiments that is explicitly mentioned, but it is difficult to grasp this concept without mentioning and then properly discussing the differences to the other embodiment definitions. 
+I also believe this section would become clearer if it is discussed with the specific embodiments that are chosen for conducting the experiments later in this paper. Especially the importance of discussing structural coupling only becomes evident when reading the paper for a second time, because then the reader knows that both robots can interact with the game interface which is part of the environment in this scenario. Here, it would also be of great help to have Fig. 2 as a reference.
+
+IV. A Task / B Independent Variables
+I think it would be helpful to explicitly name the mixed-motive that was mentioned in the introduction here again. Specifically, what are the mixed objectives of each player in the game? Is there one individual that wins the game? If so, is the manipulation of the winner related to the team winning or losing or the human player winning in comparison to the robots as well? Did participants have an incentive to win the game?
+
+IV. D Dependent Measures
+How were the two different agents differentiated in the post-game questionnaire? Were they given names or other identifiers? Were all participants asked to rate the cooperative or the defective agent first, so could there potentially be an ordering effect, or was that randomized?
+
+IV. F Sample
+Bartneck et al. [0] found a difference between lab-based experiments and experiments conducted online. Even though they argue that practical implications are small, they name the broader range of demographics to be found on AMT  as one potential influence factor on their results. This goes much beyond the distribution of age and gender and is more related to the interest in the subject, level of education or academic background. Since the sample for the lab-based study in this paper was recruited “at the facilities of an energy company”, it is likely that the population for the lab-based study was more homogeneous than the AMT sample. This should be further discussed in the paper. 
+[0] Bartneck, Christoph, et al. "Comparing the similarity of responses received from studies in Amazon’s Mechanical Turk to studies conducted online and with direct recruitment." PloS one 10.4 (2015). 
+
+V. Results
+Figure 3 is misleading because it communicates that all of the diagrams are using the same scale for the y-axis, when it is in fact different scales for all of them. The specific scale needs to be added to each axis, so this becomes evident. It is also very difficult to read the individual captions because there is no gap between (a), (b) and (c). 
+For Figure 4, I would advice to use percent instead of number of participants, because with the uneven number of participants per condition it now looks like more people picked the pro-social one in the embodied condition (because the bar is higher), when if the opposite is true. 
+
+VI. Discussion
+I was wondering if another explanation for the results could be that the two robots looked exactly the same and were thus also expected to behave the same, while people might have had less expectations towards the two unembodied agents because they didn’t communicate similarity due to their appearance? This might be an interesting consideration for a future study as well.
+Another consideration that came to my mind was the ethical implication coming from a robot being easily able to disguise its selfish behavior just by having an embodiment. This could potentially be misused by designers in the future to cover potentially harmful behavior from a robot. 
+I would suggest adding the considerations for human-robot teams (that is currently in the conclusions) to the discussion section, because this would make the flow of the argument more readable to me.  
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 3</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+The paper is mostly well written in terms of language but lacks a lot of methodological clarifications. It appropriately motivates the need for further research in comparisons of embodiment in human-robot interactions. The related work is comprehensive and works are reported adequately. The discussion raised on the definition of embodiment is interesting and well researched, but would be curious to extend the discussion also among the anthropomorphic elements of voice.
+
+I think a comparison in a mixed-design experiment where embodiment is manipulated within subjects and agent degree of cooperation manipulated between subjects would be also interesting. It would not allow the use of in-lab and crowdsourcing platforms, but would further highlight embodiment effects.
+
+I am also curious on the choice of text output for communication with the disembodied agent. Would subjects’ behaviour shift when they have to focus on the text? Why not choosing a disembodied agent that can communicate only with voice?
+
+I did not see anywhere reporting the scale of the questionnaires (only in figures). Also, the measures deserve a bit more description than citing the papers to inform the reader what is going to be compared across conditions.
+
+The experimental setup involves a collaborative game framing a collective risk dilemma. There is something I was not able to understand well on the paper: if the choice through digital dice is predetermined, how can players decide to be either pro-social or selfish?
+
+Furthermore, more information on the verbal and non-verbal behaviour of the robots is needed, for graduate students that wish to replicate or extend this study, and to control on what robot behaviour affects the reported results.
+
+How do subjects in the disembodied condition know who of the two agents is speaking, and is it clear that there are two agents, especially when this condition is evaluated online? How did authors control for this?
+
+The within-subjects variable description is also a bit confusing. Are both agents either pro-social or selfish or only one at the time? If one at the time, what is the other agent’s behaviour?
+
+If I understand correctly the design of the experiment, authors should run Two-way repeated-measures ANOVAs indicating the existence of two between subject factors and one within. Is that correct? For instance, in subsection A of the results, the within factor is not mentioned. This should be made clear.
+
+Minor: a few grammatical mistakes, and a few cases of a mix of British and US English are used throughout the paper. I would suggest the authors have another look before the next paper version.
+
+Overall, the paper presents an interesting problem and has potential, as long as clarifications in method are met. It appears to be theoretically sound and relevant to the conference.
+</p> </details>
+
+<table width="100%"><tr><td style="width: 30%; text-align: center;"><a href="9.html"> <img src="../../images/previous_icon.png" width="120" height="80" /> </a> </td>
+
+<td style="width: 30%; text-align: center;"><a href="../papers.html"> <img src="../../images/overview_icon.png" width="120" height="80" /> </a> </td> 
+
+<td style="width: 30%; text-align: center;"><a href="11.html"> <img src="../../images/next_icon.png" width="100" height="80" /> </a> </td> 
+
+</tr></table>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

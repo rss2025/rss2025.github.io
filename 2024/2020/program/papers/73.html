@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Facebook images -->
+  <meta property="og:image" content="/images/rss_2020.png"/>
+
+  <title>
+    
+      Efficient Parametric Multi-Fidelity Surface Mapping &middot; Robotics: Science and Systems
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66594011-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="../../public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="../../atom.xml">
+
+</head>
+
+  <body>
+    <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <a href="../../index.html">
+                    <img style="text-align:center" src="../../images/rsslogotext-white.png" width="100%">
+                        </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-11 col-xs-12 col-lg-offset-4 col-md-offset-2 col-sm-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" style="margin-top: 10px; text-align: center;"
+                        href="../../index.html">RSS 2020</a>
+                    <a class="navbar-brand hidden-xs"
+                        href="../../index.html">RSS 2020</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="73.html#">home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--li><a href="/blog/">Latest</a></li-->
+                                <li><a href="http://www.roboticsproceedings.org/">Previous Proceedings</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="73.html#">attending<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/info/index.html">Instructions for Conference Attendees</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/registration/index.html">Registration</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/inclusion/index.html">Inclusion@RSS</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/pioneers/index.html">RSS Pioneers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="73.html#">committees<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/organizers/index.html">Organizing Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/pc/index.html">Program Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/foundation/index.html">RSS Foundation</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="73.html#">information<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/authorinfo/index.html">Author Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfp/index.html">Call for Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/callForParticipation/index.html">Call for Participation</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfw/index.html">Call for Workshops</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/studentHelpers/index.html">Information for Student Helpers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/sponsorship/index.html">Sponsors</a></li>
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="73.html#">program<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../detailed/index.html">Detailed Program</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../awards/index.html">Paper Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../keynote/index.html">Keynote Talk</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../testoftimeaward/index.html">Test of Time Award</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../careerawards/index.html">Early Career Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../papers.html">Accepted Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../workshops/index.html">Workshops</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-lg-offset-1 hidden-xs hidden-sm text-right" id="sidebar"/>
+<!-- No sidebar on small screens -->
+<a class="sidebar-nav-item" href="../../index.html">Home</a>
+<!--br>
+ <a class="sidebar-nav-item" href="/blog/">Latest</a-->
+<br>
+<a class="sidebar-nav-item" href="http://www.roboticsproceedings.org/">RSS Proceedings</a>
+<br>
+
+<br>
+
+
+
+<b>attending</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/info/index.html">Instructions for Conference Attendees</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/registration/index.html">Registration</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/inclusion/index.html">Inclusion@RSS</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/pioneers/index.html">RSS Pioneers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>committees</b>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/organizers/index.html">Organizing Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/pc/index.html">Program Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/foundation/index.html">RSS Foundation</a>
+<br>
+
+
+
+<br>
+
+
+
+<b>information</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/authorinfo/index.html">Author Information</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfp/index.html">Call for Papers</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/callForParticipation/index.html">Call for Participation</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfw/index.html">Call for Workshops</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/studentHelpers/index.html">Information for Student Helpers</a>
+<br>
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/sponsorship/index.html">Sponsors</a>
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<b>program</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../detailed/index.html">Detailed Program</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../awards/index.html">Paper Awards</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../keynote/index.html">Keynote Talk</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../testoftimeaward/index.html">Test of Time Award</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../careerawards/index.html">Early Career Awards</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../papers.html">Accepted Papers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../workshops/index.html">Workshops</a>
+<br>
+
+
+
+<br>
+
+
+<b>follow us</b>
+<br>
+<a href="https://twitter.com/RoboticsSciSys"><i class="fa fa-twitter"></i> Twitter </a>
+<br>
+<a href="https://www.facebook.com/RoboticsSciSys"><i class="fa fa-facebook"></i>  Facebook  </a>
+<br>
+
+</div>
+
+        <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+          <div class="page">
+  <h3 class="page-title">Efficient Parametric Multi-Fidelity Surface Mapping</h1>
+  <br/>
+  <p style="color:black; font-size: 120%; text-align: center;"><em><a href="https://adityadhawale.github.io/">Aditya Dhawale </a>,   <a href="https://www.rislab.org/nathan-michael"> Nathan Michael </a></em></p>
+
+<table width="30%"> <tr>
+<td style="width: 20%; text-align: center;"><a href="http://www.roboticsproceedings.org/rss16/p073.pdf"><img src="../../images/paper_link.png" width="50" height="60" /> </a> </td>
+
+<td style="width: 20%; text-align: center;"><a href="https://adityadhawale.github.io/research/gfusion"><img src="../../images/website_link.png" width="50" height="60" /> </a> </td>
+
+</tr></table>
+
+<h3 id="abstract">Abstract</h3>
+<html><p style="color:gray; font-size: 100%; text-align: justified;">
+State-of-the-art dense mapping approaches cannot be deployed on Size, Weight, and Power (SWaP) constrained platforms because of their large memory and compute requirements. In this paper, we present an accurate, and efficient approach to dense multi-fidelity 3D mapping using Gaussian distributions asvolumetric primitives. The proposed mapping approach supports both high fidelity dense surface reconstruction and lower fidelity volumetric environment representation for fundamental robotics applications. We exploit the inherent working characteristics of an off-the-shelf depth sensor and approximate the distribution of approximately planar points using Gaussian distributions. Explicit modeling of the sensor noise characteristics enable us to incrementally update the map representation in real-time with high accuracy. We present the advantages of our proposed map representation over other well known state-of-the-art representations by highlighting its superior performance in terms of reconstruction accuracy, completeness and map compression properties via quantitative and qualitative metrics.
+</p></html>
+
+<h3 id="live-paper-discussion-information">Live Paper Discussion Information</h3>
+<html>
+<table width="50%">
+<tr> <th rowspan="2"><a href="https://pheedloop.com/rss2020/virtual/#session_ZoWnGn"><img src="../../images/pheedloop_link.png" width="70" height="70" /> </a> </th> <th> Start Time </th> <th> End Time </th> </tr>
+<tr> <td> 07/16 15:00 UTC </td><td> 07/16 17:00 UTC </td></tr>
+</table> <br /> </html>
+<h3 id="virtual-conference-presentation">Virtual Conference Presentation</h3>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/UDmg9VT6lXo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="paper-reviews">Paper Reviews</h3>
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 1</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+# Efficient Parametric Multi-Fidelity Surface Mapping
+
+The paper presents a mapping approach for RGBD sensors which achieves good quality reconstruction while being computationally efficient. The map is represented as a Gaussian mixture model (GMM) which is updated incrementally based on new depth images within a hierarchical scheme. This allows the approach to avoid heavy computations and provides frame-rate performance on a laptop CPU. The approach performs mapping assuming the poses of the sensor to be known. 
+
+The interesting aspect of this work is that it provides a mapping method with a couple of user-defined parameters such that it can be adapted for different applications based on the computational resources and the memory available. For example, it would allow for planning/navigation purposes at lower quality maps or more precise reconstruction of the scene at the cost slightly higher computations. The authors also demonstrate this capability for room-sized maps using both simulated and real-world data. 
+
+Here are some comments about the overall work and the different sections of the paper:
+
+- The main contribution of the paper is that it combines ideas from different works such using the gaussian distributions for map representation as in NDT maps [1,17], projective association similar to KinectFusion/ElasticFusion [9,25] and a hierarchical scheme [21] to reduce computations. 
+These ideas have been put together with the goal of achieving a comparable/better reconstruction quality for a smaller memory footprint as compared to other state-of-the-art mapping approaches.
+
+- In addition to building upon these works, the new idea in this paper is to exploit the neighborhood information in the depth image to fit the Gaussian mixture model and avoid computationally expensive optimization procedures used in the previous works. 
+
+- The paper seems to provide sufficient theoretical and implementation details to reproduce the work. In my opinion, the impact of the work can be enhanced by providing an implementation of the system so that it can be used both to compare against other mapping approaches, as well as build other applications on top. 
+
+- Overall, the paper is well structured and clearly written. I appreciate the introduction section where the present work has been presented in the context of previous works and how they are related.
+
+- The assumptions in terms of input data, modeling and performance are clearly spelled out in most sections of the paper. I would recommend adding a short table with the values of all the fixed parameters such as alpha_n, alpha_e, alpha_conf, Sigma_unc (min and max) and other parameters used in the approach. 
+
+- The derivations, as well as the notation in the paper, seems consistent. Please add the relevant reference for equation 2 as this may not be trivial. Also add the reference for equation 3 (or the link to (eq 1?)) to explain how it can be derived.   
+
+- The experiments back up the claims made in the paper in terms of accuracy and memory footprint as performance as compared to other state-of-the-art approaches. The accuracy measures look impressive particularly given the size of the maps. The approach shows better accuracy and a lower memory footprint as compared to Occupancy based Maps as well as NDT maps. It would be interesting to compare the accuracy against TSDF based methods (such as KinectFusion/ElasticFusion) as the GMM maps at least look visually messy than typical TSDF maps. This would also fill in a gap in terms of the types of maps used for comparison. You may make this additional experiment based on your space constraints. 
+
+- In addition to the run-time analysis performed in Sec.V E, it would help to report the timing of different methods (yours, NDT, Occupancy base mapping) for the datasets at comparable resolution.
+
+- Although it is not the main contribution, I appreciate the experiment showing the reconstructed allow for frame-to-model estimation.
+
+Here are some minor comments/corrections:
+- Sec II.B (end of page 3), it should be bxb pixel pathces instead of pxp.
+- Fig 2: The correspondence between the explanation in the caption and the figure above is a bit confusing. It may help to explicitly label each part with a number.
+- Sec II.D Line 13: \theta^{K} --&gt; K should be k?
+- Sec III.E Please provide a reference to the Bhattacharya measure for similarity.
+- Fig 8 is too small to see the numbers.
+- Sec. IV A: (Lines 3-5) The sentence construction is confusing. It would help to rephrase it.
+- Table 2, 3: Please provide the thresholds used for computing precision and recall values for map accuracy.
+- Sec IV.F: The accuracy for D1 is reported ad 0.0004m whereas in Fig 8. it is reported as 0.004 m. Please make them consistent.
+- Just a comment on aesthetics, the text looks super cramped on page 1 and 2. Maybe go easy on the vspaces ;).
+
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 3</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+The work seems to be an original contribution. The paper is technically sound (except for some minor issues).
+Perhaps the paper could be more clear; some parts of the paper, like Section I, are a bit cryptic.
+The paper compares the proposed approach with other methods in the state of the art and outperforms them in the provided scenarios and metrics. However, the evaluation suffers a bit from being limited to four datasets and lacking some plots comparing different metrics. An evaluation with more samples and variety of scenarios would be desirable.
+
+Some more specific comments:
+- In the listed contributions at the end of Section I. There seem to be some redundancy. It would be nice if the paper could condense them and/or point to which section corresponds to each listed contribution (likely, they are II.C.1, II.C.2 and II.E), to make them clear.
+- In general, it is not clear what the text means by "fidelity" since it is never explicitly stated. And it is not accuracy, since often these two terms appear but not as synonyms. It appears that the fidelity is a synonym for "model complexity" and equivalent to the "level of detail" or "resolution" in computer graphics; however, this definition or clarification should be given by the authors.
+- The introduction could be split... It is a rather long introduction that goes over many different types of representations used for 3D scene modeling. I think this part could be carved out in its own section on "Related work" or "Representations of 3D scenes".
+
+Understanding the methodology:
+- In general, the approach of using probabilistic filters to represent and refine depth in 3D reconstruction is similar to the idea of Bayesian "depth filters" in the ICRA 2014 papers by Pizzoli et al., SVO (Fast Semi-Direct Monocular Visual Odometry), and REMODE (Probabilistic, Monocular Dense Reconstruction in Real Time). However, the paper does not mention these works, and therefore does not compare to REMODE. I understand that the resulting systems are quite different, but the ideas for depth fusion may not be so much and worth a short discussion.
+- Fig. 2 should be more explicit about what is theta_0, theta_t, in the four different plots. Why is there a sudden jump of color in the floor of the room in Fig. 2, from the left-most image to the one immediately on its right? It would also be better to set the same size for the chair, to better see how the 3D reconstruction groups in extension.
+- What do the three colors used for the blocks in Fig. 3 represent? Knowing this would help better understand the system and its input/output.
+- Because many figures are not referenced in the text and their captions contain explanations, some things are not clear just following the main text. For example, it is not clear that the poses are given.
+- The image in the eye-catcher is never referenced; the right plot with the sample plots is not repeated in the experiments. So it makes one wonder how necessary it is.
+- In Eq. (3) how is the condition of Sigma being positive semi-definite enforced, so that it is a valid covariance matrix?
+
+Evaluation / Experiments:
+- Evaluation metrics, such as precision and recall should be defined, as well, for completeness.
+- What is the trade-off in accuracy vs. speed? Could the authors provide a plot for it?
+- What is the trade-off in accuracy vs. completeness? This is a standard plot to asses 3D reconstruction algorithms. See, for example, Vogiatzis et al. Video-based, real-time multi-view stereo, CVIU 2011 or Pizzoli et al. REMODE ICRA 2014.
+- It would be nice to have a trade-off plot that illustrates the multi-fidelity aspect of the proposed method. One axis is fidelity; the other axis could be amount of texture detail, accuracy, memory, etc.
+- How many distributions are used in Fig. 10? I assume that the execution time is highly influenced by this parameter. What are the units of the vertical axis of this plot (Fig. 10)?
+- How much is "sensor rates" at the end of Section IV.E? 50 Hz? 100Hz?
+- Please include units as much as possible: alpha_e sometimes has units, sometimes not.  Same for alpha_len.  "b, the patch size is set to 8." [pixels?]
+
+Other comments:
+- Adopting units of cm to measure absolute error, rather than meters, seems more appropriate. It would also be useful to provide a relative measure, such as the error normalized by the scene size or depth with respect to the camera.
+- Figures do not seem to be in the order that they are mentioned in the text.
+- The orange shading and the small size of most plots do not help much visualize the reconstruction or the error (at least on printed paper). Insets with a zoom, as in Fig. 9 are somehow helpful. Other papers use color-coded error maps (i.e., plotting the differences with respect to the most accurate model).
+- Section II: The first time that it is used: "Given an image I_0 of size..." should be "Given a *depth* image I_0 ..."  otherwise the type of information contained in I_0 is confusing.
+- Section II: (the back-projection) can be viewed as a linear transformation --&gt; I would rather say that it can be *approximated* by such a transformation.
+- Section II: "at time t = t ..." looks like a tautology.
+- Section II: redundunt --&gt; redundant
+- Is there a reference for the use of the acronym SWaP? I think it is not standard in computer vision; it may be more known in aerospace and military contexts.
+- Some sentences are very long (multiple verbs) and therefore difficult to follow. Example: last sentence of Section IV.A.
+- Some references do not have publication venue, e.g., [22]. Also in [22] gmm -&gt; GMM. Check for other lowercase acronyms: slam, rgb-d.
+
+Possible typos:
+- The indices (subscripts, superscripts) in the variables of Sections II.B - II.C are not always consistent, which makes it a bit difficult to understand the details of the update rules of the GMM parameters. I suggest to review such indices.
+- I think there is a missing term (x-mu)^T in the update of Sigma in Eq. (1); otherwise Sigma is just a vector, not a covariance matrix.
+- Section II.C.1: I could not find an intuitive interpretation for the 99.97% confidence. Was it intended to be instead the usual 3-sigma rule: 99.7%? Note that the confidence rule of 99.7% probability corresponding to +-3 standard deviations is for a 1D Gaussian distribution. For higher dimensional distributions, such as the 2D projection (ellipse), the confidence rule changes (see "On the Mahalanobis distance classification criterion for multidimensional normal distributions", IEEE Trans. Signal Processing, 2013), and so 99.7% confidence corresponds to a Mahalanobis distance of 3.44 rather than 3. This number grows with the dimension.
+
+</p> </details>
+
+<table width="100%"><tr><td style="width: 30%; text-align: center;"><a href="72.html"> <img src="../../images/previous_icon.png" width="120" height="80" /> </a> </td>
+
+<td style="width: 30%; text-align: center;"><a href="../papers.html"> <img src="../../images/overview_icon.png" width="120" height="80" /> </a> </td> 
+
+<td style="width: 30%; text-align: center;"><a href="74.html"> <img src="../../images/next_icon.png" width="100" height="80" /> </a> </td> 
+
+</tr></table>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

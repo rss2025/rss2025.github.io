@@ -1,0 +1,58 @@
+[
+    {
+        "Order": 1,
+        "Title": "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 113,
+        "Authors": "Alexander Khazatsky, Karl Pertsch, Suraj Nair, Ashwin Balakrishna, Sudeep Dasari, Siddharth Karamcheti, Soroush Nasiriany, Mohan Kumar Srirama, Lawrence Yunliang Chen, Kirsty Ellis, Peter David Fagan, Joey Hejna, Masha Itkina, Marion Lepert, Yecheng Jason Ma, Patrick Tree Miller, Jimmy Wu, Suneel"
+    },
+    {
+        "Order": 2,
+        "Title": "Multimodal Diffusion Transformer: Learning Versatile Behavior from Multimodal Goals",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 115,
+        "Authors": "Moritz Reuss, Ömer Erdinç Yağmurlu, Fabian Wenzel, Rudolf Lioutikov"
+    },
+    {
+        "Order": 3,
+        "Title": "Don't Start From Scratch: Behavioral Refinement via Interpolant-based Policy Diffusion",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 117,
+        "Authors": "Kaiqi Chen, Eugene Lim, Lin Kelvin, Yiyang Chen, Harold Soh"
+    },
+    {
+        "Order": 4,
+        "Title": "Learning Manipulation by Predicting Interaction",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 119,
+        "Authors": "Jia Zeng, Qingwen Bu, Bangjun Wang, Wenke Xia, Li Chen, Hao Dong, Haoming Song, Dong Wang, Di Hu, Ping Luo, Heming Cui, Bin Zhao, Xuelong Li, Yu Qiao, Hongyang Li"
+    },
+    {
+        "Order": 5,
+        "Title": "URDFormer: A Pipeline for Constructing Articulated Simulation Environments from Real-World Images",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 121,
+        "Authors": "Qiuyu Chen, Aaron Walsman, Marius Memmel, Kaichun Mo, Alex Fang, Dieter Fox, Abhishek Gupta"
+    },
+    {
+        "Order": 6,
+        "Title": "Learning to Learn Faster from Human Feedback with Language Model Predictive Control",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 305,
+        "Authors": "Jacky Liang, Fei Xia, Wenhao Yu, Andy Zeng, Maria Attarian, Maria Bauza Villalonga, Matthew Bennice, Alex Bewley, Adil Dostmohamed, Chuyuan Fu, Nimrod Gileadi, Marissa Giustina, Keerthana Gopalakrishnan, Leonard Hasenclever, Jan Humplik, Jasmine Hsu, Nikhil J Joshi, Ben Jyenis, J Chase"
+    },
+    {
+        "Order": 7,
+        "Title": "Natural Language Can Help Bridge the Sim2Real Gap",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 307,
+        "Authors": "Albert Yu, Adeline Foote, Ray Mooney, Roberto Martín-Martín"
+    },
+    {
+        "Order": 8,
+        "Title": "PoCo: Policy Composition from and for Heterogeneous Robot Learning",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 309,
+        "Authors": "Lirui Wang, Jialiang Zhao, Yilun Du, Edward Adelson, Russ Tedrake"
+    }
+]

@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Facebook images -->
+  <meta property="og:image" content="/images/rss_2020.png"/>
+
+  <title>
+    
+      Iterative Repair of Social Robot Programs from Implicit User Feedback via Bayesian Inference &middot; Robotics: Science and Systems
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../../public/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../../../public/css/style.css">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66594011-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="../../../public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="../../../atom.xml">
+
+</head>
+
+  <body>
+    <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <a href="../../../index.html">
+                    <img style="text-align:center" src="../../../images/rsslogotext-white.png" width="100%">
+                        </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-11 col-xs-12 col-lg-offset-4 col-md-offset-2 col-sm-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" style="margin-top: 10px; text-align: center;"
+                        href="../../../index.html">RSS 2020</a>
+                    <a class="navbar-brand hidden-xs"
+                        href="../../../index.html">RSS 2020</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../28.html#">home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--li><a href="/blog/">Latest</a></li-->
+                                <li><a href="http://www.roboticsproceedings.org/">Previous Proceedings</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../28.html#">attending<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/info/index.html">Instructions for Conference Attendees</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/registration/index.html">Registration</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/inclusion/index.html">Inclusion@RSS</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/pioneers/index.html">RSS Pioneers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../28.html#">committees<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../committees/organizers/index.html">Organizing Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../committees/pc/index.html">Program Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../committees/foundation/index.html">RSS Foundation</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../28.html#">information<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/authorinfo/index.html">Author Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/cfp/index.html">Call for Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/callForParticipation/index.html">Call for Participation</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/cfw/index.html">Call for Workshops</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/studentHelpers/index.html">Information for Student Helpers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/sponsorship/index.html">Sponsors</a></li>
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../28.html#">program<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../detailed/index.html">Detailed Program</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../awards/index.html">Paper Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../keynote/index.html">Keynote Talk</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../testoftimeaward/index.html">Test of Time Award</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../careerawards/index.html">Early Career Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../papers.html">Accepted Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../workshops/index.html">Workshops</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-lg-offset-1 hidden-xs hidden-sm text-right" id="sidebar"/>
+<!-- No sidebar on small screens -->
+<a class="sidebar-nav-item" href="../../../index.html">Home</a>
+<!--br>
+ <a class="sidebar-nav-item" href="/blog/">Latest</a-->
+<br>
+<a class="sidebar-nav-item" href="http://www.roboticsproceedings.org/">RSS Proceedings</a>
+<br>
+
+<br>
+
+
+
+<b>attending</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/info/index.html">Instructions for Conference Attendees</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/registration/index.html">Registration</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/inclusion/index.html">Inclusion@RSS</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/pioneers/index.html">RSS Pioneers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>committees</b>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../committees/organizers/index.html">Organizing Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../committees/pc/index.html">Program Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../committees/foundation/index.html">RSS Foundation</a>
+<br>
+
+
+
+<br>
+
+
+
+<b>information</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/authorinfo/index.html">Author Information</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/cfp/index.html">Call for Papers</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/callForParticipation/index.html">Call for Participation</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/cfw/index.html">Call for Workshops</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/studentHelpers/index.html">Information for Student Helpers</a>
+<br>
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/sponsorship/index.html">Sponsors</a>
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<b>program</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../detailed/index.html">Detailed Program</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../awards/index.html">Paper Awards</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../keynote/index.html">Keynote Talk</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../testoftimeaward/index.html">Test of Time Award</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../careerawards/index.html">Early Career Awards</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../papers.html">Accepted Papers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../workshops/index.html">Workshops</a>
+<br>
+
+
+
+<br>
+
+
+<b>follow us</b>
+<br>
+<a href="https://twitter.com/RoboticsSciSys"><i class="fa fa-twitter"></i> Twitter </a>
+<br>
+<a href="https://www.facebook.com/RoboticsSciSys"><i class="fa fa-facebook"></i>  Facebook  </a>
+<br>
+
+</div>
+
+        <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+          <div class="page">
+  <h3 class="page-title">Iterative Repair of Social Robot Programs from Implicit User Feedback via Bayesian Inference</h1>
+  <br/>
+  <p style="color:black; font-size: 120%; text-align: center;"><em><a href="https://homes.cs.washington.edu/~mjyc/">Michael Jae-Yoon Chung</a>,   <a href="http://www.mayacakmak.com">Maya Cakmak</a></em></p>
+
+<table width="20%"> <tr>
+<td style="width: 20%; text-align: center;"><a href="http://www.roboticsproceedings.org/rss16/p028.pdf"><img src="../../../images/paper_link.png" width="50" height="60" /> </a> </td>
+
+</tr></table>
+
+<h3 id="abstract">Abstract</h3>
+<html><p style="color:gray; font-size: 100%; text-align: justified;">
+Creating natural and autonomous interactions with social robots requires rich, multi-modal sensory input from the user. Writing interactive robot programs that make use of this input can demand tedious and error-prone tuning of program parameters, such as tuning thresholds on noisy sensory streams for detecting whether the robot's user is engaged or not. This tuning process dealing with low-level streams and parameters makes programming of social robots time-consuming and inaccessible for people who could benefit the most from unique use cases of social robots. To address this challenge, we propose the use of iterative program repair, where programmers create an initial program sketch in our new Social Robot Program Transition Sketch Language (SoRTSketch), a domain-specific language that supports expressing uncertainties related to thresholds in transition functions. The program is then iteratively repaired using Bayesian inference based on corrections of interaction traces that are either provided by the programmer or derived from implicit feedback given by the user during the interaction. Based on experiments with a human simulator and with 10 human users, we demonstrate the ease and effectiveness of this approach in improving social robot programming and program outputs that represent three common human-robot interaction patterns. We also show how our approach helps programs adapt to environment changes over time.
+</p></html>
+
+<h3 id="live-paper-discussion-information">Live Paper Discussion Information</h3>
+<html>
+<table width="50%">
+<tr> <th rowspan="2"><a href="https://pheedloop.com/rss2020/virtual/#session_wXQUbr"><img src="../../../images/pheedloop_link.png" width="70" height="70" /> </a> </th> <th> Start Time </th> <th> End Time </th> </tr>
+<tr> <td> 07/14 15:00 UTC </td><td> 07/14 17:00 UTC </td></tr>
+</table> <br /> </html>
+<h3 id="virtual-conference-presentation">Virtual Conference Presentation</h3>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/LbcMxC_3x1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="paper-reviews">Paper Reviews</h3>
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 1</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+Enabling end-users to fine-tune behavior is important for democratizing robot programming. It allows users to personalize behavior without robot programming expertise. The motivation for this work is good, and the paper is relevant to RSS. I appreciate that the authors conducted both simulation and real-world experiments with human subjects. Application of the repair scheme appears to consistently improve the overlap score.  
+
+== Areas for Improvement ==
+I have concerns about the technical aspects of the paper. Specifically, the Bayesian update Eqn (2) appears incorrect. In the normalizer:
+- what is the index j associated with?
+- the sum appears to be over the correct data traces; shouldn't the marginalization be over hole variables? Potentially, this is a typographic error and can be easily corrected. However, if the update is inherently incorrect, the subsequent results would be invalid.  
+
+The posterior update doesn't appear to be closed-form. If I understand correctly, the authors perform numerical integration over discretized parameter sets. However, this implies exponential complexity wrt the number of hole variables. This point should be clarified in the paper since it limits the applicability of the approach to a small number of hole variables.
+
+The input trace doesn't appear to be corrected like the output traces; won't this lead to a "mismatch" between the input and output traces? If so, this could lead to incorrect inference. 
+
+I appreciate that experiments were performed with human users. A potential improvement is to perform a comparison to a control group (e.g., an alternative baseline method), with a proper statistical tests or Bayesian analysis. 
+
+Finally, the paper requires a thorough proof-read to correct typographic errors, e.g., 
+- "XXX describe how variables are sampled for execution???" is an unfinished sentence.
+- "corrections that are user by" -&gt; "corrections that are used by"
+-  \mu_open^iter4 and \mu_open^iter1 appear to be swapped? 
+- Table 1 and in-text: "quite" -&gt; "quiet"
+- "tunned for" -&gt; "tuned for" 
+
+Overall, I find the key idea of iterative Bayesian program repair interesting, but the presented work appears preliminary. I hope that the authors can address the technical and presentation issues above. 
+
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 2</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+The authors provide a solution to a problem that not only appears in non-expert programming but also when experts intend to program new applications involving social robot behavior. The work is original in the way it attempts to find the unknown variables, sometimes also referred to as magic numbers.
+The quality of the paper is promising given the number of experiments and examples that were incorporated within the paper but the paper in the current status needs some more clarification to get a good idea about the impact of the work. 
+
+I had difficulties understanding some parts of the work and its implications properly. Therefore, I believe it will be important to improve the quality and clarity of the paper to ensure that the paper is understandable in all points and its implications are clear to every reader (see details below).
+From my point of view, one aspect that could be improved is the motivation and introduction. There is a missing link between the motivation and the approach which gives me the impression the approach is not the right solution to the problem given in the motivation. For example, I have difficulties imagining how a non-expert could choose the right distribution for a hole variable when already to experts the range of values might sometimes be unclear (motivation: how non-experts could find new applications).
+I really think the problem stated is very valuable to the community to be solved but following up on the previous point, the contribution could be more complete if it provided a way to deal with completely unknown hole variables. The need to give the probability distribution gives limits to the applicability of the proposed method. On the other hand, the method provides an excellent way for experts to find the unknown variables faster and in a more pleasant way.
+
+Even though the description of the simulation experiment seems detailed enough, I have difficulties to understand how the simulations were done. For example, I did not understand how the sensor data, e.g. head angle, is simulated from intentions. Further, I am unsure about the noisy state traces. Was the noise added to the time of transitions or the length?
+For me to evaluate the quality of the user study I would need more information on the users, e.g. did they have previous experience with programming. Further, the lack of statistical tests does leave a doubt on the perceived change in fluency or number of interventions. I can see that the authors might have decided to not apply statistical tests due to the small number of participants and large diversity among them. Still, the reasons for the lack of statistical tests should be stated explicitly. Especially, since the results seem not to support the author's hypothesis completely.
+
+As 3 out of 10 participants did not manage to create a more fluent interaction, I expect a more critical discussion on this limitation. I think it would be more valuable to the community to find that non-experts have difficulties understanding the "Back" button as their knowledge on state machines might be limited or how robot sensors work. Therefore, I do not agree with the conclusion that the experiments prove the feasibility of the approach. I think a thorough rework on the discussion and result section would improve the quality of the work immensely without needing to rerun experiments. To make the results even more convincing, I encourage the authors to collect more data about their participants and to rerun the experiments with at least 20 participants to get significant and more reliable results.
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 3</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+===Detailed review===
+Overall, the paper is well-written and clear. The paper makes a timely and relevant contribution to the field of robotics and human-robot interaction, where an active field of research is the effective and efficient creation and repair of robot programs, lowering the load on experts and shifting more towards non-experts to provide input and feedback. The contributions are clear and the motivation well explained. Overall, the methodology seems sound and the evaluation is thorough, including simulated and human experiments, as well as including changes in environment and noisy input. Please find my detailed comments below.
+
+===Major===
+
+-	The paper describes three different ‘social robot tasks’ that consist of storytelling, a neck exercise, and open Q&amp;A. Where the three tasks essentially differ, they all require the same type of user feedback (‘go back’, or ‘next’). It would be great if the paper can discuss this approach for more complex situations and how this affects the effectiveness of this approach. For example, what if there is a larger number of potential actions to choose from than three (stop, wait, read) and the 'go back' does not necessarily reflect that instead of action X the alternative is Y, maybe there are many alternatives, and it may even become unfeasible for a human to keep providing feedback until the robot has learned the correct transition, just because it becomes too timely and the user may be reluctant to providing feedback and/or using the technology. Since the paper focuses on social robot actions specifically, I think this is crucial to at least touch upon in a discussion in the paper, maybe if the paper would include a Discussion section to discuss any drawbacks or potential avenues for future work would improve the paper even more. 
+-	Similarly, it would be interesting to discuss the limitation of incorrect user feedback, whether on intentional or not. For example, one may turn the head to the left, while the robot said right but not notice that it was the incorrect side (left and right are often mixed by people). In this task, maybe the consequences are negligible, however, in a situation where the error may propagate further through the interaction, it may be worth discussing how to best handle this. Humans who did not fix incorrect transition errors is briefly described in IV.C.4 but not discussed in depth. 
+-	Section IV.C 4) Results: the before-repair percentage overlaps as reported in text seem incorrect, I think the value for iter4_open and iter4_neck are accidentally switched, given the numbers shown in Fig. 6 (left). Correct this and maybe (this is minor) the paper could instead report that mean_iter1_neck increased from 0.33 (SD = 0.08) to 0.36 (SD = 0.08), and mean_iter1_open decreased from 0.80 (SD = 0.30) to 0.57 (SD = 0.21), for clarity of reading. Currently, it’s a bit tricky to read in the way they are presented now.
+-	One concern I have is that the sample of people used in the experiment (N=10) is small and therefore, it is reasonable not to perform stats, however, the results are reported in a strong manner, talking about strict increases and decreases. I think it is fair to say that this trend is observed, however, maybe tone down the results a bit to align it with the actual evidence that is presented to prevent the results to be overly confidently interpreted by readers. 
+-	The conclusion introduces sudden new directions for future work that are not mentioned before, which is not the goal of a conclusion. A conclusion section should summarize what has been discussed in the paper. Maybe it could be called ``conclusion and future work’’ section, but it should talk about avenues for future work in more detail. 
+
+===Minor===
+
+-	In Section III.A. Program Execution, there is an unfinished sentence that needs to be changed: ``XXX describe how variables are samples for execution???’’ Probably, due to the unfinished paragraph the goal of this subsubsection is not clear, maybe it can be included in another section rather than be separate. 
+-	In Fig. 4: It could increase clarity to mention ‘dotted line’ in the figure’s caption when talking about `missing transition’ errors.
+-	In Section III.B, the paper mentions that speech commands can be used for ‘next’ and ‘go back’ button alternative, however, one must then consider that this is more error prone (e.g. speech recognition errors) in itself as input mechanism. 
+-	Very minor (typo): Section III.B, last paragraph: ``To that end the use of interaction repair mechanisms in the state trace need to be converted to state corrections that are user by the repair algorithm’’ – are user/are used. 
+-	Very minor: sort the reference numbers, for example [35, 10, 2] – [2, 10, 35]. 
+-	In section III.C the paper describes some details about implementation, I would like to ask for clarification if the code will be made available as to promote reuse and continuation of this work also by other researchers?  And if chosen not to release the code, a motivation for this decision would be appreciated.
+-	IV.B 1) procedure: ``IterativeBayesRepair (Alg. 2)’’ should be (Alg. 3)
+-	Same paragraph IV.B 1) procedure: ``The noisy state trace was computed by adding uniform noisy of [-2,2] to every state changes in the ground truth …’’ should be ‘noisy of [-2,2]’ should be ‘noise’ and ‘every state changes’ should be ‘every state change’
+-	Same paragraph IV.B 1) procedure: ``(…) on observing the two first time users’’ – observing two first time users. The paper does not mention them before, so should not say ‘the users’.
+-	Paragraph IV.B 2) measures: ``… being sensitive to the length of the interaction of which we control...’’ – ``which we control’’, and also ``we measured the speed of (…) without break in-between iterations’’ – `breaking in-between iterations’, or ‘breaks in between iterations’ or `a break in between iterations’? 
+-	IV.B 3) results: ``algorithbms’’ typo.
+-	Why not the storytelling task in the evaluation?
+-	Why was it set to four repair iterations, was it clear beforehand that this number was enough? 
+-	Q&amp;A capitalized in some places not capitalized in others.
+-	Section IV.C: ``Over the four iterations, The transition parameters (…)’’ – the should not be capitalized. 
+-	Section IV.C.5 ```(...) we conducted an experiment involving one human user who as a participant (…)’’ – who was a participant (typo)
+-	Section IV.C.5 ``(…) i.e., the quite room (…) – quiet room (typo) Also in TABLE I. change ‘quite’ to ‘quiet’.
+-	Section V. ``the goal of our research is motivating by…’’ -- ``motivated’’ (typo).
+-	Section V. ``(..) exploring the interactive system for keep the programmer (…)’’ – ``for keeping the programmer’’ (typo)
+ 
+</p> </details>
+
+<table width="100%"><tr><td style="width: 30%; text-align: center;"><a href="../27.html"> <img src="../../../images/previous_icon.png" width="120" height="80" /> </a> </td>
+
+<td style="width: 30%; text-align: center;"><a href="../../papers.html"> <img src="../../../images/overview_icon.png" width="120" height="80" /> </a> </td> 
+
+<td style="width: 30%; text-align: center;"><a href="../29.html"> <img src="../../../images/next_icon.png" width="100" height="80" /> </a> </td> 
+
+</tr></table>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

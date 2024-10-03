@@ -1,0 +1,58 @@
+[
+  {
+    "Order": 1,
+    "Title": "Stein Variational Ergodic Search",
+    "Location": "Senaatszaal",
+    "PosterBoardNr": 101,
+    "Authors": "Darrick Lee, Cameron Lerch, Fabio Ramos, Ian Abraham"
+  },
+  {
+    "Order": 2,
+    "Title": "Parallel and Proximal Linear-Quadratic Methods for Real-Time Constrained Model-Predictive Control",
+    "Location": "Senaatszaal",
+    "PosterBoardNr": 102,
+    "Authors": "Wilson Jallet, Ewen Dantec, Etienne Arlaud, Nicolas Mansard, Justin Carpentier"
+  },
+  {
+    "Order": 3,
+    "Title": "Differentiable Robust Model Predictive Control",
+    "Location": "Senaatszaal",
+    "PosterBoardNr": 103,
+    "Authors": "Alex Oshin, Hassan Almubarak, Evangelos Theodorou"
+  },
+  {
+    "Order": 4,
+    "Title": "Computation-Aware Learning for Stable Control with Gaussian Process",
+    "Location": "Senaatszaal",
+    "PosterBoardNr": 104,
+    "Authors": "Wenhan Cao, Alexandre Capone, Rishabh Yadav, Sandra Hirche, Wei Pan"
+  },
+  {
+    "Order": 5,
+    "Title": "Decentralized Multi-Robot Line-of-Sight Connectivity Maintenance under Uncertainty",
+    "Location": "Commissiekamer 2",
+    "PosterBoardNr": 201,
+    "Authors": "Yupeng Yang, Yiwei Lyu, Yanze Zhang, Sha Yi, Wenhao Luo"
+  },
+  {
+    "Order": 6,
+    "Title": "Hamilton-Jacobi Reachability Analysis for Hybrid Systems with Controlled and Forced Transitions",
+    "Location": "Commissiekamer 2",
+    "PosterBoardNr": 202,
+    "Authors": "Javier Borquez, Shuang Peng, Yiyu Chen, Quan Nguyen, Somil Bansal"
+  },
+  {
+    "Order": 7,
+    "Title": "JIGGLE: An Active Sensing Framework for Boundary Parameters Estimation in Deformable Surgical Environments",
+    "Location": "Commissiekamer 3",
+    "PosterBoardNr": 301,
+    "Authors": "Nikhil Uday Shinde, Xiao Liang, Fei Liu, Yutong Zhang, Florian Richter, Sylvia Lee Herbert, Michael C. Yip"
+  },
+  {
+    "Order": 8,
+    "Title": "Conformalized Teleoperation: Confidently Mapping Human Inputs to High-Dimensional Robot Actions",
+    "Location": "Commissiekamer 3",
+    "PosterBoardNr": 302,
+    "Authors": "Michelle D Zhao, Reid Simmons, Henny Admoni, Andrea Bajcsy"
+  }
+]

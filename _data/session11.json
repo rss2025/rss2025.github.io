@@ -1,0 +1,58 @@
+[
+    {
+        "Order": 1,
+        "Title": "GOAT: GO to Any Thing",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 121,
+        "Authors": "Matthew Chang, Theophile Gervet, Mukul Khanna, Sriram Yenamandra, Dhruv Shah, So Yeon Min, Kavit Shah, Chris Paxton, Saurabh Gupta, Dhruv Batra, Roozbeh Mottaghi, Jitendra Malik, Devendra Singh Chaplot"
+    },
+    {
+        "Order": 2,
+        "Title": "Demonstrating Arena 3.0: Advancing Social Navigation in Collaborative and Highly Dynamic Environments",
+        "Location": "see demo schedule",
+        "PosterBoardNr": null,
+        "Authors": "Linh Kästner, Volodymyir Shcherbyna, Huajian Zeng, Tuan Anh Le, Maximilian Ho-Kyung Schreff, Halid Osmaev, Nam Truong Tran, Diego Diaz, Jan Golebiowski, Harold Soh, Jens Lambrecht"
+    },
+    {
+        "Order": 3,
+        "Title": "RAG-Driver: Generalisable Driving Explanations with Retrieval-Augmented In-Context Multi-Modal Large Language Model Learning",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 122,
+        "Authors": "Jianhao Yuan, Shuyang Sun, Daniel Omeiza, Bo Zhao, Paul Newman, Lars Kunze, Matthew Gadd"
+    },
+    {
+        "Order": 4,
+        "Title": "Dynamic Adversarial Attacks on Autonomous Driving Systems",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 123,
+        "Authors": "Amirhosein Chahe, Chenan Wang, Abhishek Jeyapratap, Kaidi Xu, Lifeng Zhou"
+    },
+    {
+        "Order": 5,
+        "Title": "Hierarchical Open-Vocabulary 3D Scene Graphs for Language-Grounded Robot Navigation",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 124,
+        "Authors": "Abdelrhman Werby, Chenguang Huang, Martin Büchner, Abhinav Valada, Wolfram Burgard"
+    },
+    {
+        "Order": 6,
+        "Title": "ScrewMimic: Bimanual Imitation from Human Videos with Screw Space Projection",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 125,
+        "Authors": "Arpit Bahety, Priyanka Mandikal, Ben Abbatematteo, Roberto Martín-Martín"
+    },
+    {
+        "Order": 7,
+        "Title": "NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 311,
+        "Authors": "Jiazhao Zhang, Kunyu Wang, Rongtao Xu, Gengze Zhou, Yicong Hong, Xiaomeng Fang, Qi Wu, Zhizheng Zhang, He Wang"
+    },
+    {
+        "Order": 8,
+        "Title": "RACER: Epistemic Risk-Sensitive RL Enables Fast Driving with Fewer Crashes",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 312,
+        "Authors": "Kyle Stachowicz, Sergey Levine"
+    }
+]

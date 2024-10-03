@@ -1,0 +1,58 @@
+[
+    {
+        "Order": 1,
+        "Title": "Yell At Your Robot: Improving On-the-Fly from Language Corrections",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 121,
+        "Authors": "Lucy Xiaoyang Shi, Zheyuan Hu, Tony Z. Zhao, Archit Sharma, Karl Pertsch, Jianlan Luo, Sergey Levine, Chelsea Finn"
+    },
+    {
+        "Order": 2,
+        "Title": "Task Adaptation in Industrial Human-Robot Interaction: Leveraging Riemannian Motion Policies",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 122,
+        "Authors": "Mike Allenspach, Michael Pantic, Rik Girod, Lionel Ott, Roland Siegwart"
+    },
+    {
+        "Order": 3,
+        "Title": "Risk-Calibrated Human-Robot Interaction via Set-Valued Intent Prediction",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 123,
+        "Authors": "Justin Lidard, Hang Pham, Ariel Bachman, Bryan Boateng, Anirudha Majumdar"
+    },
+    {
+        "Order": 4,
+        "Title": "Constraint-Aware Intent Estimation for Dynamic Human-Robot Object Co-Manipulation",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 124,
+        "Authors": "Yifei Simon Shao, Tianyu Li, Shafagh Keyvanian, Pratik Chaudhari, Vijay Kumar, Nadia Figueroa"
+    },
+    {
+        "Order": 5,
+        "Title": "Demonstrating HumanTHOR: A Simulation Platform and Benchmark for Human-Robot Collaboration in a Shared Workspace",
+        "Location": "see demo schedule",
+        "PosterBoardNr": null,
+        "Authors": "Chenxu Wang, Boyuan Du, Jiaxin Xu, Huaping Liu"
+    },
+    {
+        "Order": 6,
+        "Title": "Developing Design Guidelines for Older Adults with Robot Learning from Demonstration",
+        "Location": "Commissiekamer 2",
+        "PosterBoardNr": 211,
+        "Authors": "Erin Hedlund-Botti, Lakshmi Seelam, Chuxuan Yang, Nathaniel Belles, Zulfiqar Haider Zaidi, Matthew Gombolay"
+    },
+    {
+        "Order": 7,
+        "Title": "FLAIR: Feeding via Long-Horizon AcquIsition of Realistic dishes",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 310,
+        "Authors": "Rajat Kumar Jenamani, Priya Sundaresan, Maram Sakr, Tapomayukh Bhattacharjee, Dorsa Sadigh"
+    },
+    {
+        "Order": 8,
+        "Title": "The Benefits of Sound Resound: An In-Person Replication of the Ability of Character-Like Robot Sound to Improve Perceived Social Warmth",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 311,
+        "Authors": "Nnamdi Nwagwu, Adeline Schneider, Ibrahim Syed, Brian J. Zhang, Naomi T. Fitter"
+    }
+]

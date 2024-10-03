@@ -1,0 +1,58 @@
+[
+  {
+    "Order": 1,
+    "Title": "Leveraging Large Language Model for Heterogeneous Ad Hoc Teamwork Collaboration",
+    "Location": "Senaatszaal",
+    "PosterBoardNr": 110,
+    "Authors": "Xinzhu Liu, Peiyan Li, Wenju Yang, Di Guo, Huaping Liu"
+  },
+  {
+    "Order": 2,
+    "Title": "INTERPRET: Interactive Predicate Learning from Language Feedback for Generalizable Task Planning",
+    "Location": "Senaatszaal",
+    "PosterBoardNr": 111,
+    "Authors": "Muzhi Han, Yifeng Zhu, Song-Chun Zhu, Ying Nian Wu, Yuke Zhu"
+  },
+  {
+    "Order": 3,
+    "Title": "Safe Planning for Articulated Robots Using Reachability-based Obstacle Avoidance With Spheres",
+    "Location": "Senaatszaal",
+    "PosterBoardNr": 112,
+    "Authors": "Jonathan Michaux, Adam Li, Qingyi Chen, Che Chen, Ram Vasudevan"
+  },
+  {
+    "Order": 4,
+    "Title": "Motion Planning in Foliated Manifolds using Repetition Roadmap",
+    "Location": "Senaatszaal",
+    "PosterBoardNr": 113,
+    "Authors": "Jiaming hu, Shrutheesh Raman Iyer, Jiawei Wang, Henrik I Christensen"
+  },
+  {
+    "Order": 5,
+    "Title": "Language-Augmented Symbolic Planner for Open-World Task Planning",
+    "Location": "Senaatszaal",
+    "PosterBoardNr": 114,
+    "Authors": "Guanqi Chen, Lei Yang, Ruixing Jia, Zhe Hu, Yizhou Chen, Wei Zhang, Wenping Wang, Jia Pan"
+  },
+  {
+    "Order": 6,
+    "Title": "Collision-Affording Point Trees: SIMD-Amenable Nearest Neighbors for Fast Motion Planning with Pointclouds",
+    "Location": "Commissiekamer 2",
+    "PosterBoardNr": 206,
+    "Authors": "Clayton Ramsey, Zachary Kingston, Wil Thomason, Lydia E Kavraki"
+  },
+  {
+    "Order": 7,
+    "Title": "Homotopic Path Set Planning for Robot Manipulation and Navigation",
+    "Location": "Commissiekamer 2",
+    "PosterBoardNr": 207,
+    "Authors": "Jing Huang"
+  },
+  {
+    "Order": 8,
+    "Title": "Practice Makes Perfect: Planning to Learning Skill Parameter Policies",
+    "Location": "Commissiekamer 3",
+    "PosterBoardNr": 305,
+    "Authors": "Nishanth Kumar, Tom Silver, Willie McClinton, Linfeng Zhao, Stephen Proulx, Tomás Lozano-Pérez, Leslie Pack Kaelbling, Jennifer L. Barry"
+  }
+]

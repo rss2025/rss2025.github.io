@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Facebook images -->
+  <meta property="og:image" content="/images/rss_2020.png"/>
+
+  <title>
+    
+      A Bayesian Framework for Nash Equilibrium Inference in Human-Robot Parallel Play &middot; Robotics: Science and Systems
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66594011-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="../../public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="../../atom.xml">
+
+</head>
+
+  <body>
+    <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <a href="../../index.html">
+                    <img style="text-align:center" src="../../images/rsslogotext-white.png" width="100%">
+                        </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-11 col-xs-12 col-lg-offset-4 col-md-offset-2 col-sm-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" style="margin-top: 10px; text-align: center;"
+                        href="../../index.html">RSS 2020</a>
+                    <a class="navbar-brand hidden-xs"
+                        href="../../index.html">RSS 2020</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="42.html#">home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--li><a href="/blog/">Latest</a></li-->
+                                <li><a href="http://www.roboticsproceedings.org/">Previous Proceedings</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="42.html#">attending<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/info/index.html">Instructions for Conference Attendees</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/registration/index.html">Registration</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/inclusion/index.html">Inclusion@RSS</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/pioneers/index.html">RSS Pioneers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="42.html#">committees<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/organizers/index.html">Organizing Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/pc/index.html">Program Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/foundation/index.html">RSS Foundation</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="42.html#">information<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/authorinfo/index.html">Author Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfp/index.html">Call for Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/callForParticipation/index.html">Call for Participation</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfw/index.html">Call for Workshops</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/studentHelpers/index.html">Information for Student Helpers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/sponsorship/index.html">Sponsors</a></li>
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="42.html#">program<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../detailed/index.html">Detailed Program</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../awards/index.html">Paper Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../keynote/index.html">Keynote Talk</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../testoftimeaward/index.html">Test of Time Award</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../careerawards/index.html">Early Career Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../papers.html">Accepted Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../workshops/index.html">Workshops</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-lg-offset-1 hidden-xs hidden-sm text-right" id="sidebar"/>
+<!-- No sidebar on small screens -->
+<a class="sidebar-nav-item" href="../../index.html">Home</a>
+<!--br>
+ <a class="sidebar-nav-item" href="/blog/">Latest</a-->
+<br>
+<a class="sidebar-nav-item" href="http://www.roboticsproceedings.org/">RSS Proceedings</a>
+<br>
+
+<br>
+
+
+
+<b>attending</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/info/index.html">Instructions for Conference Attendees</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/registration/index.html">Registration</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/inclusion/index.html">Inclusion@RSS</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/pioneers/index.html">RSS Pioneers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>committees</b>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/organizers/index.html">Organizing Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/pc/index.html">Program Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/foundation/index.html">RSS Foundation</a>
+<br>
+
+
+
+<br>
+
+
+
+<b>information</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/authorinfo/index.html">Author Information</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfp/index.html">Call for Papers</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/callForParticipation/index.html">Call for Participation</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfw/index.html">Call for Workshops</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/studentHelpers/index.html">Information for Student Helpers</a>
+<br>
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/sponsorship/index.html">Sponsors</a>
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<b>program</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../detailed/index.html">Detailed Program</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../awards/index.html">Paper Awards</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../keynote/index.html">Keynote Talk</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../testoftimeaward/index.html">Test of Time Award</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../careerawards/index.html">Early Career Awards</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../papers.html">Accepted Papers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../workshops/index.html">Workshops</a>
+<br>
+
+
+
+<br>
+
+
+<b>follow us</b>
+<br>
+<a href="https://twitter.com/RoboticsSciSys"><i class="fa fa-twitter"></i> Twitter </a>
+<br>
+<a href="https://www.facebook.com/RoboticsSciSys"><i class="fa fa-facebook"></i>  Facebook  </a>
+<br>
+
+</div>
+
+        <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+          <div class="page">
+  <h3 class="page-title">A Bayesian Framework for Nash Equilibrium Inference in Human-Robot Parallel Play</h1>
+  <br/>
+  <p style="color:black; font-size: 120%; text-align: center;"><em><a href="https://shraybansal.com">Shray Bansal</a>,  <a href="http://">Jin Xu</a>,  <a href="https://howard.ece.gatech.edu/">Ayanna Howard</a>,  <a href="https://www.cc.gatech.edu/fac/Charles.Isbell/">Charles Isbell</a></em></p>
+
+<table width="30%"> <tr>
+<td style="width: 20%; text-align: center;"><a href="http://www.roboticsproceedings.org/rss16/p042.pdf"><img src="../../images/paper_link.png" width="50" height="60" /> </a> </td>
+
+<td style="width: 20%; text-align: center;"><a href="https://shraybansal.com/research/bayesnash"><img src="../../images/website_link.png" width="50" height="60" /> </a> </td>
+
+</tr></table>
+
+<h3 id="abstract">Abstract</h3>
+<html><p style="color:gray; font-size: 100%; text-align: justified;">
+We consider shared workspace scenarios with humans and robots acting to achieve independent goals, termed as parallel play. We model these as general-sum games and construct a framework that utilizes the Nash equilibrium solution concept to consider the interactive effect of both agents while planning. We find multiple Pareto-optimal equilibria in these tasks. We hypothesize that people act by choosing an equilibrium based on social norms and their personalities. To enable coordination, we infer the equilibrium online using a probabilistic model that includes these two factors and use it to select the robot's action. We apply our approach to a close-proximity pick-and-place task involving a robot and a simulated human with three potential behaviors - defensive, selfish, and norm-following. We showed that using a Bayesian approach to infer the equilibrium enables the robot to complete the task with less than half the number of collisions while also reducing the task execution time as compared to the best baseline. We also performed a study with human participants interacting either with other humans or with different robot agents and observed that our proposed approach performs similar to human-human parallel play interactions. The code is available at https://github.com/shray/bayes-nash.
+</p></html>
+
+<h3 id="live-paper-discussion-information">Live Paper Discussion Information</h3>
+<html>
+<table width="50%">
+<tr> <th rowspan="2"><a href="https://pheedloop.com/rss2020/virtual/#session_vqSWWJ"><img src="../../images/pheedloop_link.png" width="70" height="70" /> </a> </th> <th> Start Time </th> <th> End Time </th> </tr>
+<tr> <td> 07/15 15:00 UTC </td><td> 07/15 17:00 UTC </td></tr>
+</table> <br /> </html>
+<h3 id="virtual-conference-presentation">Virtual Conference Presentation</h3>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/y9Pu9c1mcyE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="paper-reviews">Paper Reviews</h3>
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 1</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+In this submission, the authors present a novel model for human-robot task planning that casts the problem as a general-sum game in which multiple Nash equilibria are weighted against each other using a Bayesian formulation. The formulation includes an expert-crafted and domain-specific social norm and a agent-specific individual preference that is inferred online. 
+
+The authors also present a set of three related studies in which the approach is evaluated against baselines. This includes a simulated human study, a human-human study, and a human-robot study. Through the studies, the authors show that the developed approach leads to a good balance of safety and efficiency, reducing the number of safety stops while also lowering the time to complete the task. While this was true in the simulated human study, the developed approach actually led to more safety stops in the human-robot study. The authors present plausible reasons for this results and make suggestions for follow-on work.
+
+The paper is placed well within context of prior work, and presents the method in a clear and concise manner. The approach appears novel and is technically sound. The ability to infer agent preferences online and leverage domain-specific norms to select from multiple equilibria is an interesting and useful idea. The experiments and analysis are interesting and informative.
+
+The main drawback I see is that while the presented approach is designed for any N number of agents collaborating together, all of the analysis is done with just two agents. It is difficult to determine whether the conclusions and claims made by the authors about the approach would actually carry to a larger multi-agent scenario. Would the robot be able to infer the preferences of multiple people successfully and maintain safety and efficiency? Would the approach be computationally tractable in that case? (A discussion of computational complexity and real-time performance is needed).
+
+The next drawback is that the analysis/explanation of the studies is a bit lacking. There is no statistical analysis of the simulated studies (so it’s hard to tell what differences are actually significant) and the descriptions are incomplete. For example, what are the error bars in the figures? (standard deviation, SEM, etc.). Also, how are some of the parameters set, and what were the selected values? (e.g., tau in Eq 3 and 6). These are critical for reproducibility. 
+
+Finally, the paper has a few typos/grammar issues:
+- Section V.B. cuts off mid-sentence
+- Section VI. “Metrics” starts off with a run-on sentence
+- Section VIII.A. there is a reference to Figure 8, that is actually referring to Figure 6.
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 2</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+*****
+Strengths and weaknesses:
+
+The paper considers a relevant and topical problem, which is of interest to the conference audience. As stated in the summary of contributions, the authors identify that very few formalisms exist that utilize game theory for HRI and provide a novel approach towards this gap. The research plan is well designed: borrowing insights from human interactions (via human-human studies), designing algorithms building upon prior formalism (i.e., game theory and Bayesian inference), and evaluating them with humans. The paper is overall well written, with a good coverage of related work, description of the approach, and results.
+
+The key weakness is the evaluation of the proposed approach, where the evaluations are carried out with small sample size, without baselines from the relevant prior art, and (although less importantly) only in simulation. The small sample size makes assessing the generalizability of observed trends difficult. Further, over the past few years, several approaches have been developed for generating robot behavior in shared workspace tasks. In the absence of evaluations against a representative baseline (see detailed comments for suggestions), it is difficult to assess the utility of game-theoretic formalisms in general and the proposed approach in particular. 
+
+Please see the detailed comments and suggestions listed below.
+
+*****
+Comments and suggestions:
+
+1) (Abstract) The abstract states that the proposed approach outperforms the best baseline. This statement should be better qualified as this is observed only in agent-agent studies, with key differences in human-agent studies. Further, no comparisons are made to baselines from the prior art.
+
+2) (Related Work) Despite the presence of several HRI formalisms, the authors provide good coverage of related work. However, space permitting, a few highly related papers would be useful to add to this discussion:
+
+2.1) (Game-theoretic approaches) The following paper, which formalizes HRI problem using game theory, is highly related and currently missing from the discussion: Nikolaidis, Stefanos, et al. "Game-theoretic modeling of human adaptation in human-robot collaboration." Proceedings of the 2017 ACM/IEEE international conference on human-robot interaction. 2017.
+
+2.2) (Theory of mind-based approaches) While the theory of mind- based approaches do not explicitly compute or reason about equilibria, they reason about the influence of human on a robot and vice-versa. For instance, please see: Devin, Sandra, and Rachid Alami. "An implemented theory of mind to improve human-robot shared plans execution." 2016 11th ACM/IEEE International Conference on Human-Robot Interaction (HRI). IEEE, 2016.
+
+3) (Results of Human-Agent Study, Section 8) The experiments, despite their small sample size, are well designed. However, the results of the human-agent study and its difference with the agent-agent study (Section 6), also question several assumptions of a formalism based on game-theoretic equilibrium. For instance,
+- Do human-robot interactions necessarily follow an equilibrium, especially given that both the human and robot can adapt?
+- One interpretation presented in Section 9 highlights that humans indeed adapt and modify their policy in response to that of the robot. This observation raises the question, "Can the proposed approach identify if a stable equilibrium has been reached and, if so, correctly estimate its value?" The results indicate otherwise.
+As noted above, the observed results are informative for the design of HRI algorithms as well as to understand the utility of game-theoretic formalisms for computing robot policies. Consequently, it will be useful to include additional discussion, which addresses the above questions.
+
+4) (Relation to decision-theoretic approaches) Several decision-theoretic approaches have been developed and demonstrated to perform effectively in shared workspace tasks (for instance, see list below). Similar to the game-theoretic approach proposed in the submission, these approaches maintain an estimate of the human's latent state (either preference or goal) and arrive at robot policy. However, they do not require the presence of equilibrium and can tackle larger problem spaces (e.g., continuous spaces in the case of Javdani et al.) as compared to the proposed approach. Further, they can algorithmically generate spatio-temporal behavior that is typical of human interaction (e.g., wait and then go), which is absent in the implementation of the Bayes-Nash approach.
+
+To demonstrate the utility of the proposed approach, consider including a comparison to one representative decision-theoretic approach from the following,
+- Chen, Min, et al. "Planning with trust for human-robot collaboration." Proceedings of the 2018 ACM/IEEE International Conference on Human-Robot Interaction. 2018.
+- Unhelkar, Vaibhav V., et al. "Human-aware robotic assistant for collaborative assembly: Integrating human motion prediction with planning in time." IEEE Robotics and Automation Letters 3.3 (2018): 2394-2401.
+- Javdani, Shervin, et al. "Shared autonomy via hindsight optimization for teleoperation and teaming." The International Journal of Robotics Research 37.7 (2018): 717-742.
+- Cheng, Yujiao, et al. "Towards Efficient Human-Robot Collaboration With Robust Plan Recognition and Trajectory Prediction." IEEE Robotics and Automation Letters 5.2 (2020): 2602-2609.
+
+5) (Section 3) Typically, the action refers to an atomic action, which is chosen and then executed without modification. However, in the current formalism, action corresponds to RRT plans (which can be changed mid-execution). Please clarify if this understanding is correct. If so, consider including a footnote mentioning that actions can be modified mid-execution.
+
+6) (Equation 6) Does the equation only apply to timestep 0? The description following the equation "Comparing the distance ... equilibrium performance." was difficult to follow. Please consider rephrasing this description.
+
+7) (Section 4, Clarification question) Does the formalism assume equilibrium is achieved and remains constant over the task execution, and only the belief over the equilibria changes? Or, does it also apply to cases in which the equilibrium has not been achieved (and is changing during the interaction)?
+
+*****
+Minor comments on the clarity of the presentation:
+
+The submission is overall well written and easy to follow. Minor suggestions and typos are listed as follows:
+- (Abstract) Bayesian should be capitalized.
+- (Introduction) Consider including a reference for the term `parallel play` from psychology literature.
+- (Section 3) The phrase 'set of all actions' is ambiguous, as it refers both to a (the action profile) and A (the set of joint actions).
+- (Section 4) "we take its joint" is informal. Please change to "we take its joint distribution."
+- (Section 5A) In the current formalism, does N correspond to 2? If the approach is indeed general and extends to beyond 2 agents, consider mentioning it explicitly in the text.
+- (Figure 4) The phrase Bayes-Nash has not been defined in the text. Please note that the proposed approach is referred to as Bayes-Nash. 
+- (Figure 5) Similarly, the phrase Fair-Nash has not been defined in the text. I assume that it refers to the baseline "Selfish-Nash."
+- (Section 6) Both the phrases Bayes-Nash and Nash-Bayes are used in the paper. Consider using only one to maintain uniformity.
+- (Section 6) Typo: ' We measured measured...''
+- (Figure 5b) In the description of Figure 5b, it is ambiguous which human is replaced (the control, the participants, or both). Please consider rephrasing this description.
+
+*****
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 3</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+Originality: The paper presents a novel solution to interaction in a shared space. The solution was interesting as were the results. Especially novel was using both norms and personality types to select from multiple equilibria.
+
+Quality: The modeling efforts were justified and well-reasoned. The norms and personality types were grounded in well-recognized approaches in game theory (e.g., minimax, fairness).  The planning algorithm was appropriate for the problem. 
+
+There are a few ways that the paper could have been improved:
+(1) The game theory model was based in single-stage games. The problem, however, seemed more aligned with games where human and robot would interact repeatedly. The paper should mention that in repeated play there are many more equilibria (from the folk theorem in repeated play games), including equilibria where the two agents take turns receiving their most preferred outcome. The paper should justify why only equilibria for single stage games were considered.
+(2) The three types of studies provided evidence that the solution approach has merit. However, as identified by the authors, the human-human and human-robot studies had too few participants to allow any statistical conclusions. That is unfortunate because it decrease confidence in the conclusions.
+(3) I wasn't sure about some of the aspects of the study with real humans. Specifically, was the order with which the humans interacted with the strategies counterbalanced? If not, it is impossible to know whether the trends in the data are simply from a learning effect.
+
+Clarity: The paper is really well written and includes an excellent review of the literature. Assumptions were clear, modeling choices were clear, and limitations were clear.
+
+Significance: The paper makes a solid contribution to human-robot interaction, expanding the state-of-the-art.
+</p> </details>
+
+<table width="100%"><tr><td style="width: 30%; text-align: center;"><a href="41.html"> <img src="../../images/previous_icon.png" width="120" height="80" /> </a> </td>
+
+<td style="width: 30%; text-align: center;"><a href="../papers.html"> <img src="../../images/overview_icon.png" width="120" height="80" /> </a> </td> 
+
+<td style="width: 30%; text-align: center;"><a href="43.html"> <img src="../../images/next_icon.png" width="100" height="80" /> </a> </td> 
+
+</tr></table>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

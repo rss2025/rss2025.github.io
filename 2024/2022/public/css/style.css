@@ -1,0 +1,190 @@
+:root {
+    --cmu-red: #bb0000;
+    --cmu-gray: #f4f4f4;
+    --cmu-dark-gray: #666666;
+    --cmu-black: #000000;
+    --cmu-gold: #aa6600;
+    --cmu-teal: #006677;
+    --cmu-blue: #224477;
+    --cmu-green: #008855;
+    --cmu-dark-green: #224433;
+    --osu-orange: #d83f09;
+    --osu-black: #000000;
+    --osu-white: #ffffff;
+    --gen-grey: #3a3946;
+    --gen-light-gray: #777789;
+    --gen-dark-gray: #333333;
+    --columbia-blue: #000d74;
+}
+
+.header { background-color: var(--columbia-blue);}
+.content { margin-top:-20px; }
+
+h3 {text-align: left;}
+
+/* Always show vertical scrollbar, otherwise grid shifts */
+html { overflow-y: scroll;}
+
+#sidebar a:link{ color:#333333; }
+#sidebar a:visited{ color:#333333; }
+#sidebar a:hover{ color:#024794; }
+#sidebar a:active{ color:#333333; }
+
+.agenda {  }
+
+/* Dates */
+.agenda .agenda-date .dayofmonth {
+  font-size: 36px;
+  line-height: 36px;
+  float: left;
+  text-align: right;
+  margin-right: 10px;
+}
+.agenda .agenda-date .shortdate {
+  font-size: 0.75em;
+}
+
+.grayout { color: lightgray; }
+
+.two-col {
+    -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 2; /* Firefox */
+    columns: 100px 2;
+}
+
+/* Times */
+.agenda .agenda-time {text-align: right}
+
+
+/* Events */
+.agenda .agenda-events {  }
+.agenda .agenda-events .agenda-event {  }
+
+
+/* Committee Name and Affiliation Links */
+a.board-name:link {font-size:100%; color:#333333}
+a.board-name:visited {font-size:100%; color:#333333}
+
+a.board-org:link {font-size:75%; font-style:italic; color:#333333}
+a.board-org:visited {font-size:75%; font-style:italic; color:#333333}
+
+.pc-name{font-size:100%; color:#333333}
+.pc-org{font-size:75%; font-style:italic; color:#333333}
+.error {
+    color: red;
+}
+
+/* Program Overview Table */
+.table-overview tbody>tr>td{
+    vertical-align: middle;
+    text-align: left;
+}
+
+.table-overview tbody>tr>td:first-child{
+    width: 160px;
+}
+
+/* Technical Program Table */
+.table-program tbody>tr>td{
+    vertical-align: top;
+    text-align: left;
+}
+
+/* Workshop List Table */
+.table-workshop tbody>tr>td{
+    vertical-align: middle;
+    text-align: left;
+}
+
+/* Registration Table */
+.table-registration tbody>tr>td{
+    vertical-align: middle;
+}
+
+/* Social Media Links */
+a.social-media:link {color:#333333}
+a.social-media:visited {color:#333333}
+a.social-media:hover {color:#333333}
+a.social-media:active {color:#333333}
+
+.center {
+    text-align: center;
+}
+
+/* Vertically Centered div */
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+/* Offset needed to account for navbar */
+.anchor {
+    display:block;
+    padding-top:100px;
+    margin-top:-100px;
+ }
+
+ .dl-horizontal dt{
+     font-weight: normal;
+     text-align: left;
+     margin-bottom: 0em;
+     width: auto;
+     padding-right: 0em;
+     text-sty
+ }
+
+ .dl-horizontal dd{
+     margin-left: 4em;
+     margin-bottom: 0em;
+ }
+
+/*
+ * Messages
+ *
+ * Show alert messages to users. You may add it to single elements like a `<p>`,
+ * or to a parent if there are multiple elements to show.
+ */
+
+.message {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: #717171;
+  background-color: #f9f9f9;
+}
+
+.page-title {
+    text-align: center;
+}
+
+/* Sponsorships */
+
+#ss-square img {
+  max-width:  8%;
+  max-height: 8%;
+  margin: 5px;
+}
+
+#ss-banquet img {
+  max-width: 100%;
+  max-height: 150px;
+  margin: 5px;
+}
+
+#ss-patron img {
+  max-width: 45%;
+  max-height: 120px;
+  margin: 5px;
+}
+
+#ss-major img {
+  max-width: 35%;
+  max-height: 120px;
+  margin: 5px;
+}
+
+#ss-sponsor img {
+  max-width: 30%;
+  max-height: 120px;
+  margin: 5px;
+}

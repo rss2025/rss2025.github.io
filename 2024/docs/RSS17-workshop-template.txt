@@ -1,0 +1,84 @@
+Workshop Proposal Template
+
+1. Type of Event 
+[e.g., workshop, tutorial, competition, demonstration]
+--------------------------------------------------------------------
+
+2. Title of Proposed Event
+--------------------------------------------------------------------
+
+3. Organizers 
+[Please provide email addresses, URLs, affiliations, and brief bios.
+Explain why the team is a good fit for organizing this workshop.
+Indicate which one of the organizers will act as the contact person. 
+The expectation is that the contact person will be able to promptly
+respond to messages from the workshop co-chairs.] 
+--------------------------------------------------------------------
+
+4. URL for event
+[This link should be active at the time of the proposal with
+preliminary/tentative information.  The page should clearly indicate
+that it is a "Proposed RSS Event".]
+--------------------------------------------------------------------
+
+5. Duration 
+[e.g., 1/2 day, 1 day, 2 days]
+--------------------------------------------------------------------
+
+6. Abstract 
+[This should be a short paragraph that will be used to advertise the
+workshop through the web page of RSS. Please limit the abstract to 250
+words. The abstract will be used to describe the workshop on the
+RSS website.]
+--------------------------------------------------------------------
+
+7. List of speakers/participants 
+[Provide a list of speakers and potential topics.
+Indicate whether speakers have been confirmed or that their
+final confirmation is pending. Describe how the speakers were
+chosen and whether they are diverse in gender, race, background,
+or seniority. How will you ensure that speakers do not just give their
+generic talk, but actually focus on the topic?]
+--------------------------------------------------------------------
+
+8. Description of the event
+[Please provide details regarding the event, such as intended schedule
+and structure, e.g., sessions, discussion, panels, debates, poster sessions. 
+What steps will you take in order to
+encourage discussion and interactions during the event?
+Also describe if you will be soliciting contributed papers
+and what the format for presenting them will be (e.g. poster only,
+poster plus 1 or 5min spotlight talk, regular talk).]
+--------------------------------------------------------------------
+
+9. Plan for soliciting participation 
+[Describe what steps you will take in order to advertise and encourage
+participation in your event. Steps in this direction that go beyond
+forwarding an email to research-worldwide are encouraged.]
+--------------------------------------------------------------------
+
+10. Intended audience
+[Provide a description of the communities that will be interested in
+this event and why you believe they will attend. Indicate whether
+communities related to robotics that are not traditionally
+participating at RSS would be interested in your event. Mention
+related past events, if any, and their level of success.]
+--------------------------------------------------------------------
+
+11. Equipment requirements
+[e.g., whether you plan to have posters - how many do you expect to
+need?, flip charts - how many? Please list everything that requires
+logistics or monetary effort from our side]
+--------------------------------------------------------------------
+
+12. Outlier Track
+[Describe if this proposal should be considered as part of the 
+outlier track. The outlier track pushes the boundaries of academic 
+workshops by examining ideas that are (i) important for the field;
+(ii) hard done by the formal peer-review process. Building on the 
+successes of RSS 2016 (one workshop involved aspects of dance, 
+another a custom card game), the track will explore unconventional
+formats and topics that eschew current orthodoxy. ]
+--------------------------------------------------------------------
+
+====================================================================

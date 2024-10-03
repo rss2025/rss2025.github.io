@@ -1,0 +1,58 @@
+[
+    {
+        "Order": 1,
+        "Title": "Demonstrating Event-Triggered Investigation and Sample Collection for Human Scientists using Field Robots and Large Foundation Models",
+        "Location": "see demo schedule",
+        "PosterBoardNr": null,
+        "Authors": "Tirthankar Bandyopadhyay, Fletcher Talbot, Callum Bennie, Hashini Senaratne, Xun Li, Brendan Tidd, Mingze Xi, Jan Stiefel, Volkan Dedeoglu, Rod Taylor, Tea Molnar, Ziwei Wang, Josh Pinskier, Feng Xu, Lois Liow, Ben Burgess-Limerick, Jesse Haviland, Pavan Sikka, Simon Murrell, Jane Hodgkinson"
+    },
+    {
+        "Order": 2,
+        "Title": "CraterGrader: Autonomous Robotic Terrain Manipulation for Lunar Site Preparation and Earthmoving",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 118,
+        "Authors": "Ryan Lee, Benjamin Younes, Alexander Pletta, John Harrington, Russell Q. Wong, William Whittaker"
+    },
+    {
+        "Order": 3,
+        "Title": "POAM: Probabilistic Online Attentive Mapping for Efficient Robotic Information Gathering",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 119,
+        "Authors": "Weizhe Chen, Lantao Liu, Roni Khardon"
+    },
+    {
+        "Order": 4,
+        "Title": "Blending Data-Driven Priors in Dynamic Games",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 120,
+        "Authors": "Justin Lidard, Haimin Hu, Asher Hancock, Zixu Zhang, Albert Gimo Contreras, Vikash Modi, Jonathan DeCastro, Deepak Gopinath, Guy Rosman, Naomi Leonard, Maria Santos, Jaime Fernández Fisac"
+    },
+    {
+        "Order": 5,
+        "Title": "Demonstrating HOUND: A Low-cost Research Platform for High-speed Off-road Underactuated Nonholonomic Driving",
+        "Location": "see demo schedule",
+        "PosterBoardNr": null,
+        "Authors": "Sidharth Talia, Matthew Schmittle, Alexander Lambert, Alexander Spitzer, Christoforos Mavrogiannis, Siddhartha Srinivasa"
+    },
+    {
+        "Order": 6,
+        "Title": "Model Predictive Control for Aggressive Driving Over Uneven Terrain",
+        "Location": "Commissiekamer 2",
+        "PosterBoardNr": 210,
+        "Authors": "Tyler Han, Alex Liu, Anqi Li, Alexander Spitzer, Guanya Shi, Byron Boots"
+    },
+    {
+        "Order": 7,
+        "Title": "Demonstrating CropFollow++: Robust Under-Canopy Navigation with Keypoints",
+        "Location": "see demo schedule",
+        "PosterBoardNr": null,
+        "Authors": "Arun Narenthiran Sivakumar, Mateus Valverde Gasparino, Michael McGuire, Vitor Akihiro Hisano Higuti, M. Ugur Akcal, Girish Chowdhary"
+    },
+    {
+        "Order": 8,
+        "Title": "SEEK: Semantic Reasoning for Object Goal Navigation in Real World Inspection Tasks",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 309,
+        "Authors": "Muhammad Fadhil Ginting, Sung-Kyun Kim, David Fan, Matteo Palieri, Mykel Kochenderfer, Ali-akbar Agha-mohammadi"
+    }
+]

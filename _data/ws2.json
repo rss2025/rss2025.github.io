@@ -1,0 +1,93 @@
+[
+  {
+    "id": 16,
+    "location": "ME Hall E - Hooke",
+    "title": "Unsolved Problems in Social Robot Navigation",
+    "website": "https://unsolvedsocialnav.org",
+    "link": "https://esviewer.tudelft.nl/space/17"
+  },
+  {
+    "id": 17,
+    "location": "ME Hall C - Bernoulli",
+    "title": "Robots that help and ask for help",
+    "website": "https://sites.google.com/unisi.it/robots-that-ask-for-help",
+    "link": "https://esviewer.tudelft.nl/space/7"
+  },
+  {
+    "id": 18,
+    "location": "Aula Frans van Hasselt",
+    "title": "Tutorial: Supervised Policy Learning for Real Robots",
+    "website": "https://supervised-robot-learning.github.io/",
+    "link": ""
+  },
+  {
+    "id": 19,
+    "location": "ME Hall B – Newton",
+    "title": "Geometric and Algebraic Structure in Robot Learning",
+    "website": "https://sites.google.com/view/gas-rl-rss2024",
+    "link": "https://esviewer.tudelft.nl/space/6"
+  },
+  {
+    "id": 20,
+    "location": "ME Hall D - Watt",
+    "title": "Social Intelligence in Humans and Robots",
+    "website": "https://social-intelligence-human-ai.github.io/proposal.html",
+    "link": "https://esviewer.tudelft.nl/space/8"
+  },
+  {
+    "id": 21,
+    "location": "ME Hall F - Stevin",
+    "title": "Aerial Swarm Tools and Applications",
+    "website": "https://imrclab.github.io/workshop-aerial-swarms-rss2024/",
+    "link": "https://esviewer.tudelft.nl/space/18"
+  },
+  {
+    "id": 22,
+    "location": "Aula Commissiekamer 2",
+    "title": "GROUND: advancing GROup UNderstanding and robots' aDaptive behavior",
+    "website": "https://ground-hri.github.io/workshop/",
+    "link": ""
+  },
+  {
+    "id": 23,
+    "location": "Aula Hall A",
+    "title": "Lifelong Robot Learning: Generalization, Adaptation, and Deployment with Large Models",
+    "website": "https://sites.google.com/view/lifelong-robot-learning",
+    "link": "https://esviewer.tudelft.nl/space/25"
+  },
+  {
+    "id": 24,
+    "location": "Aula Auditorium",
+    "title": "Noosphere: Tactile Sensing for General Purpose Robots Learning",
+    "website": "https://noosphereworkshop.github.io",
+    "link": "https://esviewer.tudelft.nl/space/113"
+  },
+  {
+    "id": 25,
+    "location": "ME Hall A - Da Vinci",
+    "title": "Navigation & Mobile Manipulation in Challenging and Cluttered Natural Environments",
+    "website": "https://nature-bots.github.io",
+    "link": "https://esviewer.tudelft.nl/space/5"
+  },
+  {
+    "id": 26,
+    "location": "Aula Hall B",
+    "title": "Robotic Tasks and How to Specify Them? — Task Specification for General-Purpose Intelligent Robots",
+    "website": "https://sites.google.com/view/rss-taskspec",
+    "link": "https://esviewer.tudelft.nl/space/26"
+  },
+  {
+    "id": 27,
+    "location": "Aula Hall C",
+    "title": "Towards Safe Autonomy: Emerging Requirements, Definitions, and Methods",
+    "website": "https://sites.google.com/view/rss2024-safe-autonomy/home",
+    "link": "https://esviewer.tudelft.nl/space/27"
+  },
+  {
+    "id": 28,
+    "location": "Aula Hall D",
+    "title": "Semantic Reasoning and Goal Understanding in Robotics (SemRob)",
+    "website": "https://semrob.github.io",
+    "link": "https://esviewer.tudelft.nl/space/28"
+  }
+]

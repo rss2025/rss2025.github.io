@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Facebook images -->
+  <meta property="og:image" content="/images/rss_2020.png"/>
+
+  <title>
+    
+      Learning from Interventions: Human-robot interaction as both explicit and implicit feedback &middot; Robotics: Science and Systems
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66594011-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="../../public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="../../atom.xml">
+
+</head>
+
+  <body>
+    <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <a href="../../index.html">
+                    <img style="text-align:center" src="../../images/rsslogotext-white.png" width="100%">
+                        </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-11 col-xs-12 col-lg-offset-4 col-md-offset-2 col-sm-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" style="margin-top: 10px; text-align: center;"
+                        href="../../index.html">RSS 2020</a>
+                    <a class="navbar-brand hidden-xs"
+                        href="../../index.html">RSS 2020</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="55.html#">home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--li><a href="/blog/">Latest</a></li-->
+                                <li><a href="http://www.roboticsproceedings.org/">Previous Proceedings</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="55.html#">attending<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/info/index.html">Instructions for Conference Attendees</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/registration/index.html">Registration</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/inclusion/index.html">Inclusion@RSS</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/pioneers/index.html">RSS Pioneers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="55.html#">committees<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/organizers/index.html">Organizing Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/pc/index.html">Program Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/foundation/index.html">RSS Foundation</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="55.html#">information<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/authorinfo/index.html">Author Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfp/index.html">Call for Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/callForParticipation/index.html">Call for Participation</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfw/index.html">Call for Workshops</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/studentHelpers/index.html">Information for Student Helpers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/sponsorship/index.html">Sponsors</a></li>
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="55.html#">program<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../detailed/index.html">Detailed Program</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../awards/index.html">Paper Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../keynote/index.html">Keynote Talk</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../testoftimeaward/index.html">Test of Time Award</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../careerawards/index.html">Early Career Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../papers.html">Accepted Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../workshops/index.html">Workshops</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-lg-offset-1 hidden-xs hidden-sm text-right" id="sidebar"/>
+<!-- No sidebar on small screens -->
+<a class="sidebar-nav-item" href="../../index.html">Home</a>
+<!--br>
+ <a class="sidebar-nav-item" href="/blog/">Latest</a-->
+<br>
+<a class="sidebar-nav-item" href="http://www.roboticsproceedings.org/">RSS Proceedings</a>
+<br>
+
+<br>
+
+
+
+<b>attending</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/info/index.html">Instructions for Conference Attendees</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/registration/index.html">Registration</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/inclusion/index.html">Inclusion@RSS</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/pioneers/index.html">RSS Pioneers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>committees</b>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/organizers/index.html">Organizing Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/pc/index.html">Program Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/foundation/index.html">RSS Foundation</a>
+<br>
+
+
+
+<br>
+
+
+
+<b>information</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/authorinfo/index.html">Author Information</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfp/index.html">Call for Papers</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/callForParticipation/index.html">Call for Participation</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfw/index.html">Call for Workshops</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/studentHelpers/index.html">Information for Student Helpers</a>
+<br>
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/sponsorship/index.html">Sponsors</a>
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<b>program</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../detailed/index.html">Detailed Program</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../awards/index.html">Paper Awards</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../keynote/index.html">Keynote Talk</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../testoftimeaward/index.html">Test of Time Award</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../careerawards/index.html">Early Career Awards</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../papers.html">Accepted Papers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../workshops/index.html">Workshops</a>
+<br>
+
+
+
+<br>
+
+
+<b>follow us</b>
+<br>
+<a href="https://twitter.com/RoboticsSciSys"><i class="fa fa-twitter"></i> Twitter </a>
+<br>
+<a href="https://www.facebook.com/RoboticsSciSys"><i class="fa fa-facebook"></i>  Facebook  </a>
+<br>
+
+</div>
+
+        <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+          <div class="page">
+  <h3 class="page-title">Learning from Interventions: Human-robot interaction as both explicit and implicit feedback</h1>
+  <br/>
+  <p style="color:black; font-size: 120%; text-align: center;"><em><a href="https://jspencer12.github.io">Jonathan Spencer</a>,  <a href="http://www.sanjibanchoudhury.com">Sanjiban Choudhury</a>, Matt Barnes,  <a href="https://www.mattschmittle.com">Matthew Schmittle</a>,  <a href="http://edgelab.princeton.edu">Mung Chiang</a>,  <a href="https://ee.princeton.edu/people/peter-j-ramadge">Peter Ramadge</a>,  <a href="https://goodrobot.ai/">Siddhartha Srinivasa</a></em></p>
+
+<table width="20%"> <tr>
+<td style="width: 20%; text-align: center;"><a href="http://www.roboticsproceedings.org/rss16/p055.pdf"><img src="../../images/paper_link.png" width="50" height="60" /> </a> </td>
+
+</tr></table>
+
+<h3 id="abstract">Abstract</h3>
+<html><p style="color:gray; font-size: 100%; text-align: justified;">
+Scalable robot learning from seamless human-robot interaction is critical if robots are to solve a multitude of tasks in the real world. Current approaches to imitation learning suffer from one of two drawbacks. On the one hand, they rely solely on off-policy human demonstration, which in some cases leads to a mismatch in train-test distribution. On the other, they burden the human to label every state the learner visits, rendering it impractical in many applications. We argue that learning interactively from <i>expert interventions</i> enjoys the best of both worlds. Our key insight is that any amount of expert feedback, whether by intervention or non-intervention, provides information about the quality of the current state, the optimality of the action, or both. We formalize this as a constraint on the learner's value function, which we can efficiently learn using no regret, online learning techniques. We call our approach Expert Intervention Learning (EIL), and evaluate it on a real and simulated driving task with a human expert, where it learns collision avoidance from scratch with just a few hundred samples (about one minute) of expert control.
+</p></html>
+
+<h3 id="live-paper-discussion-information">Live Paper Discussion Information</h3>
+<html>
+<table width="50%">
+<tr> <th rowspan="2"><a href="https://pheedloop.com/rss2020/virtual/#session_knEClI"><img src="../../images/pheedloop_link.png" width="70" height="70" /> </a> </th> <th> Start Time </th> <th> End Time </th> </tr>
+<tr> <td> 07/15 15:00 UTC </td><td> 07/15 17:00 UTC </td></tr>
+</table> <br /> </html>
+<h3 id="virtual-conference-presentation">Virtual Conference Presentation</h3>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/NjkcgB-yy0w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="paper-reviews">Paper Reviews</h3>
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 1</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+The paper introduces an imitation learning framework that the agent learns from the events of expert intervention in the control process. There are three different cases in this formulation (1) the human does not intervene, thus the state-action pairs are labeled "good", (2) the human intervenes and takes the control, thus several state-action pairs before and after the event of the intervention of the human expert are labeled "bad", and (3) the state-action pairs given by the human expert are labeled "good", and the agent is forced to value the actions by the human demonstration higher than any other action for the given states. 
+
+It is not clear if the objective function shown in equation 10 can be applied in general to different problems. More specifically, the intervention term is problematic in case a human expert choose different actions for the same state. Let us assume that we can choose to move to the right or to the left to pass an obstacle. However, if the expert randomly chooses to move to the left or the right, then the objective function in equation 9 will not work since the training data samples are not consistent anymore. For one sample, Q(s, a1) &gt; Q(s, a2) and the other sample, Q(s, a2) &gt; Q(s,a1) To me, this problem also exists in the case of HG-Dagger but to a lesser degree.  
+
+The term "average distribution" in the problem formulation section sounds odd to me. What do you mean by that? I guess you can use "distribution" instead of "average distribution". Alternatively, you may mean likelihood? 
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 2</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+This paper motivates to reduce the burden of human demonstrators in a scenario that autonomous car learns from human driving behavior.
+The idea is to not only learning from human corrections but also reinforce the behaviors that humans choose not to intervene.
+It is expected such an agent can learn satisfactory policies with less human labeled data, improving the data efficiency comparing to DAGGER.
+By relaxing the constraints scoring good and bad agent behaviors, the paper also proves a performance guarantee similar to DAGGER, that the algorithm is no-regret in aggregating online data.
+The algorithm is validated by demonstrating car driving in both simulated and real wheeled robots. The simulation results clearly outperform baselines including naive behavior cloning, DAGGER and HG-DAGGER, an approach only considering the human intervention data.
+
+The paper is well written and I enjoyed the read in general. The motivation and idea of taking non-intervention as implicit labels make a lot of sense. 
+The performance guarantee is a great contribution for works on learning-based systems, although I only roughly went through the derivation which looked good to me.
+
+One thing I think the paper may discuss a bit more is the effect of horizon for flagging bad or good behaviors. How will the algorithm perform if the parameter was not chosen in a good way such that a fraction of trajectory data is mislabeled? Will this be detrimental to the learning performance.
+Is there anyway we may adapt this according to the experts' tendency of intervention?
+
+Also, the results of EIL consistently outperformed HG-DAGGER in the simulation, while required a few more expert data in the real MuSHR robot experiment. I get the explanation that HG-DAGGER is only learning from biased recovery trajectories.
+To me, it seems the goal of minimize trajectory jerkiness is implicit so experts of HG-DAGGER were not actively demonstrating it. As a result, per the goal of collision avoidance, both EIL and HG-DAGGER managed to learn eventually while HG-DAGGER excelled a bit because EIL is also considering the goal of keeping driving straight.
+This sounds a bit like multi-task learning where an agent needs to account for multiple goals. It would be great if the paper could also discuss a bit more about this experiment observation.
+
+Some minor issues:
+1. The second reference is blank.
+
+2. Last paragraph of Section II: duplicated "used to".
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 3</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+This paper is built on the insight that when supervising a learning agent, both the actions and the in-actions of the expert communicate an evaluation of the learner’s current performance. Based on this insight, authors take an imitation learning approach to build an interactive algorithm that can teach robots to interact in the world.
+The proposed approach allows an expert to take control over a robot interacting in the world at anytime. Based on the timing of the start and end of the take-over, authors cut each trajectory into a “good enough” part (to be conserved), a “bad” part (to be avoided) and an “intervention” part (to replicate). Authors present a way to interpret these states and trajectories and formally show that their approach lead to near optimal behavior. Finally, authors evaluate their approach against others both in simulation in a real experimentation.
+
+I believe the work of the authors is interesting, and I appreciate the concept of “good enough” behavior, even if in the context of self-driving, “good enough” has actually a fairly high bar. Authors’ approach does build knowledge for the community, for example by building on HG-DAGGER to make a better use of the human presence. 
+
+I would like to emphasize nevertheless that the “key insight” of the authors (the importance of implicit feedback) is not new in the Interactive Machine Learning (IML) community, and that many researchers in the Interactive RL, classic AI and HRI communities have developed a significant body of work on the use of implicit feedback, and even explored questions that the authors mention for future work. Thus, the statement: “our approach is novel in that it makes use of both explicit and implicit feedback in a human-gated mixed control setting.” might be incorrect. (As recommended by a few journals, I would suggest authors to refrain from claiming that something they present is novel.)
+I would suggest authors to explore the IML literature [1,2], and report how implicit feedback is used in the AI community. Here is also some work making similar assumptions (while using a different learning mechanism), and exploring some of the issues authors mentioned in their future work:
+- Human-gated mixed control for learning [3]: Informing the expert about the current intentions and giving them opportunities to intervene to learn quickly in high dimensional social environment.
+- Impacts of using implicit feedback [4]: Teaching strategies and how to interpret different types of feedback vary between persons.  (Authors do explore this aspect a bit in simulation, but [4] actually models the expert’s policy to improve learning.)
+- Non-stationary human evaluation [5]: Human evaluations depend on the current performance: e.g. for the driving task, a bad strategy could be at risk in an area where a good strategy would be fine. Additionally, something good enough for the time being, might be considered bad later on. (Authors quickly mentioned this in their future work too, but similarly to [4] authors in [5] actually model this and take it into account.)
+
+I would suggest authors to complement their related work to highlight some of the important considerations when bringing the human inside the learning loop. This brings the learning online and in the real world, and the expert serves both as a safety mechanism and an oracle to provide a target to follow. Both roles can have serious implications on the interaction and the learning process, especially as humans are known to have large variability. Authors could mention some of these challenges and special considerations.
+
+Approach:
+The approach seems sound, novel and useful. However, some assumptions are quite strong, and would probably fail when used with real humans. For example: “3) As soon as the robot departs G , the expert takes over and controls the system back to G.” would probably not happens in a real setting as G is non-stationary and humans can be inconsistent. Similarly, α L and α E setting can actually be important and may vary between experts. These important variations might reduce the performance in a real-world setting (despite theoretical guarantees).
+
+Evaluation:
+I appreciate that the authors evaluate both in simulation and in a real example. The additional evaluation of the impact of the boundary (and by extension the frequency of intervention) also provides interesting insight on the situation. 
+I have some concerns about the evaluation though. First, the units are unclear, what does query correspond to? Is it a sample where the expert provided a value, or a full trajectory? (cf. other comments.) For example, the simulation seems to show that even learning to drive in the hallway is complex, EIL takes more that 75 queries to learn to drive straight (which seems more than the number required to make a right turn with EIL). I believe authors could comment on this. 
+The experimental evaluation is interesting, but it seems that the comparison to HG-DAGGER might be a bit unfair. For example 50% less samples and 30% less expert demonstrations are used compared to EIL. While I understand that some properties would not improve over time, this imbalance of training samples should be addressed (fixed or discussed more explicitly).
+
+Discussion:
+As mentioned earlier, these systems relying on humans create a number of real-world implications that need to be addressed. For example, humans cannot be constantly attentive to the current robot behavior, especially in situations where one or two seconds can have important impact (cf. crashes of supervised “self-”driving cars). While I would not expect the authors to address all the challenges of using humans as real-time safety mechanisms and all the possible variations in human teaching strategies, I believe it is important for authors to be aware of it, and maybe mention some of these inherent consequences of learning from real-time human interventions.
+
+Overall:
+Overall, I believe this paper is interesting and does push the state of the art. By refining the claims, integrating the paper is the larger body of work of Interactive Machine Learning and discussing more the limits of the current approach and its assumptions, I believe this paper could be a good contribution.
+
+Other comments:
+- p1: I believe authors confuse Interactive Machine Learning and Active Machine Learning in “While interactive learning addresses the distribution mismatch problem […] the learner needlessly queries the expert in states that the expert, and ideally a good learner, would never visit.” This is specific of Active Learning, on the contrary, Interactive Learning aims to give power to the expert to limit unnecessary requests.
+- p2: As authors refer a lot to DAGGER (&gt;30 times), they could describe with more details this approach.
+- p3: “EIL does not require the expert to label every state the learner enters.” This is true, however the expert still has to observe all the learning process, in real-time, which can be fairly time consuming and still requires constant attention.
+- p4: “It is relatively straightforward for the expert to specify α L upon looking back at the data.” if data has to be retrospectively analyzed, it’s not online anymore. Similarly,  α E can be hard to estimate.
+- Algorithm 1: Linebreak probably missing in “forreturn”
+- p3: Please precise that Q in cost in this context.
+- Fig 5: It might be useful to synchronize all the x axes (for example from 0 to 600)
+- p7-8: Authors use the terms samples, iterations, trajectories without providing explicit definitions (and ways to transform one into another), this could be clarified.
+- References: [2] is missing, other have missing dates or capitalization issues (uav and other).
+
+[1] Fails, Jerry Alan, and Dan R. Olsen Jr. "Interactive machine learning." Proceedings of the 8th international conference on Intelligent user interfaces. 2003.
+[2] Amershi, Saleema, et al. "Power to the people: The role of humans in interactive machine learning." Ai Magazine 35.4 (2014): 105-120.
+[3] Senft, Emmanuel, et al. "Teaching robots social autonomy from in situ human guidance." Science Robotics 4.35 (2019).
+[4] Loftin, Robert, et al. "Learning behaviors via human-delivered discrete feedback: modeling implicit feedback strategies to speed up learning." Autonomous agents and multi-agent systems 30.1 (2016): 30-59.
+[5] MacGlashan, James, et al. "Interactive learning from policy-dependent human feedback." Proceedings of the 34th International Conference on Machine Learning-Volume 70. JMLR. Org, 2017.
+</p> </details>
+
+<table width="100%"><tr><td style="width: 30%; text-align: center;"><a href="54.html"> <img src="../../images/previous_icon.png" width="120" height="80" /> </a> </td>
+
+<td style="width: 30%; text-align: center;"><a href="../papers.html"> <img src="../../images/overview_icon.png" width="120" height="80" /> </a> </td> 
+
+<td style="width: 30%; text-align: center;"><a href="56.html"> <img src="../../images/next_icon.png" width="100" height="80" /> </a> </td> 
+
+</tr></table>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

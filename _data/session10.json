@@ -1,0 +1,58 @@
+[
+    {
+        "Order": 1,
+        "Title": "An abstract theory of sensor eventification",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 117,
+        "Authors": "Yulin Zhang, Dylan Shell"
+    },
+    {
+        "Order": 2,
+        "Title": "Octopi: Object Property Reasoning with Large Tactile-Language Models",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 118,
+        "Authors": "Samson Yu, Lin Kelvin, Anxing Xiao, Jiafei Duan, Harold Soh"
+    },
+    {
+        "Order": 3,
+        "Title": "3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 119,
+        "Authors": "Yanjie Ze, Gu Zhang, Kangning Zhang, Chenyuan Hu, Muhan Wang, Huazhe Xu"
+    },
+    {
+        "Order": 4,
+        "Title": "HRP: Human affordances for Robotic Pre-training",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 120,
+        "Authors": "Mohan Kumar Srirama, Sudeep Dasari, Shikhar Bahl, Abhinav Gupta"
+    },
+    {
+        "Order": 5,
+        "Title": "MIRAGE: Cross-Embodiment Zero-Shot Policy Transfer with Cross-Painting",
+        "Location": "Commissiekamer 2",
+        "PosterBoardNr": 209,
+        "Authors": "Lawrence Yunliang Chen, Karthik Dharmarajan, Kush Hari, Chenfeng Xu, Quan Vuong, Ken Goldberg"
+    },
+    {
+        "Order": 6,
+        "Title": "Broadcasting Support Relations Recursively from Local Dynamics for Object Retrieval in Clutters",
+        "Location": "Commissiekamer 2",
+        "PosterBoardNr": 210,
+        "Authors": "Yitong Li, Ruihai Wu, Haoran Lu, Chuanruo Ning, Yan Shen, Guanqi Zhan, Hao Dong"
+    },
+    {
+        "Order": 7,
+        "Title": "Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 309,
+        "Authors": "Aaditya Prasad, Kevin Lin, Jimmy Wu, Linqi Zhou, Jeannette Bohg"
+    },
+    {
+        "Order": 8,
+        "Title": "CLOSURE: Fast Quantification of Pose Uncertainty Sets",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 310,
+        "Authors": "Yihuai Gao, Yukai Tang, Han Qi, Heng Yang"
+    }
+]

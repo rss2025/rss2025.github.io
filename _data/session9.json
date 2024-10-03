@@ -1,0 +1,58 @@
+[
+    {
+        "Order": 1,
+        "Title": "Rethinking Robustness Assessment: Adversarial Attacks on Learning-based Quadrupedal Locomotion Controllers",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 113,
+        "Authors": "Fan Shi, Chong Zhang, Takahiro Miki, Joonho Lee, Marco Hutter, Stelian Coros"
+    },
+    {
+        "Order": 2,
+        "Title": "Advancing Humanoid Locomotion: Mastering Challenging Terrains with Denoising World Model Learning",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 114,
+        "Authors": "Xinyang Gu, Yen-Jen Wang, Xiang Zhu, Chengming Shi, Yanjiang Guo, Yichen Liu, Jianyu Chen"
+    },
+    {
+        "Order": 3,
+        "Title": "Agile But Safe: Learning Collision-Free High-Speed Legged Locomotion",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 115,
+        "Authors": "Tairan He, Chong Zhang, Wenli Xiao, Guanqi He, Changliu Liu, Guanya Shi"
+    },
+    {
+        "Order": 4,
+        "Title": "RL2AC: Reinforcement Learning-based Rapid Online Adaptive Control for Legged Robot Robust Locomotion",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 116,
+        "Authors": "Shangke Lyu, Xin Lang, Han Zhao, Hongyin Zhang, Pengxiang Ding, Donglin Wang"
+    },
+    {
+        "Order": 5,
+        "Title": "HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation",
+        "Location": "Commissiekamer 2",
+        "PosterBoardNr": 207,
+        "Authors": "Carmelo Sferrazza, Dun-Ming Huang, Xingyu Lin, Youngwoon Lee, Pieter Abbeel"
+    },
+    {
+        "Order": 6,
+        "Title": "MOKA: Open-Set Robotic Manipulation through Mark-Based Visual Prompting",
+        "Location": "Commissiekamer 2",
+        "PosterBoardNr": 208,
+        "Authors": "Kuan Fang, Fangchen Liu, Pieter Abbeel, Sergey Levine"
+    },
+    {
+        "Order": 7,
+        "Title": "Collaborative Planar Pushing of Polytopic Objects with Multiple Robots in Complex Scenes",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 307,
+        "Authors": "Zili Tang, Yuming Feng, Meng Guo"
+    },
+    {
+        "Order": 8,
+        "Title": "AutoMate: Specialist and Generalist Assembly Policies over Diverse Geometries",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 308,
+        "Authors": "Bingjie Tang, Iretiayo Akinola, Jie Xu, Bowen Wen, Ankur Handa, Karl Van Wyk, Dieter Fox, Gaurav S. Sukhatme, Fabio Ramos, Yashraj Narang"
+    }
+]

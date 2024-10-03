@@ -1,0 +1,58 @@
+[
+    {
+        "Order": 1,
+        "Title": "POLICEd RL: Learning Closed-Loop Robot Control Policies with Provable Satisfaction of Hard Constraints",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 113,
+        "Authors": "Jean-Baptiste Bouvier, Kartik Nagpal, Negar Mehr"
+    },
+    {
+        "Order": 2,
+        "Title": "Demonstrating Language-Grounded Motion Controller",
+        "Location": "see demo schedule",
+        "PosterBoardNr": "",
+        "Authors": "Ravi Tejwani, Chengyuan Ma, Paco Gomez-Paz, Paolo Bonato, Haruhiko Asada"
+    },
+    {
+        "Order": 3,
+        "Title": "VLMPC: Vision-Language Model Predictive Control for Robotic Manipulation",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 114,
+        "Authors": "Wentao Zhao, Jiaming Chen, Ziyu Meng, DonghuiMao, Ran Song, Wei Zhang"
+    },
+    {
+        "Order": 4,
+        "Title": "Expressive Whole-Body Control for Humanoid Robots",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 115,
+        "Authors": "Xuxin Cheng, Yandong Ji, Junming Chen, Ruihan Yang, Ge Yang, Xiaolong Wang"
+    },
+    {
+        "Order": 5,
+        "Title": "From Compliant to Rigid Contact Simulation: a Unified and Efficient Approach",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 116,
+        "Authors": "Justin Carpentier, Quentin Le Lidec, Louis Montaut"
+    },
+    {
+        "Order": 6,
+        "Title": "MPCC++: Model Predictive Contouring Control for Time-Optimal Flight with Safety Constraints",
+        "Location": "Commissiekamer 2",
+        "PosterBoardNr": 207,
+        "Authors": "Maria Krinner, Angel Romero, Leonard Bauersfeld, Melanie Zeilinger, Andrea Carron, Davide Scaramuzza"
+    },
+    {
+        "Order": 7,
+        "Title": "Linear-time Differential Inverse Kinematics: an Augmented Lagrangian Perspective",
+        "Location": "Commissiekamer 2",
+        "PosterBoardNr": 208,
+        "Authors": "Bruce Wingo, Ajay Suresha Sathya, Stéphane Caron, Seth Hutchinson, Justin Carpentier"
+    },
+    {
+        "Order": 8,
+        "Title": "A Trajectory Tracking Algorithm for the LSMS Family of Cable-Driven Cranes",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 307,
+        "Authors": "Javier Puig-Navarro, Dominic R Bisio, John E Pye, Yotam Granov, Joshua N Moser, Jessica S. Friz, Walter J Waltz, Julia E Cline, B. Danette Allen"
+    }
+]

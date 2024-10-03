@@ -1,0 +1,59 @@
+[
+    {
+      "Order": 1,
+      "Title": "Khronos: A Unified Approach for Spatio-Temporal Metric-Semantic SLAM in Dynamic Environments",
+      "Location": "Senaatzaal",
+      "PosterBoardNr": 110,
+      "Authors": "Lukas Schmid, Marcus Abate, Yun Chang, Luca Carlone"
+    },
+    {
+      "Order": 2,
+      "Title": "Demonstrating Agile Flight from Pixels without State Estimation",
+      "Location": "see demo schedule",
+      "PosterBoardNr": null,
+      "Authors": "Ismail Geles, Leonard Bauersfeld, Angel Romero, Jiaxu Xing, Davide Scaramuzza"
+    },
+    {
+      "Order": 3,
+      "Title": "You’ve Got to Feel It To Believe It: Multi-Modal Bayesian Inference for Semantic and Property Prediction",
+      "Location": "Senaatzaal",
+      "PosterBoardNr": 111,
+      "Authors": "Parker Ewen, Hao Chen, Yuzhen Chen, Anran Li, Anup Bagali, Gitesh Gunjal, Ram Vasudevan"
+    },
+    {
+      "Order": 4,
+      "Title": "AnyFeature-VSLAM: Automating the Usage of Any Feature into Visual SLAM",
+      "Location": "Senaatzaal",
+      "PosterBoardNr": 112,
+      "Authors": "Alejandro Fontan, Javier Civera, Michael Milford"
+    },
+    {
+      "Order": 5,
+      "Title": "iMESA: Incremental Distributed Optimization for Collaborative Simultaneous Localization and Mapping",
+      "Location": "Commissiekamer 2",
+      "PosterBoardNr": 205,
+      "Authors": "Daniel McGann, Michael Kaess"
+    },
+    {
+      "Order": 6,
+      "Title": "Scalable Distance-based Multi-Agent Relative State Estimation via Block Multiconvex Optimization",
+      "Location": "Commissiekamer 2",
+      "PosterBoardNr": 206,
+      "Authors": "Tianyue Wu, Fei Gao"
+    },
+    {
+      "Order": 7,
+      "Title": "Experience-based multi-agent path finding with narrow corridors",
+      "Location": "Commissiekamer 3",
+      "PosterBoardNr": 305,
+      "Authors": "Rachel A Moan, Courtney McBeth, Marco Morales, Nancy Amato, Kris Hauser"
+    },
+    {
+      "Order": 8,
+      "Title": "Event-based Visual Inertial Velometer",
+      "Location": "Commissiekamer 3",
+      "PosterBoardNr": 306,
+      "Authors": "Xiuyuan LU, Yi Zhou, Junkai Niu, Sheng Zhong, Shaojie Shen"
+    }
+  ]
+  

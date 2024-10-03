@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Robotics: Science and Systems</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2021-10-01T09:56:17-05:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Wennie Tabib</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Paper Review Form</title>
+   <link href="http://localhost:4000/2019/12/04/review-form/"/>
+   <updated>2019-12-04T00:00:00-06:00</updated>
+   <id>http://localhost:4000/2019/12/04/review-form</id>
+   <content type="html">&lt;p&gt;Here is the paper review form for RSS 2020.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reviewer’s expertise: How well do you know the paper’s subject topics?&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ( Required )
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Briefly describe the paper and its contributions to robotics science and systems. You should attempt to re-express your paper’s position so clearly, vividly, and fairly that the authors say, “Thanks, I wish I’d thought of putting it that way.”&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;( Required, Visible To Authors After Decision Notification )
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;List any points of agreement (especially if they are not matters of general or widespread agreement).&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;( Required, Visible To Authors After Decision Notification )
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mention what you have learned from this paper.&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;( Required, Visible To Authors After Decision Notification )
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Quality Score: This score reflects your assessment of the overall quality of the paper.&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;( Required, Visible To Authors Only Decision Notification )
+
+Excellent (among the most interesting papers you have read over the past year)
+Very Good (a solid paper that makes an important contribution)
+Good (a paper that has its flaws but makes a good contribution)
+Fair (a paper that is on its way to making a good contribution but not there yet)
+Poor (a paper that needs significant work)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Impact: This work is different enough from typical submissions to potentially have a major impact on a subset of the robotics community&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;( Checkbox )
+( Required, Visible To Authors After Decision Notification )
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Explain your rating by discussing the strengths and weaknesses of the submission, contributions, and the potential impact of the paper. Include suggestions for improvement and publication alternatives, if appropriate. Be thorough. Be fair. Be courteous.&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;( Required, Visible To Authors After Decision Notification )
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You may enter private comments for the papers committee here. Please do not mention any other papers that are currently in review, or the names of people associated with these papers.&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;( Optional )
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Paper Format</title>
+   <link href="http://localhost:4000/2019/12/04/paper-format/"/>
+   <updated>2019-12-04T00:00:00-06:00</updated>
+   <id>http://localhost:4000/2019/12/04/paper-format</id>
+   <content type="html">&lt;p&gt;We only accept submissions in PDF. Submissions may be up to 8 pages in length, including figures but possibly excluding references. Additional pages can be used for references. However, the 9th page, and any subsequent pages, can contain ONLY references. This will be strictly enforced. Submissions can use a font no smaller than 10 point. Submissions violating these guidelines will not be considered. A paper template is available in &lt;a href=&quot;/docs/paper-template-latex.tar.gz&quot;&gt;Latex&lt;/a&gt; and &lt;a href=&quot;/docs/paper-template-word.zip&quot;&gt;Word&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Do not modify the formatting provided in the templates. Any change to font sizes, page dimensions, line spacing, etc. may delay the publication of your paper. Please do not include any additional markings such as &lt;i&gt;Draft&lt;/i&gt; or &lt;i&gt;To appear in…&lt;/i&gt; on the pages. Make sure your paper does not contain page numbers.&lt;/p&gt;
+
+&lt;p&gt;Submit a PDF-format paper. We do not accept papers submitted after the deadline no matter what the reason is, so please check on your ability to convert to PDF early. Delays in the production of proceedings are usually caused by PDF file submissions that do not embed all fonts. Please follow the below instructions to ensure that your PDF document will not suffer from this problem.&lt;/p&gt;
+
+&lt;p&gt;When preparing your document in LateX, make sure to create the PDF file from your LateX source by use of these commands:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;latex&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;paper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tex&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;dvips&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;paper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dvi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;paper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ps&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;letter&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Ppdf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;G0&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;ps2pdf&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;paper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ps&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The arguments provided to dvips will ensure that all fonts are embedded in the PDF file produced by ps2pdf.
+Before submitting your PDF file, please open it in Acrobat Reader. In the File menu under Document Properties, you will find information on the fonts used by your document. The PDF file should only contain Type-1 fonts (and Embedded True Type fonts if prepared under Word). If you correctly followed the instructions above but your document contains other types of fonts, then these may have been included as part of your figures. Again, please ensure that your submission contains only Type-1 or Embedded True Type fonts and not Type-3 fonts.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Multiple Submissions</title>
+   <link href="http://localhost:4000/2019/12/04/multiple-submissions/"/>
+   <updated>2019-12-04T00:00:00-06:00</updated>
+   <id>http://localhost:4000/2019/12/04/multiple-submissions</id>
+   <content type="html">&lt;p&gt;Submissions that are identical (or substantially similar) to versions that have been previously published, or accepted for publication, or that have been submitted in parallel to other conferences are not appropriate for RSS and violate our dual submission policy.&lt;/p&gt;
+
+&lt;p&gt;Exceptions to this rule are the following:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Submission is permitted of a short version of a paper that has been submitted to a journal, but has not yet been published in that journal. Authors must declare such dual-submissions either through the paper upload submission form, or via email to the program chair. It is the authors’ responsibility to make sure that the journal in question allows dual concurrent submissions to conferences.&lt;/li&gt;
+  &lt;li&gt;Submission is permitted for papers presented or to be presented at conferences or workshops without proceedings, or with only abstracts published.&lt;/li&gt;
+  &lt;li&gt;It is acceptable to submit to RSS work that has been made available as a technical report (or similar, e.g. in arXiv) without citing it.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;None of the above should be construed as overriding the requirements of other publishing venues. In addition, keep in mind that author anonymity to RSS reviewers might be compromised for authors availing themselves of exceptions 2 and 3.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Guidelines for Double Blind Submissions</title>
+   <link href="http://localhost:4000/2019/12/04/double-blind/"/>
+   <updated>2019-12-04T00:00:00-06:00</updated>
+   <id>http://localhost:4000/2019/12/04/double-blind</id>
+   <content type="html">&lt;p&gt;Double Blind reviewing requires that the paper reviewers should not know the names or affiliation of the paper authors. This is desirable to remove any possible or perceived bias toward a paper on non technical grounds. However, in practice this is difficult to achieve in full as descriptions of background material or experiments, which are essential to the technical content of the paper, often give a clear indication to knowledgeable reviewers of the likely source of the paper. RSS 2020 will try to adopt a pragmatic approach to double blind reviewing in which authors are encouraged to hide identity without unduly affecting the quality or import of their submission.&lt;/p&gt;
+
+&lt;p&gt;The following general principles should be applied in submissions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Authors names and affiliations should not be cited in the title or text of the submission.&lt;/li&gt;
+  &lt;li&gt;Acknowledgments to people or funding agencies should not appear in the submission.&lt;/li&gt;
+  &lt;li&gt;Citing of web links to the authors or author’s institute should be avoided.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In self citing authors previous work, avoid expressions such as “In the authors earlier work…”, rather use alternative expressions such as “In previous work…” or “In related work…”, in a manner that does not distinguish their own work from the work of others. Authors should otherwise cite work, including their own, as required for the completeness of the submission.&lt;/p&gt;
+
+&lt;p&gt;In presentation of experimental work, avoid logos in pictures, or overt references to an individual laboratory. Use expressions such as “The experimental equipment…” rather than “The University of XYZ’s Robby the Robot…”. Otherwise authors should include photographs, graphics and other presentation material as in the normal manner for a paper submission.&lt;/p&gt;
+
+&lt;p&gt;In general authors should avoid obviously attributable self-references while ensuring that the paper is complete, makes appropriate citations of related work and fully describes the contributions made.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

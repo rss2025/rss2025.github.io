@@ -1,0 +1,58 @@
+[
+    {
+        "Order": 1,
+        "Title": "AutoGPT+P: Affordance-based Task Planning using Large Language Models",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 117,
+        "Authors": "Timo Birr, Christoph Pohl, Abdelrahman Younes, Tamim Asfour"
+    },
+    {
+        "Order": 2,
+        "Title": "Implicit Graph Search for Planning on Graphs of Convex Sets",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 118,
+        "Authors": "Ramkumar Natarajan, Chaoqi Liu, Howie Choset, Maxim Likhachev"
+    },
+    {
+        "Order": 3,
+        "Title": "Real-Time Anomaly Detection and Reactive Planning with Large Language Models",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 119,
+        "Authors": "Rohan Sinha, Amine Elhafsi, Christopher Agia, Matt Foutter, Edward Schmerling, Marco Pavone"
+    },
+    {
+        "Order": 4,
+        "Title": "iHERO: Interactive Human-oriented Exploration and Supervision Under Scarce Communication",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 120,
+        "Authors": "Zhuoli Tian, Yuyang Zhang, Jinsheng Wei, Meng Guo"
+    },
+    {
+        "Order": 5,
+        "Title": "Who Plays First? Optimizing the Order of Play in Stackelberg Games with Many Robots",
+        "Location": "Commissiekamer 2",
+        "PosterBoardNr": 209,
+        "Authors": "Haimin Hu, Gabriele Dragotto, Zixu Zhang, Kaiqu Liang, Bartolomeo Stellato, Jaime Fernández Fisac"
+    },
+    {
+        "Order": 6,
+        "Title": "Goal-Reaching Trajectory Design Near Danger with Piecewise Affine Reach-avoid Computation",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 308,
+        "Authors": "Long Kiu Chung, Wonsuhk Jung, Chuizheng Kong, Shreyas Kousik"
+    },
+    {
+        "Order": 7,
+        "Title": "Partially Observable Task and Motion Planning with Uncertainty and Risk Awareness",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 309,
+        "Authors": "Aidan Curtis, George Matheos, Nishad Gothoskar, Vikash Mansinghka, Joshua B. Tenenbaum, Tomás Lozano-Pérez, Leslie Pack Kaelbling"
+    },
+    {
+        "Order": 8,
+        "Title": "Logic-Skill Programming: An Optimization-based Approach to Sequential Skill Planning",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 310,
+        "Authors": "Teng Xue, Amirreza Razmjoo, Suhan Shetty, Sylvain Calinon"
+    }
+]

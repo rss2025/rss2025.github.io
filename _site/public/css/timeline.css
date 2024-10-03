@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+section#timeline {
+  width: 100%;
+  margin: 20px auto;
+  position: relative;
+}
+section#timeline:before {
+  content: '';
+  position: absolute;
+  left: 10%;
+  top: 0;
+  margin: 0 0 0 -1px;
+  width: 2px;
+  height: 100%;
+  background: grey;
+}
+section#timeline article {
+  width: 100%;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+section#timeline article:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+section#timeline article div.inner {
+  width: 80%;
+  float: left;
+  margin: 0 0 0 140px;
+  border-radius: 6px;
+}
+section#timeline article div.inner span.date {
+  display: block;
+  width: 80px;
+  height: 60px;
+  padding: 6px 0;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  font-size: 75%;
+  font-weight: bold;
+  margin: 0 0 0 -40px;
+  background: white;
+  border: 2px solid grey;
+  box-shadow: 0 0 0 7px white;
+  text-align: center;
+}

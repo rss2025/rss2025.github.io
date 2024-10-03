@@ -1,0 +1,51 @@
+[
+    {
+        "Order": 1,
+        "Title": "ConTac: Continuum-Emulated Soft Skinned Arm with Vision-based Shape Sensing and Contact-aware Manipulation",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 110,
+        "Authors": "Tuan Tai Nguyen, Quan Khanh Luu, Dinh Quang Nguyen, Van Ho"
+    },
+    {
+        "Order": 2,
+        "Title": "Function Based Sim-to-Real Learning for Shape Control of Deformable Free-form Surfaces",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 111,
+        "Authors": "Yingjun Tian, Guoxin Fang, Renbo Su, Weiming Wang, Simeon Gill, Andrew Weightman, Charlie C. L. Wang"
+    },
+    {
+        "Order": 3,
+        "Title": "Safe & Accurate at Speed with Tendons: A Robot Arm for Exploring Dynamic Motion",
+        "Location": "Senaatszaal",
+        "PosterBoardNr": 112,
+        "Authors": "Simon Guist, Jan Schneider, Hao Ma, Le Chen, Vincent Berenz, Julian Martus, Heiko Ott, Felix Grüninger, Michael Muehlebach, Jonathan Fiene, Bernhard Schölkopf, Dieter Büchler"
+    },
+    {
+        "Order": 4,
+        "Title": "Evolution and learning in differentiable robots",
+        "Location": "Commissiekamer 2",
+        "PosterBoardNr": 205,
+        "Authors": "Luke Strgar, David Matthews, Tyler Hummer, Sam Kriegman"
+    },
+    {
+        "Order": 5,
+        "Title": "Construction of a Multiple-DOF Underactuated Gripper with Force-Sensing via Deep Learning",
+        "Location": "Commissiekamer 2",
+        "PosterBoardNr": 206,
+        "Authors": "Jihao Li, Keqi Zhu, Guodong Lu, I-Ming Chen, HUIXU DONG"
+    },
+    {
+        "Order": 6,
+        "Title": "A Single Motor Nano Aerial Vehicle with Novel Peer-to-Peer Communication and Sensing Mechanism",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 305,
+        "Authors": "Jingxian Wang, Andrew G. Curtis, Mark Yim, Michael Rubenstein"
+    },
+    {
+        "Order": 7,
+        "Title": "Design and Control of a Bipedal Robotic Character",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 306,
+        "Authors": "Ruben Grandia, Espen Knoop, Michael A. Hopkins, Georg Wiedebach, Jared Bishop, Steven Pickles, David Müller, Moritz Bächer"
+    }
+]

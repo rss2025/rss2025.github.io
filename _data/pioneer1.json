@@ -1,0 +1,52 @@
+[
+    {
+        "Title": "Pioneer 1",
+        "Location": "Senaatzaal",
+        "PosterBoardNr": 105
+    },
+    {
+        "Title": "Pioneer 2",
+        "Location": "Senaatzaal",
+        "PosterBoardNr": 106
+    },
+    {
+        "Title": "Pioneer 3",
+        "Location": "Senaatzaal",
+        "PosterBoardNr": 107
+    },
+    {
+        "Title": "Pioneer 4",
+        "Location": "Senaatzaal",
+        "PosterBoardNr": 108
+    },
+    {
+        "Title": "Pioneer 5",
+        "Location": "Senaatzaal",
+        "PosterBoardNr": 109
+    },
+    {
+        "Title": "Pioneer 6",
+        "Location": "Commissiekamer 2",
+        "PosterBoardNr": 203
+    },
+    {
+        "Title": "Pioneer 7",
+        "Location": "Commissiekamer 2",
+        "PosterBoardNr": 204
+    },
+    {
+        "Title": "Pioneer 8",
+        "Location": "Commissiekamer 2",
+        "PosterBoardNr": 205
+    },
+    {
+        "Title": "Pioneer 9",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 303
+    },
+    {
+        "Title": "Pioneer 10",
+        "Location": "Commissiekamer 3",
+        "PosterBoardNr": 304
+    }
+]

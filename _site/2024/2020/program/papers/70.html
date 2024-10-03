@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Facebook images -->
+  <meta property="og:image" content="/images/rss_2020.png"/>
+
+  <title>
+    
+      Learning of Sub-optimal Gait Controllers for Magnetic Walking Soft Millirobots &middot; Robotics: Science and Systems
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66594011-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="../../public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="../../atom.xml">
+
+</head>
+
+  <body>
+    <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <a href="../../index.html">
+                    <img style="text-align:center" src="../../images/rsslogotext-white.png" width="100%">
+                        </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-11 col-xs-12 col-lg-offset-4 col-md-offset-2 col-sm-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" style="margin-top: 10px; text-align: center;"
+                        href="../../index.html">RSS 2020</a>
+                    <a class="navbar-brand hidden-xs"
+                        href="../../index.html">RSS 2020</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="70.html#">home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--li><a href="/blog/">Latest</a></li-->
+                                <li><a href="http://www.roboticsproceedings.org/">Previous Proceedings</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="70.html#">attending<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/info/index.html">Instructions for Conference Attendees</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/registration/index.html">Registration</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/inclusion/index.html">Inclusion@RSS</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/pioneers/index.html">RSS Pioneers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="70.html#">committees<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/organizers/index.html">Organizing Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/pc/index.html">Program Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/foundation/index.html">RSS Foundation</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="70.html#">information<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/authorinfo/index.html">Author Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfp/index.html">Call for Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/callForParticipation/index.html">Call for Participation</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfw/index.html">Call for Workshops</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/studentHelpers/index.html">Information for Student Helpers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/sponsorship/index.html">Sponsors</a></li>
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="70.html#">program<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../detailed/index.html">Detailed Program</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../awards/index.html">Paper Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../keynote/index.html">Keynote Talk</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../testoftimeaward/index.html">Test of Time Award</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../careerawards/index.html">Early Career Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../papers.html">Accepted Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../workshops/index.html">Workshops</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-lg-offset-1 hidden-xs hidden-sm text-right" id="sidebar"/>
+<!-- No sidebar on small screens -->
+<a class="sidebar-nav-item" href="../../index.html">Home</a>
+<!--br>
+ <a class="sidebar-nav-item" href="/blog/">Latest</a-->
+<br>
+<a class="sidebar-nav-item" href="http://www.roboticsproceedings.org/">RSS Proceedings</a>
+<br>
+
+<br>
+
+
+
+<b>attending</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/info/index.html">Instructions for Conference Attendees</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/registration/index.html">Registration</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/inclusion/index.html">Inclusion@RSS</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/pioneers/index.html">RSS Pioneers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>committees</b>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/organizers/index.html">Organizing Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/pc/index.html">Program Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/foundation/index.html">RSS Foundation</a>
+<br>
+
+
+
+<br>
+
+
+
+<b>information</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/authorinfo/index.html">Author Information</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfp/index.html">Call for Papers</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/callForParticipation/index.html">Call for Participation</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfw/index.html">Call for Workshops</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/studentHelpers/index.html">Information for Student Helpers</a>
+<br>
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/sponsorship/index.html">Sponsors</a>
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<b>program</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../detailed/index.html">Detailed Program</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../awards/index.html">Paper Awards</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../keynote/index.html">Keynote Talk</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../testoftimeaward/index.html">Test of Time Award</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../careerawards/index.html">Early Career Awards</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../papers.html">Accepted Papers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../workshops/index.html">Workshops</a>
+<br>
+
+
+
+<br>
+
+
+<b>follow us</b>
+<br>
+<a href="https://twitter.com/RoboticsSciSys"><i class="fa fa-twitter"></i> Twitter </a>
+<br>
+<a href="https://www.facebook.com/RoboticsSciSys"><i class="fa fa-facebook"></i>  Facebook  </a>
+<br>
+
+</div>
+
+        <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+          <div class="page">
+  <h3 class="page-title">Learning of Sub-optimal Gait Controllers for Magnetic Walking Soft Millirobots</h1>
+  <br/>
+  <p style="color:black; font-size: 120%; text-align: center;"><em><a href="https://utkuculha.com/">Utku Culha</a>,  <a href="https://pi.is.mpg.de/person/sinandemir">Sinan Ozgun Demir</a>,  <a href="https://ics.is.mpg.de/person/strimpe">Sebastian Trimpe</a>,  <a href="https://pi.is.mpg.de/person/sitti">Metin Sitti</a></em></p>
+
+<table width="30%"> <tr>
+<td style="width: 20%; text-align: center;"><a href="http://www.roboticsproceedings.org/rss16/p070.pdf"><img src="../../images/paper_link.png" width="50" height="60" /> </a> </td>
+
+<td style="width: 20%; text-align: center;"><a href="https://utkuculha.com/wp-content/uploads/2020/06/RSS_Supplementary_Video1.mp4"><img src="../../images/video_link.png" width="50" height="60" /> </a> </td>
+
+<td style="width: 20%; text-align: center;"><a href="https://utkuculha.com/wp-content/uploads/2020/06/RSS_Supplementary_Video2.mp4"><img src="../../images/video_link.png" width="50" height="60" /> </a> </td>
+
+<td style="width: 20%; text-align: center;"><a href="https://utkuculha.com/wp-content/uploads/2020/06/RSS_Supplementary_Video3.mp4"><img src="../../images/video_link.png" width="50" height="60" /> </a> </td>
+
+</tr></table>
+
+<h3 id="abstract">Abstract</h3>
+<html><p style="color:gray; font-size: 100%; text-align: justified;">
+Untethered small-scale soft robots have promising applications in minimally invasive surgery, targeted drug delivery, and bioengineering applications as they can access confined spaces in the human body. However, due to highly nonlinear soft continuum deformation kinematics, inherent variability during fabrication on the miniature scale, and lack of accurate models, the conventional control methods cannot be easily applied. Adaptivity of the robot control is additionally crucial for medical operations, as operation environments show large variability and robot materials may degrade or change over time, which would have deteriorating factors on the robot motion and task performance. In this work, we propose using a probabilistic learning approach for millimeter-scale magnetic walking soft robots using Bayesian optimization (BO) and Gaussian processes (GPs). Our approach provides a data-efficient learning scheme to find controller parameters while optimizing the stride length performance of the walking soft millirobot. We demonstrate adaptation to fabrication variabilities and different walking surfaces by adopting our controller learning system to three robots within a small number of physical experiments. 
+</p></html>
+
+<h3 id="live-paper-discussion-information">Live Paper Discussion Information</h3>
+<html>
+<table width="50%">
+<tr> <th rowspan="2"><a href="https://pheedloop.com/rss2020/virtual/#session_gdDiyF"><img src="../../images/pheedloop_link.png" width="70" height="70" /> </a> </th> <th> Start Time </th> <th> End Time </th> </tr>
+<tr> <td> 07/16 15:00 UTC </td><td> 07/16 17:00 UTC </td></tr>
+</table> <br /> </html>
+<h3 id="virtual-conference-presentation">Virtual Conference Presentation</h3>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/eZbyL_jNjn4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="paper-reviews">Paper Reviews</h3>
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 2</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+The work has an excellent motivation, meaningful problem statement and goal. The scope of the work is clear, and it is refreshing to read a paper which so clearly articulates what exactly is being studied (and what aspects of the work are not being claimed as novel). 
+There is a clear need for this type of result in the micro-robotics community. This data-driven approach nicely complements the recent state of the art advances in microrobotic fabrication and control, which are primarily guided by physics-based models. This work studies whether a data-driven approach could yield a better controller for one particular gait of walking for a flexible magnetic sheet. The authors wisely choose to study the exact device already published in several works, which allows them to make fair comparisons in a meaningful and helpful way to the community. 
+I think this type of approach should be adopted as an additional tool for the micro-robotics community, which (unlike most sub-fields in robotics) thus far mostly avoided the use of ML techniques for design and control. The authors have accurately captured the micro-robotics specific data collection challenge here, and so I see this work as being very valuable for the community. While a physics-based approach will likely continue to play a dominant role in micro-robotics research approach, publications such as this one will help the community evaluate the value of data-driven approaches.
+
+The primary thesis of this work is that due to a large search space (four controller parameters over a continuum of values), it is not feasible to experimentally evaluate the entire search space to find the optimal control inputs. Logically, this motivates the use of Bayesian optimization. However, the paper does not explicitly test the thesis, which would require the authors to test a "brute force" search over the search space in a random or systematic manner (with the same 20x3=60 experiments). I presume that doing so would result in a poorer stride length than the BO method, but it would allow you to more directly claim the success of the method.
+
+Comments on the paper:
+A reader of this paper likely needs to be familiar with Bayesian optimization and Guassian process method to understand the paper fully because the methods are only explained briefly. Given that the most valuable target audience of this work may be the micro-roboticists who thus far have shied away from data-driven methods, those people may not have the background needed to read the paper. My suggestion for this paper to have maximum impact would be to include some additional basic descriptions of the algorithms used to "hold the hand" of the reader in section III. 
+The primary result of the paper is not stated in the abstract.
+The authors interchangeably use the terms millirobot and miniature robot. It might be clearer to choose one.
+On page 3, it is stated that there are 203,520 possible parameter sets. This is an arbitrary number dependent on the step sizes, which are not stated. Can you make a more disciplined argument for a particular step size based on the expected sensitivity to each parameter in the observed data?
+The results of Table 1 show that robot 2 gets a better stride length without the prior! This is counter to the claims made throughout the discussion section which claim that the prior always helps.
+Figure 7: is the vertical axis the stride length, or the improvement in stride length?
+The Conclusions section of the paper is summarizing and re-stating claims that are already made elsewhere. It does not add value to the paper and should be removed.
+
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 3</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+## 1. General feel:
+The authors adopt a method for manufacturing millimiter-scale "millirobots" that are activated using an external field, and then apply Bayesian Optimization to determine a suitable parameter set from a search space containing four free variables.
+
+The motivation seems reasonable, namely to improve the locomotive efficiency of such a robot.
+
+However, I question the approach and the results. Major comments:
+1. Why Bayesian Optimization? There are numerous other possible algorithms for optimizing robot gaits, including "Intelligent Trial-and-Error" [1], genetic algorithms [2, 3], policy gradients [4], and many others throughout various areas of robotics.
+2. Why is your data so noisy? The paper you are using as your benchmark (reference [27 of submission 1301], specifically the most-relevant section on walking P 49-54 of the supplementary information, but also for other gait classes) has much lower noise than e.g. your Fig. 4, 5, 7. 
+- Related, you report many values as "X +/- Y" without stating the width of this confidence interval. Is that one SD? 95% CI? etc.
+- Related, did you report the benchmarks' actual mean and variance, or are the reported "benchmarks" the values obtained on your hardware with their parameters (by assumption, you are referring to the parameters in Fig. S13 on Page 49 of the supplementary information of [27 of submission 1301])?
+3. The data noise puts into further question the utility of the reported results.
+
+Combining the points in item 2 and 3 above, it is unclear what p-values you use for drawing conclusions. Thus, even though you might actually have presented significant improvements and simply  have issues with your specific hardware manufacturing setup, it is unclear how others can benefit from and build upon these reported results.
+
+
+
+## 2. Technical merit, etc.:
+I'll reference the text as p[page in manuscript = PDF page -1].[lines]
+
+p1 The claim "safe human, which are hard to achieve using conventional rigid materials" is misleading. Collision avoidance is a well-developed field, including quite impressive results even dating back to, for one of many examples, 2012 [5]
+p1 "However, these controllers typically depend on the continuous sensing of symmetric body deformations and computationally heavy model solutions" ... what does this mean?
+p1 The tasks mentioned in the end of the second paragraph are not unique to medical robotics.
+"Soft mobile robots targeting medical applications have further constraints such as the dynamic task environment, complex deformation kinematics, fabrication-dependent performance variations, and actuation/sensing limitations, which require adaptive and data-efficient control methods [14]."
+p2 How much does restricting alpha affect the results? This could be an interesting study: finding the marginal contribution of each parameter, and which ranges are useful.
+p3 "In addition to the virtual infinite degrees of freedom inherited by the soft materials, the controller parameters existed in a continuous space, making an exhaustive manual search using physical experiments impractical." This is nonsense. Doing grid search or some guided binary search should reduce the number of experiments to a manageable number. This should be compared to the proposed GP method. Furthermore, design of experiments is a well-developed field, and might provide further insight. Not to mention other methods like PSO, gradient descent, etc., that could be adapted, in addition to the algorithms mentioned in my comments above (references [1,2,3,4]).
+p3 "The magnetic soft millirobots in our paper do not have an inverse kinematic (see Fig. 2b) or dynamics model that would allow us to run a systematic numerical analysis to find the control parameters for the optimum stride length performance." While this is partially true, it is severely downplaying the extensive characterization, theoretical analysis (definitely incomplete, but still more than the authors of submission 1301 would make it seem) and data available in [27 of submission 1301].
+p3 "Therefore, following the arguments in [27], α1 and α2 are limited to [10 - 50]° and [40 - 80]° respectively." What arguments? State briefly.
+p3-4 Please explain what the primes ' and asterisks * mean when applied to your variables. I interpret ' as transpose, but subtracting \theta^' from \theta results in a dimension mismatch for a vector \theta and previously you say it is describing a 1-D case.
+p4 "The center of the uniform magnetic field coincides with the center of the test environment and has a size of 40 mm3" Is it 40 mm edge length, or 40 mm3 total volume?
+p4 If you colored the x'es with the same color scheme (maybe with a black outline), it might make it easier to interpret the error. Currently it is unclear how effective the regression is in this parameter plane.
+p5 The experimental design seems unjustified/random. WHy 18 trials, then 38, then 17, then 50 for each treatment?
+p6 Table 1 Are these variances plus minus 40, or variances *of the mean*? 0.4 seems lower than what your data suggest (e.g. Fig. 4,5)
+p7 "Also, the kinematic models of the small-scale robots can be improved by utilizing the constant curvature (CC) approximations [10] and finite element analysis (FEA) methods [11]." What about the analytic solutions presented in [27 of submission 1301]?
+
+
+[1] A. Cully, J. Clune, D. Tarapore, and J.-B. Mouret, “Robots that can adapt like animals,” Nature, vol. 521, no. 7553, pp. 503–507, May 2015, doi: 10.1038/nature14422.
+[2]S. Kriegman, S. Walker, D. Shah, M. Levin, R. Kramer-Bottiglio, and J. Bongard, “Automated shapeshifting for function recovery in damaged robots,” in Robotics: Science and Systems, Freiburg im Breisgau, Germany, 2019.
+[3]C. Paul, F. J. Valero-Cuevas, and H. Lipson, “Design and control of tensegrity robots for locomotion,” IEEE Transactions on Robotics, vol. 22, no. 5, pp. 944–957, Oct. 2006, doi: 10.1109/TRO.2006.878980.
+[4]F. Sehnke, C. Osendorfer, T. Rückstieß, A. Graves, J. Peters, and J. Schmidhuber, “Parameter-exploring policy gradients,” Neural Networks, vol. 23, no. 4, pp. 551–559, May 2010, doi: 10.1016/j.neunet.2009.12.004.
+[5]F. Flacco, T. Kröger, A. D. Luca, and O. Khatib, “A depth space approach to human-robot collision avoidance,” in 2012 IEEE International Conference on Robotics and Automation, 2012, pp. 338–345, doi: 10.1109/ICRA.2012.6225245.
+
+
+## 3. Comments on Multimedia (Videos, etc.)
++ scale bar
++ consistent sizing and viewing angle
+- lighting (video 1 is appropriate, Video 2 is darker, video 3 is very dark)
+- None of the video speeds make sense, which diminishes the value of the multimedia.
+    Video 1 has different speeds, and it is unclear why each speed was chosen. For example, why speed up the top row? It already appears jumpy, and speeding it up just makes it look more jumpy. For clarity, I recommend putting all gaits on the same 1x speed, since none of the speed adjustments appear justified.
+    The difference in speed between video 1 and 2 is confusing to compare "optimal" with the others
+    Video 2 should have all robots at the same speed in order for the comparison to be more meaningful.
+
+    Same comment for Video 3. Why did you slow down the parameters which were optimized for the smooth surface? It seems if you're trying to compare the parameters that were optimized for smooth vs. rough, on the same rough surface... that you'd put both at the same speed.
+</p> </details>
+
+<table width="100%"><tr><td style="width: 30%; text-align: center;"><a href="69.html"> <img src="../../images/previous_icon.png" width="120" height="80" /> </a> </td>
+
+<td style="width: 30%; text-align: center;"><a href="../papers.html"> <img src="../../images/overview_icon.png" width="120" height="80" /> </a> </td> 
+
+<td style="width: 30%; text-align: center;"><a href="71.html"> <img src="../../images/next_icon.png" width="100" height="80" /> </a> </td> 
+
+</tr></table>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+[
+  {
+    "papernumber": 23,
+    "papertitle": "Demonstrating CropFollow++: Robust Under-Canopy Navigation with Keypoints",
+    "link": "https://roboticsconference.org/program/papers/23/",
+    "demoday": "Tuesday",
+    "demolocation": "van Hasseltzaal",
+    "time": "9:30-10:00; 12:00-13:30; 15:30-16:00; 18:00-18:30"
+  },
+  {
+    "papernumber": 17,
+    "papertitle": "Demonstrating Event-Triggered Investigation and Sample Collection for Human Scientists using Field Robots and Large Foundation Models",
+    "link": "https://roboticsconference.org/program/papers/17/",
+    "demoday": "Tuesday",
+    "demolocation": "van Hasseltzaal",
+    "time": "12:00-13:30; 15:30-16:00"
+  },
+  {
+    "papernumber": 47,
+    "papertitle": "Demonstrating Adaptive Mobile Manipulation in Retail Environments",
+    "link": "https://roboticsconference.org/program/papers/47/",
+    "demoday": "Tuesday & Wednesday",
+    "demolocation": "CoR-Lab",
+    "time": "12:00-13:30"
+  },
+  {
+    "papernumber": 82,
+    "papertitle": "Demonstrating Agile Flight from Pixels without State Estimation",
+    "link": "https://roboticsconference.org/program/papers/82/",
+    "demoday": "Tuesday & Wednesday",
+    "demolocation": "CoR-Lab",
+    "time": "12:00-13:30"
+  },
+  {
+    "papernumber": 29,
+    "papertitle": "Demonstrating HumanTHOR: A Simulation Platform and Benchmark for Human-Robot Collaboration in a Shared Workspace",
+    "link": "https://roboticsconference.org/program/papers/29/",
+    "demoday": "Wednesday",
+    "demolocation": "van Hasseltzaal",
+    "time": "9:30-10:00; 12:00-13:30; 15:30-16:00; 17:00-17:30"
+  },
+  {
+    "papernumber": 21,
+    "papertitle": "Demonstrating HOUND: A Low-cost Research Platform for High-speed Off-road Underactuated Nonholonomic Driving",
+    "link": "https://roboticsconference.org/program/papers/21/",
+    "demoday": "Wednesday",
+    "demolocation": "van Hasseltzaal",
+    "time": "9:30-10:00; 12:00-13:30; 15:30-16:00"
+  },
+  {
+    "papernumber": 14,
+    "papertitle": "Demonstrating Learning from Humans on Open-Source Dexterous Robot Hands",
+    "link": "https://roboticsconference.org/program/papers/14/",
+    "demoday": "Thursday",
+    "demolocation": "van Hasseltzaal",
+    "time": "9:30-10:00; 12:30-14:00; 15:00-15:30; 16:30-17:00"
+  },
+  {
+    "papernumber": 91,
+    "papertitle": "Demonstrating OK-Robot: What Really Matters in Integrating Open-Knowledge Models for Robotics",
+    "link": "https://roboticsconference.org/program/papers/91/",
+    "demoday": "Thursday",
+    "demolocation": "van Hasseltzaal",
+    "time": "(tentative) 9:30-10:00; 12:30-14:00; 15:00-15:30; 16:30-17:00"
+  },
+  {
+    "papernumber": 105,
+    "papertitle": "Demonstrating Language-Grounded Motion Controller",
+    "link": "https://roboticsconference.org/program/papers/105/",
+    "demoday": "Thursday",
+    "demolocation": "van Hasseltzaal",
+    "time": "12:30-14:00"
+  },
+  {
+    "papernumber": 74,
+    "papertitle": "Demonstrating Arena 3.0: Advancing Social Navigation in Collaborative and Highly Dynamic Environments",
+    "link": "https://roboticsconference.org/program/papers/74/",
+    "demoday": "Thursday",
+    "demolocation": "van Hasseltzaal",
+    "time": "9:30-10:00; 12:30-14:00; 15:00-15:30; 16:30-17:00"
+  }
+]

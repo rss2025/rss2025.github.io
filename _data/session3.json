@@ -1,0 +1,59 @@
+[
+    {
+      "Order": 1,
+      "Title": "Optimal Non-Redundant Manipulator Surface Coverage with Rank-Deficient Manipulability Constraints",
+      "Location": "Senaatzaal",
+      "PosterBoardNr": 115,
+      "Authors": "Tong Yang, Li Huang, Jaime Valls Miro, Yue Wang, Rong Xiong"
+    },
+    {
+      "Order": 2,
+      "Title": "AdaptiGraph: Material-Adaptive Graph-Based Neural Dynamics for Robotic Manipulation",
+      "Location": "Senaatzaal",
+      "PosterBoardNr": 116,
+      "Authors": "Kaifeng Zhang, Baoyu Li, Kris Hauser, Yunzhu Li"
+    },
+    {
+      "Order": 3,
+      "Title": "Human-oriented Representation Learning for Robotic Manipulation",
+      "Location": "Senaatzaal",
+      "PosterBoardNr": 117,
+      "Authors": "Mingxiao Huo, Mingyu Ding, Chenfeng Xu, Thomas Tian, Xinghao Zhu, Yao Mu, Lingfeng Sun, Masayoshi Tomizuka, Wei Zhan"
+    },
+    {
+      "Order": 4,
+      "Title": "Dynamic On-Palm Manipulation via Controlled Sliding",
+      "Location": "Commissiekamer 2",
+      "PosterBoardNr": 208,
+      "Authors": "William Yang, Michael Posa"
+    },
+    {
+      "Order": 5,
+      "Title": "Efficient Data Collection for Robotic Manipulation via Compositional Generalization",
+      "Location": "Commissiekamer 2",
+      "PosterBoardNr": 209,
+      "Authors": "Jensen Gao, Annie Xie, Ted Xiao, Chelsea Finn, Dorsa Sadigh"
+    },
+    {
+      "Order": 6,
+      "Title": "Demonstrating Learning from Humans on Open-Source Dexterous Robot Hands",
+      "Location": "see demo schedule",
+      "PosterBoardNr": null,
+      "Authors": "Kenneth Shaw, Ananye Agarwal, Shikhar Bahl, Mohan Kumar Srirama, Alexandre Kirchmeyer, Aditya Kannan, Aravind Sivakumar, Deepak Pathak"
+    },
+    {
+      "Order": 8,
+      "Title": "Reconciling Reality through Simulation: A Real-To-Sim-to-Real Approach for Robust Manipulation",
+      "Location": "Commissiekamer 3",
+      "PosterBoardNr": 307,
+      "Authors": "Marcel Torne Villasevil, Anthony Simeonov, Zechu Li, April Chan, Tao Chen, Abhishek Gupta, Pulkit Agrawal"
+    },
+    {
+      "Order": 9,
+      "Title": "SAGE: Bridging Semantic and Actionable Parts for GEneralizable Articulated-Object Manipulation under Language Instructions",
+      "Location": "Commissiekamer 3",
+      "PosterBoardNr": 308,
+      "Authors": "Haoran Geng, Songlin Wei, Congyue Deng, Bokui Shen, He Wang, Leonidas Guibas"
+    }
+  ]
+  

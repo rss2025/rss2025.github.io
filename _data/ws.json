@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "location": "Aula Hall A",
+    "title": "2nd Workshop on Dexterous Manipulation:Design, Perception and Control",
+    "website": "https://dex-manipulation.github.io/rss2024",
+    "link": "https://esviewer.tudelft.nl/space/25"
+  },
+  {
+    "id": 2,
+    "location": "ME Hall C - Bernoulli",
+    "title": "Safety and Normative Behaviors in Human-Robot Interaction",
+    "website": "https://sites.google.com/view/safe-hri/",
+    "link": "https://esviewer.tudelft.nl/space/7"
+  },
+  {
+    "id": 3,
+    "location": "Senateroom",
+    "title": "Structural Priors as Inductive Biases for Learning Robot Dynamics",
+    "website": "https://sites.google.com/alora.tech/priors4robots24",
+    "link": ""
+  },
+  {
+    "id": 4,
+    "location": "Aula Frans van Hasselt",
+    "title": "Mechanisms for Mapping Human Input to Robots From Robot Learning to Shared Control/Autonomy",
+    "website": "https://mechanisms-hri.github.io",
+    "link": ""
+  },
+  {
+    "id": 5,
+    "location": "Aula Hall C",
+    "title": "Frontiers of optimization for robotics",
+    "website": "https://sites.google.com/robotics.utias.utoronto.ca/frontiers-optimization-rss24/home",
+    "link": "https://esviewer.tudelft.nl/space/27"
+  },
+  {
+    "id": 6,
+    "location": "ME Hall D - Watt",
+    "title": "Robot Execution Failures and Failure Management Strategies",
+    "website": "https://robot-failures.github.io/rss2024/",
+    "link": "https://esviewer.tudelft.nl/space/8"
+  },
+  {
+    "id": 7,
+    "location": "ME Hall E - Hooke",
+    "title": "WEV: Workshop on Embodied Voices",
+    "website": "https://rosielab.github.io/wev/",
+    "link": "https://esviewer.tudelft.nl/space/17"
+  },
+  {
+    "id": 8,
+    "location": "IDE Studio 23/24",
+    "title": "AVAS: Autonomous Vehicles Across Scales",
+    "website": "https://vindulamj.github.io/rss24-avas-workshop/",
+    "link": ""
+  },
+  {
+    "id": 9,
+    "location": "Aula Hall B",
+    "title": "Data Generation for Robotics",
+    "website": "https://sites.google.com/view/data-generation-for-robotics/home",
+    "link": "https://esviewer.tudelft.nl/space/26"
+  },
+  {
+    "id": 10,
+    "location": "Aula Auditorium",
+    "title": "EARL: Embodiment-Aware Robot Learning (EARL)",
+    "website": "https://sites.google.com/view/wearl",
+    "link": "https://esviewer.tudelft.nl/space/113"
+  },
+  {
+    "id": 11,
+    "location": "ME Hall B – Newton",
+    "title": "GenAI-HRI: Generative modeling meets human-robot interaction",
+    "website": "https://sites.google.com/view/gai-hri/home",
+    "link": "https://esviewer.tudelft.nl/space/6"
+  },
+  {
+    "id": 12,
+    "location": "Aula Commissiekamer 3",
+    "title": "Koopman Operators in Robotics",
+    "website": "https://sites.google.com/yale.edu/rss-2024-koopman-operators/home",
+    "link": ""
+  },
+  {
+    "id": 13,
+    "location": "ME Hall F - Stevin",
+    "title": "Learning for Assistive Robotics",
+    "website": "https://sites.google.com/view/rss2024-assistive-robotics",
+    "link": "https://esviewer.tudelft.nl/space/18"
+  },
+  {
+    "id": 14,
+    "location": "ME Hall A - Da Vinci",
+    "title": "Open-Set Robot Perception in the Wild",
+    "website": "https://open-set-robotics.github.io",
+    "link": "https://esviewer.tudelft.nl/space/5"
+  },
+  {
+    "id": 15,
+    "location": "Aula Hall D",
+    "title": "Semantics for Robotics: From Environment Understanding and Reasoning to Safe Interaction",
+    "website": "https://www.dynsyslab.org/rss24-workshop-on-semantics-for-robotics/",
+    "link": "https://esviewer.tudelft.nl/space/28"
+  },
+  {
+    "id": "",
+    "location": "Aula Commissiekamer 2",
+    "title": "Lely’s interactive workshop with robots",
+    "website": "https://drive.google.com/file/d/1_GsxKSjMqMQl54fP76FdZLjk2O6sLuap/view?usp=drive_link",
+    "link": ""
+  }
+]

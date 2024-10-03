@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Facebook images -->
+  <meta property="og:image" content="/images/rss_2020.png"/>
+
+  <title>
+    
+      Grounding Language to Non-Markovian Tasks with No Supervision of Task Specifications &middot; Robotics: Science and Systems
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../../public/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../../../public/css/style.css">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66594011-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="../../../public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="../../../atom.xml">
+
+</head>
+
+  <body>
+    <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <a href="../../../index.html">
+                    <img style="text-align:center" src="../../../images/rsslogotext-white.png" width="100%">
+                        </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-11 col-xs-12 col-lg-offset-4 col-md-offset-2 col-sm-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" style="margin-top: 10px; text-align: center;"
+                        href="../../../index.html">RSS 2020</a>
+                    <a class="navbar-brand hidden-xs"
+                        href="../../../index.html">RSS 2020</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../16.html#">home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--li><a href="/blog/">Latest</a></li-->
+                                <li><a href="http://www.roboticsproceedings.org/">Previous Proceedings</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../16.html#">attending<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/info/index.html">Instructions for Conference Attendees</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/registration/index.html">Registration</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/inclusion/index.html">Inclusion@RSS</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/pioneers/index.html">RSS Pioneers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../16.html#">committees<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../committees/organizers/index.html">Organizing Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../committees/pc/index.html">Program Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../committees/foundation/index.html">RSS Foundation</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../16.html#">information<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/authorinfo/index.html">Author Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/cfp/index.html">Call for Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/callForParticipation/index.html">Call for Participation</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/cfw/index.html">Call for Workshops</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/studentHelpers/index.html">Information for Student Helpers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/sponsorship/index.html">Sponsors</a></li>
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../16.html#">program<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../detailed/index.html">Detailed Program</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../awards/index.html">Paper Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../keynote/index.html">Keynote Talk</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../testoftimeaward/index.html">Test of Time Award</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../careerawards/index.html">Early Career Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../papers.html">Accepted Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../workshops/index.html">Workshops</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-lg-offset-1 hidden-xs hidden-sm text-right" id="sidebar"/>
+<!-- No sidebar on small screens -->
+<a class="sidebar-nav-item" href="../../../index.html">Home</a>
+<!--br>
+ <a class="sidebar-nav-item" href="/blog/">Latest</a-->
+<br>
+<a class="sidebar-nav-item" href="http://www.roboticsproceedings.org/">RSS Proceedings</a>
+<br>
+
+<br>
+
+
+
+<b>attending</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/info/index.html">Instructions for Conference Attendees</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/registration/index.html">Registration</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/inclusion/index.html">Inclusion@RSS</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/pioneers/index.html">RSS Pioneers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>committees</b>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../committees/organizers/index.html">Organizing Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../committees/pc/index.html">Program Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../committees/foundation/index.html">RSS Foundation</a>
+<br>
+
+
+
+<br>
+
+
+
+<b>information</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/authorinfo/index.html">Author Information</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/cfp/index.html">Call for Papers</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/callForParticipation/index.html">Call for Participation</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/cfw/index.html">Call for Workshops</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/studentHelpers/index.html">Information for Student Helpers</a>
+<br>
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/sponsorship/index.html">Sponsors</a>
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<b>program</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../detailed/index.html">Detailed Program</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../awards/index.html">Paper Awards</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../keynote/index.html">Keynote Talk</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../testoftimeaward/index.html">Test of Time Award</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../careerawards/index.html">Early Career Awards</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../papers.html">Accepted Papers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../workshops/index.html">Workshops</a>
+<br>
+
+
+
+<br>
+
+
+<b>follow us</b>
+<br>
+<a href="https://twitter.com/RoboticsSciSys"><i class="fa fa-twitter"></i> Twitter </a>
+<br>
+<a href="https://www.facebook.com/RoboticsSciSys"><i class="fa fa-facebook"></i>  Facebook  </a>
+<br>
+
+</div>
+
+        <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+          <div class="page">
+  <h3 class="page-title">Grounding Language to Non-Markovian Tasks with No Supervision of Task Specifications</h1>
+  <br/>
+  <p style="color:black; font-size: 120%; text-align: center;"><em>Roma Patel (Brown University); Ellie Pavlick (Brown University); Stefanie Tellex (Brown University)</em></p>
+
+<table width="20%"> <tr>
+<td style="width: 20%; text-align: center;"><a href="http://www.roboticsproceedings.org/rss16/p016.pdf"><img src="../../../images/paper_link.png" width="50" height="60" /> </a> </td>
+
+</tr></table>
+
+<h3 id="abstract">Abstract</h3>
+<html><p style="color:gray; font-size: 100%; text-align: justified;">
+Natural language instructions often exhibit sequential constraints rather than being simply goal-oriented, for example ``go around the lake and then travel north until the intersection''. Existing approaches map these kinds of natural language expressions to Linear Temporal Logic expressions but require an expensive dataset of LTL expressions paired with English sentences. We introduce an approach that can learn to map from English to LTL expressions given only pairs of English sentences and trajectories, enabling a robot to understand commands with sequential constraints.  We use formal methods of LTL progression to reward the produced logical forms by progressing each LTL logical form against the ground-truth trajectory, represented as a sequence of states, so that no LTL expressions are needed during training. We evaluate in two ways: on the SAIL dataset, a benchmark artificial environment of 3,266 trajectories and language commands as well as on 10 newly-collected real-world environments of roughly the same size. We show that our model correctly interprets natural language commands with 76.9% accuracy on average. We demonstrate the end-to-end process in real-time in simulation, starting with only a natural language instruction and an initial robot state, producing a logical form from the model trained with trajectories, and finding a trajectory that satisfies sequential constraints with an LTL planner in the environment.
+</p></html>
+
+<h3 id="live-paper-discussion-information">Live Paper Discussion Information</h3>
+<html>
+<table width="50%">
+<tr> <th rowspan="2"><a href="https://pheedloop.com/rss2020/virtual/#session_AistLS"><img src="../../../images/pheedloop_link.png" width="70" height="70" /> </a> </th> <th> Start Time </th> <th> End Time </th> </tr>
+<tr> <td> 07/14 15:00 UTC </td><td> 07/14 17:00 UTC </td></tr>
+</table> <br /> </html>
+<h3 id="virtual-conference-presentation">Virtual Conference Presentation</h3>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/hOlRx0ll-6k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="paper-reviews">Paper Reviews</h3>
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 1</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+This paper presents a solution to learning to understand natural language instructions that describe navigation steps.  Thus, the problem is to map natural language expressions onto trajectories in space.  It takes the approach of using a logical form encoded in LTL as an intermediate representation of the task.  Given an LTL expression, it is relatively straightforward to generate a trajectory.  However, it is nontrivial for humans to generate LTL expressions for training purposes.  Therefore, the method is to provide (language, trajectory) pairs for training and automatically extract plausible LTL expressions from the training examples.  Thus, the primary contribution of the paper is to learn the intermediate logical form in LTL without ever seeing training examples that contain LTL.
+
+The authors observe that the introduction of an intermediate representation aids learning, makes explicit any temporal ordering encoded in the natural language expression, and permits the use of formal methods to follow the navigation instructions.  They cite several works that use intermediate logical forms, especially Artzi and Zettlemoyer.  However, this paper's use of logical forms is novel because it's the first to use a temporal logic as an intermediate representation for semantic parsing.
+
+The authors raise good points about the value of an intermediate representation.  However, they somewhat neglect recent work that has moved away from such representations toward the sensorimotor learning paradigm of mapping pixels to controls.  For example, Artzi himself has taken a hard swing in this direction ([1] and other recent works).  I take no position on this debate here, but I think it important that works in this area fully acknowledge both sides of the debate so that readers can fully appreciate the contribution.
+
+The paper shows that a model can be trained to predict LTL expressions that can in turn produce the original trajectory or one very similar with high probability.  This is the largest strength of the paper.
+
+The evaluation, by comparison, does not hold up.  This problem is admittedly difficult to benchmark effectively.  The authors acknowledge that the bulk of instructions in the SAIL corpus do not have temporal dependencies and so the paper's methodology is not exploited.  Thus, although the SAIL corpus has long been used to benchmark semantic parsing tasks, those results are not particularly interesting here.  The paper invents a second benchmark comprising a set of OSM maps of the areas surrounding a number of American university campuses.  These street maps can easily be used to generate sequential instructions that highlight the strength of the method.  Unfortunately though, the baseline is somewhat of a straw man.  It predicts the goal only, and then it uses a shortest-path planner to generate a path to the goal.  The authors include non-shortest paths in the corpus, so it is a fait accompli that their method will perform better than the baseline.
+
+A baseline and corpus better suited to the authors' purpose is coincidentally also found in Artzi's more recent work. The LANI corpus [2] gives sequential navigation instructions and trajectories provided from workers on Amazon Mechanical Turk.
+
+The paper presents an interesting concept and methodological contribution.  The evaluation is somewhat convincing, but it would benefit from using a newer standard corpus for which the results of competing methods are available.
+I think the paper would also significantly benefit from a more open discussion of limitations.  For example, the use of LTL requires a continuum space to have discrete states.  This is appropriate in the two environments explored in the evaluation, but is not an inherent property of the real world.  To take the example of the MIT campus shown in Figure 1, people typically say it is located at Kendall Square, although parts of it would more appropriately be described as being in Central Square.  Cambridge's squares/neighborhoods are inherently ambiguous in a manner that makes it hard to ascribe states to locations at that level.  The LANI dataset is similar in that you can be "at the pumpkin" or "at the lighthouse" or in some vaguely defined in between position.  Rather than taking this limitation as evidence of a flaw in the method, I would be inclined to think of it as a way to better focus the method towards where it is best suited.  After all, even on the OSM dataset, a robot that was actually navigating these streets is going to experience the world by a very different set of landmarks (e.g. the tall building, the curve in the road, the new age sculpture) than a user who is viewing an overhead map.  Perhaps the method would be most effectively be employed as part of a larger system.  If so, then there is an opportunity to sketch out what components this contribution complements.
+
+[1] Valts Blukis, Yannick Terme, Eyvind Niklasson, Ross A. Knepper, and Yoav Artzi. "Learning to Map Natural Language Instructions to Physical Quadcopter Control using Simulated Flight". In: Proceedings of the Conference on Robot Learning (CoRL). Osaka, Japan, October 2019.
+
+[2] D. Misra, A. Bennett, V. Blukis, E. Niklasson, M. Shatkin, and Y. Artzi. "Mapping instructions to actions in 3D environments with visual goal prediction". In Conference on Empirical Methods in Natural Language Processing, 2018.
+
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 2</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+This paper has a bunch of really nice ideas – I appreciate the weakly supervised mapping of natural language (NL) to LTL since, yes, annotating utterances with LTL is not an easy or quick process. I also really appreciate the new complex dataset which is going to be a unique resource for the community.
+
+That being said, this paper, in its current form, has a few issues that need to be addressed:
+Evaluation metrics: I found the evaluation metrics to be weird. The paper is focused on learning LTL formulas that describes trajectories. An LTL formula, unless it is really detailed and contains a lot of safety constraints which I do not think is the case here, captures a family of trajectories, not just one. The evaluation done in this paper is to compare either the end state (when comparing to other methods) or the generated path to the ground truth path. Both of these evaluations do not make sense to me since they do not evaluate how well the LTL formula captures the original trajectory. To me, a more meaningful evaluation would be to learn the model and then check, on the testing data, whether the ground truth trajectory satisfies the LTL formula that the model predicted. Granted, this does not compare to other techniques, but the other techniques solve a different problem so I am not sure what insight I am supposed to gain from the current comparison. 
+
+Planning: Why is the planning done over an MDP? The map has no probabilities, LTL has no probabilities, why not do the usual LTL planning by creating the cross product between the Buchi automaton and the environment graph (see my comments about related work and relevant citations below)? 
+
+Related work: the paper is missing a lot of relevant work in the context of mapping NL to LTL, mapping trajectories to temporal logics (although not from language but it is nonetheless relevant), and synthesis (planning) with LTL. See a list of citations at the end. The ideas in this paper are novel, but they are not well situated in the relevant work that is not in the deep learning flavor. 
+
+Other comments:
+It would be really great to add to the video the data collection process – what is the interface that the turkers saw? Example trajectories and associated language would be very cool to see.
+
+Why use a Voronoi decomposition and not use the road network? That way the work would be relevant to a ground robot and not just an aerial robot. 
+
+Progressing Vs semantics: The semantics of LTL are not really defined in the paper and instead the notion of “progression” is defined. It would be good to explain what the difference is between them especially since some of the lines in Table 1 are equivalent to the semantic and some are not. Furthermore, shouldn’t prog(sigma_i,next phi) be prog(sigma_i+1, phi)? And the same for the eventually operator. Writing just phi is related to the next position of the sequence but the definition of prog(sigma_i,p) relates to the current position so it seems to be an inconsistent definition. 
+
+Fig 4 has an FSA – where is it coming from? For the progression of the formula, how do we know ‘p’ became true? Should the graph on the left be annotated with ‘p’ and ‘q’?  Figure 4 is not referred to in the text – it would be useful to add a description for the figure.  
+
+Minor comments: 
+The paper uses the term “trajectories” but really the mapping is to sequences of propositions. It is worth clarifying. Trajectories implies continuous (x,y) locations. 
+
+There are three broken citations. Search for ‘[]’
+
+Some relevant citations:
+NL to LTL for robot control:
+V. Raman, C. Lignos, C. Finucane, M. Marcus, H. Kress-Gazit, Sorry Dave, I'm Afraid I Can't Do That: Explaining Unachievable Robot Tasks Using Natural Language, Robotics: Science and Systems 2013
+
+A. Boteanu, J. Arkin, T.M. Howard, and H. Kress-Gazit, "A Model for Verifiable Grounding and Execution of Complex Language Instructions," In 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, Oct. 2016, pp. 2649-2654
+
+Trajectories to temporal logic:
+Bayesian Inference of Temporal Task Specifications from Demonstrations
+A Shah, P Kamath, S Li, J Shah, Conference on Neural Information Processing Systems 2018
+
+Giuseppe Bombara, Calin Belta, Online Learning of Temporal Logic Formulae for Signal Classification, European Control Conference (ECC), Limassol, Cyprus, 2018
+
+Chanyeol Yoo and Calin Belta, Rich Time Series Classification Using Temporal Logic, Robotics: Science and Systems (RSS), Boston, MA, 2017
+
+LTL synthesis/planning : There is a lot of work in the “formal methods for robotics” community. Specifically, you should look at the work of Hadas Kress-Gazit, Calin Belta, Richard Murray, Lydia Kavraki, Jana Tumova, Necmiye Ozay, Dimos Dimarogonas, etc. Here is a fairly recent review on the topic:
+Synthesis for robots: Guarantees and feedback for robot behavior, H Kress-Gazit, M Lahijanian, V Raman, Annual Review of Control, Robotics, and Autonomous Systems vol. 1, 2018
+
+</p> </details>
+
+<table width="100%"><tr><td style="width: 30%; text-align: center;"><a href="../15.html"> <img src="../../../images/previous_icon.png" width="120" height="80" /> </a> </td>
+
+<td style="width: 30%; text-align: center;"><a href="../../papers.html"> <img src="../../../images/overview_icon.png" width="120" height="80" /> </a> </td> 
+
+<td style="width: 30%; text-align: center;"><a href="../17.html"> <img src="../../../images/next_icon.png" width="100" height="80" /> </a> </td> 
+
+</tr></table>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
