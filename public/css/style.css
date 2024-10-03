@@ -542,6 +542,20 @@ padding-inline-start: 1.2em;
     font-weight: bold;
 }
 
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    max-width: 370px;
+    margin: 0 auto;
+}
+
+.img-fixed-height {
+    height: 300px;
+    object-fit: cover;
+    width: auto;
+}
+
 .WIN{
     font-weight: bolder;
 }

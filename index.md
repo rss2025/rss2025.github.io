@@ -9,7 +9,7 @@ June 22 &ndash; June 25, 2025<br>Los Angeles, California</h1>
   <div class="daybutton" link="nMLoZbxWnpY">Jul 11</div>
 </div>
 
-### News and Updates
+<!-- ### News and Updates -->
 
 ### Call for Participation
 
@@ -27,14 +27,61 @@ The Robotics: Science and Systems has a long history of bringing together resear
     </thead>
     <tbody>
       <tr>
-        <td colspan="2">June 22 &ndash; June 25, 2025</td>
+        <td>January 17, 2025</td>
+        <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td>Abstract/Title Submission Deadline</td>
+      </tr>
+      <tr>
+        <td>January 24, 2025</td>
+        <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td>Paper Submission Deadline</td>
+      </tr>
+      <tr>
+        <td>January 31, 2025</td>
+        <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td>Supplementary Material Submission Deadline</td>
+      </tr>
+      <tr>
+        <td colspan="2">March 17, 2025</td>
+        <td>Reviews Released and Rebuttal Invitations</td>
+      </tr>
+      <tr>
+        <td>March 24, 2025</td>
+        <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td>Paper Revision and Rebuttal Submission Deadline</td>
+      </tr>
+      <tr>
+        <td colspan="2">April 10, 2025</td>
+        <td>Paper Acceptance Notification</td>
+      </tr>
+      <tr>
+        <td colspan="2">June 20, 2025</td>
+        <td>RSS Pioneers</td>
+      </tr>
+      <tr>
+        <td colspan="2">June 21 &ndash; June 25, 2025</td>
         <td>RSS 2025, Los Angeles, California</td>
       </tr>
     </tbody>
 </table>
 
-<br/>
-<br/>
+After being hosted at the [University of Southern California](https://www.usc.edu/){:target="_blank"} in 2007, the organizers are excited to bring RSS 2025 back to this iconic venue.
+
+<p class="img-container" style="text-align: center;">
+  <img src="{{ site.baseurl }}/images/rss2025_usc1.jpg" alt="University of Southern California (USC) venue" class="img-responsive img-same-height" />
+  <img src="{{ site.baseurl }}/images/rss2025_usc2.jpg" alt="University of Southern California (USC) venue" class="img-responsive img-same-height" />
+</p>
+
+<!-- <p style="text-align: center;">
+  <img src="{{ site.baseurl }}/images/rss2025_usc1.jpg" alt="University of Sourthern California (USC) venue" class="img-responsive image-same-height" />
+  <img src="{{ site.baseurl }}/images/rss2025_usc2.jpg" alt="University of Sourthern California (USC) venue" class="img-responsive image-same-height" />
+</p> -->
+
+<br />
+
+
+
+
 <br/>
 <br/>
 The website of the RSS 2024 conference can be found [here]({{ site.baseurl }}/2024/).
