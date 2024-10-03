@@ -9,16 +9,15 @@ permalink:        pretty
 # Setup
 title:            "Robotics: Science and Systems"
 tagline:          'A Robotics Conference'
-description:      'RSS 2024, Jul 15, 2024 - Jul 19, 2024, Delft, Netherlands'
-# url:              "https://roboticsconference.org"
-url:              "https://rss2023.github.io/rss2024"
+description:      'RSS 2025, June 22, 2025 - June 25, 2025, Los Angeles, California'
+url:              "https://roboticsconference.org"
 baseurl:          ""
 include:          ['_pages']
 exclude:          ['README.md', 'LICENSE.md', 'Gemfile', 'Gemfile.lock', '.travis.yml', 'vendor', 'GRTAGS', 'GPATH', 'GTAGS', 'deploy.sh']
 
 author:
-  name:           'Enrique Coronado'
-  url:            https://enriquecoronadozu.github.io/
+  name:           'Jared Strader'
+  url:            https://jaredstrader.github.io/
 
 gems:             [jekyll-paginate]
 paginate:         5
@@ -33,14 +32,6 @@ github:
 google_analytics: G-RCJTV6PJZC
 
 collections:
-    attending:
-       output: true
-       permalink: /attending/:path/
-       priority: 1
-    program:
-       output: true
-       permalink: /program/:path/
-       priority: 2
     committees:
        output: true
        permalink: /committees/:path/
