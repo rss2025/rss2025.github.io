@@ -15,11 +15,13 @@
     --gen-light-gray: #777789;
     --gen-dark-gray: #333333;
     --columbia-blue: #000d74;
+    --usc-cardinal: #990000;
+    --usc-gold: #ffcc00;
 /*    --schedule-border-gray: #F2F2F2;*/
     --schedule-border-gray: #DDD;
 }
 
-.header { background-color: white;}
+.header { background-color: var(--usc-cardinal);}
 .content { margin-top:-20px; }
 
 h3 {text-align: left;}
