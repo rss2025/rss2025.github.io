@@ -56,7 +56,7 @@ The Robotics: Science and Systems has a long history of bringing together resear
       </tr>
       <tr>
         <td colspan="2">June 20, 2025</td>
-        <td>RSS Pioneers</td>
+        <td>RSS Pioneers Workshop</td>
       </tr>
       <tr>
         <td colspan="2">June 21 &ndash; June 25, 2025</td>
