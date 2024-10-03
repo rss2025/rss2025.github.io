@@ -6,229 +6,175 @@ invisible: false
 published: true
 ---
 
-
 <div>
-
-    <div class="row text-center">
-
-    <br>
-      <b>Program Chairs</b><br>
-       <table style="margin-left:auto;margin-right:auto;">
-            <tr>
+      <div class="row text-center">
+      
+            <br>
+            <b>Program Chair</b><br>
+            <table style="margin-left:auto;margin-right:auto;">
+                  <tr>
                   <td style="width:200px;vertical-align:top;">
-                         <a target="_blank" href="https://www.monash.edu/engineering/danakulic"> Dana Kulic </a><br>
+                        <a target="_blank" href="https://lucacarlone.mit.edu/"> Luca Carlone </a><br>
+                        <i>Massachusetts Institute of Technology, USA</i><br>
+                  </td>
+                  </tr>
+            </table>
+
+            <br>
+            <b>General Chairs</b><br>
+            <table style="margin-left:auto;margin-right:auto;">
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        <a target="_blank" href="https://www.monash.edu/engineering/robotics"> Dana Kulic </a><br>
                         <i>Monash University, Australia</i><br>
                   </td>
                   <td style="width:45px;"></td>
                   <td style="width:200px;vertical-align:top;">
-                     <a target="_blank" href="http://www.gvlab.jp/gv"> Gentiane Venture </a><br>
-                        <i>Tokyo University, Japan</i><br>
-                  </td>
-            </tr>
-            </table>
-            
-      <br>
-            <b>General Chair</b><br>
-            <a target="_blank" href="https://robotics.cs.rutgers.edu/pracsys/members/kostas-bekris/">Kostas Bekris</a><br>
-            <i>Rutgers University, USA</i><br>
-  
-      
-
-      <br>
-   
-         <b>Workshop Chairs</b><br>
-                     <table style="margin-left:auto;margin-right:auto;">
-            <tr>
-                  <td style="width:200px;vertical-align:top;">
-                       <a target="_blank" href="https://www.tudelft.nl/en/staff/c.pek">  Chris Pek </a><br>
-                        <i>TU Delft, Netherlands</i><br>
-                  </td>
-                  <td style="width:45px;"></td>
-                  <td style="width:200px;vertical-align:top;">
-                           <a target="_blank" href="https://www.katsuyamane.com/"> Katsu Yamane </a><br>
-            <i>Path Robotics, USA</i><br>
-                  </td>
-            </tr>
-            </table>
-           
-       
-      <br>
-
-       <br>
-   
-         <b>Presentation Chairs</b><br>
-                     <table style="margin-left:auto;margin-right:auto;">
-            <tr>
-                  <td style="width:200px;vertical-align:top;">
-                       <a target="_blank" href="https://www.tudelft.nl/en/staff/g.chen-5/">   Clarence Chen </a><br>
-                        <i>TU Delft, Netherlands</i><br>
-                  </td>
-                  <td style="width:45px;"></td>
-                  <td style="width:200px;vertical-align:top;">
-                           <a target="_blank" href="https://www.monash.edu/engineering/pamelacarrenomedrano">  Pamela Carreno </a><br>
-            <i>Monash University, Australia</i><br>
-                  </td>
-            </tr>
-            </table>
-           
-       
-      <br>
-
-
-      <b>Local Arrangements Chairs</b><br>
-            <table style="margin-left:auto;margin-right:auto;">
-            <tr>
-                  <td style="width:200px;vertical-align:top;">
-                         <a target="_blank" href="https://www.tudelft.nl/staff/j.kober"> Jens Kober </a><br>
-                              <i>TU Delft, Netherlands</i><br>
-                  </td>
-                  <td style="width:45px;"></td>
-                  <td style="width:200px;vertical-align:top;">
-                         <a target="_blank" href="https://www.tudelft.nl/staff/j.alonsomora/">Javier Alonso Mora</a><br>
-                        <i>TU Delft, Netherlands</i><br>
-                  </td>
-                   <td style="width:200px;vertical-align:top;">
-                        <a target="_blank" href="https://www.tudelft.nl/staff/c.dellasantina/">Cosimo Della Santina</a><br>
-                        <i>TU Delft, Netherlands</i><br>
-                  </td>
-            </tr>
-            </table>
-      <br>
-      <b>Publicity Chairs</b><br>
-            <table style="margin-left:auto;margin-right:auto;">
-            <tr>
-                  <td style="width:200px;vertical-align:top;">
-                        <a target="_blank" href="https://hu-yue.github.io/"> Yue Hu </a> <br>
-                        <i>University of Waterloo, Canada</i><br>
-                  </td>
-                  <td style="width:45px;"></td>
-                  <td style="width:200px;vertical-align:top;">
-                           <a target="_blank" href="https://research.monash.edu/en/persons/juxi-leitner">Juxi Leitner</a><br>
-                              <i>Monash University, Australia</i><br>
-                  </td>
-            </tr>
-            </table>
-      <br>
-      <b>Sponsorship Chairs</b><br>
-            <table style="margin-left:auto;margin-right:auto;">
-            <tr>
-                  <td style="width:200px;vertical-align:top;">
-                        <a target="_blank" href="https://www.colorado.edu/cs/bradley-hayes">Bradley Hayes</a><br>
-                        <i>University of Colorado Boulder, USA</i><br>
-                  </td>
-                  <td style="width:45px;"></td>
-                  <td style="width:200px;vertical-align:top;">
-                        <a target="_blank" href="">  </a>   Ties van Bruinessen<br>
-                  <i>TU Delft, Netherlands</i><br>
-                  </td>
-            </tr>
-            </table>
-      <br>
-      <b>Registration Chair</b><br>
-
-      <table style="margin-left:auto;margin-right:auto;">
-            <tr>
-                  <td style="width:200px;vertical-align:top;">
-                         <a target="_blank" href="">  </a>   Lucienne Dado<br>
-                        <i>TU Delft, Netherlands</i><br>
-                  </td>
-                  <td style="width:45px;"></td>
-                  <td style="width:200px;vertical-align:top;">
-                        <a target="_blank" href="https://danielseita.github.io/"> Daniel Seita </a><br>
-                        <i> University of Southern California, USA</i><br>
-                  </td>
-            </tr>
-            </table>
-           
-                    
-          
-      <br>
-      <!-- <b>Award Chair</b><br>
-            <a target="_blank" href=""><br>
-            <i></i><br>
-      <br> -->
-
-  
-      <b>RSS Pioneers Chairs</b><br>
-            <table style="margin-left:auto;margin-right:auto;">
-            <tr>
-                  <td style="width:200px;vertical-align:top;">
-                        <a target="_blank" href="https://directory.whoi.edu/profile/nare-karapetyan/">Nare Karapetyan</a><br>
-                        <i>Woods Hole Oceanographic Institution, USA</i><br>
-                  </td>
-                  <td style="width:45px;"></td>
-                  <td style="width:200px;vertical-align:top;">
-                        <a target="_blank" href="https://manuelkeppler.com/">Manuel Keppler</a><br>
-                        <i> DLR, Germany</i><br>
-                  </td>
-            </tr>
-            </table>
-      <br>
-
-      
-	<b>Website Chair</b><br>
-            <a target="_blank" href="https://enriquecoronadozu.github.io/"> Enrique Coronado </a><br>
-            <i>AIST, Japan</i><br>
-      <br>
-
-      <b>Publications Chair</b><br>
-            <a target="_blank" href="https://enriquecoronadozu.github.io/"> Enrique Coronado </a><br>
-            <i>AIST, Japan</i><br>
-      <br>
-
-      <b>Submissions Chair</b><br>
-             <a target="_blank" href="">  </a>Kavi Katuwandeniya<br>
-            <i>CSIRO, Australia</i><br>
-      <br>
-
-      <b>Accessibility Committee</b><br>
-            <table style="margin-left:auto;margin-right:auto;">
-            <tr>
-                  <td style="width:200px;vertical-align:top;">
-                         <a target="_blank" href="https://engineering.tufts.edu/cs/people/faculty/elaine-short">Elaine Short</a><br>
-                        <i>Tufts University, USA</i><br>
-                  </td>
-                  <td style="width:45px;"></td>
-                  <td style="width:200px;vertical-align:top;">
-                       <a target="_blank" href="https://www.engineering.cornell.edu/faculty-directory/tapomayukh-bhattacharjee">Tapomayukh Bhattacharjee</a><br>
-                        <i>Cornell University, USA</i><br>
-                  </td>
-                  <td style="width:45px;"></td>
-                  <td style="width:200px;vertical-align:top;">
-                        <a target="_blank" href="https://www.tudelft.nl/staff/y.vardar/">Yasemin Vardar</a><br>
-                        <i>TU Delft, Netherlands</i><br>
+                        <a target="_blank" href="http://www.gvlab.jp/"> Gentiane Venture </a><br>
+                        <i>University of Tokyo, Japan</i><br>
                   </td>
                   </tr>
-                   </table>
-      <br>
+            </table>
 
-      <b>Inclusion Chair</b><br>
-      <table style="margin-left:auto;margin-right:auto;">
-            <tr>
+            <br>
+            <b>Deputy Program Chair</b><br>
+            <table style="margin-left:auto;margin-right:auto;">
+                  <tr>
                   <td style="width:200px;vertical-align:top;">
-                             <a target="_blank" href="https://www.uu.nl/medewerkers/MMAdeGraaf">Maartje de Graaf</a><br>
-                        <i>Utrecht University, Netherlands</i><br>
+                        <a target="_blank" href="https://proroklab.org"> Amanda Prorok </a><br>
+                        <i>University of Cambridge, England</i><br>
+                  </td>
+                  </tr>
+            </table>
+
+            <br>
+            <b>Local Arrangements Chairs</b><br/>
+            <table style="margin-left:auto;margin-right:auto;">
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="http://robotics.usc.edu/~gaurav">Gaurav Sukhatme</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
                   </td>
                   <td style="width:45px;"></td>
                   <td style="width:200px;vertical-align:top;">
-                        <a target="_blank" href="http://khen.io/">Khen Elimelech</a><br>
-                        <i>  Rice University, USA</i><br>
+                        <a style="display: block;" href="https://smlbansal.github.io/">Somil Bansal</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
                   </td>
-            </tr>
+                  </tr>
+
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="http://ebiyik.github.io/">Erdem Biyik</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
+                  </td>
+                  <td style="width:45px;"></td>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="http://stefanosnikolaidis.net/">Stefanos Nikolaidis</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
+                  </td>
+                  </tr>
+
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="https://sites.usc.edu/quann/">Quan Nguyen</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
+                  </td>
+                  <td style="width:45px;"></td>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="https://viterbi.usc.edu/directory/faculty/Qian/Feifei">Feifei Qian</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
+                  </td>
+                  </tr>
+
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="https://danielseita.github.io/">Daniel Seita</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
+                  </td>
+                  <td style="width:45px;"></td>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="https://yuewang.xyz/">Yue Wang </a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
+                  </td>
+                  </tr>
             </table>
 
-       
-      <br>
+            <br>
+            <b>Workshop Chairs</b><br>
+            <table style="margin-left:auto;margin-right:auto;">
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        <a target="_blank" href="https://rpm.snu.ac.kr/"> Ayoung Kim </a><br>
+                        <i>Seoul National University, South Korea</i><br>
+                  </td>
+                  </tr>
+            </table>
 
+            <br>
+            <b>Presentation Chairs</b><br>
+            <table style="margin-left:auto;margin-right:auto;">
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        <a target="_blank" href="https://mashaitkina.weebly.com/"> Masha Itkina </a><br>
+                        <i>Toyota Research Institute, USA</i><br>
+                  </td>
+                  </tr>
+            </table>
 
-    </div>
+            <br>
+            <b>Publicity Chairs</b><br>
+            <table style="margin-left:auto;margin-right:auto;">
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        <a target="_blank" href="https://hu-yue.github.io/    "> Yue Hu </a><br>
+                        <i>University of Waterloo, Canada</i><br>
+                  </td>
+                  </tr>
+            </table>
 
+            <br>
+            <b>Sponsorship Chairs</b><br>
+            <table style="margin-left:auto;margin-right:auto;">
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        <a target="_blank" href="https://www.cairo-lab.com/"> Bradley Hayes </a><br>
+                        <i>University of Colorado Boulder, USA</i><br>
+                  </td>
+                  </tr>
+            </table>
+
+            <br>
+            <b>Registration Chair</b><br>
+            <table style="margin-left:auto;margin-right:auto;">
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        <a target="_blank" href="https://www.cairo-lab.com/"> Graeme Best </a><br>
+                        <i>University of Technology Sydney, Australia</i><br>
+                  </td>
+                  </tr>
+            </table>
+
+            <br>
+            <b>Website Chair</b><br>
+            <table style="margin-left:auto;margin-right:auto;">
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        <a target="_blank" href="https://jaredstrader.github.io/"> Jared Strader </a><br>
+                        <i>Massachusetts Institute of Technology, USA</i><br>
+                  </td>
+                  </tr>
+            </table>
+
+            <br>
+            <b>Submission Chair</b><br>
+            <table style="margin-left:auto;margin-right:auto;">
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        <a target="_blank" href="https://schmluk.github.io/"> Lukas Schmid </a><br>
+                        <i>Massachusetts Institute of Technology, USA</i><br>
+                  </td>
+                  </tr>
+            </table>
+
+      </div>
 </div>
-
-
-
-
-
-
-
-
