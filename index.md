@@ -13,7 +13,7 @@ June 22 &ndash; June 25, 2025<br>Los Angeles, California</h1>
 
 ### Call for Participation
 
-We are pleased to announce the 21th edition of the “Robotics: Science and Systems” (RSS) conference to be held at the [University of Southern California](https://www.usc.edu/){:target="_blank"}, Los Angeles, California in June 22-25, 2025. 
+We are pleased to announce the 21st edition of the “Robotics: Science and Systems” (RSS) conference to be held at the [University of Southern California](https://www.usc.edu/){:target="_blank"}, Los Angeles, California in June 21-25, 2025. 
 
 The Robotics: Science and Systems has a long history of bringing together researchers in all areas of robotics from around the world for an engaging and focused week of single-track presentations, workshops, poster sessions, and tutorials. This year, as always, we solicit your best work.
 
@@ -34,7 +34,7 @@ The Robotics: Science and Systems has a long history of bringing together resear
       <tr>
         <td>January 24, 2025</td>
         <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
-        <td>Paper Submission Deadline</td>
+        <td>Paper and Demo Submission Deadline</td>
       </tr>
       <tr>
         <td>January 31, 2025</td>

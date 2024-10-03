@@ -19,7 +19,7 @@ Details on the two types of submission and guidance for preparation are provided
 ## Guidance for Demo Preparation
 
 
-**Type of Submission:** Demo papers will be published as part of the RSS conference proceedings. These submissions should demonstrate systems that are innovative given the state-of-the-art of robotics research across any of the [subject areas]({{ site.baseurl }}/information/cfp/#subject-areas) of RSS 2024. Open-source and open-access systems or interactive systems that are accessible by the community are especially encouraged. Demo papers can relate to hardware or software contributions or their integration. They can also relate to critical system components and useful tools for the community. Examples of such submissions can correspond to demonstrations of:
+**Type of Submission:** Demo papers will be published as part of the RSS conference proceedings. These submissions should demonstrate systems that are innovative given the state-of-the-art of robotics research across any of the [subject areas]({{ site.baseurl }}/information/cfp/#subject-areas) of RSS 2025. Open-source and open-access systems or interactive systems that are accessible by the community are especially encouraged. Demo papers can relate to hardware or software contributions or their integration. They can also relate to critical system components and useful tools for the community. Examples of such submissions can correspond to demonstrations of:
 
 - useful new mechanisms or software packages for the robotics community,
 - large-scale deployments of robotics technology that have not been achieved before,
@@ -73,7 +73,7 @@ Before submitting your PDF file, please open it in Acrobat Reader. In the File m
 - [Overleaf](https://www.overleaf.com/learn/latex/Questions/My_submission_was_rejected_by_the_journal_because_%22Font_XYZ_is_not_embedded%22._What_can_I_do%3F)
 - [Acrobat](https://www.printivity.com/insights/2020/09/13/how-to-embed-fonts-in-pdfs/)
 - [dvips](https://www.karlrupp.net/2016/01/embed-all-fonts-in-pdfs-latex-pdflatex/)
-- [Miktex](http://www.boekenenproefschriften.nl/proefschriften/sites/default/files/EmbedLaTeXfonts.pdf)
+<!-- - [Miktex](http://www.boekenenproefschriften.nl/proefschriften/sites/default/files/EmbedLaTeXfonts.pdf) -->
 
 ## Paper and Demo Length
 
@@ -141,7 +141,7 @@ Papers that include text generated from a large-scale language model (LLM), such
 
 We plan to investigate any potential violation of the LLM policy when a submission is brought to our attention with a significant concern about a potential violation. Any submission flagged for the potential violation of this LLM policy will go through the same process as any other submission flagged for plagiarism.
 
-## Uploading Files for Paper and Demo Submissions
+<!-- ## Uploading Files for Paper and Demo Submissions
 
 Paper submission and review will occur in the OpenReview system at the following link: [https://openreview.net/group?id=roboticsfoundation.org/RSS/2024](https://openreview.net/group?id=roboticsfoundation.org/RSS/2024)
 
@@ -150,4 +150,4 @@ Paper submission and review will occur in the OpenReview system at the following
 - **Paper/Demo submission:** Make sure your role is “Author”. Enter title, abstract, and authors. Select your primary and secondary subject areas. Your main submission file may now be uploaded. Science/System and Demo paper descriptions must be in the accepted conference style format and must be submitted as a PDF. Submissions may be edited, updated and replaced up to the paper submission deadline.
 - **Demo paper title:**The authors of Demo paper submissions are asked to start the title of the submission with the word “Demonstrating” to communicate to the reviewers that these are submissions that are allowed to be single-blind.
 - **Paper ID:** After clicking the Submit link, your paper or demo submission will be assigned an ID. To make sure your PDF submission is reviewer-friendly, enter this ID at the end of your title as instructed in the paper template.
-- **Supplementary material:** Authors may submit supplementary material, such as a video or an expanded version of a proof (100MB max, accepted formats: zip). Please note that the link to upload supplementary material becomes active only after the paper submission is complete. The deadline for the submission of supplementary material is a few days after the paper description deadline.
+- **Supplementary material:** Authors may submit supplementary material, such as a video or an expanded version of a proof (100MB max, accepted formats: zip). Please note that the link to upload supplementary material becomes active only after the paper submission is complete. The deadline for the submission of supplementary material is a few days after the paper description deadline. -->
