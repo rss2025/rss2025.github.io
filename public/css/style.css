@@ -21,7 +21,7 @@
     --schedule-border-gray: #DDD;
 }
 
-.header { background-color: white;}
+.header { background-color: var(--usc-cardinal);}
 .content { margin-top:-20px; }
 
 h3 {text-align: left;}
