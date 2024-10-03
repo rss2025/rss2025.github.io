@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Facebook images -->
+  <meta property="og:image" content="/images/rss_2020.png"/>
+
+  <title>
+    
+      Ergodic Specifications for Flexible Swarm Control: From User Commands to Persistent Adaptation &middot; Robotics: Science and Systems
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../../public/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../../../public/css/style.css">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66594011-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="../../../public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="../../../atom.xml">
+
+</head>
+
+  <body>
+    <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <a href="../../../index.html">
+                    <img style="text-align:center" src="../../../images/rsslogotext-white.png" width="100%">
+                        </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-11 col-xs-12 col-lg-offset-4 col-md-offset-2 col-sm-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" style="margin-top: 10px; text-align: center;"
+                        href="../../../index.html">RSS 2020</a>
+                    <a class="navbar-brand hidden-xs"
+                        href="../../../index.html">RSS 2020</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../67.html#">home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--li><a href="/blog/">Latest</a></li-->
+                                <li><a href="http://www.roboticsproceedings.org/">Previous Proceedings</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../67.html#">attending<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/info/index.html">Instructions for Conference Attendees</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/registration/index.html">Registration</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/inclusion/index.html">Inclusion@RSS</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/pioneers/index.html">RSS Pioneers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../67.html#">committees<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../committees/organizers/index.html">Organizing Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../committees/pc/index.html">Program Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../committees/foundation/index.html">RSS Foundation</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../67.html#">information<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/authorinfo/index.html">Author Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/cfp/index.html">Call for Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/callForParticipation/index.html">Call for Participation</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/cfw/index.html">Call for Workshops</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/studentHelpers/index.html">Information for Student Helpers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/sponsorship/index.html">Sponsors</a></li>
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../67.html#">program<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../detailed/index.html">Detailed Program</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../awards/index.html">Paper Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../keynote/index.html">Keynote Talk</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../testoftimeaward/index.html">Test of Time Award</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../careerawards/index.html">Early Career Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../papers.html">Accepted Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../workshops/index.html">Workshops</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-lg-offset-1 hidden-xs hidden-sm text-right" id="sidebar"/>
+<!-- No sidebar on small screens -->
+<a class="sidebar-nav-item" href="../../../index.html">Home</a>
+<!--br>
+ <a class="sidebar-nav-item" href="/blog/">Latest</a-->
+<br>
+<a class="sidebar-nav-item" href="http://www.roboticsproceedings.org/">RSS Proceedings</a>
+<br>
+
+<br>
+
+
+
+<b>attending</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/info/index.html">Instructions for Conference Attendees</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/registration/index.html">Registration</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/inclusion/index.html">Inclusion@RSS</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/pioneers/index.html">RSS Pioneers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>committees</b>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../committees/organizers/index.html">Organizing Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../committees/pc/index.html">Program Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../committees/foundation/index.html">RSS Foundation</a>
+<br>
+
+
+
+<br>
+
+
+
+<b>information</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/authorinfo/index.html">Author Information</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/cfp/index.html">Call for Papers</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/callForParticipation/index.html">Call for Participation</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/cfw/index.html">Call for Workshops</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/studentHelpers/index.html">Information for Student Helpers</a>
+<br>
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/sponsorship/index.html">Sponsors</a>
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<b>program</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../detailed/index.html">Detailed Program</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../awards/index.html">Paper Awards</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../keynote/index.html">Keynote Talk</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../testoftimeaward/index.html">Test of Time Award</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../careerawards/index.html">Early Career Awards</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../papers.html">Accepted Papers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../workshops/index.html">Workshops</a>
+<br>
+
+
+
+<br>
+
+
+<b>follow us</b>
+<br>
+<a href="https://twitter.com/RoboticsSciSys"><i class="fa fa-twitter"></i> Twitter </a>
+<br>
+<a href="https://www.facebook.com/RoboticsSciSys"><i class="fa fa-facebook"></i>  Facebook  </a>
+<br>
+
+</div>
+
+        <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+          <div class="page">
+  <h3 class="page-title">Ergodic Specifications for Flexible Swarm Control: From User Commands to Persistent Adaptation</h1>
+  <br/>
+  <p style="color:black; font-size: 120%; text-align: center;"><em><a href="https://apr600.github.io/">Ahalya Prabhakar</a>,  <a href="https://i-abr.github.io/">Ian Abraham</a>, Annalisa Taylor, Millicent Schlafly, Katarina Popovic, Giovani Diniz, Brendan Teich, Borislava Simidchieva, Shane Clark,  <a href="https://murpheylab.github.io/">Todd Murphey</a></em></p>
+
+<table width="40%"> <tr>
+<td style="width: 20%; text-align: center;"><a href="http://www.roboticsproceedings.org/rss16/p067.pdf"><img src="../../../images/paper_link.png" width="50" height="60" /> </a> </td>
+
+<td style="width: 20%; text-align: center;"><a href="https://sites.google.com/view/ergodic-flexible-swarm-control"><img src="../../../images/website_link.png" width="50" height="60" /> </a> </td>
+
+<td style="width: 20%; text-align: center;"><a href="https://github.com/apr600/ErgodicHumanSwarmCollab"><img src="../../../images/software_link.png" width="50" height="60" /> </a> </td>
+
+</tr></table>
+
+<h3 id="abstract">Abstract</h3>
+<html><p style="color:gray; font-size: 100%; text-align: justified;">
+This paper presents a formulation for swarm control and high-level task planning that is dynamically responsive to user commands and adaptable to environmental changes. We design an end-to-end pipeline from a tactile tablet interface for user commands to onboard control of robotic agents based on decentralized ergodic coverage. Our approach demonstrates reliable and dynamic control of a swarm collective through the use of ergodic specifications for planning and executing agent trajectories as well as responding to user and external inputs. We validate our approach in a virtual reality simulation environment and in real-world experiments at the DARPA OFFSET Urban Swarm Challenge FX3 field tests with a robotic swarm where user-based control of the swarm and mission-based tasks require a dynamic and flexible response to changing conditions and objectives in real-time.
+</p></html>
+
+<h3 id="live-paper-discussion-information">Live Paper Discussion Information</h3>
+<html>
+<table width="50%">
+<tr> <th rowspan="2"><a href="https://pheedloop.com/rss2020/virtual/#session_ttiNrW"><img src="../../../images/pheedloop_link.png" width="70" height="70" /> </a> </th> <th> Start Time </th> <th> End Time </th> </tr>
+<tr> <td> 07/15 15:00 UTC </td><td> 07/15 17:00 UTC </td></tr>
+</table> <br /> </html>
+<h3 id="virtual-conference-presentation">Virtual Conference Presentation</h3>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/JO-KGEZ-X_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="paper-reviews">Paper Reviews</h3>
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 1</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+Overall comment: I am not entirely convinced this should be referred to as a swarm controller. It appears, to be effective, a lot of infomation must be passed between agents which gives the intuition it would not scale well. It may be more appropriate calling this a multi-agent control strategy.
+
+
+Introduction:
+
+	-The first paragraph could be make the problem space more clear.
+		-E.G. "One of the biggest problems in multi-agent control of robotic systems is the management and individualized control of the swarm of robots." The way this could read is the problem is; to enable an individual human operator single out and control individual agents in the swarm or design individual agent control laws that coalesce into cooperative behaviors or design interfaces enabling collective management and control of a swarm by a single human.
+		-E.G."However, it is still necessary to develop a method that integrates both a framework to incorporate a user command into the supervision of a swarm and individual robot-level planning algorithms." Like the previous example this is also unclear. An example may clear this up.
+
+	-"Our approach motivates the use of flexible density descriptions where each agent is responsible for coverage of the full area, but can communicate its past and intended trajectory to the other agents. This allows for each agent to prioritize local exploration while ensuring coverage specifications are robust to network dynamics." There is a lot of information presented here that make the approach that will be presented unclear and how it is different than [3]. E.g. What is a flexible density description, how the robots are covering the full area (patrolling?) while locally exloring, coverage specifications robust to network dynamics (do robots need to stay in proximity for communication)?
+
+Algorithm:
+
+	-Eq (1) there is nothing wrong with this but the standard variables used for control affine systems are typically f(x) + g(x)u. Having the natural dynamics as g may go against the intuition of many readers.
+
+	-Eq (2) what is s?
+
+	-What is a sine arbitrary spatial distribution? I'm assuming this is a Fourier series for a spatial density function but it should be made clear in the text.
+
+	-Eq (5) u should be defined differently as the ensemble control.
+
+	-The agent dynamics being independent is a fine assumption but this reviewer believes this statement is not entirely true due to the obstacle avoidance and potentially the RRT planner that is dependent on the other agents (negligable at low density but probably not at high density).
+
+	-Second to last paragraph of left column of page 4: "Minimizing the ergodic metric thus avoids issues often faced with multimodal optimizations as the robot will allocate proportional amounts of its time within some allotted time depending on the measure of importance specified by all the elements that are desirable (e.g., easter eggs and overriding user commands)." I think this should be allocated proportional amounts of time within some allotted space?
+
+Results:
+
+	-The communication topology of the swarm is incredibly important to these results but is not really investigated or explained. Is everything presented here a star topology through a central computer, a fully connected graph, is there a communication range?
+
+	-An interesting experiment would be to see how the cost function behaves with respect to some appropriate network topology metric. 
+
+Figures:
+
+Figure 1 is never referred to in the text.
+There is no figure 2.
+Figure 3 is not referred to in the text.
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 2</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+Strengths: 
+The video was helpful in understanding how the spatial allocation of robots behaved in practice. This was a nice complement to the heat maps used in Figures 9 and 10 and helped improve the clarity of the paper.
+
+The work appears to be original and has the potential for being significant. I'd personally like to read more about the approach.
+
+The derivation of the ergodic control law appeared to be solid and well thought through. The math made sense, though there were some assumptions that had to be made (e.g., I had to assume that saying that v&lt;n in the paragraph between equation (2) and equation (3) meant that the distribution could apply to 2D even though robot dynamics were in 6D (3 spatial dimensions plus roll, tilt, and yaw)).
+
+Areas for Improvement:
+There was a mismatch between some of the claims of the paper and the evidence provided to support those claims. Mismatches include:
+* Footnote 2 and the introductory paragraph if Section III assert that the work applies to heterogeneous agents, but the derivation and demonstration were only for homogeneous agents. Without the details, the claim about heterogeneity is not supported.
+* The last paragraph under figure 9 claimed that the swarm uniformly covered the workspace, but there was no quantitative data to support this so it is difficult to have confidence in the claim (or even fully understand what "uniformly covered" means).
+* The discussion claimed that the formulation could minimize human operator workload, but no data was gathered to support this assertion.  An expert in human factors might point out that understanding why the agents were doing what they were doing might require more workload than giving inputs to another algorithm like a sheepdog steering algorithm.
+* The discussion claimed that as the number of agents was reduced the algorithm adapted, but no data was used to quantify what this meant. Similarly, claims were made about scalability and the effect of various communication topologies that were not quantified,
+* A claim was made in the introduction that adjusting swarm behavior by influencing individual agents becomes less effective as the number of agents grows. This depends on the way individual agents are selected, how the individual agents affect the other agents, and so on. Approaches such as those from PB Sujit's lab and MA Goodrich's lab show the ability to influence a lot of agents using very few individuals, so the claim needs to be better scoped and explained.
+
+There were some details that were missing that made it difficult to evaluate how generalizable the results were. Missing details include:
+* How did the RRT* planning algorithms ensure that agents would not collide? It didn't appear that the ergodic part of the algorithm addressed collisions, so the collision-avoidance must have been done in the RRT* algorithm.
+* The ergodic specification was decentralized, but it depended on all agents knowing the c_k parameters. A claim was made that the result was robust to varying ways of communicating C_k, but details were not included to explain how this would work.
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 3</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+The paper is overall well written and is well structured. The formulation in section III was described in detail. Sufficient description was provided for each figure.
+
+The idea of combining the ergodic planner’s tendency to explore recently unvisited locations and user specified locations seems to be beneficial. This allows the user to concentrate on finding interesting locations, rather than spending time managing the swarm to spread across the area.
+
+The authors mention that they intend “to test human cognitive load” using the developed system in the future. Personally, I am interested in whether users would find certain aspects of the developed system easy or difficult to use and what might be the reason for those outcomes. For example, the usefulness of the tactile tablet seems trivial without a user study showcasing its advantages. For this paper’s purpose, perhaps an ordinary touchscreen tablet could have been sufficient to control the swarm?
+
+It is not clearly explained how a user explores within the virtual reality environment. The paper suggests that the user is able to navigate within the simulated environment. However, there is no description of how this is done. The ability to move around to change the viewpoint is a distinct type of control that adds further workload to the user while monitoring the swarm. 
+
+The presentation quality of the work requires input  from a senior author. Examples below.
+
+The meaning of the term ergodic should be introduced to help the reader.
+
+The first figure should not be placed before the abstract. Also on the first page, a figure should not span both columns. 
+
+The abbreviation VR does not need to be introduced in the abstract, as it is not used there. It needs to be introduced in Section II, when first used.
+
+Figures 4, 5 and 8 are not well formatted.
+
+There are several minor typos/errors in the paper:
+In page 1, “Our approach attempts to mitigate these issues through a decentralized strategy which is independent of an central control hub ...” This should be “a” instead of “an”.
+In page 1, “[3] presents a decentralized, density-based coverage approach which influences multiples robots in a swarm from user commands.” This should be “multiple” instead of “multiples”.
+In page 1, “Other planners that attempt to replan based on updates swarm often rely on” - this is not clear.
+In page 5, “The parameter Σ is the width of the region of attraction (or repulsion) that can be tuned basd on the size of the task space and the desired granularity.” This should be “based” instead of “basd”.
+In page 7, “The ergodic specification enables each agent to constantly generates actions ... ” This should be “generate” instead of “generates”.
+
+Some references are incomplete, for example, [13]. Some titles in references do not use correct lower/upper casing, for example, [12].
+</p> </details>
+
+<table width="100%"><tr><td style="width: 30%; text-align: center;"><a href="../66.html"> <img src="../../../images/previous_icon.png" width="120" height="80" /> </a> </td>
+
+<td style="width: 30%; text-align: center;"><a href="../../papers.html"> <img src="../../../images/overview_icon.png" width="120" height="80" /> </a> </td> 
+
+<td style="width: 30%; text-align: center;"><a href="../68.html"> <img src="../../../images/next_icon.png" width="100" height="80" /> </a> </td> 
+
+</tr></table>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Facebook images -->
+  <meta property="og:image" content="/images/rss_2020.png"/>
+
+  <title>
+    
+      Eyes-Closed Safety Kernels: Safety of Autonomous Systems Under Loss of Observability &middot; Robotics: Science and Systems
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66594011-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="../../public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="../../atom.xml">
+
+</head>
+
+  <body>
+    <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <a href="../../index.html">
+                    <img style="text-align:center" src="../../images/rsslogotext-white.png" width="100%">
+                        </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-11 col-xs-12 col-lg-offset-4 col-md-offset-2 col-sm-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" style="margin-top: 10px; text-align: center;"
+                        href="../../index.html">RSS 2020</a>
+                    <a class="navbar-brand hidden-xs"
+                        href="../../index.html">RSS 2020</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="96.html#">home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--li><a href="/blog/">Latest</a></li-->
+                                <li><a href="http://www.roboticsproceedings.org/">Previous Proceedings</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="96.html#">attending<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/info/index.html">Instructions for Conference Attendees</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/registration/index.html">Registration</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/inclusion/index.html">Inclusion@RSS</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/pioneers/index.html">RSS Pioneers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="96.html#">committees<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/organizers/index.html">Organizing Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/pc/index.html">Program Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/foundation/index.html">RSS Foundation</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="96.html#">information<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/authorinfo/index.html">Author Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfp/index.html">Call for Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/callForParticipation/index.html">Call for Participation</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfw/index.html">Call for Workshops</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/studentHelpers/index.html">Information for Student Helpers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/sponsorship/index.html">Sponsors</a></li>
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="96.html#">program<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../detailed/index.html">Detailed Program</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../awards/index.html">Paper Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../keynote/index.html">Keynote Talk</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../testoftimeaward/index.html">Test of Time Award</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../careerawards/index.html">Early Career Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../papers.html">Accepted Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../workshops/index.html">Workshops</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-lg-offset-1 hidden-xs hidden-sm text-right" id="sidebar"/>
+<!-- No sidebar on small screens -->
+<a class="sidebar-nav-item" href="../../index.html">Home</a>
+<!--br>
+ <a class="sidebar-nav-item" href="/blog/">Latest</a-->
+<br>
+<a class="sidebar-nav-item" href="http://www.roboticsproceedings.org/">RSS Proceedings</a>
+<br>
+
+<br>
+
+
+
+<b>attending</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/info/index.html">Instructions for Conference Attendees</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/registration/index.html">Registration</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/inclusion/index.html">Inclusion@RSS</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/pioneers/index.html">RSS Pioneers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>committees</b>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/organizers/index.html">Organizing Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/pc/index.html">Program Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/foundation/index.html">RSS Foundation</a>
+<br>
+
+
+
+<br>
+
+
+
+<b>information</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/authorinfo/index.html">Author Information</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfp/index.html">Call for Papers</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/callForParticipation/index.html">Call for Participation</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfw/index.html">Call for Workshops</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/studentHelpers/index.html">Information for Student Helpers</a>
+<br>
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/sponsorship/index.html">Sponsors</a>
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<b>program</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../detailed/index.html">Detailed Program</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../awards/index.html">Paper Awards</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../keynote/index.html">Keynote Talk</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../testoftimeaward/index.html">Test of Time Award</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../careerawards/index.html">Early Career Awards</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../papers.html">Accepted Papers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../workshops/index.html">Workshops</a>
+<br>
+
+
+
+<br>
+
+
+<b>follow us</b>
+<br>
+<a href="https://twitter.com/RoboticsSciSys"><i class="fa fa-twitter"></i> Twitter </a>
+<br>
+<a href="https://www.facebook.com/RoboticsSciSys"><i class="fa fa-facebook"></i>  Facebook  </a>
+<br>
+
+</div>
+
+        <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+          <div class="page">
+  <h3 class="page-title">Eyes-Closed Safety Kernels: Safety of Autonomous Systems Under Loss of Observability</h1>
+  <br/>
+  <p style="color:black; font-size: 120%; text-align: center;"><em>Forrest Laine (UC Berkeley); Chih-Yuan Chiu (UC Berkeley); Claire Tomlin (UC Berkeley)</em></p>
+
+<table width="30%"> <tr>
+<td style="width: 20%; text-align: center;"><a href="http://www.roboticsproceedings.org/rss16/p096.pdf"><img src="../../images/paper_link.png" width="50" height="60" /> </a> </td>
+
+<td style="width: 20%; text-align: center;"><a href="http://github.com/4estlaine/eyes_closed"><img src="../../images/software_link.png" width="50" height="60" /> </a> </td>
+
+</tr></table>
+
+<h3 id="abstract">Abstract</h3>
+<html><p style="color:gray; font-size: 100%; text-align: justified;">
+A framework is presented for handling a potential loss of observability of a dynamical system in a provably safe way. Inspired by the fragility of data-driven perception systems used by autonomous vehicles, we formulate the problem that arises when a sensing modality fails or is found to be untrustworthy during autonomous operation. We cast this problem as a differen- tial game played between the dynamical system being controlled and the external system factor(s) for which observations are lost. The game is a zero-sum Stackelberg game in which the controlled system (leader) is trying to find a trajectory which maximizes a function representing the safety of the system, and the unobserved factor (follower) is trying to minimize the same function. The set of winning initial configurations of this game for the controlled system represents the set of all states in which safety can be maintained with respect to the external factor, even if observability of that factor is lost. This is the set we refer to as the Eyes-Closed Safety Kernel. In practical use, the policy defined by the winning strategy of the controlled system is only needed to be executed whenever observability of the external system is lost or the system deviates from the Eyes-Closed Safety Kernel due to other, non-safety oriented control schemes. We present a means for solving this game offline, such that the resulting winning strategy can be used for computationally efficient, provably-safe, online control when needed. The solution approach presented is based on representing the game using the solutions of two Hamilton-Jacobi partial differential equations. We illustrate the applicability of our framework by working through a realistic example in which an autonomous car must avoid a dynamic obstacle despite potentially losing observability.
+</p></html>
+
+<h3 id="live-paper-discussion-information">Live Paper Discussion Information</h3>
+<html>
+<table width="50%">
+<tr> <th rowspan="2"><a href="https://pheedloop.com/rss2020/virtual/#session_LyIYtS"><img src="../../images/pheedloop_link.png" width="70" height="70" /> </a> </th> <th> Start Time </th> <th> End Time </th> </tr>
+<tr> <td> 07/16 15:00 UTC </td><td> 07/16 17:00 UTC </td></tr>
+</table> <br /> </html>
+<h3 id="virtual-conference-presentation">Virtual Conference Presentation</h3>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/mEDus3elZnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="paper-reviews">Paper Reviews</h3>
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 2</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+I have several concerns focused around wording, implementation, and references to prior work:
+
+1. The approach proposed in the paper is implemented using the Level Set Toolbox. Does the approximation generated by the Level Set Toolbox generate a conservative approximation to the true 1-super level set? If the approximations generated in  the paper are conservative, the authors should mention that property. If not, then I am not sure why the the proposed method deals with the potential loss of observability in a provably safe manner. A clarification should be made in the revision to ensure that readers appreciate the significance of the result. 
+
+2. There are others who've proposed to plan while treating potentially observed or only partially observed models using forward and then backwards reachability. Though these methods do not treat the problem as a zero-sum, differential game (as is done in this paper), they are probably worth referencing as motivation for this approach. For instance:
+
+Ahn, Heejin, Karl Berntorp, and Stefano Di Cairano. "Reachability-based Decision Making for City Driving." 2018 Annual American Control Conference (ACC). IEEE, 2018
+
+3. Have the authors considered how to apply this to real-world or specifically more realistic vehicle models? Some discussion of that is probably merited given the difficulty of applying some of these reachability based approaches. Again, to appreciate the significance of the approach, such a discussion would be helpful.
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 3</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+The paper is overall well-written and easy to follow.
+
+Minor comments:
+
+1- It seems that you should use "Lemma" instead of "Theorem" for Theorem1 &amp;2, as they are direct results of already published work.
+
+2- Please give more details and the limitations regarding your assumption: "the external system can observe the internal system at all times". In the case of two autonomous cars, it is possible that both systems cannot observe each other.
+
+3- In Section III, as you are only considering the 2D case, the cars are rather disks and not spheres.
+
+4- The analysis in Section III. A. "Notes on Computation" is interesting, can you provide more details regarding your statement: "Nevertheless, with clever representation of the systems, many interesting problems more complicated than the one presented here can be solved using this framework."
+
+</p> </details>
+
+<table width="100%"><tr><td style="width: 30%; text-align: center;"><a href="95.html"> <img src="../../images/previous_icon.png" width="120" height="80" /> </a> </td>
+
+<td style="width: 30%; text-align: center;"><a href="../papers.html"> <img src="../../images/overview_icon.png" width="120" height="80" /> </a> </td> 
+
+<td style="width: 30%; text-align: center;"><a href="97.html"> <img src="../../images/next_icon.png" width="100" height="80" /> </a> </td> 
+
+</tr></table>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

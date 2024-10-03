@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Facebook images -->
+  <meta property="og:image" content="/images/rss_2020.png"/>
+
+  <title>
+    
+      Optimally Guarding Perimeters and Regions with Mobile Range Sensors &middot; Robotics: Science and Systems
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../../public/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../../../public/css/style.css">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66594011-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="../../../public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="../../../atom.xml">
+
+</head>
+
+  <body>
+    <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <a href="../../../index.html">
+                    <img style="text-align:center" src="../../../images/rsslogotext-white.png" width="100%">
+                        </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-11 col-xs-12 col-lg-offset-4 col-md-offset-2 col-sm-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" style="margin-top: 10px; text-align: center;"
+                        href="../../../index.html">RSS 2020</a>
+                    <a class="navbar-brand hidden-xs"
+                        href="../../../index.html">RSS 2020</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../63.html#">home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--li><a href="/blog/">Latest</a></li-->
+                                <li><a href="http://www.roboticsproceedings.org/">Previous Proceedings</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../63.html#">attending<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/info/index.html">Instructions for Conference Attendees</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/registration/index.html">Registration</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/inclusion/index.html">Inclusion@RSS</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/pioneers/index.html">RSS Pioneers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../63.html#">committees<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../committees/organizers/index.html">Organizing Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../committees/pc/index.html">Program Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../committees/foundation/index.html">RSS Foundation</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../63.html#">information<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/authorinfo/index.html">Author Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/cfp/index.html">Call for Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/callForParticipation/index.html">Call for Participation</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/cfw/index.html">Call for Workshops</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/studentHelpers/index.html">Information for Student Helpers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/sponsorship/index.html">Sponsors</a></li>
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../63.html#">program<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../detailed/index.html">Detailed Program</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../awards/index.html">Paper Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../keynote/index.html">Keynote Talk</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../testoftimeaward/index.html">Test of Time Award</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../careerawards/index.html">Early Career Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../papers.html">Accepted Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../workshops/index.html">Workshops</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-lg-offset-1 hidden-xs hidden-sm text-right" id="sidebar"/>
+<!-- No sidebar on small screens -->
+<a class="sidebar-nav-item" href="../../../index.html">Home</a>
+<!--br>
+ <a class="sidebar-nav-item" href="/blog/">Latest</a-->
+<br>
+<a class="sidebar-nav-item" href="http://www.roboticsproceedings.org/">RSS Proceedings</a>
+<br>
+
+<br>
+
+
+
+<b>attending</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/info/index.html">Instructions for Conference Attendees</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/registration/index.html">Registration</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/inclusion/index.html">Inclusion@RSS</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/pioneers/index.html">RSS Pioneers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>committees</b>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../committees/organizers/index.html">Organizing Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../committees/pc/index.html">Program Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../committees/foundation/index.html">RSS Foundation</a>
+<br>
+
+
+
+<br>
+
+
+
+<b>information</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/authorinfo/index.html">Author Information</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/cfp/index.html">Call for Papers</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/callForParticipation/index.html">Call for Participation</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/cfw/index.html">Call for Workshops</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/studentHelpers/index.html">Information for Student Helpers</a>
+<br>
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/sponsorship/index.html">Sponsors</a>
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<b>program</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../detailed/index.html">Detailed Program</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../awards/index.html">Paper Awards</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../keynote/index.html">Keynote Talk</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../testoftimeaward/index.html">Test of Time Award</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../careerawards/index.html">Early Career Awards</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../papers.html">Accepted Papers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../workshops/index.html">Workshops</a>
+<br>
+
+
+
+<br>
+
+
+<b>follow us</b>
+<br>
+<a href="https://twitter.com/RoboticsSciSys"><i class="fa fa-twitter"></i> Twitter </a>
+<br>
+<a href="https://www.facebook.com/RoboticsSciSys"><i class="fa fa-facebook"></i>  Facebook  </a>
+<br>
+
+</div>
+
+        <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+          <div class="page">
+  <h3 class="page-title">Optimally Guarding Perimeters and Regions with Mobile Range Sensors</h1>
+  <br/>
+  <p style="color:black; font-size: 120%; text-align: center;"><em><a href="https://sites.google.com/view/swfeng/homepage">Si Wei Feng</a>,  <a href="https://arc.cs.rutgers.edu">Jingjin Yu</a></em></p>
+
+<table width="20%"> <tr>
+<td style="width: 20%; text-align: center;"><a href="http://www.roboticsproceedings.org/rss16/p063.pdf"><img src="../../../images/paper_link.png" width="50" height="60" /> </a> </td>
+
+</tr></table>
+
+<h3 id="abstract">Abstract</h3>
+<html> <script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$']], processEscapes: true}}); </script><p style="color:gray; font-size: 100%; text-align: justified;">
+We investigate the problem of using mobile robots equipped with 2D range sensors to optimally guard perimeters or regions, i.e., 1D or 2D sets. Given such a set of arbitrary shape to be guarded, and $k$ mobile sensors where the $i$-th sensor can guard a circular region with a variable radius $r_i$, we seek the optimal strategy to deploy the k sensors to fully cover the set such that max $r_i$ is minimized. On the side of computational complexity, we show that computing a 1.152-optimal solution for guarding a perimeter or a region is NP-hard, i.e., the problem is hard to approximate. The hardness result on perimeter guarding holds when each sensor may guard at most two disjoint perimeter segments. On the side of computational methods, for the guarding perimeters, we develop a fully polynomial time approximation scheme (FPTAS) for the special setting where each sensor may only guard a single continuous perimeter segment, suggesting that the aforementioned hard-to-approximate result on the two-disjoint-segment sensing model is tight. For the general problem, we first describe a polynomial-time $(2+\varepsilon)$-approximation algorithm as an upper bound, applicable to both perimeter guarding and region guarding. This is followed by a high-performance integer linear programming (ILP) based method that computes near-optimal solutions. Thorough computational benchmarks as well as evaluation on potential application scenarios demonstrate the effectiveness of these algorithmic solutions. 
+</p></html>
+
+<h3 id="live-paper-discussion-information">Live Paper Discussion Information</h3>
+<html>
+<table width="50%">
+<tr> <th rowspan="2"><a href="https://pheedloop.com/rss2020/virtual/#session_wSWdUU"><img src="../../../images/pheedloop_link.png" width="70" height="70" /> </a> </th> <th> Start Time </th> <th> End Time </th> </tr>
+<tr> <td> 07/15 15:00 UTC </td><td> 07/15 17:00 UTC </td></tr>
+</table> <br /> </html>
+<h3 id="virtual-conference-presentation">Virtual Conference Presentation</h3>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/1-PsAmQlVw8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="paper-reviews">Paper Reviews</h3>
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 2</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+This paper considers two related problems, Optimal Perimeter Guarding (OPG_2D) and Optimal Region Guarding (ORG_2D), with k robots each having a circular 2D range sensor. OPG_2D and ORG_2D together comprise the Optimal Set Guarding problem (OSG_2D). The goal is to use a set of mobile robots to monitor either the perimeter of a region (in OPG) or a region (ORG). The regions are assumed to have simple polygonal boundaries, with zero or more simple polygonal obstacles. The objective being minimized is the sensor radius, and the solution also computes the locations of the robots. The main theoretical result in the paper is an inapproximability result showing that finding solutions for OSG_2D with an approximation factor within 1.155 is NP-hard. This result builds on prior results [22, 23] on vertex cover for planar graphs of maximum degree 3, by designing a 3-net backbone structure. The main algorithmic results are three types of algorithms. The first is a (1+ epsilon) approximation algorithm that discretizes the perimeter (or region) using lengths of 2*epsilon (or squares of epsilon^2), where each sensor is responsible to guard only a single continuous perimeter segment. This algorithm, which involves a binary search on the decision version of the problem, is called AL_OPG_2D_CONT and is a fully polynomial time approximation scheme (FPTAS). The second class of algorithm gives a (2+ epsilon) approximation using results from the facility location problem (or equivalently, the k-center problem). The third class of algorithm uses a discretization of the perimeter (or region) and presents an integer linear program formulation. Finally, simulation results are presented on synthetically generated simple polygons and comparison of the various algorithms are given in terms of computational time and quality of the solutions generated. Practical examples on two different environments are presented as well.
+
+The paper is technically strong. However minimizing the sensor radius to guard a perimeter or region does not seem well motivated. While the paper states that this decreased sensor footprint increases the resolution of the image data, this metric needs to be better justified. A more useful objective would be to minimize the number of robots needed to guard the perimeter/region. The paper also assumes that the robots are in fixed positions (given by the solution). This solution does not really use the mobility of the robots beyond getting them to the desired fixed locations. Wouldn't it be more effective to have robots patrolling at a sufficiently high frequency? If using drones for the two application senarios (Section V B), practical constraints like limited battery life would make it harder to use such solutions.
+
+Section II: The definition of size(k, D) is a little hard to grasp. Are the center locations c1,..., ck defined over R^2? From the current definition it appears that the center locations are fixed, making one of the two minimizations redundant. Perhaps providing a geometric/physical interpretation for size(k, D) would help, particularly given its use throughout the paper. 
+
+Section III A: The selection of m in the conversion of an edge uw to a path is not discussed. This is important since it appears that there is an implicit assumption that the curvature of each the paths is smooth, i.e., there are no abrupt changes in the angles between two consecutive unit segments of a path. If the curvature were not smooth then it may happen that a circle of radius alpha covers more than 4 points from the vertical bars. However, under the smooth curvature constraint, it is not clear if an appropriate 3-net can always be created.
+ 
+Section III B was confusing. It was not clear why for small enough delta, P is a polygon with holes. Fig 8 also did not help me identify the holes in the polygon. Perhaps the holes can be identified in the figure. Isn't the polygon in Fig 8(a) a simple polygon (assuming its end caps are closed)?
+
+Section III B: Is the definition of K correct? Should the 2 be in the denominator?
+
+What does it mean to say "each sensor can cover at most two disjoint perimeter segments"? That the lengths of the segments must be less than the diameter of the sensor circle? Is this the case in Fig 12?
+
+Section IV A: M[] is used without being defined.
+
+Theorem IV.1: Does "continuous coverage" refer to coverage of continuous perimeter segments, or coverage continuous in time? Both occur here.
+
+Table III: The run times do not show a consistent decrease with increasing k, especially in the last two rows. So the scalability of the ILP is not clear.
+
+Last sentence of Section V A is a bit puzzling. Unclear how AL_OPG_2D_ILP is "getting very close to being 1-optimal".
+
+Section V does not state the values of the epsilon parameter. It is not clear how close to optimal the solutions are.
+
+It appears it should be possible to extend your OPG solutions to the case when the perimeters of the interior holes should also be guarded.
+
+Could a mixed ILP optimize the locations of the sensors on the continuous R^2 domain?
+
+Have you considered the problem of reducing the number of robots for fixed sensor radius? What about optimizing both the number of robots and the sensor radius?
+
+
+Presentation suggestions:
+
+The introduction describes the sensors as 2D range sensors, whereas Section II describes a quadcopter with a vision sensor. The model seems to better match the latter -- why the use of the term "range sensor"?
+
+Since the regions in the environment are modeled as simple polygons, this should be made clear in the Abstract and/or Introduction.
+
+There are some awkwardly worded/unclear sentences. For example, the first sentence of the last paragraph of Section II. Also, the first sentence of the proof of Theorem III.3.
+
+Section II A: In the definition of L, the summation should be over uw \in E(G).
+
+There are several grammatical errors throughout the paper. A careful proofreading should eliminate them. For example, the wording of Theorem III.1.
+
+Section III A, last sentence of first paragraph should end with "3 (left)."
+
+Theorem III.3: Is d_u the degree of u? Please define.
+
+Fig 13: What is the discretization value of epsilon here? The left and right figures appear to have different discretizations.
+
+References: A little attention should be given to appropriate capitalization in the references. For example, Kepler, NP-complete, R^3. Titles of conferences, journals, and books should also be appropriately capitalized.
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 3</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+This paper presents an analysis of the coverage planning problem for a computer science perspective. This contribution is interesting and work on this topic would be a welcome contribution to the field. My concerns with the paper surround the thoroughness and clarity of its technical results and the scientific rigour of its experiments.
+
+---Technical Analysis---
+The paper presents an analysis that seeks to show that the perimeter/area coverage problem cannot be solved in polynomial time to a better approximation than 2\sqrt{3}/3 for the area problem and 1.155 for the perimeter problem, unless P=NP. This analysis is made by proving the hardness of guarding a "3-net", then showing that a 3-net can approximate "simple polygons". In doing so, they also demonstrate that any polygon can be converted to a 3-net by replacing vertices with cycles.
+
+I found this analysis difficult to follow, and can only provide comments at a low level with the aim of improving the communication of the results.
+
+1. It is not stated clearly whether the results assume that the given k robots are capable of covering the target region and, other than in one algorithm, it is not discussed what would happen if they cannot. Relatedly, what assumptions are made about the range of the sensing radius, is it assumed to extend to infinity?
+
+2. What is meant by "continuous boundary segments"  in phrases such as "each sensor may only guard a single continuous perimeter segment" or "no more than two continuous boundary segments". My understanding is that a side of a polygon would be a single continuous perimeter segment, and a corner would be where two continuous perimeter segments meet. But are the statements meant to include/preclude two sides that are topologically distant but spatially close, i.e., parallel?
+
+3. In the preliminaries section, the size of a 2D simple polygonal region is defined as:
+    size(k, D) = min_{c1,...,ck} max_{p\inD} min_{1&lt;=i&lt;=k} || c_i - p ||
+This equation is fundamental to the analysis and I believe the reader would benefit from more explanation and intuition. It is not readily apparent to me what effect the left-most minimum has if the first minimum is specifying the c_i. Is there some interaction between c_i and p?
+
+4. In the proof of Theorem III.1 it is stated that: "For a path u...w on T_G , since the path length is odd, [...]". It is not obvious to me why every path in T_G must be of odd path length.
+
+5. Theorem III.1 is stated to prove NP-hardness, yet the proof itself makes no mention of NP. If this result comes from proving that the theorem is equivalent to something that is previously known to be NP, then please make this fact explicit and include a citation to the proof of the connected result.
+
+6. Possible typo on page 4 in the statement "Let K = ((L - |E|)2 + k)", should it be /2?
+
+7. A number of results are presented about a graph with maximum degree 3, including extending these results to simple polygons, well before demonstrating that any graph can be converted to such a graph using the technique illustrated in Fig. 9. I think it would be helpful to readers to reconsider the order of this presentation such that the generality of the 3-net to higher-degree graphs was presented before the connections to simple polygons.
+
+---Algorithms---
+The paper presents algorithms with bounded optimality for the perimeter and area coverage problems. 
+
+1. What is "OPT" in the statement "OPT + \epsilon" on page 6?
+2. Do the algorithms search for r or r*? On pg. 6 you say "given a candidate radius r" but on pg. 7 you say "we can do a binary search on r*". My current understanding is that r* represents the true optimum and that r is the approximate radius found by the algorithm, is that correct?
+
+---Experimental Results---
+The paper presents multiple runs on simulated results and on two real-world motivated problems. The simulated results are run for 100 trials (perimeter) and 10 trials (ILP).
+
+1. It is stated that the variances are small and therefore not necessary to report in detail; however, the provided "normalized average standard deviations" are given as 0.06 (Table 1) and 0.125 (Table 2) and 0.545 (Table 3). None of these can be taken as small given that they are each larger than a number of the results in their respective tables.
+
+2. 10 runs is of questionable statistical significance.
+
+---Minor Typos---
+This is not a complete list of typos or other minor mistakes
+pg. 4: "On natural restriction"
+pg. 5: "we first describe a method that used for discretizing the problem"
+pg. 7: "then start to check the feasibility of following integer programming model"
+
+</p> </details>
+
+<table width="100%"><tr><td style="width: 30%; text-align: center;"><a href="../62.html"> <img src="../../../images/previous_icon.png" width="120" height="80" /> </a> </td>
+
+<td style="width: 30%; text-align: center;"><a href="../../papers.html"> <img src="../../../images/overview_icon.png" width="120" height="80" /> </a> </td> 
+
+<td style="width: 30%; text-align: center;"><a href="../64.html"> <img src="../../../images/next_icon.png" width="100" height="80" /> </a> </td> 
+
+</tr></table>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

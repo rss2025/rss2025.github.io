@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Facebook images -->
+  <meta property="og:image" content="/images/rss_2020.png"/>
+
+  <title>
+    
+      Learning Labeled Robot Affordance Models Using Simulations and Crowdsourcing &middot; Robotics: Science and Systems
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../../public/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../../../public/css/style.css">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66594011-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="../../../public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="../../../atom.xml">
+
+</head>
+
+  <body>
+    <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <a href="../../../index.html">
+                    <img style="text-align:center" src="../../../images/rsslogotext-white.png" width="100%">
+                        </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-11 col-xs-12 col-lg-offset-4 col-md-offset-2 col-sm-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" style="margin-top: 10px; text-align: center;"
+                        href="../../../index.html">RSS 2020</a>
+                    <a class="navbar-brand hidden-xs"
+                        href="../../../index.html">RSS 2020</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../37.html#">home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--li><a href="/blog/">Latest</a></li-->
+                                <li><a href="http://www.roboticsproceedings.org/">Previous Proceedings</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../37.html#">attending<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/info/index.html">Instructions for Conference Attendees</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/registration/index.html">Registration</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/inclusion/index.html">Inclusion@RSS</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/pioneers/index.html">RSS Pioneers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../37.html#">committees<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../committees/organizers/index.html">Organizing Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../committees/pc/index.html">Program Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../committees/foundation/index.html">RSS Foundation</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../37.html#">information<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/authorinfo/index.html">Author Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/cfp/index.html">Call for Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/callForParticipation/index.html">Call for Participation</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/cfw/index.html">Call for Workshops</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/studentHelpers/index.html">Information for Student Helpers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/sponsorship/index.html">Sponsors</a></li>
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../37.html#">program<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../detailed/index.html">Detailed Program</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../awards/index.html">Paper Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../keynote/index.html">Keynote Talk</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../testoftimeaward/index.html">Test of Time Award</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../careerawards/index.html">Early Career Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../papers.html">Accepted Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../workshops/index.html">Workshops</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-lg-offset-1 hidden-xs hidden-sm text-right" id="sidebar"/>
+<!-- No sidebar on small screens -->
+<a class="sidebar-nav-item" href="../../../index.html">Home</a>
+<!--br>
+ <a class="sidebar-nav-item" href="/blog/">Latest</a-->
+<br>
+<a class="sidebar-nav-item" href="http://www.roboticsproceedings.org/">RSS Proceedings</a>
+<br>
+
+<br>
+
+
+
+<b>attending</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/info/index.html">Instructions for Conference Attendees</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/registration/index.html">Registration</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/inclusion/index.html">Inclusion@RSS</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/pioneers/index.html">RSS Pioneers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>committees</b>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../committees/organizers/index.html">Organizing Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../committees/pc/index.html">Program Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../committees/foundation/index.html">RSS Foundation</a>
+<br>
+
+
+
+<br>
+
+
+
+<b>information</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/authorinfo/index.html">Author Information</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/cfp/index.html">Call for Papers</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/callForParticipation/index.html">Call for Participation</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/cfw/index.html">Call for Workshops</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/studentHelpers/index.html">Information for Student Helpers</a>
+<br>
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/sponsorship/index.html">Sponsors</a>
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<b>program</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../detailed/index.html">Detailed Program</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../awards/index.html">Paper Awards</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../keynote/index.html">Keynote Talk</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../testoftimeaward/index.html">Test of Time Award</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../careerawards/index.html">Early Career Awards</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../papers.html">Accepted Papers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../workshops/index.html">Workshops</a>
+<br>
+
+
+
+<br>
+
+
+<b>follow us</b>
+<br>
+<a href="https://twitter.com/RoboticsSciSys"><i class="fa fa-twitter"></i> Twitter </a>
+<br>
+<a href="https://www.facebook.com/RoboticsSciSys"><i class="fa fa-facebook"></i>  Facebook  </a>
+<br>
+
+</div>
+
+        <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+          <div class="page">
+  <h3 class="page-title">Learning Labeled Robot Affordance Models Using Simulations and Crowdsourcing</h1>
+  <br/>
+  <p style="color:black; font-size: 120%; text-align: center;"><em><a href="https://allevato.me">Adam Allevato</a>,  <a href="http://eshort.tech">Elaine Schaertl Short</a>,  <a href="https://www.me.utexas.edu/faculty/faculty-directory/pryor">Mitch Pryor</a>,  <a href="http://www.ece.utexas.edu/people/faculty/andrea-thomaz">Andrea Thomaz</a></em></p>
+
+<table width="20%"> <tr>
+<td style="width: 20%; text-align: center;"><a href="http://www.roboticsproceedings.org/rss16/p037.pdf"><img src="../../../images/paper_link.png" width="50" height="60" /> </a> </td>
+
+</tr></table>
+
+<h3 id="abstract">Abstract</h3>
+<html><p style="color:gray; font-size: 100%; text-align: justified;">
+Affordance models are widely used in robotics to represent a robot's possible interactions with its environment. However, robot affordance models are inherently quantitative, making them difficult for humans to understand and interact with. To address this problem, previous works have constructed affordance models by grounding (connecting) them to natural language, but primarily used expert-defined actions, effects, or labels to do so. In this paper, we use short text responses provided by humans and simple randomized robot manipulation actions to construct a labeled affordance model that defines a relationship between English-language labels and robots' internal affordance representations. We first collect label data from a combination of crowdsourced real-world human-robot interactions and online user studies. We then use this data to train classifiers predicting whether or not a particular quantitative affordance will receive a specific label from a person, achieving an average affordance prediction score of 0.87 (area under Receiver Operating Characteristic curve). Our results also show that labels are more accurately predicted by affordance effects than affordance actions---a result that has been hypothesized in prior work but has never been directly tested. Finally, we develop a technique for automatically constructing a hierarchy of labels from crowdsourced data, discovering structure within the learned labels and suggesting the existence of a more universal set of affordance primitives.
+</p></html>
+
+<h3 id="live-paper-discussion-information">Live Paper Discussion Information</h3>
+<html>
+<table width="50%">
+<tr> <th rowspan="2"><a href="https://pheedloop.com/rss2020/virtual/#session_gfihqm"><img src="../../../images/pheedloop_link.png" width="70" height="70" /> </a> </th> <th> Start Time </th> <th> End Time </th> </tr>
+<tr> <td> 07/15 15:00 UTC </td><td> 07/15 17:00 UTC </td></tr>
+</table> <br /> </html>
+<h3 id="virtual-conference-presentation">Virtual Conference Presentation</h3>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/FTBDZNA2dY4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="paper-reviews">Paper Reviews</h3>
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 1</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+Summary of the paper:
+
+In this paper the authors propose a data-driven model for grounding human provided, natural language labels to robot manipulation actions and their effects as represented in the robot’s affordance model. Authors use crowdsourcing to collect a dataset that associates a robot's action-effect pair with a set of natural language labels. A statistical model is learned from this dataset to predict a distribution over viable labels given a manipulation action and/or the resulting effect. Experiments are performed to test the efficiency of the trained model. Ablation experiment is performed to figure out whether action or effect parameters serve as a better features to train the model. In addition, a probabilistic approach is proposed to build a label hierarchy which provides some insights into the human understanding of affordances for the group of people involved in the study. 
+
+
+Overall comments and recommendations:
+
+The paper attempts to address a sufficiently important problem and fits well within the scope of the conference. It is well written in general. Language provides intuitive ways to interact with collaborative robots. Learning language grounded affordance models is an interesting research direction towards achieving robots that can collaborate. Therefore, adding a discussion about how this model can be inverted and generalized or integrated into a system that enables understanding complete sentences instead of keywords would help strengthen the contribution of the paper. This is important because language can be used to provide instructions of various fidelity such as, a high level instruction "clear the table" or a low level instruction such as "bring the end effector closer to the top of the object in front of you and move forward 10 cm". These instructions doesn't explicitly mention the affordance label ( i.e. the action verb), but could imply the learned affordances such as "push" or "knock over" (as in case of the second instruction). 
+
+
+Other general criticisms:
+
+- In abstract, the line “human input .. randomized robot actions” is a bit unclear. What kind of human input ? What randomized actions ? Without reading the paper, its hard to understand this line.  
+
+- Opening line of the paper (introduction) that talks about the merits of grounding language can be paraphrased to more effectively convey the point. The ability to understand natural language commands enables efficient human robot collaboration in general. It has less to do with adapting to dynamic environments in my opinion. 
+
+- Section 1, Para 3, Line “Our method provides insights into human perceptions of affordances …”. I am skeptical about this claim. The observation that the proposed model performs better when trained using the effect features instead of the actions features is not enough to talk about human perception of affordance. It is totally possible that this result is emerging due to the underlying learning mechanism used.
+
+- Additional related work that’s worth considering: Recent language grounding approaches [1] that leverage crowdsourced datasets. A recent approach [2] that learns object affordance from combined language and vision modalities.
+
+- Providing an example of action and effect parameters while describing the affordance triplet in Section 3.A would make it easier to conceptualize the experiments a little earlier in the paper.
+
+- variable ‘o’ referring to the object features need to be removed from the R.H.S of equations 3 and 4.
+
+- In section 3.D. Para 1, a wrong variable is used to represent the set of labels. ‘L’ should be used instead of ‘l’ .
+
+- Section 3.D Paragraph 3 states that a single multi-class classifier is learned, but section 4.D states that multiple one-class SVM classifiers were trained using SVM for the experiment.
+
+- Arrows in Figure 2 need to be explained. Are the two single sided arrows between A-E for the proposed model any different than the bidirectional arrows between A-O and O-E ? What is M(a) ? 
+
+- Describing a general action using word “push” seems unnecessary and creates confusion. I would suggest just referring to them as actions.
+
+- Section 4.B states that participants also provided answers such as “the robot failed to pick up the object”. How did the participants provide this answer if they were only provided with templates to fill in the blanks. 
+
+- It seems that there are more data points for certain classes such as push, touch, move etc. than that for catch, nothing, flip etc. Does that impact training ? 
+
+
+Grammatically incoherent sentences and typos:
+
+- Section 1, Para 1, Line “Ideally, a robot’s set of symbols …. “ is incoherent
+- Section 1, Para 2, Line “In contrast to prior affordance learning and… “ should be broken down in to simpler sentences. 
+- Section 3.F, Para 1, Line “The labeled affordance... “ has two instances of the word “to”.
+- Section 4.A, Para 1, Line “To build...” has period missing at the end. 
+
+
+Hope you find these comments helpful.
+
+
+[1] Paul Rohan, Jacob Arkin, Derya Aksaray, Nicholas Roy, and Thomas M. Howard. "Efficient grounding of abstract spatial concepts for natural language interaction with robot platforms." The International Journal of Robotics Research 37, no. 10 (2018): 1269-1299.
+[2] Daniele Andrea F., Thomas M. Howard, and Matthew R. Walter. "A Multiview Approach to Learning Articulated Motion Models." In Robotics Research, pp. 371-386. Springer, Cham, 2020.
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 3</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+A major limitation of this study is that it explores such a narrow spectrum of affordance data.  This occurs because:
+
+1) The objects used are simple and self-similar.  They are not complex enough to explore affordances such as "open", "close" or "pour".
+
+2) The actions performed by the robot are very simple, consisting of just random linear movements.  This again leads to the explored space being highly limited, largely consisting of pushing objects around.  We are unable to see more interesting affordances develop.
+
+3) As a result of the combination of (1) and (2) above, the labels that are obtained are again self-similar, resulting in actions like knock, push, touch, bump and move.  
+
+The combined effect is that many of the arguments in the paper are not well supported.  For example, the central argument that collecting data from humans is necessary in order to capture a wide range of used terms is not as convincing as it could be since none of the terms are surprising.  If hand-coded labels were used in their place, for example, it doesn't seem like there would be much detriment to the current system. 
+
+I do find the idea of auto-generated label hierarchies very interesting, and could see that becoming more critical in a more complex domain.  
+
+In section III.B. the authors state that in most prior work affordance data is stored in a representation that is not directly accessible to humans. This is not a valid statement.  While true for a subset of works (mostly from the haptics community like [5] and [25]), many others use human-interpretable terms like "pushable" and "pickupable" directly.   Many of these papers are cited in section II.
+
+A major result of the paper is that affordance labels are better predicted by effects of actions than by the action trajectories themselves.  This is not entirely surprising given the way affordances are described.  An affordance such as "open" or "pickup" directly describes the effect that it has on the object, regardless of how it was achieved.  An interesting follow-on study would be to ignore all trials in which no contact with the object was made, and focus more specifically on learning mappings from object properties to labels as a result of more complex object interactions, such as opening a box.
+</p> </details>
+
+<table width="100%"><tr><td style="width: 30%; text-align: center;"><a href="../36.html"> <img src="../../../images/previous_icon.png" width="120" height="80" /> </a> </td>
+
+<td style="width: 30%; text-align: center;"><a href="../../papers.html"> <img src="../../../images/overview_icon.png" width="120" height="80" /> </a> </td> 
+
+<td style="width: 30%; text-align: center;"><a href="../38.html"> <img src="../../../images/next_icon.png" width="100" height="80" /> </a> </td> 
+
+</tr></table>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

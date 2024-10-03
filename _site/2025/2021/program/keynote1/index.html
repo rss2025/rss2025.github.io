@@ -1,0 +1,1485 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Facebook images -->
+  <meta property="og:image" content="/images/rss_2021.png"/>
+
+  <title>
+    
+      Keynote: Larry Matthies &middot; Robotics: Science and Systems
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66594011-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="../../public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="../../atom.xml">
+
+</head>
+
+  <body>
+    <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <a href="../../index.html">
+                    <img style="text-align:center" src="../../images/rsslogotext-white.png" width="100%">
+                        </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-11 col-xs-12 col-lg-offset-4 col-md-offset-2 col-sm-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" style="margin-top: 10px; text-align: center;"
+                        href="../../index.html">RSS 2021</a>
+                    <a class="navbar-brand hidden-xs"
+                        href="../../index.html">RSS 2021</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="index.html#">home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--li><a href="/blog/">Latest</a></li-->
+                                <li><a href="http://www.roboticsproceedings.org/">Proceedings</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="index.html#">attending<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/info/index.html">Instructions for Conference Attendees</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/codeOfConduct/index.html">RSS 2021 Code of Conduct</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/registration/index.html">Registration</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/inclusion/index.html">Inclusion@RSS</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/pioneers/index.html">RSS Pioneers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="index.html#">committees<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/organizers/index.html">Organizing Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/pc.html">Program Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/foundation/index.html">RSS Foundation</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="index.html#">information<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/authorinfo/index.html">Author Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfp/index.html">Call for Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfw/index.html">Call for Workshops &amp; Tutorials</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/sponsorship/index.html">Sponsors</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="index.html#">program<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../overview/index.html">Overview</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../awards/index.html">Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../keynote/index.html">Keynote Talks</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../earlycareer/index.html">Early Career Talks</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../testoftimeaward/index.html">Test of Time Award</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../papers.html">Accepted Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../workshops/index.html">Workshops &amp; Tutorials</a></li>
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-lg-offset-1 hidden-xs hidden-sm text-right" id="sidebar"/>
+<!-- No sidebar on small screens -->
+<a class="sidebar-nav-item" href="../../index.html">Home</a>
+<!--br>
+ <a class="sidebar-nav-item" href="/blog/">Latest</a-->
+<br>
+<a class="sidebar-nav-item" href="http://www.roboticsproceedings.org/">RSS Proceedings</a>
+<br>
+
+<br>
+
+
+
+<b>attending</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/info/index.html">Instructions for Conference Attendees</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/codeOfConduct/index.html">RSS 2021 Code of Conduct</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/registration/index.html">Registration</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/inclusion/index.html">Inclusion@RSS</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/pioneers/index.html">RSS Pioneers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>committees</b>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/organizers/index.html">Organizing Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/pc.html">Program Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/foundation/index.html">RSS Foundation</a>
+<br>
+
+
+
+<br>
+
+
+
+<b>information</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/authorinfo/index.html">Author Information</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfp/index.html">Call for Papers</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfw/index.html">Call for Workshops &amp; Tutorials</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/sponsorship/index.html">Sponsors</a>
+<br>
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+<b>program</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../overview/index.html">Overview</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../awards/index.html">Awards</a>
+<br>
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../keynote/index.html">Keynote Talks</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../earlycareer/index.html">Early Career Talks</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../testoftimeaward/index.html">Test of Time Award</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../papers.html">Accepted Papers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../workshops/index.html">Workshops &amp; Tutorials</a>
+<br>
+
+
+
+
+
+<br>
+
+
+<b>follow us</b>
+<br>
+<a href="https://twitter.com/RoboticsSciSys"><i class="fa fa-twitter"></i> Twitter </a>
+<br>
+<a href="https://www.facebook.com/RoboticsSciSys"><i class="fa fa-facebook"></i>  Facebook  </a>
+<br>
+
+</div>
+
+        <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+          <div class="page" id="inner-content">
+  <h1 class="page-title">Keynote: Larry Matthies</h1>
+  <br/>
+  <head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 100%;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable, #myTableA {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 100%;
+}
+
+#myTable th, #myTable td, #myTableA th, #myTableA td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr, #myTableA tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover, #myTableA tr.header, #myTableA tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+#eventcounter1 a {
+    font-size: 12px;
+    color: #ffffff;
+    display: block;
+}
+
+#eventcounter1 a:hover {
+    text-decoration: none;
+}
+
+#eventcounter2 a {
+    font-size: 12px;
+    color: #ffffff;
+    display: block;
+}
+
+#eventcounter2 a:hover {
+    text-decoration: none;
+}
+
+</style>
+</head>
+
+<style>
+#yt-playlist {
+  font-size: 16px;
+  color: #000000;
+  border: solid #ddd 1px;
+  margin: 12px;
+}
+
+#yt-playlist td {
+  padding: 12px;
+  }
+</style>
+
+<table id="yt-playlist"><tr><td><a href="https://youtu.be/NcI6fJOzBsU">YouTube</a></td></tr></table>
+
+<table width="100%"><tr>
+<td style="width: 15%; text-align: center;"> 
+<img src="../../images/blank_icon.png" alt="Spacer" width="107" height="66" /> 
+            </td>
+<td width="60%" height="120px;">
+    <center><span style="font-size:26px; vertical-align: top; ">Monday, July 12</span></center><br />
+</td>
+<td style="width: 15%; text-align: center;"><a href="../keynote2/index.html">
+<img src="../../images/next_icon.png" alt="Next Keynote" width="107" height="66" /> 
+</a> </td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td width="15%">&nbsp;</td>
+ <td>
+    <table width="100%">
+  <thead>
+  <tr><th></th> 
+   <th style="font-size: 10px; color:#000000; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">AEST</th>
+ <th style="font-size: 10px; color:#004e7d; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">BJT</th>
+ <th style="font-size: 10px; color:#000000; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">CEST</th>
+ <th style="font-size: 10px; color:#004e7d; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">Eastern</th>
+ <th style="font-size: 10px; color:#000000; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">Pacific</th>
+ 
+     </tr>
+</thead>
+
+<tr><td></td>
+    <td style="font-size: 8px; color:#000000; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px; padding-bottom: 3px;"> UTC+10</td>
+  <td style="font-size: 8px; color:#004e7d; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px; padding-bottom: 3px;"> UTC+8</td>
+  <td style="font-size: 8px; color:#000000; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px; padding-bottom: 3px;"> UTC+2</td>
+  <td style="font-size: 8px; color:#004e7d; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px; padding-bottom: 3px;"> UTC-4</td>
+  <td style="font-size: 8px; color:#000000; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px; padding-bottom: 3px;"> UTC-7</td>
+
+</tr>
+  <tr><td style="text-align:right; font-weight:bold; padding-right:15px;">Early Q/A, Start: </td>
+ <td style="font-size: 13px; color:#000000; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">02:30AM</td>
+ <td style="font-size: 13px; color:#004e7d; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">12:30AM</td>
+ <td style="font-size: 13px; color:#000000; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">06:30PM</td>
+ <td style="font-size: 13px; color:#004e7d; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">12:30PM</td>
+ <td style="font-size: 13px; color:#000000; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">09:30AM</td>
+</tr>
+<tr><td style="text-align:right; font-weight:bold; padding-right:15px;">End: </td>
+ <td style="font-size: 13px; color:#000000; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">03:00AM</td>
+ <td style="font-size: 13px; color:#004e7d; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">01:00AM</td>
+ <td style="font-size: 13px; color:#000000; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">07:00PM</td>
+ <td style="font-size: 13px; color:#004e7d; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">01:00PM</td>
+ <td style="font-size: 13px; color:#000000; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">10:00AM</td>
+</tr>
+<tr><td style="text-align:right; font-weight:bold; padding-right:15px;">&nbsp;</td></tr><tr><td style="text-align:right; font-weight:bold; padding-right:15px;">Late Q/A, Start: </td>
+ <td style="font-size: 13px; color:#000000; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">12:00PM</td>
+ <td style="font-size: 13px; color:#004e7d; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">10:00AM</td>
+ <td style="font-size: 13px; color:#000000; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">04:00AM</td>
+ <td style="font-size: 13px; color:#004e7d; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">10:00PM</td>
+ <td style="font-size: 13px; color:#000000; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">07:00PM</td>
+</tr>
+<tr><td style="text-align:right; font-weight:bold; padding-right:15px;"> End: </td>
+ <td style="font-size: 13px; color:#000000; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">12:30PM</td>
+ <td style="font-size: 13px; color:#004e7d; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">10:30AM</td>
+ <td style="font-size: 13px; color:#000000; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">04:30AM</td>
+ <td style="font-size: 13px; color:#004e7d; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">10:30PM</td>
+ <td style="font-size: 13px; color:#000000; text-align:right; border-right: solid #dddddd 1px; padding-right: 10px;">07:30PM</td>
+</tr>
+</table>
+ </td>
+<td width="15%"><br /><br /> <p style="text-align: center; font-size: 10px; margin-top: 0px;" id="eventcounter1"><a>0d 00h 00m</a></p> <br /><br /> <p style="text-align: center; font-size: 10px; margin-top: 0px;" id="eventcounter2"><a>0d 00h 00m</a></p></td>
+</tr>
+</table>
+
+<p><br /></p>
+
+<table class="table">
+
+<tr>
+<th style="text-align:center;">
+    <img src="../../images/Larry.jpg" width="250" />
+	<br />
+    <a href="https://www-robotics.jpl.nasa.gov/people/Larry_Matthies/">
+        Larry Matthies
+	</a>
+	<br />
+
+    <table style="margin-top:5px;">
+    <tr>
+    <td><img style="padding-bottom:15px; padding-right:7px;" src="../../images/NASA_logo.png" height="75" /></td>
+    <td valign="top" style="text-align:left; font-weight:normal;"><i>Technology Coordinator,<br /> Mars Exploration Program,<br /> NASA/JPL</i></td>
+    </tr>
+    </table>
+
+</th>
+<th>
+	<p style="text-align:justify; font-weight:bold; font-size:20px;">
+Robotic Mars Exploration: Recent Results and Future Prospects
+	</p>
+	
+	<b>Abstract:</b>
+	<p style="text-align:justify; font-weight:normal;">
+The Perseverance Mars rover landed in Jezero Crater, where we can see
+from orbit that a river flowed into the crater, which held a lake, and a delta
+formed at the mouth of the river. The mission of Perseverance is to explore
+around the delta to improve our understanding of the ancient climate and to
+examine the possibility that life or precursor molecules evolved there. The
+rover will also acquire a set of samples and leave them for a mission that the
+U.S. and Europe plan to send later this decade to bring the samples back to
+Earth. This sequence of missions is called the Mars Sample Return campaign.
+Perseverance also carried a small helicopter called Ingenuity, which is a
+technology demonstration of the first heavier-than-air aircraft ever to fly on
+another planet. This talk will summarize new technologies in this mission for
+precision landing, the helicopter, and rover traverse at much greater speeds
+than prior missions. I will also summarize prospects for future robotic Mars
+exploration, for example as suggested by the Mars Architecture Strategy
+Working Group.
+	</p>
+	
+	<b>Biography:</b>
+	<p style="text-align:justify; font-weight:normal;">
+    Larry is Senior Research Scientist at NASA/Jet Propulsion Laboratory and was the Supervisor of the Computer Vision Group for 21 years in the Mobility and Robotic Systems Section. Winner of the NASA Exceptional Achievement Medal (2007) among other awards. He obtained his PhD in computer science from Carnegie Mellon University in 1989 and is a Fellow of the IEEE.
+	</p>
+</th>
+</tr>
+</table>
+
+<script>
+var startDate1 = new Date("2021-07-12 09:30:00 UTC-0700").getTime();
+var finDate1 = new Date("2021-07-12 10:00:00 UTC-0700").getTime();
+
+// Update the count down every 1 second
+var x1 = function() {
+
+  // Get today's date and time
+  var now1 = new Date().getTime();
+    
+  var distToStart1 = startDate1 - now1;
+  if (distToStart1 > 0) {
+
+      var days = Math.floor(distToStart1 / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distToStart1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distToStart1 % (1000 * 60 * 60)) / (1000 * 60));
+   
+      document.getElementById("eventcounter1").innerHTML = "<a><span style='color: #aaaaaa;'>" + days + "d " + hours + "h " + minutes + "m</span></a>" ;
+      setTimeout(x1, 5000); 
+    
+  } else {
+
+        var distToEnd1 = finDate1 - now1;
+
+        if (distToEnd1 > 0) {
+            document.getElementById("eventcounter1").innerHTML = '<img src="../../images/live-icon-small.gif" alt="Event is Live" width="64" height=17"><a><span style="color: #ffffff;">'+ distToEnd1 +'</span></a> ';
+            setTimeout(x1, 30000); 
+        }
+        else
+        { 
+            document.getElementById("eventcounter1").innerHTML = "<a><span style='color: #aaaaaa;'>Now concluded</span></a>";
+        }
+  }
+};
+
+setTimeout(x1,0);
+</script>
+
+<script>
+var startDate2 = new Date("2021-07-12 19:00:00 UTC-0700").getTime();
+var finDate2 = new Date("2021-07-12 19:30:00 UTC-0700").getTime();
+
+// Update the count down every 1 second
+var x2 = function() {
+
+  // Get today's date and time
+  var now2 = new Date().getTime();
+    
+  var distToStart2 = startDate2 - now2;
+  if (distToStart2 > 0) {
+
+      var days = Math.floor(distToStart2 / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distToStart2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distToStart2 % (1000 * 60 * 60)) / (1000 * 60));
+   
+      document.getElementById("eventcounter2").innerHTML = "<a><span style='color: #aaaaaa;'>" + days + "d " + hours + "h " + minutes + "m</span></a>" ;
+      setTimeout(x2, 5000); 
+    
+  } else {
+
+        var distToEnd2 = finDate2 - now2;
+
+        if (distToEnd2 > 0) {
+            document.getElementById("eventcounter2").innerHTML = '<img src="../../images/live-icon-small.gif" alt="Event is Live" width="64" height=17"><a><span style="color: #ffffff;">'+ distToEnd2 +'</span></a> ';
+            setTimeout(x2, 30000); 
+        }
+        else
+        { 
+            document.getElementById("eventcounter2").innerHTML = "<a><span style='color: #aaaaaa;'>Now concluded</span></a>";
+        }
+  }
+};
+
+setTimeout(x2,0);
+</script>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

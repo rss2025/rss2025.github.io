@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Facebook images -->
+  <meta property="og:image" content="/images/rss_2020.png"/>
+
+  <title>
+    
+      Learning Active Task-Oriented Exploration Policies for Bridging the Sim-to-Real Gap &middot; Robotics: Science and Systems
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66594011-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="../../public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="../../atom.xml">
+
+</head>
+
+  <body>
+    <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <a href="../../index.html">
+                    <img style="text-align:center" src="../../images/rsslogotext-white.png" width="100%">
+                        </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-11 col-xs-12 col-lg-offset-4 col-md-offset-2 col-sm-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" style="margin-top: 10px; text-align: center;"
+                        href="../../index.html">RSS 2020</a>
+                    <a class="navbar-brand hidden-xs"
+                        href="../../index.html">RSS 2020</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="85.html#">home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--li><a href="/blog/">Latest</a></li-->
+                                <li><a href="http://www.roboticsproceedings.org/">Previous Proceedings</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="85.html#">attending<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/info/index.html">Instructions for Conference Attendees</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/registration/index.html">Registration</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/inclusion/index.html">Inclusion@RSS</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/pioneers/index.html">RSS Pioneers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="85.html#">committees<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/organizers/index.html">Organizing Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/pc/index.html">Program Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/foundation/index.html">RSS Foundation</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="85.html#">information<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/authorinfo/index.html">Author Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfp/index.html">Call for Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/callForParticipation/index.html">Call for Participation</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfw/index.html">Call for Workshops</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/studentHelpers/index.html">Information for Student Helpers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/sponsorship/index.html">Sponsors</a></li>
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="85.html#">program<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../detailed/index.html">Detailed Program</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../awards/index.html">Paper Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../keynote/index.html">Keynote Talk</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../testoftimeaward/index.html">Test of Time Award</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../careerawards/index.html">Early Career Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../papers.html">Accepted Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../workshops/index.html">Workshops</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-lg-offset-1 hidden-xs hidden-sm text-right" id="sidebar"/>
+<!-- No sidebar on small screens -->
+<a class="sidebar-nav-item" href="../../index.html">Home</a>
+<!--br>
+ <a class="sidebar-nav-item" href="/blog/">Latest</a-->
+<br>
+<a class="sidebar-nav-item" href="http://www.roboticsproceedings.org/">RSS Proceedings</a>
+<br>
+
+<br>
+
+
+
+<b>attending</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/info/index.html">Instructions for Conference Attendees</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/registration/index.html">Registration</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/inclusion/index.html">Inclusion@RSS</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/pioneers/index.html">RSS Pioneers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>committees</b>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/organizers/index.html">Organizing Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/pc/index.html">Program Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/foundation/index.html">RSS Foundation</a>
+<br>
+
+
+
+<br>
+
+
+
+<b>information</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/authorinfo/index.html">Author Information</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfp/index.html">Call for Papers</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/callForParticipation/index.html">Call for Participation</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfw/index.html">Call for Workshops</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/studentHelpers/index.html">Information for Student Helpers</a>
+<br>
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/sponsorship/index.html">Sponsors</a>
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<b>program</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../detailed/index.html">Detailed Program</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../awards/index.html">Paper Awards</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../keynote/index.html">Keynote Talk</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../testoftimeaward/index.html">Test of Time Award</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../careerawards/index.html">Early Career Awards</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../papers.html">Accepted Papers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../workshops/index.html">Workshops</a>
+<br>
+
+
+
+<br>
+
+
+<b>follow us</b>
+<br>
+<a href="https://twitter.com/RoboticsSciSys"><i class="fa fa-twitter"></i> Twitter </a>
+<br>
+<a href="https://www.facebook.com/RoboticsSciSys"><i class="fa fa-facebook"></i>  Facebook  </a>
+<br>
+
+</div>
+
+        <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+          <div class="page">
+  <h3 class="page-title">Learning Active Task-Oriented Exploration Policies for Bridging the Sim-to-Real Gap</h1>
+  <br/>
+  <p style="color:black; font-size: 120%; text-align: center;"><em><a href="https://www.jacky.io">Jacky Liang</a></em></p>
+
+<table width="30%"> <tr>
+<td style="width: 20%; text-align: center;"><a href="http://www.roboticsproceedings.org/rss16/p085.pdf"><img src="../../images/paper_link.png" width="50" height="60" /> </a> </td>
+
+<td style="width: 20%; text-align: center;"><a href="https://sites.google.com/view/task-oriented-exploration/"><img src="../../images/website_link.png" width="50" height="60" /> </a> </td>
+
+</tr></table>
+
+<h3 id="abstract">Abstract</h3>
+<html><p style="color:gray; font-size: 100%; text-align: justified;">
+Training robotic policies in simulation suffers from the sim-to-real gap, as simulated dynamics can be different from real-world dynamics.Past works tackled this problem through domain randomization and online system-identification.The former is sensitive to the manually-specified training distribution of dynamics parameters and can result in behaviors that are overly conservative.The latter requires learning policies that concurrently perform the task and generate useful trajectories for system identification.In this work, we propose and analyze a framework for learning exploration policies that explicitly perform task-oriented exploration actions to identify task-relevant system parameters.These parameters are then used by model-based trajectory optimization algorithms to perform the task in the real world. We instantiate the framework in simulation with the Linear Quadratic Regulator as well as in the real world with pouring and object dragging tasks.Experiments show that task-oriented exploration helps model-based policies adapt to systems with initially unknown parameters, and it leads to better task performance than task-agnostic exploration.
+</p></html>
+
+<h3 id="live-paper-discussion-information">Live Paper Discussion Information</h3>
+<html>
+<table width="50%">
+<tr> <th rowspan="2"><a href="https://pheedloop.com/rss2020/virtual/#session_hFnAyw"><img src="../../images/pheedloop_link.png" width="70" height="70" /> </a> </th> <th> Start Time </th> <th> End Time </th> </tr>
+<tr> <td> 07/16 15:00 UTC </td><td> 07/16 17:00 UTC </td></tr>
+</table> <br /> </html>
+<h3 id="virtual-conference-presentation">Virtual Conference Presentation</h3>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/lwefvSL4C-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="paper-reviews">Paper Reviews</h3>
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 1</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+After reading the paper, the method and results are clearly exposed.
+
+ I lack better motivation for the need and importance of the approach given its strong assumptions: there is known model of the dynamics of the system, and obtaining a policy with it for a given tasks is not difficult.
+
+The real world results are only shown for simple tasks which have low dimensional policies and parameters spaces. Moreover, some tasks seem too tailored to show that task oriented is more beneficial than the agnostic counter part. Therefore it is hard to assess if the contributions of the paper are of true significance. 
+
+Below I share my comments by section.
+
+ABSTRACT
+This sentence was hard to parse: “learning exploration policies that explicitly perform task-oriented exploration actions to identify task-relevant system parameters”.  
+
+INTRODUCTION
+
+The introduction starts with  RL, but RL is not mentioned in the abstract. 
+The sentence “However, due to differences in simulation and real-world dynamics …” is too long. (The last part “ the distributional differences between…” might be redundant)
+
+Name consistency: simulation-to-reality gap or sim-to-real gap
+
+This sentence is unclear: “use models learned from real-world data to directly perform trajectory optimization for manipulation tasks”. How does that relate to adapting simulation parameters? Or to the sim-to-real gap?
+
+I would be more clear in this sentence “generalize on environments with different physics”, because real world has just one physics. I agree that generalizing to different environment parameters would help like object mass.
+
+Introduce the proposed approach and contributions sooner in the introduction. The first 4 paragraphs could be reduced and more clear and to the point on what is the problem that this paper aims to solve and why is it hard and worth studying.
+
+In this sentence “It explicitly learns an exploration policy that interacts with the real world
+and identifies the initially unknown parameters of a known model” it is unclear if the exploration policy is leaned in simulation or in the real world. 
+
+Avoid unnecessary repetition in this sentence: “The experiments show that task-oriented exploration helps model-based policies adapt by identifying system parameters and that task-oriented exploration leads to better task performance than task-agnostic exploration.”
+Also it is unclear if model-based policies actually adapt. My first understanding was that this paper first estimates the parameters and then execute the task without any “going back to re-estimating them” in the world. 
+
+I would suggest to put more emphasize even at the introduction on what parts should happen in simulation and which in the real world.
+
+Reference Fig 1 in the intro to help comprehension. Also Fig 1 and Fig 2 do not seem to be referenced anywhere in the text.
+
+Stating clearly the contributions of the paper (like in bullet points) would help the reader.
+
+RELATED WORK
+
+There is a large emphasis on domain randomization (DR), however in this work it is assumed that the model is known and the parameters of the world can be estimated. Therefore the task policy becomes determined by the estimated parameters and not learned. How does that link with DR?
+
+I think the authors should emphasize more that the reason why their approach is useful is that instead of learning one policy that fits “all”, they learn a way to estimate parameters that will work well in different scenarios as long as the model describing the system is right. Therefore they can generalize better. I am missing this reflection when putting emphasis on DR. That might also help reduce the long discussion about DR. 
+
+I would also make more clear the transition between DR and Sys-Id. If the distributions for DR are not too big, it could still be useful or combined with Sys-Id. They are not opposite ideas.
+
+There is a big jump when talking about residual learning. Residual learning assumes that the models aren’t perfect, but that is something that might be true even when using this work and it is not addressed. How is this work better or does not require residual learning?  Why Active sys-Id would not require residual learning? 
+
+The paragraph “By contrast ….” starts with passive vs. active sys-id but ends taking about task-agnostic vs. task-oriented. I would suggest splitting it for clearness.
+
+
+Compared to reference [8], this works is more restrictive as it assumes that the model is known and only a few parameters have to be estimated. This assumption probably does not apply to many complex tasks. Why is it worth exploring then? The work would benefit for more clearly stating the importance of developing methods that assume known-models.
+
+METHOD OVERVIEW
+
+Grammar: “that will make the model sufficiently match real-world dynamics”
+
+During the section, it is said that the approach also requires models of the objects, the robot, as well as their initial states. However, these are parameters that the approach could actually try to estimate. By assuming they are known, this make the problem less applicable to realist situations.
+
+The authors say that real-world dynamics are stochastic while simulation is deterministic.
+How is then the uncertainty in the real world modeled? Shouldn’t it be part of the parameters to estimate? 
+
+I think it would be really interesting to see how both policies (exploration and task) are optimized simultaneously. Maybe even the parameters themselves could be optimized to be as meaningful as possible rather than pre-fixed.
+
+This sentence is confusing : “This procedure is active as it interacts with the real system to
+generate informative observations”  if learning the exploration policy is done in simulation.
+
+LQR
+
+“Our goal is … task cost min J  “   it is unclear what “min J” means.
+
+In the LQR case, it is assumed a very particular form of the dynamics where the parameters theta are the eigenvalues of the matrix A, and B is independent of any parameter. How reasonable is that? It feels that B could also depend on theta. Are there “real” systems that show this behavior where B does not depend on gravity, mass, friction etc? Giving an example where that is the case would help.
+
+Equation 8 assumes that function g corresponds to the L2 norm between trajectories, I would make that more explicit in the text.
+
+The results on the simulated LQR are clear and show lower variance and better performance for the task oriented exploration.
+
+REAL WORLD
+
+Explain in more detail why it is important or relevant to pick these two tasks (pouring and dragging), and the expected differences between having analytical model + discrete action space  vs.  full simulation + continuous action space. 
+
+POURING
+
+For the first task, there is only one model parameter  (the angle tilt of the cup).
+The system is engineered to show the importance of task-oriented exploration by adding  a "distraction cup" so that when learning the exploration policy it makes more sense to always lift the task from which you pour. 
+
+The task also requires during the exploration face to always lift each cup at the beginning. Then the learnt exploration policy starts choosing which cup will be lifted again.
+
+As expected, the task oriented approach does better at realizing that it is better to just gather observations from the target cup. Results clearly confirm that.
+
+What does the g in “14g” and “22g” mean? Is it grams? I would be consistent between the use of kg and g.
+
+The results in Fig. 5 still have large variances which makes it less clear if it is fair to claim that task oriented is better (very likely that is the case though).  That might be because only 10 trials where used per method. Taking a much larger number would help assess the validity of means and variances. With only 10 samples their values are likely to fluctuate.
+
+DRAGGING
+
+This task has 3 model parameters to estimate. And the exploration policy is defined with 2 parameters.  As a result, both real world tasks are quite low dimensional in both policies and parameter spaces.
+
+In more high dimensional spaces and for harder tasks, aiming to solve the action exploration problem in a task-oriented fashion might be too hard or costly, specially if posed as an RL problem. It is not clear to me that for such systems a simple task independent approach could simplify the problem and make the estimation of the parameters better/faster. 
+
+Why a ratio of 3 : 1  between rotational and transnational?
+
+There are no results comparing passive vs. active exploration.
+
+FIGURES
+
+The text on some graphics is too small. 
+
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 2</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+The paper contributes to an important and active area of research in robotics. The authors insight into optimizing for inference of task-relevant system parameters is valuable and the proposed approach is very interesting. I commend the authors in particular for their methods section, the explanation of the approach is clear and figure 2 is very helpful in understanding the approach. I have two comments on how the paper could further be improved:
+
+First, the metrics and system identification setup, in particular for the methods section and the LQR experiments, would benefit from clarification. It is my understanding that system identification is done with the goal of minimizing errors in prediction, not error in identified parameters. The task-agnostic system identification proposed for LQR in simulation is to reduce 2 norm error in true system parameter (which is not available in the real world and only doable in simulation). I would be very curious to see the performance of the task-oriented approach proposed by the authors versus traditional system identification on the LQR system where the input is white noise (or close to it) and parameters are optimized for predictive performance of the model. This comparison would be a fairer approach to traditional system identification methodology. The usage of regret loss ratio is also not intuitive to me, and is not repeated for the other experimental setups (others use cost) so I am not clear as to why this choice was made.
+
+Second, it would be good to include the citations to \cite{kolev2015physically} and \cite{fazeli2017parameter} for system identification through contact, \cite{ allevato2019tunenet } for a similar approach to predicting system parameters using a learned model -- can be used as a benchmark, and \cite{weber,ogawa} for related system identification through contact approaches that are less learning based.
+
+@inproceedings{kolev2015physically,
+  title={Physically consistent state estimation and system identification for contacts},
+  author={Kolev, Svetoslav and Todorov, Emanuel},
+  booktitle={2015 IEEE-RAS 15th International Conference on Humanoid Robots (Humanoids)},
+  pages={1036--1043},
+  year={2015},
+  organization={IEEE}
+}
+
+@article{fazeli2017parameter,
+  title={Parameter and contact force estimation of planar rigid-bodies undergoing frictional contact},
+  author={Fazeli, Nima and Kolbert, Roman and Tedrake, Russ and Rodriguez, Alberto},
+  journal={The International Journal of Robotics Research},
+  volume={36},
+  number={13-14},
+  pages={1437--1454},
+  year={2017},
+  publisher={SAGE Publications Sage UK: London, England}
+}
+
+@article{allevato2019tunenet,
+  title={TuneNet: One-Shot Residual Tuning for System Identification and Sim-to-Real Robot Task Transfer},
+  author={Allevato, Adam and Short, Elaine Schaertl and Pryor, Mitch and Thomaz, Andrea L},
+  journal={arXiv preprint arXiv:1907.11200},
+  year={2019}
+}
+
+@article{weber2006identification,
+  title={Identification of contact dynamics model parameters from constrained robotic operations},
+  author={Weber, M and Patel, K and Ma, O and Sharf, I},
+  year={2006}
+}
+
+@inproceedings{ogawa2014dynamic,
+  title={Dynamic parameters identification of a humanoid robot using joint torque sensors and/or contact forces},
+  author={Ogawa, Yusuke and Venture, Gentiane and Ott, Christian},
+  booktitle={2014 IEEE-RAS International Conference on Humanoid Robots},
+  pages={457--462},
+  year={2014},
+  organization={IEEE}
+}
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 3</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+The paper is very clearly written, well presented, and well motivated. The distinction in the performance metric for the exploration policy w.r.t. existing sysID methods (whether they are optimized for information gain, parameter convergence, or prediction error) is clear. 
+
+ The LQR analysis, while a bit limited due to questionable simplifications (B=I, n=m, R=0, the last being particularly strong), is still sufficiently insightful. 
+
+However, the paper lacks somewhat in the verification and experimental validation. The pouring task is rather contrived. If its sole purpose was to be a toy example highlighting the natural limitation of never picking up the actual test glass, the impact is somewhat diminished owing to an unnecessarily poor baseline. What if the task-agnostic exploration policy used another performance metric - e.g., prediction performance (active SysID as classified in the paper)? Similarly, it is not readily clear why a passive SysID method (e.g. refs [21, 23, 29] in the paper) that leverages task policies + online estimation would also not be competitive. The same applies to the object dragging example. It appears that the task-agnostic method is worse than random exploration even with more data. This strongly suggests an unfairly disadvantaged baseline. 
+
+The second limitation which is briefly alluded to in hindsight in the object dragging example is on the implementation of the method. Given the additional ‘meta’ layer aspect to the problem structure (exploration guiding estimation, which influences policy, and eventually performance), there is an additional layer of complexity in optimizing for the desired exploration policy. The provided robot examples are both extremely low-dimensional (1 and 3), and use finite-differencing for gradient estimation. This naturally will not be scalable in its present algorithmic form. Some discussion of this limitation is warranted, perhaps along with an additional example that has some differentiable components to reduce the need for finite-differencing. Alternatively, the authors may wish to consider blackbox (derivative-free) optimization techniques that can scale to moderately-sized problems. 
+</p> </details>
+
+<table width="100%"><tr><td style="width: 30%; text-align: center;"><a href="84.html"> <img src="../../images/previous_icon.png" width="120" height="80" /> </a> </td>
+
+<td style="width: 30%; text-align: center;"><a href="../papers.html"> <img src="../../images/overview_icon.png" width="120" height="80" /> </a> </td> 
+
+<td style="width: 30%; text-align: center;"><a href="86.html"> <img src="../../images/next_icon.png" width="100" height="80" /> </a> </td> 
+
+</tr></table>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

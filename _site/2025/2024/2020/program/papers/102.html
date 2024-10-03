@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Facebook images -->
+  <meta property="og:image" content="/images/rss_2020.png"/>
+
+  <title>
+    
+      Simultaneously Learning Transferable Symbols and Language Groundings from Perceptual Data for Instruction Following &middot; Robotics: Science and Systems
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66594011-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="../../public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="../../atom.xml">
+
+</head>
+
+  <body>
+    <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <a href="../../index.html">
+                    <img style="text-align:center" src="../../images/rsslogotext-white.png" width="100%">
+                        </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-11 col-xs-12 col-lg-offset-4 col-md-offset-2 col-sm-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" style="margin-top: 10px; text-align: center;"
+                        href="../../index.html">RSS 2020</a>
+                    <a class="navbar-brand hidden-xs"
+                        href="../../index.html">RSS 2020</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="102.html#">home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--li><a href="/blog/">Latest</a></li-->
+                                <li><a href="http://www.roboticsproceedings.org/">Previous Proceedings</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="102.html#">attending<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/info/index.html">Instructions for Conference Attendees</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/registration/index.html">Registration</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/inclusion/index.html">Inclusion@RSS</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/pioneers/index.html">RSS Pioneers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="102.html#">committees<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/organizers/index.html">Organizing Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/pc/index.html">Program Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/foundation/index.html">RSS Foundation</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="102.html#">information<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/authorinfo/index.html">Author Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfp/index.html">Call for Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/callForParticipation/index.html">Call for Participation</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfw/index.html">Call for Workshops</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/studentHelpers/index.html">Information for Student Helpers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/sponsorship/index.html">Sponsors</a></li>
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="102.html#">program<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../detailed/index.html">Detailed Program</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../awards/index.html">Paper Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../keynote/index.html">Keynote Talk</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../testoftimeaward/index.html">Test of Time Award</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../careerawards/index.html">Early Career Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../papers.html">Accepted Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../workshops/index.html">Workshops</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-lg-offset-1 hidden-xs hidden-sm text-right" id="sidebar"/>
+<!-- No sidebar on small screens -->
+<a class="sidebar-nav-item" href="../../index.html">Home</a>
+<!--br>
+ <a class="sidebar-nav-item" href="/blog/">Latest</a-->
+<br>
+<a class="sidebar-nav-item" href="http://www.roboticsproceedings.org/">RSS Proceedings</a>
+<br>
+
+<br>
+
+
+
+<b>attending</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/info/index.html">Instructions for Conference Attendees</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/registration/index.html">Registration</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/inclusion/index.html">Inclusion@RSS</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/pioneers/index.html">RSS Pioneers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>committees</b>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/organizers/index.html">Organizing Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/pc/index.html">Program Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/foundation/index.html">RSS Foundation</a>
+<br>
+
+
+
+<br>
+
+
+
+<b>information</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/authorinfo/index.html">Author Information</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfp/index.html">Call for Papers</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/callForParticipation/index.html">Call for Participation</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfw/index.html">Call for Workshops</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/studentHelpers/index.html">Information for Student Helpers</a>
+<br>
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/sponsorship/index.html">Sponsors</a>
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<b>program</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../detailed/index.html">Detailed Program</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../awards/index.html">Paper Awards</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../keynote/index.html">Keynote Talk</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../testoftimeaward/index.html">Test of Time Award</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../careerawards/index.html">Early Career Awards</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../papers.html">Accepted Papers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../workshops/index.html">Workshops</a>
+<br>
+
+
+
+<br>
+
+
+<b>follow us</b>
+<br>
+<a href="https://twitter.com/RoboticsSciSys"><i class="fa fa-twitter"></i> Twitter </a>
+<br>
+<a href="https://www.facebook.com/RoboticsSciSys"><i class="fa fa-facebook"></i>  Facebook  </a>
+<br>
+
+</div>
+
+        <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+          <div class="page">
+  <h3 class="page-title">Simultaneously Learning Transferable Symbols and Language Groundings from Perceptual Data for Instruction Following</h1>
+  <br/>
+  <p style="color:black; font-size: 120%; text-align: center;"><em><a href="https://nakulgopalan.github.io/">Nakul Gopalan</a>,  <a href="http://cs.brown.edu/people/er35/">Eric Rosen</a>,  <a href="http://cs.brown.edu/people/gdk/">George Konidaris</a>,  <a href="http://cs.brown.edu/people/stellex/">Stefanie Tellex</a></em></p>
+
+<table width="30%"> <tr>
+<td style="width: 20%; text-align: center;"><a href="http://www.roboticsproceedings.org/rss16/p102.pdf"><img src="../../images/paper_link.png" width="50" height="60" /> </a> </td>
+
+<td style="width: 20%; text-align: center;"><a href="https://github.com/nakulgopalan/change_point_detection.git"><img src="../../images/software_link.png" width="50" height="60" /> </a> </td>
+
+</tr></table>
+
+<h3 id="abstract">Abstract</h3>
+<html><p style="color:gray; font-size: 100%; text-align: justified;">
+Enabling robots to learn tasks and follow instructions as easily as humans is important for many real-world robot applications. Previous approaches have applied machine learning to teach the mapping from language to low dimensional symbolic representations constructed by hand, using demonstration trajectories paired with accompanying instructions. These symbolic methods lead to data efficient learning. Other methods map language directly to high-dimensional control behavior, which requires less design effort but is data-intensive. We propose to first learning symbolic abstractions from demonstration data and then mapping language to those learned abstractions. These symbolic abstractions can be learned with significantly less data than end-to-end approaches, and support partial behavior specification via natural language since they permit planning using traditional planners. During training, our approach requires only a small number of demonstration trajectories paired with natural language—without the use of a simulator—and results in a representation capable of planning to fulfill natural language instructions specifying a goal or partial plan. We apply our approach to two domains, including a mobile manipulator, where a small number of demonstrations enable the robot to follow navigation commands like “Take left at the end of the hallway,” in environments it has not encountered before.
+</p></html>
+
+<h3 id="live-paper-discussion-information">Live Paper Discussion Information</h3>
+<html>
+<table width="50%">
+<tr> <th rowspan="2"><a href="https://pheedloop.com/rss2020/virtual/#session_vkcYLu"><img src="../../images/pheedloop_link.png" width="70" height="70" /> </a> </th> <th> Start Time </th> <th> End Time </th> </tr>
+<tr> <td> 07/16 15:00 UTC </td><td> 07/16 17:00 UTC </td></tr>
+</table> <br /> </html>
+<h3 id="virtual-conference-presentation">Virtual Conference Presentation</h3>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/JZbc8cLG3dA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="supplementary-video">Supplementary Video</h3>
+<iframe width="100%" height="400" src="https://player.vimeo.com/video/388650000 " frameborder="0" allow=" encrypted-media" allowfullscreen=""></iframe>
+
+<h3 id="paper-reviews">Paper Reviews</h3>
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 1</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+STRENGTHS
+- This paper makes a major contribution to the field of learning symbols for robot actions and mapping verbal instructions to the actions.
+- The authors describe their approach in depth with a lot of technical detail.
+- The evaluation of the approach is very thorough.
+
+WEAKNESSES
+- The only weakness I can see in this paper is that it does not discuss the limitations of the approach. It would be good to add a discussion about the shortcomings of the new approach and future work that needs to be done to improve on the limitations.
+
+SUGGESTIONS FOR IMPROVEMENTS
+- I saw some minor typos, but those can easily be fixed by proofreading the paper one more time before submitting the camera-ready version.
+
+ORIGINALITY
+This paper presents original work.
+
+QUALITY
+The presented approach, the evaluation, and the writing is of very high quality.
+
+CLARITY
+The paper does a lot of technical details, but does require a lot of different background knowledge. I do understand that the authors probably had to cut down a lot of text to fit into the page limit of the conference, however, it would have been good to add to introduce some of the technology used to make the text easier to understand. The paper is structured and written well overall, but it is quite hard to understand.
+
+SIGNIFICANCE
+This paper is highly significant and makes a great contribution to the research in this area.
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 2</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+The paper describes a very interesting approach to instructing a robot. This focuses on navigation on a mobile manipulator and an autonomous car. The paper is well presented and I think that the significance of the work is high enough to be published at this venue. 
+I have a few concerns that should be addressed for the final camera-ready version.
+
+Originality: While I believe that the combined approach is original and highly interesting, I struggled identifying which components are a contribution of the paper and which components have been reused from other publications. Please, clearly state the contribution of this paper when describing the system. Currently, it is dominated by a list of all the approaches that have been combined to make this work.
+
+Clarity: While I agree to a certain extent that your approach works in novel environments, they are not entirely unknown or novel to the overall system since your approach requires a pre-existing map. Please, make clear that the "novel/new/unknown" refers to environments that you have not trained on but that a map is known a-priori to the robot navigation system.
+
+Please, explain how your complex sentence example including mentioning an art painting and a fountain relates to what has been learned. In fact, the art painting and the fountain should be ignored as the system will only pick up on left, end, and right keywords as far as I understand it.
+
+For future work, it would be great to see how this works with spoken language. This might need to include some more sophisticated NLU apart from Seq2seq. 
+
+Minor things: the abstract should also mention the car example, the paper requires minor proofreading.
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 3</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+The paper proposes a framework that automatically learns the latent space of symbols from a set of demonstration trajectories and then uses accompanying textual instructions to train a sequence-to-sequence architecture that "translates" language to the sequence of learned symbols. The termination sets of option-like skills constitute the symbol space, the size of which is not known a priori. The framework uses a non-parametric Markov model (MDP-HMM) to segment action sequences and identify the corresponding skills. The corresponding termination sets, as represented in terms of the robot-centric observations (LIDAR), are clustered and used to train a single-class SVM classifier for each cluster. The corresponding policy can be learned or planned when the dynamics are known. The framework then trains an encoder-aligner-decoder neural sequence-to-sequence model to "translate" language to the sequence of symbols (termination sets/classifiers). The method demonstrates the symbol-learning and language understanding components on an existing driving dataset and evaluates the full system on a mobile manipulator.
+
+The use of a symbolic representation of the robot's state and action space is commonly used as an abstraction between natural language and the robot's low-level action space. As noted, exceptions include recent sequence-to-sequence models that map language directly to low-level actions, which incur significant sample complexity. Particularly promising with this paper is that it proposes simultaneously learning the space of symbols and the language understanding model directly from demonstration trajectories paired with natural language instructions. While this is not new (e.g., see the work of Kollar et al., 2013; Thomason et al., 2016), it is certainly the minority among existing work in grounded language acquisition for robots.
+
+The paper is on its way to making a real contribution to the community, however there are several limitations of the current framework that need to be addressed:
+
+* The ability of the framework to scale to diverse tasks, environments, and language is questionable. The discussion and results consider a simple navigation task that consists of going straight down a hallway (or roadway) and turning. The tasks involve no more than five (or three? see below) symbols and an output sequence length of at most five, yet segmentation, clustering, and classification require a fair bit of data cleanup and parameter tuning. Meanwhile, the extent to which the symbols generalize to novel environments is a function of the generalizability of the classifiers and underlying policies, which depends on the diversity and size of the training data. Scalability becomes even more of an issue as the size of the action space increases (e.g., to include joint torques, which the paper suggests are considered here). Meanwhile, sequence-to-sequence language models are well known as being sample inefficient and while the the limited length of the output sequence alleviates some of the sample complexity, scalability will be a problem as the number of symbols increases. Unfortunately, the relative simplicity of the navigation tasks and, in turn, the limited diversity of language, that are considered doesn't alleviate this concern.
+
+* In its current form, symbol learning is decoupled from language understanding in that, while the trajectories are accompanied by textual instructions, the instructions are not used to to discover the set of skills. Instead, the framework uses existing skill discovery methods, and then trains a vanilla sequence-to-sequence model to learn to map language to symbol sequences. Testament to the limited role of language is that the discussion of the language understanding component of the framework is limited to half of a column.
+
+* The experiments are limited in terms of complexity and lack a compelling baseline as well as a thorough quantitative evaluation. The NPS dataset is nice in that it provides a demonstration on "real-world" data, but it requires a fair bit of post-processing and significantly restricts the length of sequences. The KITTI dataset, which is widely used in the vision and robotics communities, would have been a more appropriate testbed as it provides the relevant action data directly. Further, the NPS evaluation is rather limited, considering only three behaviors, which are essentially the self-driving version of those used for the on-robot experiments, and a maximum output sequence length of two.
+
+The on-robot experiments are similarly limited, involving behaviors that are very similar to those above, short sequence lengths, and *only* three test instructions. It is impossible to assess the merits of the approach with such a restricted evaluation. An user experiment with dozens of instructions would not be difficult to perform.
+
+Meanwhile, the quantitative evaluation is limited to the accuracy of the language understanding model, which isn't particularly compelling given the small symbol space and sequence length and the fact that the language understanding component is a vanilla off-the-shelf seq2seq model. Like other work in language understanding, the paper should provide a more detailed quantitative evaluation, e.g., the fraction of time the robot stopped within a fixed distance from the correct destination (or a similar path-focused evaluation) for a dozens of different instructions; or an evaluation of how far the robot is from the destination if it isn't reached.
+
+
+COMMENTS
+
+* It is not apparent why termination sets are sufficient to define the set of skills. Most of the skills that are referenced (straight down hallway, turn left/right) are functions of the path segment and not simply the end point. It is for this reason that many of the symbols used by existing approaches to robot language understanding reason over paths.
+
+* The paper should clarify claims regarding the framework's generalizability and the lack of a dependency on simulation. The extent to which the method generalizes to novel environments is determined by the generalizability of the the classifier and underlying policy. However, the performance of the classifier is a function of the features that are provided and the diversity of the training data, though even then DNN-based classifiers exhibit far better generalizability. Meanwhile, there is little discussion of how policies are represented (other than that DPMS can be used), while learning policies that generalize to different environments would require significant on-robot or simulation-based data. Unfortunately, the experimental evaluation lack sufficient evidence regarding environment variability to justify these claims.
+
+* In light of the above comments on scalability, the paper oversells the data efficiency of the framework. The ability to learn skills from 75 demonstrations is likely due to the simplicity of the navigation task, which can be described by a handful of symbols. Similarly, the diversity of the language, which is limited by the simplicty of the domain, would explain the fact that the sequence-to-sequence model can be trained with so few sequence pairs.
+
+* Does the seq2seq output include a stop token or is the output sequence length predetermined? The statement that the maximum sequence length for the on-robot trials was three to five suggests that there is, but elsewhere the text implies that the length is predefined.
+
+* For the NPS evaluation was the segmentation learned (with the number of behaviors fixed to three) or were the trajectories segmented by hand (as suggested by the text at the end of Section IV.A).
+
+* For the on-robot experiments, my reading is that three symbols were used, but that one symbol included two clusters/classifiers. Is that correct?
+
+* How similar were the three instructions that were used for the on-robot experiments to those seen during training?
+
+* The sentence that is given near the end of page 7 is compelling, but I can only assume that the method is relying on the ability to detect intersections. Presumably the robot was positioned in the hallway at the start, and thus there was only one intersection and presumably the method would fail had there been perceptual aliasing. What about the water fountain? It is not referenced above as a learned endpoint.
+
+* Clarification is needed with regards to what is assumed to be known a priori of new environments. If the policy associated with each skill is not learned (which would require significant on-robot training and/or simulation-based training, both of which the paper emphasizes as not necessary), then I would presume that the robot has access at the very least to a occupancy-grid (or similar) map. This is in contrast to some existing work that does not assume the environment is known, and instead uses an "exploration" policy that is given (Matuszek et al., 2012) or learned (Hemachandra et al., 2015).
+
+* Related, if a map is assumed to be known, at what spatial and angular resolution does the framework search over candidate termination locations?
+
+* For the data collection, how familiar were subjects with the environment? People unfamiliar with the space are likely to give more generic instructions than people who know the environment well.
+
+* The notation in the first equation on page 4 is confusing.
+
+* The paper states that torques constitute the action space, however the on-robot trials use longitudinal velocity and angular rate, and the NPS evaluation considers direction and distance of motion. There are also references to using camera data in place of LIDAR for termination set classification, however training a classifier that reasons over image data would be far more sample complex.
+
+* It would be nice to see a discussion of the implications of performing skill discovery only over actions rather than actions and states.
+
+* The paper should discuss the robustness of the clustering and classification methods, e.g., to the choice of the minimum cluster size, the noise parameter, and the threshold for merging clusters.
+
+* How is inference performed over the output of the sequence-to-sequence model? Is beam search used?
+
+* How are the hyperparameters chosen?
+
+* What ensures that the symbols are interpretable as stated in the conclusions?
+
+
+REFERENCES
+
+Felix Duvallet, Thomas Kollar, and Anthony Stentz. "Imitation learning for natural language direction following through unknown environments.” ICRA 2013.
+
+Sachithra Hemachandra, Felix Duvallet, Thomas M. Howard, Nicholas Roy, Anthony Stentz, and Matthew R. Walter. "Learning models for following natural language directions in unknown environments." ICRA 2015
+
+Thomas Kollar, Jayant Krishnamurthy, and Grant Strimel. "Toward interactive grounded language acquisition." RSS 2013
+
+Cynthia Matuszek, E. Herbst, Luke Zettlemoyer, and Dieter Fox. “Learning to parse natural language commands to a robot control system.” ISER 2012
+
+Jesse Thomason, Jivko Sinapov, Maxwell Svetlik, Peter Stone, Raymond J Mooney. "Learning Multi-Modal Grounded Linguistic Semantics by Playing 'I Spy'." IJCAI 2016
+</p> </details>
+
+<table width="100%"><tr><td style="width: 30%; text-align: center;"><a href="101.html"> <img src="../../images/previous_icon.png" width="120" height="80" /> </a> </td>
+
+<td style="width: 30%; text-align: center;"><a href="../papers.html"> <img src="../../images/overview_icon.png" width="120" height="80" /> </a> </td> 
+
+<td style="width: 30%; text-align: center;"><a href="103.html"> <img src="../../images/next_icon.png" width="100" height="80" /> </a> </td> 
+
+</tr></table>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Facebook images -->
+  <meta property="og:image" content="../../images/rss_2021.png"/>
+
+  <title>
+    
+      Presenter Instructions &middot; Robotics: Science and Systems
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66594011-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="../../public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+</head>
+
+  <body>
+    <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <a href="../../">
+                    <img style="text-align:center" src="../../images/rsslogotext-white.png" width="100%">
+                        </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-11 col-xs-12 col-lg-offset-4 col-md-offset-2 col-sm-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" style="margin-top: 10px; text-align: center;"
+                        href="../../">RSS 2022</a>
+                    <a class="navbar-brand hidden-xs"
+                        href="../../">RSS 2022</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--li><a href="../../blog/">Latest</a></li-->
+                                <li><a href="http://www.roboticsproceedings.org/">Proceedings</a></li>
+                                <li><a href="https://roboticsconference.org/attending/">Attending RSS</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">attending<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/localinfo/">Travel Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/registration/">Registration</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/inclusion/">Inclusion@RSS</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/accessibility/">Accessibility</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/covid/">Covid-19 Policies and Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">committees<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/organizers/">Organizing Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/pc/">Program Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/foundation/">RSS Foundation</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">information<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/presenters/">Presenter Instructions</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/authorinfo/">Author Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfp/">Call for Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfw/">Call for Workshops &amp; Tutorials</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">program<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../../program/overview/">Overview</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../program/awards/">Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../program/keynote/">Keynote Talks</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../program/pioneers/">RSS Pioneers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../program/careerawards/">Early Career Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../program/testoftimeaward/">Test of Time Award</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../program/papers/">Accepted Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../program/workshops/">Workshops</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-lg-offset-1 hidden-xs hidden-sm text-right" id="sidebar"/>
+<!-- No sidebar on small screens -->
+<a class="sidebar-nav-item" href="../../">Home</a>
+<!--br>
+ <a class="sidebar-nav-item" href="../../blog/">Latest</a-->
+<br>
+<a class="sidebar-nav-item" href="http://www.roboticsproceedings.org/">RSS Proceedings</a>
+<br>
+<a class="sidebar-nav-item" href="../../attending">Attending RSS</a>
+<br>
+
+<br>
+
+
+
+
+
+
+
+<b>attending</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/localinfo/">Travel Information</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/registration/">Registration</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/inclusion/">Inclusion@RSS</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/accessibility/">Accessibility</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/covid/">Covid-19 Policies and Information</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>program</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../program/overview/">Overview</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../program/awards/">Awards</a>
+<br>
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../program/keynote/">Keynote Talks</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../program/pioneers/">RSS Pioneers</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../program/careerawards/">Early Career Awards</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../program/testoftimeaward/">Test of Time Award</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../program/papers/">Accepted Papers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../program/workshops/">Workshops</a>
+<br>
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>committees</b>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/organizers/">Organizing Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/pc/">Program Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/foundation/">RSS Foundation</a>
+<br>
+
+
+
+<br>
+
+
+
+<b>information</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item active" href="../../information/presenters/">Presenter Instructions</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/authorinfo/">Author Information</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfp/">Call for Papers</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfw/">Call for Workshops &amp; Tutorials</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+<b>follow us</b>
+<br>
+<a href="https://twitter.com/RoboticsSciSys"><i class="fa fa-twitter"></i> Twitter </a>
+<br>
+<a href="https://www.facebook.com/RoboticsSciSys"><i class="fa fa-facebook"></i>  Facebook  </a>
+<br>
+
+</div>
+
+        <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+          <div class="page" id="inner-content">
+  <h1 class="page-title">Presenter Instructions</h1>
+  <br/>
+  <p>Accepted RSS papers will be presented at the conference via talks, and presenters who will attend in-person will also present a poster on their work.</p>
+
+<ul>
+  <li><strong>Short Talks</strong>: Most talks will be short talks, which are 5 minutes in length followed by a group Q&amp;A session.</li>
+  <li><strong>Long Talks</strong>: Award candidate papers will be presented as long talks of 10 minutes + 5 minutes Q&amp;A.</li>
+  <li><strong>Posters</strong>: In-person presenters will present posters at the poster session on the same day as your talk. Posters should fit within the maximum panel dimensions of 60” wide x 40” high. There is no specific template for the posters. You should choose the format that best represents your research work. Fasteners will be provided to pin posters to the foam panels.</li>
+</ul>
+
+<p>To ensure that the presentations go smoothly, we ask Short Talk and all virtual presenters to submit a video of their presentation in advance.</p>
+
+<ul>
+  <li>In-person presenters: you will be speaking live over the video, so do not record sound except possibly for videos. Please take care to rehearse your talk before setting up the slideshow timing, as you will not be able to change the timing once your presentation is submitted. You can record a movie from a self-advancing sideshow in <a href="https://support.microsoft.com/en-us/office/save-a-presentation-as-a-video%E2%80%8B-in-powerpoint-ba919059-523d-40a8-b99c-08d18996c09d">PowerPoint</a> and Keynote (export as QuickTime and convert to MPEG-4 using <a href="https://handbrake.fr/">Handbrake</a>).</li>
+  <li>Virtual presenters: we hope to minimize the impact of network problems, so your videos should include a sound recording of you presenting your talk, and a video of you speaking in the upper-right corner of the screen. Zoom has convenient functions for you to record such presentations. OBS is another alternative. Please make sure to use a high quality microphone and record in a space with as little background noise and echo as possible.</li>
+</ul>
+
+<p>In-person Long Talk presenters can use their own laptop using HDMI output. However, we strongly suggest that you submit a backup presentation either as an auto-playing video or a slideshow in PowerPoint (pptx) or PDF format. If you opt to use a PowerPoint or PDF you will be able to advance the slideshow manually during the presentation.</p>
+
+<p>Videos and slideshows shall be submitted to <a href="https://forms.gle/iwcW6PqnxERyEUyk7">https://forms.gle/iwcW6PqnxERyEUyk7</a>.</p>
+
+<p>All videos must conform to the following guidelines</p>
+
+<ul>
+  <li>Duration: No longer than your prescribed presentation length (5 minutes)</li>
+  <li>Resolution: 1920x1080 pixels (1080p)</li>
+  <li>Format: MPEG-4. Please consider encoding in <a href="http://handbrake/">Handbrake</a> with Universal encoding</li>
+  <li>Naming: PaperX.m4v where X is the number of your paper in the proceedings (note that this is not the same as your CMT paper number)</li>
+  <li>Due date: June 20, 2022</li>
+  <li>Revisions can be submitted until June 25, 2022</li>
+</ul>
+
+<p>Long talk backup slideshows must conform to the following guidelines</p>
+
+<ul>
+  <li>Resolution: widescreen</li>
+  <li>Video embedding: all videos should be embedded and encoded in MPEG-4 H.264 format (e.g., Handbrake Universal)</li>
+  <li>Fonts should be embedded</li>
+  <li>Naming: PaperX.pdf / pptx</li>
+  <li>Due date: June 25, 2022</li>
+</ul>
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

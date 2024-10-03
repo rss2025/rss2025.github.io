@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Facebook images -->
+  <meta property="og:image" content="/images/rss_2020.png"/>
+
+  <title>
+    
+      Learning Task-Driven Control Policies via Information Bottlenecks &middot; Robotics: Science and Systems
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66594011-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="../../public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="../../atom.xml">
+
+</head>
+
+  <body>
+    <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <a href="../../index.html">
+                    <img style="text-align:center" src="../../images/rsslogotext-white.png" width="100%">
+                        </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-11 col-xs-12 col-lg-offset-4 col-md-offset-2 col-sm-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" style="margin-top: 10px; text-align: center;"
+                        href="../../index.html">RSS 2020</a>
+                    <a class="navbar-brand hidden-xs"
+                        href="../../index.html">RSS 2020</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="101.html#">home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--li><a href="/blog/">Latest</a></li-->
+                                <li><a href="http://www.roboticsproceedings.org/">Previous Proceedings</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="101.html#">attending<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/info/index.html">Instructions for Conference Attendees</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/registration/index.html">Registration</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/inclusion/index.html">Inclusion@RSS</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../attending/pioneers/index.html">RSS Pioneers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="101.html#">committees<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/organizers/index.html">Organizing Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/pc/index.html">Program Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../committees/foundation/index.html">RSS Foundation</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="101.html#">information<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/authorinfo/index.html">Author Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfp/index.html">Call for Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/callForParticipation/index.html">Call for Participation</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/cfw/index.html">Call for Workshops</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/studentHelpers/index.html">Information for Student Helpers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../information/sponsorship/index.html">Sponsors</a></li>
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="101.html#">program<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../detailed/index.html">Detailed Program</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../awards/index.html">Paper Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../keynote/index.html">Keynote Talk</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../testoftimeaward/index.html">Test of Time Award</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../careerawards/index.html">Early Career Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../papers.html">Accepted Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../workshops/index.html">Workshops</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-lg-offset-1 hidden-xs hidden-sm text-right" id="sidebar"/>
+<!-- No sidebar on small screens -->
+<a class="sidebar-nav-item" href="../../index.html">Home</a>
+<!--br>
+ <a class="sidebar-nav-item" href="/blog/">Latest</a-->
+<br>
+<a class="sidebar-nav-item" href="http://www.roboticsproceedings.org/">RSS Proceedings</a>
+<br>
+
+<br>
+
+
+
+<b>attending</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/info/index.html">Instructions for Conference Attendees</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/registration/index.html">Registration</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/inclusion/index.html">Inclusion@RSS</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../attending/pioneers/index.html">RSS Pioneers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>committees</b>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/organizers/index.html">Organizing Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/pc/index.html">Program Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../committees/foundation/index.html">RSS Foundation</a>
+<br>
+
+
+
+<br>
+
+
+
+<b>information</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/authorinfo/index.html">Author Information</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfp/index.html">Call for Papers</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/callForParticipation/index.html">Call for Participation</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/cfw/index.html">Call for Workshops</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/studentHelpers/index.html">Information for Student Helpers</a>
+<br>
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../information/sponsorship/index.html">Sponsors</a>
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<b>program</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../detailed/index.html">Detailed Program</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../awards/index.html">Paper Awards</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../keynote/index.html">Keynote Talk</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../testoftimeaward/index.html">Test of Time Award</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../careerawards/index.html">Early Career Awards</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../papers.html">Accepted Papers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../workshops/index.html">Workshops</a>
+<br>
+
+
+
+<br>
+
+
+<b>follow us</b>
+<br>
+<a href="https://twitter.com/RoboticsSciSys"><i class="fa fa-twitter"></i> Twitter </a>
+<br>
+<a href="https://www.facebook.com/RoboticsSciSys"><i class="fa fa-facebook"></i>  Facebook  </a>
+<br>
+
+</div>
+
+        <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+          <div class="page">
+  <h3 class="page-title">Learning Task-Driven Control Policies via Information Bottlenecks</h1>
+  <br/>
+  <p style="color:black; font-size: 120%; text-align: center;"><em>Vincent Pacelli (Princeton University); Anirudha Majumdar (Princeton)</em></p>
+
+<table width="30%"> <tr>
+<td style="width: 20%; text-align: center;"><a href="http://www.roboticsproceedings.org/rss16/p101.pdf"><img src="../../images/paper_link.png" width="50" height="60" /> </a> </td>
+
+<td style="width: 20%; text-align: center;"><a href="https://github.com/irom-lab/trc-nn"><img src="../../images/software_link.png" width="50" height="60" /> </a> </td>
+
+</tr></table>
+
+<h3 id="abstract">Abstract</h3>
+<html><p style="color:gray; font-size: 100%; text-align: justified;">
+This paper presents a reinforcement learning approach to synthesizing task-driven control policies for robotic systems equipped with rich sensory modalities (e.g., vision or depth). Standard reinforcement learning algorithms typically produce policies that tightly couple control actions to the entirety of the system's state and rich sensor observations. As a consequence, the resulting policies can often be sensitive to changes in task-irrelevant portions of the state or observations (e.g., changing background colors). In contrast, the approach we present here learns to create a task-driven representation that is used to compute control actions.  Formally, this is achieved by deriving a policy gradient-style algorithm that creates an information bottleneck between the states and the task-driven representation; this constrains actions to only depend on task-relevant information. We demonstrate our approach in a thorough set of simulation results on multiple examples including a grasping task that utilizes depth images and a ball-catching task that utilizes RGB images. Comparisons with a standard policy gradient approach demonstrate that the task-driven policies produced by our algorithm are often significantly more robust to sensor noise and task-irrelevant changes in the environment.
+</p></html>
+
+<h3 id="live-paper-discussion-information">Live Paper Discussion Information</h3>
+<html>
+<table width="50%">
+<tr> <th rowspan="2"><a href="https://pheedloop.com/rss2020/virtual/#session_kNXvmT"><img src="../../images/pheedloop_link.png" width="70" height="70" /> </a> </th> <th> Start Time </th> <th> End Time </th> </tr>
+<tr> <td> 07/16 15:00 UTC </td><td> 07/16 17:00 UTC </td></tr>
+</table> <br /> </html>
+<h3 id="virtual-conference-presentation">Virtual Conference Presentation</h3>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/nzLyRHON24E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="supplementary-video">Supplementary Video</h3>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/Mwv0kkRveas " frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="paper-reviews">Paper Reviews</h3>
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 1</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+Originality:
+The problem formulation is not novel [A]. The motivation that such methods are robust to changes in the environment has also been studied [B].
+The method itself uses [4], but the policy gradient formulation is original, including differentiating through the MINE and stabilizing it with EMA.
+
+Quality:
+The paper is quite well written.
+Issues:
+- Despite the recent trend to call every trade off with information rate "information bottleneck", the latter refers to a specific trade off between two information quantities [44]. Eq. (3) uses instead the much earlier concept of rate–distortion [C], and particularly sequential rate–distortion [D], although the approximation that x_t and y_t are independent of phi loses the sequential nature.
+- The equation for pi (Section II) is confusing, because the LHS gives the impression that the policy has no memory. It is also inaccurate, because the RHS omits the dependence between \tilde{x}_{t-1} and y_t.
+- It is unclear what is gained by Theorem II.1. Is the paper claiming that the RHS of (6) is a good proxy for its LHS? But the LHS is not our objective, because of the very restrictive (5) (which is made increasingly restrictive by minimizing I[x_t, \tide{x}_t] ).
+- In what sense is (3) a "first-order approximation" of (6)? They coincide when the beta of (3) is 1 and that of (6) tends to 0, but can otherwise be very different.
+- How much is performance improved by having time-variant theta, phi, and psi?
+- Prior work solves the problem optimally in the linear–Gaussian case [E]. Since the domain in example IV.A is linear, the paper should compare the proposed method with the optimal solution.
+- In all experiments, instead of fixing beta to an arbitrary value (which one?), it would be useful to show a curve of the value as a function of beta. This will also reveal different phases of qualitatively different control behaviors.
+- The reported standard deviation is presumably over the variability of the domain. No error bounds on the mean estimation are given, making it hard to evaluate statistical significance.
+- Presumably the method encourages completely ignoring features that are completely task-irrelevant. However, in Table II, it performs extremely poorly on several backgrounds, which suggests that this is not the case. No explanation of this is provided.
+
+Clarity:
+The paper is very clear.
+
+
+[A] Information theory of decisions and actions, Tishby and Polani, Perception–Action Cycle, 2011
+[B] Trading value and information in MDPs, Rubin et al., Decision Making with Imperfect Decision Makers, 2012
+[C] Elements of information theory, Cover and Thomas, 2006
+[D] Control of LQG systems under communication constraints, Tatikonda et al., CDC 1998
+[E] Minimum-information LQG control part ii: Retentive controllers, Fox and Tishby, CDC 2016
+
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 2</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+The authors address the important policy of learning policies that generalize to novel environments and conditions. To do so, they propose a reinforcement learning algorithm (TDPG) which learns a policy operating on a state representation that is simultaneously useful for the control task at hand while containing as little information as possible from the sensory input. Specifically, the learned policy consists of two parts: a conditional distribution q(xb_t | xb_{t-1}, y_t) that is used to perform bayesian filtering over the latent state representation xb, as observations y are observed; and the distribution \pi(u_t \mid xb_t) which defines a distribution over actions given a latent state. Reasoning about the latent state explicitly allows directly minimizing the mutual information between the true state x and the task representation xb. In this way, the resulting policy is robust to changes in task-irrelevant aspects of the input, such as the background color or texture. Furthermore, the policies learned try to accomplish the task while minimally relying on the sensory input. The key technical tool used to accomplish this is to create an information bottleneck by explicitly minimizing the mutual information between the learned state representation and the sensory input while optimizing the policy.
+
+The paper is well written and clear. The proposed approach is very well motivated, and the proposed algorithm seems like a good approach to solving the problem statement. I found the related work section to be quite thorough yet concise and to-the-point, providing the right level of background necessary to understand the author's contributions. Below are my main concerns with this work:
+
+Connection to entropic risk:
+- I found the presentation of the objective (3) from the perspective of mutual information to be clearer than the viewpoint as a first-order approximation on the bound of the expected cost on a different distribution. The notation is (6) is somewhat unclear, but I assume that the expectation is taken under some distribution pc_t(\tau) = \prod_{t=0}^T pc_t(x_t, xb_t, u_t), where each pc_t satisfies equation (5). My main confusion stems from how I am supposed to interpret (5). The general idea of minimizing the cost under a worst-case choice from a set of possible distributions makes sense for robustness, the set of distributions defined by (5) is not intuitive. The authors should spend more time explaining how optimizing (6) is intuitively the right thing to do. Right now, that motivation is unclear, and since the true objective is only an approximation to (6), Theorem II.1 and the connection to entropic risk adds little to the motivation of the paper.
+
+
+Scalability:
+- The approach requires training a neural network to compute a KL divergence for each time step, all in order to perform a single gradient step on the policy networks parameters \phi and \psi. The algorithm is only tested on problems with limited state space size (max dimension 5), and limited time horizon (max 25, and only 1 on the grasping problem). Furthermore, the training seems to require significant tuning of hyperparameters such as the EMA coefficient \alpha and the number of training epochs of MINE per outer gradient step. These factors lead me to question how easily the suggested algorithm will generalize to more complex control tasks and higher dimensional systems.
+- Furthermore this requires training with access to the underlying state, which may be hard to access in certain domains. Can this same approach be extended to operate on image observations directly, by minimizing the mutual information between the image observations and the learned representation? It seems to me that this directly handles the issue of preventing distractors such as background textures being a factor in the learned policy. What is the main bottleneck preventing this? Scalability of MINE? The paper would be strengthened with a discussion of this point.
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 3</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+As mentioned above, I believe that the topic of the paper is very important, and I find the proposed method very interesting. The paper is well written and mostly clear.
+There are however a few issues and open questions in my opinion: 
+
+a) For the proposed method, access to the underlying state is needed at training time. However, if we have access to the state, why would one use the observation (e.g. image) instead of the state directly? It would be good if the paper could give some realistic examples.
+In fact, it is not clear to me why, for the arguments in this paper, there needs to be a separation between state and observations. Couldn't it just consider fully observable settings, where part of the state is irrelevant to the task?
+
+b) Somewhat related, it is not clear to me how having less information about the latent state helps with being robust to changes in the observation (which do not affect the state). E.g. in the ball-catching experiment, the policy is shown to be robust to changing background. However, the background is not part of the state, hence there is no reason the proposed information bottleneck should have encouraged invariance to the background.
+
+c) Related to this, why would one not place the information bottleneck between policy and observation, rather than state. Wouldn't this encourage to get rid of irrelevant information? Wouldn't this have the additional benefit of not requiring access to the hidden state?
+
+d) All the experiments are very small and constructed. It would be very nice to have one more experiment which is a bit more standard or realistic. (and where it is well-justified to have access to the state at training time but not at test time, see a)
+
+e) Finally, there are a few minor issues concerning clarity:
+
+e1) The term task-driven is used throughout the paper to describe the proposed method. In my opinion this term is not clear or even misleading. I think it would be better if the paper used a term which describes more clearly the main idea of using only relevant information. Or otherwise the term should at least be defined at the very beginning of the paper.
+
+e2) Theorem II.1 comes somewhat out of the blue and needs more explanation. How does this theorem exactly relate to this paper? It needs to be clear which term in the theorem corresponds to which term in the paper, and why the statement of the theorem is relevant. From what I understand, \check{p} can be any distribution, so it might correspond to an entirely different policy. How does this theorem hence tell us something about the robustness of the policy? Also, from (5) it seems that with higher mutual information (rhs), we can tolerate a larger shift in the distribution (lhs).
+Finally, in the end the paper does not use the objective function suggested by the theorem. Therefore, the theorem seems currently somewhat decorative to me. So the paper should either establish a clear relationship or remove the theorem.
+
+e3) After equation (15), the paper states that some assumptions are made: x_t, y_t are independent of phi and x_t, y_t, \tilde x_t are independent of psi.
+It would be good to go into some more detail about this. Why is this necessary, couldn't we do a similar trick as in (12), (13) to get the derivative? What error are we making by these assumptions? Why can we expect the error to be small?
+
+e4) Could the paper make computing the gradients of the mutual information term more explicit? I.e. after (15), the paper should go into more detail.
+
+e5) Experiments: Am I understanding correctly that for the baseline everything is identical, except that the mutual information term in the cost is missing?
+</p> </details>
+
+<table width="100%"><tr><td style="width: 30%; text-align: center;"><a href="100.html"> <img src="../../images/previous_icon.png" width="120" height="80" /> </a> </td>
+
+<td style="width: 30%; text-align: center;"><a href="../papers.html"> <img src="../../images/overview_icon.png" width="120" height="80" /> </a> </td> 
+
+<td style="width: 30%; text-align: center;"><a href="102.html"> <img src="../../images/next_icon.png" width="100" height="80" /> </a> </td> 
+
+</tr></table>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

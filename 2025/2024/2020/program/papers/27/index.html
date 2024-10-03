@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Facebook images -->
+  <meta property="og:image" content="/images/rss_2020.png"/>
+
+  <title>
+    
+      A Berry Picking Robot With A Hybrid Soft-Rigid Arm: Design and Task Space Control &middot; Robotics: Science and Systems
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../../public/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../../../public/css/style.css">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66594011-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="../../../public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="../../../atom.xml">
+
+</head>
+
+  <body>
+    <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <a href="../../../index.html">
+                    <img style="text-align:center" src="../../../images/rsslogotext-white.png" width="100%">
+                        </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-11 col-xs-12 col-lg-offset-4 col-md-offset-2 col-sm-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" style="margin-top: 10px; text-align: center;"
+                        href="../../../index.html">RSS 2020</a>
+                    <a class="navbar-brand hidden-xs"
+                        href="../../../index.html">RSS 2020</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../27.html#">home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--li><a href="/blog/">Latest</a></li-->
+                                <li><a href="http://www.roboticsproceedings.org/">Previous Proceedings</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../27.html#">attending<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/info/index.html">Instructions for Conference Attendees</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/registration/index.html">Registration</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/inclusion/index.html">Inclusion@RSS</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../attending/pioneers/index.html">RSS Pioneers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../27.html#">committees<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../committees/organizers/index.html">Organizing Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../committees/pc/index.html">Program Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../committees/foundation/index.html">RSS Foundation</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../27.html#">information<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/authorinfo/index.html">Author Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/cfp/index.html">Call for Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/callForParticipation/index.html">Call for Participation</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/cfw/index.html">Call for Workshops</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/studentHelpers/index.html">Information for Student Helpers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../../information/sponsorship/index.html">Sponsors</a></li>
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="../27.html#">program<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../detailed/index.html">Detailed Program</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../awards/index.html">Paper Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../keynote/index.html">Keynote Talk</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../testoftimeaward/index.html">Test of Time Award</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../careerawards/index.html">Early Career Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../papers.html">Accepted Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="../../workshops/index.html">Workshops</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-lg-offset-1 hidden-xs hidden-sm text-right" id="sidebar"/>
+<!-- No sidebar on small screens -->
+<a class="sidebar-nav-item" href="../../../index.html">Home</a>
+<!--br>
+ <a class="sidebar-nav-item" href="/blog/">Latest</a-->
+<br>
+<a class="sidebar-nav-item" href="http://www.roboticsproceedings.org/">RSS Proceedings</a>
+<br>
+
+<br>
+
+
+
+<b>attending</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/info/index.html">Instructions for Conference Attendees</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/codeOfConduct/index.html">RSS 2020 Code of Conduct</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/registration/index.html">Registration</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/inclusion/index.html">Inclusion@RSS</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../attending/pioneers/index.html">RSS Pioneers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>committees</b>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../committees/organizers/index.html">Organizing Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../committees/pc/index.html">Program Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../committees/foundation/index.html">RSS Foundation</a>
+<br>
+
+
+
+<br>
+
+
+
+<b>information</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/paperDiscussions/index.html">Instructions for Paper Discussion Sessions</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/authorinfo/index.html">Author Information</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/cfp/index.html">Call for Papers</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/callForParticipation/index.html">Call for Participation</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/cfw/index.html">Call for Workshops</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/studentHelpers/index.html">Information for Student Helpers</a>
+<br>
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../../information/sponsorship/index.html">Sponsors</a>
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<b>program</b>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../detailed/index.html">Detailed Program</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../awards/index.html">Paper Awards</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../keynote/index.html">Keynote Talk</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../testoftimeaward/index.html">Test of Time Award</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../careerawards/index.html">Early Career Awards</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../papers.html">Accepted Papers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="../../workshops/index.html">Workshops</a>
+<br>
+
+
+
+<br>
+
+
+<b>follow us</b>
+<br>
+<a href="https://twitter.com/RoboticsSciSys"><i class="fa fa-twitter"></i> Twitter </a>
+<br>
+<a href="https://www.facebook.com/RoboticsSciSys"><i class="fa fa-facebook"></i>  Facebook  </a>
+<br>
+
+</div>
+
+        <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+          <div class="page">
+  <h3 class="page-title">A Berry Picking Robot With A Hybrid Soft-Rigid Arm: Design and Task Space Control</h1>
+  <br/>
+  <p style="color:black; font-size: 120%; text-align: center;"><em>Naveen Kumar Uppalapati (University of Illinois at Urbana Champaign); Benjamin Walt ( University of Illinois at Urbana Champaign); Aaron Havens (University of Illinois Urbana Champaign); Armeen Mahdian ( University of Illinois at Urbana Champaign); Girish Chowdhary (University of Illinois at Urbana Champaign); Girish Krishnan (University of Illinois at Urbana Champaign)</em></p>
+
+<table width="20%"> <tr>
+<td style="width: 20%; text-align: center;"><a href="http://www.roboticsproceedings.org/rss16/p027.pdf"><img src="../../../images/paper_link.png" width="50" height="60" /> </a> </td>
+
+</tr></table>
+
+<h3 id="abstract">Abstract</h3>
+<html><p style="color:gray; font-size: 100%; text-align: justified;">
+We present a hybrid rigid-soft arm and manipulator for performing tasks requiring dexterity and reach in cluttered environments. Our system combines the benefit of the dexterity of a variable length soft manipulator and the rigid support capability of a hard arm. The hard arm positions the extendable soft manipulator close to the target, and the soft arm manipulator navigates the last few centimeters to reach and grab the target. A novel magnetic sensor and reinforcement learning based control is developed for end effector position control of the robot. A compliant gripper with an IR reflectance sensing system is designed, and a k-nearest neighbor classifier is used to detect target engagement. The system is evaluated in several challenging berry picking scenarios.
+</p></html>
+
+<h3 id="live-paper-discussion-information">Live Paper Discussion Information</h3>
+<html>
+<table width="50%">
+<tr> <th rowspan="2"><a href="https://pheedloop.com/rss2020/virtual/#session_IceqbL"><img src="../../../images/pheedloop_link.png" width="70" height="70" /> </a> </th> <th> Start Time </th> <th> End Time </th> </tr>
+<tr> <td> 07/14 15:00 UTC </td><td> 07/14 17:00 UTC </td></tr>
+</table> <br /> </html>
+<h3 id="virtual-conference-presentation">Virtual Conference Presentation</h3>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/NB1l5e7eY9w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="supplementary-video">Supplementary Video</h3>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/0hFTP0UUaIE " frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="paper-reviews">Paper Reviews</h3>
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 1</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+## 1. General Feel and Major Comments:
+The authors present a robot arm with a soft gripper, continuum arm, and rigid links to support and reposition the continuum arm's base. The whole setup is placed upon two mobile rover bases.
+
+Overall, the paper is very clear with one exception (more later).
+
+The introduction could use more citations for some of your claims, especially the discussion about the human labor shortage. Such claims should be backed by data.
+
+Your gripper system should be useful in other applications, and on other objects. I recommend showing the gripper grasping and manipulating some other objects. This wouldn't take long, and I'm not suggesting a rigorous study on a complete benchmark object set - just a few samples to make it clear that the approach does indeed generalize to non-ellipsoid objects (it should... just show it!).
+
+What simulator did you use? This is critical to understanding your work, and it was mostly omitted. If it was presented in another publication, cite that and present a concise summary of the procedure and modeling assumptions. If it's buried in this manuscript, make it clearer and explicitly stated. For example, on page 5 you say "Rather than performing some system identification for specific arm settings and loading, we use a Kirchhoff rod model of the soft arm [2] to train a control policy directly from experience. Virtually any arm configuration and simulated loading can be trained using an existing reinforcement learning (RL) strategy called Deep Deterministic Policy Gradient (DDPG) introduced by Lillicrap et al. [12]." References [2 of submission 1281]  (a classic textbook on elasticity) and [12 of submission 1281]  (one of the original, possibly the original, paper on DDPG's)are both very general, and it is unclear what you specifically did.
+
+## 2. Additional comments
+"Furthermore, the control method is based on reinforcement learning, and as such provides a strong validation point for the use of such learning based, model-free control methods for challenging reach problems in robotics." - Suggest deleting. RL and related methods are well-developed. Just a quick search in my Zotero library pulled up several related research on RL in (soft) robotics [1-4]. (In many ways, the distinction between soft and hard is arbitrary, and I expect the fields to become more integrated, as submission 1281 is suggesting. Hence, I consider both hard/soft robotics as relevant and included in the below references.)
+
+The notation is confusing, for example the use of B for bending and R^2 for rotation. These are both common terms in fields adjacent to that of submission 1281 (B = magnetic field, R^2 coefficient of determination).
+
+P3 "the bush" what bush?
+
+P4 be clear when you mean accuracy vs. precision
+
+
+[1]M. Zhang et al., “Deep reinforcement learning for tensegrity robot locomotion,” in 2017 IEEE International Conference on Robotics and Automation (ICRA), 2017, pp. 634–641, doi: 10.1109/ICRA.2017.7989079.
+[2]V. Mnih et al., “Human-level control through deep reinforcement learning,” Nature, vol. 518, no. 7540, p. 529, Feb. 2015, doi: 10.1038/nature14236.
+[3]F. Agostinelli, S. McAleer, A. Shmakov, and P. Baldi, “Solving the Rubik’s cube with deep reinforcement learning and search,” Nat Mach Intell, vol. 1, no. 8, pp. 356–363, Aug. 2019, doi: 10.1038/s42256-019-0070-z.
+[4]H. Zhang, R. Cao, S. Zilberstein, F. Wu, and X. Chen, “Toward Effective Soft Robot Control via Reinforcement Learning,” in Intelligent Robotics and Applications, 2017, pp. 173–184, doi: 10.1007/978-3-319-65289-4_17.
+
+
+Figures, overall: 
+- They have the necessary content, suggest polishing. High-level: be clear what you want readers to learn from each figure. Prioritize that, and remove unnecessary clutter (without removing inconvenient but true data. Keep all data, but see specific comments below on how to improve your presentation)
+Figure 1: 
+- caption "mounted on a TerraSentia *mobile rover*" (also clear this up in the text on page 1)
+- Consider cropping ~10% tighter to make it clearer what is going on in b and c. This figure is currently a pretty good summary of your paper, thanks for including it.
+Figure 2 (and somewhat 4):
+- Way too messy. Additionally, some of this is redundant with Figure 4 and Figure 1. Why was this figure even included? I'd reduce it to just the central image, with labels, and shrunk down. Then, consider placing it side-by-side with a simplified Fig. 4.
+Figure 3 is tough to read. It will strain your readers' eyes. Consider changing the colors of the background, or at least putting backdrops on the text annotation and adjusting the text colors.
+Figure 9: Odd (and somewhat confusing) choice of ordinate (y-axis) label.
+Figure 10: unclear subfigure labels. Consider bolding them, or adding a backdrop. Jarring to look at the different subfigures, some whitespace (0.05" maybe) between the images would be helpful.
+
+Scale bars are useful for the less isometric views (Fig. 5), or at least a note about lengthscale in the caption (Fig. 7. 10).
+
+References seem to be biased toward the work of Girish Krishnan et al. (Refs 16, 18, 19, 20, 21 = 5 out of 23 total). Furthermore, when removing general (soft) robotics references such as Laschi [1], Antman [2], etc.,  the authors seem to only be citing Krishnan from within the agricultural robotics community, despite the existance of a wide range of other authors in this area. For instance, the work of Lie Tang (ISU), Yin Bao (Auburn), Jian Jin (Purdue), Y. Shibano (Okayama Japan), Giulio Reina (University of Lecce)... etc. are all relevant yet seem to be willfully omitted, despite the fact that presumably the authors of 1281 read other authors besides Krishnan.
+
+
+## 3. Comments on Multimedia (Videos, etc.)
+- In final submission, title slide could be more informative (author names, school, etc.) - I understand why you did not include such information here, thanks for adhering to the double-blind policy.
+- The text annotations are difficult to read (put opaque backdrop for instance black or white, or change color), and don't make complete sense ("First Link" - "Rotate first link")
+- Shaky camera. Please use a tripod. At a minimum, use video-stabilization software as post-processing (this would be unacceptable if the video was used in experiments and not reported as part of the algorithm... but clearly these videos were just for presentation to humans, and not core to the research results).
+- Are these videos using a human to teleoperate? They don't look as smooth as I expect the DDPG to generate. Especially the interior video
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 2</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+This manuscript presented a mobile berry picking robot with hybrid soft-rigid arm and developed a reinforcement learning based controller for the hybrid arm. 
+Originality:
+The presented work focuses on system development of a mobile manipulator for dexterous manipulation. The capability of this robot system is demonstrated in the berry picking tasks. Though the VaLeNS arm has been reported, the hybrid robotic arm presented in this paper is interesting.
+
+Quality:
+This manuscript well presented a piece of solid work on development of a hybrid robotic arm and an integrated mobile robotic manipulator. Both the hardware and control system are well reported. Further, the performance of the robot has been evaluated in field tests. 
+ 
+Clarity:
+This manuscript is well structured and written. 
+
+Significance:
+The scientific contribution is convincing while the advantages of such a system comparing to other existing large machines could be examined. 
+
+Some detailed comments here:
+1. The modular gripper need to be changed to adapt to various type of berries. More details could be added to explain the interface between the soft arm and the gripper both mechanically and electronically.  
+2. As illustrated in the Fig. 2, the compressor for the soft arm actuation is listed but key specs of the actuation system should be added. In the current form, it is uncertain if the compressor is able to power the soft arm.
+3. Fig. 8: The three sensor should be better named to avoid confusion.
+4. The advantage of using the gripper in comparison with other systems using different end-effectors should be clearly stated. 
+5. If possible, the authors are suggested to compare the performance of controller using kinematics of soft arm and the proposed controller based on reinforced learning. 
+</p> </details>
+
+<details><summary style="font-size:110%; color:#438BCA; cursor: pointer;"><b> Review 3</b></summary>
+<p style="color:gray; font-size: 100%; text-align: justified; white-space: pre-line">
+
+## Review Details
+
+* thank you for a system block diagram.  Please make arrows bigger.
+* I believe festo developed a soft gripper of the same architecture prior to the fin ray work.  Please cite festo in addition.
+* how do you plan to incorporate the full system into an automated platform for berry picking?
+* reporting a success rate when the user is in the loop is difficult.  Please report the success rate of the non-human subsystems separately and numerically
+* interpreting table I is difficult because you do not explain the meaning of check, check*, check+ or x.  Please put some numbers to the success rates.  what percentage of the time was each trial successful?
+* My interpretation is similar to those in the paper, that at 20cm, the sca becomes difficult to control due to lowered system stiffness and divergence in the model used to control vs reality.  Though you listed a strategy to mitigate the problem, doesn't this indicate a fundamental limitation of your approach, in that we should expect your model to change throughout a number of use cases?  Which learning strategies would be able to compensate for this better?
+
+
+## video
+* The video uses a jump-cut, removing critical frames in the middle of the experiment.  Please take a complete video without cutting to assure the reader that what you say is what you demonstrate.
+* use a tripod, or at least don't zoom in with a smartphone, it gets shaky.
+* use landscape orientation rather than portrait orientation when capturing video
+* provide stabilized, close-up shots of critical tasks by using a second camera from a different angle and closer vantage point.  Inset this video into the main video.
+* unfortunately due to the shakiness, the far distance and grainy video due to zoom and shake, the video poorly represents the work done by the authors.  It reduces my confidence in the method and the results.
+
+
+
+</p> </details>
+
+<table width="100%"><tr><td style="width: 30%; text-align: center;"><a href="../26.html"> <img src="../../../images/previous_icon.png" width="120" height="80" /> </a> </td>
+
+<td style="width: 30%; text-align: center;"><a href="../../papers.html"> <img src="../../../images/overview_icon.png" width="120" height="80" /> </a> </td> 
+
+<td style="width: 30%; text-align: center;"><a href="../28.html"> <img src="../../../images/next_icon.png" width="100" height="80" /> </a> </td> 
+
+</tr></table>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
