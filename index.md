@@ -72,17 +72,6 @@ After being hosted at the [University of Southern California](https://www.usc.ed
   <img src="{{ site.baseurl }}/images/rss2025_usc2.jpg" alt="University of Southern California (USC) venue" class="img-responsive img-same-height" />
 </p>
 
-<!-- <p style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/rss2025_usc1.jpg" alt="University of Sourthern California (USC) venue" class="img-responsive image-same-height" />
-  <img src="{{ site.baseurl }}/images/rss2025_usc2.jpg" alt="University of Sourthern California (USC) venue" class="img-responsive image-same-height" />
-</p> -->
-
-<br />
-
-
-
-
-<br/>
 <br/>
 The website of the RSS 2024 conference can be found [here]({{ site.baseurl }}/2024/).
 

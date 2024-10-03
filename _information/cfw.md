@@ -3,7 +3,7 @@ layout: page
 title: Call for Workshops
 description: Request for Participation in Workshops
 invisible: false
-published: true
+published: false
 ---
 
 

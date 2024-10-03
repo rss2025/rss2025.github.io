@@ -2,6 +2,8 @@
 layout: page
 title: Program Committee
 description: Reviewing team.
+invisible: false
+published: false
 ---
 
  <div id="area-chairs" class="row text-center">

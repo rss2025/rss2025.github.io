@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Call for Papers and Demos
+title: Call for Papers
 description: Request for Participation for Papers and Demos
 invisible: false
 published: true
