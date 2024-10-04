@@ -65,7 +65,7 @@ The Robotics: Science and Systems has a long history of bringing together resear
     </tbody>
 </table>
 
-After being hosted at the [University of Southern California](https://www.usc.edu/){:target="_blank"} in 2007, the organizers are excited to bring RSS 2025 back to this iconic venue.
+After being hosted at the [University of Southern California](https://www.usc.edu/){:target="_blank"} in 2011, the organizers are excited to bring RSS back to this iconic venue in 2025.
 
 <p class="img-container" style="text-align: center;">
   <img src="{{ site.baseurl }}/images/rss2025_usc1.jpg" alt="University of Southern California (USC) venue" class="img-responsive img-same-height" />
