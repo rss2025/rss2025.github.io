@@ -41,7 +41,7 @@ The conference will include the category of Demo contributions, similar to confe
       <tr>
         <td>March 24, 2025</td>
         <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
-        <td>Paper Revision and Rebuttal Submission Deadline</td>
+        <td>Rebuttal Submission Deadline</td>
       </tr>
       <tr>
         <td colspan="2">April 10, 2025</td>
