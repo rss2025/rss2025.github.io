@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 <h1 class="page-title">{{ site.title }}<br>
-June 22 &ndash; June 25, 2025<br>Los Angeles, California</h1>
+June 21 &ndash; June 25, 2025<br>Los Angeles, California</h1>
 
 <div id="dayselector" style="width: 100%; text-align: center; justify-content: center; display: inline-flex;">
   <div class="daybutton" link="nMLoZbxWnpY">Jul 11</div>
@@ -52,7 +52,7 @@ The Robotics: Science and Systems has a long history of bringing together resear
       </tr>
       <tr>
         <td colspan="2">April 10, 2025</td>
-        <td>Paper Acceptance Notification</td>
+        <td>Paper and Demo Acceptance Notification</td>
       </tr>
       <tr>
         <td colspan="2">June 20, 2025</td>

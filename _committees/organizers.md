@@ -115,7 +115,7 @@ published: true
             <table style="margin-left:auto;margin-right:auto;">
                   <tr>
                   <td style="width:200px;vertical-align:top;">
-                        <a target="_blank" href="https://mashaitkina.weebly.com/"> Masha Itkina </a><br>
+                        <span> Masha Itkina </span><br>
                         <i>Toyota Research Institute, USA</i><br>
                   </td>
                   </tr>
