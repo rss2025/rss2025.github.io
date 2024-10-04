@@ -17,11 +17,22 @@
     --columbia-blue: #000d74;
     --usc-cardinal: #990000;
     --usc-gold: #ffcc00;
-    --usc-light-gray: #CCCCCC;
+    --usc-gold-25p: rgba(255, 204, 0, 0.25);
+    --usc-gold-50p: rgba(255, 204, 0, 0.50);
+    --usc-gold-75p: rgba(255, 204, 0, 0.75);
+    --usc-gold-25p-solid: #fff2bf;
+    --usc-gold-50p-solid: #ffe680;
+    --usc-gold-75p-solid: #ffd940;
+    --usc-gray: #CCCCCC;
     --usc-dark-gray: #767676;
+    --usc-black: #000000;
+    --usc-white: #ffffff;
     --usc-blue: #2B5597;
-/*    --schedule-border-gray: #F2F2F2;*/
     --schedule-border-gray: #DDD;
+    --navbar-background: var(--usc-gold-50p-solid);
+    --navbar-foreground: var(--usc-cardinal);
+    /* --navbar-background: var(--cmu-gray);
+    --navbar-foreground: var(--usc-dark-gray);  */
 }
 
 .header { background-color: var(--usc-cardinal);}
@@ -32,10 +43,24 @@ h3 {text-align: left;}
 /* Always show vertical scrollbar, otherwise grid shifts */
 html { overflow-y: scroll;}
 
+/* style of sidebar */
 #sidebar a:link{ color:#333333; }
 #sidebar a:visited{ color:#333333; }
 #sidebar a:hover{ color:#024794; }
 #sidebar a:active{ color:#333333; }
+
+/* #sidebar a:link{ color:#333333; }
+#sidebar a:visited{ color:#333333; }
+#sidebar a:hover{ color: var(--usc-cardinal);}
+#sidebar a:active{ color: var(--usc-cardinal);} */
+
+/* style of links */
+/*
+a:link {color: var(--usc-cardinal);}
+a:visited {color: var(--usc-cardinal);}
+a:hover {color: var(--usc-dark-gray); text-decoration: underline;}
+a:active {color: var(--usc-cardinal);}
+*/
 
 .agenda {  }
 
