@@ -77,7 +77,7 @@ Before submitting your PDF file, please open it in Acrobat Reader. In the File m
 
 ## Paper and Demo Length
 
-RSS 2024 has no page length requirements on paper or demo submissions. Paper lengths have been typically around 8 pages in the past, and we expect that most submitted papers will have a similar length. The expectation for demo papers submissions is that they can be even shorter than that if the focus is on the supplementary material or an online website that allows the reviewers to experience the demonstrated system.
+RSS 2025 has no page length requirements on paper or demo submissions. Paper lengths have been typically around 8 pages in the past, and we expect that most submitted papers will have a similar length. The expectation for demo papers submissions is that they can be even shorter than that if the focus is on the supplementary material or an online website that allows the reviewers to experience the demonstrated system.
 
 The main PDF should contain a concise and lucid presentation of the merits of the paper, including a discussion of its contributions, prior work, and a description of key technical ideas and methods used. The paper should be self-contained and include all the material necessary for an expert to verify the central claims in the paper.
 
@@ -90,7 +90,7 @@ Authors should anticipate that their papers may be rejected if the key technical
 
 ## Double-Blind Submission for Papers
 
-RSS 2024 continues the tradition of double-blind reviews for Science and Systems papers. Authors should not list their names on the title page, and anonymity should be maintained in the paper. Authors are asked to take particular care when referencing their own work — careless use of self-citations can easily violate the requirements for double blind reviewing and this will result in papers being desk rejected.
+RSS 2025 continues the tradition of double-blind reviews for Science and Systems papers. Authors should not list their names on the title page, and anonymity should be maintained in the paper. Authors are asked to take particular care when referencing their own work — careless use of self-citations can easily violate the requirements for double blind reviewing and this will result in papers being desk rejected.
 
 The following principles should be applied for submissions in the Science/System paper category:
 
