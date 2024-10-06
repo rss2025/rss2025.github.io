@@ -25,6 +25,11 @@ The conference will include the category of Demo contributions, similar to confe
     </thead>
     <tbody>
       <tr>
+        <td>January 17, 2025</td>
+        <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td>Abstract/Title Submission Deadline</td>
+      </tr>
+      <tr>
         <td>January 24, 2025</td>
         <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td>Paper and Demo Submission Deadline</td>
@@ -74,7 +79,11 @@ RSS 2025 has no page length requirements on submissions.  Traditionally, RSS sub
 
   *   The review process will continue RSS’ strong tradition in emphasizing quality, fairness, and rigor. Reviews for RSS papers of all types, i.e., “science”, “systems” and “demo” papers, will remain blind. As in previous iterations of the conference, authors are encouraged to submit “systems” papers and the program committee will be encouraged to evaluate them by gauging their potential impact and usefulness to the community.
 
-  *   The conference will follow a two-stage review process this year. During the first round (up to **March 17**) a threshold decision will be made by the reviewers and the Area Chair given the initial submission. The submissions above the threshold will have 1 week to revise and resubmit as well as rebut any review comments as part of the authors’ response. For the second round of the review process, the revised submission and authors’ responses will be shared with the original reviewers and the Area Chair. An Area Chair meeting will finalise decisions regarding the revised submissions by **April 10**.
+  <!-- *   The conference will follow a two-stage review process this year. During the first round (up to **March 17**) a threshold decision will be made by the reviewers and the Area Chair given the initial submission. The submissions above the threshold will have 1 week to revise and resubmit as well as rebut any review comments as part of the authors’ response. For the second round of the review process, the revised submission and authors’ responses will be shared with the original reviewers and the Area Chair. An Area Chair meeting will finalise decisions regarding the revised submissions by **April 10**. -->
+
+  *   The conference includes a rebuttal stage this year. The submissions will undergo an initial review process (up to **March 17**) and initial decisions will be made by the reviewers and the Area Chair. The submissions above the threshold will have 1 week to prepare a short rebuttal to address the reviewers’ and Area Chair’s concerns and provide clarifications. An Area Chair meeting will finalize decisions, taking into account both the initial reviews and the rebuttal, by **April 10**.
+
+  *   RSS 2025 will require papers to include a “Limitations” section, describing shortcomings and open problems related to the proposed contribution. 
 
 ## Subject Areas
 

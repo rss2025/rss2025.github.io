@@ -34,7 +34,7 @@ Details on the two types of submission and guidance for preparation are provided
 **Submission Requirements:** The authors of Demo paper submissions are required to start the title of the submission with the word “Demonstrating” to communicate to the reviewers the type of  the submission and that they are allowed to be single-blind. 
 The authors of Demo papers are also asked to include a short 1-paragraph section at the time of the submission titled “Intended Demonstration” (e.g., before or after the introduction section of their submitted manuscript), of how they envision that the RSS live audience will experience the demonstrated system. See examples of ways to demonstrate a system below. This section can be removed at the time of the Camera-Ready submission, if the Demo paper is accepted.
 
-**Conference Demonstration:** Authors of accepted demo papers will be asked to demonstrate to the attendees of the RSS event their system. Examples of how this can be achieved include: (i) an interactive demonstration of a software package at the conference, (ii) live demonstration of robotic hardware brought at the conference, (iii) videoconferencing to demonstrate a remote real-world deployment of a robotic system’s abilities. The authors of demo papers are asked to describe at the time of the submission how the RSS live audience will experience the demonstrated system.
+**Conference Demonstration:** Authors of accepted demo papers will be asked to demonstrate their system to the RSS attendees. Examples of how this can be achieved include: (i) an interactive demonstration of a software package at the conference, (ii) live demonstration of robotic hardware brought at the conference, (iii) videoconferencing to demonstrate a remote real-world deployment of a robotic system’s abilities. The authors of demo papers are asked to describe at the time of the submission how the RSS live audience will experience the demonstrated system.
 
 
 **Evaluating Demo Papers:** A Demo paper should outline the design of the system and provide sufficient details to allow the evaluation of its validity, quality, and relevance to RSS. A Demo paper can do this by addressing some of the following questions:
@@ -79,7 +79,8 @@ Before submitting your PDF file, please open it in Acrobat Reader. In the File m
 
 RSS 2025 has no page length requirements on paper or demo submissions. Paper lengths have been typically around 8 pages in the past, and we expect that most submitted papers will have a similar length. The expectation for demo papers submissions is that they can be even shorter than that if the focus is on the supplementary material or an online website that allows the reviewers to experience the demonstrated system.
 
-The main PDF should contain a concise and lucid presentation of the merits of the paper, including a discussion of its contributions, prior work, and a description of key technical ideas and methods used. The paper should be self-contained and include all the material necessary for an expert to verify the central claims in the paper.
+<!-- The main PDF should contain a concise and lucid presentation of the merits of the paper, including a discussion of its contributions, prior work, and a description of key technical ideas and methods used. The paper should be self-contained and include all the material necessary for an expert to verify the central claims in the paper. -->
+The main PDF should contain a concise and lucid presentation of the merits of the paper, including a discussion of its contributions, prior work, and a description of key technical ideas and methods used. **The paper must include a “Limitations” section, describing shortcomings and open problems related to the proposed contribution.**  The paper should be self-contained and include all the material necessary for an expert to verify the central claims in the paper.
 
 Additional supplemental text, such as appendices, data listings, or expanded proofs, should be included as supplementary material (see below). Reviewers will review supplemental material at their discretion for Science/System papers. For Demo papers, the reviewers will be guided to prioritize the supplemental material if the system is primarily available through the corresponding files.
 
@@ -110,7 +111,7 @@ Authors may submit supplementary material such as a video or an expanded version
 
 Note that reviewers of Science/System paper submissions are not required to view this material and include it in their assessment of the paper.
 
-Authors of Science/System papers must ensure that all external links are removed for the initial and revised submissions, to ensure that their identities are not revealed for regular papers.  External links are welcome to be included in the final camera-ready version of the paper.
+**Authors of Science/System papers must ensure that all external links are removed for the initial and revised submissions, to ensure that their identities are not revealed for regular papers.**  External links are welcome to be included in the final camera-ready version of the paper.
 
 
 ## Multiple Submissions of Papers and Demos
@@ -133,7 +134,7 @@ RSS is intolerant of plagiarism. Submitted papers are expected to contain origin
 
 We are following the example of [ICML](https://icml.cc/Conferences/2023/llm-policy) and adopt the following policy:
 
-Papers that include text generated from a large-scale language model (LLM), such as ChatGPT, are prohibited unless the produced text is presented as a part of the paper’s experimental analysis. Note the following clarification on the above statement:
+Papers that include text generated from a large language model (LLM), such as ChatGPT, are prohibited unless the produced text is presented as a part of the paper’s experimental analysis. Note the following clarification on the above statement:
 
 - The policy prohibits text produced entirely by LLMs (i.e., "generated").  This does not prohibit authors from using LLMs for editing or polishing author-written text.
 - The policy is largely predicated on the principle of being conservative with respect to guarding against potential issues of using LLMs, including plagiarism.

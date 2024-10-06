@@ -25,12 +25,12 @@ published: true
             <table style="margin-left:auto;margin-right:auto;">
                   <tr>
                   <td style="width:200px;vertical-align:top;">
-                        <a target="_blank" href="https://www.monash.edu/engineering/robotics"> Dana Kulic </a><br>
+                        <a target="_blank" href="https://www.monash.edu/engineering/danakulic"> Dana Kulic </a><br>
                         <i>Monash University, Australia</i><br>
                   </td>
                   <td style="width:45px;"></td>
                   <td style="width:200px;vertical-align:top;">
-                        <a target="_blank" href="http://www.gvlab.jp/"> Gentiane Venture </a><br>
+                        <a target="_blank" href="http://www.gvlab.jp/gv/"> Gentiane Venture </a><br>
                         <i>University of Tokyo, Japan</i><br>
                   </td>
                   </tr>
@@ -58,7 +58,7 @@ published: true
                   <td style="width:45px;"></td>
                   <td style="width:200px;vertical-align:top;">
                         <a style="display: block;" href="https://smlbansal.github.io/">Somil Bansal</a>
-                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Stanford University, USA</i>
                   </td>
                   </tr>
 
@@ -110,7 +110,7 @@ published: true
                   </tr>
             </table>
 
-            <br>
+            <!-- <br>
             <b>Presentation Chairs</b><br>
             <table style="margin-left:auto;margin-right:auto;">
                   <tr>
@@ -119,15 +119,20 @@ published: true
                         <i>Toyota Research Institute, USA</i><br>
                   </td>
                   </tr>
-            </table>
+            </table> -->
 
             <br>
             <b>Publicity Chairs</b><br>
             <table style="margin-left:auto;margin-right:auto;">
                   <tr>
                   <td style="width:200px;vertical-align:top;">
-                        <a target="_blank" href="https://hu-yue.github.io/    "> Yue Hu </a><br>
-                        <i>University of Waterloo, Canada</i><br>
+                        <a style="display: block;" href="https://hu-yue.github.io/">Yue Hu</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Waterloo,<br>Canada</i>
+                  </td>
+                  <td style="width:45px;"></td>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="https://viterbi.usc.edu/directory/faculty/Qian/Feifei">Feifei Qian</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
                   </td>
                   </tr>
             </table>
@@ -143,12 +148,26 @@ published: true
                   </tr>
             </table>
 
+            <table style="margin-left:auto;margin-right:auto;">
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="https://stefanosnikolaidis.net/">Stefanos Nikolaidis</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
+                  </td>
+                  <td style="width:45px;"></td>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="https://sites.gatech.edu/matthew-gombolay/">Matthew Gombolay</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Georgia Institute of Technology, USA</i>
+                  </td>
+                  </tr>
+            </table>
+
             <br>
             <b>Registration Chair</b><br>
             <table style="margin-left:auto;margin-right:auto;">
                   <tr>
                   <td style="width:200px;vertical-align:top;">
-                        <a target="_blank" href="https://www.cairo-lab.com/"> Graeme Best </a><br>
+                        <a target="_blank" href="https://profiles.uts.edu.au/Graeme.Best"> Graeme Best </a><br>
                         <i>University of Technology Sydney, Australia</i><br>
                   </td>
                   </tr>
