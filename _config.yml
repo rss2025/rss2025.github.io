@@ -9,12 +9,17 @@ permalink:        pretty
 # Setup
 title:            "Robotics: Science and Systems"
 tagline:          'A Robotics Conference'
-description:      'RSS 2025, June 22, 2025 - June 25, 2025, Los Angeles, California'
+description:      'RSS 2025, June 21, 2025 - June 25, 2025, Los Angeles, California'
 url:              "https://roboticsconference.org"
 baseurl:          ""
 include:          ['_pages']
 exclude:          ['README.md', 'LICENSE.md', 'Gemfile', 'Gemfile.lock', '.travis.yml', 'vendor', 'GRTAGS', 'GPATH', 'GTAGS', 'deploy.sh']
 logo:             "/images/RSS2025-logo.png"
+favpng:           "/public/RSS2025-favicon-516x516.png"
+favicon:          "/public/RSS2025-favicon-256x256.ico"
+startdate:        "2025-06-21"
+enddate:          "2025-06-25"
+location:         "Los Angeles, California"
 
 
 author:
