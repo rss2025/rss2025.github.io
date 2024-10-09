@@ -81,9 +81,11 @@ RSS 2025 has no page length requirements on submissions.  Traditionally, RSS sub
 
   <!-- *   The conference will follow a two-stage review process this year. During the first round (up to **March 17**) a threshold decision will be made by the reviewers and the Area Chair given the initial submission. The submissions above the threshold will have 1 week to revise and resubmit as well as rebut any review comments as part of the authors’ response. For the second round of the review process, the revised submission and authors’ responses will be shared with the original reviewers and the Area Chair. An Area Chair meeting will finalise decisions regarding the revised submissions by **April 10**. -->
 
-  *   The conference includes a rebuttal stage this year. The submissions will undergo an initial review process (up to **March 17**) and initial decisions will be made by the reviewers and the Area Chair. The submissions above the threshold will have 1 week to prepare a short rebuttal to address the reviewers’ and Area Chair’s concerns and provide clarifications. An Area Chair meeting will finalize decisions, taking into account both the initial reviews and the rebuttal, by **April 10**.
+  *   The conference includes a rebuttal stage this year. The submissions will undergo an initial review process (up to **March 17**) and initial decisions will be made by the reviewers and the Area Chair. The submissions above the threshold will have one week to prepare a short rebuttal to address the reviewers’ and Area Chair’s concerns and provide clarifications. An Area Chair meeting will finalize decisions, taking into account both the initial reviews and the rebuttal, by **April 10**.
 
   *   RSS 2025 will require papers to include a “Limitations” section, describing shortcomings and open problems related to the proposed contribution. 
+
+  *   RSS 2025 requires authors to submit the title/abstract of their paper(s) by **January 17**, one week before the full paper submission. This gives extra time to the Program Committee for coordinating the review process.
 
 ## Subject Areas
 
