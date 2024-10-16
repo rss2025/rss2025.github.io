@@ -43,8 +43,17 @@ RSS has a long history of bringing together researchers in all areas of robotics
         <td>Supplementary Material Submission Deadline</td>
       </tr>
       <tr>
+        <td>February 16, 2025</td>
+        <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td>Workshop Proposal Deadline</td>
+      </tr>
+      <tr>
         <td colspan="2">March 17, 2025</td>
         <td>Reviews Released and Rebuttal Invitations</td>
+      </tr>
+      <tr>
+        <td colspan="2">March 22, 2025</td>
+        <td>Workshop Decisions Announcement</td>
       </tr>
       <tr>
         <td>March 24, 2025</td>
