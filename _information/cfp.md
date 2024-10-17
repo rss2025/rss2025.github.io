@@ -66,6 +66,7 @@ The conference will include the category of Demo contributions, similar to confe
 RSS 2025 has no page length requirements on submissions.  Traditionally, RSS submissions have been 8 pages given the paper template, which is available either in [LaTeX]({{ site.baseurl }}/docs/paper-template-latex.tar.gz) or [Word]({{ site.baseurl }}/docs/paper-template-word.zip) format. 
 <!-- We expect that most submitted papers will have a similar length. We trust that authors will recognize that respecting reviewers’ time is helpful to the evaluation of their work. -->
 
+
 **Detailed submission instructions are available [here]({{ site.baseurl }}/information/authorinfo/).**
 
 ## Highlights of RSS 2025
