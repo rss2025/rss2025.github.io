@@ -6,7 +6,7 @@ invisible: false
 published: true
 ---
 
-We are pleased to announce the 21st edition of the “Robotics: Science and Systems” (RSS) conference to be held at the [University of Southern California](https://www.usc.edu/){:target="_blank"} in Los Angeles, California, from June 21 - 25, 2025. 
+We are pleased to announce the 21st edition of the “Robotics: Science and Systems” (RSS) conference to be held at the [University of Southern California](https://www.usc.edu/){:target="_blank"} in Los Angeles, California, USA, from June 21 - 25, 2025. 
 
 RSS is a single-track conference that connects researchers working on all aspects of robotics including scientific foundations, mechanisms, algorithms, applications, and analysis of robotic systems. The single-track format gives attendees an opportunity to learn about state-of-the-art research in all areas of robotics. The conference will consist of oral and poster presentations of accepted papers, demonstrations, invited talks, and panels.
 
