@@ -81,7 +81,7 @@ published: true
                   </td>
                   <td style="width:45px;"></td>
                   <td style="width:200px;vertical-align:top;">
-                        <a style="display: block;" href="https://viterbi.usc.edu/directory/faculty/Qian/Feifei">Feifei Qian</a>
+                        <a style="display: block;" href="https://sites.google.com/usc.edu/roboland">Feifei Qian</a>
                         <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
                   </td>
                   </tr>
@@ -136,7 +136,7 @@ published: true
                   </td>
                   <td style="width:45px;"></td>
                   <td style="width:200px;vertical-align:top;">
-                        <a style="display: block;" href="https://viterbi.usc.edu/directory/faculty/Qian/Feifei">Feifei Qian</a>
+                        <a style="display: block;" href="https://sites.google.com/usc.edu/roboland">Feifei Qian</a>
                         <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
                   </td>
                   </tr>
@@ -179,6 +179,23 @@ published: true
             </table>
 
             <br>
+            <b>RSS Pioneers Chairs</b><br>
+
+            <table style="margin-left:auto;margin-right:auto;">
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        Pham Huy Nguyen
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Imperial College London, UK</i>
+                  </td>
+                  <td style="width:45px;"></td>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="https://sarahgillet.com/">Sarah Gillet</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">KTH, Sweden</i>
+                  </td>
+                  </tr>
+            </table>
+
+            <br>
             <b>Website Chair</b><br>
             <table style="margin-left:auto;margin-right:auto;">
                   <tr>
@@ -196,6 +213,40 @@ published: true
                   <td style="width:200px;vertical-align:top;">
                         <a target="_blank" href="https://schmluk.github.io/"> Lukas Schmid </a><br>
                         <i>Massachusetts Institute of Technology, USA</i><br>
+                  </td>
+                  </tr>
+            </table>
+
+            <br>
+            <b>Accessibility Committee</b><br>
+
+            <table style="margin-left:auto;margin-right:auto;">
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="https://guangyaoshi.github.io/">Guangyao Shi</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
+                  </td>
+                  <td style="width:45px;"></td>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="https://danielseita.github.io/">Daniel Seita</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
+                  </td>
+                  </tr>
+            </table>
+
+            <br>
+            <b>Inclusion Chairs</b><br>
+
+            <table style="margin-left:auto;margin-right:auto;">
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="https://swarmslab.com/">David Saldana</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Lehigh University, USA</i>
+                  </td>
+                  <td style="width:45px;"></td>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="https://simonstepputtis.com/">Simon Stepputtis</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Carnegie Mellon University, USA</i>
                   </td>
                   </tr>
             </table>
