@@ -169,11 +169,17 @@ published: true
 
             <br>
             <b>Registration Chair</b><br>
+
             <table style="margin-left:auto;margin-right:auto;">
                   <tr>
                   <td style="width:200px;vertical-align:top;">
-                        <a target="_blank" href="https://profiles.uts.edu.au/Graeme.Best"> Graeme Best </a><br>
-                        <i>University of Technology Sydney, Australia</i><br>
+                        <a style="display: block;" href="https://profiles.uts.edu.au/Graeme.Best">Graeme Best</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Technology Sydney, Australia</i>
+                  </td>
+                  <td style="width:45px;"></td>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="https://sites.usc.edu/quann/">Quan Nguyen</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
                   </td>
                   </tr>
             </table>
@@ -184,7 +190,7 @@ published: true
             <table style="margin-left:auto;margin-right:auto;">
                   <tr>
                   <td style="width:200px;vertical-align:top;">
-                        Pham Huy Nguyen
+                        <a style="display: block;" href="https://scholar.google.com/citations?user=qW9Q1f8AAAAJ&hl=en">Pham Huy Nguyen</a>
                         <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Imperial College London, UK</i>
                   </td>
                   <td style="width:45px;"></td>
