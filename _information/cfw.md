@@ -69,7 +69,7 @@ Workshop/tutorial schedules should adhere to the following timelines to allow fo
 
 ## Submissions 
 
-All proposals must be prepared using the template [here](https://docs.google.com/document/d/19H8EWMB-yU-JQOYj-tew5vGkKECl0DAa1mH6jncUaKI/edit?usp=sharing) and should be no more than 3 pages in length. 
+All proposals must be prepared using the template [here](https://docs.google.com/document/d/19H8EWMB-yU-JQOYj-tew5vGkKECl0DAa1mH6jncUaKI/edit?usp=sharing) and should be no more than 4 pages in length.
 Workshop and tutorial proposals should be submitted as a PDF file [here](https://docs.google.com/forms/d/e/1FAIpQLScuu8djGKQdE9l7Z17Qg8ncLT0-8qYRYjAO84Q_5vLsyRVC8w/viewform?usp=sharing).
 
 <!-- Please contact the workshop chairs Ayoung Kim (ayoungk@snu.ac.kr) and Somil Bansal (somil@stanford.edu)  for any clarifications. -->
