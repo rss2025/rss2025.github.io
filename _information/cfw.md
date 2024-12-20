@@ -61,7 +61,7 @@ Workshop/tutorial schedules should adhere to the following timelines to allow fo
             <td colspan="2">Coffee Break</td>
         </tr>
         <tr>
-            <td>5:00pm</td>
+            <td>6:30pm</td>
             <td colspan="2">Latest End Time</td>
         </tr>
     </tbody>
