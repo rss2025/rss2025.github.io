@@ -144,7 +144,7 @@ We plan to investigate any potential violation of the LLM policy when a submissi
 
 ## Uploading Files for Paper and Demo Submissions
 
-Paper submission and review will occur in the OpenReview system at the following link: **coming soon**
+Paper submission and review will occur in the OpenReview system at the following link: **(coming soon)**
 <!-- [https://openreview.net/group?id=roboticsfoundation.org/RSS/2025](https://openreview.net/group?id=roboticsfoundation.org/RSS/2025) -->
 
 - **Logging into the system:** All **first** authors require an OpenReview account. If you already have an OpenReview account, use those credentials to login. If you do not, sign up as a new user. New OpenReview profiles created without an institutional email will go through a moderation process that **can take up to two weeks**. New OpenReview profiles created with an institutional email will be activated automatically. Although we use OpenReview, the review process will be private, i.e. the papers will only be public after acceptance and the reviews will not be publicly visible.
