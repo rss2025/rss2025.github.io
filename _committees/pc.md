@@ -3,239 +3,345 @@ layout: page
 title: Program Committee
 description: Reviewing team.
 invisible: false
-published: false
+published: true
 ---
 
  <div id="area-chairs" class="row text-center">
-<b>Program Chairs</b><br>
-    <a  href="https://www.monash.edu/engineering/danakulic">Dana Kulic</a><br>
-    <i>Monash University, Australia</i><br>
-    <a  href="http://www.gvlab.jp/">Gentiane Venture</a><br>
-    <i>Tokyo University, Japan</i><br>
+<b>Program Chair</b><br>
+    <a  href="https://lucacarlone.mit.edu/">Luca Carlone</a><br>
+    <!-- <i>Massachusetts Institute of Technology, USA</i><br> -->
+    <i>Massachusetts Institute of<br>Technology, USA</i><br>
+    <!-- <a  href="">Amanda Prorok</a><br>
+    <i>University of Cambridge, England</i><br> -->
     <br>
     <br>
 
-    <b>Area Chairs</b><br/>
-    <!-- <div class="row text-center">TBA</div> -->
+<b>Deputy Program Chair</b><br>
+    <a  href="https://proroklab.org">Amanda Prorok</a><br>
+    <!-- <i>University of Cambridge, England</i><br> -->
+    <i>University of Cambridge,<br>England</i><br>
+    <br>
+    <br>
+
+<!-- <b>Senior Area Chairs</b><br>
+    <a  href="https://www.mayacakmak.io/">Maya Cakmak</a><br>
+    <i>University of Washington, USA</i><br>
+    <a  href="https://sites.google.com/view/janatumova/home">Jana Tumova</a><br>
+    <i>KTH, Sweden</i><br>
+    <a  href="https://liampaull.ca/">Liam Paull</a><br>
+    <i>University of Montreal, Canada</i><br>
+    <a  href="https://www.roahmlab.com/ram-personal">Ram Vasudevan</a><br>
+    <i>University of Michigan, USA</i><br>
+    <a  href="https://www.jaist.ac.jp/ms/labs/vanho/index-e.html">Van Ho</a><br>
+    <i>JAIST, Japan</i><br>
+    <a  href="https://web.stanford.edu/~bohg/">Jeannette Bohg</a><br>
+    <i>Stanford University, USA</i><br>
+    <br>
+    <br> -->
+
+<b>Senior Area Chairs</b><br>
 <table style="margin-left:auto;margin-right:auto;">
 <tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" href="https://www.jaist.ac.jp/ms/labs/vanho/index-e.html">Van Ho</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">JAIST, Japan</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Ayoung Kim</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Seoul Nat. U., Korea</i>
-</td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://www.mayacakmak.io/">Maya Cakmak</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Washington, USA</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://sites.google.com/view/janatumova/home">Jana Tumova</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">KTH, Sweden</i>
+    </td>
 </tr>
 <tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Beomjoon Kim</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">KAIST, Korea</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Jia Pan</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">U. Hong Kong, China</i>
-</td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://liampaull.ca/">Liam Paull</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Montreal, Canada</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://www.roahmlab.com/ram-personal">Ram Vasudevan</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Michigan, USA</i>
+    </td>
 </tr>
 <tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Georgia Chalvatzaki</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">TU Darmstadt, Germany</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Emmanuel Vander Poorten</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">KULeuven, Belgium</i>
-</td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://www.jaist.ac.jp/ms/labs/vanho/index-e.html">Van Ho</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">JAIST, Japan</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://web.stanford.edu/~bohg/">Jeannette Bohg</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Stanford University, USA</i>
+    </td>
+</tr>
+</table>
+<br>
+<br>
+
+<b>Area Chairs</b><br/>
+<!-- Chairs for MAYA CAKMAK  -->
+<table style="margin-left:auto;margin-right:auto;">
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://robertomartinmartin.com/">Roberto Martin-Martin</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Texas,<br>Austin, USA</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://jessethomason.com/">Jesse Thomason</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern<br>California, USA</i>
+    </td>
 </tr>
 <tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Amanda Prorok</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">U. Cambridge, UK</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Lorenzo Sabattini</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">U. Modena & Reggio Emilia, Italy</i>
-</td>
-</tr>
-<tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Marco Tognon</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">INRIA Rennes, France</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Jana Tumova</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">KTH, Sweden</i>
-</td>
-</tr>
-<tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Liam Paull</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">U. de Montreal, Canada</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Audrey Sedal</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">McGill, Canada</i>
-</td>
-</tr>
-<tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Sehoon Ha</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Georgia Tech, USA</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Luca Carlone</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">MIT, USA</i>
-</td>
-</tr>
-<tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Nima Fazeli</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">U. Michigan, USA</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Zac Manchester</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">CMU, USA</i>
-</td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://nbfigueroa.github.io/">Nadia Figueroa</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Pennsylvania, USA</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://talkingtorobots.com/yonatanbisk.html">Yonatan Bisk</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Carnegie Mellon University, USA</i>
+    </td>
 </tr>
 
-
+<!-- Chairs for JANA TUMOVA  -->
+<table style="margin-left:auto;margin-right:auto;">
 <tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Katie Driggs-Campbell</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">UIUC, USA</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Chuchu Fan</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">MIT, USA</i>
-</td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://autonomousrobots.nl/">Javier Alonso-Mora</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">TU Delft, Netherlands</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://tichakorn.dev/">Nok Wongpiromsarn</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Iowa State University, USA</i>
+    </td>
 </tr>
 <tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Ram Vasudevan</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">U. Michigan, USA</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Shuran Song</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Stanford University, USA</i>
-</td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://faculty.washington.edu/kymleung/">Karen Leung</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Washington, USA</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://mengguo.github.io/personal_site/">Meng Guo</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Peking University, China</i>
+    </td>
 </tr>
 <tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Yuke Zhu</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">UT Austin, USA</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Abdelslam Boularias</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Rutgers, USA</i>
-</td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="http://rl.cs.rutgers.edu/">Abdelslam Boularias</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Rutgers, USA</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="http://www2.coe.pku.edu.cn/FACULTY/LIUCHANG/INDEX.HTML">Chang Liu</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Peking University, China</i>
+    </td>
 </tr>
 <tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Kasra Khosoussi</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">CSIRO, Australia</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Mehdi Benallegue</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">AIST, Japan</i>
-</td>
-</tr>
-<tr>
-<tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Ixchel Ramirez</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">AIST, Japan</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Chang Liu</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Peking University, China</i>
-</td>
-</tr>
-<tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Tobias Fischer</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">QUT, Australia</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Rudolf Lioutikov</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">KIT, Germany</i>
-</td>
-</tr>
-<tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Abhishek Gupta</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">U. Washington, USA</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Matthew Gombolay</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Georgia Tech, USA</i>
-</td>
-</tr>
-<tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Lerrel Pinto</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">NYU, USA</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Di Guo</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">BUPT, China</i>
-</td>
-</tr>
-<tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Ajay Shankar</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Cambridge University, USA</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Michael Burke</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Monash University, Australia</i>
-</td>
-</tr>
-<tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Yu Xiang</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">UT Dallas, USA</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Nakul Gopalan</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Arizona State University, USA</i>
-</td>
-</tr>
-<tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Hao Zhang</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Massachusetts Amherst, USA</i>
-</td>
-<td style="width:45px;"></td>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Dimity Miller</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Queensland University of Technology, Australia</i>
-</td>
-</tr>
-<tr>
-<td style="width:200px;vertical-align:top;">
-    <a style="display: block;" >Rahul Shome</a>
-    <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Australian National University, Australia</i>
-</td>
-<td style="width:45px;"></td>
-
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="http://khen.io/">Khen Elimelech</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">King's College London, England</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://sites.google.com/view/nkarapetyan">Nare Karapetyan</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">WHOI, USA</i>
+    </td>
 </tr>
 
+<!-- Chairs for LIAM PAULL  -->
+<table style="margin-left:auto;margin-right:auto;">
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://ori.ox.ac.uk/people/maurice-fallon/">Maurice Fallon</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Oxford, England</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://helenol.github.io/">Helen Oleynikova</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">ETH Zurich, Switzerland</i>
+    </td>
+</tr>
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://mttgdd.github.io/">Matthew Gadd</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Oxford, England</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://www.umass.edu/robotics/people/hao-zhang">Hao Zhang</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Massachusetts,<br>Amherst, USA</i>
+    </td>
+</tr>
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://mistlab.ca/">Giovanni Beltrame</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Polytechnique Montreal, Canada</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://scholar.google.com/citations?user=SRCCuo0AAAAJ&hl=en&oi=ao">Kasra Khosoussi</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Queensland, Australia</i>
+    </td>
+</tr>
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://n.ethz.ch/~cesarc/">Cesar Cadena</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">ETH Zurich, Switzerland</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://scholar.google.com/citations?user=OCauNHUAAAAJ&hl=en&oi=ao">Di Guo</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Tsinghua University, China</i>
+    </td>
+</tr>
+
+<!-- Chairs for RAM VASUDEVAN  -->
+<table style="margin-left:auto;margin-right:auto;">
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://frostlab.byu.edu/">Joshua Mangelson</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Brigham Young University, USA</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://scholar.google.com/citations?user=06OJ1FQAAAAJ&hl=en&oi=ao">Justin Yim</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Illinois<br>Urbana-Champaign, USA</i>
+    </td>
+</tr>
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://negarmehr.com/">Negar Mehr</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of California,<br>Berkely, country</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://hankyang.seas.harvard.edu/">Heng Yang</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Harvard University, USA</i>
+    </td>
+</tr>
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://cyberboticslab.com/">Ayonga Hereid</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Ohio State University, USA</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://star-lab.cc.gatech.edu/">Harish Ravichandar</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Georgia Institute of Technology, USA</i>
+    </td>
+</tr>
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://faculty.cc.gatech.edu/~danfei/">Danfei Xu</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Georgia Institute of Technology, USA</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://www.mmintlab.com/people/nima-fazeli/">Nima Fazeli</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Michigan, USA</i>
+    </td>
+</tr>
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://scholar.google.com/citations?user=TjWNmAQAAAAJ&hl=en&oi=ao">Mehdi Benallegue</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">AIST, Japan</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://www.tobiasfischer.info/">Tobias Fischer</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">QUT, Australia</i>
+    </td>
+</tr>
+
+<!-- Chairs for JEANNETTE BOHG  -->
+<table style="margin-left:auto;margin-right:auto;">
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://mashaitkina.weebly.com/">Masha Itkina</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Toyota Research Institute, USA</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://jiajunwu.com/">Jiajun Wu</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Stanford University, USA</i>
+    </td>
+</tr>
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://antonilo.github.io/">Antonio Loquercio</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Pennsylvania, USA</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://natanaso.github.io/">Nikolay Atanasov</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern<br>California, USA</i>
+    </td>
+</tr>
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://www.gilitschenski.org/igor/">Igor Gilitschenski</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Toronto, Canada</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://rl.uni-freiburg.de/people/valada">Abhinav Valada</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Freiburg, Germany</i>
+    </td>
+</tr>
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://robot-learning.cs.utah.edu/">Tucker Hermans</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Utah, USA</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://beomjoonkim.github.io/">Beomjoon Kim</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">KAIST, South Korea</i>
+    </td>
+</tr>
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://rudolf.intuitive-robots.net/">Rudolf Lioutikov</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Karlsruhe Institute of Technology, Germany</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="http://michaelburke.co.za/wp/">Michael Burke</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Monash University, Australia</i>
+    </td>
+</tr>
+
+<!-- Chairs for VAN HO  -->
+<table style="margin-left:auto;margin-right:auto;">
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://sites.utexas.edu/arts-lab/">Farshid Alambeigi</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Texas,<br>Austin, country</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://hero.snu.ac.kr/">Amy Kyungwon Han</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Seoul National University, South Korea</i>
+    </td>
+</tr>
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="">Hongying Zhang</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">National University of Singapore, Singapore</i>
+    </td>
+    <td style="width:45px;"></td>
+    <!-- <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="">Amy Kyungwon Han</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">uni, country</i>
+    </td> -->
+</tr>
+<!-- <tr>
+    <td colspan="3" style="text-align:center; vertical-align:top;">
+        <a style="display: block;" href="">Hongying Zhang</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">uni, country</i>
+    </td>
+</tr> -->
+</table>
