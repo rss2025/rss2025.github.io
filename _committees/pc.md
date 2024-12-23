@@ -260,7 +260,7 @@ published: true
 <table style="margin-left:auto;margin-right:auto;">
 <tr>
     <td style="width:200px;vertical-align:top;">
-        <a style="display: block;" href="https://mashaitkina.weebly.com/">Masha Itkina</a>
+        <a style="display: block;" href="https://scholar.google.com/citations?hl=en&user=JAmTk5gAAAAJ&view_op=list_works&sortby=pubdate">Masha Itkina</a>
         <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Toyota Research Institute, USA</i>
     </td>
     <td style="width:45px;"></td>
@@ -277,7 +277,7 @@ published: true
     <td style="width:45px;"></td>
     <td style="width:200px;vertical-align:top;">
         <a style="display: block;" href="https://natanaso.github.io/">Nikolay Atanasov</a>
-        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern<br>California, USA</i>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of California,<br>San Diego, USA</i>
     </td>
 </tr>
 <tr>
@@ -324,7 +324,7 @@ published: true
     <td style="width:45px;"></td>
     <td style="width:200px;vertical-align:top;">
         <a style="display: block;" href="https://hero.snu.ac.kr/">Amy Kyungwon Han</a>
-        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Seoul National University, South Korea</i>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Seoul National University,<br> South Korea</i>
     </td>
 </tr>
 <tr>
