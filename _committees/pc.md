@@ -329,7 +329,7 @@ published: true
 </tr>
 <tr>
     <td style="width:200px;vertical-align:top;">
-        <a style="display: block;" href="">Hongying Zhang</a>
+        <a style="display: block;" href="https://scholar.google.com/citations?user=Gzu-S2sAAAAJ&hl=en&oi=ao">Hongying Zhang</a>
         <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">National University of Singapore, Singapore</i>
     </td>
     <td style="width:45px;"></td>
