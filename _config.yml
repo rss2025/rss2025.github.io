@@ -17,6 +17,7 @@ exclude:          ['README.md', 'LICENSE.md', 'Gemfile', 'Gemfile.lock', '.travi
 logo:             "/images/RSS2025-logo.png"
 favpng:           "/public/RSS2025-favicon-516x516.png"
 favicon:          "/public/RSS2025-favicon-256x256.ico"
+apple_touch_icon: "/public/apple-touch-icon-144-precomposed-2025.png"
 startdate:        "2025-06-21"
 enddate:          "2025-06-25"
 location:         "Los Angeles, California"
