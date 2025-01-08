@@ -333,6 +333,10 @@ published: true
         <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">National University of Singapore, Singapore</i>
     </td>
     <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://sarahsebo.com/">Sarah Sebo</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Chicago, USA</i>
+    </td>
     <!-- <td style="width:200px;vertical-align:top;">
         <a style="display: block;" href="">Amy Kyungwon Han</a>
         <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">uni, country</i>
