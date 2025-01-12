@@ -194,7 +194,7 @@ published: true
     <td style="width:45px;"></td>
     <td style="width:200px;vertical-align:top;">
         <a style="display: block;" href="https://scholar.google.com/citations?user=OCauNHUAAAAJ&hl=en&oi=ao">Di Guo</a>
-        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Tsinghua University, China</i>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Beijing University of Posts and Telecommunications, China</i>
     </td>
 </tr>
 
