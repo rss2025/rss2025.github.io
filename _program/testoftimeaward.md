@@ -4,7 +4,7 @@ title: Test of Time Award
 description: The award for impact over at least a decade, including author bios
 priority: 6
 invisible: false
-published: true
+published: false
 ---
 
 The RSS Test of Time Award is given to highest impact papers published at RSS (and potentially journal versions thereof) from at least ten years ago. Impact may mean that it changed how we think about problems or about robotic design, that it brought fully new problems to the attention of the community, or that it pioneered new approaches to robotic design or problem solving.

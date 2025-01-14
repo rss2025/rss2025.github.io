@@ -5,7 +5,7 @@ description: Award.
 days: ['Mon', 'Fri']
 priority: 9
 invisible: false
-published: true
+published: false
 ---
 
 ### Outstanding Demo Paper Award Finalists

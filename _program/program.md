@@ -5,7 +5,7 @@ description: Roster board numbers and poster roomsdetails
 days: ['Mon', 'Fri']
 priority: 9
 invisible: false
-published: true
+published: false
 ---
 
 

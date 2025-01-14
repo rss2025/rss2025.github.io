@@ -5,7 +5,7 @@ description: Workshop times, venues, and details.
 days: ['Mon', 'Fri']
 priority: 9
 invisible: false
-published: true
+published: false
 ---
 
 

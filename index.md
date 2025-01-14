@@ -43,16 +43,23 @@ RSS has a long history of bringing together researchers in all areas of robotics
         <td>Supplementary Material Submission Deadline</td>
       </tr>
       <tr>
+        <td>February 11, 2025</td>
+        <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td><a href="https://sites.google.com/view/rsspioneers2025/" target="_blank">RSS Pioneers</a> Application Deadline</td>
+      </tr>
+      <tr>
         <td>February 16, 2025</td>
         <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td>Workshop Proposal Deadline</td>
       </tr>
       <tr>
-        <td colspan="2">March 17, 2025</td>
+        <td>March 17, 2025</td>
+        <td>—</td>
         <td>Reviews Released and Rebuttal Invitations</td>
       </tr>
       <tr>
-        <td colspan="2">March 22, 2025</td>
+        <td>March 22, 2025</td>
+        <td>—</td>
         <td>Workshop Decisions Announcement</td>
       </tr>
       <tr>
@@ -61,15 +68,24 @@ RSS has a long history of bringing together researchers in all areas of robotics
         <td>Rebuttal Submission Deadline</td>
       </tr>
       <tr>
-        <td colspan="2">April 10, 2025</td>
+        <td>April 10, 2025</td>
+        <td>—</td>
         <td>Paper and Demo Acceptance Notification</td>
       </tr>
       <tr>
-        <td colspan="2">June 20, 2025</td>
-        <td>RSS Pioneers Workshop</td>
+        <td>April 20, 2025</td>
+        <td>—</td>
+        <!-- <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td> -->
+        <td><a href="https://sites.google.com/view/rsspioneers2025/" target="_blank">RSS Pioneers</a> Notification of Acceptance</td>
       </tr>
       <tr>
-        <td colspan="2">June 21 &ndash; June 25, 2025</td>
+        <td>June 20, 2025</td>
+        <td>—</td>
+        <td><a href="https://sites.google.com/view/rsspioneers2025/" target="_blank">RSS Pioneers</a> Workshop</td>
+      </tr>
+      <tr>
+        <td>June 21 &ndash; June 25, 2025</td>
+        <td>—</td>
         <td>RSS 2025, Los Angeles, California</td>
       </tr>
     </tbody>

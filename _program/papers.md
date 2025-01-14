@@ -4,7 +4,7 @@ title: Accepted Papers
 description: Accepted papers.
 priority: 11
 invisible: true
-published: true
+published: false
 ---
 
 <style>
