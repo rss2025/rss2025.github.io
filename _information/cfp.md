@@ -6,6 +6,12 @@ invisible: false
 published: true
 ---
 
+### Important Announcement
+
+**In response to the recent wildfires in Los Angeles, we have made adjustments to the RSS 2025 submission timeline, to show our support to the LA community who is going to generously host us this June. While the abstract/title submission (January 17) and the initial paper submission (January 24) deadlines remain unchanged, the authors will be able to continue updating the pdf of their paper until January 31, 2025 (which is also the supplementary material deadline). For more details, read our [full announcement](/updates/la-wildfires/).**
+
+---
+
 We are pleased to announce the 21st edition of the “Robotics: Science and Systems” (RSS) conference to be held at the [University of Southern California](https://www.usc.edu/){:target="_blank"} in Los Angeles, California, USA, from June 21 - 25, 2025. 
 
 RSS is a single-track conference that connects researchers working on all aspects of robotics including scientific foundations, mechanisms, algorithms, applications, and analysis of robotic systems. The single-track format gives attendees an opportunity to learn about state-of-the-art research in all areas of robotics. The conference will consist of oral and poster presentations of accepted papers, demonstrations, invited talks, and panels.
@@ -14,6 +20,7 @@ The conference will preserve the RSS tradition of selecting excellent papers via
 
 <!-- The conference will again include the recently added category of Demo contributions, similar to conferences in related research areas, resulting in a Demo Track during the main conference. -->
 The conference will include the category of Demo contributions, similar to conferences in related research areas, resulting in a Demo Track during the main conference.
+
 
 ### Important Dates
 
@@ -32,12 +39,12 @@ The conference will include the category of Demo contributions, similar to confe
       <tr>
         <td>January 24, 2025</td>
         <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
-        <td>Paper and Demo Submission Deadline</td>
+        <td>Initial Paper and Demo Submission Deadline</td>
       </tr>
       <tr>
         <td>January 31, 2025</td>
         <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
-        <td>Supplementary Material Submission Deadline</td>
+        <td>Final Edits and Supplementary Material Submission Deadline</td>
       </tr>
       <tr>
         <td colspan="2">March 17, 2025</td>

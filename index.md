@@ -11,6 +11,12 @@ June 21 &ndash; June 25, 2025<br>Los Angeles, California</h1>
 
 <!-- ### News and Updates -->
 
+### Important Announcement
+
+**In response to the recent wildfires in Los Angeles, we have made adjustments to the RSS 2025 submission timeline, to show our support to the LA community who is going to generously host us this June. While the abstract/title submission (January 17) and the initial paper submission (January 24) deadlines remain unchanged, the authors will be able to continue updating the pdf of their paper until January 31, 2025 (which is also the supplementary material deadline). For more details, read our [full announcement](/updates/la-wildfires/).**
+
+---
+
 ### Call for Participation
 
 We are pleased to announce the 21st edition of the “Robotics: Science and Systems” (RSS) conference to be held at the [University of Southern California](https://www.usc.edu/){:target="_blank"}, Los Angeles, California from June 21-25, 2025. 
@@ -35,12 +41,12 @@ RSS has a long history of bringing together researchers in all areas of robotics
       <tr>
         <td>January 24, 2025</td>
         <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
-        <td>Paper and Demo Submission Deadline</td>
+        <td>Initial Paper and Demo Submission Deadline</td>
       </tr>
       <tr>
         <td>January 31, 2025</td>
         <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
-        <td>Supplementary Material Submission Deadline</td>
+        <td>Final Edits and Supplementary Material Submission Deadline</td>
       </tr>
       <tr>
         <td>February 11, 2025</td>
