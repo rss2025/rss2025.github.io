@@ -24,6 +24,15 @@ The conference will include the category of Demo contributions, similar to confe
 
 ### Important Dates
 
+<style>
+  .nowrap {
+    white-space: nowrap;
+  }
+  .wrap {
+    white-space: normal;
+  }
+</style>
+
 <table class="table">
     <thead>
       <tr>
@@ -32,40 +41,53 @@ The conference will include the category of Demo contributions, similar to confe
     </thead>
     <tbody>
       <tr>
-        <td>January 17, 2025</td>
-        <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
-        <td>Abstract/Title Submission Deadline</td>
+        <td class="nowrap">January 17, 2025</td>
+        <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td class="wrap">Abstract/Title Submission Deadline</td>
       </tr>
       <tr>
-        <td>January 24, 2025</td>
-        <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
-        <td>Initial Paper and Demo Submission Deadline</td>
+        <td class="nowrap">January 24, 2025</td>
+        <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td class="wrap">Initial Paper and Demo Submission Deadline (this requires a semi-complete pdf of the paper, final title and abstract)</td>
       </tr>
       <tr>
-        <td>January 31, 2025</td>
-        <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
-        <td>Final Edits and Supplementary Material Submission Deadline</td>
+        <td class="nowrap">January 31, 2025</td>
+        <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td class="wrap">Final PDF Submission Deadline</td>
       </tr>
       <tr>
-        <td colspan="2">March 17, 2025</td>
-        <td>Reviews Released and Rebuttal Invitations</td>
+        <td class="nowrap">January 31, 2025</td>
+        <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td class="wrap">Supplementary Material Submission Deadline</td>
       </tr>
       <tr>
-        <td>March 24, 2025</td>
-        <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
-        <td>Rebuttal Submission Deadline</td>
+        <!-- <td colspan="2">March 17, 2025</td> -->
+        <td class="nowrap">March 17, 2025</td>
+        <td>—</td>
+        <td class="wrap">Reviews Released and Rebuttal Invitations</td>
       </tr>
       <tr>
-        <td colspan="2">April 10, 2025</td>
-        <td>Paper and Demo Acceptance Notification</td>
+        <td class="nowrap">March 24, 2025</td>
+        <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td class="wrap">Rebuttal Submission Deadline</td>
       </tr>
       <tr>
-        <td colspan="2">June 20, 2025</td>
-        <td>RSS Pioneers Workshop</td>
+        <!-- <td colspan="2">April 10, 2025</td> -->
+        <td class="nowrap">April 10, 2025</td>
+        <td>—</td>
+        <td class="wrap">Paper and Demo Acceptance Notification</td>
       </tr>
       <tr>
-        <td colspan="2">June 21 &ndash; June 25, 2025</td>
-        <td>RSS 2025, Los Angeles, California</td>
+        <!-- <td colspan="2">June 20, 2025</td> -->
+        <td class="nowrap">June 20, 2025</td>
+        <td>—</td>
+        <td class="wrap">RSS Pioneers Workshop</td>
+      </tr>
+      <tr>
+        <!-- <td colspan="2">June 21 &ndash; June 25, 2025</td> -->
+        <td class="nowrap">June 21 &ndash; June 25, 2025</td>
+        <td>—</td>
+        <td class="wrap">RSS 2025, Los Angeles, California</td>
       </tr>
     </tbody>
 </table>

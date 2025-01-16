@@ -26,6 +26,15 @@ RSS has a long history of bringing together researchers in all areas of robotics
 
 ### Important Dates
 
+<style>
+  .nowrap {
+    white-space: nowrap;
+  }
+  .wrap {
+    white-space: normal;
+  }
+</style>
+
 <table class="table">
     <thead>
       <tr>
@@ -35,64 +44,69 @@ RSS has a long history of bringing together researchers in all areas of robotics
     <tbody>
       <tr>
         <td>January 17, 2025</td>
-        <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
-        <td>Abstract/Title Submission Deadline</td>
+        <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td class="wrap">Abstract/Title Submission Deadline</td>
       </tr>
       <tr>
         <td>January 24, 2025</td>
-        <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
-        <td>Initial Paper and Demo Submission Deadline</td>
+        <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td class="wrap">Initial Paper and Demo Submission Deadline (this requires a semi-complete pdf of the paper, final title and abstract)</td>
       </tr>
       <tr>
         <td>January 31, 2025</td>
-        <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
-        <td>Final Edits and Supplementary Material Submission Deadline</td>
+        <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td class="wrap">Final PDF Submission Deadline</td>
+      </tr>
+      <tr>
+        <td>January 31, 2025</td>
+        <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td class="wrap">Supplementary Material Submission Deadline</td>
       </tr>
       <tr>
         <td>February 11, 2025</td>
-        <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
-        <td><a href="https://sites.google.com/view/rsspioneers2025/" target="_blank">RSS Pioneers</a> Application Deadline</td>
+        <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td class="wrap"><a href="https://sites.google.com/view/rsspioneers2025/" target="_blank">RSS Pioneers</a> Application Deadline</td>
       </tr>
       <tr>
         <td>February 16, 2025</td>
-        <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
-        <td>Workshop Proposal Deadline</td>
+        <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td class="wrap">Workshop Proposal Deadline</td>
       </tr>
       <tr>
         <td>March 17, 2025</td>
         <td>—</td>
-        <td>Reviews Released and Rebuttal Invitations</td>
+        <td class="wrap">Reviews Released and Rebuttal Invitations</td>
       </tr>
       <tr>
         <td>March 22, 2025</td>
         <td>—</td>
-        <td>Workshop Decisions Announcement</td>
+        <td class="wrap">Workshop Decisions Announcement</td>
       </tr>
       <tr>
         <td>March 24, 2025</td>
-        <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
-        <td>Rebuttal Submission Deadline</td>
+        <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td class="wrap">Rebuttal Submission Deadline</td>
       </tr>
       <tr>
         <td>April 10, 2025</td>
         <td>—</td>
-        <td>Paper and Demo Acceptance Notification</td>
+        <td class="wrap">Paper and Demo Acceptance Notification</td>
       </tr>
       <tr>
         <td>April 20, 2025</td>
         <td>—</td>
         <!-- <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td> -->
-        <td><a href="https://sites.google.com/view/rsspioneers2025/" target="_blank">RSS Pioneers</a> Notification of Acceptance</td>
+        <td class="wrap"><a href="https://sites.google.com/view/rsspioneers2025/" target="_blank">RSS Pioneers</a> Notification of Acceptance</td>
       </tr>
       <tr>
         <td>June 20, 2025</td>
         <td>—</td>
-        <td><a href="https://sites.google.com/view/rsspioneers2025/" target="_blank">RSS Pioneers</a> Workshop</td>
+        <td class="wrap"><a href="https://sites.google.com/view/rsspioneers2025/" target="_blank">RSS Pioneers</a> Workshop</td>
       </tr>
       <tr>
         <td>June 21 &ndash; June 25, 2025</td>
         <td>—</td>
-        <td>RSS 2025, Los Angeles, California</td>
+        <td class="wrap">RSS 2025, Los Angeles, California</td>
       </tr>
     </tbody>
 </table>
