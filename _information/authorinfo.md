@@ -125,7 +125,12 @@ Exceptions to this rule are the following:
 2. It is acceptable to submit to RSS work that has been made available as a technical report (or similar, e.g., in arXiv) without citing it.
 
 
-None of the above should be construed as overriding the requirements of other publishing venues. In addition, keep in mind that author anonymity to RSS reviewers might be compromised for authors availing themselves of exceptions 1 and 2.
+None of the above should be construed as overriding the requirements of other publishing venues. Also, keep in mind that author anonymity to RSS reviewers might be compromised for authors availing themselves of exceptions 1 and 2.
+
+<div class="alert alert-warning" style="border: 1px solid #f0ad4e; padding: 10px; margin-top: 20px; background-color: #fcf8e3;">
+<strong>Important Submission Policy:</strong> 
+Submitting an abstract (by the January 17 deadline) or a semi-complete paper (by the January 24 deadline) for a paper that is currently under submission to another conference (e.g. ICRA, ICLR, CVPR) is still considered a double submission and is forbidden by RSS rules. However, if the paper has substantial innovation with respect to the paper that is already in submission (i.e., it would qualify as a different and novel paper and you would not withdraw it even if the paper under review is accepted), you should feel free to submit it to RSS.
+</div>
 
 ## Plagiarism in Papers and Demos
 
