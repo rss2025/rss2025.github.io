@@ -337,15 +337,42 @@ published: true
         <a style="display: block;" href="https://sarahsebo.com/">Sarah Sebo</a>
         <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Chicago, USA</i>
     </td>
-    <!-- <td style="width:200px;vertical-align:top;">
-        <a style="display: block;" href="">Amy Kyungwon Han</a>
-        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">uni, country</i>
-    </td> -->
 </tr>
-<!-- <tr>
-    <td colspan="3" style="text-align:center; vertical-align:top;">
-        <a style="display: block;" href="">Hongying Zhang</a>
-        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">uni, country</i>
+
+<!-- Added ACs -->
+<table style="margin-left:auto;margin-right:auto;">
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://zackory.com/">Zackory Erickson</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Carnegie Mellon University, USA</i>
     </td>
-</tr> -->
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://www.shreyaskousik.com/">Shreyas Kousik</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Georgia Institute of Technology, USA</i>
+    </td>
+</tr>
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://siebelschool.illinois.edu/about/people/all-faculty/yuanwz">Wenzhen Yuan</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Illinois<br>Urbana-Champaign, USA</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://yunzhuli.github.io/">Yunzhu Li</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Columbia University, USA</i>
+    </td>
+</tr>
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://xiaolonw.github.io/">Xiaolong Wang</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of California,<br>San Diego, USA</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://www.seas.upenn.edu/~dineshj/">Dinesh Jayaraman</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Pennsylvania, USA</i>
+    </td>
+</tr>
+
 </table>
