@@ -374,5 +374,33 @@ published: true
         <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Pennsylvania, USA</i>
     </td>
 </tr>
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://hangzhaomit.github.io/">Hang Zhao</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Tsinghua University, China</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://yuxng.github.io/">Yu Xiang</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Texas,<br>Dallas, USA</i>
+    </td>
+</tr>
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://rahulsho.me/">Rahul Shome</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Australian National University, Australia</i>
+    </td>
+    <td style="width:45px;"></td>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://lihongyang.info/">Hongyang Li</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Hong Kong, China</i>
+    </td>
+</tr>
+<tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://qureshiahmed.github.io/">Ahmed H. Qureshi</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Purdue University, USA</i>
+    </td>
+</tr>
 
 </table>
