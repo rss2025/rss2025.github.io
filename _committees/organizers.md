@@ -202,12 +202,17 @@ published: true
             </table>
 
             <br>
-            <b>Website Chair</b><br>
+            <b>Website Chairs</b><br>
             <table style="margin-left:auto;margin-right:auto;">
                   <tr>
                   <td style="width:200px;vertical-align:top;">
                         <a target="_blank" href="https://jaredstrader.github.io/"> Jared Strader </a><br>
                         <i>Massachusetts Institute of Technology, USA</i><br>
+                  </td>
+                  <td style="width:45px;"></td>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="http://ebiyik.github.io/">Erdem Biyik</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
                   </td>
                   </tr>
             </table>
