@@ -327,7 +327,7 @@ published: true
         <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Seoul National University,<br> South Korea</i>
     </td>
 </tr>
-<tr>
+<!-- <tr>
     <td style="width:200px;vertical-align:top;">
         <a style="display: block;" href="https://scholar.google.com/citations?user=Gzu-S2sAAAAJ&hl=en&oi=ao">Hongying Zhang</a>
         <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">National University of Singapore, Singapore</i>
@@ -337,7 +337,7 @@ published: true
         <a style="display: block;" href="https://sarahsebo.com/">Sarah Sebo</a>
         <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Chicago, USA</i>
     </td>
-</tr>
+</tr> -->
 
 <!-- Added ACs -->
 <table style="margin-left:auto;margin-right:auto;">
@@ -364,9 +364,13 @@ published: true
     </td>
 </tr>
 <tr>
-    <td style="width:200px;vertical-align:top;">
+    <!-- <td style="width:200px;vertical-align:top;">
         <a style="display: block;" href="https://xiaolonw.github.io/">Xiaolong Wang</a>
         <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of California,<br>San Diego, USA</i>
+    </td> -->
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://sarahsebo.com/">Sarah Sebo</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Chicago, USA</i>
     </td>
     <td style="width:45px;"></td>
     <td style="width:200px;vertical-align:top;">
@@ -397,6 +401,11 @@ published: true
     </td>
 </tr>
 <tr>
+    <td style="width:200px;vertical-align:top;">
+        <a style="display: block;" href="https://www.media.mit.edu/people/haewon/overview/">Hae Won Park</a>
+        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Massachusetts Institute of<br>Technology, USA</i>
+    </td>
+    <td style="width:45px;"></td>
     <td style="width:200px;vertical-align:top;">
         <a style="display: block;" href="https://qureshiahmed.github.io/">Ahmed H. Qureshi</a>
         <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Purdue University, USA</i>
