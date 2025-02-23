@@ -405,8 +405,8 @@ padding-inline-start: 1.2em;
 .talk-profile{
     display: inline-block;
     float: left;
-    width: 25%;
-    min-width: 150px;
+    width: 20%;
+    min-width: 130px;
     padding-right: 10px;
     padding-top: 20px;
     margin-left: 1px;
