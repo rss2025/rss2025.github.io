@@ -68,7 +68,7 @@ A template for paper and demo submissions is available in [LaTeX]({{ site.baseur
 
 <div class="alert alert-warning" style="border: 1px solid #f0ad4e; padding: 10px; margin-top: 20px; background-color: #fcf8e3;">
 <strong>Important Rebuttal Policy:</strong> 
-Rebuttals must be submitted as a <strong>one-page PDF</strong> following the <a href="{{ site.baseurl }}/docs/rss2025-rebuttal-template-latex.zip"><strong>rebuttal template</strong></a>.
+Rebuttals must be submitted as a <strong>one-page PDF</strong> following the rebuttal template (available in <a href="{{ site.baseurl }}/docs/rss2025-rebuttal-template-latex.zip">LATEX</a> and <a href="{{ site.baseurl }}/docs/rss2025-rebuttal-template-word.zip">Word</a>).
 Rebuttals exceeding one page or failing to follow the required template’s formatting and anonymity guidelines will lead to a desk rejection decision for the corresponding paper. The authors will NOT be allowed to submit a new version of the paper during the rebuttal stage.
 </div>
 

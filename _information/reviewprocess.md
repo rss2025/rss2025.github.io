@@ -48,11 +48,11 @@ Based on the reviewer and AC recommendations, papers will then fall into two gro
 
 ## Rebuttal and Round 2 Review Process
 
-Authors of the papers with Revise and Resubmit recommendations are invited to submit a 1-page rebuttal using the <a href="{{ site.baseurl }}/docs/rss2025-rebuttal-template-latex.zip"><strong>rebuttal template</strong></a>, by the resubmission deadline. Note that author lists may not be changed. All the rebuttals will be reviewed by the original AC and they will only be sent back to reviewers in case extra feedback is needed. The AC reserves the right to invite new reviewers if needed. The results of the current review(s) will be shared with the new reviewers in such cases.
+Authors of the papers with Revise and Resubmit recommendations are invited to submit a 1-page rebuttal using the rebuttal template, by the resubmission deadline. Note that author lists may not be changed. All the rebuttals will be reviewed by the original AC and they will only be sent back to reviewers in case extra feedback is needed. The AC reserves the right to invite new reviewers if needed. The results of the current review(s) will be shared with the new reviewers in such cases.
 
 <div class="alert alert-warning" style="border: 1px solid #f0ad4e; padding: 10px; margin-top: 20px; background-color: #fcf8e3;">
 <strong>Important Rebuttal Policy:</strong> 
-Rebuttals must be submitted as a <strong>one-page PDF</strong> following the <a href="{{ site.baseurl }}/docs/rss2025-rebuttal-template-latex.zip"><strong>rebuttal template</strong></a>.
+Rebuttals must be submitted as a <strong>one-page PDF</strong> following the rebuttal template (available in <a href="{{ site.baseurl }}/docs/rss2025-rebuttal-template-latex.zip">LATEX</a> and <a href="{{ site.baseurl }}/docs/rss2025-rebuttal-template-word.zip">Word</a>).
 Rebuttals exceeding one page or failing to follow the required template’s formatting and anonymity guidelines will lead to a desk rejection decision for the corresponding paper. The authors will NOT be allowed to submit a new version of the paper during the rebuttal stage.
 </div>
 
