@@ -4,7 +4,7 @@ title: Accessibility
 description: Accessibility information.
 priority: 4
 invisible: false
-published: true
+published: false
 ---
 
 ## Accessibility FAQ

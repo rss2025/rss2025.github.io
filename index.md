@@ -2,14 +2,18 @@
 layout: default
 title: Home
 ---
+<div style="margin-top: 20px; background-color: #ffcc00; padding: 10px; text-align: center; font-weight: bold; font-size: 18px;">
+  The registration portal is now open! Click <a href="{{ site.baseurl }}/attending/registration/" style="color: #0000EE; text-decoration: underline;">here</a> for details.
+</div>
+
+
+
 <h1 class="page-title">{{ site.title }}<br>
 June 21 &ndash; June 25, 2025<br>Los Angeles, California</h1>
 
 <div id="dayselector" style="width: 100%; text-align: center; justify-content: center; display: inline-flex;">
   <div class="daybutton" link="nMLoZbxWnpY">Jul 11</div>
 </div>
-
-<!-- ### News and Updates -->
 
 ### Important Announcements
 

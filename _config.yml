@@ -40,6 +40,10 @@ github:
 google_analytics: G-RCJTV6PJZC
 
 collections:
+    attending:
+       output: true
+       permalink: /attending/:path/
+       priority: 2
     program:
        output: true
        permalink: /program/:path/
