@@ -47,7 +47,14 @@ Based on the reviewer and AC recommendations, papers will then fall into two gro
 **Reject**: Papers below the threshold to revise and resubmit will be rejected at the completion of Round 1. The time to prepare the rebuttal and revise a paper (if accepted) is limited. Therefore, a submission will be rejected if the reviewers feel that the required revisions would not be achievable within the time frame. A rejection in round 1 should be taken to indicate that the work is not deemed to be ready for this year’s RSS, not that it has no place at RSS at all.
 
 ## Rebuttal and Round 2 Review Process
-Authors of the papers with Revise and Resubmit recommendations are invited to submit a 1-page rebuttal, by the resubmission deadline. Note that author lists may not be changed. All the rebuttals will be reviewed by the original AC and potentially by external reviewers. The AC reserves the right to invite new reviewers if needed. The results of the current review(s) will be shared with the new reviewers in such cases. 
+
+Authors of the papers with Revise and Resubmit recommendations are invited to submit a 1-page rebuttal using the <a href="{{ site.baseurl }}/docs/rss2025-rebuttal-template-latex.zip"><strong>rebuttal template</strong></a>, by the resubmission deadline. Note that author lists may not be changed. All the rebuttals will be reviewed by the original AC and they will only be sent back to reviewers in case extra feedback is needed. The AC reserves the right to invite new reviewers if needed. The results of the current review(s) will be shared with the new reviewers in such cases.
+
+<div class="alert alert-warning" style="border: 1px solid #f0ad4e; padding: 10px; margin-top: 20px; background-color: #fcf8e3;">
+<strong>Important Rebuttal Policy:</strong> 
+Rebuttals must be submitted as a <strong>one-page PDF</strong> following the <a href="{{ site.baseurl }}/docs/rss2025-rebuttal-template-latex.zip"><strong>rebuttal template</strong></a>.
+Rebuttals exceeding one page or failing to follow the required template’s formatting and anonymity guidelines will lead to a desk rejection decision for the corresponding paper. The authors will NOT be allowed to submit a new version of the paper during the rebuttal stage.
+</div>
 
 ## AC Meeting
 The ACs, Senior ACs, and PCs will discuss papers, reviews, meta-reviews, and rebuttals at the AC meeting, resulting in final acceptance or rejection decisions.

@@ -11,9 +11,9 @@ There are two types of submissions to RSS:  (i) Science/Systems papers, and (ii)
 
 Science/Systems papers report on novel scientific and systems contributions via a conference paper, and are reviewed via a double-blind review process.  Demo papers must be accompanied by a conference demonstration (see details below), and can be reviewed via a single-blind review process as the demonstration content may reveal the affiliation of the authors. 
 
-A single contribution should only be submitted as one type, either a Science/System paper or a Demo paper. If there is a novel robotic systems contribution that is properly evaluated against alternatives and does not obviously reveal the authors, the authors should submit it as a Science/System paper. If the authors’ contribution entails a demonstration and cannot be easily anonymized, authors should submit it as a Demo paper.  
+A single contribution should only be submitted as one type, either a Science/System paper or a Demo paper. If there is a novel robotic systems contribution that is properly evaluated against alternatives and does not obviously reveal the authors, the authors should submit it as a Science/System paper. If the authors’ contribution entails a demonstration and cannot be easily anonymized, authors should submit it as a Demo paper.
 
-Details on the two types of submission and guidance for preparation are provided below.  
+Details on the two types of submission and guidance for preparation are provided below. For details on the review process and rebuttal requirements, see the [Review Process]({{ site.baseurl }}/reviewps/) page.
 
 
 ## Guidance for Demo Preparation
@@ -65,6 +65,12 @@ The authors of Demo papers are also asked to include a short 1-paragraph section
 ## Paper and Demo Format
 
 A template for paper and demo submissions is available in [LaTeX]({{ site.baseurl }}/docs/paper-template-latex.tar.gz) and [Word]({{ site.baseurl }}/docs/paper-template-word.zip). Do not modify the formatting provided in the templates. Any change to font sizes, page dimensions, line spacing, etc. may delay publication. Please do not include any additional markings such as _Draft or To appear in…_ on the pages. Make sure your paper does not contain page numbers.
+
+<div class="alert alert-warning" style="border: 1px solid #f0ad4e; padding: 10px; margin-top: 20px; background-color: #fcf8e3;">
+<strong>Important Rebuttal Policy:</strong> 
+Rebuttals must be submitted as a <strong>one-page PDF</strong> following the <a href="{{ site.baseurl }}/docs/rss2025-rebuttal-template-latex.zip"><strong>rebuttal template</strong></a>.
+Rebuttals exceeding one page or failing to follow the required template’s formatting and anonymity guidelines will lead to a desk rejection decision for the corresponding paper. The authors will NOT be allowed to submit a new version of the paper during the rebuttal stage.
+</div>
 
 We only accept a PDF format for the main submission file. Delays in the production of proceedings are usually caused by PDF file submissions that do not embed all fonts.
 
