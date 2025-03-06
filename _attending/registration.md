@@ -87,7 +87,7 @@ The registration portal is hosted on PheedLoop at this link: **[site.pheedloop.c
 
 <small>*The registration rates are in USD and are based on the date (Pacific Time) of registration and payment.</small>
 
-<small>**Rates includes access to all food served during the conference.</small>
+<small>**Except for workshop only attendees, rates for in-person registration include access to all food served during the conference</small>
 
 ### Visa and Travel Information
 <!-- 
