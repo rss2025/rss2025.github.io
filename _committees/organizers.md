@@ -246,7 +246,7 @@ published: true
             </table>
 
             <br>
-            <b>Inclusion Chairs</b><br>
+            <b>Pathways Chairs</b><br>
 
             <table style="margin-left:auto;margin-right:auto;">
                   <tr>
