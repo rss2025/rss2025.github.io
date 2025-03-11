@@ -66,12 +66,6 @@ The authors of Demo papers are also asked to include a short 1-paragraph section
 
 A template for paper and demo submissions is available in [LaTeX]({{ site.baseurl }}/docs/paper-template-latex.tar.gz) and [Word]({{ site.baseurl }}/docs/paper-template-word.zip). Do not modify the formatting provided in the templates. Any change to font sizes, page dimensions, line spacing, etc. may delay publication. Please do not include any additional markings such as _Draft or To appear in…_ on the pages. Make sure your paper does not contain page numbers.
 
-<div class="alert alert-warning" style="border: 1px solid #f0ad4e; padding: 10px; margin-top: 20px; background-color: #fcf8e3;">
-<strong>Important Rebuttal Policy:</strong> 
-Rebuttals must be submitted as a <strong>one-page PDF</strong> following the rebuttal template (available in <a href="{{ site.baseurl }}/docs/rss2025-rebuttal-template-latex.zip">LATEX</a> and <a href="{{ site.baseurl }}/docs/rss2025-rebuttal-template-word.zip">Word</a>).
-Rebuttals exceeding one page or failing to follow the required template’s formatting and anonymity guidelines will lead to a desk rejection decision for the corresponding paper. The authors will NOT be allowed to submit a new version of the paper during the rebuttal stage.
-</div>
-
 We only accept a PDF format for the main submission file. Delays in the production of proceedings are usually caused by PDF file submissions that do not embed all fonts.
 
 Before submitting your PDF file, please open it in Acrobat Reader. In the File menu under Document Properties, you will find information on the fonts used by your document. The PDF file must only contain Type-1 fonts (and Embedded True Type fonts if prepared under Word). On Linux, you may also use [pdffonts](https://www.xpdfreader.com/pdffonts-man.html). Below are instructions to embed PDF fonts for various typesetting systems:
@@ -81,7 +75,7 @@ Before submitting your PDF file, please open it in Acrobat Reader. In the File m
 - [dvips](https://www.karlrupp.net/2016/01/embed-all-fonts-in-pdfs-latex-pdflatex/)
 <!-- - [Miktex](http://www.boekenenproefschriften.nl/proefschriften/sites/default/files/EmbedLaTeXfonts.pdf) -->
 
-## Paper and Demo Length
+## Paper and Demo Length {#paper-format}
 
 RSS 2025 has no page length requirements on paper or demo submissions. Paper lengths have been typically around 8 pages in the past, and we expect that most submitted papers will have a similar length. The expectation for demo papers submissions is that they can be even shorter than that if the focus is on the supplementary material or an online website that allows the reviewers to experience the demonstrated system.
 
@@ -120,6 +114,16 @@ Note that reviewers of Science/System paper submissions are not required to view
 
 **Authors of Science/System papers must ensure that all external links are removed for the initial and revised submissions, to ensure that their identities are not revealed for regular papers.**  External links are welcome to be included in the final camera-ready version of the paper.
 
+## Rebuttal Preparation
+A template for rebuttal submissions is available in [LaTeX]({{ site.baseurl }}/docs/rss2025-rebuttal-template-latex.zip) and [Word]({{ site.baseurl }}/docs/rss2025-rebuttal-template-word.zip). Rebuttals must be submitted in PDF format, following the same font embedding guidelines as the main paper submission.
+<!-- Please refer to the [Paper and Demo Format](#paper-format) section for details on ensuring proper PDF formatting.  -->
+For details on the review process and rebuttal requirements, see the [Review Process]({{ site.baseurl }}/reviewps/) page.
+
+<div class="alert alert-warning" style="border: 1px solid #f0ad4e; padding: 10px; margin-top: 20px; background-color: #fcf8e3;">
+<strong>Important Rebuttal Policy:</strong>
+Rebuttals must be submitted as a <strong>one-page PDF</strong> following the rebuttal template (available in <a href="{{ site.baseurl }}/docs/rss2025-rebuttal-template-latex.zip">LATEX</a> and <a href="{{ site.baseurl }}/docs/rss2025-rebuttal-template-word.zip">Word</a>).
+Rebuttals exceeding one page or failing to follow the required template’s formatting and anonymity guidelines will lead to a desk rejection decision for the corresponding paper. The authors will NOT be allowed to submit a new version of the paper during the rebuttal stage.
+</div>
 
 ## Multiple Submissions of Papers and Demos
 
