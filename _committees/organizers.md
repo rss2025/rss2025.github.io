@@ -64,7 +64,7 @@ published: true
 
                   <tr>
                   <td style="width:200px;vertical-align:top;">
-                        <a style="display: block;" href="http://ebiyik.github.io/">Erdem Biyik</a>
+                        <a style="display: block;" href="http://ebiyik.github.io/">Erdem Bıyık</a>
                         <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
                   </td>
                   <td style="width:45px;"></td>
@@ -211,7 +211,7 @@ published: true
                   </td>
                   <td style="width:45px;"></td>
                   <td style="width:200px;vertical-align:top;">
-                        <a style="display: block;" href="http://ebiyik.github.io/">Erdem Biyik</a>
+                        <a style="display: block;" href="http://ebiyik.github.io/">Erdem Bıyık</a>
                         <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
                   </td>
                   </tr>

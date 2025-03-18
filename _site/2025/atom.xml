@@ -4,7 +4,7 @@
  <title>Robotics: Science and Systems</title>
  <link href="https://roboticsconference.org/atom.xml" rel="self"/>
  <link href="https://roboticsconference.org/"/>
- <updated>2024-10-03T04:03:08-04:00</updated>
+ <updated>2025-03-18T16:19:45-07:00</updated>
  <id>https://roboticsconference.org</id>
  <author>
    <name>Jared Strader</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>Paper Review Form</title>
    <link href="https://roboticsconference.org/2019/12/04/review-form/"/>
-   <updated>2019-12-04T00:00:00-05:00</updated>
+   <updated>2019-12-04T00:00:00-08:00</updated>
    <id>https://roboticsconference.org/2019/12/04/review-form</id>
    <content type="html">&lt;p&gt;Here is the paper review form for RSS 2020.&lt;/p&gt;
 
@@ -83,7 +83,7 @@ Poor (a paper that needs significant work)
  <entry>
    <title>Paper Format</title>
    <link href="https://roboticsconference.org/2019/12/04/paper-format/"/>
-   <updated>2019-12-04T00:00:00-05:00</updated>
+   <updated>2019-12-04T00:00:00-08:00</updated>
    <id>https://roboticsconference.org/2019/12/04/paper-format</id>
    <content type="html">&lt;p&gt;We only accept submissions in PDF. Submissions may be up to 8 pages in length, including figures but possibly excluding references. Additional pages can be used for references. However, the 9th page, and any subsequent pages, can contain ONLY references. This will be strictly enforced. Submissions can use a font no smaller than 10 point. Submissions violating these guidelines will not be considered. A paper template is available in &lt;a href=&quot;/docs/paper-template-latex.tar.gz&quot;&gt;Latex&lt;/a&gt; and &lt;a href=&quot;/docs/paper-template-word.zip&quot;&gt;Word&lt;/a&gt;.&lt;/p&gt;
 
@@ -105,7 +105,7 @@ Before submitting your PDF file, please open it in Acrobat Reader. In the File m
  <entry>
    <title>Multiple Submissions</title>
    <link href="https://roboticsconference.org/2019/12/04/multiple-submissions/"/>
-   <updated>2019-12-04T00:00:00-05:00</updated>
+   <updated>2019-12-04T00:00:00-08:00</updated>
    <id>https://roboticsconference.org/2019/12/04/multiple-submissions</id>
    <content type="html">&lt;p&gt;Submissions that are identical (or substantially similar) to versions that have been previously published, or accepted for publication, or that have been submitted in parallel to other conferences are not appropriate for RSS and violate our dual submission policy.&lt;/p&gt;
 
@@ -124,7 +124,7 @@ Before submitting your PDF file, please open it in Acrobat Reader. In the File m
  <entry>
    <title>Guidelines for Double Blind Submissions</title>
    <link href="https://roboticsconference.org/2019/12/04/double-blind/"/>
-   <updated>2019-12-04T00:00:00-05:00</updated>
+   <updated>2019-12-04T00:00:00-08:00</updated>
    <id>https://roboticsconference.org/2019/12/04/double-blind</id>
    <content type="html">&lt;p&gt;Double Blind reviewing requires that the paper reviewers should not know the names or affiliation of the paper authors. This is desirable to remove any possible or perceived bias toward a paper on non technical grounds. However, in practice this is difficult to achieve in full as descriptions of background material or experiments, which are essential to the technical content of the paper, often give a clear indication to knowledgeable reviewers of the likely source of the paper. RSS 2020 will try to adopt a pragmatic approach to double blind reviewing in which authors are encouraged to hide identity without unduly affecting the quality or import of their submission.&lt;/p&gt;
 
