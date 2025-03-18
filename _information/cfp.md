@@ -76,7 +76,7 @@ The conference will include the category of Demo contributions, similar to confe
       <tr>
         <!-- <td colspan="2">April 10, 2025</td> -->
         <td class="nowrap">April 10, 2025</td>
-        <td>—</td>
+        <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td class="wrap">Paper and Demo Acceptance Notification</td>
       </tr>
       <tr>

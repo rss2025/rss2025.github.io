@@ -85,7 +85,7 @@ RSS has a long history of bringing together researchers in all areas of robotics
       </tr>
       <tr>
         <td>March 22, 2025</td>
-        <td>—</td>
+        <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td class="wrap">Workshop Decisions Announcement</td>
       </tr>
       <tr>
@@ -95,13 +95,12 @@ RSS has a long history of bringing together researchers in all areas of robotics
       </tr>
       <tr>
         <td>April 10, 2025</td>
-        <td>—</td>
+        <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td class="wrap">Paper and Demo Acceptance Notification</td>
       </tr>
       <tr>
         <td>April 20, 2025</td>
-        <td>—</td>
-        <!-- <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td> -->
+        <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td class="wrap"><a href="https://sites.google.com/view/rsspioneers2025/" target="_blank">RSS Pioneers</a> Notification of Acceptance</td>
       </tr>
       <tr>

@@ -107,7 +107,9 @@ Please contact the workshop chairs Ayoung Kim (<a href="mailto:ayoungk@snu.ac.kr
             <td>Workshop/Tutorial Proposal Submission Deadline</td>
         </tr>
         <tr>
-            <td colspan="2">March 22, 2025</td>
+            <!-- <td colspan="2">March 22, 2025</td> -->
+            <td>March 22, 2025</td>
+            <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
             <td>Proposal Acceptance Notification</td>
         </tr>
         <tr>

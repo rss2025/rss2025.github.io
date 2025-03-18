@@ -39,8 +39,7 @@ Follow the RSS Pioneers [social media accounts](https://twitter.com/RSSPioneers)
       </tr>
       <tr>
         <td>April 20, 2025</td>
-        <td>—</td>
-        <!-- <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td> -->
+        <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <!-- <td>Notification of Acceptance</td> -->
         <td><a href="https://sites.google.com/view/rsspioneers2025/" target="_blank">RSS Pioneers</a> Notification of Acceptance</td>
       </tr>
