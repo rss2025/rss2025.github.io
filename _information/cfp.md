@@ -80,6 +80,11 @@ The conference will include the category of Demo contributions, similar to confe
         <td class="wrap">Paper and Demo Acceptance Notification</td>
       </tr>
       <tr>
+        <td>April 25, 2025</td>
+        <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
+        <td class="wrap">Final Camera Ready Paper Submission</td>
+      </tr>
+      <tr>
         <!-- <td colspan="2">June 20, 2025</td> -->
         <td class="nowrap">June 20, 2025</td>
         <td>—</td>
