@@ -89,7 +89,7 @@ The registration portal is hosted on PheedLoop at this link: **[site.pheedloop.c
 
 <small>**Except for workshop only attendees, rates for in-person registration include access to all food served during the conference</small>
 
-### Visa and Travel Information
+### Visa and Invitation Letter
 <!-- 
 Check [here](https://travel.state.gov/content/travel/en/us-visas.html) to see if you require a visa to enter the United States. If you need a visa, follow the instructions [here (link for this?)]().
 

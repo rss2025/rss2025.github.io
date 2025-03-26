@@ -4,104 +4,39 @@ title: Travel
 description: How to get to RSS
 Priority: 3
 invisible: false
-published: false
+published: true
 ---
-
-# Notification
-
-Dear RSS2024 participants,
-
-We are writing to inform you of an important update regarding transportation for the upcoming RSS2024 conference in Delft.
-
-Unfortunately, due to construction on the train line from The Hague to Rotterdam via Delft, the national railway operator NS has just announced that no train services will be available during the conference dates. Instead, they will provide buses as substitutes. Please be aware that this change will result in longer travel times and a suboptimal overall travel experience!
-
-**Let us know** by filling in [this form](https://docs.google.com/forms/d/e/1FAIpQLSfo9_J4SoFRoOsyV5IDw9H141kKYvNhircZD7n3jWTp0ftjjg/viewform)  **if your hotel is not in Delft** - but in Rotterdam or Den Haag. Currently, it seems that there is not much we can do, but at least it would help us assess the situation.
-
-We recommend that you plan your journey accordingly to ensure timely arrival. Below are a few key points to consider:
-
-- **Bus Departure Locations:** Buses will depart from the same locations as the trains.
-- **Travel Times:** Please allow extra time for your journey as buses may take longer than trains.
-- **Schedule:** Updated schedules are available on the NS website [https://www.ns.nl/en/journeyplanner/](https://www.ns.nl/en/journeyplanner/)
-We provide the following travel advice:
-
-- For travel between **Amsterdam Schiphol airport** and Delft, you can take the train to Den Haag HS and, from there, the connecting NS bus to Delft. The train ticket is your valid pass.
-An alternative that will probably work better but would require paying a separate ticket is to take the tram 1 to Delft, which again departs from Den Haag HS.
-- For travel between **Den Haag** and Delft you may take the NS bus from the train stations or tram 1 from Den Haag HS.
-- For travel between **Rotterdam** and Delft you may take the NS bus from the train station.
-
-For travel in the Netherlands, you may buy a ticket from vending machines or use your contactless credit/bank card to directly enter and exit public transport.
-
-If you have any questions or need further assistance, please do not hesitate to contact us.
-
-Thank you for your attention to this matter. We look forward to seeing you at the conference.
-
-Best regards,
-
-Local organizers RSS 2024
-
 
 # Travel information
 
 ## Visa and Invitation Letter
 
-Check [here](https://www.netherlandsworldwide.nl/visa-the-netherlands/visa-required) to check if you are required to apply for a Visa to the Netherlands. If you are required to apply for a short stay Schengen visa for the Netherlands, you will find all the instructions [here](https://www.netherlandsworldwide.nl/visa-the-netherlands/schengen-visa).
+Check [here](https://travel.state.gov/content/travel/en/us-visas.html) to see if you require a visa to enter the United States.
 
-RSS attendees who are required to apply for a visa will need to fill [this form](https://docs.google.com/forms/d/1YHgmYsHUIlVckCg3OFabpGBbPzEAwcpd8yvAO_fW8GU/viewform?ts=65c98f20&exids=71471483,71471477&edit_requested=true) after they register [register](https://www.aanmelder.nl/rss2024/home) at RSS and have received an RSS registration number. Organizers will reach out to you with a signed invitation letter, which you can use to support your Netherlands visa application.
+If you need a visa, you should fill [this form](https://docs.google.com/forms/d/1zjslWcSar9Z0ucuQir5jl9OdOQmA-G08GhWAXVC2RnQ/viewform) after you register for RSS. 
+Organizers will reach out to you with a signed invitation letter, which you can use to support your U.S. visa application. Any additional questions and requests may be directed to Junheng Li (<a href='mailto:junhengl@usc.edu'>junhengl@usc.edu</a>).
 
 ## Travel
 
-The closest large international airport to Delft is Schiphol Amsterdam Airport (AMS). Some European cities also have flights to Rotterdam The Hague Airport (RTM).
-
-RSS2024 provides attendees up to 15% discount on a wide range of public fares on all AIR FRANCE, KLM and their code-shared flights worldwide.
-
-- Event: Robotics Science and Systems 2024
-- ID Code: 41154AF
-- Travel Valid Period: July 7, 2024 to July 26, 2024
-- Event Location: Amsterdam - Netherlands
-
-Please visit the event website or access directly through the [following link](https://globalmeetings.airfranceklm.com/Search/promoDefault.aspx?vendor=AFR&promocode=41154AF)
-
-It might happen that this link is not working. Please follow the next 4 easy steps to claim a 10% flight discount:
-
-✓ Go to the dedicated website [WWW.AIRFRANCE.NL](https://www.airfrance.nl/) or [https://www.klm.nl/en](https://www.klm.nl/en), as the discounts are only available via these websites.
-
-✓ During the booking process, when asked if “travelling for business” select YES and use MICE as “contract name”.
-
-✓ After your personal details click “Proceed to payment details” and enter **GM41154AF** in the “Your discount code” field.
-
-✓ Click on 'Send discount code' and if all conditions are met* the discount will be applied on the airfare.
-
-⃰ Please scan the QR code to read the general conditions which are applicable to the exclusive usage of an Internet Discount Code (IDC) for this event
-
-<div style="display: flex; justify-content: center;">
-    <img alt="Lely" src="/2024/images/qr.png" style="width: 100px;" />
-</div>
+The closest large international airport to the University of Southern California is Los Angeles International Airport (LAX). Some American cities also have flights to Hollywood Burbank Airport (BUR), although the commutte is longer.
 
 
 ## Directions to the venue
 
-The RSS2024 conference will primarily take place at the Delft University of Technology Auditorium Conference Center (TU Delft Aula): [https://maps.app.goo.gl/rxsePbXK3QFfhCpu5](https://maps.app.goo.gl/rxsePbXK3QFfhCpu5)
+The RSS2025 conference will take place at the University of Southern California (USC). The main conference sessions will be held at the Bovard Auditorium: [https://maps.app.goo.gl/gmsxcUqwNSfjsuHL8](https://maps.app.goo.gl/gmsxcUqwNSfjsuHL8)
 
-### Amsterdam Schiphol – Delft
+While Los Angeles has [a significant railway system](https://uca9e3f77b9871dd1be5d6191ca5.dl.dropboxusercontent.com/cd/0/inline2/Cmm26JXOtYAAnxdMQstNSH-uY5UGr8UbWmatOe0K7kLDHv8cepkDuTsXn_wW_Nb6eTCbyjJT57uaD1yUlbYwV46DfgolCnthgUH1Dai3Pd6eew79CP_yvNAxy2DBv5U6YNjg0CXPjUh3hngW8vlY20eQUvjWobyWJ2xiGKwJk3O8Jlt-Ucmfr3Q0Wu2X1-0xa94ztL2zrjniAkKo8C4umUBsQYILM7m5XOEfE7pQJcmpwlP4qeBcqvFr51q0B9ji29Bz6997njMTw700V24sd24jzl1q_aVqp6iJRxW9Gs11Jn2Z_2PrwWKTbL3mGwJ1Vz6_jEBAeMmHyYby-V_IpDk63l08tPRRYS2JgBAz066Na3DR71jATh53ZaJTVVcD1uY/file), the easiest way to get to the USC campus from any airport is still by using rideshare services. Uber, Lyft and Opoli operate in Los Angeles. In LAX, travelers must first take a free shuttle (green buses labeled LAX-it) to the ridesharing area to use these services.
 
-Getting to Delft from the international Schiphol Airport is easy by public transport. There is an excellent train service between Schiphol and Delft, with 6 trains per hour and a maximum journey time of 45 minutes. For more information about the train service go to: [www.ns.nl](www.ns.nl)
+[Metro line E](https://www.metro.net/riding/schedules-2/?line=804) connects Santa Monica to Downtown LA with three stops around USC. Specifically, "Expo Park / USC" is the closest metro station to the Bovard Auditorium. To use the metro (or any public transportation system in LA), travelers need to use a [TAP card](https://www.taptogo.net/TAPPurchase), which can be purchased at most metro stations via TAP vending machines or through [the official Tap App](https://www.taptogo.net/articles/en_US/Website_content/TAP-App).
 
+For attendees who want to drive, daily and hourly parking options are available in and around the campus: [https://transnet.usc.edu/index.php/daily-and-hourly-parking/](https://transnet.usc.edu/index.php/daily-and-hourly-parking/)
 
-You may also travel with the special taxi service ‘Schiphol Travel Taxi’ or other licensed taxi providers.
+## Accomodation
 
-
-### Rotterdam The Hague Airport – Delft
-
-Rotterdam The Hague Airport is an attractive airport situated only 30 minutes from Delft. Rotterdam The Hague Airport is ideal for European destinations, with very short waiting times for checking in, boarding, and luggage collection. For more information go to: [www.rotterdamthehagueairport.nl.](www.rotterdamthehagueairport.nl) From Rotterdam The Hague Airport to Delft with public transport please go to: [www.9292.nl/en.](www.9292.nl/en) 
+We do not provide a list of preferred hotels. There is a variety of accommodation choices available around the venue. USC operates a hotel adjacent to the campus, which is a 10 minutes walk from the Bovard Auditorium: [USC Hotel](https://uschotel.usc.edu/).
 
 
-### Accomodation
-
-We do not provide a list of preferred hotels. There is a variety of accommodation choices available in Delft, within walking distance of the conference venue. We recommend you to book early since availability is limited! Furthermore, the cities of Rotterdam and The Hague are within a reasonable distance of Delft and with very good connections for public transportation.
+For bookings, you may check typical search engines such as [Booking.com](https://Booking.com), [Airbnb.com](https://Airbnb.com), [Expedia.com](https://www.expedia.com/), or [Kayak.com](https://www.kayak.com/).
 
 
-For bookings, you may check typical search engines such as [Booking.com](https://Booking.com), [Airbnb.com](https://Airbnb.com),  or [Time to Momo](https://www.timetomomo.com/en/visit/rss2024/?utm_medium=website&utm_source=organiser&utm_campaign=rss2024)
-
-
-<img style="text-align:center" src="/images/map1.png">
-
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1G2ehxU2Cmlku-QQ4wRN0AsryPAByfgs&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
