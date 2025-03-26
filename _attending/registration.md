@@ -97,7 +97,7 @@ RSS attendees who are required to apply for a visa will need to fill this [form 
 
 <!-- RSS attendees who require a visa and have any questions should contact Junheng Li (<a href='mailto:junhengl@usc.edu'>junhengl@usc.edu</a>). More details will be available soon. -->
 
-RSS attendees who are required to apply for a U.S. visa will need to fill [this form](https://docs.google.com/forms/d/1zjslWcSar9Z0ucuQir5jl9OdOQmA-G08GhWAXVC2RnQ/edit) after they register at RSS. 
+RSS attendees who are required to apply for a U.S. visa will need to fill [this form](https://docs.google.com/forms/d/1zjslWcSar9Z0ucuQir5jl9OdOQmA-G08GhWAXVC2RnQ/viewform) after they register at RSS. 
 Organizers will reach out to you with a signed invitation letter, which you can use to support your U.S. visa application. Any additional questions and requests may be directed to Junheng Li (<a href='mailto:junhengl@usc.edu'>junhengl@usc.edu</a>).
 
 ### Cancellation and Refund Policy
