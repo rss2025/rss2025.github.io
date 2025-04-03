@@ -53,10 +53,10 @@ The authors of Demo papers are also asked to include a short 1-paragraph section
 **Examples of Demo Papers** The Demo paper category was introduced in RSS 2023 and examples of accepted submissions are the following:
 
 - [Demonstrating Mobile Manipulation in the Wild: A Metrics-Driven Approach](https://roboticsconference.org/2023/program/papers/055/)
-- [Demonstrating Large Language Models on Robots](https://roboticsconference.org/2023/program/papers/024/)
+<!-- - [Demonstrating Large Language Models on Robots](https://roboticsconference.org/2023/program/papers/024/) -->
 - [Demonstrating Large-Scale Package Manipulation via Learned Metrics of Pick Success](https://roboticsconference.org/2023/program/papers/023/)
 - [Demonstrating A Walk in the Park: Learning to Walk in 20 Minutes With Model-Free Reinforcement Learning](https://roboticsconference.org/2023/program/papers/056/)
-- [Demonstrating RFUniverse: A Multiphysics Simulation Platform for Embodied AI](https://roboticsconference.org/2023/program/papers/087/)
+<!-- - [Demonstrating RFUniverse: A Multiphysics Simulation Platform for Embodied AI](https://roboticsconference.org/2023/program/papers/087/) -->
 - [Demonstrating Arena-Web: A Web-based Development and Benchmarking Platform for Autonomous Navigation Approaches](https://roboticsconference.org/2023/program/papers/088/)
 
 
