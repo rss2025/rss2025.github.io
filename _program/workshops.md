@@ -5,22 +5,22 @@ description: Workshop times, venues, and details.
 days: ['Mon', 'Fri']
 priority: 9
 invisible: false
-published: false
+published: true
 ---
 
 
-Workshops will take place across two days of the conference on July 15 and July 19, 2024. Each workshop is organized as a semi-independent event, and has a unique schedule reflecting the planned activities, constraints and preferences of the organizers. Please check the workshop websites for more details on their particular schedules. 
+Workshops will take place across two days of the conference on **Saturday, June 21 (half-day events)** and **Wednesday, June 25 (full-day events)**. Each workshop is organized as a semi-independent event, and has a unique schedule reflecting the planned activities, constraints and preferences of the organizers. Please check the workshop websites for more details on their particular schedules. 
 
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img alt="Lely" src="/2024/images/RSS-workshops-map.png" style="width: 70%;" />
-</div>
+</div> -->
 
 
 <div style="display: block; width: 100%; height: 20px;"></div>
 
-### Monday, July 15 
-#### (Full-day workshops)
+### Saturday, June 21 
+#### (Half-day Event)
 {% assign innerdays = "19th, tbd" | split: ", " %}
 
 <table class="table table-striped table-workshop">
@@ -33,7 +33,7 @@ Workshops will take place across two days of the conference on July 15 and July 
         </tr>
     </thead>
     <tbody>
-        {% for workshop in site.data.ws %}
+        {% for workshop in site.data.rss2025ws_halfday %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.id }} </span></td>
             {% if workshop.link != "" %}
@@ -52,8 +52,8 @@ Workshops will take place across two days of the conference on July 15 and July 
     </tbody>
 </table>
 
-### Friday, July 19 
-#### (Half-day workshops)
+### Wednesday, June 25 
+#### (Full-day Events)
 {% assign innerdays = "19th, tbd" | split: ", " %}
 
 <table class="table table-striped table-workshop">
@@ -66,7 +66,7 @@ Workshops will take place across two days of the conference on July 15 and July 
         </tr>
     </thead>
     <tbody>
-        {% for workshop in site.data.ws2 %}
+        {% for workshop in site.data.rss2025ws_fullday %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.id }} </span></td>
             {% if workshop.link != "" %}
