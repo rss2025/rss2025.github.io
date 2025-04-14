@@ -9,7 +9,7 @@ published: true
 ---
 
 
-Workshops will take place across two days of the conference on **Saturday, June 21 (half-day events)** and **Wednesday, June 25 (full-day events)**. Each workshop is organized as a semi-independent event, and has a unique schedule reflecting the planned activities, constraints and preferences of the organizers. Please check the workshop websites for more details on their particular schedules. 
+Workshops will take place across two days of the conference on **Saturday, June 21 (half-day events held in the morning)** and **Wednesday, June 25 (full-day events)**. Each workshop is organized as a semi-independent event, and has a unique schedule reflecting the planned activities, constraints and preferences of the organizers. Please check the workshop websites for more details on their particular schedules.
 
 
 <!-- <div style="text-align: center;">
@@ -20,7 +20,7 @@ Workshops will take place across two days of the conference on **Saturday, June 
 <div style="display: block; width: 100%; height: 20px;"></div>
 
 ### Saturday, June 21 
-#### (Half-day Event)
+#### (Half-day Morning Events)
 {% assign innerdays = "19th, tbd" | split: ", " %}
 
 <table class="table table-striped table-workshop">
