@@ -27,7 +27,7 @@ Workshops will take place across two days of the conference on **Saturday, June 
     <thead>
         <tr>
             <th width="10%" align="center">ID</th>
-            <th width="30%">Location</th>
+            <th width="20%">Location</th>
             <th width="40%">Title</th>
             <th width="20%">Website</th>
         </tr>
@@ -59,10 +59,10 @@ Workshops will take place across two days of the conference on **Saturday, June 
 <table class="table table-striped table-workshop">
     <thead>
         <tr>
-            <th width="7%" align="center">ID</th>
-            <th width="40%">Location</th>
-            <th width="50%">Title</th>
-            <th width="28%">Website</th>
+            <th width="10%" align="center">ID</th>
+            <th width="20%">Location</th>
+            <th width="40%">Title</th>
+            <th width="20%">Website</th>
         </tr>
     </thead>
     <tbody>
@@ -74,7 +74,6 @@ Workshops will take place across two days of the conference on **Saturday, June 
             {% else %}
                 <td>{{ workshop.location }}</td>
             {% endif %}
-            <td>{{ workshop.title }}</td>
             <td>{{ workshop.title }}</td>
             <td>
                 <a href="{{ workshop.website }}">
