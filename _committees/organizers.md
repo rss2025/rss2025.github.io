@@ -48,6 +48,38 @@ published: true
             </table>
 
             <br>
+            <b>Workshop Chairs</b><br>
+            <table style="margin-left:auto;margin-right:auto;">
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="https://rpm.snu.ac.kr/">Ayoung Kim</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Seoul National University, <br>South Korea</i>
+                  </td>
+                  <td style="width:45px;"></td>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="https://smlbansal.github.io/">Somil Bansal</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Stanford University, USA</i>
+                  </td>
+                  </tr>
+            </table>
+
+            <br>
+            <b>Presentation Chairs</b><br>
+            <table style="margin-left:auto;margin-right:auto;">
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="https://profiles.ucr.edu/app/home/profile/karydis">Konstantinos Karydis</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of California,<br>Riverside, USA</i>
+                  </td>
+                  <td style="width:45px;"></td>
+                  <td style="width:200px;vertical-align:top;">
+                        <a style="display: block;" href="https://yuewang.xyz/">Yue Wang</a>
+                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">University of Southern California, USA</i>
+                  </td>
+                  </tr>
+            </table>
+
+            <br>
             <b>Local Arrangements Chairs</b><br/>
             <table style="margin-left:auto;margin-right:auto;">
                   <tr>
@@ -98,33 +130,6 @@ published: true
                   </td>
                   </tr>
             </table>
-
-            <br>
-            <b>Workshop Chairs</b><br>
-            <table style="margin-left:auto;margin-right:auto;">
-                  <tr>
-                  <td style="width:200px;vertical-align:top;">
-                        <a style="display: block;" href="https://rpm.snu.ac.kr/">Ayoung Kim</a>
-                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Seoul National University, <br>South Korea</i>
-                  </td>
-                  <td style="width:45px;"></td>
-                  <td style="width:200px;vertical-align:top;">
-                        <a style="display: block;" href="https://smlbansal.github.io/">Somil Bansal</a>
-                        <i style="display: block; margin-top: -0.5ex; margin-bottom: 1ex;">Stanford University, USA</i>
-                  </td>
-                  </tr>
-            </table>
-
-            <!-- <br>
-            <b>Presentation Chairs</b><br>
-            <table style="margin-left:auto;margin-right:auto;">
-                  <tr>
-                  <td style="width:200px;vertical-align:top;">
-                        <span> Masha Itkina </span><br>
-                        <i>Toyota Research Institute, USA</i><br>
-                  </td>
-                  </tr>
-            </table> -->
 
             <br>
             <b>Publicity Chairs</b><br>
