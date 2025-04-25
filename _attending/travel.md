@@ -33,10 +33,44 @@ For attendees who want to drive, daily and hourly parking options are available 
 
 ## Accomodation
 
-We do not provide a list of preferred hotels. There is a variety of accommodation choices available around the venue. USC operates a hotel adjacent to the campus, which is a 10 minutes walk from the Bovard Auditorium: [USC Hotel](https://uschotel.usc.edu/).
+There is a variety of accommodation choices available around the venue. USC operates a hotel adjacent to the campus, which is a 10 minutes walk from the Bovard Auditorium: [USC Hotel](https://uschotel.usc.edu/). RSS 2025 attendees can use the code "Tommy" to book using the university's special rates.
+
+In addition, the university provides special rates for several other hotels in/near Los Angeles. The full list can be found below.
+
+### Downtown Los Angeles (DTLA)
+| Hotel                                | Code       |
+| ------------------------------------ | ---------- |
+| USC Hotel (University Park Campus)   |  Tommy     |
+| Hotel Indigo DTLA                    | 100193625  |
+| The Biltmore Los Angeles             | USC        |
+| DoubleTree by Hilton DTLA            | USC        |
+| Hilton Checkers                      | 0508814    |
+| Courtyard by Marriott at LA LIVE     | UNC        |
+| Residence Inn by Marriott at LA LIVE | UNC        |
+| The Westin Bonaventure               | 12549      |
+| JW Marriott at LA LIVE               | UNC        |
+| The LA Grand Hotel Downtown          | USCC       |
+| AC/MOXY                              | US0        |
+| Intercontinental DTLA                | 10018529   |
+| Omni Los Angeles Hotel               | N2000073   |
+
+### Pasadena, San Gabriel Valley and Burbank
+| Hotel                                | Code       |
+| ------------------------------------ | ---------- |
+| Hilton Pasadena                      | 0508814    |
+| Courtyard by Marriott (Pasadena)     | UNC        |
+| The Westin Pasadena                  | 12549      |
+| Hilton Garden Inn (Burbank)          | 0508814    |
+| Hilton Garden Inn (Montebello)       | 1365558    |
+
+### Beach Cities / LAX
+| Hotel                                | Code       |
+| ------------------------------------ | ---------- |
+| Embassy Suites by Hilton (LAX)       | 0560035945 |
+| Jamaica Bay Inn (Marina del Rey)     | USC        |
 
 
-For bookings, you may check typical search engines such as [Booking.com](https://Booking.com), [Airbnb.com](https://Airbnb.com), [Expedia.com](https://www.expedia.com/), or [Kayak.com](https://www.kayak.com/).
+
 
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1G2ehxU2Cmlku-QQ4wRN0AsryPAByfgs&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
