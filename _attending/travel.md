@@ -38,8 +38,9 @@ There is a variety of accommodation choices available around the venue. USC oper
 In addition, the university provides special rates for several other hotels in/near Los Angeles. The full list can be found below.
 
 ### Downtown Los Angeles (DTLA)
+
 | Hotel                                | Code       |
-|--------------------------------------|------------|
+|--------------------------------------|-----------:|
 | USC Hotel (University Park Campus)   |  Tommy     |
 | Hotel Indigo DTLA                    | 100193625  |
 | The Biltmore Los Angeles             | USC        |
@@ -55,8 +56,9 @@ In addition, the university provides special rates for several other hotels in/n
 | Omni Los Angeles Hotel               | N2000073   |
 
 ### Pasadena, San Gabriel Valley and Burbank
+
 | Hotel                                | Code       |
-|--------------------------------------|------------|
+|--------------------------------------|-----------:|
 | Hilton Pasadena                      | 0508814    |
 | Courtyard by Marriott (Pasadena)     | UNC        |
 | The Westin Pasadena                  | 12549      |
@@ -64,8 +66,9 @@ In addition, the university provides special rates for several other hotels in/n
 | Hilton Garden Inn (Montebello)       | 1365558    |
 
 ### Beach Cities / LAX
+
 | Hotel                                | Code       |
-|--------------------------------------|------------|
+|--------------------------------------|-----------:|
 | Embassy Suites by Hilton (LAX)       | 0560035945 |
 | Jamaica Bay Inn (Marina del Rey)     | USC        |
 
