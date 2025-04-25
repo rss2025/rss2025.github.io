@@ -39,7 +39,7 @@ In addition, the university provides special rates for several other hotels in/n
 
 ### Downtown Los Angeles (DTLA)
 | Hotel                                | Code       |
-| ------------------------------------ | ---------- |
+|--------------------------------------|------------|
 | USC Hotel (University Park Campus)   |  Tommy     |
 | Hotel Indigo DTLA                    | 100193625  |
 | The Biltmore Los Angeles             | USC        |
@@ -56,7 +56,7 @@ In addition, the university provides special rates for several other hotels in/n
 
 ### Pasadena, San Gabriel Valley and Burbank
 | Hotel                                | Code       |
-| ------------------------------------ | ---------- |
+|--------------------------------------|------------|
 | Hilton Pasadena                      | 0508814    |
 | Courtyard by Marriott (Pasadena)     | UNC        |
 | The Westin Pasadena                  | 12549      |
@@ -65,7 +65,7 @@ In addition, the university provides special rates for several other hotels in/n
 
 ### Beach Cities / LAX
 | Hotel                                | Code       |
-| ------------------------------------ | ---------- |
+|--------------------------------------|------------|
 | Embassy Suites by Hilton (LAX)       | 0560035945 |
 | Jamaica Bay Inn (Marina del Rey)     | USC        |
 
