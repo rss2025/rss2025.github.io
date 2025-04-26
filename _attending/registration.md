@@ -107,3 +107,45 @@ Participants registered for in-person attendance who are not able to fly to Los 
 ### Author Registration Requirement
 
 ***At least one author of an accepted paper to be presented during RSS should be registered at the in-person rate by the time of the conference.***
+
+<div style="background: #f9f9f9; border: 2px solid #ccc; padding: 20px; border-radius: 8px; margin-top: 40px;">
+
+<h3 style="margin-top: 0;">FAQ: On-Campus Dorm Housing for RSS 2025</h3>
+
+<p>When you book on-campus lodging at the time of RSS registration, you are signing up for a private bedroom in a larger multi-person apartment (USC dorms). While the bedroom is private, you will be sharing a bathroom (typically with 1–3 other people depending on which apartment you are assigned). You will also be sharing a kitchen area and common living room.</p>
+
+<p>Pictures of typical apartments are below as are some answers to frequently asked questions.</p>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 20px auto; max-width: 900px;">
+  <img src="{{ site.baseurl }}/images/usc_dorms/img1.jpg" alt="Dorm Image 1" style="width: 28%; height: auto;" class="img-responsive img-same-height" />
+  <img src="{{ site.baseurl }}/images/usc_dorms/img2.jpg" alt="Dorm Image 2" style="width: 28%; height: auto;" class="img-responsive img-same-height" />
+  <img src="{{ site.baseurl }}/images/usc_dorms/img3.jpg" alt="Dorm Image 3" style="width: 28%; height: auto;" class="img-responsive img-same-height" />
+  <img src="{{ site.baseurl }}/images/usc_dorms/img4.jpg" alt="Dorm Image 4" style="width: 28%; height: auto;" class="img-responsive img-same-height" />
+  <img src="{{ site.baseurl }}/images/usc_dorms/img5.jpg" alt="Dorm Image 5" style="width: 28%; height: auto;" class="img-responsive img-same-height" />
+</div>
+
+<p><strong>Is the lodging empty or subleased by current USC students?</strong><br>
+USC Housing manages the dorms. They are not subleased, and they are furnished. Each room includes a bed with attached drawers, a closet without hangers, and a desk. The shared kitchen does not come with pots, pans, microwave, or utensils.  Some rooms may contain two beds, however for RSS each room is strictly single occupancy.</p>
+
+<p><strong>Do we need to bring bedding like pillows and quilts?</strong><br>
+No, you do not need to bring your own bedding as all rooms are provided with a pillow and blanket per person, along with standard linen service. Standard linen service includes a linen packet (two bath towels, facecloth, top and bottom bed sheets, pillowcase) that is placed on the bed. All linens must be left in your room upon check-out to avoid charges for missing items.</p>
+
+<p><strong>Will the rooms be private or shared? What is the type of the dorm (i.e. single room with public bathrooms, single studio, shared apartment dorm, etc.)?</strong><br>
+Each guest will have a private room. Guests should anticipate sharing common areas. </p>
+
+<p><strong>Can the dorms accommodate the spouse/family member of the attendee?</strong><br>
+We cannot accommodate more than one person in one room.</p>
+
+<p><strong>Are attendees allowed to pick roommates if it is a shared room?</strong><br>
+Shared rooms will not be provided. Each guest will have their own private room. Attendees will not be able to pick who is assigned to their apartment. However, the conference will make apartment assignments to people of the same gender.</p>
+
+<p><strong>What are the check-in and check-out hours?</strong><br>
+Check-in can be as early as 8 am, with a 12 pm check-out. Upon check-in, guests will receive a "HOUSING" access card for their assigned space. Check-out must be completed at the same Customer Service Center where guests check-in. All personal items must be cleared out, and the "HOUSING" access card returned. A replacement fee will be assessed for each unreturned card.</p>
+
+<p><strong>Which USC dorms will be housing RSS attendees and is there additional information on USC housing policy?</strong><br>
+The three dorms are Cale and Irani Residential (UVS), Nemirovsky and Bohnett Residential (NBC/UVE). Click the links to find policy details and a map for the resident housing you will be assigned:<br>
+<a href="https://drive.google.com/file/d/1tcF_yK1Cs-zRxq1QLkYdBWSzds197bPV/view?usp=drive_link" target="_blank">Cale and Irani Residential (UVS)</a>,
+<a href="https://drive.google.com/file/d/1m0eBvLCJVYSL5qKYNRU7PEa3c5D6THuZ/view?usp=drive_link" target="_blank">Nemirovsky and Bohnett Residential (NBC/UVE)</a>.
+</p>
+
+</div>
