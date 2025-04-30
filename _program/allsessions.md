@@ -4,7 +4,7 @@ title: Paper Sessions
 description: List of Paper Sessions.
 priority: 10
 invisible: false
-published: false
+published: true
 ---
   
 <style>
@@ -49,7 +49,7 @@ For information about the location of the sessions check out the [venue page]({{
     <th >Time</th>
     <th >Session Name and Chairs</th>
   </tr>
- {% for session in site.data.rss2024PaperSessions %}
+ {% for session in site.data.rss2025PaperSessions %}
   <tr session="{{ session.SessionName }}" style="border-bottom: none;">
     <td>{{ session.Date }}</td>
     <td>{{ session.Time }}</td>

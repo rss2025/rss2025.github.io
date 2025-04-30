@@ -4,7 +4,7 @@ title: Accepted Papers
 description: Accepted papers.
 priority: 11
 invisible: true
-published: false
+published: true
 ---
 
 <style>
@@ -64,18 +64,19 @@ The overview of the conference program is available <a href="{{ site.baseurl }}/
 <table id="myTable">
   <tr class="toprowHeader">
     <th>ID</th>
+    <th>Session</th>
     <th>Title</th>
     <th>Authors</th>
   </tr>
- {% for paper in site.data.rss2024CameraReadyInfo %}
+ {% for paper in site.data.rss2025CameraReadyInfo %}
  <tr session="{{ paper.SessionName }}">
-    <td width="5%" height="100px">{{paper.PaperID }}</td>
-    <td width="45%" height="100px" ><a href="{{ site.baseurl }}/program/papers/{{ paper.PaperIDZeroes
-}}/"><b>{{paper.PaperTitle}}</b></a></td>
-    <!-- <td width="40%" height="100px">{{paper.AuthorNames | replace: ';', ','}}</td> -->
-    <td width="40%" height="100px">{{ paper.AuthorNames | replace: ';', ',' | truncatewords: 40, "&nbsp;<button type='button' class='collapsible' style='border:none;background:none;font-size:smaller;color:#222299;'>...more&gt;</button>"}}
+    <td width="5%" height="100px">{{ paper.PaperID }}</td>
+    <td width="15%" height="100px"><span style="font-size: smaller;">{{ paper.SessionName }}</span></td>
+    <td width="40%" height="100px"><a href="{{ site.baseurl }}/program/papers/{{ paper.PaperIDZeroes }}/"><b>{{ paper.PaperTitle }}</b></a></td>
+    <td width="40%" height="100px">
+      {{ paper.AuthorNames | replace: ';', ',' | truncatewords: 40, "&nbsp;<button type='button' class='collapsible' style='border:none;background:none;font-size:smaller;color:#222299;'>...more&gt;</button>" }}
       <div class="content" style="display:none; padding-top:20px;">
-        {{ paper.AuthorNames | replace: ';', ','}}
+        {{ paper.AuthorNames | replace: ';', ',' }}
       </div>
     </td>
   </tr>

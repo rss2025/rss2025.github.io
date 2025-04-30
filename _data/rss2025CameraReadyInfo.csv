@@ -1,0 +1,151 @@
+PaperID,PaperTitle,AuthorNames,SessionName
+S1.1,Learned Perceptive Forward Dynamics Model for Safe and Platform-aware Robotic Navigation,Pascal Roth;Jonas Frey;Cesar Cadena;Marco Hutter,Perception and Navigation
+S1.3,Self-supervised Multi-future Occupancy Forecasting for Autonomous Driving,Bernard Lange;Masha Itkina;Jiachen Li;Mykel Kochenderfer,Perception and Navigation
+S1.4,MISO: Multiresolution Submap Optimization for Efficient Globally Consistent Neural Implicit Reconstruction,Yulun Tian;Hanwen Cao;Sunghwan Kim;Nikolay Atanasov,Perception and Navigation
+S1.5,Doppler Correspondence: Non-Iterative Scan Matching With Doppler Velocity-Based Correspondence,Jiwoo Kim;Geunsik Bae;Changseung Kim;Jinwoo Lee;Woojae Shin;Hyondong Oh,Perception and Navigation
+S1.6,DRO: Doppler-Aware Direct Radar Odometry with Gyroscope,Cedric Le Gentil;Leonardo Brizi;Daniil Lisus;Xinyuan Qiao;Giorgio Grisetti;Timothy Barfoot,Perception and Navigation
+S1.7,Certifiably-Correct Mapping for Safe Navigation Despite Odometry Drift,Devansh R Agrawal;Rajiv Govindjee;Taekyung Kim;Trushant Adeshara;Jiangbo Yu;Anurekha Ravikumar;Dimitra Panagou,Perception and Navigation
+S1.8,Kinodynamic Trajectory Following with STELA: Simultaneous Trajectory Estimation & Local Adaptation,Edgar Granados;Sumanth Tangirala;Kostas Bekris,Perception and Navigation
+S1.9,Debiasing 6-DOF IMU via Hierarchical Learning of Continuous Bias Dynamics,Ben Liu;Tzu-Yuan Lin;Wei Zhang;Maani Ghaffari,Perception and Navigation
+S2.1,$\pi_0$: A Vision-Language-Action Flow Model for General Robot Control,Kevin Black;Noah Brown;Danny Driess;Adnan Esmail;Michael Robert Equi;Chelsea Finn;Niccolo Fusai;Lachy Groom;Karol Hausman;brian ichter;Szymon Jakubczak;Tim Jones;Liyiming Ke;Sergey Levine;Adrian Li-Bell;Mohith Mothukuri;Suraj Nair;Karl Pertsch;Lucy Xiaoyang Shi;Laura Smith;James Tanner;Quan Vuong;Anna Walling;Haohuan Wang;Ury Zhilinsky,VLA Models
+S2.2,SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Models,Delin Qu;Haoming Song;Qizhi Chen;Yuanqi Yao;Xinyi Ye;Jiayuan Gu;Zhigang Wang;Yan Ding;Bin Zhao;Dong Wang;Xuelong Li,VLA Models
+S2.3,FAST: Efficient Action Tokenization for Vision-Language-Action Models,Karl Pertsch;Kyle Stachowicz;brian ichter;Danny Driess;Suraj Nair;Quan Vuong;Oier Mees;Chelsea Finn;Sergey Levine,VLA Models
+S2.4,Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying Embodied Navigation Tasks,Jiazhao Zhang;Kunyu Wang;Shaoan Wang;Minghan Li;Haoran Liu;Songlin Wei;Zhongyuan Wang;Zhizheng Zhang;He Wang,VLA Models
+S2.5,Learning to Act Anywhere with Task-centric Latent Actions,Qingwen Bu;Yanting Yang;Jisong Cai;Shenyuan Gao;Guanghui Ren;Maoqing Yao;Ping Luo;Hongyang Li,VLA Models
+S2.6,Unified World Models: Coupling Video and Action Diffusion for Pretraining on Large Robotic Datasets,Chuning Zhu;Raymond Yu;Siyuan Feng;Benjamin Burchfiel;Paarth Shah;Abhishek Gupta,VLA Models
+S2.7,CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision,Gi-Cheon Kang;Junghyun Kim;Kyuhwan Shim;Jun Ki Lee;Byoung-Tak Zhang,VLA Models
+S2.8,Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success,Moo Jin Kim;Chelsea Finn;Percy Liang,VLA Models
+S2.9,NaVILA: Legged Robot Vision-Language-Action Model for Navigation,An-Chieh Cheng;Yandong Ji;Zhaojing Yang;Zaitian Gongye;Xueyan Zou;Jan Kautz;Erdem Biyik;Hongxu Yin;Sifei Liu;Xiaolong Wang,VLA Models
+S2.10,ConRFT: A Reinforced Fine-tuning Method for VLA Models via Consistency Policy,YUHUI CHEN;Shuai Tian;Shugao Liu;Yingting Zhou;Haoran Li;Dongbin Zhao,VLA Models
+S3.3,"RoboVerse: A Unified Platform, Benchmark and Dataset for Scalable and Generalizable Robot Learning",Haoran Geng;Feishi Wang;Songlin Wei;Yuyang Li;Bangjun Wang;Boshi An;Haozhe Lou;Charlie Tianyue Cheng;Peihao Li;Haozhe Chen;Yutong Liang;Yuxi Qian;Jiageng Mao;Weikang Wan;Yiran Geng;Mingtong Zhang;Jiangran Lyu;Siheng Zhao;Jiazhao Zhang;Chaoyi Xu;Jialiang Zhang;Chengyang Zhao;Haoran Lu;Yufei Ding;Ran Gong;Yuran Wang;Yuxuan Kuang;Ruihai Wu;Baoxiong Jia;Hao Dong;Siyuan Huang;Yue Wang;Jitendra Malik;Pieter Abbeel,Scaling Robot Learning
+S3.4,Robot Data Curation with Mutual Information Estimators,Joey Hejna;Suvir Mirchandani;Ashwin Balakrishna;Annie Xie;Ayzaan Wahid;Jonathan Tompson;Pannag R Sanketi;Dhruv Shah;Coline Manon Devin;Dorsa Sadigh,Scaling Robot Learning
+S3.5,Coherance-based Approximate Derivatives via Web of Affine Spaces Optimization,Daniel Rakita;Chen Liang;Qian Wang,Scaling Robot Learning
+S3.6,Robot Learning with Super-Linear Scaling,Marcel Torne Villasevil;Arhan Jain;Jiayi Yuan;Vidyaaranya Macha;Lars Lien Ankile;Anthony Simeonov;Pulkit Agrawal;Abhishek Gupta,Scaling Robot Learning
+S3.7,Action Flow Matching for Lifelong Learning,Alejandro Murillo-GonzÃ¡lez;Lantao Liu,Scaling Robot Learning
+S3.8,Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL,Songyuan Zhang;Oswin So;Mitchell Black;Zachary Serlin;Chuchu Fan,Scaling Robot Learning
+S3.9,RLDG: Robotic Generalist Policy Distillation via Reinforcement Learning,Charles Xu;Qiyang Li;Jianlan Luo;Sergey Levine,Scaling Robot Learning
+S4.1,ROMAN: Open-Set Object Map Alignment for Robust View-Invariant Global Localization,Mason Peterson;Yixuan Jia;Yulun Tian;Annika Thomas;JONATHAN P HOW,Perception
+S4.2,GauSS-MI: Gaussian Splatting Shannon Mutual Information for Active 3D Reconstruction,Yuhan Xie;Yixi Cai;Yinqiang Zhang;Lei Yang;Jia Pan,Perception
+S4.3,LiDAR Registration with Visual Foundation Models,Niclas VÃ¶disch;Giovanni Cioffi;Marco Cannici;Wolfram Burgard;Davide Scaramuzza,Perception
+S4.4,Building Rome with Convex Optimization,Haoyu Han;Heng Yang,Perception
+S4.6,Vysics: Object Reconstruction Under Occlusion by Fusing Vision and Contact-Rich Physics,Bibit Bianchini;Minghan Zhu;Mengti Sun;Bowen Jiang;Camillo Jose Taylor;Michael Posa,Perception
+S4.7,Implicit Neural-Representation Learning for Elastic Deformable-Object Manipulations,JeongHo Ha;Minseok Song;Bonggyeong Park;Daehyung Park,Perception
+S4.8,Particle-Grid Neural Dynamics for Learning Deformable Object Models from Depth Images,Kaifeng Zhang;Baoyu Li;Kris Hauser;Yunzhu Li,Perception
+S4.9,V-HOP: Visuo-Haptic 6D Object Pose Tracking,Hongyu Li;Mingxi Jia;Mete Tuluhan Akbulut;Yu Xiang;George Konidaris;Srinath Sridhar,Perception
+S4.10,Autotune: Joint Weight Tuning and Estimation,Kasra Khosoussi;Iman Shames,Perception
+S4.11,Map Space Belief Prediction for Manipulation-Enhanced Mapping,Joao Marcos Correia Marques;Nils Dengler;Jesper MÃ¼cke;Tobias Zaenker;Shenlong Wang;Maren Bennewitz;Kris Hauser,Perception
+S4.12,PINGS: Gaussian Splatting Meets Distance Fields within a Point-Based Implicit Neural Map,Yue Pan;Xingguang Zhong;Liren Jin;Louis Wiesmann;Marija Popovic;Jens Behley;Cyrill Stachniss,Perception
+S4.13,RAMEN: Real-time Asynchronous Multi-agent Neural Implicit Mapping,Hongrui Zhao;Boris Ivanovic;Negar Mehr,Perception
+S4.14,RoboPanoptes: The All-Seeing Robot with Whole-body Dexterity,Xiaomeng Xu;Dominik Bauer;Shuran Song,Perception
+S5.1,Bilevel Learning for Bilevel Planning,Bowen Li;Tom Silver;Sebastian Scherer;Alexander G. Gray,Planning
+S5.2,A Biconvex Method for Minimum-Time Motion Planning Through Sequences of Convex Sets,Tobia Marcucci;Mathew Halm;William Yang;Dongchan Lee;Andrew Marchese,Planning
+S5.3,Superfast Configuration-Space Convex Set Computation on GPUs for Online Motion Planning,Peter Werner;Richard Cheng;Tom Stewart;Russ Tedrake;Daniela Rus,Planning
+S5.4,Global Contact-Rich Planning with Sparsity-Rich Semidefinite Relaxations,Guorui Liu;Shucheng Kang;Heng Yang,Planning
+S5.5,On the Surprising Robustness of Sequential Convex Optimization for Contact-Implicit Motion Planning,Yulin Li;Haoyu Han;Shucheng Kang;Jun Ma;Heng Yang,Planning
+S5.6,Effective Sampling for Robot Motion Planning Through the Lens of Lattices,Itai Panasoff;Kiril Solovey,Planning
+S5.7,Efficient Hierarchical Any-Angle Path Planning on Multi-Resolution 3D Grids,Victor Reijgwart;Cesar Cadena;Roland Siegwart;Lionel Ott,Planning
+S5.8,Differentiable GPU-Parallelized Task and Motion Planning,William Shen;Caelan Reed Garrett;Nishanth Kumar;Ankit Goyal;Tucker Hermans;Leslie Pack Kaelbling;TomÃ¡s Lozano-PÃ©rez;Fabio Ramos,Planning
+S5.9,Flow Matching Ergodic Coverage,Max Muchen Sun;Allison Pinosky;Todd Murphey,Planning
+S6.1,Reactive Diffusion Policy: Slow-Fast Visual-Tactile Policy Learning for Contact-Rich Manipulation,Han Xue;Jieji Ren;Wendi Chen;Gu Zhang;Fang Yuan;Guoying Gu;Huazhe Xu;Cewu Lu,Manipulation I
+S6.2,Physics-Driven Data Generation for Contact-Rich Manipulation via Trajectory Optimization,Lujie Yang;H.J. Terry Suh;Tong Zhao;Bernhard Paus Graesdal;Tarik Kelestemur;Jiuguang Wang;Tao Pang;Russ Tedrake,Manipulation I
+S6.3,ViTaSCOPE: Visuo-tactile Implicit Representation for In-hand Pose and Extrinsic Contact Estimation,Jayjun Lee;Nima Fazeli,Manipulation I
+S6.4,Design of a low-cost and lightweight 6 DoF bimanual arm for dynamic and contact-rich manipulation,Jaehyung Kim;Jiho Kim;Dongryung Lee;Yujin Jang;Beomjoon Kim,Manipulation I
+S6.5,PP-Tac: Paper Picking Using Omnidirectional Tactile Feedback in Dexterous Robotic Hands,Pei Lin;Yuzhe Huang;Jianpeng Ma;Chenxi Xiao;Wanlin Li;Ziyuan Jiao,Manipulation I
+S6.6,GeoDEx: A Unified Geometric Framework for Tactile Dexterous and Extrinsic Manipulation under Force Uncertainty,Sirui Chen;Sergio Francisco Aguilera Marinovic;Soshi Iba;Rana Soltani Zarrin,Manipulation I
+S6.9,Robust Peg-in-Hole Assembly under Uncertainties via Compliant and Interactive Contact-Rich Manipulation,Yiting Chen;Kenneth Kimble;Howard H. Qian;Podshara Chanrungmaneekul;Robert Seney;Kaiyu Hang,Manipulation I
+S7.1,AMO: Adaptive Motion Optimization for Hyper-Dexterous Humanoid Whole-Body Control,Jialong Li;Xuxin Cheng;Tianshu Huang;Shiqi Yang;Ri-Zhao Qiu;Xiaolong Wang,Humanoids
+S7.3,Learning Getting-Up Policies for Real-World Humanoid Robots,Xialin He;Runpei Dong;Zixuan Chen;Saurabh Gupta,Humanoids
+S7.4,Learning Humanoid Standing-up Control across Diverse Postures,Tao Huang;Junli Ren;Huayi Wang;ZiRui Wang;Qingwei Ben;Muning Wen;Xiao Chen;Jianan Li;Jiangmiao Pang,Humanoids
+S7.5,End-to-end Learning of Humanoid Whole-body Control from Natural Language,Yiyang Shao;Bike Zhang;Qiayuan Liao;Xiaoyu Huang;Yuman Gao;Yufeng Chi;Zhongyu Li;Sophia Shao;Koushil Sreenath,Humanoids
+S7.6,ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills,Tairan He;Jiawei Gao;Wenli Xiao;Yuanhang Zhang;Zi Wang;Jiashun Wang;Zhengyi Luo;Guanqi He;Nikhil Sobanbabu;Chaoyi Pan;Zeji Yi;Guannan Qu;Kris Kitani;Jessica K. Hodgins;Linxi Fan;Yuke Zhu;Changliu Liu;Guanya Shi,Humanoids
+S7.7,A Unified and General Humanoid Whole-Body Controller for Fine-Grained Locomotion,Yufei Xue;Wentao Dong;Minghuan Liu;Weinan Zhang;Jiangmiao Pang,Humanoids
+S7.8,BeamDojo: Learning Agile Humanoid Locomotion on Sparse Footholds,Huayi Wang;ZiRui Wang;Junli Ren;Qingwei Ben;Tao Huang;Weinan Zhang;Jiangmiao Pang,Humanoids
+S7.9,Gait-Net-augmented Implicit Kino-dynamic MPC for Dynamic Variable-frequency Humanoid Locomotion over Discrete Terrains,Junheng Li;Ziwei Duan;Junchao Ma;Quan Nguyen,Humanoids
+S7.10,HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit,Qingwei Ben;Feiyu Jia;Jia Zeng;Junting Dong;Dahua Lin;Jiangmiao Pang,Humanoids
+S8.1,Curating Demonstrations using Online Experience,Annie S Chen;Alec M. Lessing;Yuejiang Liu;Chelsea Finn,Imitation Learning I
+S8.2,CodeDiffuser: Attention-Enhanced Diffusion Policy via VLM-Generated Code for Instruction Ambiguity,Guang Yin;Yitong Li;Yixuan Wang;Dale McConachie;Paarth Shah;Kunimatsu Hashimoto;Huan Zhang;Katherine Liu;Yunzhu Li,Imitation Learning I
+S8.3,Can We Detect Failures Without Failure Data? Uncertainty-Aware Runtime Failure Detection for Imitation Learning Policies,Chen Xu;Tony Khuong Nguyen;Emma Dixon;Christopher Rodriguez;Patrick Miller;Robert Lee;Paarth Shah;Rares Andrei Ambrus;Haruki Nishimura;Masha Itkina,Imitation Learning I
+S8.4,Unified Video Action Model,Shuang Li;Yihuai Gao;Dorsa Sadigh;Shuran Song,Imitation Learning I
+S8.5,DexWild: Dexterous Human Interactions for In-the-Wild Robot Policies,Tony Tao;Mohan Kumar Srirama;Jason Jingzhou Liu;Kenneth Shaw;Deepak Pathak,Imitation Learning I
+S8.6,From Foresight to Forethought: VLM-In-the-Loop Policy Steering via Latent Alignment,Yilin Wu;Thomas Tian;Gokul Swamy;Andrea Bajcsy,Imitation Learning I
+S8.7,Is Your Imitation Learning Policy Better than Mine? Policy Comparison with Near-Optimal Stopping,David Snyder;Asher James Hancock;Apurva Badithela;Emma Dixon;Patrick Miller;Rares Andrei Ambrus;Anirudha Majumdar;Masha Itkina;Haruki Nishimura,Imitation Learning I
+S8.8,DDAT: Diffusion Policies Enforcing Dynamically Admissible Robot Trajectories,Jean-Baptiste Bouvier;Kanghyun Ryu;Qiayuan Liao;Koushil Sreenath;Negar Mehr,Imitation Learning I
+S8.9,FACTR: Force-Attending Curriculum Training for Contact-Rich Policy Learning,Jason Jingzhou Liu;Yulong Li;Kenneth Shaw;Tony Tao;Russ Salakhutdinov;Deepak Pathak,Imitation Learning I
+S9.1,Morpheus: A Neural-driven Animatronic Face with Hybrid Actuation and Diverse Emotion Control,Zongzheng Zhang;Jiawen Yang;Ziqiao Peng;Meng Yang;Jianzhu Ma;Lin Cheng;Huazhe Xu;Hang Zhao;Hao Zhao,HRI
+S9.2,Interface-level Intent Inference for Environment-agnostic Robot Teleoperation Assistance,Larisa Y.C. Loke;Brenna Argall,HRI
+S9.3,Sense and Sensibility: What makes an social robot convincing to high-school students?,Pablo Gonzalez-Oliveras;Olov Engwall;Ali Reza Majlesi,HRI
+S9.4,FEAST: A Flexible Mealtime-Assistance System Tackling In-the-Wild Scenarios,Rajat Kumar Jenamani;Tom Silver;Ben Dodson;Shiqin Tong;Anthony Song;Yuting Yang;Ziang Liu;Benjamin Howe;Aimee Whitneck;Tapomayukh Bhattacharjee,HRI
+S9.6,Users and Wizards in Conversations: How WoZ Interface Choices Define Human-Robot Interactions,Ekaterina Torubarova;Jura Miniotaite;Andre Pereira,HRI
+S9.8,Optimal Interactive Learning on the Job via Facility Location Planning,Shivam Vats;Michelle D Zhao;Patrick Callaghan;Mingxi Jia;Maxim Likhachev;Oliver Kroemer;George Konidaris,HRI
+S9.9,A Robot-Assisted Approach to Small Talk Training for Adults with ASD,Rebecca Ramnauth;DraÅ¾en BrÅ¡ÄiÄ‡;Brian Scassellati,HRI
+S9.10,Interruption Handling for Conversational Robots,Shiye Cao;Jiwon Moon;Amama Mahmood;Victor Nikhil Antony;Ziang Xiao;Anqi Liu;Chien-Ming Huang,HRI
+S9.11,ASTRID: A Robotic Tutor for Nurse Training to Reduce Healthcare-Associated Infections,Peizhu Qian;Filip Bajraktari;Carlos Quintero-Pena;Qingxi Meng;Shannan Hamlin;Lydia E Kavraki;Vaibhav V. Unhelkar,HRI
+S9.12,Towards Uncertainty Unification: A Case Study for Preference Learning,Shaoting Peng;Haonan Chen;Katherine Rose Driggs-Campbell,HRI
+S9.14,Safety with Agency: Human-Centered Safety Filter with Application to AI-Assisted Motorsports,Donggeon David Oh;Justin Lidard;Haimin Hu;Himani Sinhmar;Elle Lazarski;Deepak Edakkattil Gopinath;Emily Sumner;Jonathan DeCastro;Guy Rosman;Naomi Leonard;Jaime FernÃ¡ndez Fisac,HRI
+S10.1,Multi-Layer Safety for Multi-Agent Reinforcement Learning,Jasmine Jerry Aloor;Jason Jangho Choi;Jingqi Li;Maria G. Mendoza;Hamsa Balakrishnan;Claire Tomlin,Multi-Robot Systems
+S10.2,FERMI: Flexible Radio Mapping with a Hybrid Propagation Model and Scalable Autonomous Data Collection,Yiming Luo;Yunfei Wang;Hongming Chen;Chengkai Wu;Ximin Lyu;JINNI ZHOU;Jun Ma;Fu Zhang;Boyu Zhou,Multi-Robot Systems
+S10.3,Online Competitive Information Gathering for Partially Observable Trajectory Games,Mel Krusniak;Hang Xu;Online Competitive Information Gathering for Partially Observable Trajectory Games;Forrest John Laine,Multi-Robot Systems
+S10.4,Collaborative Object Transportation in Space via Impact Interactions,Joris Verhagen;Jana Tumova,Multi-Robot Systems
+S10.5,APEX-MR: Multi-Robot Asynchronous Planning and Execution for Cooperative Assembly,Philip Huang;Ruixuan Liu;Shobhit Aggarwal;Changliu Liu;Jiaoyang Li,Multi-Robot Systems
+S10.6,Hierarchical Temporal Logic Task and Motion Planning for Multi-Robot Systems,Zhongqi Wei;Xusheng Luo;Changliu Liu,Multi-Robot Systems
+S10.7,A Probabilistic Measure of Multi-Robot Connectivity and Ergodic Optimal Control,Yongce Liu;Zhongqiang Ren,Multi-Robot Systems
+S10.8,How to Coordinate UAVs and UGVs for Efficient Mission Planning? Optimizing Energy-Constrained Cooperative Routing with a DRL Framework,Mohammad Safwan Mondal;Subramanian Ramasamy;Pranav Bhounsule,Multi-Robot Systems
+S10.9,Influence of Static and Dynamic Downwash Interactions on Multi-Quadrotor Systems,Anoop Kiran;Nora Ayanian;Kenneth Breuer,Multi-Robot Systems
+S11.1,DexterityGen: Foundation Controller for Unprecedented Dexterity,Zhao-Heng Yin;Changhao Wang;Luis Pineda;Francois Robert Hogan;Chaithanya Krishna Bodduluri;Akash Sharma;Patrick Lancaster;Ishita Prasad;Mrinal Kalakrishnan;Jitendra Malik;Mike Lambeta;Tingfan Wu;Pieter Abbeel;Mustafa Mukadam,Manipulation II
+S11.2,DOGlove: Dexterous Manipulation with a Low-Cost Open-Source Haptic Force Feedback Glove,Han Zhang;Songbo Hu;Zhecheng Yuan;Huazhe Xu,Manipulation II
+S11.3,Dexonomy: Synthesizing All Dexterous Grasp Types in a Grasp Taxonomy,Jiayi Chen;Yubin Ke;Lin Peng;He Wang,Manipulation II
+S11.4,Dex1B: Learning with 1B Demonstrations for Dexterous Manipulation,Jianglong Ye;Keyi Wang;Chengjing Yuan;Ruihan Yang;Yiquan Li;Jiyue Zhu;Yuzhe Qin;Xueyan Zou;Xiaolong Wang,Manipulation II
+S11.6,Vib2Move: In-hand Object Reconfiguration via Fingertip Micro-vibrations,Xili Yi;Nima Fazeli,Manipulation II
+S11.7,Sim-and-Real Co-Training: A Simple Recipe for Vision-Based Robotic Manipulation,Abhiram Maddukuri;Zhenyu Jiang;Lawrence Yunliang Chen;Soroush Nasiriany;Yuqi Xie;Yu Fang;Wenqi Huang;Zu Wang;Zhenjia Xu;Nikita Chernyadev;Scott Reed;Ken Goldberg;Ajay Mandlekar;Linxi Fan;Yuke Zhu,Manipulation II
+S11.8,CordViP: Correspondece-based Visuomotor Policy for Dexterous Manipulation in Real-World,Yankai Fu;Ning Chen;Qiuxuan Feng;Zichen Zhou;Mengzhen Liu;Mingdong Wu;Tianxing Chen;Shanyu Rong;Jiaming Liu;Hao Dong;Shanghang Zhang,Manipulation II
+S11.9,Complementarity-Free Multi-Contact Modeling and Optimization for Dexterous Manipulation,Wanxin Jin,Manipulation II
+S12.1,Safe Beyond the Horizon: Efficient Sampling-based MPC with Neural Control Barrier Functions,Ji Yin;Oswin So;Eric Yang Yu;Chuchu Fan;Panagiotis Tsiotras,Control and Dynamics
+S12.2,Dynamic Safety in Complex Environments: Synthesizing Safety Filters with Poissonâ€™s Equation,Gilbert Bahati;Ryan M. Bena;Aaron Ames,Control and Dynamics
+S12.3,Bridging Model Predictive Control and Deep Learning for Scalable Reachability Analysis,Zeyuan Feng;Le Qiu;Somil Bansal,Control and Dynamics
+S12.4,Distilling Contact Planning for Fast Trajectory Optimization in Robot Air Hockey,Julius Jankowski;Ante MariÄ‡;Puze Liu;Davide Tateo;Jan Peters;Sylvain Calinon,Control and Dynamics
+S12.5,Leveling the Playing Field: Carefully Comparing Classical and Learned Controllers for Quadrotor Trajectory Tracking,Pratik Kunapuli;Jake Welde;Dinesh Jayaraman;Vijay Kumar,Control and Dynamics
+S12.6,A Generic Continuous Multi-Joint Spinal Robotic System for Agile and Accurate Behaviors with GNN-MPC method,Ying Wu;Zida Zhou;RenmingLiu;Lanxiang Zheng;Hui Cheng,Control and Dynamics
+S12.7,Behavior Synthesis via Contact-Aware Fisher Information Maximization,Hrishikesh Sathyanarayan;Ian Abraham,Control and Dynamics
+S12.8,Geometric Gait Optimization for Kinodynamic Systems Using a Lie Group Integrator,Yanhao Yang;Ross Hatton,Control and Dynamics
+S12.9,Riemannian Direct Trajectory Optimization of Rigid Bodies on Matrix Lie Groups,Sangli Teng;Tzu-Yuan Lin;William A Clark;Ram Vasudevan;Maani Ghaffari,Control and Dynamics
+S12.10,"Provably-Safe, Online System Identification",Bohao Zhang;zichang zhou;Ram Vasudevan,Control and Dynamics
+S13.1,Human2LocoMan: Learning Versatile Quadrupedal Manipulation with Human Pre-Training,Yaru Niu;Yunzhe Zhang;Mingyang Yu;Changyi Lin;Chenhao Li;Yikai Wang;Yuxiang Yang;Wenhao Yu;Tingnan Zhang;Zhenzhen Li;Jonathan Francis;Bingqing Chen;Jie Tan;Ding Zhao,Mobile Manipulation and Locomotion
+S13.2,Gain Tuning Is Not What You Need: Reward Gain Adaptation for Constrained Locomotion Learning,Arthicha Srisuchinnawong;Poramate Manoonpong,Mobile Manipulation and Locomotion
+S13.3,SATA: Safe and Adaptive Torque-Based Locomotion Policies Inspired by Animal Learning,LI Peizhuo;Hongyi LI;GE SUN;Jin Cheng;Xinrong Yang;Guillaume Bellegarda;Milad Shafiee Ashtiani;Yuhong Cao;Auke Ijspeert;Guillaume Adrien Sartoretti,Mobile Manipulation and Locomotion
+S13.4,Bridging the Sim-to-Real Gap for Athletic Loco-Manipulation,Nolan Fey;Gabriel B. Margolis;Martin Peticco;Pulkit Agrawal,Mobile Manipulation and Locomotion
+S13.5,Adaptive Locomotion on Mud through Proprioceptive Sensing of Substrate Properties,Shipeng Liu;Jiaze Tang;Siyuan Meng;Feifei Qian,Mobile Manipulation and Locomotion
+S13.6,Discrete-Time Hybrid Automata Learning: Legged Locomotion Meets Skateboarding,Hang Liu;Sangli Teng;Ben Liu;Wei Zhang;Maani Ghaffari,Mobile Manipulation and Locomotion
+S13.7,SafeMimic: Towards Safe and Autonomous Human-to-Robot Imitation for Mobile Manipulation,Arpit Bahety;Arnav Balaji;Ben Abbatematteo;Roberto MartÃ­n-MartÃ­n,Mobile Manipulation and Locomotion
+S13.8,DVS: Dynamic Virtual-Real Simulation Platform for Mobile Robotic Tasks,Zijie Zheng;Zeshun Li;Yunpeng Wang;Qinghongbing Xie;Long ZENG,Mobile Manipulation and Locomotion
+S13.9,Flying Hand: End-Effector-Centric Framework for Versatile Aerial Manipulation Teleoperation and Policy Learning,Guanqi He;Xiaofeng Guo;Luyi Tang;Yuanhang Zhang;Mohammadreza Mousaei;Jiahe Xu;Junyi Geng;Sebastian Scherer;Guanya Shi,Mobile Manipulation and Locomotion
+S14.1,RUKA: Rethinking the Design of Humanoid Hands with Learning,Anya Zorin;Irmak Guzey;Nikhil X. Bhattasali;Lerrel Pinto,Robot Design
+S14.3,Tactile sensing enables vertical obstacle negotiation for elongate many-legged robots,Juntao He;Baxi Chong;Massimiliano Iaschi;Vincent R Nienhusser;Sehoon Ha;Daniel Goldman,Robot Design
+S14.4,Boxi: Design Decisions in the Context of Algorithmic Performance for Robotics,Jonas Frey;Turcan Tuna;Lanke Frank Tarimo Fu;Cedric Weibel;Katharine Patterson;Benjamin Krummenacher;Matthias MÃ¼ller;Julian Nubert;Maurice Fallon;Cesar Cadena;Marco Hutter,Robot Design
+S14.5,emg2tendon: From sEMG Signals to Tendon Control in Musculoskeletal Hands,Sagar Verma,Robot Design
+S15.1,CREStE: Scalable Mapless Navigation with Internet Scale Priors and Counterfactual Guidance,Arthur Zhang;Harshit Sikchi;Joydeep Biswas;Amy Zhang,Navigation
+S15.2,Generalizing Safety Beyond Collision-Avoidance via Latent-Space Reachability Analysis,Kensuke Nakamura;Lasse Peters;Andrea Bajcsy,Navigation
+S15.3,Verti-Bench: A General and Scalable Off-Road Mobility Benchmark for Vertically Challenging Terrain,Tong Xu;Chenhui Pan;Madhan B. Rao;Aniket Datar;Anuj Pokhrel;Yuanjie Lu;Xuesu Xiao,Navigation
+S15.4,Meta-Learning Online Dynamics Model Adaptation in Off-Road Autonomous Driving,Jacob Levy;Jason Gibson;Bogdan Vlahov;Erica Tevere;Evangelos Theodorou;David Fridovich-Keil;Patrick Spieler,Navigation
+S15.5,Enhancing Autonomous Driving Systems with On-Board Deployed Large Language Models,Nicolas Baumann;Cheng Hu;Paviththiren Sivasothilingam;Haotong Qin;Lei Xie;Michele Magno;Luca Benini,Navigation
+S15.7,RAPID: Robust and Agile Planner Using Inverse Reinforcement Learning for Vision-Based Drone Navigation,Minwoo Kim;Geunsik Bae;Jinwoo Lee;Woojae Shin;Changseung Kim;Myongyol Choi;Heejung Shin;Hyongdong Oh,Navigation
+S15.8,Neural Inertial Odometry from Lie Events,Royina Karegoudra Jayanth;Yinshuang Xu;Evangelos Chatzipantazis;Kostas Daniilidis;Daniel Gehrig,Navigation
+S15.9,Uncertainty-Aware Trajectory Prediction via Rule-Regularized Heteroscedastic Deep Classification,Kumar Manas;Christian Schlauch;Adrian Paschke;Christian wirth;Nadja Klein,Navigation
+S16.1,Prompting with the Future: Open-World Model Predictive Control with Interactive Digital Twins,Chuanruo Ning;Kuan Fang;Wei-Chiu Ma,Manipulation III
+S16.2,Novel Demonstration Generation with Gaussian Splatting Enables Robust One-Shot Manipulation,Sizhe Yang;Wenye Yu;Jia Zeng;Jun Lv;Kerui Ren;Cewu Lu;Dahua Lin;Jiangmiao Pang,Manipulation III
+S16.3,STDArm: Transfer Visuomotor Policy From Static Data Training to Dynamic Robot Manipulation,Yifan Duan;Heng Li;Yilong Wu;Wenhao Yu;xinran zhang;Yedong Shen;Jianmin Ji;Yanyong Zhang,Manipulation III
+S16.4,PartInstruct: Part-level Instruction Following for Fine-grained Robot Manipulation,Yifan Yin;Zhengtao Han;Shivam Aarya;Shuhang Xu;Jianxin Wang;Jiawei Peng;Angtian Wang;Alan Yuille;Tianmin Shu,Manipulation III
+S16.5,You Only Teach Once: Learn One-Shot Bimanual Robotic Manipulation from Video Demonstrations,Huayi Zhou;Ruixiang Wang;Yunxin Tai;Yueci Deng;Guiliang Liu;Kui Jia,Manipulation III
+S16.6,Manual2Skill: Learning to Read Manuals and Acquire Robotic Skills for Furniture Assembly Using Vision-Language Models,Chenrui Tie;Shengxiang Sun;Jinxuan Zhu;Yiwei Liu;Jingxiang Guo;Yue Hu;Haonan Chen;Junting Chen;Ruihai Wu;Lin Shao,Manipulation III
+S16.7,Sketch-to-Skill: Bootstrapping Robot Learning with Human Drawn Trajectory Sketches,Peihong Yu;Amisha Bhaskar;Anukriti Singh;Zahiruddin Mahammad;Pratap Tokekar,Manipulation III
+S16.7,RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation,Kun Wu;Chengkai Hou;Jiaming Liu;Zhengping Che;Xiaozhu Ju;Zhuqin Yang;Meng Li;Yinuo Zhao;Zhiyuan Xu;Guang Yang;Shichao Fan;Xinhua Wang;Fei Liao;Zhen Zhao;Guangyu Li;Zhao Jin;Lecheng Wang;Jilei Mao;Ning Liu;Pei Ren;Qiang Zhang;Yaoxu Lyu;Mengzhen Liu;He Jingyang;Yulin Luo;Zeyu Gao;Chenxuan Li;Chenyang Gu;Yankai Fu;Di Wu;Xingyu Wang;Sixiang Chen;Zhenyu Wang;Pengju An;Siyuan Qian;Shanghang Zhang;Jian Tang,Manipulation III
+S16.8,PIN-WM: Learning Physics-INformed World Models for Non-Prehensile Manipulation,Wenxuan Li;Hang Zhao;Zhiyuan Yu;Yu Du;Qin Zou;Ruizhen Hu;Kai Xu,Manipulation III
+S16.9,Hierarchical and Modular Network on Non-prehensile Manipulation in General Environments,Yoonyoung Cho;Junhyek Han;Jisu Han;Beomjoon Kim,Manipulation III
+S17.1,Bridging Perception and Action: Spatially-Grounded Mid-Level Representations for Robot Generalization,Jonathan Heewon Yang;Chuyuan Fu;Dhruv Shah;Dorsa Sadigh;Fei Xia;Tingnan Zhang,Imitation Learning II
+S17.2,ArticuBot: Learning Universal Articulated Object Manipulation Policy via Large Scale Simulation,Yufei Wang;Ziyu Wang;Mino Nakura;Pratik Bhowal;Chia-Liang Kuo;Yi-Ting Chen;Zackory Erickson;David Held,Imitation Learning II
+S17.3,DemoGen: Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning,Zhengrong Xue;Shuying Deng;Zhenyang Chen;Yixuan Wang;Zhecheng Yuan;Huazhe Xu,Imitation Learning II
+S17.4,IMLE Policy: Fast and Sample Efficient Visuomotor Policy Learning via Implicit Maximum Likelihood Estimation,Krishan Rana;Robert Lee;David Pershouse;Niko Suenderhauf,Imitation Learning II
+S17.5,Dynamic Rank Adjustment in Diffusion Policies for Efficient and Flexible Training,Xiatao Sun;Shuo Yang;Yinxing Chen;Francis Fan;Yiyan (Edgar) Liang;Daniel Rakita,Imitation Learning II
+S17.6,Gripper Pose and Object Pointflow as Interfaces for Robotic Bimanual Manipulation,Yuyin Yang;Zetao Cai;Yang Tian;Jia Zeng;Jiangmiao Pang,Imitation Learning II
+S17.7,SKIL: Semantic Keypoint Imitation Learning for Generalizable Data-efficient Manipulation,Shengjie Wang;Jiacheng You;Yihang Hu;Jiongye Li;Yang Gao,Imitation Learning II
+S17.8,Diffeomorphic Obstacle Avoidance for Contractive Dynamical Systems via Implicit Representations,Ken-Joel Simmoteit;Philipp Schillinger;Leonel Rozo,Imitation Learning II
+S17.9,Learning Interpretable Features from Interventions,Erin Hedlund-Botti;Julianna Schalkwyk;Nina Marie Moorman;Chuxuan Yang;Lakshmi Seelam;Sanne van Waveren;Russell Perkins;Paul Robinette;Matthew Craig Gombolay,Imitation Learning II
