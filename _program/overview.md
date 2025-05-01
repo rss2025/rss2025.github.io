@@ -141,7 +141,7 @@ published: true
               </td>
               <!-- <td rowspan="1" class="session-block">14. Robot Design</td> -->
               <td rowspan="1" class="session-block">
-              <a href="{{ site.baseurl }}/program/papersession/?session=14.+Robot_Design">14. Robot Design</a>
+              <a href="{{ site.baseurl }}/program/papersession/?session=14.+Robot+Design">14. Robot Design</a>
               </td>
               <td rowspan="19" class="workshop-block">Workshops + Tours</td>
               <td style="display:none;">&nbsp;</td>
