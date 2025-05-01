@@ -2,7 +2,7 @@
   {
     "papernumber": 1,
     "papertitle": "Demonstrating ViSafe: Vision-enabled Safety for High-speed Detect and Avoid",
-    "authors": "Parv kapoor, Ian Higgins, Nikhil Varma Keetha, Jay Patrikar, Brady Moon, Zelin Ye, Yao He, Ivan Cisneros, Changliu Liu, Eunsuk Kang, Sebastian Scherer",
+    "authors": "Parv Kapoor, Ian Higgins, Nikhil Varma Keetha, Jay Patrikar, Brady Moon, Zelin Ye, Yao He, Ivan Cisneros, Changliu Liu, Eunsuk Kang, Sebastian Scherer",
     "link": "",
     "demoday": "",
     "demolocation": "",
@@ -20,7 +20,7 @@
   {
     "papernumber": 3,
     "papertitle": "Demonstrating GPU Parallelized Robot Simulation and Rendering for Generalizable Embodied AI with ManiSkill3",
-    "authors": "Stone Tao, Fanbo Xiang, Arth Shukla, Yuzhe Qin, Xander Hinrichsen, Xiaodi Yuan, Chen Bao, Xinsong Lin, Yulin Liu, Tse-Kai Chan, Yuan Gao, Xuanlin Li, Tongzhou Mu, Nan Xiao, Arnav Gurha, Viswesh N, Yong Woo Choi, Yen-Ru Chen, Zhiao Huang, Roberto Calandra, Rui Chen, Shan Luo, Hao Su",
+    "authors": "Stone Tao, Fanbo Xiang, Arth Shukla, Yuzhe Qin, Xander Hinrichsen, Xiaodi Yuan, Chen Bao, Xinsong Lin, Yulin Liu, Tse-kai Chan, Yuan Gao, Xuanlin Li, Tongzhou Mu, Nan Xiao, Arnav Gurha, Viswesh N., Yong Woo Choi, Yen-ru Chen, Zhiao Huang, Roberto Calandra, Rui Chen, Shan Luo, Hao Su",
     "link": "",
     "demoday": "",
     "demolocation": "",
@@ -47,7 +47,7 @@
   {
     "papernumber": 6,
     "papertitle": "Demonstrating REASSEMBLE: A Multimodal Dataset for Contact-rich Robotic Assembly and Disassembly",
-    "authors": "Daniel Sliwowski, Shail Jadav, Sergej Stanovcic, JÄ™drzej Orbik, Johannes Heidersberger, Dongheui Lee",
+    "authors": "Daniel Sliwowski, Shail Jadav, Sergej Stanovcic, Jä™drzej Orbik, Johannes Heidersberger, Dongheui Lee",
     "link": "",
     "demoday": "",
     "demolocation": "",
@@ -83,7 +83,7 @@
   {
     "papernumber": 10,
     "papertitle": "Demonstrating Arena 5.0: A Photorealistic ROS2 Simulation Framework for Developing and Benchmarking Social Navigation",
-    "authors": "Linh KÃ¤stner, Volodymyr Shcherbyna, Harold Soh, Giang Nguyen Huu Truong, Do Duc Anh, Ton Manh Kien, Tim Seeger, Ahmed Martban, Vu Thanh Lam, Nguyen Quoc Hung, Pham Thai Hoang Tung, Tran Dang An, Eva Wiese, Maximilian Ho-Kyoung Schreff",
+    "authors": "Linh Kã¤stner, Volodymyr Shcherbyna, Harold Soh, Giang Nguyen Huu Truong, Do Duc Anh, Ton Manh Kien, Tim Seeger, Ahmed Martban, Vu Thanh Lam, Nguyen Quoc Hung, Pham Thai Hoang Tung, Tran Dang An, Eva Wiese, Maximilian Ho-kyoung Schreff",
     "link": "",
     "demoday": "",
     "demolocation": "",
@@ -92,7 +92,7 @@
   {
     "papernumber": 11,
     "papertitle": "Safety with Agency: Human-Centered Safety Filter with Application to AI-Assisted Motorsports",
-    "authors": "Donggeon David Oh, Justin Lidard, Haimin Hu, Himani Sinhmar, Elle Lazarski, Deepak Edakkattil Gopinath, Emily Sumner, Jonathan DeCastro, Guy Rosman, Naomi Leonard, Jaime FernÃ¡ndez Fisac",
+    "authors": "Donggeon David Oh, Justin Lidard, Haimin Hu, Himani Sinhmar, Elle Lazarski, Deepak Edakkattil Gopinath, Emily Sumner, Jonathan Decastro, Guy Rosman, Naomi Leonard, Jaime Fernã¡ndez Fisac",
     "link": "",
     "demoday": "",
     "demolocation": "",

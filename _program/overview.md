@@ -106,8 +106,8 @@ published: true
 
 <style>
   .schedule td {
-    min-height: 40px;
-    height: 40px;
+    min-height: 40px !important;
+    height: 40px !important;
     transition: background-color 0.2s ease, filter 0.2s ease;
   }
 
@@ -131,15 +131,27 @@ published: true
               <td style="background-color: #E2F0D950;">9:00AM</td>
               <td rowspan="19" class="workshop-block">RSS Pioneers</td>
               <td rowspan="7" class="workshop-block">Workshops + RSS Pathways</td>
-              <td rowspan="3" class="session-block">4. Perception</td>
-              <td rowspan="3" class="session-block">9. HRI</td>
-              <td rowspan="1" class="session-block">14. Robot Design</td>
+              <!-- <td rowspan="3" class="session-block">4. Perception</td> -->
+              <td rowspan="3" class="session-block">
+              <a href="{{ site.baseurl }}/program/papersession/?session=4.+Perception">4. Perception</a>
+              </td>
+              <!-- <td rowspan="3" class="session-block">9. HRI</td> -->
+              <td rowspan="3" class="session-block">
+              <a href="{{ site.baseurl }}/program/papersession/?session=9.+HRI">9. HRI</a>
+              </td>
+              <!-- <td rowspan="1" class="session-block">14. Robot Design</td> -->
+              <td rowspan="1" class="session-block">
+              <a href="{{ site.baseurl }}/program/papersession/?session=14.+Robot_Design">14. Robot Design</a>
+              </td>
               <td rowspan="19" class="workshop-block">Workshops + Tours</td>
               <td style="display:none;">&nbsp;</td>
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">9:30AM</td>
-              <td rowspan="2" class="session-block">15. Navigation</td>
+              <!-- <td rowspan="2" class="session-block">15. Navigation</td> -->
+              <td rowspan="2" class="session-block">
+              <a href="{{ site.baseurl }}/program/papersession/?session=15.+Navigation">15. Navigation</a>
+              </td>
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">10:00AM</td>
@@ -158,9 +170,18 @@ published: true
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">11:30AM</td>
-              <td rowspan="2" class="session-block">5. Planning</td>
+              <!-- <td rowspan="2" class="session-block">5. Planning</td>
               <td rowspan="2" class="session-block">10. Multi-Robot Systems</td>
-              <td rowspan="2" class="session-block">16.<br>Manipulation III</td>
+              <td rowspan="2" class="session-block">16.<br>Manipulation III</td> -->
+              <td rowspan="2" class="session-block">
+              <a href="{{ site.baseurl }}/program/papersession/?session=5.+Planning">5. Planning</a>
+              </td>
+              <td rowspan="2" class="session-block">
+              <a href="{{ site.baseurl }}/program/papersession/?session=10.+Multi-Robot+Systems">10. Multi-Robot Systems</a>
+              </td>
+              <td rowspan="2" class="session-block">
+              <a href="{{ site.baseurl }}/program/papersession/?session=16.+Manipulation+III">16. Manipulation III</a>
+              </td>
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">12:00PM</td>
@@ -181,10 +202,22 @@ published: true
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">2:00PM</td>
-              <td rowspan="2" class="session-block">1. Perception and Navigation</td>
+              <!-- <td rowspan="2" class="session-block">1. Perception and Navigation</td>
               <td rowspan="2" class="session-block">6.<br>Manipulation I</td>
               <td rowspan="2" class="session-block">11.<br>Manipulation II</td>
-              <td rowspan="2" class="session-block">17. Imitation Learning II</td>
+              <td rowspan="2" class="session-block">17. Imitation Learning II</td> -->
+              <td rowspan="2" class="session-block">
+              <a href="{{ site.baseurl }}/program/papersession/?session=1.+Perception+and+Navigation">1. Perception and Navigation</a>
+              </td>
+              <td rowspan="2" class="session-block">
+              <a href="{{ site.baseurl }}/program/papersession/?session=6.+Manipulation+I">6.<br>Manipulation I</a>
+              </td>
+              <td rowspan="2" class="session-block">
+              <a href="{{ site.baseurl }}/program/papersession/?session=11.+Manipulation+II">11.<br>Manipulation II</a>
+              </td>
+              <td rowspan="2" class="session-block">
+              <a href="{{ site.baseurl }}/program/papersession/?session=17.+Imitation+Learning+II">17. Imitation Learning II</a>
+              </td>
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">2:30PM</td>
@@ -208,18 +241,36 @@ published: true
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">4:30PM</td>
-              <td rowspan="2" class="session-block">2. VLA Models</td>
+              <!-- <td rowspan="2" class="session-block">2. VLA Models</td>
               <td rowspan="2" class="session-block">7. Humanoids</td>
-              <td rowspan="2" class="session-block">12. Control and Dynamics</td>
+              <td rowspan="2" class="session-block">12. Control and Dynamics</td> -->
+              <td rowspan="2" class="session-block">
+              <a href="{{ site.baseurl }}/program/papersession/?session=2.+VLA+Models">2. VLA Models</a>
+              </td>
+              <td rowspan="2" class="session-block">
+              <a href="{{ site.baseurl }}/program/papersession/?session=7.+Humanoids">7. Humanoids</a>
+              </td>
+              <td rowspan="2" class="session-block">
+              <a href="{{ site.baseurl }}/program/papersession/?session=12.+Control+and+Dynamics">12. Control and Dynamics</a>
+              </td>
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">5:00PM</td>
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">5:30PM</td>
-              <td rowspan="2" class="session-block">3. Scaling Robot Learning</td>
+              <!-- <td rowspan="2" class="session-block">3. Scaling Robot Learning</td>
               <td rowspan="2" class="session-block">8. Imitation Learning I</td>
-              <td rowspan="2" class="session-block">13. Mobile Manipulation and Locomotion</td>
+              <td rowspan="2" class="session-block">13. Mobile Manipulation and Locomotion</td> -->
+              <td rowspan="2" class="session-block">
+              <a href="{{ site.baseurl }}/program/papersession/?session=3.+Scaling+Robot+Learning">3. Scaling Robot Learning</a>
+              </td>
+              <td rowspan="2" class="session-block">
+              <a href="{{ site.baseurl }}/program/papersession/?session=8.+Imitation+Learning+I">8. Imitation Learning I</a>
+              </td>
+              <td rowspan="2" class="session-block">
+              <a href="{{ site.baseurl }}/program/papersession/?session=13.+Mobile+Manipulation+and+Locomotion">13. Mobile Manipulation and Locomotion</a>
+              </td>
               <td rowspan="2" class="break-block">Town Hall</td>
        </tr>
        <tr>

@@ -4,6 +4,23 @@ from datetime import datetime
 import csv
 import json
 
+def normalize_author_names(authors_str):
+    def normalize_name(name):
+        parts = name.strip().split()
+        normalized_parts = []
+        for part in parts:
+            if len(part) == 1:  # Single-letter initial without a dot
+                normalized_parts.append(part.upper() + ".")
+            elif len(part) == 2 and part[1] == '.':  # Already an initial like "J."
+                normalized_parts.append(part.upper())
+            else:
+                normalized_parts.append(part.capitalize())
+        return ' '.join(normalized_parts)
+
+    authors = [normalize_name(name) for name in re.split(r',\s*', authors_str)]
+    return ', '.join(authors)
+
+
 #filepaths
 paper_path = "../rss2025PaperSessions_data.csv"
 program_path = "../rss2025Program_data.csv"
@@ -69,9 +86,10 @@ canonical_session_title_map = df_program_sessions.set_index("Number")["Title"].t
 df["PaperID"] = df.apply(lambda row: f"S{row['SessionNum']}.{row['OrderinSession']}", axis=1)
 df["CleanSessionName"] = df["SessionNum"].map(canonical_session_title_map)
 
-#ensure authors are comma separated with a space
+#ensure authors are comma separated with a space, and fix capitalization
 df["Authors"] = df["Authors"].str.replace(r',\s*', ', ', regex=True)
 df["Authors"] = df["Authors"].str.replace(r';\s*', ', ', regex=True)
+df["Authors"] = df["Authors"].apply(normalize_author_names)
 
 #hacks to fix greek letters in specific titles
 df["Title"] = df["Title"].str.replace(r'\$\s*\\?pi\s*_0\s*\$', 'π₀', regex=True)
@@ -106,9 +124,10 @@ print(f"\nSaved to {output_path}")
 demo_df = pd.read_csv(paper_path, encoding="utf-8")
 demo_df = demo_df[demo_df["Paper type"].str.contains("demo", case=False, na=False)]
 
-#fix authors formatting
+#fix authors formatting (same as above for sessions)
 demo_df["Authors"] = demo_df["Authors"].str.replace(r',\s*', ', ', regex=True)
 demo_df["Authors"] = demo_df["Authors"].str.replace(r';\s*', ', ', regex=True)
+demo_df["Authors"] = demo_df["Authors"].apply(normalize_author_names)
 
 demo_json = []
 for idx, row in enumerate(demo_df.itertuples(index=False), start=1):
