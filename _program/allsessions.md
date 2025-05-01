@@ -2,7 +2,7 @@
 layout: page
 title: Paper Sessions
 description: List of Paper Sessions.
-priority: 10
+priority: 11
 invisible: false
 published: true
 ---

@@ -36,7 +36,7 @@ df = pd.read_csv(paper_path, encoding="utf-8")
 df_program = pd.read_csv(program_path, encoding="utf-8")
 
 #filter papers
-df = df[~df["Paper type"].str.contains("demo", case=False, na=False)]
+# df = df[~df["Paper type"].str.contains("demo", case=False, na=False)]
 df = df.drop_duplicates(subset=["Paper No"])
 
 #fix numbers because of demos skipped
