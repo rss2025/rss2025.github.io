@@ -5,7 +5,7 @@ description: Demos times, venues, and details.
 days: ['Mon', 'Fri']
 priority: 9
 invisible: false
-published: false
+published: true
 ---
 
 
@@ -23,10 +23,10 @@ published: false
         </tr>
     </thead>
     <tbody>
-        {% for workshop in site.data.demos2 %}
+        {% for workshop in site.data.demos %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.papernumber }} </span></td>
-            <td>{{ workshop.demolocation }}</td>
+            <td>{{ workshop.demolocation | default: "TBD" }}</td>
             <td>{{ workshop.papertitle }}</td>
             <td style="word-break: break-all;">
                 <a href="{{ workshop.link }}">
@@ -42,7 +42,7 @@ published: false
 
 <span style="color:white; font-size:50px;">&nbsp;</span><br>
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img alt="Lely" src="/2024/images/demos.png" style="width: 50%;" />
 </div>
 
@@ -50,10 +50,10 @@ published: false
 <span style="color:white; font-size:50px;">&nbsp;</span><br>
 <span style="color:white; font-size:50px;">&nbsp;</span><br>
 <span style="color:white; font-size:50px;">&nbsp;</span><br>
-<span style="color:white; font-size:50px;">&nbsp;</span><br>
+<span style="color:white; font-size:50px;">&nbsp;</span><br> -->
 
 
-<script>
+<!-- <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -71,5 +71,5 @@ for (i = 0; i < coll.length; i++) {
     c.innerHTML = content.innerHTML;
     });
 }
-</script>
+</script> -->
 

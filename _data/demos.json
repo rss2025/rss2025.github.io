@@ -1,0 +1,128 @@
+[
+  {
+    "papernumber": 1,
+    "papertitle": "Demonstrating ViSafe: Vision-enabled Safety for High-speed Detect and Avoid",
+    "authors": "Parv kapoor, Ian Higgins, Nikhil Varma Keetha, Jay Patrikar, Brady Moon, Zelin Ye, Yao He, Ivan Cisneros, Changliu Liu, Eunsuk Kang, Sebastian Scherer",
+    "link": "",
+    "demoday": "",
+    "demolocation": "",
+    "time": ""
+  },
+  {
+    "papernumber": 2,
+    "papertitle": "Demonstrating MuJoCo Playground",
+    "authors": "Kevin Zakka, Baruch Tabanpour, Qiayuan Liao, Mustafa Haiderbhai, Samuel Holt, Jing Yuan Luo, Arthur Allshire, Erik Frey, Koushil Sreenath, Lueder Alexander Kahrs, Carmelo Sferrazza, Yuval Tassa, Pieter Abbeel",
+    "link": "",
+    "demoday": "",
+    "demolocation": "",
+    "time": ""
+  },
+  {
+    "papernumber": 3,
+    "papertitle": "Demonstrating GPU Parallelized Robot Simulation and Rendering for Generalizable Embodied AI with ManiSkill3",
+    "authors": "Stone Tao, Fanbo Xiang, Arth Shukla, Yuzhe Qin, Xander Hinrichsen, Xiaodi Yuan, Chen Bao, Xinsong Lin, Yulin Liu, Tse-Kai Chan, Yuan Gao, Xuanlin Li, Tongzhou Mu, Nan Xiao, Arnav Gurha, Viswesh N, Yong Woo Choi, Yen-Ru Chen, Zhiao Huang, Roberto Calandra, Rui Chen, Shan Luo, Hao Su",
+    "link": "",
+    "demoday": "",
+    "demolocation": "",
+    "time": ""
+  },
+  {
+    "papernumber": 4,
+    "papertitle": "Demonstrating MOSART: Opening Articulated Objects in the Real World",
+    "authors": "Arjun Gupta, Michelle Zhang, Rishik Sathua, Saurabh Gupta",
+    "link": "",
+    "demoday": "",
+    "demolocation": "",
+    "time": ""
+  },
+  {
+    "papernumber": 5,
+    "papertitle": "Demonstrating the Octopi-1.5 Visual-Tactile-Language Model",
+    "authors": "Samson Yu, Lin Kelvin, Harold Soh",
+    "link": "",
+    "demoday": "",
+    "demolocation": "",
+    "time": ""
+  },
+  {
+    "papernumber": 6,
+    "papertitle": "Demonstrating REASSEMBLE: A Multimodal Dataset for Contact-rich Robotic Assembly and Disassembly",
+    "authors": "Daniel Sliwowski, Shail Jadav, Sergej Stanovcic, JÄ™drzej Orbik, Johannes Heidersberger, Dongheui Lee",
+    "link": "",
+    "demoday": "",
+    "demolocation": "",
+    "time": ""
+  },
+  {
+    "papernumber": 7,
+    "papertitle": "Demonstrating Berkeley Humanoid Lite: An Open-source, Accessible, and Customizable 3D-printed Humanoid Robot",
+    "authors": "Yufeng Chi, Qiayuan Liao, Junfeng Long, Xiaoyu Huang, Sophia Shao, Borivoje Nikolic, Zhongyu Li, Koushil Sreenath",
+    "link": "",
+    "demoday": "",
+    "demolocation": "",
+    "time": ""
+  },
+  {
+    "papernumber": 8,
+    "papertitle": "Demonstrating a Control Framework for Physical Human-Robot Interaction Toward Industrial Applications",
+    "authors": "Bastien Muraccioli, Mathieu Celerier, Mehdi Benallegue, Gentiane Venture",
+    "link": "",
+    "demoday": "",
+    "demolocation": "",
+    "time": ""
+  },
+  {
+    "papernumber": 9,
+    "papertitle": "Demonstrating Shared Force-Language Embeddings for Natural Human-Robot Communication",
+    "authors": "Ravi Tejwani, Karl Angel Velazquez, John Payne, Paolo Bonato, Haruhiko Asada",
+    "link": "",
+    "demoday": "",
+    "demolocation": "",
+    "time": ""
+  },
+  {
+    "papernumber": 10,
+    "papertitle": "Demonstrating Arena 5.0: A Photorealistic ROS2 Simulation Framework for Developing and Benchmarking Social Navigation",
+    "authors": "Linh KÃ¤stner, Volodymyr Shcherbyna, Harold Soh, Giang Nguyen Huu Truong, Do Duc Anh, Ton Manh Kien, Tim Seeger, Ahmed Martban, Vu Thanh Lam, Nguyen Quoc Hung, Pham Thai Hoang Tung, Tran Dang An, Eva Wiese, Maximilian Ho-Kyoung Schreff",
+    "link": "",
+    "demoday": "",
+    "demolocation": "",
+    "time": ""
+  },
+  {
+    "papernumber": 11,
+    "papertitle": "Safety with Agency: Human-Centered Safety Filter with Application to AI-Assisted Motorsports",
+    "authors": "Donggeon David Oh, Justin Lidard, Haimin Hu, Himani Sinhmar, Elle Lazarski, Deepak Edakkattil Gopinath, Emily Sumner, Jonathan DeCastro, Guy Rosman, Naomi Leonard, Jaime FernÃ¡ndez Fisac",
+    "link": "",
+    "demoday": "",
+    "demolocation": "",
+    "time": ""
+  },
+  {
+    "papernumber": 12,
+    "papertitle": "Demonstrating Multi-Suction Item Picking at Scale via Multi-Modal Learning of Pick Success",
+    "authors": "Che Wang, Jeroen Vanbaar, Chaitanya Mitash, Shuai Li, Dylan Randle, Weiyao Wang, Sumedh Anand Sontakke, Kostas Bekris, Kapil Katyal",
+    "link": "",
+    "demoday": "",
+    "demolocation": "",
+    "time": ""
+  },
+  {
+    "papernumber": 13,
+    "papertitle": "Demonstrating LEAP Hand V3: Low-Cost, Easy-to-Assemble, High-Performance Hand for Robot Learning",
+    "authors": "Kenneth Shaw, Deepak Pathak",
+    "link": "",
+    "demoday": "",
+    "demolocation": "",
+    "time": ""
+  },
+  {
+    "papernumber": 14,
+    "papertitle": "Demonstrating CavePI: Autonomous Exploration of Underwater Caves by Semantic Guidance",
+    "authors": "Alankrit Gupta, Adnan Abdullah, Xianyao Li, Vaishnav Ramesh, Ioannis Rekleitis, Md Jahidul Islam",
+    "link": "",
+    "demoday": "",
+    "demolocation": "",
+    "time": ""
+  }
+]

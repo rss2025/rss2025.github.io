@@ -2,18 +2,24 @@ import pandas as pd
 import re
 from datetime import datetime
 import csv
+import json
 
 #filepaths
 paper_path = "../rss2025PaperSessions_data.csv"
 program_path = "../rss2025Program_data.csv"
 output_path = "../rss2025CameraReadyInfo.csv"
 
+#########
+# PAPERS
+#########
 #load csvs
-df = pd.read_csv(paper_path)
-df_program = pd.read_csv(program_path)
+# df = pd.read_csv(paper_path)
+# df_program = pd.read_csv(program_path)
+df = pd.read_csv(paper_path, encoding="utf-8")
+df_program = pd.read_csv(program_path, encoding="utf-8")
 
 #filter papers
-df = df[df["Paper type"].str.lower() != "demo"]
+df = df[~df["Paper type"].str.contains("demo", case=False, na=False)]
 df = df.drop_duplicates(subset=["Paper No"])
 
 #fix numbers because of demos skipped
@@ -92,3 +98,33 @@ print(camera_ready_df.head())
 # camera_ready_df.to_csv(output_path, index=False)
 camera_ready_df.to_csv(output_path, index=False, quoting=csv.QUOTE_NONNUMERIC)
 print(f"\nSaved to {output_path}")
+
+#########
+# DEMOS
+#########
+# demo_df = pd.read_csv(paper_path)
+demo_df = pd.read_csv(paper_path, encoding="utf-8")
+demo_df = demo_df[demo_df["Paper type"].str.contains("demo", case=False, na=False)]
+
+#fix authors formatting
+demo_df["Authors"] = demo_df["Authors"].str.replace(r',\s*', ', ', regex=True)
+demo_df["Authors"] = demo_df["Authors"].str.replace(r';\s*', ', ', regex=True)
+
+demo_json = []
+for idx, row in enumerate(demo_df.itertuples(index=False), start=1):
+    demo_json.append({
+        "papernumber": idx,
+        "papertitle": row.Title,
+        "authors": row.Authors,
+        "link": "",
+        "demoday": "",
+        "demolocation": "",
+        "time": ""
+    })
+
+with open("../demos.json", "w") as f:
+    import json
+    # json.dump(demo_json, f, indent=2)
+    json.dump(demo_json, f, indent=2, ensure_ascii=False)
+
+print("Saved to ../demos.json")
