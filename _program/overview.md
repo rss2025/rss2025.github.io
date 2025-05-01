@@ -60,12 +60,14 @@ published: true
   }
 </style> -->
 
-
 <style>
   :root {
     --modern-indigo: #e0e7ff;
     --modern-soft-gold: #fef9c3;
     --modern-deep-red: #dc2626;
+    --modern-soft-red: #fcd5ce;
+    --modern-vibrant-orange: #fdba74;
+    --modern-soft-orange: #fdeacc;
     --modern-date-light: #f1f5f9;
     --modern-warm-gray: #f5f5f4;
     --modern-sky-blue: #bae6fd;
@@ -88,6 +90,11 @@ published: true
     color: white;
   }
 
+  .speaker-block {
+    background-color: var(--modern-vibrant-orange);
+    color: var(--modern-charcoal);
+  }
+
   .break-block {
     background-color: var(--modern-soft-gold);
     color: var(--modern-charcoal);
@@ -99,10 +106,11 @@ published: true
   }
 
   .highlight-block {
-    background-color: var(--modern-sky-blue);
+    background-color: var(--usc-gold);
     color: var(--modern-charcoal);
   }
 </style>
+
 
 <style>
   .schedule td {
@@ -112,7 +120,7 @@ published: true
   }
 
   .schedule td:hover {
-    filter: brightness(1.3);
+    filter: brightness(1.2);
     cursor: pointer;
   }
 </style>
@@ -129,26 +137,31 @@ published: true
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">9:00AM</td>
-              <td rowspan="19" class="workshop-block">RSS Pioneers</td>
-              <td rowspan="7" class="workshop-block">Workshops + RSS Pathways</td>
-              <!-- <td rowspan="3" class="session-block">4. Perception</td> -->
+              <!-- <td rowspan="19" class="workshop-block">RSS Pioneers</td> -->
+              <td rowspan="19" class="workshop-block">
+              <a href="{{ site.baseurl }}/program/pioneers/">RSS Pioneers</a>
+              </td>
+              <!-- <td rowspan="7" class="workshop-block">Workshops + RSS Pathways</td> -->
+              <td rowspan="7" class="workshop-block">
+              <a href="{{ site.baseurl }}/program/workshops/">Workshops</a> + <a href="{{ site.baseurl }}/program/pathways/">RSS Pathways</a>
+              </td>
               <td rowspan="3" class="session-block">
               <a href="{{ site.baseurl }}/program/papersession/?session=4.+Perception">4. Perception</a>
               </td>
-              <!-- <td rowspan="3" class="session-block">9. HRI</td> -->
               <td rowspan="3" class="session-block">
               <a href="{{ site.baseurl }}/program/papersession/?session=9.+HRI">9. HRI</a>
               </td>
-              <!-- <td rowspan="1" class="session-block">14. Robot Design</td> -->
               <td rowspan="1" class="session-block">
               <a href="{{ site.baseurl }}/program/papersession/?session=14.+Robot+Design">14. Robot Design</a>
               </td>
-              <td rowspan="19" class="workshop-block">Workshops + Tours</td>
+              <!-- <td rowspan="19" class="workshop-block">Workshops + Tours</td> -->
+              <td rowspan="19" class="workshop-block">
+              <a href="{{ site.baseurl }}/program/workshops/">Workshops</a> + Tours
+              </td>
               <td style="display:none;">&nbsp;</td>
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">9:30AM</td>
-              <!-- <td rowspan="2" class="session-block">15. Navigation</td> -->
               <td rowspan="2" class="session-block">
               <a href="{{ site.baseurl }}/program/papersession/?session=15.+Navigation">15. Navigation</a>
               </td>
@@ -170,9 +183,6 @@ published: true
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">11:30AM</td>
-              <!-- <td rowspan="2" class="session-block">5. Planning</td>
-              <td rowspan="2" class="session-block">10. Multi-Robot Systems</td>
-              <td rowspan="2" class="session-block">16.<br>Manipulation III</td> -->
               <td rowspan="2" class="session-block">
               <a href="{{ site.baseurl }}/program/papersession/?session=5.+Planning">5. Planning</a>
               </td>
@@ -202,10 +212,6 @@ published: true
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">2:00PM</td>
-              <!-- <td rowspan="2" class="session-block">1. Perception and Navigation</td>
-              <td rowspan="2" class="session-block">6.<br>Manipulation I</td>
-              <td rowspan="2" class="session-block">11.<br>Manipulation II</td>
-              <td rowspan="2" class="session-block">17. Imitation Learning II</td> -->
               <td rowspan="2" class="session-block">
               <a href="{{ site.baseurl }}/program/papersession/?session=1.+Perception+and+Navigation">1. Perception and Navigation</a>
               </td>
@@ -224,9 +230,15 @@ published: true
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">3:00PM</td>
-              <td rowspan="2" class="keynote-block">Keynote: Barbara Webb</td>
+              <!-- <td rowspan="2" class="keynote-block">Keynote: Barbara Webb</td> -->
+              <td rowspan="2" class="speaker-block">
+              <a href="{{ site.baseurl }}/program/keynote/" style="color: black">Keynote: Barbara Webb</a>
+              </td>
               <td rowspan="2" class="keynote-block">Past, Present, and Future Panel</td>
-              <td rowspan="2" class="keynote-block">Keynote: Trevor Darrell</td>
+              <!-- <td rowspan="2" class="keynote-block">Keynote: Trevor Darrell</td> -->
+              <td rowspan="2" class="speaker-block">
+              <a href="{{ site.baseurl }}/program/keynote/" style="color: black;">Keynote: Trevor Darrell</a>
+              </td>
               <td rowspan="2" class="keynote-block">Test of Time Award</td>
        </tr>
        <tr>
