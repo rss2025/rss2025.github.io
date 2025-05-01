@@ -9,12 +9,17 @@ def normalize_author_names(authors_str):
         parts = name.strip().split()
         normalized_parts = []
         for part in parts:
-            if len(part) == 1:  # Single-letter initial without a dot
-                normalized_parts.append(part.upper() + ".")
-            elif len(part) == 2 and part[1] == '.':  # Already an initial like "J."
-                normalized_parts.append(part.upper())
-            else:
-                normalized_parts.append(part.capitalize())
+            # Capitalize each subpart of a hyphenated name
+            subparts = part.split('-')
+            normalized_subparts = []
+            for sub in subparts:
+                if len(sub) == 1:  # Single-letter initial without a dot
+                    normalized_subparts.append(sub.upper() + ".")
+                elif len(sub) == 2 and sub[1] == '.':  # Already an initial like "J."
+                    normalized_subparts.append(sub.upper())
+                else:
+                    normalized_subparts.append(sub.capitalize())
+            normalized_parts.append('-'.join(normalized_subparts))
         return ' '.join(normalized_parts)
 
     authors = [normalize_name(name) for name in re.split(r',\s*', authors_str)]
