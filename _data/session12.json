@@ -1,58 +1,62 @@
 [
-    {
-        "Order": 1,
-        "Title": "Explore until Confident: Efficient Exploration for Embodied Question Answering",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 101,
-        "Authors": "Allen Z. Ren, Jaden Clark, Anushri Dixit, Masha Itkina, Anirudha Majumdar, Dorsa Sadigh"
-    },
-    {
-        "Order": 2,
-        "Title": "Octo: An Open-Source Generalist Robot Policy",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 102,
-        "Authors": "Dibya Ghosh, Homer Rich Walke, Karl Pertsch, Kevin Black, Oier Mees, Sudeep Dasari, Joey Hejna, Tobias Kreiman, Charles Xu, Jianlan Luo, You Liang Tan, Lawrence Yunliang Chen, Quan Vuong, Ted Xiao, Pannag R Sanketi, Dorsa Sadigh, Chelsea Finn, Sergey Levine"
-    },
-    {
-        "Order": 3,
-        "Title": "Demonstrating OK-Robot: What Really Matters in Integrating Open-Knowledge Models for Robotics",
-        "Location": "see demo schedule",
-        "PosterBoardNr": null,
-        "Authors": "Peiqi Liu, Yaswanth Orru, Jay Vakil, Chris Paxton, Nur Muhammad Mahi Shafiullah, Lerrel Pinto"
-    },
-    {
-        "Order": 4,
-        "Title": "Any-point Trajectory Modeling for Policy Learning",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 103,
-        "Authors": "Chuan Wen, Xingyu Lin, John Ian Reyes So, Kai Chen, Qi Dou, Yang Gao, Pieter Abbeel"
-    },
-    {
-        "Order": 5,
-        "Title": "Pushing the Limits of Cross-Embodiment Learning for Manipulation and Navigation",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 104,
-        "Authors": "Jonathan Heewon Yang, Catherine Glossop, Arjun Bhorkar, Dhruv Shah, Quan Vuong, Chelsea Finn, Dorsa Sadigh, Sergey Levine"
-    },
-    {
-        "Order": 6,
-        "Title": "DrEureka: Language Model Guided Sim-To-Real Transfer",
-        "Location": "Commissiekamer 2",
-        "PosterBoardNr": 201,
-        "Authors": "Yecheng Jason Ma, William Liang, Hung-Ju Wang, Yuke Zhu, Linxi Fan, Osbert Bastani, Dinesh Jayaraman"
-    },
-    {
-        "Order": 7,
-        "Title": "Set It Up!: Functional Object Arrangement with Compositional Generative Models",
-        "Location": "Commissiekamer 2",
-        "PosterBoardNr": 202,
-        "Authors": "Yiqing Xu, Jiayuan Mao, Yilun Du, Tomás Lozano-Pérez, Leslie Pack Kaelbling, David Hsu"
-    },
-    {
-        "Order": 8,
-        "Title": "Keypoint Action Tokens Enable In-Context Imitation Learning in Robotics",
-        "Location": "Commissiekamer 3",
-        "PosterBoardNr": 301,
-        "Authors": "Norman Di Palo, Edward Johns"
-    }
+  {
+    "title": "Safe Beyond the Horizon: Efficient Sampling-based MPC with Neural Control Barrier Functions",
+    "authors": "Ji Yin, Oswin So, Eric Yang Yu, Chuchu Fan, Panagiotis Tsiotras",
+    "keywords": "Control & Dynamics;Robot Planning;Autonomous Vehicle Navigation & Mobile Robots",
+    "pdf": ""
+  },
+  {
+    "title": "Dynamic Safety in Complex Environments: Synthesizing Safety Filters with Poisson\u00e2\u20ac\u2122s Equation",
+    "authors": "Gilbert Bahati, Ryan M. Bena, Aaron Ames",
+    "keywords": "Control & Dynamics;Autonomous Vehicle Navigation & Mobile Robots;Formal Methods for Robotics",
+    "pdf": ""
+  },
+  {
+    "title": "Bridging Model Predictive Control and Deep Learning for Scalable Reachability Analysis",
+    "authors": "Zeyuan Feng, Le Qiu, Somil Bansal",
+    "keywords": "Control & Dynamics",
+    "pdf": ""
+  },
+  {
+    "title": "Distilling Contact Planning for Fast Trajectory Optimization in Robot Air Hockey",
+    "authors": "Julius Jankowski, Ante Mari\u00c4\u2021, Puze Liu, Davide Tateo, Jan Peters, Sylvain Calinon",
+    "keywords": "Control & Dynamics;Robot Planning;Robot Learning: Model Learning",
+    "pdf": ""
+  },
+  {
+    "title": "Leveling the Playing Field: Carefully Comparing Classical and Learned Controllers for Quadrotor Trajectory Tracking",
+    "authors": "Pratik Kunapuli, Jake Welde, Dinesh Jayaraman, Vijay Kumar",
+    "keywords": "Control & Dynamics;Robot Learning: Reinforcement Learning;Field Robotics (e.g., Aerial, Agricultural, Construction, Space, Underwater Robotics)",
+    "pdf": ""
+  },
+  {
+    "title": "A Generic Continuous Multi-Joint Spinal Robotic System for Agile and Accurate Behaviors with GNN-MPC method",
+    "authors": "Ying Wu, Zida Zhou, RenmingLiu, Lanxiang Zheng, Hui Cheng",
+    "keywords": "Bioinspired Robots;Control & Dynamics;Mechanisms & Design",
+    "pdf": ""
+  },
+  {
+    "title": "Behavior Synthesis via Contact-Aware Fisher Information Maximization",
+    "authors": "Hrishikesh Sathyanarayan, Ian Abraham",
+    "keywords": "Control & Dynamics;Robot Learning: Model Learning;Robot Planning",
+    "pdf": ""
+  },
+  {
+    "title": "Geometric Gait Optimization for Kinodynamic Systems Using a Lie Group Integrator",
+    "authors": "Yanhao Yang, Ross Hatton",
+    "keywords": "Control & Dynamics;Robot Modeling & Simulation;Robot Planning",
+    "pdf": ""
+  },
+  {
+    "title": "Riemannian Direct Trajectory Optimization of Rigid Bodies on Matrix Lie Groups",
+    "authors": "Sangli Teng, Tzu-Yuan Lin, William A Clark, Ram Vasudevan, Maani Ghaffari",
+    "keywords": "Control & Dynamics;Robot Planning;Robot Modeling & Simulation",
+    "pdf": ""
+  },
+  {
+    "title": "Provably-Safe, Online System Identification",
+    "authors": "Bohao Zhang, zichang zhou, Ram Vasudevan",
+    "keywords": "Control & Dynamics;Robot Planning;Grasping & Manipulation",
+    "pdf": ""
+  }
 ]

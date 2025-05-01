@@ -1,58 +1,56 @@
 [
-    {
-        "Order": 1,
-        "Title": "An abstract theory of sensor eventification",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 117,
-        "Authors": "Yulin Zhang, Dylan Shell"
-    },
-    {
-        "Order": 2,
-        "Title": "Octopi: Object Property Reasoning with Large Tactile-Language Models",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 118,
-        "Authors": "Samson Yu, Lin Kelvin, Anxing Xiao, Jiafei Duan, Harold Soh"
-    },
-    {
-        "Order": 3,
-        "Title": "3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 119,
-        "Authors": "Yanjie Ze, Gu Zhang, Kangning Zhang, Chenyuan Hu, Muhan Wang, Huazhe Xu"
-    },
-    {
-        "Order": 4,
-        "Title": "HRP: Human affordances for Robotic Pre-training",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 120,
-        "Authors": "Mohan Kumar Srirama, Sudeep Dasari, Shikhar Bahl, Abhinav Gupta"
-    },
-    {
-        "Order": 5,
-        "Title": "MIRAGE: Cross-Embodiment Zero-Shot Policy Transfer with Cross-Painting",
-        "Location": "Commissiekamer 2",
-        "PosterBoardNr": 209,
-        "Authors": "Lawrence Yunliang Chen, Karthik Dharmarajan, Kush Hari, Chenfeng Xu, Quan Vuong, Ken Goldberg"
-    },
-    {
-        "Order": 6,
-        "Title": "Broadcasting Support Relations Recursively from Local Dynamics for Object Retrieval in Clutters",
-        "Location": "Commissiekamer 2",
-        "PosterBoardNr": 210,
-        "Authors": "Yitong Li, Ruihai Wu, Haoran Lu, Chuanruo Ning, Yan Shen, Guanqi Zhan, Hao Dong"
-    },
-    {
-        "Order": 7,
-        "Title": "Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation",
-        "Location": "Commissiekamer 3",
-        "PosterBoardNr": 309,
-        "Authors": "Aaditya Prasad, Kevin Lin, Jimmy Wu, Linqi Zhou, Jeannette Bohg"
-    },
-    {
-        "Order": 8,
-        "Title": "CLOSURE: Fast Quantification of Pose Uncertainty Sets",
-        "Location": "Commissiekamer 3",
-        "PosterBoardNr": 310,
-        "Authors": "Yihuai Gao, Yukai Tang, Han Qi, Heng Yang"
-    }
+  {
+    "title": "Multi-Layer Safety for Multi-Agent Reinforcement Learning",
+    "authors": "Jasmine Jerry Aloor, Jason Jangho Choi, Jingqi Li, Maria G. Mendoza, Hamsa Balakrishnan, Claire Tomlin",
+    "keywords": "Multi-Robot & Networked Systems;Autonomous Vehicle Navigation & Mobile Robots;Robot Learning: Reinforcement Learning",
+    "pdf": ""
+  },
+  {
+    "title": "FERMI: Flexible Radio Mapping with a Hybrid Propagation Model and Scalable Autonomous Data Collection",
+    "authors": "Yiming Luo, Yunfei Wang, Hongming Chen, Chengkai Wu, Ximin Lyu, JINNI ZHOU, Jun Ma, Fu Zhang, Boyu Zhou",
+    "keywords": "Multi-Robot & Networked Systems;Autonomous Vehicle Navigation & Mobile Robots;Robot Planning",
+    "pdf": ""
+  },
+  {
+    "title": "Online Competitive Information Gathering for Partially Observable Trajectory Games",
+    "authors": "Mel Krusniak, Hang Xu, Online Competitive Information Gathering for Partially Observable Trajectory Games, Forrest John Laine",
+    "keywords": "Multi-Robot & Networked Systems;Robot Planning;Robot Learning: Reinforcement Learning",
+    "pdf": ""
+  },
+  {
+    "title": "Collaborative Object Transportation in Space via Impact Interactions",
+    "authors": "Joris Verhagen, Jana Tumova",
+    "keywords": "Multi-Robot & Networked Systems;Control & Dynamics;Robot Planning",
+    "pdf": ""
+  },
+  {
+    "title": "APEX-MR: Multi-Robot Asynchronous Planning and Execution for Cooperative Assembly",
+    "authors": "Philip Huang, Ruixuan Liu, Shobhit Aggarwal, Changliu Liu, Jiaoyang Li",
+    "keywords": "Multi-Robot & Networked Systems;Robot Planning;Assembly, Logistics and Manufacturing",
+    "pdf": ""
+  },
+  {
+    "title": "Hierarchical Temporal Logic Task and Motion Planning for Multi-Robot Systems",
+    "authors": "Zhongqi Wei, Xusheng Luo, Changliu Liu",
+    "keywords": "Robot Planning;Formal Methods for Robotics;Assembly, Logistics and Manufacturing",
+    "pdf": ""
+  },
+  {
+    "title": "A Probabilistic Measure of Multi-Robot Connectivity and Ergodic Optimal Control",
+    "authors": "Yongce Liu, Zhongqiang Ren",
+    "keywords": "Multi-Robot & Networked Systems;Robot Planning;Control & Dynamics",
+    "pdf": ""
+  },
+  {
+    "title": "How to Coordinate UAVs and UGVs for Efficient Mission Planning? Optimizing Energy-Constrained Cooperative Routing with a DRL Framework",
+    "authors": "Mohammad Safwan Mondal, Subramanian Ramasamy, Pranav Bhounsule",
+    "keywords": "Robot Learning: Reinforcement Learning;Robot Planning;Multi-Robot & Networked Systems",
+    "pdf": ""
+  },
+  {
+    "title": "Influence of Static and Dynamic Downwash Interactions on Multi-Quadrotor Systems",
+    "authors": "Anoop Kiran, Nora Ayanian, Kenneth Breuer",
+    "keywords": "Multi-Robot & Networked Systems;Control & Dynamics;Field Robotics (e.g., Aerial, Agricultural, Construction, Space, Underwater Robotics)",
+    "pdf": ""
+  }
 ]

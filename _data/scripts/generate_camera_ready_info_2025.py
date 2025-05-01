@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 from datetime import datetime
+import csv
 
 #filepaths
 paper_path = "../rss2025PaperSessions_data.csv"
@@ -14,6 +15,9 @@ df_program = pd.read_csv(program_path)
 #filter papers
 df = df[df["Paper type"].str.lower() != "demo"]
 df = df.drop_duplicates(subset=["Paper No"])
+
+#fix numbers because of demos skipped
+df["OrderinSession"] = df.groupby("Session Name").cumcount() + 1
 
 def extract_session_number(session_str):
     match = re.match(r"(\d+)", str(session_str))
@@ -56,15 +60,24 @@ canonical_session_map = df_program_sessions.set_index("Number")["SessionName"].t
 canonical_session_title_map = df_program_sessions.set_index("Number")["Title"].to_dict()
 
 #assign canonical names to papers
-df["PaperID"] = df.apply(lambda row: f"S{row['SessionNum']}.{row['Order']}", axis=1)
+df["PaperID"] = df.apply(lambda row: f"S{row['SessionNum']}.{row['OrderinSession']}", axis=1)
 df["CleanSessionName"] = df["SessionNum"].map(canonical_session_title_map)
+
+#ensure authors are comma separated with a space
+df["Authors"] = df["Authors"].str.replace(r',\s*', ', ', regex=True)
+df["Authors"] = df["Authors"].str.replace(r';\s*', ', ', regex=True)
+
+#hacks to fix greek letters in specific titles
+df["Title"] = df["Title"].str.replace(r'\$\s*\\?pi\s*_0\s*\$', 'π₀', regex=True)
 
 #final dataframe
 camera_ready_df = pd.DataFrame({
     "PaperID": df["PaperID"],
     "PaperTitle": df["Title"],
     "AuthorNames": df["Authors"],
-    "SessionName": df["CleanSessionName"]
+    "CleanSessionName": df["CleanSessionName"],
+    "SessionName": df["SessionNum"].map(canonical_session_map),
+    "OrderinSession": df["OrderinSession"],
 })
 
 #debug print
@@ -76,5 +89,6 @@ print("\n=== Final Paper Rows ===")
 print(camera_ready_df.head())
 
 #save
-camera_ready_df.to_csv(output_path, index=False)
+# camera_ready_df.to_csv(output_path, index=False)
+camera_ready_df.to_csv(output_path, index=False, quoting=csv.QUOTE_NONNUMERIC)
 print(f"\nSaved to {output_path}")

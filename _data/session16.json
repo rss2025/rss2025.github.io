@@ -1,58 +1,62 @@
 [
-    {
-        "Order": 1,
-        "Title": "Tilde: Teleoperation for Dexterous In-Hand Manipulation Learning with a DeltaHand",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 101,
-        "Authors": "Zilin Si, Kevin Lee Zhang, Zeynep Temel, Oliver Kroemer"
-    },
-    {
-        "Order": 2,
-        "Title": "HACMan++: Spatially-Grounded Motion Primitives for Manipulation",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 103,
-        "Authors": "Bowen Jiang, Yilin Wu, Wenxuan Zhou, Chris Paxton, David Held"
-    },
-    {
-        "Order": 3,
-        "Title": "RoboPack: Learning Tactile-Informed Dynamics Models for Dense Packing",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 105,
-        "Authors": "Bo Ai, Stephen Tian, Haochen Shi, Yixuan Wang, Cheston Tan, Yunzhu Li, Jiajun Wu"
-    },
-    {
-        "Order": 4,
-        "Title": "Configuration Space Distance Fields for Manipulation Planning",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 107,
-        "Authors": "Yiming Li, Xuemin Chi, Amirreza Razmjoo, Sylvain Calinon"
-    },
-    {
-        "Order": 5,
-        "Title": "Towards Tight Convex Relaxations for Contact-Rich Manipulation",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 109,
-        "Authors": "Bernhard Paus Graesdal, Shao Yuan Chew Chia, Tobia Marcucci, Savva Morozov, Alexandre Amice, Pablo Parrilo, Russ Tedrake"
-    },
-    {
-        "Order": 6,
-        "Title": "THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 111,
-        "Authors": "Wilbert Pumacay, Ishika Singh, Jiafei Duan, Ranjay Krishna, Jesse Thomason, Dieter Fox"
-    },
-    {
-        "Order": 7,
-        "Title": "One-Shot Imitation Learning with Invariance Matching for Robotic Manipulation",
-        "Location": "Commissiekamer 3",
-        "PosterBoardNr": 301,
-        "Authors": "Xinyu Zhang, Abdeslam Boularias"
-    },
-    {
-        "Order": 8,
-        "Title": "Tactile-Driven Non-Prehensile Object Manipulation via Extrinsic Contact Mode Control",
-        "Location": "Commissiekamer 3",
-        "PosterBoardNr": 303,
-        "Authors": "Miquel Oller, Dmitry Berenson, Nima Fazeli"
-    }
+  {
+    "title": "Prompting with the Future: Open-World Model Predictive Control with Interactive Digital Twins",
+    "authors": "Chuanruo Ning, Kuan Fang, Wei-Chiu Ma",
+    "keywords": "Grasping & Manipulation;Robot Planning;Robot Learning: Foundation Models",
+    "pdf": ""
+  },
+  {
+    "title": "Novel Demonstration Generation with Gaussian Splatting Enables Robust One-Shot Manipulation",
+    "authors": "Sizhe Yang, Wenye Yu, Jia Zeng, Jun Lv, Kerui Ren, Cewu Lu, Dahua Lin, Jiangmiao Pang",
+    "keywords": "Grasping & Manipulation;Robot Learning: Imitation Learning;Robot Learning: Model Learning",
+    "pdf": ""
+  },
+  {
+    "title": "STDArm: Transfer Visuomotor Policy From Static Data Training to Dynamic Robot Manipulation",
+    "authors": "Yifan Duan, Heng Li, Yilong Wu, Wenhao Yu, xinran zhang, Yedong Shen, Jianmin Ji, Yanyong Zhang",
+    "keywords": "Grasping & Manipulation;Robot Learning: Imitation Learning;Field Robotics (e.g., Aerial, Agricultural, Construction, Space, Underwater Robotics)",
+    "pdf": ""
+  },
+  {
+    "title": "PartInstruct: Part-level Instruction Following for Fine-grained Robot Manipulation",
+    "authors": "Yifan Yin, Zhengtao Han, Shivam Aarya, Shuhang Xu, Jianxin Wang, Jiawei Peng, Angtian Wang, Alan Yuille, Tianmin Shu",
+    "keywords": "Robot Learning: Datasets and Benchmarks;Robot Learning: Imitation Learning;Grasping & Manipulation",
+    "pdf": ""
+  },
+  {
+    "title": "You Only Teach Once: Learn One-Shot Bimanual Robotic Manipulation from Video Demonstrations",
+    "authors": "Huayi Zhou, Ruixiang Wang, Yunxin Tai, Yueci Deng, Guiliang Liu, Kui Jia",
+    "keywords": "Grasping & Manipulation;Human-Robot Interaction;Robot Learning: Imitation Learning",
+    "pdf": ""
+  },
+  {
+    "title": "Manual2Skill: Learning to Read Manuals and Acquire Robotic Skills for Furniture Assembly Using Vision-Language Models",
+    "authors": "Chenrui Tie, Shengxiang Sun, Jinxuan Zhu, Yiwei Liu, Jingxiang Guo, Yue Hu, Haonan Chen, Junting Chen, Ruihai Wu, Lin Shao",
+    "keywords": "Cognitive Modeling & Knowledge Representation for Robots;Assembly, Logistics and Manufacturing;Robot Learning: Foundation Models",
+    "pdf": ""
+  },
+  {
+    "title": "Sketch-to-Skill: Bootstrapping Robot Learning with Human Drawn Trajectory Sketches",
+    "authors": "Peihong Yu, Amisha Bhaskar, Anukriti Singh, Zahiruddin Mahammad, Pratap Tokekar",
+    "keywords": "Grasping & Manipulation;Robot Learning: Reinforcement Learning;Robot Learning: Imitation Learning",
+    "pdf": ""
+  },
+  {
+    "title": "RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation",
+    "authors": "Kun Wu, Chengkai Hou, Jiaming Liu, Zhengping Che, Xiaozhu Ju, Zhuqin Yang, Meng Li, Yinuo Zhao, Zhiyuan Xu, Guang Yang, Shichao Fan, Xinhua Wang, Fei Liao, Zhen Zhao, Guangyu Li, Zhao Jin, Lecheng Wang, Jilei Mao, Ning Liu, Pei Ren, Qiang Zhang, Yaoxu Lyu, Mengzhen Liu, He Jingyang, Yulin Luo, Zeyu Gao, Chenxuan Li, Chenyang Gu, Yankai Fu, Di Wu, Xingyu Wang, Sixiang Chen, Zhenyu Wang, Pengju An, Siyuan Qian, Shanghang Zhang, Jian Tang",
+    "keywords": "Robot Learning: Foundation Models;Robot Learning: Datasets and Benchmarks",
+    "pdf": ""
+  },
+  {
+    "title": "PIN-WM: Learning Physics-INformed World Models for Non-Prehensile Manipulation",
+    "authors": "Wenxuan Li, Hang Zhao, Zhiyuan Yu, Yu Du, Qin Zou, Ruizhen Hu, Kai Xu",
+    "keywords": "Grasping & Manipulation;Robot Learning: Model Learning;Robot Learning: Reinforcement Learning",
+    "pdf": ""
+  },
+  {
+    "title": "Hierarchical and Modular Network on Non-prehensile Manipulation in General Environments",
+    "authors": "Yoonyoung Cho, Junhyek Han, Jisu Han, Beomjoon Kim",
+    "keywords": "Grasping & Manipulation;Robot Learning: Reinforcement Learning",
+    "pdf": ""
+  }
 ]

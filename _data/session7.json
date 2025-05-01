@@ -1,51 +1,62 @@
 [
-    {
-        "Order": 1,
-        "Title": "RT-H: Action Hierarchies using Language",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 101,
-        "Authors": "Suneel Belkhale, Tianli Ding, Ted Xiao, Pierre Sermanet, Quan Vuong, Jonathan Tompson, Yevgen Chebotar, Debidatta Dwibedi, Dorsa Sadigh"
-    },
-    {
-        "Order": 2,
-        "Title": "RoboCasa: Large-Scale Simulation of Household Tasks for Generalist Robots",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 102,
-        "Authors": "Soroush Nasiriany, Abhiram Maddukuri, Lance Zhang, Adeet Parikh, Aaron Lo, Abhishek Joshi, Ajay Mandlekar, Yuke Zhu"
-    },
-    {
-        "Order": 3,
-        "Title": "Render and Diffuse: Aligning Image and Action Spaces for Diffusion-based Behaviour Cloning",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 103,
-        "Authors": "Vitalis Vosylius, Younggyo Seo, Jafar Uruç, Stephen James"
-    },
-    {
-        "Order": 4,
-        "Title": "Vid2Robot: End-to-end Video-conditioned Policy Learning with Cross-Attention Transformers",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 104,
-        "Authors": "Vidhi Jain, Maria Attarian, Nikhil J Joshi, Ayzaan Wahid, Danny Driess, Quan Vuong, Pannag R Sanketi, Pierre Sermanet, Stefan Welker, Christine Chan, Igor Gilitschenski, Yonatan Bisk, Debidatta Dwibedi"
-    },
-    {
-        "Order": 5,
-        "Title": "Offline Imitation Learning Through Graph Search and Retrieval",
-        "Location": "Commissiekamer 2",
-        "PosterBoardNr": 201,
-        "Authors": "Zhao-Heng Yin, Pieter Abbeel"
-    },
-    {
-        "Order": 6,
-        "Title": "RVT-2: Learning Precise Manipulation from Few Demonstrations",
-        "Location": "Commissiekamer 2",
-        "PosterBoardNr": 202,
-        "Authors": "Ankit Goyal, Valts Blukis, Jie Xu, Yijie Guo, Yu-Wei Chao, Dieter Fox"
-    },
-    {
-        "Order": 7,
-        "Title": "Imitation Bootstrapped Reinforcement Learning",
-        "Location": "Commissiekamer 3",
-        "PosterBoardNr": 301,
-        "Authors": "Hengyuan Hu, Suvir Mirchandani, Dorsa Sadigh"
-    }
+  {
+    "title": "AMO: Adaptive Motion Optimization for Hyper-Dexterous Humanoid Whole-Body Control",
+    "authors": "Jialong Li, Xuxin Cheng, Tianshu Huang, Shiqi Yang, Ri-Zhao Qiu, Xiaolong Wang",
+    "keywords": "Humanoid & Walking Robots;Robot Learning: Imitation Learning;Robot Learning: Reinforcement Learning",
+    "pdf": ""
+  },
+  {
+    "title": "Demonstrating Berkeley Humanoid Lite: An Open-source, Accessible, and Customizable 3D-printed Humanoid Robot",
+    "authors": "Yufeng Chi, Qiayuan Liao, Junfeng Long, Xiaoyu Huang, Sophia Shao, Borivoje Nikolic, Zhongyu Li, Koushil Sreenath",
+    "keywords": "Mechanisms & Design;Humanoid & Walking Robots",
+    "pdf": ""
+  },
+  {
+    "title": "Learning Getting-Up Policies for Real-World Humanoid Robots",
+    "authors": "Xialin He, Runpei Dong, Zixuan Chen, Saurabh Gupta",
+    "keywords": "Humanoid & Walking Robots;Robot Learning: Reinforcement Learning;Control & Dynamics",
+    "pdf": ""
+  },
+  {
+    "title": "Learning Humanoid Standing-up Control across Diverse Postures",
+    "authors": "Tao Huang, Junli Ren, Huayi Wang, ZiRui Wang, Qingwei Ben, Muning Wen, Xiao Chen, Jianan Li, Jiangmiao Pang",
+    "keywords": "Humanoid & Walking Robots;Control & Dynamics;Robot Planning",
+    "pdf": ""
+  },
+  {
+    "title": "End-to-end Learning of Humanoid Whole-body Control from Natural Language",
+    "authors": "Yiyang Shao, Bike Zhang, Qiayuan Liao, Xiaoyu Huang, Yuman Gao, Yufeng Chi, Zhongyu Li, Sophia Shao, Koushil Sreenath",
+    "keywords": "Humanoid & Walking Robots;Robot Learning: Reinforcement Learning;Robot Learning: Imitation Learning",
+    "pdf": ""
+  },
+  {
+    "title": "ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills",
+    "authors": "Tairan He, Jiawei Gao, Wenli Xiao, Yuanhang Zhang, Zi Wang, Jiashun Wang, Zhengyi Luo, Guanqi He, Nikhil Sobanbabu, Chaoyi Pan, Zeji Yi, Guannan Qu, Kris Kitani, Jessica K. Hodgins, Linxi Fan, Yuke Zhu, Changliu Liu, Guanya Shi",
+    "keywords": "Robot Learning: Reinforcement Learning;Humanoid & Walking Robots;Control & Dynamics",
+    "pdf": ""
+  },
+  {
+    "title": "A Unified and General Humanoid Whole-Body Controller for Fine-Grained Locomotion",
+    "authors": "Yufei Xue, Wentao Dong, Minghuan Liu, Weinan Zhang, Jiangmiao Pang",
+    "keywords": "Robot Learning: Reinforcement Learning;Humanoid & Walking Robots;Control & Dynamics",
+    "pdf": ""
+  },
+  {
+    "title": "BeamDojo: Learning Agile Humanoid Locomotion on Sparse Footholds",
+    "authors": "Huayi Wang, ZiRui Wang, Junli Ren, Qingwei Ben, Tao Huang, Weinan Zhang, Jiangmiao Pang",
+    "keywords": "Robot Learning: Reinforcement Learning;Humanoid & Walking Robots;Control & Dynamics",
+    "pdf": ""
+  },
+  {
+    "title": "Gait-Net-augmented Implicit Kino-dynamic MPC for Dynamic Variable-frequency Humanoid Locomotion over Discrete Terrains",
+    "authors": "Junheng Li, Ziwei Duan, Junchao Ma, Quan Nguyen",
+    "keywords": "Humanoid & Walking Robots;Control & Dynamics;Robot Planning",
+    "pdf": ""
+  },
+  {
+    "title": "HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit",
+    "authors": "Qingwei Ben, Feiyu Jia, Jia Zeng, Junting Dong, Dahua Lin, Jiangmiao Pang",
+    "keywords": "Humanoid & Walking Robots;Robot Learning: Reinforcement Learning;Human-Robot Interaction",
+    "pdf": ""
+  }
 ]

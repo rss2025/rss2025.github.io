@@ -1,6 +1,8 @@
 import pandas as pd
 import re
 from datetime import datetime
+import os
+import json
 
 USE_PROGRAM_SESSION_NAMES = True  # Toggle this flag to switch naming source
 
@@ -166,7 +168,8 @@ for original in df_papers["Session Name"].dropna().unique():
                 date, time = val
                 break
 
-    session_link = display_name.lower().replace(' ', '_').replace('.', '').replace('&', 'and')
+    session_link = f"session{number}"
+
     session_rows.append({
         "Date": date,
         "Time": time,
@@ -199,4 +202,51 @@ print("\n=== Final Sorted Output ===")
 print(df_out.to_string(index=False))
 
 df_out.to_csv(output_path, index=False)
-print(f"\n✅ Saved to {output_path}")
+print(f"\nSaved to {output_path}")
+
+#generate session .json files
+session_json_dir = "../session_jsons"
+os.makedirs(session_json_dir, exist_ok=True)
+
+#mapping of session name to session number
+session_num_lookup = {}
+for _, row in df_out.iterrows():
+    match = re.match(r"(\d+)\.", row["SessionName"])
+    if match:
+        number = int(match.group(1))
+        key = normalize_title(row["SessionName"].split(". ", 1)[1])
+        session_num_lookup[key] = number
+
+#quick fix not finding normalized session name
+session_num_lookup["vla"] = 2
+
+#normalize the session title for matching
+def get_session_key(title):
+    match = re.match(r"(\d+)\s*-\s*(.+)", title)
+    if match:
+        return normalize_title(match.group(2).strip())
+    return normalize_title(title)
+
+#generate .json file per session
+for session_name, group in df_papers.groupby("Session Name"):
+    key = get_session_key(session_name)
+    session_number = session_num_lookup.get(key)
+    if session_number is None:
+        print(f"⚠️ Could not find session number for: {session_name}")
+        continue
+
+    papers = []
+    for _, paper in group.iterrows():
+        papers.append({
+            "title": paper["Title"],
+            "authors": ", ".join(str(paper["Authors"]).replace(";", ",").split(",")),
+            "keywords": paper.get("Keywords", ""),
+            "pdf": paper.get("PDF_Link", ""),
+        })
+
+    session_link = df_out[df_out["SessionName"].str.startswith(f"{session_number}.")]["SessionLink"].values[0]
+    out_path = os.path.join(session_json_dir, f"{session_link}.json")
+    with open(out_path, "w") as f:
+        json.dump(papers, f, indent=2)
+
+    print(f"Wrote {out_path}")

@@ -1,58 +1,56 @@
 [
-    {
-        "Order": 1,
-        "Title": "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 113,
-        "Authors": "Alexander Khazatsky, Karl Pertsch, Suraj Nair, Ashwin Balakrishna, Sudeep Dasari, Siddharth Karamcheti, Soroush Nasiriany, Mohan Kumar Srirama, Lawrence Yunliang Chen, Kirsty Ellis, Peter David Fagan, Joey Hejna, Masha Itkina, Marion Lepert, Yecheng Jason Ma, Patrick Tree Miller, Jimmy Wu, Suneel"
-    },
-    {
-        "Order": 2,
-        "Title": "Multimodal Diffusion Transformer: Learning Versatile Behavior from Multimodal Goals",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 115,
-        "Authors": "Moritz Reuss, Ömer Erdinç Yağmurlu, Fabian Wenzel, Rudolf Lioutikov"
-    },
-    {
-        "Order": 3,
-        "Title": "Don't Start From Scratch: Behavioral Refinement via Interpolant-based Policy Diffusion",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 117,
-        "Authors": "Kaiqi Chen, Eugene Lim, Lin Kelvin, Yiyang Chen, Harold Soh"
-    },
-    {
-        "Order": 4,
-        "Title": "Learning Manipulation by Predicting Interaction",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 119,
-        "Authors": "Jia Zeng, Qingwen Bu, Bangjun Wang, Wenke Xia, Li Chen, Hao Dong, Haoming Song, Dong Wang, Di Hu, Ping Luo, Heming Cui, Bin Zhao, Xuelong Li, Yu Qiao, Hongyang Li"
-    },
-    {
-        "Order": 5,
-        "Title": "URDFormer: A Pipeline for Constructing Articulated Simulation Environments from Real-World Images",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 121,
-        "Authors": "Qiuyu Chen, Aaron Walsman, Marius Memmel, Kaichun Mo, Alex Fang, Dieter Fox, Abhishek Gupta"
-    },
-    {
-        "Order": 6,
-        "Title": "Learning to Learn Faster from Human Feedback with Language Model Predictive Control",
-        "Location": "Commissiekamer 3",
-        "PosterBoardNr": 305,
-        "Authors": "Jacky Liang, Fei Xia, Wenhao Yu, Andy Zeng, Maria Attarian, Maria Bauza Villalonga, Matthew Bennice, Alex Bewley, Adil Dostmohamed, Chuyuan Fu, Nimrod Gileadi, Marissa Giustina, Keerthana Gopalakrishnan, Leonard Hasenclever, Jan Humplik, Jasmine Hsu, Nikhil J Joshi, Ben Jyenis, J Chase"
-    },
-    {
-        "Order": 7,
-        "Title": "Natural Language Can Help Bridge the Sim2Real Gap",
-        "Location": "Commissiekamer 3",
-        "PosterBoardNr": 307,
-        "Authors": "Albert Yu, Adeline Foote, Ray Mooney, Roberto Martín-Martín"
-    },
-    {
-        "Order": 8,
-        "Title": "PoCo: Policy Composition from and for Heterogeneous Robot Learning",
-        "Location": "Commissiekamer 3",
-        "PosterBoardNr": 309,
-        "Authors": "Lirui Wang, Jialiang Zhao, Yilun Du, Edward Adelson, Russ Tedrake"
-    }
+  {
+    "title": "Bridging Perception and Action: Spatially-Grounded Mid-Level Representations for Robot Generalization",
+    "authors": "Jonathan Heewon Yang, Chuyuan Fu, Dhruv Shah, Dorsa Sadigh, Fei Xia, Tingnan Zhang",
+    "keywords": "Robot Learning: Imitation Learning;Grasping & Manipulation;Robot Learning: Model Learning",
+    "pdf": ""
+  },
+  {
+    "title": "ArticuBot: Learning Universal Articulated Object Manipulation Policy via Large Scale Simulation",
+    "authors": "Yufei Wang, Ziyu Wang, Mino Nakura, Pratik Bhowal, Chia-Liang Kuo, Yi-Ting Chen, Zackory Erickson, David Held",
+    "keywords": "Robot Learning: Imitation Learning;Grasping & Manipulation;Robot Learning: Foundation Models",
+    "pdf": ""
+  },
+  {
+    "title": "DemoGen: Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning",
+    "authors": "Zhengrong Xue, Shuying Deng, Zhenyang Chen, Yixuan Wang, Zhecheng Yuan, Huazhe Xu",
+    "keywords": "Robot Learning: Imitation Learning;Grasping & Manipulation;Robot Learning: Datasets and Benchmarks",
+    "pdf": ""
+  },
+  {
+    "title": "IMLE Policy: Fast and Sample Efficient Visuomotor Policy Learning via Implicit Maximum Likelihood Estimation",
+    "authors": "Krishan Rana, Robert Lee, David Pershouse, Niko Suenderhauf",
+    "keywords": "Robot Learning: Imitation Learning;Grasping & Manipulation;Robot Learning: Model Learning",
+    "pdf": ""
+  },
+  {
+    "title": "Dynamic Rank Adjustment in Diffusion Policies for Efficient and Flexible Training",
+    "authors": "Xiatao Sun, Shuo Yang, Yinxing Chen, Francis Fan, Yiyan (Edgar) Liang, Daniel Rakita",
+    "keywords": "Robot Learning: Imitation Learning;Grasping & Manipulation;Robot Planning",
+    "pdf": ""
+  },
+  {
+    "title": "Gripper Pose and Object Pointflow as Interfaces for Robotic Bimanual Manipulation",
+    "authors": "Yuyin Yang, Zetao Cai, Yang Tian, Jia Zeng, Jiangmiao Pang",
+    "keywords": "Robot Learning: Imitation Learning;Grasping & Manipulation;Robot Perception, Sensing & Vision",
+    "pdf": ""
+  },
+  {
+    "title": "SKIL: Semantic Keypoint Imitation Learning for Generalizable Data-efficient Manipulation",
+    "authors": "Shengjie Wang, Jiacheng You, Yihang Hu, Jiongye Li, Yang Gao",
+    "keywords": "Robot Learning: Imitation Learning;Grasping & Manipulation;Robot Planning",
+    "pdf": ""
+  },
+  {
+    "title": "Diffeomorphic Obstacle Avoidance for Contractive Dynamical Systems via Implicit Representations",
+    "authors": "Ken-Joel Simmoteit, Philipp Schillinger, Leonel Rozo",
+    "keywords": "Robot Learning: Imitation Learning;Control & Dynamics;Grasping & Manipulation",
+    "pdf": ""
+  },
+  {
+    "title": "Learning Interpretable Features from Interventions",
+    "authors": "Erin Hedlund-Botti, Julianna Schalkwyk, Nina Marie Moorman, Chuxuan Yang, Lakshmi Seelam, Sanne van Waveren, Russell Perkins, Paul Robinette, Matthew Craig Gombolay",
+    "keywords": "Robot Learning: Imitation Learning;Assistive, Entertainment and Service Robots;Human-Robot Interaction",
+    "pdf": ""
+  }
 ]

@@ -71,7 +71,7 @@ The overview of the conference program is available <a href="{{ site.baseurl }}/
  {% for paper in site.data.rss2025CameraReadyInfo %}
  <tr session="{{ paper.SessionName }}">
     <td width="5%" height="100px">{{ paper.PaperID }}</td>
-    <td width="15%" height="100px"><span style="font-size: smaller;">{{ paper.SessionName }}</span></td>
+    <td width="15%" height="100px"><span style="font-size: smaller;">{{ paper.CleanSessionName }}</span></td>
     <td width="40%" height="100px"><a href="{{ site.baseurl }}/program/papers/{{ paper.PaperIDZeroes }}/"><b>{{ paper.PaperTitle }}</b></a></td>
     <td width="40%" height="100px">
       {{ paper.AuthorNames | replace: ';', ',' | truncatewords: 40, "&nbsp;<button type='button' class='collapsible' style='border:none;background:none;font-size:smaller;color:#222299;'>...more&gt;</button>" }}

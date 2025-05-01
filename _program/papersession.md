@@ -4,7 +4,7 @@ title: Paper Sessions
 description: Paper Sessions
 priority: 11
 invisible: true
-published: false
+published: true
 ---
 
 <div class="page" id="inner-content">
@@ -58,12 +58,13 @@ published: false
     <th>Title</th>
     <th>Authors</th>
   </tr>
- {% for paper in site.data.rss2024CameraReadyInfo %}
+ {% for paper in site.data.rss2025CameraReadyInfo %}
  <tr session="{{ paper.SessionName }}">
     <td width="5%" height="100px">{{paper.OrderinSession }}</td>
-    <td width="45%" height="100px" ><a href="{{ site.baseurl }}/program/papers/{{ paper.PaperIDZeroes
-}}/"><b>{{paper.PaperTitle}}</b></a></td>
-    <!-- <td width="40%" height="100px">{{paper.AuthorNames | replace: ';', ','}}</td> -->
+    <!-- comment this for now to disable paper links -->
+    <!-- <td width="45%" height="100px" ><a href="{{ site.baseurl }}/program/papers/{{ paper.PaperIDZeroes
+}}/"><b>{{paper.PaperTitle}}</b></a></td> -->
+    <td width="45%" height="100px"><b>{{ paper.PaperTitle }}</b></td>
     <td width="40%" height="100px">{{ paper.AuthorNames | replace: ';', ',' | truncatewords: 40, "&nbsp;<button type='button' class='collapsible' style='border:none;background:none;font-size:smaller;color:#222299;'>...more&gt;</button>"}}
       <div class="content" style="display:none; padding-top:20px;">
         {{ paper.AuthorNames | replace: ';', ','}}

@@ -1,58 +1,56 @@
 [
   {
-    "Order": 1,
-    "Title": "Stein Variational Ergodic Search",
-    "Location": "Senaatszaal",
-    "PosterBoardNr": 101,
-    "Authors": "Darrick Lee, Cameron Lerch, Fabio Ramos, Ian Abraham"
+    "title": "Learned Perceptive Forward Dynamics Model for Safe and Platform-aware Robotic Navigation",
+    "authors": "Pascal Roth, Jonas Frey, Cesar Cadena, Marco Hutter",
+    "keywords": "Robot Learning: Model Learning;Autonomous Vehicle Navigation & Mobile Robots;Robot Planning",
+    "pdf": ""
   },
   {
-    "Order": 2,
-    "Title": "Parallel and Proximal Linear-Quadratic Methods for Real-Time Constrained Model-Predictive Control",
-    "Location": "Senaatszaal",
-    "PosterBoardNr": 102,
-    "Authors": "Wilson Jallet, Ewen Dantec, Etienne Arlaud, Nicolas Mansard, Justin Carpentier"
+    "title": "Demonstrating ViSafe: Vision-enabled Safety for High-speed Detect and Avoid",
+    "authors": "Parv kapoor, Ian Higgins, Nikhil Varma Keetha, Jay Patrikar, Brady Moon, Zelin Ye, Yao He, Ivan Cisneros, Changliu Liu, Eunsuk Kang, Sebastian Scherer",
+    "keywords": "Field Robotics (e.g., Aerial, Agricultural, Construction, Space, Underwater Robotics);Autonomous Vehicle Navigation & Mobile Robots;Formal Methods for Robotics",
+    "pdf": ""
   },
   {
-    "Order": 3,
-    "Title": "Differentiable Robust Model Predictive Control",
-    "Location": "Senaatszaal",
-    "PosterBoardNr": 103,
-    "Authors": "Alex Oshin, Hassan Almubarak, Evangelos Theodorou"
+    "title": "Self-supervised Multi-future Occupancy Forecasting for Autonomous Driving",
+    "authors": "Bernard Lange, Masha Itkina, Jiachen Li, Mykel Kochenderfer",
+    "keywords": "Autonomous Vehicle Navigation & Mobile Robots;Robot Perception, Sensing & Vision;Robot Learning: Foundation Models",
+    "pdf": ""
   },
   {
-    "Order": 4,
-    "Title": "Computation-Aware Learning for Stable Control with Gaussian Process",
-    "Location": "Senaatszaal",
-    "PosterBoardNr": 104,
-    "Authors": "Wenhan Cao, Alexandre Capone, Rishabh Yadav, Sandra Hirche, Wei Pan"
+    "title": "MISO: Multiresolution Submap Optimization for Efficient Globally Consistent Neural Implicit Reconstruction",
+    "authors": "Yulun Tian, Hanwen Cao, Sunghwan Kim, Nikolay Atanasov",
+    "keywords": "Robot State Estimation, Localization & Mapping;Perceptual Learning;Robot Perception, Sensing & Vision",
+    "pdf": ""
   },
   {
-    "Order": 5,
-    "Title": "Decentralized Multi-Robot Line-of-Sight Connectivity Maintenance under Uncertainty",
-    "Location": "Commissiekamer 2",
-    "PosterBoardNr": 201,
-    "Authors": "Yupeng Yang, Yiwei Lyu, Yanze Zhang, Sha Yi, Wenhao Luo"
+    "title": "Doppler Correspondence: Non-Iterative Scan Matching With Doppler Velocity-Based Correspondence",
+    "authors": "Jiwoo Kim, Geunsik Bae, Changseung Kim, Jinwoo Lee, Woojae Shin, Hyondong Oh",
+    "keywords": "Robot State Estimation, Localization & Mapping;Autonomous Vehicle Navigation & Mobile Robots;Robot Perception, Sensing & Vision",
+    "pdf": ""
   },
   {
-    "Order": 6,
-    "Title": "Hamilton-Jacobi Reachability Analysis for Hybrid Systems with Controlled and Forced Transitions",
-    "Location": "Commissiekamer 2",
-    "PosterBoardNr": 202,
-    "Authors": "Javier Borquez, Shuang Peng, Yiyu Chen, Quan Nguyen, Somil Bansal"
+    "title": "DRO: Doppler-Aware Direct Radar Odometry with Gyroscope",
+    "authors": "Cedric Le Gentil, Leonardo Brizi, Daniil Lisus, Xinyuan Qiao, Giorgio Grisetti, Timothy Barfoot",
+    "keywords": "Robot State Estimation, Localization & Mapping;Robot Perception, Sensing & Vision;Autonomous Vehicle Navigation & Mobile Robots",
+    "pdf": ""
   },
   {
-    "Order": 7,
-    "Title": "JIGGLE: An Active Sensing Framework for Boundary Parameters Estimation in Deformable Surgical Environments",
-    "Location": "Commissiekamer 3",
-    "PosterBoardNr": 301,
-    "Authors": "Nikhil Uday Shinde, Xiao Liang, Fei Liu, Yutong Zhang, Florian Richter, Sylvia Lee Herbert, Michael C. Yip"
+    "title": "Certifiably-Correct Mapping for Safe Navigation Despite Odometry Drift",
+    "authors": "Devansh R Agrawal, Rajiv Govindjee, Taekyung Kim, Trushant Adeshara, Jiangbo Yu, Anurekha Ravikumar, Dimitra Panagou",
+    "keywords": "Robot State Estimation, Localization & Mapping;Formal Methods for Robotics;Autonomous Vehicle Navigation & Mobile Robots",
+    "pdf": ""
   },
   {
-    "Order": 8,
-    "Title": "Conformalized Teleoperation: Confidently Mapping Human Inputs to High-Dimensional Robot Actions",
-    "Location": "Commissiekamer 3",
-    "PosterBoardNr": 302,
-    "Authors": "Michelle D Zhao, Reid Simmons, Henny Admoni, Andrea Bajcsy"
+    "title": "Kinodynamic Trajectory Following with STELA: Simultaneous Trajectory Estimation & Local Adaptation",
+    "authors": "Edgar Granados, Sumanth Tangirala, Kostas Bekris",
+    "keywords": "Robot Planning;Robot State Estimation, Localization & Mapping;Autonomous Vehicle Navigation & Mobile Robots",
+    "pdf": ""
+  },
+  {
+    "title": "Debiasing 6-DOF IMU via Hierarchical Learning of Continuous Bias Dynamics",
+    "authors": "Ben Liu, Tzu-Yuan Lin, Wei Zhang, Maani Ghaffari",
+    "keywords": "Robot State Estimation, Localization & Mapping;Robot Perception, Sensing & Vision;Robot Learning: Model Learning",
+    "pdf": ""
   }
 ]

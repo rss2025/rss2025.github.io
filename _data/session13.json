@@ -1,51 +1,56 @@
 [
-    {
-        "Order": 1,
-        "Title": "ConTac: Continuum-Emulated Soft Skinned Arm with Vision-based Shape Sensing and Contact-aware Manipulation",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 110,
-        "Authors": "Tuan Tai Nguyen, Quan Khanh Luu, Dinh Quang Nguyen, Van Ho"
-    },
-    {
-        "Order": 2,
-        "Title": "Function Based Sim-to-Real Learning for Shape Control of Deformable Free-form Surfaces",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 111,
-        "Authors": "Yingjun Tian, Guoxin Fang, Renbo Su, Weiming Wang, Simeon Gill, Andrew Weightman, Charlie C. L. Wang"
-    },
-    {
-        "Order": 3,
-        "Title": "Safe & Accurate at Speed with Tendons: A Robot Arm for Exploring Dynamic Motion",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 112,
-        "Authors": "Simon Guist, Jan Schneider, Hao Ma, Le Chen, Vincent Berenz, Julian Martus, Heiko Ott, Felix Grüninger, Michael Muehlebach, Jonathan Fiene, Bernhard Schölkopf, Dieter Büchler"
-    },
-    {
-        "Order": 4,
-        "Title": "Evolution and learning in differentiable robots",
-        "Location": "Commissiekamer 2",
-        "PosterBoardNr": 205,
-        "Authors": "Luke Strgar, David Matthews, Tyler Hummer, Sam Kriegman"
-    },
-    {
-        "Order": 5,
-        "Title": "Construction of a Multiple-DOF Underactuated Gripper with Force-Sensing via Deep Learning",
-        "Location": "Commissiekamer 2",
-        "PosterBoardNr": 206,
-        "Authors": "Jihao Li, Keqi Zhu, Guodong Lu, I-Ming Chen, HUIXU DONG"
-    },
-    {
-        "Order": 6,
-        "Title": "A Single Motor Nano Aerial Vehicle with Novel Peer-to-Peer Communication and Sensing Mechanism",
-        "Location": "Commissiekamer 3",
-        "PosterBoardNr": 305,
-        "Authors": "Jingxian Wang, Andrew G. Curtis, Mark Yim, Michael Rubenstein"
-    },
-    {
-        "Order": 7,
-        "Title": "Design and Control of a Bipedal Robotic Character",
-        "Location": "Commissiekamer 3",
-        "PosterBoardNr": 306,
-        "Authors": "Ruben Grandia, Espen Knoop, Michael A. Hopkins, Georg Wiedebach, Jared Bishop, Steven Pickles, David Müller, Moritz Bächer"
-    }
+  {
+    "title": "Human2LocoMan: Learning Versatile Quadrupedal Manipulation with Human Pre-Training",
+    "authors": "Yaru Niu, Yunzhe Zhang, Mingyang Yu, Changyi Lin, Chenhao Li, Yikai Wang, Yuxiang Yang, Wenhao Yu, Tingnan Zhang, Zhenzhen Li, Jonathan Francis, Bingqing Chen, Jie Tan, Ding Zhao",
+    "keywords": "Grasping & Manipulation;Robot Learning: Imitation Learning;Robot Learning: Datasets and Benchmarks",
+    "pdf": ""
+  },
+  {
+    "title": "Gain Tuning Is Not What You Need: Reward Gain Adaptation for Constrained Locomotion Learning",
+    "authors": "Arthicha Srisuchinnawong, Poramate Manoonpong",
+    "keywords": "Robot Learning: Reinforcement Learning;Humanoid & Walking Robots;Bioinspired Robots",
+    "pdf": ""
+  },
+  {
+    "title": "SATA: Safe and Adaptive Torque-Based Locomotion Policies Inspired by Animal Learning",
+    "authors": "LI Peizhuo, Hongyi LI, GE SUN, Jin Cheng, Xinrong Yang, Guillaume Bellegarda, Milad Shafiee Ashtiani, Yuhong Cao, Auke Ijspeert, Guillaume Adrien Sartoretti",
+    "keywords": "Humanoid & Walking Robots;Robot Learning: Reinforcement Learning;Bioinspired Robots",
+    "pdf": ""
+  },
+  {
+    "title": "Bridging the Sim-to-Real Gap for Athletic Loco-Manipulation",
+    "authors": "Nolan Fey, Gabriel B. Margolis, Martin Peticco, Pulkit Agrawal",
+    "keywords": "Humanoid & Walking Robots;Robot Learning: Reinforcement Learning;Robot Learning: Model Learning",
+    "pdf": ""
+  },
+  {
+    "title": "Adaptive Locomotion on Mud through Proprioceptive Sensing of Substrate Properties",
+    "authors": "Shipeng Liu, Jiaze Tang, Siyuan Meng, Feifei Qian",
+    "keywords": "Bioinspired Robots;Humanoid & Walking Robots;Field Robotics (e.g., Aerial, Agricultural, Construction, Space, Underwater Robotics)",
+    "pdf": ""
+  },
+  {
+    "title": "Discrete-Time Hybrid Automata Learning: Legged Locomotion Meets Skateboarding",
+    "authors": "Hang Liu, Sangli Teng, Ben Liu, Wei Zhang, Maani Ghaffari",
+    "keywords": "Cognitive Modeling & Knowledge Representation for Robots;Robot Learning: Reinforcement Learning;Humanoid & Walking Robots",
+    "pdf": ""
+  },
+  {
+    "title": "SafeMimic: Towards Safe and Autonomous Human-to-Robot Imitation for Mobile Manipulation",
+    "authors": "Arpit Bahety, Arnav Balaji, Ben Abbatematteo, Roberto Mart\u00c3\u00adn-Mart\u00c3\u00adn",
+    "keywords": "Grasping & Manipulation;Robot Learning: Imitation Learning;Robot Learning: Reinforcement Learning",
+    "pdf": ""
+  },
+  {
+    "title": "DVS: Dynamic Virtual-Real Simulation Platform for Mobile Robotic Tasks",
+    "authors": "Zijie Zheng, Zeshun Li, Yunpeng Wang, Qinghongbing Xie, Long ZENG",
+    "keywords": "Robot Modeling & Simulation;Human-Robot Interaction;Robot Perception, Sensing & Vision",
+    "pdf": ""
+  },
+  {
+    "title": "Flying Hand: End-Effector-Centric Framework for Versatile Aerial Manipulation Teleoperation and Policy Learning",
+    "authors": "Guanqi He, Xiaofeng Guo, Luyi Tang, Yuanhang Zhang, Mohammadreza Mousaei, Jiahe Xu, Junyi Geng, Sebastian Scherer, Guanya Shi",
+    "keywords": "Control & Dynamics;Robot Learning: Imitation Learning;Field Robotics (e.g., Aerial, Agricultural, Construction, Space, Underwater Robotics)",
+    "pdf": ""
+  }
 ]

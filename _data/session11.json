@@ -1,58 +1,56 @@
 [
-    {
-        "Order": 1,
-        "Title": "GOAT: GO to Any Thing",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 121,
-        "Authors": "Matthew Chang, Theophile Gervet, Mukul Khanna, Sriram Yenamandra, Dhruv Shah, So Yeon Min, Kavit Shah, Chris Paxton, Saurabh Gupta, Dhruv Batra, Roozbeh Mottaghi, Jitendra Malik, Devendra Singh Chaplot"
-    },
-    {
-        "Order": 2,
-        "Title": "Demonstrating Arena 3.0: Advancing Social Navigation in Collaborative and Highly Dynamic Environments",
-        "Location": "see demo schedule",
-        "PosterBoardNr": null,
-        "Authors": "Linh Kästner, Volodymyir Shcherbyna, Huajian Zeng, Tuan Anh Le, Maximilian Ho-Kyung Schreff, Halid Osmaev, Nam Truong Tran, Diego Diaz, Jan Golebiowski, Harold Soh, Jens Lambrecht"
-    },
-    {
-        "Order": 3,
-        "Title": "RAG-Driver: Generalisable Driving Explanations with Retrieval-Augmented In-Context Multi-Modal Large Language Model Learning",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 122,
-        "Authors": "Jianhao Yuan, Shuyang Sun, Daniel Omeiza, Bo Zhao, Paul Newman, Lars Kunze, Matthew Gadd"
-    },
-    {
-        "Order": 4,
-        "Title": "Dynamic Adversarial Attacks on Autonomous Driving Systems",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 123,
-        "Authors": "Amirhosein Chahe, Chenan Wang, Abhishek Jeyapratap, Kaidi Xu, Lifeng Zhou"
-    },
-    {
-        "Order": 5,
-        "Title": "Hierarchical Open-Vocabulary 3D Scene Graphs for Language-Grounded Robot Navigation",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 124,
-        "Authors": "Abdelrhman Werby, Chenguang Huang, Martin Büchner, Abhinav Valada, Wolfram Burgard"
-    },
-    {
-        "Order": 6,
-        "Title": "ScrewMimic: Bimanual Imitation from Human Videos with Screw Space Projection",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 125,
-        "Authors": "Arpit Bahety, Priyanka Mandikal, Ben Abbatematteo, Roberto Martín-Martín"
-    },
-    {
-        "Order": 7,
-        "Title": "NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation",
-        "Location": "Commissiekamer 3",
-        "PosterBoardNr": 311,
-        "Authors": "Jiazhao Zhang, Kunyu Wang, Rongtao Xu, Gengze Zhou, Yicong Hong, Xiaomeng Fang, Qi Wu, Zhizheng Zhang, He Wang"
-    },
-    {
-        "Order": 8,
-        "Title": "RACER: Epistemic Risk-Sensitive RL Enables Fast Driving with Fewer Crashes",
-        "Location": "Commissiekamer 3",
-        "PosterBoardNr": 312,
-        "Authors": "Kyle Stachowicz, Sergey Levine"
-    }
+  {
+    "title": "DexterityGen: Foundation Controller for Unprecedented Dexterity",
+    "authors": "Zhao-Heng Yin, Changhao Wang, Luis Pineda, Francois Robert Hogan, Chaithanya Krishna Bodduluri, Akash Sharma, Patrick Lancaster, Ishita Prasad, Mrinal Kalakrishnan, Jitendra Malik, Mike Lambeta, Tingfan Wu, Pieter Abbeel, Mustafa Mukadam",
+    "keywords": "Control & Dynamics;Grasping & Manipulation;Robot Learning: Foundation Models",
+    "pdf": ""
+  },
+  {
+    "title": "DOGlove: Dexterous Manipulation with a Low-Cost Open-Source Haptic Force Feedback Glove",
+    "authors": "Han Zhang, Songbo Hu, Zhecheng Yuan, Huazhe Xu",
+    "keywords": "Mechanisms & Design;Grasping & Manipulation;Robot Learning: Imitation Learning",
+    "pdf": ""
+  },
+  {
+    "title": "Dexonomy: Synthesizing All Dexterous Grasp Types in a Grasp Taxonomy",
+    "authors": "Jiayi Chen, Yubin Ke, Lin Peng, He Wang",
+    "keywords": "Grasping & Manipulation;Robot Planning;Robot Learning: Datasets and Benchmarks",
+    "pdf": ""
+  },
+  {
+    "title": "Dex1B: Learning with 1B Demonstrations for Dexterous Manipulation",
+    "authors": "Jianglong Ye, Keyi Wang, Chengjing Yuan, Ruihan Yang, Yiquan Li, Jiyue Zhu, Yuzhe Qin, Xueyan Zou, Xiaolong Wang",
+    "keywords": "Grasping & Manipulation",
+    "pdf": ""
+  },
+  {
+    "title": "Demonstrating Multi-Suction Item Picking at Scale via Multi-Modal Learning of Pick Success",
+    "authors": "Che Wang, Jeroen Vanbaar, Chaitanya Mitash, Shuai Li, Dylan Randle, Weiyao Wang, Sumedh Anand Sontakke, Kostas Bekris, Kapil Katyal",
+    "keywords": "Grasping & Manipulation;Perceptual Learning;Assembly, Logistics and Manufacturing",
+    "pdf": ""
+  },
+  {
+    "title": "Vib2Move: In-hand Object Reconfiguration via Fingertip Micro-vibrations",
+    "authors": "Xili Yi, Nima Fazeli",
+    "keywords": "Grasping & Manipulation;Robot Planning;Control & Dynamics",
+    "pdf": ""
+  },
+  {
+    "title": "Sim-and-Real Co-Training: A Simple Recipe for Vision-Based Robotic Manipulation",
+    "authors": "Abhiram Maddukuri, Zhenyu Jiang, Lawrence Yunliang Chen, Soroush Nasiriany, Yuqi Xie, Yu Fang, Wenqi Huang, Zu Wang, Zhenjia Xu, Nikita Chernyadev, Scott Reed, Ken Goldberg, Ajay Mandlekar, Linxi Fan, Yuke Zhu",
+    "keywords": "Grasping & Manipulation;Robot Modeling & Simulation",
+    "pdf": ""
+  },
+  {
+    "title": "CordViP: Correspondece-based Visuomotor Policy for Dexterous Manipulation in Real-World",
+    "authors": "Yankai Fu, Ning Chen, Qiuxuan Feng, Zichen Zhou, Mengzhen Liu, Mingdong Wu, Tianxing Chen, Shanyu Rong, Jiaming Liu, Hao Dong, Shanghang Zhang",
+    "keywords": "Robot Learning: Imitation Learning;Grasping & Manipulation",
+    "pdf": ""
+  },
+  {
+    "title": "Complementarity-Free Multi-Contact Modeling and Optimization for Dexterous Manipulation",
+    "authors": "Wanxin Jin",
+    "keywords": "Grasping & Manipulation;Robot Modeling & Simulation;Control & Dynamics",
+    "pdf": ""
+  }
 ]

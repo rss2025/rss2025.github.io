@@ -1,58 +1,86 @@
 [
-    {
-        "Order": 1,
-        "Title": "Rethinking Robustness Assessment: Adversarial Attacks on Learning-based Quadrupedal Locomotion Controllers",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 113,
-        "Authors": "Fan Shi, Chong Zhang, Takahiro Miki, Joonho Lee, Marco Hutter, Stelian Coros"
-    },
-    {
-        "Order": 2,
-        "Title": "Advancing Humanoid Locomotion: Mastering Challenging Terrains with Denoising World Model Learning",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 114,
-        "Authors": "Xinyang Gu, Yen-Jen Wang, Xiang Zhu, Chengming Shi, Yanjiang Guo, Yichen Liu, Jianyu Chen"
-    },
-    {
-        "Order": 3,
-        "Title": "Agile But Safe: Learning Collision-Free High-Speed Legged Locomotion",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 115,
-        "Authors": "Tairan He, Chong Zhang, Wenli Xiao, Guanqi He, Changliu Liu, Guanya Shi"
-    },
-    {
-        "Order": 4,
-        "Title": "RL2AC: Reinforcement Learning-based Rapid Online Adaptive Control for Legged Robot Robust Locomotion",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 116,
-        "Authors": "Shangke Lyu, Xin Lang, Han Zhao, Hongyin Zhang, Pengxiang Ding, Donglin Wang"
-    },
-    {
-        "Order": 5,
-        "Title": "HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation",
-        "Location": "Commissiekamer 2",
-        "PosterBoardNr": 207,
-        "Authors": "Carmelo Sferrazza, Dun-Ming Huang, Xingyu Lin, Youngwoon Lee, Pieter Abbeel"
-    },
-    {
-        "Order": 6,
-        "Title": "MOKA: Open-Set Robotic Manipulation through Mark-Based Visual Prompting",
-        "Location": "Commissiekamer 2",
-        "PosterBoardNr": 208,
-        "Authors": "Kuan Fang, Fangchen Liu, Pieter Abbeel, Sergey Levine"
-    },
-    {
-        "Order": 7,
-        "Title": "Collaborative Planar Pushing of Polytopic Objects with Multiple Robots in Complex Scenes",
-        "Location": "Commissiekamer 3",
-        "PosterBoardNr": 307,
-        "Authors": "Zili Tang, Yuming Feng, Meng Guo"
-    },
-    {
-        "Order": 8,
-        "Title": "AutoMate: Specialist and Generalist Assembly Policies over Diverse Geometries",
-        "Location": "Commissiekamer 3",
-        "PosterBoardNr": 308,
-        "Authors": "Bingjie Tang, Iretiayo Akinola, Jie Xu, Bowen Wen, Ankur Handa, Karl Van Wyk, Dieter Fox, Gaurav S. Sukhatme, Fabio Ramos, Yashraj Narang"
-    }
+  {
+    "title": "Morpheus: A Neural-driven Animatronic Face with Hybrid Actuation and Diverse Emotion Control",
+    "authors": "Zongzheng Zhang, Jiawen Yang, Ziqiao Peng, Meng Yang, Jianzhu Ma, Lin Cheng, Huazhe Xu, Hang Zhao, Hao Zhao",
+    "keywords": "Human-Robot Interaction",
+    "pdf": ""
+  },
+  {
+    "title": "Interface-level Intent Inference for Environment-agnostic Robot Teleoperation Assistance",
+    "authors": "Larisa Y.C. Loke, Brenna Argall",
+    "keywords": "Human-Robot Interaction;Assistive, Entertainment and Service Robots;Control & Dynamics",
+    "pdf": ""
+  },
+  {
+    "title": "Sense and Sensibility: What makes an social robot convincing to high-school students?",
+    "authors": "Pablo Gonzalez-Oliveras, Olov Engwall, Ali Reza Majlesi",
+    "keywords": "Human-Robot Interaction;Assistive, Entertainment and Service Robots",
+    "pdf": ""
+  },
+  {
+    "title": "FEAST: A Flexible Mealtime-Assistance System Tackling In-the-Wild Scenarios",
+    "authors": "Rajat Kumar Jenamani, Tom Silver, Ben Dodson, Shiqin Tong, Anthony Song, Yuting Yang, Ziang Liu, Benjamin Howe, Aimee Whitneck, Tapomayukh Bhattacharjee",
+    "keywords": "Assistive, Entertainment and Service Robots;Human-Robot Interaction;Robot Learning: Foundation Models",
+    "pdf": ""
+  },
+  {
+    "title": "Demonstrating a Control Framework for Physical Human-Robot Interaction Toward Industrial Applications",
+    "authors": "Bastien Muraccioli, Mathieu Celerier, Mehdi Benallegue, Gentiane Venture",
+    "keywords": "Human-Robot Interaction;Control & Dynamics;Robot Modeling & Simulation",
+    "pdf": ""
+  },
+  {
+    "title": "Users and Wizards in Conversations: How WoZ Interface Choices Define Human-Robot Interactions",
+    "authors": "Ekaterina Torubarova, Jura Miniotaite, Andre Pereira",
+    "keywords": "Human-Robot Interaction;Mechanisms & Design;Robot Learning: Imitation Learning",
+    "pdf": ""
+  },
+  {
+    "title": "Demonstrating Shared Force-Language Embeddings for Natural Human-Robot Communication",
+    "authors": "Ravi Tejwani, Karl Angel Velazquez, John Payne, Paolo Bonato, Haruhiko Asada",
+    "keywords": "Human-Robot Interaction;Assistive, Entertainment and Service Robots;Multi-Robot & Networked Systems",
+    "pdf": ""
+  },
+  {
+    "title": "Optimal Interactive Learning on the Job via Facility Location Planning",
+    "authors": "Shivam Vats, Michelle D Zhao, Patrick Callaghan, Mingxi Jia, Maxim Likhachev, Oliver Kroemer, George Konidaris",
+    "keywords": "Human-Robot Interaction;Robot Learning: Imitation Learning;Robot Planning;Assembly, Logistics and Manufacturing",
+    "pdf": ""
+  },
+  {
+    "title": "A Robot-Assisted Approach to Small Talk Training for Adults with ASD",
+    "authors": "Rebecca Ramnauth, Dra\u00c5\u00been Br\u00c5\u00a1\u00c4\u008di\u00c4\u2021, Brian Scassellati",
+    "keywords": "Human-Robot Interaction;Assistive, Entertainment and Service Robots;Mechanisms & Design",
+    "pdf": ""
+  },
+  {
+    "title": "Interruption Handling for Conversational Robots",
+    "authors": "Shiye Cao, Jiwon Moon, Amama Mahmood, Victor Nikhil Antony, Ziang Xiao, Anqi Liu, Chien-Ming Huang",
+    "keywords": "Human-Robot Interaction;Assistive, Entertainment and Service Robots;Mechanisms & Design",
+    "pdf": ""
+  },
+  {
+    "title": "ASTRID: A Robotic Tutor for Nurse Training to Reduce Healthcare-Associated Infections",
+    "authors": "Peizhu Qian, Filip Bajraktari, Carlos Quintero-Pena, Qingxi Meng, Shannan Hamlin, Lydia E Kavraki, Vaibhav V. Unhelkar",
+    "keywords": "Medical Robotics",
+    "pdf": ""
+  },
+  {
+    "title": "Towards Uncertainty Unification: A Case Study for Preference Learning",
+    "authors": "Shaoting Peng, Haonan Chen, Katherine Rose Driggs-Campbell",
+    "keywords": "Human-Robot Interaction;Cognitive Modeling & Knowledge Representation for Robots;Robot Learning: Model Learning",
+    "pdf": ""
+  },
+  {
+    "title": "Demonstrating Arena 5.0: A Photorealistic ROS2 Simulation Framework for Developing and Benchmarking Social Navigation",
+    "authors": "Linh K\u00c3\u00a4stner, Volodymyr Shcherbyna, Harold Soh, Giang Nguyen Huu Truong, Do Duc Anh, Ton Manh Kien, Tim Seeger, Ahmed Martban, Vu Thanh Lam, Nguyen Quoc Hung, Pham Thai Hoang Tung, Tran Dang An, Eva Wiese, Maximilian Ho-Kyoung Schreff",
+    "keywords": "Robot Modeling & Simulation;Human-Robot Interaction;Autonomous Vehicle Navigation & Mobile Robots",
+    "pdf": ""
+  },
+  {
+    "title": "Safety with Agency: Human-Centered Safety Filter with Application to AI-Assisted Motorsports",
+    "authors": "Donggeon David Oh, Justin Lidard, Haimin Hu, Himani Sinhmar, Elle Lazarski, Deepak Edakkattil Gopinath, Emily Sumner, Jonathan DeCastro, Guy Rosman, Naomi Leonard, Jaime Fern\u00c3\u00a1ndez Fisac",
+    "keywords": "Human-Robot Interaction;Assistive, Entertainment and Service Robots;Robot Learning: Reinforcement Learning",
+    "pdf": ""
+  }
 ]

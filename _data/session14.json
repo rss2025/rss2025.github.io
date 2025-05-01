@@ -1,58 +1,32 @@
 [
-    {
-        "Order": 1,
-        "Title": "POLICEd RL: Learning Closed-Loop Robot Control Policies with Provable Satisfaction of Hard Constraints",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 113,
-        "Authors": "Jean-Baptiste Bouvier, Kartik Nagpal, Negar Mehr"
-    },
-    {
-        "Order": 2,
-        "Title": "Demonstrating Language-Grounded Motion Controller",
-        "Location": "see demo schedule",
-        "PosterBoardNr": "",
-        "Authors": "Ravi Tejwani, Chengyuan Ma, Paco Gomez-Paz, Paolo Bonato, Haruhiko Asada"
-    },
-    {
-        "Order": 3,
-        "Title": "VLMPC: Vision-Language Model Predictive Control for Robotic Manipulation",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 114,
-        "Authors": "Wentao Zhao, Jiaming Chen, Ziyu Meng, DonghuiMao, Ran Song, Wei Zhang"
-    },
-    {
-        "Order": 4,
-        "Title": "Expressive Whole-Body Control for Humanoid Robots",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 115,
-        "Authors": "Xuxin Cheng, Yandong Ji, Junming Chen, Ruihan Yang, Ge Yang, Xiaolong Wang"
-    },
-    {
-        "Order": 5,
-        "Title": "From Compliant to Rigid Contact Simulation: a Unified and Efficient Approach",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 116,
-        "Authors": "Justin Carpentier, Quentin Le Lidec, Louis Montaut"
-    },
-    {
-        "Order": 6,
-        "Title": "MPCC++: Model Predictive Contouring Control for Time-Optimal Flight with Safety Constraints",
-        "Location": "Commissiekamer 2",
-        "PosterBoardNr": 207,
-        "Authors": "Maria Krinner, Angel Romero, Leonard Bauersfeld, Melanie Zeilinger, Andrea Carron, Davide Scaramuzza"
-    },
-    {
-        "Order": 7,
-        "Title": "Linear-time Differential Inverse Kinematics: an Augmented Lagrangian Perspective",
-        "Location": "Commissiekamer 2",
-        "PosterBoardNr": 208,
-        "Authors": "Bruce Wingo, Ajay Suresha Sathya, Stéphane Caron, Seth Hutchinson, Justin Carpentier"
-    },
-    {
-        "Order": 8,
-        "Title": "A Trajectory Tracking Algorithm for the LSMS Family of Cable-Driven Cranes",
-        "Location": "Commissiekamer 3",
-        "PosterBoardNr": 307,
-        "Authors": "Javier Puig-Navarro, Dominic R Bisio, John E Pye, Yotam Granov, Joshua N Moser, Jessica S. Friz, Walter J Waltz, Julia E Cline, B. Danette Allen"
-    }
+  {
+    "title": "RUKA: Rethinking the Design of Humanoid Hands with Learning",
+    "authors": "Anya Zorin, Irmak Guzey, Nikhil X. Bhattasali, Lerrel Pinto",
+    "keywords": "Grasping & Manipulation;Mechanisms & Design;Robot Learning: Imitation Learning",
+    "pdf": ""
+  },
+  {
+    "title": "Demonstrating LEAP Hand V3: Low-Cost, Easy-to-Assemble, High-Performance Hand for Robot Learning",
+    "authors": "Kenneth Shaw, Deepak Pathak",
+    "keywords": "Grasping & Manipulation;Robot Learning: Imitation Learning;Robot Learning: Reinforcement Learning",
+    "pdf": ""
+  },
+  {
+    "title": "Tactile sensing enables vertical obstacle negotiation for elongate many-legged robots",
+    "authors": "Juntao He, Baxi Chong, Massimiliano Iaschi, Vincent R Nienhusser, Sehoon Ha, Daniel Goldman",
+    "keywords": "Bioinspired Robots;Field Robotics (e.g., Aerial, Agricultural, Construction, Space, Underwater Robotics);Mechanisms & Design",
+    "pdf": ""
+  },
+  {
+    "title": "Boxi: Design Decisions in the Context of Algorithmic Performance for Robotics",
+    "authors": "Jonas Frey, Turcan Tuna, Lanke Frank Tarimo Fu, Cedric Weibel, Katharine Patterson, Benjamin Krummenacher, Matthias M\u00c3\u00bcller, Julian Nubert, Maurice Fallon, Cesar Cadena, Marco Hutter",
+    "keywords": "Robot Perception, Sensing & Vision;Mechanisms & Design;Robot State Estimation, Localization & Mapping",
+    "pdf": ""
+  },
+  {
+    "title": "emg2tendon: From sEMG Signals to Tendon Control in Musculoskeletal Hands",
+    "authors": "Sagar Verma",
+    "keywords": "Grasping & Manipulation;Robot Learning: Datasets and Benchmarks;Robot Learning: Model Learning",
+    "pdf": ""
+  }
 ]

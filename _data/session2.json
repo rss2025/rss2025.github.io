@@ -1,58 +1,62 @@
 [
   {
-    "Order": 1,
-    "Title": "Leveraging Large Language Model for Heterogeneous Ad Hoc Teamwork Collaboration",
-    "Location": "Senaatszaal",
-    "PosterBoardNr": 110,
-    "Authors": "Xinzhu Liu, Peiyan Li, Wenju Yang, Di Guo, Huaping Liu"
+    "title": "$\\pi_0$: A Vision-Language-Action Flow Model for General Robot Control",
+    "authors": "Kevin Black, Noah Brown, Danny Driess, Adnan Esmail, Michael Robert Equi, Chelsea Finn, Niccolo Fusai, Lachy Groom, Karol Hausman, brian ichter, Szymon Jakubczak, Tim Jones, Liyiming Ke, Sergey Levine, Adrian Li-Bell, Mohith Mothukuri, Suraj Nair, Karl Pertsch, Lucy Xiaoyang Shi, Laura Smith, James Tanner, Quan Vuong, Anna Walling, Haohuan Wang, Ury Zhilinsky",
+    "keywords": "Robot Learning: Foundation Models",
+    "pdf": ""
   },
   {
-    "Order": 2,
-    "Title": "INTERPRET: Interactive Predicate Learning from Language Feedback for Generalizable Task Planning",
-    "Location": "Senaatszaal",
-    "PosterBoardNr": 111,
-    "Authors": "Muzhi Han, Yifeng Zhu, Song-Chun Zhu, Ying Nian Wu, Yuke Zhu"
+    "title": "SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Models",
+    "authors": "Delin Qu, Haoming Song, Qizhi Chen, Yuanqi Yao, Xinyi Ye, Jiayuan Gu, Zhigang Wang, Yan Ding, Bin Zhao, Dong Wang, Xuelong Li",
+    "keywords": "Robot Learning: Foundation Models;Robot Learning: Imitation Learning;Grasping & Manipulation",
+    "pdf": ""
   },
   {
-    "Order": 3,
-    "Title": "Safe Planning for Articulated Robots Using Reachability-based Obstacle Avoidance With Spheres",
-    "Location": "Senaatszaal",
-    "PosterBoardNr": 112,
-    "Authors": "Jonathan Michaux, Adam Li, Qingyi Chen, Che Chen, Ram Vasudevan"
+    "title": "FAST: Efficient Action Tokenization for Vision-Language-Action Models",
+    "authors": "Karl Pertsch, Kyle Stachowicz, brian ichter, Danny Driess, Suraj Nair, Quan Vuong, Oier Mees, Chelsea Finn, Sergey Levine",
+    "keywords": "Robot Learning: Foundation Models;Robot Learning: Imitation Learning;Grasping & Manipulation",
+    "pdf": ""
   },
   {
-    "Order": 4,
-    "Title": "Motion Planning in Foliated Manifolds using Repetition Roadmap",
-    "Location": "Senaatszaal",
-    "PosterBoardNr": 113,
-    "Authors": "Jiaming hu, Shrutheesh Raman Iyer, Jiawei Wang, Henrik I Christensen"
+    "title": "Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying Embodied Navigation Tasks",
+    "authors": "Jiazhao Zhang, Kunyu Wang, Shaoan Wang, Minghan Li, Haoran Liu, Songlin Wei, Zhongyuan Wang, Zhizheng Zhang, He Wang",
+    "keywords": "Autonomous Vehicle Navigation & Mobile Robots;Robot Learning: Foundation Models",
+    "pdf": ""
   },
   {
-    "Order": 5,
-    "Title": "Language-Augmented Symbolic Planner for Open-World Task Planning",
-    "Location": "Senaatszaal",
-    "PosterBoardNr": 114,
-    "Authors": "Guanqi Chen, Lei Yang, Ruixing Jia, Zhe Hu, Yizhou Chen, Wei Zhang, Wenping Wang, Jia Pan"
+    "title": "Learning to Act Anywhere with Task-centric Latent Actions",
+    "authors": "Qingwen Bu, Yanting Yang, Jisong Cai, Shenyuan Gao, Guanghui Ren, Maoqing Yao, Ping Luo, Hongyang Li",
+    "keywords": "Robot Learning: Foundation Models;Robot Learning: Imitation Learning;Grasping & Manipulation",
+    "pdf": ""
   },
   {
-    "Order": 6,
-    "Title": "Collision-Affording Point Trees: SIMD-Amenable Nearest Neighbors for Fast Motion Planning with Pointclouds",
-    "Location": "Commissiekamer 2",
-    "PosterBoardNr": 206,
-    "Authors": "Clayton Ramsey, Zachary Kingston, Wil Thomason, Lydia E Kavraki"
+    "title": "Unified World Models: Coupling Video and Action Diffusion for Pretraining on Large Robotic Datasets",
+    "authors": "Chuning Zhu, Raymond Yu, Siyuan Feng, Benjamin Burchfiel, Paarth Shah, Abhishek Gupta",
+    "keywords": "Robot Learning: Imitation Learning;Robot Learning: Foundation Models",
+    "pdf": ""
   },
   {
-    "Order": 7,
-    "Title": "Homotopic Path Set Planning for Robot Manipulation and Navigation",
-    "Location": "Commissiekamer 2",
-    "PosterBoardNr": 207,
-    "Authors": "Jing Huang"
+    "title": "CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision",
+    "authors": "Gi-Cheon Kang, Junghyun Kim, Kyuhwan Shim, Jun Ki Lee, Byoung-Tak Zhang",
+    "keywords": "Robot Learning: Foundation Models;Human-Robot Interaction;Grasping & Manipulation",
+    "pdf": ""
   },
   {
-    "Order": 8,
-    "Title": "Practice Makes Perfect: Planning to Learning Skill Parameter Policies",
-    "Location": "Commissiekamer 3",
-    "PosterBoardNr": 305,
-    "Authors": "Nishanth Kumar, Tom Silver, Willie McClinton, Linfeng Zhao, Stephen Proulx, Tomás Lozano-Pérez, Leslie Pack Kaelbling, Jennifer L. Barry"
+    "title": "Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success",
+    "authors": "Moo Jin Kim, Chelsea Finn, Percy Liang",
+    "keywords": "Robot Learning: Foundation Models;Robot Learning: Imitation Learning;Grasping & Manipulation",
+    "pdf": ""
+  },
+  {
+    "title": "NaVILA: Legged Robot Vision-Language-Action Model for Navigation",
+    "authors": "An-Chieh Cheng, Yandong Ji, Zhaojing Yang, Zaitian Gongye, Xueyan Zou, Jan Kautz, Erdem Biyik, Hongxu Yin, Sifei Liu, Xiaolong Wang",
+    "keywords": "Robot Learning: Foundation Models;Humanoid & Walking Robots;Robot Learning: Datasets and Benchmarks",
+    "pdf": ""
+  },
+  {
+    "title": "ConRFT: A Reinforced Fine-tuning Method for VLA Models via Consistency Policy",
+    "authors": "YUHUI CHEN, Shuai Tian, Shugao Liu, Yingting Zhou, Haoran Li, Dongbin Zhao",
+    "keywords": "Robot Learning: Reinforcement Learning;Robot Learning: Foundation Models;Robot Learning: Imitation Learning",
+    "pdf": ""
   }
 ]

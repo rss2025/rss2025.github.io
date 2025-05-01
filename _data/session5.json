@@ -1,58 +1,56 @@
 [
-    {
-        "Order": 1,
-        "Title": "Yell At Your Robot: Improving On-the-Fly from Language Corrections",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 121,
-        "Authors": "Lucy Xiaoyang Shi, Zheyuan Hu, Tony Z. Zhao, Archit Sharma, Karl Pertsch, Jianlan Luo, Sergey Levine, Chelsea Finn"
-    },
-    {
-        "Order": 2,
-        "Title": "Task Adaptation in Industrial Human-Robot Interaction: Leveraging Riemannian Motion Policies",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 122,
-        "Authors": "Mike Allenspach, Michael Pantic, Rik Girod, Lionel Ott, Roland Siegwart"
-    },
-    {
-        "Order": 3,
-        "Title": "Risk-Calibrated Human-Robot Interaction via Set-Valued Intent Prediction",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 123,
-        "Authors": "Justin Lidard, Hang Pham, Ariel Bachman, Bryan Boateng, Anirudha Majumdar"
-    },
-    {
-        "Order": 4,
-        "Title": "Constraint-Aware Intent Estimation for Dynamic Human-Robot Object Co-Manipulation",
-        "Location": "Senaatszaal",
-        "PosterBoardNr": 124,
-        "Authors": "Yifei Simon Shao, Tianyu Li, Shafagh Keyvanian, Pratik Chaudhari, Vijay Kumar, Nadia Figueroa"
-    },
-    {
-        "Order": 5,
-        "Title": "Demonstrating HumanTHOR: A Simulation Platform and Benchmark for Human-Robot Collaboration in a Shared Workspace",
-        "Location": "see demo schedule",
-        "PosterBoardNr": null,
-        "Authors": "Chenxu Wang, Boyuan Du, Jiaxin Xu, Huaping Liu"
-    },
-    {
-        "Order": 6,
-        "Title": "Developing Design Guidelines for Older Adults with Robot Learning from Demonstration",
-        "Location": "Commissiekamer 2",
-        "PosterBoardNr": 211,
-        "Authors": "Erin Hedlund-Botti, Lakshmi Seelam, Chuxuan Yang, Nathaniel Belles, Zulfiqar Haider Zaidi, Matthew Gombolay"
-    },
-    {
-        "Order": 7,
-        "Title": "FLAIR: Feeding via Long-Horizon AcquIsition of Realistic dishes",
-        "Location": "Commissiekamer 3",
-        "PosterBoardNr": 310,
-        "Authors": "Rajat Kumar Jenamani, Priya Sundaresan, Maram Sakr, Tapomayukh Bhattacharjee, Dorsa Sadigh"
-    },
-    {
-        "Order": 8,
-        "Title": "The Benefits of Sound Resound: An In-Person Replication of the Ability of Character-Like Robot Sound to Improve Perceived Social Warmth",
-        "Location": "Commissiekamer 3",
-        "PosterBoardNr": 311,
-        "Authors": "Nnamdi Nwagwu, Adeline Schneider, Ibrahim Syed, Brian J. Zhang, Naomi T. Fitter"
-    }
+  {
+    "title": "Bilevel Learning for Bilevel Planning",
+    "authors": "Bowen Li, Tom Silver, Sebastian Scherer, Alexander G. Gray",
+    "keywords": "Robot Planning;Robot Learning: Model Learning;Robot Learning: Imitation Learning",
+    "pdf": ""
+  },
+  {
+    "title": "A Biconvex Method for Minimum-Time Motion Planning Through Sequences of Convex Sets",
+    "authors": "Tobia Marcucci, Mathew Halm, William Yang, Dongchan Lee, Andrew Marchese",
+    "keywords": "Robot Planning;Control & Dynamics;Assembly, Logistics and Manufacturing",
+    "pdf": ""
+  },
+  {
+    "title": "Superfast Configuration-Space Convex Set Computation on GPUs for Online Motion Planning",
+    "authors": "Peter Werner, Richard Cheng, Tom Stewart, Russ Tedrake, Daniela Rus",
+    "keywords": "Robot Planning;Grasping & Manipulation;Formal Methods for Robotics",
+    "pdf": ""
+  },
+  {
+    "title": "Global Contact-Rich Planning with Sparsity-Rich Semidefinite Relaxations",
+    "authors": "Guorui Liu, Shucheng Kang, Heng Yang",
+    "keywords": "Control & Dynamics;Robot Planning",
+    "pdf": ""
+  },
+  {
+    "title": "On the Surprising Robustness of Sequential Convex Optimization for Contact-Implicit Motion Planning",
+    "authors": "Yulin Li, Haoyu Han, Shucheng Kang, Jun Ma, Heng Yang",
+    "keywords": "Control & Dynamics;Robot Planning",
+    "pdf": ""
+  },
+  {
+    "title": "Effective Sampling for Robot Motion Planning Through the Lens of Lattices",
+    "authors": "Itai Panasoff, Kiril Solovey",
+    "keywords": "Robot Planning;Multi-Robot & Networked Systems;Autonomous Vehicle Navigation & Mobile Robots",
+    "pdf": ""
+  },
+  {
+    "title": "Efficient Hierarchical Any-Angle Path Planning on Multi-Resolution 3D Grids",
+    "authors": "Victor Reijgwart, Cesar Cadena, Roland Siegwart, Lionel Ott",
+    "keywords": "Robot Planning;Autonomous Vehicle Navigation & Mobile Robots;Robot State Estimation, Localization & Mapping",
+    "pdf": ""
+  },
+  {
+    "title": "Differentiable GPU-Parallelized Task and Motion Planning",
+    "authors": "William Shen, Caelan Reed Garrett, Nishanth Kumar, Ankit Goyal, Tucker Hermans, Leslie Pack Kaelbling, Tom\u00c3\u00a1s Lozano-P\u00c3\u00a9rez, Fabio Ramos",
+    "keywords": "Robot Planning;Grasping & Manipulation;Robot Modeling & Simulation",
+    "pdf": ""
+  },
+  {
+    "title": "Flow Matching Ergodic Coverage",
+    "authors": "Max Muchen Sun, Allison Pinosky, Todd Murphey",
+    "keywords": "Robot Planning;Control & Dynamics",
+    "pdf": ""
+  }
 ]

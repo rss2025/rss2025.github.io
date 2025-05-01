@@ -28,11 +28,25 @@
     --usc-black: #000000;
     --usc-white: #ffffff;
     --usc-blue: #2B5597;
+    --usc-light-blue: #CCE5FF; /*not official colors*/
+    --usc-light-green: #DAE343;
+    --usc-pms179: #E43D30;
+    --usc-pms474: #F2C6A7;
+    --light-gray: #f4f4f4;
+    --gs-red:        #ea4335;
+    --gs-light-red:  #f28b82;
+    --gs-blue:       #4285f4;
+    --gs-light-blue: #aecbfa;
+    --gs-green:      #34a853;
+    --gs-light-green:#81c995;
+    --gs-gray-1:     #202124;
+    --gs-gray-2:     #5f6368;
+    --gs-gray-3:     #9aa0a6;
+    --gs-gray-4:     #dadce0;
+    --gs-gray-5:     #f1f3f4;
     --schedule-border-gray: #DDD;
     --navbar-background: var(--usc-gold);
     --navbar-foreground: var(--usc-cardinal);
-    /* --navbar-background: var(--cmu-gray);
-    --navbar-foreground: var(--usc-dark-gray);  */
 }
 
 .header { background-color: var(--usc-cardinal);}
