@@ -3,6 +3,8 @@ import re
 from datetime import datetime
 import csv
 import json
+import os
+import shutil
 
 def normalize_author_names(authors_str):
     def normalize_name(name):
@@ -36,9 +38,9 @@ paper_path = "../rss2025PaperSessions_data.csv"
 program_path = "../rss2025Program_data.csv"
 output_path = "../rss2025CameraReadyInfo.csv"
 
-#########
-# PAPERS
-#########
+##################
+# ACCEPTED PAPERS
+##################
 #load csvs
 # df = pd.read_csv(paper_path)
 # df_program = pd.read_csv(program_path)
@@ -112,6 +114,7 @@ camera_ready_df = pd.DataFrame({
     "CleanSessionName": df["CleanSessionName"],
     "SessionName": df["SessionNum"].map(canonical_session_map),
     "OrderinSession": df["OrderinSession"],
+    "SessionNum": df["SessionNum"],
 })
 
 #debug print
@@ -157,3 +160,109 @@ with open("../demos.json", "w") as f:
     json.dump(demo_json, f, indent=2, ensure_ascii=False)
 
 print("Saved to ../demos.json")
+
+
+##############
+# PAPER PAGES
+##############
+# Destination folder for markdown files
+output_dir = "../../_program/papers"
+
+# Clear out old .md files before writing new ones
+if os.path.exists(output_dir):
+    for filename in os.listdir(output_dir):
+        if filename.endswith(".md"):
+            os.remove(os.path.join(output_dir, filename))
+else:
+    os.makedirs(output_dir)
+
+# Add original paper number for use in PDF link
+camera_ready_df["OriginalPaperNo"] = df["Paper No"]
+
+# Sort for navigation
+camera_ready_sorted = camera_ready_df.sort_values(by=["SessionNum", "OrderinSession"]).reset_index(drop=True)
+
+for i, row in camera_ready_sorted.iterrows():
+    paper_id = row.PaperID  # e.g., S1.1
+    paper_number = int(row.OriginalPaperNo)
+    paper_number_str = f"{paper_number:03d}"
+    filename = f"{paper_id}.md"
+    filepath = os.path.join(output_dir, filename)
+    pdf_url = f"https://www.roboticsproceedings.org/rss25/p{paper_number_str}.pdf"
+
+    # Navigation links (using S1.1-style slugs)
+    prev_link = ""
+    next_link = ""
+
+    if i > 0:
+        prev_id = camera_ready_sorted.iloc[i - 1].PaperID
+        prev_link = f'<a href="{{{{ site.baseurl }}}}/program/papers/{prev_id}/"> <img src="{{{{ site.baseurl }}}}/images/previous_paper_icon.png" alt="Previous Paper" title="Previous Paper"/> </a>'
+
+    if i < len(camera_ready_sorted) - 1:
+        next_id = camera_ready_sorted.iloc[i + 1].PaperID
+        next_link = f'<a href="{{{{ site.baseurl }}}}/program/papers/{next_id}/"> <img src="{{{{ site.baseurl }}}}/images/next_paper_icon.png" alt="Next Paper" title="Next Paper"/> </a>'
+
+    md_content = f"""---
+layout: paper
+title: "{row.PaperTitle}"
+invisible: true
+---
+<div class="paper-authors">
+  <div class="paper-author-box">
+    <div class="paper-author-name">{row.AuthorNames}</div>
+    <div class="paper-author-uni"></div>
+  </div>
+</div>
+
+<div class="paper-pdf-modern">
+  <div class="paper-menu-icon">
+    <a href="{pdf_url}" title="Download PDF" target="_blank">
+      <i class="fa fa-file-pdf-o"></i><br>
+      <span class="paper-menu-label">PDF</span>
+    </a>
+  </div>
+</div>
+
+### Paper ID {paper_id}
+{{: style="margin-top: 10px; text-align: center;" }}
+
+### [Session {row.SessionName}]({{{{ site.baseurl }}}}/program/papersession?session={row.SessionName.replace(' ', '%20')})
+{{: style="text-align: center;" }}
+
+<b style="color: black;">Abstract: </b>
+{{: style="color:gray; font-size: 120%; text-align: justified;" }}
+
+<div class="paper-menu-modern">
+  <div class="paper-menu-inner">
+    {f'''<a href="{{{{ site.baseurl }}}}/program/papers/{prev_id}/" title="Previous Paper">
+            <div class="paper-menu-icon">
+                <i class="fa fa-chevron-left"></i><br>
+                <span class="paper-menu-label">Previous Paper</span>
+            </div>
+        </a>''' if i > 0 else ''}
+    <a href="{{{{ site.baseurl }}}}/program/papers" title="All Papers">
+      <div class="paper-menu-icon">
+        <i class="fa fa-list"></i><br>
+        <span class="paper-menu-label">All Papers</span>
+      </div>
+    </a>
+    {f'''<a href="{{{{ site.baseurl }}}}/program/papers/{next_id}/" title="Next Paper">
+            <div class="paper-menu-icon">
+                <i class="fa fa-chevron-right"></i><br>
+                <span class="paper-menu-label">Next Paper</span>
+            </div>
+        </a>''' if i < len(camera_ready_sorted) - 1 else ''}
+  </div>
+</div>
+"""
+
+
+
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write(md_content)
+
+print(f"\nWrote {len(camera_ready_df)} markdown files to `{output_dir}/`, clearing old files first.")
+
+# TODO(jared): add when poster session available
+# #### Poster Session day 1
+# {{: style="margin-top: 10px; color: #555555; text-align: center;" }}

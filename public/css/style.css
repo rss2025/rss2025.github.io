@@ -350,6 +350,53 @@ padding-inline-start: 1.2em;
     opacity: .6;
 }
 
+.paper-menu-modern {
+    position: sticky;
+    top: 80px;
+    z-index: 100;
+    background: white;
+    padding: 12px 0;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+
+.paper-menu-inner {
+display: inline-flex;
+justify-content: center;
+gap: 30px;
+align-items: center;
+font-size: 1.6em;
+}
+
+.paper-menu-inner a {
+color: var(--usc-cardinal);
+text-decoration: none;
+}
+
+.paper-menu-inner a:hover {
+opacity: 0.5;
+}
+
+.paper-menu-icon {
+    text-align: center;
+    display: inline-block;
+    color: var(--usc-cardinal);
+  }
+
+.paper-menu-icon i {
+font-size: 1.3em;
+}
+
+.paper-menu-label {
+    font-size: 0.6em;
+    font-weight: bold;
+    color: var(--usc-cardinal);
+    display: block;
+    margin-top: 2px;
+}
+
 .paper-session{
     width: 100%;
     justify-content: center;
@@ -369,6 +416,21 @@ padding-inline-start: 1.2em;
 
 .paper-pdf a:hover{
     opacity: .6;
+}
+
+.paper-pdf-modern {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+.paper-pdf-modern a {
+color: var(--usc-cardinal);
+font-size: 2em;
+text-decoration: none;
+}
+
+.paper-pdf-modern a:hover {
+opacity: 0.5;
 }
 
 .paper-authors{

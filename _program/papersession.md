@@ -64,7 +64,12 @@ published: true
     <!-- comment this for now to disable paper links -->
     <!-- <td width="45%" height="100px" ><a href="{{ site.baseurl }}/program/papers/{{ paper.PaperIDZeroes
 }}/"><b>{{paper.PaperTitle}}</b></a></td> -->
-    <td width="45%" height="100px"><b>{{ paper.PaperTitle }}</b></td>
+    <!-- <td width="45%" height="100px"><b>{{ paper.PaperTitle }}</b></td> -->
+    <td width="45%" height="100px">
+      <a href="{{ site.baseurl }}/program/papers/{{ paper.PaperID }}/">
+        <b>{{ paper.PaperTitle }}</b>
+      </a>
+    </td>
     <td width="40%" height="100px">{{ paper.AuthorNames | replace: ';', ',' | truncatewords: 40, "&nbsp;<button type='button' class='collapsible' style='border:none;background:none;font-size:smaller;color:#222299;'>...more&gt;</button>"}}
       <div class="content" style="display:none; padding-top:20px;">
         {{ paper.AuthorNames | replace: ';', ','}}
