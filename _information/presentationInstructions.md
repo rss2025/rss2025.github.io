@@ -4,7 +4,7 @@ title: Presenter Information
 description: Guidelines for spotlight talks and poster presentations.
 priority: 9
 invisible: false
-published: true
+published: false
 ---
 
 ## Spotlight Talks
