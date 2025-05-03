@@ -47,6 +47,8 @@
     --schedule-border-gray: #DDD;
     --navbar-background: var(--usc-gold);
     --navbar-foreground: var(--usc-cardinal);
+    --mini-paper-navbar-color: var(--usc-cardinal);
+    --paper-menu-color: var(--usc-cardinal);
 }
 
 .header { background-color: var(--usc-cardinal);}
@@ -339,7 +341,7 @@ padding-inline-start: 1.2em;
 .paper-menu img{
     width: 30%;
     max-width: 75px;
-    diplay: flex;
+    display: flex;
 }
 
 .paper-menu a{
@@ -350,28 +352,16 @@ padding-inline-start: 1.2em;
     opacity: .6;
 }
 
-.paper-menu-modern {
-    position: sticky;
-    top: 80px;
-    z-index: 100;
-    background: white;
-    padding: 12px 0;
-    margin-bottom: 20px;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+.paper-menu-inner {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: flex-start;
+    font-size: 1.6em;
   }
 
-.paper-menu-inner {
-display: inline-flex;
-justify-content: center;
-gap: 30px;
-align-items: center;
-font-size: 1.6em;
-}
-
 .paper-menu-inner a {
-color: var(--usc-cardinal);
+color: var(--paper-menu-color);
 text-decoration: none;
 }
 
@@ -382,19 +372,45 @@ opacity: 0.5;
 .paper-menu-icon {
     text-align: center;
     display: inline-block;
-    color: var(--usc-cardinal);
+    color: var(--paper-menu-color);
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
   }
 
 .paper-menu-icon i {
 font-size: 1.3em;
 }
 
+.paper-menu-icon.invisible {
+    visibility: hidden;
+  }
+
 .paper-menu-label {
     font-size: 0.6em;
     font-weight: bold;
-    color: var(--usc-cardinal);
+    color: var(--paper-menu-color);
     display: block;
     margin-top: 2px;
+}
+
+.mini-paper-navbar {
+    margin-top: 15px;
+    margin-bottom: -10px;
+    font-size: 90%;
+    color: var(--mini-paper-navbar-color);
+    text-align: right;
+  }
+
+.mini-paper-navbar a {
+    color: var(--mini-paper-navbar-color);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 4px;
+}
+
+.mini-paper-navbar a:hover {
+    opacity: 0.6;
 }
 
 .paper-session{
