@@ -146,7 +146,7 @@ def normalize_author_names(authors_str):
     return ', '.join(authors)
 
 #filepaths
-paper_path = "../rss2025PaperSessions_data.csv"
+paper_path = "../rss2025PaperSessions_data_v2.csv"
 program_path = "../rss2025Program_data.csv"
 output_path = "../rss2025CameraReadyInfo.csv"
 

@@ -44,7 +44,7 @@
 "43","Bilevel Learning for Bilevel Planning","Bowen Li, Tom Silver, Sebastian Scherer, Alexander G. Gray","Planning","5. Planning",1,5,10
 "44","A Biconvex Method for Minimum-Time Motion Planning Through Sequences of Convex Sets","Tobia Marcucci, Mathew Halm, William Yang, Dongchan Lee, Andrew Marchese","Planning","5. Planning",2,5,123
 "45","Superfast Configuration-Space Convex Set Computation on GPUs for Online Motion Planning","Peter Werner, Richard Cheng, Tom Stewart, Russ Tedrake, Daniela Rus","Planning","5. Planning",3,5,186
-"46","Global Contact-Rich Planning with Sparsity-Rich Semidefinite Relaxations","Guorui Liu, Shucheng Kang, Heng Yang","Planning","5. Planning",4,5,353
+"46","Global Contact-Rich Planning with Sparsity-Rich Semidefinite Relaxations","Shucheng Kang, Guorui Liu, Heng Yang","Planning","5. Planning",4,5,353
 "47","On the Surprising Robustness of Sequential Convex Optimization for Contact-Implicit Motion Planning","Yulin Li, Haoyu Han, Shucheng Kang, Jun Ma, Heng Yang","Planning","5. Planning",5,5,199
 "48","Effective Sampling for Robot Motion Planning Through the Lens of Lattices","Itai Panasoff, Kiril Solovey","Planning","5. Planning",6,5,234
 "49","Efficient Hierarchical Any-Angle Path Planning on Multi-Resolution 3D Grids","Victor Reijgwart, Cesar Cadena, Roland Siegwart, Lionel Ott","Planning","5. Planning",7,5,499
