@@ -108,8 +108,8 @@ def convert_latex_to_html(text):
 
     #replace known custom macros
     special_macro_map = {
-        r'\spot': '<span style="font-size: 120%; font-weight: bold;">S</span>POT',
-        r'\tutor': '<span style="font-size: 120%; font-weight: bold;">A</span>STRID',
+        r'\spot': '<span style="font-variant: small-caps;">Spot</span>',
+        r'\tutor': '<span style="font-variant: small-caps;">Astrid</span>',
     }
     for macro, replacement in special_macro_map.items():
         text = text.replace(macro, replacement)
@@ -330,6 +330,7 @@ for i, row in camera_ready_sorted.iterrows():
     #space between lines represents a paragraph break followed by an indent)
     raw_abstract = abstract_map.get(paper_number, "Abstract not available.")
     abstract_text = convert_latex_to_html(raw_abstract).replace("\n\n", "<br>&nbsp;&nbsp;&nbsp;&nbsp;").replace("\n", " ")
+    # abstract_text = convert_latex_to_html(raw_abstract).replace("\n", " ").strip()
 
     # Navigation links
     prev_link = ""
