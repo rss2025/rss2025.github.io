@@ -209,7 +209,12 @@ canonical_session_map = df_program_sessions.set_index("Number")["SessionName"].t
 canonical_session_title_map = df_program_sessions.set_index("Number")["Title"].to_dict()
 
 #assign canonical names to papers
-df["PaperID"] = df.apply(lambda row: f"S{row['SessionNum']}.{row['OrderinSession']}", axis=1)
+# df["PaperID"] = df.apply(lambda row: f"S{row['SessionNum']}.{row['OrderinSession']}", axis=1)
+df = df.sort_values(by=["SessionNum", "OrderinSession"]).reset_index(drop=True)
+df["PaperID"] = df.index + 1
+df["PaperID"] = df["PaperID"].apply(lambda x: f"{x}")
+
+#assign clean session names
 df["CleanSessionName"] = df["SessionNum"].map(canonical_session_title_map)
 
 #ensure authors are comma separated with a space, and fix capitalization
@@ -303,8 +308,10 @@ for i, row in camera_ready_sorted.iterrows():
     paper_number = int(row.OriginalPaperNo)
     paper_number_str = f"{paper_number:03d}"
     filename = f"{paper_id}.md"
+    # filename = f"{int(paper_id):03d}.md"
     filepath = os.path.join(output_dir, filename)
-    pdf_url = f"https://www.roboticsproceedings.org/rss25/p{paper_number_str}.pdf"
+    # pdf_url = f"https://www.roboticsproceedings.org/rss21/p{paper_number_str}.pdf"
+    pdf_url = f"https://www.roboticsproceedings.org/rss21/p{int(paper_id):03d}.pdf"
 
     #we replace common latex symbols and macros with html, and we retain the
     #paragraph formatting as provided in the openreview data (e.g., a blank
@@ -378,7 +385,7 @@ next_id: "{next_id}"
     <a href="{{{{ site.baseurl }}}}/program/papers" title="All Papers">
       <div class="paper-menu-icon">
         <i class="fa fa-list"></i><br>
-        <span class="paper-menu-label">All Papers</span>
+        <span class="paper-menu-label">Papers</span>
       </div>
     </a>
     {next_link}
@@ -395,3 +402,6 @@ print(f"\nWrote {len(camera_ready_df)} markdown files to `{output_dir}/`, with a
 # TODO(jared): add when poster session available
 # #### Poster Session day 1
 # {{: style="margin-top: 10px; color: #555555; text-align: center;" }}
+
+#replace ### Paper {int(paper_id):03d} with ### Paper ID {paper_id} if 
+#going back to S1.1, S1.2, naming convention
