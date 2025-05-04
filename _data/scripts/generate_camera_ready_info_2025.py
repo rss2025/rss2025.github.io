@@ -413,35 +413,35 @@ print(f"\nWrote {len(camera_ready_df)} markdown files to `{output_dir}/`, with a
 # generate RSS25-CameraReadyIntegration.csv
 ############################################
 
-# Convert abstracts from LaTeX to HTML-safe text
-camera_ready_df["Abstract"] = camera_ready_df["OriginalPaperNo"].map(abstract_map).fillna("Abstract not available.")
-# camera_ready_df["Abstract"] = camera_ready_df["Abstract"].apply(convert_latex_to_html)
-camera_ready_df["Abstract"] = camera_ready_df["Abstract"].apply(
-    lambda x: convert_latex_to_html(x).replace("\n", " ").replace("\r", " ").strip()
-)
+# # Convert abstracts from LaTeX to HTML-safe text
+# camera_ready_df["Abstract"] = camera_ready_df["OriginalPaperNo"].map(abstract_map).fillna("Abstract not available.")
+# # camera_ready_df["Abstract"] = camera_ready_df["Abstract"].apply(convert_latex_to_html)
+# camera_ready_df["Abstract"] = camera_ready_df["Abstract"].apply(
+#     lambda x: convert_latex_to_html(x).replace("\n", " ").replace("\r", " ").strip()
+# )
 
-# Extract first author's last name
-def get_first_author_lastname(authors_str):
-    first_author = authors_str.split(",")[0].strip()
-    parts = first_author.split()
-    return parts[-1] if parts else "Unknown"
+# # Extract first author's last name
+# def get_first_author_lastname(authors_str):
+#     first_author = authors_str.split(",")[0].strip()
+#     parts = first_author.split()
+#     return parts[-1] if parts else "Unknown"
 
-camera_ready_df["FirstAuthorLastName"] = camera_ready_df["AuthorNames"].apply(get_first_author_lastname)
+# camera_ready_df["FirstAuthorLastName"] = camera_ready_df["AuthorNames"].apply(get_first_author_lastname)
 
-# Build the list of strings
-integration_lines = []
-header = "PaperID#PaperTitle#Abstract#AuthorNames#AuthorNames"
-integration_lines.append(header)
+# # Build the list of strings
+# integration_lines = []
+# header = "PaperID#PaperTitle#Abstract#AuthorNames#AuthorNames"
+# integration_lines.append(header)
 
-for row in camera_ready_df.itertuples(index=False):
-    line = f'{row.PaperID}#{row.PaperTitle}#{row.Abstract}#{row.AuthorNames}#{row.FirstAuthorLastName}'
-    integration_lines.append(f'"{line}"')
+# for row in camera_ready_df.itertuples(index=False):
+#     line = f'{row.PaperID}#{row.PaperTitle}#{row.Abstract}#{row.AuthorNames}#{row.FirstAuthorLastName}'
+#     integration_lines.append(f'"{line}"')
 
-# Save the file
-with open("../RSS25-CameraReadyIntegration.csv", "w", encoding="utf-8") as f:
-    f.write("\n".join(integration_lines))
+# # Save the file
+# with open("../RSS25-CameraReadyIntegration.csv", "w", encoding="utf-8") as f:
+#     f.write("\n".join(integration_lines))
 
-print("Saved to ../RSS25-CameraReadyIntegration.csv")
+# print("Saved to ../RSS25-CameraReadyIntegration.csv")
 
 # TODO(jared): add when poster session available
 # #### Poster Session day 1
