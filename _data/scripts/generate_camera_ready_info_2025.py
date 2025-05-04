@@ -8,6 +8,10 @@ ones listed in the program schedule)
 2) the .json for the "Demos" page that contains the demo titles, authors,
 ids, etc...
 3) the .md files for the individual paper pages.
+4) the camera ready integration .csv
+
+Note, the abstracts are modified to fix issues with formatting due to latex 
+commands included in the abstracts from the openreview data.
 
 TODO:(jared):
 - generate demo pages
@@ -98,11 +102,11 @@ def convert_latex_to_html(text):
     text = re.sub(r'\\etal(\{\})?', '<em>et al.</em>', text)
     text = re.sub(r'\\etc(\{\})?', '<em>etc.</em>', text)
 
-    # Replace Greek and math symbols
+    #replace Greek and math symbols
     for latex_cmd, symbol in latex_symbol_map.items():
         text = text.replace(latex_cmd, symbol)
 
-    # Replace known custom macros
+    #replace known custom macros
     special_macro_map = {
         r'\spot': '<span style="font-size: 120%; font-weight: bold;">S</span>POT',
         r'\tutor': '<span style="font-size: 120%; font-weight: bold;">A</span>STRID',
@@ -234,6 +238,7 @@ camera_ready_df = pd.DataFrame({
     "SessionName": df["SessionNum"].map(canonical_session_map),
     "OrderinSession": df["OrderinSession"],
     "SessionNum": df["SessionNum"],
+    "OriginalPaperID": df["Paper No"],
 })
 
 #debug print
@@ -254,21 +259,28 @@ print(f"\nSaved to {output_path}")
 #######################
 #we include all the papers that have "demo" inside the demo columns
 #because the demo columns isn't a flag, contains text beyond only "demo"
-demo_df = pd.read_csv(paper_path, encoding="utf-8")
-demo_df = demo_df[demo_df["Paper type"].str.contains("demo", case=False, na=False)]
+# demo_df = pd.read_csv(paper_path, encoding="utf-8")
+# demo_df = demo_df[demo_df["Paper type"].str.contains("demo", case=False, na=False)]
 
-#fix authors formatting (same as above for sessions)
-demo_df["Authors"] = demo_df["Authors"].str.replace(r',\s*', ', ', regex=True)
-demo_df["Authors"] = demo_df["Authors"].str.replace(r';\s*', ', ', regex=True)
-demo_df["Authors"] = demo_df["Authors"].apply(normalize_author_names)
+# #fix authors formatting (same as above for sessions)
+# demo_df["Authors"] = demo_df["Authors"].str.replace(r',\s*', ', ', regex=True)
+# demo_df["Authors"] = demo_df["Authors"].str.replace(r';\s*', ', ', regex=True)
+# demo_df["Authors"] = demo_df["Authors"].apply(normalize_author_names)
+
+#we can just reuse the accepted papers list
+demo_df = df[df["Paper type"].str.contains("demo", case=False, na=False)].copy()
 
 demo_json = []
-for idx, row in enumerate(demo_df.itertuples(index=False), start=1):
+# for idx, row in enumerate(demo_df.itertuples(index=False), start=1):
+for _, row in demo_df.iterrows():
+    paper_id = int(row["PaperID"])
     demo_json.append({
-        "papernumber": idx,
+        # "papernumber": idx,
+        "papernumber": paper_id,
         "papertitle": row.Title,
         "authors": row.Authors,
-        "link": "",
+        "link": f"/program/papers/{paper_id}/",
+        # "link": f"https://roboticsconference.org/program/papers/{paper_id}/",
         "demoday": "",
         "demolocation": "",
         "time": ""
@@ -361,11 +373,10 @@ next_id: "{next_id}"
   </div>
 </div>
 
-<div class="paper-pdf-modern">
-  <div class="paper-menu-icon">
+<div class="paper-pdf">
+  <div>
     <a href="{pdf_url}" title="Download PDF" target="_blank">
-      <i class="fa fa-file-pdf-o"></i><br>
-      <span class="paper-menu-label">PDF</span>
+      <img src="{{{{ site.baseurl }}}}/images/paper_link_cardinal_red.png" alt="Paper PDF" width="33" height="40" />
     </a>
   </div>
 </div>
@@ -398,6 +409,39 @@ next_id: "{next_id}"
 
 print(f"\nWrote {len(camera_ready_df)} markdown files to `{output_dir}/`, with abstracts included.")
 
+############################################
+# generate RSS25-CameraReadyIntegration.csv
+############################################
+
+# Convert abstracts from LaTeX to HTML-safe text
+camera_ready_df["Abstract"] = camera_ready_df["OriginalPaperNo"].map(abstract_map).fillna("Abstract not available.")
+# camera_ready_df["Abstract"] = camera_ready_df["Abstract"].apply(convert_latex_to_html)
+camera_ready_df["Abstract"] = camera_ready_df["Abstract"].apply(
+    lambda x: convert_latex_to_html(x).replace("\n", " ").replace("\r", " ").strip()
+)
+
+# Extract first author's last name
+def get_first_author_lastname(authors_str):
+    first_author = authors_str.split(",")[0].strip()
+    parts = first_author.split()
+    return parts[-1] if parts else "Unknown"
+
+camera_ready_df["FirstAuthorLastName"] = camera_ready_df["AuthorNames"].apply(get_first_author_lastname)
+
+# Build the list of strings
+integration_lines = []
+header = "PaperID#PaperTitle#Abstract#AuthorNames#AuthorNames"
+integration_lines.append(header)
+
+for row in camera_ready_df.itertuples(index=False):
+    line = f'{row.PaperID}#{row.PaperTitle}#{row.Abstract}#{row.AuthorNames}#{row.FirstAuthorLastName}'
+    integration_lines.append(f'"{line}"')
+
+# Save the file
+with open("../RSS25-CameraReadyIntegration.csv", "w", encoding="utf-8") as f:
+    f.write("\n".join(integration_lines))
+
+print("Saved to ../RSS25-CameraReadyIntegration.csv")
 
 # TODO(jared): add when poster session available
 # #### Poster Session day 1
