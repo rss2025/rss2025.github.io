@@ -7,14 +7,18 @@ layout: default
   {% if page.prev_id != "" or page.next_id != "" %}
   <div class="mini-paper-navbar">
     {% if page.prev_id != "" %}
-      <a href="{{ site.baseurl }}/program/papers/{{ page.prev_id }}/">◀</a>
+      <a href="{{ site.baseurl }}/program/papers/{{ page.prev_id }}/" title="Previous Paper">
+        <i class="fa fa-chevron-left"></i>
+      </a>
     {% endif %}
     <a href="{{ site.baseurl }}/program/papers">☰</a>
     {% if page.next_id != "" %}
-      <a href="{{ site.baseurl }}/program/papers/{{ page.next_id }}/">▶</a>
+      <a href="{{ site.baseurl }}/program/papers/{{ page.next_id }}/" title="Next Paper">
+        <i class="fa fa-chevron-right"></i>
+      </a>
     {% endif %}
   </div>
-  {% endif %}
+{% endif %}
 
   <h3 class="page-title"><b>{{ page.title }}</b></h3>
   <br/>

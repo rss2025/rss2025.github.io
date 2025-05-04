@@ -331,69 +331,6 @@ padding-inline-start: 1.2em;
     min-width: 140px;
 }
 
-.paper-menu{
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    margin-top: 40px;
-}
-
-.paper-menu img{
-    width: 30%;
-    max-width: 75px;
-    display: flex;
-}
-
-.paper-menu a{
-    text-align: center;
-}
-
-.paper-menu a:hover{
-    opacity: .6;
-}
-
-.paper-menu-inner {
-    display: flex;
-    justify-content: center;
-    gap: 200px;
-    align-items: flex-start;
-    font-size: 1.6em;
-  }
-
-.paper-menu-inner a {
-color: var(--paper-menu-color);
-text-decoration: none;
-}
-
-.paper-menu-inner a:hover {
-opacity: 0.5;
-}
-
-.paper-menu-icon {
-    text-align: center;
-    display: inline-block;
-    color: var(--paper-menu-color);
-    width: 100px;
-    min-width: 100px;
-    max-width: 100px;
-  }
-
-.paper-menu-icon i {
-font-size: 1.3em;
-}
-
-.paper-menu-icon.invisible {
-    visibility: hidden;
-  }
-
-.paper-menu-label {
-    font-size: 0.6em;
-    font-weight: bold;
-    color: var(--paper-menu-color);
-    display: block;
-    margin-top: 2px;
-}
-
 .mini-paper-navbar {
     margin-top: 15px;
     margin-bottom: -10px;
@@ -413,6 +350,53 @@ font-size: 1.3em;
     opacity: 0.6;
 }
 
+.paper-menu {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.paper-menu-inner {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    align-items: flex-start;
+    font-size: 1.6em;
+}
+
+.paper-menu-inner a {
+    text-align: center;
+    color: var(--paper-menu-color);
+    text-decoration: none;
+}
+
+.paper-menu-inner a:hover {
+    opacity: 0.5;
+}
+
+.paper-menu-icon {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    color: var(--paper-menu-color);
+}
+
+.paper-menu-icon i {
+    font-size: 1.3em;
+}
+
+.paper-menu-icon.invisible {
+    visibility: hidden;
+}
+
+.paper-menu-label {
+    font-size: 0.6em;
+    font-weight: bold;
+    color: var(--paper-menu-color);
+    display: block;
+    margin-top: 2px;
+}
+
 .paper-session{
     width: 100%;
     justify-content: center;
@@ -423,30 +407,14 @@ font-size: 1.3em;
     font-size: larger;
 }
 
-.paper-pdf{
+.paper-pdf {
     justify-content: center;
     text-align: center;
-    font-size: x-small;
-    margin-top: 20px;
+    margin-top: 12px;
 }
 
-.paper-pdf a:hover{
-    opacity: .6;
-}
-
-.paper-pdf-modern {
-    text-align: center;
-    margin: 20px 0;
-  }
-
-.paper-pdf-modern a {
-color: var(--usc-cardinal);
-font-size: 2em;
-text-decoration: none;
-}
-
-.paper-pdf-modern a:hover {
-opacity: 0.5;
+.paper-pdf a:hover {
+    opacity: 0.6;
 }
 
 .paper-authors{

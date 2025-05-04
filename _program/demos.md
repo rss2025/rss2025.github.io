@@ -16,8 +16,8 @@ published: true
         <tr>
             <th width="5%" align="center">ID</th>
             <th width="15%">Location</th>
-            <th width="25%">Title</th>
-            <th width="20%">Website</th>
+            <th width="40%">Title</th>
+            <!-- <th width="20%">Website</th> -->
             <th width="15%">Day</th>
             <th width="15%">Time</th>
         </tr>
@@ -27,12 +27,17 @@ published: true
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.papernumber }} </span></td>
             <td>{{ workshop.demolocation | default: "TBD" }}</td>
-            <td>{{ workshop.papertitle }}</td>
-            <td style="word-break: break-all;">
+            <td>
+                <a href="{{ workshop.link }}">
+                    {{ workshop.papertitle }}
+                </a>
+            </td>
+            <!-- <td>{{ workshop.papertitle }}</td> -->
+            <!-- <td style="word-break: break-all;">
                 <a href="{{ workshop.link }}">
                     {{ workshop.link }}
                 </a>
-            </td>
+            </td> -->
              <td>{{ workshop.demoday }}</td>
              <td>{{ workshop.time }}</td>
         </tr>
