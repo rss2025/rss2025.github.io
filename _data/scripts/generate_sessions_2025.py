@@ -1,19 +1,40 @@
+"""
+This script generates the sessions .csv and .json files for the session
+page and the individual session pages for the RSS 2025 conference.
+
+The list of papers (extracted from google sheet) are parsed to determine
+which papers are in which sessions. Then, the session names are replaced
+by the names in the program schedule (extracted from separate google sheet).
+
+The output is 2 files:
+1) a csv file for the all sessions page
+2) a json file for individual session pages
+
+Note: This script isn't general. A lot is hardcoded to work with with the
+nuances of the data extracted from google sheets.
+"""
 import pandas as pd
 import re
 from datetime import datetime
 import os
 import json
 
-USE_PROGRAM_SESSION_NAMES = True  # Toggle this flag to switch naming source
+USE_PROGRAM_SESSION_NAMES = True  #toggle this flag to switch naming source
 
 #load csvs
-paper_input_path = "../rss2025PaperSessions_data.csv"
+paper_input_path = "../rss2025PaperSessions_data_v2.csv"
 program_input_path = "../rss2025Program_data.csv"
 output_path = "../rss2025PaperSessions.csv"
 
 df_papers = pd.read_csv(paper_input_path)
 df_program = pd.read_csv(program_input_path)
 
+#######################################
+# generate paper sessions .csv files
+#
+# This generates the .csv needed for
+# the "Paper Sessions" page.
+#######################################
 #extract merged program sessions
 #handles empty multi-row blocks from spreadsheet
 program_long = []
@@ -204,7 +225,12 @@ print(df_out.to_string(index=False))
 df_out.to_csv(output_path, index=False)
 print(f"\nSaved to {output_path}")
 
-#generate session .json files
+########################################
+# generate sessions .json files
+#
+# This generates the .json files needed
+# for the individual session pages.
+########################################
 session_json_dir = "../session_jsons"
 os.makedirs(session_json_dir, exist_ok=True)
 
@@ -232,7 +258,7 @@ for session_name, group in df_papers.groupby("Session Name"):
     key = get_session_key(session_name)
     session_number = session_num_lookup.get(key)
     if session_number is None:
-        print(f"⚠️ Could not find session number for: {session_name}")
+        print(f"Could not find session number for: {session_name}")
         continue
 
     papers = []

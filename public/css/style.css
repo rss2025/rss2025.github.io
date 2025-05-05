@@ -47,6 +47,8 @@
     --schedule-border-gray: #DDD;
     --navbar-background: var(--usc-gold);
     --navbar-foreground: var(--usc-cardinal);
+    --mini-paper-navbar-color: var(--usc-cardinal);
+    --paper-menu-color: var(--usc-cardinal);
 }
 
 .header { background-color: var(--usc-cardinal);}
@@ -329,25 +331,70 @@ padding-inline-start: 1.2em;
     min-width: 140px;
 }
 
-.paper-menu{
+.mini-paper-navbar {
+    margin-top: 15px;
+    margin-bottom: -10px;
+    font-size: 90%;
+    color: var(--mini-paper-navbar-color);
+    text-align: right;
+  }
+
+.mini-paper-navbar a {
+    color: var(--mini-paper-navbar-color);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 4px;
+}
+
+.mini-paper-navbar a:hover {
+    opacity: 0.6;
+}
+
+.paper-menu {
     width: 100%;
-    justify-content: center;
-    text-align: center;
     margin-top: 40px;
-}
-
-.paper-menu img{
-    width: 30%;
-    max-width: 75px;
-    diplay: flex;
-}
-
-.paper-menu a{
     text-align: center;
 }
 
-.paper-menu a:hover{
-    opacity: .6;
+.paper-menu-inner {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    align-items: flex-start;
+    font-size: 1.6em;
+}
+
+.paper-menu-inner a {
+    text-align: center;
+    color: var(--paper-menu-color);
+    text-decoration: none;
+}
+
+.paper-menu-inner a:hover {
+    opacity: 0.5;
+}
+
+.paper-menu-icon {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    color: var(--paper-menu-color);
+}
+
+.paper-menu-icon i {
+    font-size: 1.3em;
+}
+
+.paper-menu-icon.invisible {
+    visibility: hidden;
+}
+
+.paper-menu-label {
+    font-size: 0.6em;
+    font-weight: bold;
+    color: var(--paper-menu-color);
+    display: block;
+    margin-top: 2px;
 }
 
 .paper-session{
@@ -360,15 +407,14 @@ padding-inline-start: 1.2em;
     font-size: larger;
 }
 
-.paper-pdf{
+.paper-pdf {
     justify-content: center;
     text-align: center;
-    font-size: x-small;
-    margin-top: 20px;
+    margin-top: 12px;
 }
 
-.paper-pdf a:hover{
-    opacity: .6;
+.paper-pdf a:hover {
+    opacity: 0.6;
 }
 
 .paper-authors{
