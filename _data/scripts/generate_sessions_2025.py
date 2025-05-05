@@ -22,7 +22,7 @@ import json
 USE_PROGRAM_SESSION_NAMES = True  #toggle this flag to switch naming source
 
 #load csvs
-paper_input_path = "../rss2025PaperSessions_data.csv"
+paper_input_path = "../rss2025PaperSessions_data_v2.csv"
 program_input_path = "../rss2025Program_data.csv"
 output_path = "../rss2025PaperSessions.csv"
 

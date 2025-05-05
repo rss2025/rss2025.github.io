@@ -296,6 +296,45 @@ print("Saved to ../demos.json")
 ############################
 #       PAPER PAGES
 ############################
+morning_str = "Poster Session"
+afternoon_str = "Poster Session"
+poster_session_days = {
+    "day1after": f"{afternoon_str} (Day 1): Saturday, June 21, 6:30-8:00 PM",
+    "day2morn": f"{morning_str} (Day 2): Sunday, June 22, 12:30-2:00 PM",
+    "day2after": f"{afternoon_str} (Day 2): Sunday, June 22, 6:30-8:00 PM",
+    "day3morn": f"{morning_str} (Day 3): Monday, June 23, 12:30-2:00 PM",
+    "day3after": f"{afternoon_str} (Day 3): Monday, June 23, 6:30-8:00 PM",
+    "day4morn": f"{morning_str} (Day 4): Tuesday, June 24, 12:30-2:00 PM",
+    "day4after": f"{afternoon_str} (Day 4): Tuesday, June 24, 4:00-5:30 PM",
+}
+
+poster_session_info = {
+    # Saturday, June 21
+    "1": poster_session_days["day1after"], # Perception and Navigation  
+    "2": poster_session_days["day1after"], # VLA Models
+    "3": poster_session_days["day1after"], # Scaling Robot Learning
+
+    # Sunday, June 22
+    "4": poster_session_days["day2morn"],  # Perception
+    "5": poster_session_days["day2morn"],  # Planning
+    "6": poster_session_days["day2after"], # Manipulation I
+    "7": poster_session_days["day2after"], # Humanoids
+    "8": poster_session_days["day2after"], # Imitation Learning I
+
+    # Monday, June 23
+    "9": poster_session_days["day3morn"],  # HRI
+    "10": poster_session_days["day3morn"], # Multi-Robot Systems
+    "11": poster_session_days["day3after"],# Manipulation II
+    "12": poster_session_days["day3after"],# Control and Dynamics
+    "13": poster_session_days["day3after"],# Mobile Manipulation and Locomotion
+
+    # Tuesday, June 24
+    "14": poster_session_days["day4morn"], # Robot Design
+    "15": poster_session_days["day4morn"], # Navigation
+    "16": poster_session_days["day4morn"], # Manipulation III
+    "17": poster_session_days["day4after"],# Imitation Learning II
+}
+
 #output directory for paper .md files
 output_dir = "../../_program/papers"
 
@@ -331,6 +370,10 @@ for i, row in camera_ready_sorted.iterrows():
     raw_abstract = abstract_map.get(paper_number, "Abstract not available.")
     abstract_text = convert_latex_to_html(raw_abstract).replace("\n\n", "<br>&nbsp;&nbsp;&nbsp;&nbsp;").replace("\n", " ")
     # abstract_text = convert_latex_to_html(raw_abstract).replace("\n", " ").strip()
+
+    #posters session info (hard coded above)
+    session_num = str(row.SessionNum)
+    poster_line = poster_session_info.get(str(row.SessionNum))
 
     # Navigation links
     prev_link = ""
@@ -387,6 +430,9 @@ next_id: "{next_id}"
 
 ### [Session {row.SessionName}]({{{{ site.baseurl }}}}/program/papersession?session={row.SessionName.replace(' ', '%20')})
 {{: style="text-align: center;" }}
+
+#### {poster_line}
+{{: style="margin-top: 10px; color: #555555; text-align: center;" }}
 
 <b style="color: black;">Abstract: </b>{abstract_text}
 {{: style="color:gray; font-size: 120%; text-align: justified;" }}
