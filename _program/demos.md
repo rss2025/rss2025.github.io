@@ -29,7 +29,7 @@ published: true
             <td>{{ workshop.demolocation | default: "TBD" }}</td>
             <td>
                 <a href="{{ workshop.link }}">
-                    {{ workshop.papertitle }}
+                    <strong>{{ workshop.papertitle }}</strong>
                 </a>
             </td>
             <!-- <td>{{ workshop.papertitle }}</td> -->
@@ -38,8 +38,8 @@ published: true
                     {{ workshop.link }}
                 </a>
             </td> -->
-             <td>{{ workshop.demoday }}</td>
-             <td>{{ workshop.time }}</td>
+             <td>{{ workshop.demoday | default: "TBD"}}</td>
+             <td>{{ workshop.time | default: "TBD" }}</td>
         </tr>
         {% endfor %}
     </tbody>
