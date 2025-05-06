@@ -281,7 +281,8 @@ print(f"\nSaved to {output_path}")
 # demo_df["Authors"] = demo_df["Authors"].apply(normalize_author_names)
 
 #we can just reuse the accepted papers list
-demo_df = df[df["Paper type"].str.contains("demo", case=False, na=False)].copy()
+# demo_df = df[df["Paper type"].str.contains("demo", case=False, na=False)].copy()
+demo_df = df[df["Paper type"].str.lower().str.strip() == "demo"].copy()
 
 demo_json = []
 # for idx, row in enumerate(demo_df.itertuples(index=False), start=1):
