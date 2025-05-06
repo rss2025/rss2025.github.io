@@ -34,7 +34,7 @@
 "33","Demonstrating MOSART: Opening Articulated Structures in the Real World","Arjun Gupta, Michelle Zhang, Rishik Sathua, Saurabh Gupta","Perception","4. Perception",5,4,133
 "34","Vysics: Object Reconstruction Under Occlusion by Fusing Vision and Contact-Rich Physics","Bibit Bianchini, Minghan Zhu, Mengti Sun, Bowen Jiang, Camillo Jose Taylor, Michael Posa","Perception","4. Perception",6,4,575
 "35","Implicit Neural-Representation Learning for Elastic Deformable-Object Manipulations","Jeongho Ha, Minseok Song, Bonggyeong Park, Daehyung Park","Perception","4. Perception",7,4,758
-"36","Particle-Grid Neural Dynamics for Learning Deformable Object Models from Depth Images","Kaifeng Zhang, Baoyu Li, Kris Hauser, Yunzhu Li","Perception","4. Perception",8,4,172
+"36","Particle-Grid Neural Dynamics for Learning Deformable Object Models from RGB-D Videos","Kaifeng Zhang, Baoyu Li, Kris Hauser, Yunzhu Li","Perception","4. Perception",8,4,172
 "37","V-HOP: Visuo-Haptic 6D Object Pose Tracking","Hongyu Li, Mingxi Jia, Mete Tuluhan Akbulut, Yu Xiang, George Konidaris, Srinath Sridhar","Perception","4. Perception",9,4,122
 "38","Joint State and Noise Covariance Estimation","Kasra Khosoussi, Iman Shames","Perception","4. Perception",10,4,354
 "39","Map Space Belief Prediction for Manipulation-Enhanced Mapping","Joao Marcos Correia Marques, Nils Dengler, Jesper Mücke, Tobias Zaenker, Shenlong Wang, Maren Bennewitz, Kris Hauser","Perception","4. Perception",11,4,669

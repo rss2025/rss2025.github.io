@@ -25,6 +25,13 @@ import os
 import html
 
 ################################
+#      Paper Overrides
+################################
+manual_title_overrides = {
+    172: "Particle-Grid Neural Dynamics for Learning Deformable Object Models from RGB-D Videos",
+}
+
+################################
 #      Handle Latex/Macros
 ################################
 latex_symbol_map = {
@@ -180,6 +187,12 @@ df = df.dropna(subset=["SessionNum", "Order"])
 df["SessionNum"] = df["SessionNum"].astype(int)
 df["Order"] = df["Order"].astype(int)
 df["Title"] = df["Paper No"].map(title_map).fillna(df["Title"])
+
+#apply paper title changes
+df["Title"] = df.apply(
+    lambda row: manual_title_overrides.get(row["Paper No"], row["Title"]),
+    axis=1
+)
 
 #session name from program
 program_long = []
