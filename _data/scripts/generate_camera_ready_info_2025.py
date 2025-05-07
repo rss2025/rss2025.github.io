@@ -153,7 +153,7 @@ def normalize_author_names(authors_str):
     return ', '.join(authors)
 
 #filepaths
-paper_path = "../rss2025PaperSessions_data_v2.csv"
+paper_path = "../rss2025PaperSessions_data_v3.csv"
 program_path = "../rss2025Program_data.csv"
 output_path = "../rss2025CameraReadyInfo.csv"
 
@@ -170,13 +170,7 @@ abstract_df = pd.read_csv("../openreview_data_2025.csv", encoding="utf-8")
 title_map = dict(zip(abstract_df["Paper No"], abstract_df["Title"]))
 abstract_map = dict(zip(abstract_df["Paper No"], abstract_df["Abstract"]))
 
-# we will keep the demos in the accepted papers list
-# df = df[~df["Paper type"].str.contains("demo", case=False, na=False)]
 df = df.drop_duplicates(subset=["Paper No"])
-
-#fix numbers because of demos skipped (this isn't needed in general but
-#required if skipping demos -- this doesn't break if not skipping demos)
-df["OrderinSession"] = df.groupby("Session Name").cumcount() + 1
 
 def extract_session_number(session_str):
     match = re.match(r"(\d+)", str(session_str))
@@ -227,7 +221,8 @@ canonical_session_title_map = df_program_sessions.set_index("Number")["Title"].t
 
 #assign canonical names to papers
 # df["PaperID"] = df.apply(lambda row: f"S{row['SessionNum']}.{row['OrderinSession']}", axis=1)
-df = df.sort_values(by=["SessionNum", "OrderinSession"]).reset_index(drop=True)
+# df = df.sort_values(by=["SessionNum", "OrderinSession"]).reset_index(drop=True)
+df = df.sort_values(by=["SessionNum", "Order"]).reset_index(drop=True)
 df["PaperID"] = df.index + 1
 df["PaperID"] = df["PaperID"].apply(lambda x: f"{x}")
 
@@ -249,7 +244,8 @@ camera_ready_df = pd.DataFrame({
     "AuthorNames": df["Authors"],
     "CleanSessionName": df["CleanSessionName"],
     "SessionName": df["SessionNum"].map(canonical_session_map),
-    "OrderinSession": df["OrderinSession"],
+    # "OrderinSession": df["OrderinSession"],
+    "OrderinSession": df["Order"],
     "SessionNum": df["SessionNum"],
     "OriginalPaperID": df["Paper No"],
 })
@@ -263,25 +259,14 @@ print("\n=== Final Paper Rows ===")
 print(camera_ready_df.head())
 
 #save
-# camera_ready_df.to_csv(output_path, index=False)
 camera_ready_df.to_csv(output_path, index=False, quoting=csv.QUOTE_NONNUMERIC)
 print(f"\nSaved to {output_path}")
 
 #######################
 #      DEMOS PAGE
 #######################
-#we include all the papers that have "demo" inside the demo columns
-#because the demo columns isn't a flag, contains text beyond only "demo"
-# demo_df = pd.read_csv(paper_path, encoding="utf-8")
-# demo_df = demo_df[demo_df["Paper type"].str.contains("demo", case=False, na=False)]
-
-# #fix authors formatting (same as above for sessions)
-# demo_df["Authors"] = demo_df["Authors"].str.replace(r',\s*', ', ', regex=True)
-# demo_df["Authors"] = demo_df["Authors"].str.replace(r';\s*', ', ', regex=True)
-# demo_df["Authors"] = demo_df["Authors"].apply(normalize_author_names)
-
-#we can just reuse the accepted papers list
-# demo_df = df[df["Paper type"].str.contains("demo", case=False, na=False)].copy()
+#we can just reuse the accepted papers list (but find the indices
+#based on the rows where paper type == "demo")
 demo_df = df[df["Paper type"].str.lower().str.strip() == "demo"].copy()
 
 demo_json = []
@@ -289,12 +274,10 @@ demo_json = []
 for _, row in demo_df.iterrows():
     paper_id = int(row["PaperID"])
     demo_json.append({
-        # "papernumber": idx,
         "papernumber": paper_id,
         "papertitle": row.Title,
         "authors": row.Authors,
         "link": f"/program/papers/{paper_id}/",
-        # "link": f"https://roboticsconference.org/program/papers/{paper_id}/",
         "demoday": "",
         "demolocation": "",
         "time": ""
@@ -302,7 +285,6 @@ for _, row in demo_df.iterrows():
 
 with open("../demos.json", "w") as f:
     import json
-    # json.dump(demo_json, f, indent=2)
     json.dump(demo_json, f, indent=2, ensure_ascii=False)
 
 print("Saved to ../demos.json")
