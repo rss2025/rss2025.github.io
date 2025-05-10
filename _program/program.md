@@ -4,7 +4,7 @@ title: Posters Information
 description: Poster board numbers and poster roomsdetails
 days: ['Mon', 'Fri']
 priority: 9
-invisible: true
+invisible: false
 published: true
 ---
 
@@ -12,7 +12,7 @@ published: true
 
 ## Session 1. Perception and Navigation
 
-### Oral: 21 June (2:00pm-3:00pm)
+### Spotlight Talks: 21 June (2:00pm-3:00pm)
 ### Poster: 21 June (6:30pm - 8:00pm)
 
 <table class="table table-striped table-workshop">
@@ -43,7 +43,7 @@ published: true
 
 ## Session 2. VLA Models
 
-### Oral: 21 June (4:30pm-5:30pm)
+### Spotlight Talks: 21 June (4:30pm-5:30pm)
 ### Poster: 21 June (6:30pm - 8:00pm)
 
 <table class="table table-striped table-workshop">
@@ -73,7 +73,7 @@ published: true
 
 ## Session 3. Scaling Robot Learning
 
-### Oral: 21 June (5:30pm-6:30pm)
+### Spotlight Talks: 21 June (5:30pm-6:30pm)
 ### Poster: 21 June (6:30pm - 8:00pm)
 
 <table class="table table-striped table-workshop">
@@ -103,7 +103,7 @@ published: true
 
 ## Session 4. Perception
 
-### Oral: 22 June (9:00am-10:30am)
+### Spotlight Talks: 22 June (9:00am-10:30am)
 ### Poster: 22 June (12:30pm-2:00pm)
 
 <table class="table table-striped table-workshop">
@@ -132,7 +132,7 @@ published: true
 
 ## Session 5. Planning
 
-### Oral: 22 June (11:30pm-12:30pm)
+### Spotlight Talks: 22 June (11:30pm-12:30pm)
 ### Poster: 22 June (12:30pm-2:00pm)
 
 <table class="table table-striped table-workshop">
@@ -161,7 +161,7 @@ published: true
 
 ## Session 6. Manipulation I
 
-### Oral: 22 June (2:00pm-3:00pm)
+### Spotlight Talks: 22 June (2:00pm-3:00pm)
 ### Poster: 22 June (6:30pm-8:00pm)
 
 <table class="table table-striped table-workshop">
@@ -188,7 +188,7 @@ published: true
 </table>
 
 ## Session 7. Humanoids
-### Oral: 22 June (4:30pm-5:30pm)
+### Spotlight Talks: 22 June (4:30pm-5:30pm)
 ### Poster: 22 June (6:30pm-8:00pm)
 
 
@@ -217,7 +217,7 @@ published: true
 
 
 ## Session 8. Imitation Learning I
-### Oral: 22 June (5:30pm-6:30pm)
+### Spotlight Talks: 22 June (5:30pm-6:30pm)
 ### Poster: 22 June (6:30pm-8:00pm)
 
 
@@ -247,7 +247,7 @@ published: true
 
 
 ## Session 9. HRI
-### Oral: 23 June (9:00am-10:30am)
+### Spotlight Talks: 23 June (9:00am-10:30am)
 ### Poster: 23 June (12:30pm-2:00pm)
 
 
@@ -276,7 +276,7 @@ published: true
 
 
 ## Session 10. Multi-Robot Systems
-### Oral: 23 June (11:30am-12:30pm)
+### Spotlight Talks: 23 June (11:30am-12:30pm)
 ### Poster: 23 June (12:30pm-2:00pm)
 
 
@@ -307,7 +307,7 @@ published: true
 
 
 ## Session 11. Manipulation II
-### Oral: 23 June (2:00pm-3:00pm)
+### Spotlight Talks: 23 June (2:00pm-3:00pm)
 ### Poster: 23 June (6:30pm-8:00pm)
 
 
@@ -337,7 +337,7 @@ published: true
 
 
 ## Session 12. Control and Dynamics
-### Oral: 23 June (4:30pm-5:30pm)
+### Spotlight Talks: 23 June (4:30pm-5:30pm)
 ### Poster: 23 June (6:30pm-8:00pm)
 
 
@@ -366,7 +366,7 @@ published: true
 
 
 ## Session 13. Mobile Manipulation and Locomotion
-### Oral: 23 June (5:30pm-6:30pm)
+### Spotlight Talks: 23 June (5:30pm-6:30pm)
 ### Poster: 23 June (6:30pm-8:00pm)
 
 
@@ -395,7 +395,7 @@ published: true
 
 
 ## Session 14. Robot Design
-### Oral: 24 June (9:00am-9:30am)
+### Spotlight Talks: 24 June (9:00am-9:30am)
 ### Poster: 24 June (12:30pm-2:00pm)
 
 
@@ -423,7 +423,7 @@ published: true
 </table>
 
 ## Session 15. Navigation
-### Oral: 24 June (9:30am-10:30am)
+### Spotlight Talks: 24 June (9:30am-10:30am)
 ### Poster: 24 June (12:30pm-2:00pm)
 
 
@@ -453,7 +453,7 @@ published: true
 
 
 ## Session 16. Manipulation III
-### Oral: 24 June (11:30am-12:30pm)
+### Spotlight Talks: 24 June (11:30am-12:30pm)
 ### Poster: 24 June (12:30pm-2:00pm)
 
 
@@ -482,8 +482,8 @@ published: true
 
 
 ## Session 17. Imitation Learning II
-### Oral: 24 June (2:00pm-3:00pm)
-### Poster: 24 June (4:00pm - 5:30pm)
+### Spotlight Talks: 24 June (2:00pm-3:00pm)
+### Poster: 24 June (4:00pm-5:30pm)
 
 
 <table class="table table-striped table-workshop">
