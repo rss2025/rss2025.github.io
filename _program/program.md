@@ -1,19 +1,13 @@
 ---
 layout: page
-title: Poster rooms
-description: Roster board numbers and poster roomsdetails
+title: Posters Information
+description: Poster board numbers and poster roomsdetails
 days: ['Mon', 'Fri']
 priority: 9
 invisible: true
 published: true
 ---
 
-
-<div style="display: block; width: 100%; height: 20px;"></div>
-
-<div style="text-align: center;">
-    <img alt="Lely" src="/2024/images/map.png" style="width: 80%;" />
-</div>
 
 
 ## Session 1. Perception and Navigation
