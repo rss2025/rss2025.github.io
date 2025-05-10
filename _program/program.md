@@ -36,8 +36,8 @@ published: true
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
             <td>Founders Park</td>
-            <td>{{ workshop.Title }}</td>
-            <td>{{ workshop.Authors }}</td>
+            <td>{{ workshop.title }}</td>
+            <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
         </tr>
         {% endfor %}
@@ -67,8 +67,8 @@ published: true
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
             <td>Founders Park</td>
-            <td>{{ workshop.Title }}</td>
-            <td>{{ workshop.Authors }}</td>
+            <td>{{ workshop.title }}</td>
+            <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
         </tr>
         {% endfor %}
@@ -97,8 +97,8 @@ published: true
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
             <td>Founders Park</td>
-            <td>{{ workshop.Title }}</td>
-            <td>{{ workshop.Authors }}</td>
+            <td>{{ workshop.title }}</td>
+            <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
         </tr>
         {% endfor %}
@@ -127,8 +127,8 @@ published: true
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
             <td>Founders Park</td>
-            <td>{{ workshop.Title }}</td>
-            <td>{{ workshop.Authors }}</td>
+            <td>{{ workshop.title }}</td>
+            <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
         </tr>
         {% endfor %}
@@ -156,8 +156,8 @@ published: true
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
             <td>Founders Park</td>
-            <td>{{ workshop.Title }}</td>
-            <td>{{ workshop.Authors }}</td>
+            <td>{{ workshop.title }}</td>
+            <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
         </tr>
         {% endfor %}
@@ -185,8 +185,8 @@ published: true
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
             <td>Founders Park</td>
-            <td>{{ workshop.Title }}</td>
-            <td>{{ workshop.Authors }}</td>
+            <td>{{ workshop.title }}</td>
+            <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
         </tr>
         {% endfor %}
@@ -213,8 +213,8 @@ published: true
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
             <td>Founders Park</td>
-            <td>{{ workshop.Title }}</td>
-            <td>{{ workshop.Authors }}</td>
+            <td>{{ workshop.title }}</td>
+            <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
         </tr>
         {% endfor %}
@@ -242,8 +242,8 @@ published: true
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
             <td>Founders Park</td>
-            <td>{{ workshop.Title }}</td>
-            <td>{{ workshop.Authors }}</td>
+            <td>{{ workshop.title }}</td>
+            <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
         </tr>
         {% endfor %}
@@ -272,8 +272,8 @@ published: true
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
             <td>Founders Park</td>
-            <td>{{ workshop.Title }}</td>
-            <td>{{ workshop.Authors }}</td>
+            <td>{{ workshop.title }}</td>
+            <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
         </tr>
         {% endfor %}
@@ -301,8 +301,8 @@ published: true
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
             <td>Founders Park</td>
-            <td>{{ workshop.Title }}</td>
-            <td>{{ workshop.Authors }}</td>
+            <td>{{ workshop.title }}</td>
+            <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
         </tr>
         {% endfor %}
@@ -332,8 +332,8 @@ published: true
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
             <td>Founders Park</td>
-            <td>{{ workshop.Title }}</td>
-            <td>{{ workshop.Authors }}</td>
+            <td>{{ workshop.title }}</td>
+            <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
         </tr>
         {% endfor %}
@@ -362,8 +362,8 @@ published: true
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
             <td>Founders Park</td>
-            <td>{{ workshop.Title }}</td>
-            <td>{{ workshop.Authors }}</td>
+            <td>{{ workshop.title }}</td>
+            <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
         </tr>
         {% endfor %}
@@ -391,8 +391,8 @@ published: true
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
             <td>Founders Park</td>
-            <td>{{ workshop.Title }}</td>
-            <td>{{ workshop.Authors }}</td>
+            <td>{{ workshop.title }}</td>
+            <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
         </tr>
         {% endfor %}
@@ -420,8 +420,8 @@ published: true
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
             <td>Founders Park</td>
-            <td>{{ workshop.Title }}</td>
-            <td>{{ workshop.Authors }}</td>
+            <td>{{ workshop.title }}</td>
+            <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
         </tr>
         {% endfor %}
@@ -449,8 +449,8 @@ published: true
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
             <td>Founders Park</td>
-            <td>{{ workshop.Title }}</td>
-            <td>{{ workshop.Authors }}</td>
+            <td>{{ workshop.title }}</td>
+            <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
         </tr>
         {% endfor %}
@@ -478,8 +478,8 @@ published: true
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
             <td>Founders Park</td>
-            <td>{{ workshop.Title }}</td>
-            <td>{{ workshop.Authors }}</td>
+            <td>{{ workshop.title }}</td>
+            <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
         </tr>
         {% endfor %}
@@ -507,8 +507,8 @@ published: true
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
             <td>Founders Park</td>
-            <td>{{ workshop.Title }}</td>
-            <td>{{ workshop.Authors }}</td>
+            <td>{{ workshop.title }}</td>
+            <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
         </tr>
         {% endfor %}
