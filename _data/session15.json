@@ -3,54 +3,63 @@
     "title": "CREStE: Scalable Mapless Navigation with Internet Scale Priors and Counterfactual Guidance",
     "authors": "Arthur Zhang, Harshit Sikchi, Joydeep Biswas, Amy Zhang",
     "keywords": "Autonomous Vehicle Navigation & Mobile Robots;Perceptual Learning;Robot Learning: Imitation Learning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "6"
   },
   {
     "title": "Generalizing Safety Beyond Collision-Avoidance via Latent-Space Reachability Analysis",
     "authors": "Kensuke Nakamura, Lasse Peters, Andrea Bajcsy",
     "keywords": "Formal Methods for Robotics;Robot Learning: Reinforcement Learning;Robot Learning: Model Learning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "7"
   },
   {
     "title": "Verti-Bench: A General and Scalable Off-Road Mobility Benchmark for Vertically Challenging Terrain",
     "authors": "Tong Xu, Chenhui Pan, Madhan B. Rao, Aniket Datar, Anuj Pokhrel, Yuanjie Lu, Xuesu Xiao",
     "keywords": "Autonomous Vehicle Navigation & Mobile Robots;Field Robotics (e.g., Aerial, Agricultural, Construction, Space, Underwater Robotics);Robot Planning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "8"
   },
   {
     "title": "Meta-Learning Online Dynamics Model Adaptation in Off-Road Autonomous Driving",
     "authors": "Jacob Levy, Jason Gibson, Bogdan Vlahov, Erica Tevere, Evangelos Theodorou, David Fridovich-Keil, Patrick Spieler",
     "keywords": "Autonomous Vehicle Navigation & Mobile Robots;Robot Learning: Model Learning;Control & Dynamics",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "9"
   },
   {
     "title": "Enhancing Autonomous Driving Systems with On-Board Deployed Large Language Models",
     "authors": "Nicolas Baumann, Cheng Hu, Paviththiren Sivasothilingam, Haotong Qin, Lei Xie, Michele Magno, Luca Benini",
     "keywords": "Autonomous Vehicle Navigation & Mobile Robots;Cognitive Modeling & Knowledge Representation for Robots;Robot Learning: Foundation Models",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "10"
   },
   {
     "title": "Demonstrating CavePI: Autonomous Exploration of Underwater Caves by Semantic Guidance",
     "authors": "Alankrit Gupta, Adnan Abdullah, Xianyao Li, Vaishnav Ramesh, Ioannis Rekleitis, Md Jahidul Islam",
     "keywords": "Field Robotics (e.g., Aerial, Agricultural, Construction, Space, Underwater Robotics);Autonomous Vehicle Navigation & Mobile Robots;Assistive, Entertainment and Service Robots",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "11"
   },
   {
     "title": "RAPID: Robust and Agile Planner Using Inverse Reinforcement Learning for Vision-Based Drone Navigation",
     "authors": "Minwoo Kim, Geunsik Bae, Jinwoo Lee, Woojae Shin, Changseung Kim, Myongyol Choi, Heejung Shin, Hyongdong Oh",
     "keywords": "Robot Perception, Sensing & Vision;Robot Learning: Reinforcement Learning;Robot Planning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "12"
   },
   {
     "title": "Neural Inertial Odometry from Lie Events",
     "authors": "Royina Karegoudra Jayanth, Yinshuang Xu, Evangelos Chatzipantazis, Kostas Daniilidis, Daniel Gehrig",
     "keywords": "Robot Perception, Sensing & Vision;Robot State Estimation, Localization & Mapping",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "13"
   },
   {
     "title": "Uncertainty-Aware Trajectory Prediction via Rule-Regularized Heteroscedastic Deep Classification",
     "authors": "Kumar Manas, Christian Schlauch, Adrian Paschke, Christian wirth, Nadja Klein",
     "keywords": "Autonomous Vehicle Navigation & Mobile Robots;Robot Learning: Model Learning;Robot Planning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "14"
   }
 ]

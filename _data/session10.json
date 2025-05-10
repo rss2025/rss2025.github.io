@@ -3,54 +3,63 @@
     "title": "Multi-Layer Safety for Multi-Agent Reinforcement Learning",
     "authors": "Jasmine Jerry Aloor, Jason Jangho Choi, Jingqi Li, Maria G. Mendoza, Hamsa Balakrishnan, Claire Tomlin",
     "keywords": "Multi-Robot & Networked Systems;Autonomous Vehicle Navigation & Mobile Robots;Robot Learning: Reinforcement Learning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "15"
   },
   {
     "title": "FERMI: Flexible Radio Mapping with a Hybrid Propagation Model and Scalable Autonomous Data Collection",
     "authors": "Yiming Luo, Yunfei Wang, Hongming Chen, Chengkai Wu, Ximin Lyu, JINNI ZHOU, Jun Ma, Fu Zhang, Boyu Zhou",
     "keywords": "Multi-Robot & Networked Systems;Autonomous Vehicle Navigation & Mobile Robots;Robot Planning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "16"
   },
   {
     "title": "Online Competitive Information Gathering for Partially Observable Trajectory Games",
     "authors": "Mel Krusniak, Hang Xu, Online Competitive Information Gathering for Partially Observable Trajectory Games, Forrest John Laine",
     "keywords": "Multi-Robot & Networked Systems;Robot Planning;Robot Learning: Reinforcement Learning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "17"
   },
   {
     "title": "Collaborative Object Transportation in Space via Impact Interactions",
     "authors": "Joris Verhagen, Jana Tumova",
     "keywords": "Multi-Robot & Networked Systems;Control & Dynamics;Robot Planning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "18"
   },
   {
     "title": "APEX-MR: Multi-Robot Asynchronous Planning and Execution for Cooperative Assembly",
     "authors": "Philip Huang, Ruixuan Liu, Shobhit Aggarwal, Changliu Liu, Jiaoyang Li",
     "keywords": "Multi-Robot & Networked Systems;Robot Planning;Assembly, Logistics and Manufacturing",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "19"
   },
   {
     "title": "Hierarchical Temporal Logic Task and Motion Planning for Multi-Robot Systems",
     "authors": "Zhongqi Wei, Xusheng Luo, Changliu Liu",
     "keywords": "Robot Planning;Formal Methods for Robotics;Assembly, Logistics and Manufacturing",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "20"
   },
   {
     "title": "A Probabilistic Measure of Multi-Robot Connectivity and Ergodic Optimal Control",
     "authors": "Yongce Liu, Zhongqiang Ren",
     "keywords": "Multi-Robot & Networked Systems;Robot Planning;Control & Dynamics",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "21"
   },
   {
     "title": "How to Coordinate UAVs and UGVs for Efficient Mission Planning? Optimizing Energy-Constrained Cooperative Routing with a DRL Framework",
     "authors": "Mohammad Safwan Mondal, Subramanian Ramasamy, Pranav Bhounsule",
     "keywords": "Robot Learning: Reinforcement Learning;Robot Planning;Multi-Robot & Networked Systems",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "22"
   },
   {
     "title": "Influence of Static and Dynamic Downwash Interactions on Multi-Quadrotor Systems",
     "authors": "Anoop Kiran, Nora Ayanian, Kenneth Breuer",
     "keywords": "Multi-Robot & Networked Systems;Control & Dynamics;Field Robotics (e.g., Aerial, Agricultural, Construction, Space, Underwater Robotics)",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "23"
   }
 ]

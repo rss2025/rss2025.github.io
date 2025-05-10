@@ -3,54 +3,63 @@
     "title": "Learned Perceptive Forward Dynamics Model for Safe and Platform-aware Robotic Navigation",
     "authors": "Pascal Roth, Jonas Frey, Cesar Cadena, Marco Hutter",
     "keywords": "Robot Learning: Model Learning;Autonomous Vehicle Navigation & Mobile Robots;Robot Planning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "1"
   },
   {
     "title": "Demonstrating ViSafe: Vision-enabled Safety for High-speed Detect and Avoid",
     "authors": "Parv kapoor, Ian Higgins, Nikhil Varma Keetha, Jay Patrikar, Brady Moon, Zelin Ye, Yao He, Ivan Cisneros, Changliu Liu, Eunsuk Kang, Sebastian Scherer",
     "keywords": "Field Robotics (e.g., Aerial, Agricultural, Construction, Space, Underwater Robotics);Autonomous Vehicle Navigation & Mobile Robots;Formal Methods for Robotics",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "2"
   },
   {
     "title": "Self-supervised Multi-future Occupancy Forecasting for Autonomous Driving",
     "authors": "Bernard Lange, Masha Itkina, Jiachen Li, Mykel Kochenderfer",
     "keywords": "Autonomous Vehicle Navigation & Mobile Robots;Robot Perception, Sensing & Vision;Robot Learning: Foundation Models",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "3"
   },
   {
     "title": "MISO: Multiresolution Submap Optimization for Efficient Globally Consistent Neural Implicit Reconstruction",
     "authors": "Yulun Tian, Hanwen Cao, Sunghwan Kim, Nikolay Atanasov",
     "keywords": "Robot State Estimation, Localization & Mapping;Perceptual Learning;Robot Perception, Sensing & Vision",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "4"
   },
   {
     "title": "Doppler Correspondence: Non-Iterative Scan Matching With Doppler Velocity-Based Correspondence",
     "authors": "Jiwoo Kim, Geunsik Bae, Changseung Kim, Jinwoo Lee, Woojae Shin, Hyondong Oh",
     "keywords": "Robot State Estimation, Localization & Mapping;Autonomous Vehicle Navigation & Mobile Robots;Robot Perception, Sensing & Vision",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "5"
   },
   {
     "title": "DRO: Doppler-Aware Direct Radar Odometry with Gyroscope",
     "authors": "Cedric Le Gentil, Leonardo Brizi, Daniil Lisus, Xinyuan Qiao, Giorgio Grisetti, Timothy Barfoot",
     "keywords": "Robot State Estimation, Localization & Mapping;Robot Perception, Sensing & Vision;Autonomous Vehicle Navigation & Mobile Robots",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "6"
   },
   {
     "title": "Certifiably-Correct Mapping for Safe Navigation Despite Odometry Drift",
     "authors": "Devansh R Agrawal, Rajiv Govindjee, Taekyung Kim, Trushant Adeshara, Jiangbo Yu, Anurekha Ravikumar, Dimitra Panagou",
     "keywords": "Robot State Estimation, Localization & Mapping;Formal Methods for Robotics;Autonomous Vehicle Navigation & Mobile Robots",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "7"
   },
   {
     "title": "Kinodynamic Trajectory Following with STELA: Simultaneous Trajectory Estimation & Local Adaptation",
     "authors": "Edgar Granados, Sumanth Tangirala, Kostas Bekris",
     "keywords": "Robot Planning;Robot State Estimation, Localization & Mapping;Autonomous Vehicle Navigation & Mobile Robots",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "8"
   },
   {
     "title": "Debiasing 6-DOF IMU via Hierarchical Learning of Continuous Bias Dynamics",
     "authors": "Ben Liu, Tzu-Yuan Lin, Wei Zhang, Maani Ghaffari",
     "keywords": "Robot State Estimation, Localization & Mapping;Robot Perception, Sensing & Vision;Robot Learning: Model Learning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "9"
   }
 ]

@@ -4,8 +4,8 @@ title: Poster rooms
 description: Roster board numbers and poster roomsdetails
 days: ['Mon', 'Fri']
 priority: 9
-invisible: false
-published: false
+invisible: true
+published: true
 ---
 
 
@@ -16,10 +16,10 @@ published: false
 </div>
 
 
-## Session 1. Control
+## Session 1. Perception and Navigation
 
-### Oral: 16 July (8:30am-9:30am)
-### Poster: 16 July (9:30am - 10:00am)
+### Oral: 21 June (2:00pm-3:00pm)
+### Poster: 21 June (6:30pm - 8:00pm)
 
 <table class="table table-striped table-workshop">
     <thead>
@@ -35,7 +35,7 @@ published: false
         {% for workshop in site.data.session1 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
-            <td>{{ workshop.Location }}</td>
+            <td>Founders Park</td>
             <td>{{ workshop.Title }}</td>
             <td>{{ workshop.Authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -47,10 +47,10 @@ published: false
 <span style="color:white; font-size:50px;">&nbsp;</span><br>
 
 
-## Session 2. Planning
+## Session 2. VLA Models
 
-### Oral: 16 July (10:00am-11:00am)
-### Poster: 16 July (1:00pm - 1:30pm)
+### Oral: 21 June (4:30pm-5:30pm)
+### Poster: 21 June (6:30pm - 8:00pm)
 
 <table class="table table-striped table-workshop">
     <thead>
@@ -66,7 +66,7 @@ published: false
         {% for workshop in site.data.session2 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
-            <td>{{ workshop.Location }}</td>
+            <td>Founders Park</td>
             <td>{{ workshop.Title }}</td>
             <td>{{ workshop.Authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -77,10 +77,10 @@ published: false
 
 
 
-## Session 3. Manipulation
+## Session 3. Scaling Robot Learning
 
-### Oral: 16 July (11:00am-12:00pm)
-### Poster: 16 July (1:00pm - 1:30pm)
+### Oral: 21 June (5:30pm-6:30pm)
+### Poster: 21 June (6:30pm - 8:00pm)
 
 <table class="table table-striped table-workshop">
     <thead>
@@ -96,7 +96,7 @@ published: false
         {% for workshop in site.data.session3 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
-            <td>{{ workshop.Location }}</td>
+            <td>Founders Park</td>
             <td>{{ workshop.Title }}</td>
             <td>{{ workshop.Authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -107,10 +107,10 @@ published: false
 
 
 
-## Session 4. Field robotics
+## Session 4. Perception
 
-### Oral: 16 July (1:30pm-2:30pm)
-### Poster: 16 July (3:30pm-4:00pm)
+### Oral: 22 June (9:00am-10:30am)
+### Poster: 22 June (12:30pm-2:00pm)
 
 <table class="table table-striped table-workshop">
     <thead>
@@ -126,7 +126,7 @@ published: false
         {% for workshop in site.data.session4 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
-            <td>{{ workshop.Location }}</td>
+            <td>Founders Park</td>
             <td>{{ workshop.Title }}</td>
             <td>{{ workshop.Authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -136,10 +136,10 @@ published: false
 </table>
 
 
-## Session 5. HRI
+## Session 5. Planning
 
-### Oral: 16 July (4:00pm-5:00pm)
-### Poster: 16 July (6:00pm-6:30pm)
+### Oral: 22 June (11:30pm-12:30pm)
+### Poster: 22 June (12:30pm-2:00pm)
 
 <table class="table table-striped table-workshop">
     <thead>
@@ -155,7 +155,7 @@ published: false
         {% for workshop in site.data.session5 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
-            <td>{{ workshop.Location }}</td>
+            <td>Founders Park</td>
             <td>{{ workshop.Title }}</td>
             <td>{{ workshop.Authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -165,10 +165,10 @@ published: false
 </table>
 
 
-## Session 6. Grasping
+## Session 6. Manipulation I
 
-### Oral: 16 July (5:00pm-6:00pm)
-### Poster: 16 July (6:00pm-6:30pm)
+### Oral: 22 June (2:00pm-3:00pm)
+### Poster: 22 June (6:30pm-8:00pm)
 
 <table class="table table-striped table-workshop">
     <thead>
@@ -184,7 +184,7 @@ published: false
         {% for workshop in site.data.session6 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
-            <td>{{ workshop.Location }}</td>
+            <td>Founders Park</td>
             <td>{{ workshop.Title }}</td>
             <td>{{ workshop.Authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -193,9 +193,9 @@ published: false
     </tbody>
 </table>
 
-## Session 7. Imitation learning
-### Oral: 17 July (8:30am-9:30am)
-### Poster: 17 July (9:30am - 10:00am)
+## Session 7. Humanoids
+### Oral: 22 June (4:30pm-5:30pm)
+### Poster: 22 June (6:30pm-8:00pm)
 
 
 <table class="table table-striped table-workshop">
@@ -212,7 +212,7 @@ published: false
         {% for workshop in site.data.session7 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
-            <td>{{ workshop.Location }}</td>
+            <td>Founders Park</td>
             <td>{{ workshop.Title }}</td>
             <td>{{ workshop.Authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -222,9 +222,9 @@ published: false
 </table>
 
 
-## Session 8. Perception and navigation
-### Oral: 17 July (10:00am-11:00am)
-### Poster: 17 July (1:00pm - 1:30pm)
+## Session 8. Imitation Learning I
+### Oral: 22 June (5:30pm-6:30pm)
+### Poster: 22 June (6:30pm-8:00pm)
 
 
 <table class="table table-striped table-workshop">
@@ -241,7 +241,7 @@ published: false
         {% for workshop in site.data.session8 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
-            <td>{{ workshop.Location }}</td>
+            <td>Founders Park</td>
             <td>{{ workshop.Title }}</td>
             <td>{{ workshop.Authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -252,9 +252,9 @@ published: false
 
 
 
-## Session 9. Locomotion and manipulation
-### Oral: 17 July (11:00am-12:00pm)
-### Poster: 17 July (1:00pm - 1:30pm)
+## Session 9. HRI
+### Oral: 23 June (9:00am-10:30am)
+### Poster: 23 June (12:30pm-2:00pm)
 
 
 <table class="table table-striped table-workshop">
@@ -271,7 +271,7 @@ published: false
         {% for workshop in site.data.session9 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
-            <td>{{ workshop.Location }}</td>
+            <td>Founders Park</td>
             <td>{{ workshop.Title }}</td>
             <td>{{ workshop.Authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -281,9 +281,9 @@ published: false
 </table>
 
 
-## Session 10. Perception
-### Oral: 17 July (1:30pm-2:30pm)
-### Poster: 17 July (3:30pm-4:00pm)
+## Session 10. Multi-Robot Systems
+### Oral: 23 June (11:30am-12:30pm)
+### Poster: 23 June (12:30pm-2:00pm)
 
 
 <table class="table table-striped table-workshop">
@@ -300,7 +300,7 @@ published: false
         {% for workshop in site.data.session10 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
-            <td>{{ workshop.Location }}</td>
+            <td>Founders Park</td>
             <td>{{ workshop.Title }}</td>
             <td>{{ workshop.Authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -312,9 +312,9 @@ published: false
 
 
 
-## Session 11. Navigation
-### Oral: 17 July (4:00pm-5:00pm)
-### Poster: 17 July (5:00pm - 5:30pm)
+## Session 11. Manipulation II
+### Oral: 23 June (2:00pm-3:00pm)
+### Poster: 23 June (6:30pm-8:00pm)
 
 
 <table class="table table-striped table-workshop">
@@ -331,7 +331,7 @@ published: false
         {% for workshop in site.data.session11 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
-            <td>{{ workshop.Location }}</td>
+            <td>Founders Park</td>
             <td>{{ workshop.Title }}</td>
             <td>{{ workshop.Authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -342,9 +342,9 @@ published: false
 
 
 
-## Session 12. Robot learning foundation models
-### Oral: 18 July (8:30am-9:30am)
-### Poster: 18 July (9:30am - 10:00am)
+## Session 12. Control and Dynamics
+### Oral: 23 June (4:30pm-5:30pm)
+### Poster: 23 June (6:30pm-8:00pm)
 
 
 <table class="table table-striped table-workshop">
@@ -361,7 +361,7 @@ published: false
         {% for workshop in site.data.session12 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
-            <td>{{ workshop.Location }}</td>
+            <td>Founders Park</td>
             <td>{{ workshop.Title }}</td>
             <td>{{ workshop.Authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -371,9 +371,9 @@ published: false
 </table>
 
 
-## Session 13. Robot design
-### Oral: 18 July (10:00am-11:00am)
-### Poster: 18 July (1:30pm-2:00pm)
+## Session 13. Mobile Manipulation and Locomotion
+### Oral: 23 June (5:30pm-6:30pm)
+### Poster: 23 June (6:30pm-8:00pm)
 
 
 <table class="table table-striped table-workshop">
@@ -390,7 +390,7 @@ published: false
         {% for workshop in site.data.session13 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
-            <td>{{ workshop.Location }}</td>
+            <td>Founders Park</td>
             <td>{{ workshop.Title }}</td>
             <td>{{ workshop.Authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -400,9 +400,9 @@ published: false
 </table>
 
 
-## Session 14. Control
-### Oral: 18 July (11:30am-12:30pm)
-### Poster: 18 July (1:30pm-2:00pm)
+## Session 14. Robot Design
+### Oral: 24 June (9:00am-9:30am)
+### Poster: 24 June (12:30pm-2:00pm)
 
 
 <table class="table table-striped table-workshop">
@@ -419,7 +419,7 @@ published: false
         {% for workshop in site.data.session14 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
-            <td>{{ workshop.Location }}</td>
+            <td>Founders Park</td>
             <td>{{ workshop.Title }}</td>
             <td>{{ workshop.Authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -428,9 +428,9 @@ published: false
     </tbody>
 </table>
 
-## Session 15. Planning
-### Oral: 18 July (3:30pm-4:30pm)
-### Poster: 18 July (4:30pm - 5:00pm)
+## Session 15. Navigation
+### Oral: 24 June (9:30am-10:30am)
+### Poster: 24 June (12:30pm-2:00pm)
 
 
 
@@ -448,7 +448,7 @@ published: false
         {% for workshop in site.data.session15 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
-            <td>{{ workshop.Location }}</td>
+            <td>Founders Park</td>
             <td>{{ workshop.Title }}</td>
             <td>{{ workshop.Authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -458,9 +458,9 @@ published: false
 </table>
 
 
-## Session 16. Manipulation
-### Oral: 19 July (8:30am-9:30am)
-### Poster: 19 July (9:30 - 10:00am)
+## Session 16. Manipulation III
+### Oral: 24 June (11:30am-12:30pm)
+### Poster: 24 June (12:30pm-2:00pm)
 
 
 <table class="table table-striped table-workshop">
@@ -477,7 +477,7 @@ published: false
         {% for workshop in site.data.session16 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
-            <td>{{ workshop.Location }}</td>
+            <td>Founders Park</td>
             <td>{{ workshop.Title }}</td>
             <td>{{ workshop.Authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -487,9 +487,9 @@ published: false
 </table>
 
 
-## Session 17. Imitation learning
-### Oral: 19 July (10:00am-11:00am)
-### Poster: 19 July (11:00am - 11:30am)
+## Session 17. Imitation Learning II
+### Oral: 24 June (2:00pm-3:00pm)
+### Poster: 24 June (4:00pm - 5:30pm)
 
 
 <table class="table table-striped table-workshop">
@@ -506,7 +506,7 @@ published: false
         {% for workshop in site.data.session17 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.Order }} </span></td>
-            <td>{{ workshop.Location }}</td>
+            <td>Founders Park</td>
             <td>{{ workshop.Title }}</td>
             <td>{{ workshop.Authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>

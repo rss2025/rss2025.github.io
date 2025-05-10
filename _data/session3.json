@@ -3,54 +3,63 @@
     "title": "Demonstrating MuJoCo Playground",
     "authors": "Kevin Zakka, Baruch Tabanpour, Qiayuan Liao, Mustafa Haiderbhai, Samuel Holt, Jing Yuan Luo, Arthur Allshire, Erik Frey, Koushil Sreenath, Lueder Alexander Kahrs, Carmelo Sferrazza, Yuval Tassa, Pieter Abbeel",
     "keywords": "Robot Learning: Reinforcement Learning;Robot Modeling & Simulation",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "20"
   },
   {
     "title": "Demonstrating GPU Parallelized Robot Simulation and Rendering for Generalizable Embodied AI with ManiSkill3",
     "authors": "Stone Tao, Fanbo Xiang, Arth Shukla, Yuzhe Qin, Xander Hinrichsen, Xiaodi Yuan, Chen Bao, Xinsong Lin, Yulin Liu, Tse-Kai Chan, Yuan Gao, Xuanlin Li, Tongzhou Mu, Nan Xiao, Arnav Gurha, Viswesh N, Yong Woo Choi, Yen-Ru Chen, Zhiao Huang, Roberto Calandra, Rui Chen, Shan Luo, Hao Su",
     "keywords": "Robot Modeling & Simulation;Robot Learning: Reinforcement Learning;Robot Learning: Datasets and Benchmarks",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "21"
   },
   {
     "title": "RoboVerse: A Unified Platform, Benchmark and Dataset for Scalable and Generalizable Robot Learning",
     "authors": "Haoran Geng, Feishi Wang, Songlin Wei, Yuyang Li, Bangjun Wang, Boshi An, Haozhe Lou, Charlie Tianyue Cheng, Peihao Li, Haozhe Chen, Yutong Liang, Yuxi Qian, Jiageng Mao, Weikang Wan, Yiran Geng, Mingtong Zhang, Jiangran Lyu, Siheng Zhao, Jiazhao Zhang, Chaoyi Xu, Jialiang Zhang, Chengyang Zhao, Haoran Lu, Yufei Ding, Ran Gong, Yuran Wang, Yuxuan Kuang, Ruihai Wu, Baoxiong Jia, Hao Dong, Siyuan Huang, Yue Wang, Jitendra Malik, Pieter Abbeel",
     "keywords": "Robot Learning: Datasets and Benchmarks;Robot Modeling & Simulation;Robot Learning: Foundation Models",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "22"
   },
   {
     "title": "Robot Data Curation with Mutual Information Estimators",
     "authors": "Joey Hejna, Suvir Mirchandani, Ashwin Balakrishna, Annie Xie, Ayzaan Wahid, Jonathan Tompson, Pannag R Sanketi, Dhruv Shah, Coline Manon Devin, Dorsa Sadigh",
     "keywords": "Robot Learning: Imitation Learning;Robot Learning: Datasets and Benchmarks;Robot Learning: Foundation Models",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "23"
   },
   {
     "title": "Coherance-based Approximate Derivatives via Web of Affine Spaces Optimization",
     "authors": "Daniel Rakita, Chen Liang, Qian Wang",
     "keywords": "Formal Methods for Robotics;Robot Modeling & Simulation;Control & Dynamics",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "24"
   },
   {
     "title": "Robot Learning with Super-Linear Scaling",
     "authors": "Marcel Torne Villasevil, Arhan Jain, Jiayi Yuan, Vidyaaranya Macha, Lars Lien Ankile, Anthony Simeonov, Pulkit Agrawal, Abhishek Gupta",
     "keywords": "Robot Learning: Reinforcement Learning;Robot Modeling & Simulation;Grasping & Manipulation",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "25"
   },
   {
     "title": "Action Flow Matching for Lifelong Learning",
     "authors": "Alejandro Murillo-Gonz\u00c3\u00a1lez, Lantao Liu",
     "keywords": "Robot Learning: Model Learning;Cognitive Modeling & Knowledge Representation for Robots;Autonomous Vehicle Navigation & Mobile Robots",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "26"
   },
   {
     "title": "Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL",
     "authors": "Songyuan Zhang, Oswin So, Mitchell Black, Zachary Serlin, Chuchu Fan",
     "keywords": "Robot Learning: Reinforcement Learning;Multi-Robot & Networked Systems;Autonomous Vehicle Navigation & Mobile Robots",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "27"
   },
   {
     "title": "RLDG: Robotic Generalist Policy Distillation via Reinforcement Learning",
     "authors": "Charles Xu, Qiyang Li, Jianlan Luo, Sergey Levine",
     "keywords": "Robot Learning: Foundation Models;Robot Learning: Reinforcement Learning;Grasping & Manipulation",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "28"
   }
 ]

@@ -3,60 +3,70 @@
     "title": "$\\pi_0$: A Vision-Language-Action Flow Model for General Robot Control",
     "authors": "Kevin Black, Noah Brown, Danny Driess, Adnan Esmail, Michael Robert Equi, Chelsea Finn, Niccolo Fusai, Lachy Groom, Karol Hausman, brian ichter, Szymon Jakubczak, Tim Jones, Liyiming Ke, Sergey Levine, Adrian Li-Bell, Mohith Mothukuri, Suraj Nair, Karl Pertsch, Lucy Xiaoyang Shi, Laura Smith, James Tanner, Quan Vuong, Anna Walling, Haohuan Wang, Ury Zhilinsky",
     "keywords": "Robot Learning: Foundation Models",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "10"
   },
   {
     "title": "SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Models",
     "authors": "Delin Qu, Haoming Song, Qizhi Chen, Yuanqi Yao, Xinyi Ye, Jiayuan Gu, Zhigang Wang, Yan Ding, Bin Zhao, Dong Wang, Xuelong Li",
     "keywords": "Robot Learning: Foundation Models;Robot Learning: Imitation Learning;Grasping & Manipulation",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "11"
   },
   {
     "title": "FAST: Efficient Action Tokenization for Vision-Language-Action Models",
     "authors": "Karl Pertsch, Kyle Stachowicz, brian ichter, Danny Driess, Suraj Nair, Quan Vuong, Oier Mees, Chelsea Finn, Sergey Levine",
     "keywords": "Robot Learning: Foundation Models;Robot Learning: Imitation Learning;Grasping & Manipulation",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "12"
   },
   {
     "title": "Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying Embodied Navigation Tasks",
     "authors": "Jiazhao Zhang, Kunyu Wang, Shaoan Wang, Minghan Li, Haoran Liu, Songlin Wei, Zhongyuan Wang, Zhizheng Zhang, He Wang",
     "keywords": "Autonomous Vehicle Navigation & Mobile Robots;Robot Learning: Foundation Models",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "13"
   },
   {
     "title": "Learning to Act Anywhere with Task-centric Latent Actions",
     "authors": "Qingwen Bu, Yanting Yang, Jisong Cai, Shenyuan Gao, Guanghui Ren, Maoqing Yao, Ping Luo, Hongyang Li",
     "keywords": "Robot Learning: Foundation Models;Robot Learning: Imitation Learning;Grasping & Manipulation",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "14"
   },
   {
     "title": "Unified World Models: Coupling Video and Action Diffusion for Pretraining on Large Robotic Datasets",
     "authors": "Chuning Zhu, Raymond Yu, Siyuan Feng, Benjamin Burchfiel, Paarth Shah, Abhishek Gupta",
     "keywords": "Robot Learning: Imitation Learning;Robot Learning: Foundation Models",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "15"
   },
   {
     "title": "CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision",
     "authors": "Gi-Cheon Kang, Junghyun Kim, Kyuhwan Shim, Jun Ki Lee, Byoung-Tak Zhang",
     "keywords": "Robot Learning: Foundation Models;Human-Robot Interaction;Grasping & Manipulation",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "16"
   },
   {
     "title": "Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success",
     "authors": "Moo Jin Kim, Chelsea Finn, Percy Liang",
     "keywords": "Robot Learning: Foundation Models;Robot Learning: Imitation Learning;Grasping & Manipulation",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "17"
   },
   {
     "title": "NaVILA: Legged Robot Vision-Language-Action Model for Navigation",
     "authors": "An-Chieh Cheng, Yandong Ji, Zhaojing Yang, Zaitian Gongye, Xueyan Zou, Jan Kautz, Erdem Biyik, Hongxu Yin, Sifei Liu, Xiaolong Wang",
     "keywords": "Robot Learning: Foundation Models;Humanoid & Walking Robots;Robot Learning: Datasets and Benchmarks",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "18"
   },
   {
     "title": "ConRFT: A Reinforced Fine-tuning Method for VLA Models via Consistency Policy",
     "authors": "YUHUI CHEN, Shuai Tian, Shugao Liu, Yingting Zhou, Haoran Li, Dongbin Zhao",
     "keywords": "Robot Learning: Reinforcement Learning;Robot Learning: Foundation Models;Robot Learning: Imitation Learning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "19"
   }
 ]

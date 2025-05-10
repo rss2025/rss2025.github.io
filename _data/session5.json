@@ -3,54 +3,63 @@
     "title": "Bilevel Learning for Bilevel Planning",
     "authors": "Bowen Li, Tom Silver, Sebastian Scherer, Alexander G. Gray",
     "keywords": "Robot Planning;Robot Learning: Model Learning;Robot Learning: Imitation Learning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "15"
   },
   {
     "title": "A Biconvex Method for Minimum-Time Motion Planning Through Sequences of Convex Sets",
     "authors": "Tobia Marcucci, Mathew Halm, William Yang, Dongchan Lee, Andrew Marchese",
     "keywords": "Robot Planning;Control & Dynamics;Assembly, Logistics and Manufacturing",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "16"
   },
   {
     "title": "Superfast Configuration-Space Convex Set Computation on GPUs for Online Motion Planning",
     "authors": "Peter Werner, Richard Cheng, Tom Stewart, Russ Tedrake, Daniela Rus",
     "keywords": "Robot Planning;Grasping & Manipulation;Formal Methods for Robotics",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "17"
   },
   {
     "title": "Global Contact-Rich Planning with Sparsity-Rich Semidefinite Relaxations",
     "authors": "Guorui Liu, Shucheng Kang, Heng Yang",
     "keywords": "Control & Dynamics;Robot Planning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "18"
   },
   {
     "title": "On the Surprising Robustness of Sequential Convex Optimization for Contact-Implicit Motion Planning",
     "authors": "Yulin Li, Haoyu Han, Shucheng Kang, Jun Ma, Heng Yang",
     "keywords": "Control & Dynamics;Robot Planning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "19"
   },
   {
     "title": "Effective Sampling for Robot Motion Planning Through the Lens of Lattices",
     "authors": "Itai Panasoff, Kiril Solovey",
     "keywords": "Robot Planning;Multi-Robot & Networked Systems;Autonomous Vehicle Navigation & Mobile Robots",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "20"
   },
   {
     "title": "Efficient Hierarchical Any-Angle Path Planning on Multi-Resolution 3D Grids",
     "authors": "Victor Reijgwart, Cesar Cadena, Roland Siegwart, Lionel Ott",
     "keywords": "Robot Planning;Autonomous Vehicle Navigation & Mobile Robots;Robot State Estimation, Localization & Mapping",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "21"
   },
   {
     "title": "Differentiable GPU-Parallelized Task and Motion Planning",
     "authors": "William Shen, Caelan Reed Garrett, Nishanth Kumar, Ankit Goyal, Tucker Hermans, Leslie Pack Kaelbling, Tom\u00c3\u00a1s Lozano-P\u00c3\u00a9rez, Fabio Ramos",
     "keywords": "Robot Planning;Grasping & Manipulation;Robot Modeling & Simulation",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "22"
   },
   {
     "title": "Flow Matching Ergodic Coverage",
     "authors": "Max Muchen Sun, Allison Pinosky, Todd Murphey",
     "keywords": "Robot Planning;Control & Dynamics",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "23"
   }
 ]

@@ -3,54 +3,63 @@
     "title": "Bridging Perception and Action: Spatially-Grounded Mid-Level Representations for Robot Generalization",
     "authors": "Jonathan Heewon Yang, Chuyuan Fu, Dhruv Shah, Dorsa Sadigh, Fei Xia, Tingnan Zhang",
     "keywords": "Robot Learning: Imitation Learning;Grasping & Manipulation;Robot Learning: Model Learning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "1"
   },
   {
     "title": "ArticuBot: Learning Universal Articulated Object Manipulation Policy via Large Scale Simulation",
     "authors": "Yufei Wang, Ziyu Wang, Mino Nakura, Pratik Bhowal, Chia-Liang Kuo, Yi-Ting Chen, Zackory Erickson, David Held",
     "keywords": "Robot Learning: Imitation Learning;Grasping & Manipulation;Robot Learning: Foundation Models",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "2"
   },
   {
     "title": "DemoGen: Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning",
     "authors": "Zhengrong Xue, Shuying Deng, Zhenyang Chen, Yixuan Wang, Zhecheng Yuan, Huazhe Xu",
     "keywords": "Robot Learning: Imitation Learning;Grasping & Manipulation;Robot Learning: Datasets and Benchmarks",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "3"
   },
   {
     "title": "IMLE Policy: Fast and Sample Efficient Visuomotor Policy Learning via Implicit Maximum Likelihood Estimation",
     "authors": "Krishan Rana, Robert Lee, David Pershouse, Niko Suenderhauf",
     "keywords": "Robot Learning: Imitation Learning;Grasping & Manipulation;Robot Learning: Model Learning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "4"
   },
   {
     "title": "Dynamic Rank Adjustment in Diffusion Policies for Efficient and Flexible Training",
     "authors": "Xiatao Sun, Shuo Yang, Yinxing Chen, Francis Fan, Yiyan (Edgar) Liang, Daniel Rakita",
     "keywords": "Robot Learning: Imitation Learning;Grasping & Manipulation;Robot Planning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "5"
   },
   {
     "title": "Gripper Pose and Object Pointflow as Interfaces for Robotic Bimanual Manipulation",
     "authors": "Yuyin Yang, Zetao Cai, Yang Tian, Jia Zeng, Jiangmiao Pang",
     "keywords": "Robot Learning: Imitation Learning;Grasping & Manipulation;Robot Perception, Sensing & Vision",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "6"
   },
   {
     "title": "SKIL: Semantic Keypoint Imitation Learning for Generalizable Data-efficient Manipulation",
     "authors": "Shengjie Wang, Jiacheng You, Yihang Hu, Jiongye Li, Yang Gao",
     "keywords": "Robot Learning: Imitation Learning;Grasping & Manipulation;Robot Planning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "7"
   },
   {
     "title": "Diffeomorphic Obstacle Avoidance for Contractive Dynamical Systems via Implicit Representations",
     "authors": "Ken-Joel Simmoteit, Philipp Schillinger, Leonel Rozo",
     "keywords": "Robot Learning: Imitation Learning;Control & Dynamics;Grasping & Manipulation",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "8"
   },
   {
     "title": "Learning Interpretable Features from Interventions",
     "authors": "Erin Hedlund-Botti, Julianna Schalkwyk, Nina Marie Moorman, Chuxuan Yang, Lakshmi Seelam, Sanne van Waveren, Russell Perkins, Paul Robinette, Matthew Craig Gombolay",
     "keywords": "Robot Learning: Imitation Learning;Assistive, Entertainment and Service Robots;Human-Robot Interaction",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "9"
   }
 ]

@@ -3,84 +3,98 @@
     "title": "ROMAN: Open-Set Object Map Alignment for Robust View-Invariant Global Localization",
     "authors": "Mason Peterson, Yixuan Jia, Yulun Tian, Annika Thomas, JONATHAN P HOW",
     "keywords": "Robot State Estimation, Localization & Mapping;Robot Perception, Sensing & Vision;Multi-Robot & Networked Systems",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "1"
   },
   {
     "title": "GauSS-MI: Gaussian Splatting Shannon Mutual Information for Active 3D Reconstruction",
     "authors": "Yuhan Xie, Yixi Cai, Yinqiang Zhang, Lei Yang, Jia Pan",
     "keywords": "Robot State Estimation, Localization & Mapping;Robot Planning;Robot Perception, Sensing & Vision",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "2"
   },
   {
     "title": "LiDAR Registration with Visual Foundation Models",
     "authors": "Niclas V\u00c3\u00b6disch, Giovanni Cioffi, Marco Cannici, Wolfram Burgard, Davide Scaramuzza",
     "keywords": "Robot State Estimation, Localization & Mapping;Robot Learning: Foundation Models;Autonomous Vehicle Navigation & Mobile Robots",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "3"
   },
   {
     "title": "Building Rome with Convex Optimization",
     "authors": "Haoyu Han, Heng Yang",
     "keywords": "Robot Perception, Sensing & Vision;Robot State Estimation, Localization & Mapping",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "4"
   },
   {
     "title": "Demonstrating MOSART: Opening Articulated Objects in the Real World",
     "authors": "Arjun Gupta, Michelle Zhang, Rishik Sathua, Saurabh Gupta",
     "keywords": "Grasping & Manipulation;Robot Perception, Sensing & Vision;Perceptual Learning",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "5"
   },
   {
     "title": "Vysics: Object Reconstruction Under Occlusion by Fusing Vision and Contact-Rich Physics",
     "authors": "Bibit Bianchini, Minghan Zhu, Mengti Sun, Bowen Jiang, Camillo Jose Taylor, Michael Posa",
     "keywords": "Robot Learning: Model Learning;Robot Perception, Sensing & Vision;Control & Dynamics",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "6"
   },
   {
     "title": "Implicit Neural-Representation Learning for Elastic Deformable-Object Manipulations",
     "authors": "JeongHo Ha, Minseok Song, Bonggyeong Park, Daehyung Park",
     "keywords": "Grasping & Manipulation;Robot Learning: Reinforcement Learning;Assembly, Logistics and Manufacturing",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "7"
   },
   {
     "title": "Particle-Grid Neural Dynamics for Learning Deformable Object Models from Depth Images",
     "authors": "Kaifeng Zhang, Baoyu Li, Kris Hauser, Yunzhu Li",
     "keywords": "Robot Learning: Model Learning;Robot Perception, Sensing & Vision;Grasping & Manipulation",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "8"
   },
   {
     "title": "V-HOP: Visuo-Haptic 6D Object Pose Tracking",
     "authors": "Hongyu Li, Mingxi Jia, Mete Tuluhan Akbulut, Yu Xiang, George Konidaris, Srinath Sridhar",
     "keywords": "Robot Perception, Sensing & Vision;Perceptual Learning;Grasping & Manipulation",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "9"
   },
   {
     "title": "Autotune: Joint Weight Tuning and Estimation",
     "authors": "Kasra Khosoussi, Iman Shames",
     "keywords": "Robot State Estimation, Localization & Mapping",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "10"
   },
   {
     "title": "Map Space Belief Prediction for Manipulation-Enhanced Mapping",
     "authors": "Joao Marcos Correia Marques, Nils Dengler, Jesper M\u00c3\u00bccke, Tobias Zaenker, Shenlong Wang, Maren Bennewitz, Kris Hauser",
     "keywords": "Robot Perception, Sensing & Vision;Robot Planning;Grasping & Manipulation",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "11"
   },
   {
     "title": "PINGS: Gaussian Splatting Meets Distance Fields within a Point-Based Implicit Neural Map",
     "authors": "Yue Pan, Xingguang Zhong, Liren Jin, Louis Wiesmann, Marija Popovic, Jens Behley, Cyrill Stachniss",
     "keywords": "Robot State Estimation, Localization & Mapping;Robot Perception, Sensing & Vision;Autonomous Vehicle Navigation & Mobile Robots",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "12"
   },
   {
     "title": "RAMEN: Real-time Asynchronous Multi-agent Neural Implicit Mapping",
     "authors": "Hongrui Zhao, Boris Ivanovic, Negar Mehr",
     "keywords": "Robot Perception, Sensing & Vision;Multi-Robot & Networked Systems;Robot State Estimation, Localization & Mapping",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "13"
   },
   {
     "title": "RoboPanoptes: The All-Seeing Robot with Whole-body Dexterity",
     "authors": "Xiaomeng Xu, Dominik Bauer, Shuran Song",
     "keywords": "Robot Perception, Sensing & Vision;Grasping & Manipulation;Mechanisms & Design",
-    "pdf": ""
+    "pdf": "",
+	"PosterBoardNr": "14"
   }
 ]
