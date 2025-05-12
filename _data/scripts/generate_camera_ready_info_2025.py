@@ -29,6 +29,7 @@ import html
 ################################
 manual_title_overrides = {
     172: "Particle-Grid Neural Dynamics for Learning Deformable Object Models from RGB-D Videos",
+    215: "A low-cost and lightweight 6 DoF bimanual arm for dynamic and contact-rich manipulation",
 }
 
 ################################
