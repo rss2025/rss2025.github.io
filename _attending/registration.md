@@ -143,6 +143,37 @@ We cannot accommodate more than one person in one room.</p>
 <p><strong>Are attendees allowed to pick roommates if it is a shared room?</strong><br>
 Shared rooms will not be provided. Each guest will have their own private room. Attendees will not be able to pick who is assigned to their apartment. However, the conference will make apartment assignments to people of the same gender.</p>
 
+<p><strong>What are the check-in and check-out dates for on-campus lodging?</strong><br>
+The check-in and check-out dates depend on the registration type:</p>
+
+
+<table style="width: 100%; max-width: 500px; border-collapse: collapse; margin: 10px 0;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="text-align: left; padding: 8px; border: 1px solid #ccc;">Registration Type</th>
+      <th style="text-align: left; padding: 8px; border: 1px solid #ccc;">Check-in</th>
+      <th style="text-align: left; padding: 8px; border: 1px solid #ccc;">Check-out</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ccc;">Student Attendee</td>
+      <td style="padding: 8px; border: 1px solid #ccc;">June 20</td>
+      <td style="padding: 8px; border: 1px solid #ccc;">June 25</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ccc;">RSS Pioneers Attendee</td>
+      <td style="padding: 8px; border: 1px solid #ccc;">June 19</td>
+      <td style="padding: 8px; border: 1px solid #ccc;">June 25</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ccc;">Pathways Attendee</td>
+      <td style="padding: 8px; border: 1px solid #ccc;">June 20</td>
+      <td style="padding: 8px; border: 1px solid #ccc;">June 26</td>
+    </tr>
+  </tbody>
+</table>
+
 <p><strong>What are the check-in and check-out hours?</strong><br>
 Check-in can be as early as 8 am, with a 12 pm check-out. Upon check-in, guests will receive a "HOUSING" access card for their assigned space. Check-out must be completed at the same Customer Service Center where guests check-in. All personal items must be cleared out, and the "HOUSING" access card returned. A replacement fee will be assessed for each unreturned card.</p>
 
