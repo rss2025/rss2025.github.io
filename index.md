@@ -127,6 +127,82 @@ RSS has a long history of bringing together researchers in all areas of robotics
 </p>
 
 <br/>
+
+---
+
+<h3 id="sponsors">Sponsors</h3>
+
+<!-- Row 1 -->
+<p style="text-align: center;">
+  <img alt="Amazon Robotics" src="images/sponsors2025/1_amazon_robotics.png"
+       style="height: auto; width: auto; max-width: 425px; margin: 10px;" />
+</p>
+
+<!-- Row 2 -->
+<div style="height: 10px;"></div>
+<p style="text-align: center;">
+  <img alt="Toyota Research Institute" src="images/sponsors2025/2_tri.png"
+       style="height: auto; width: auto; max-width: 200px; margin: 10px;" />
+</p>
+
+<!-- Row 3 -->
+<div style="height: 10px;"></div>
+<p style="text-align: center;">
+  <!-- <img alt="Google" src="images/sponsors2025/3a_google.png"
+       style="height: auto; width: auto; max-width: 250px; margin: 10px; margin-right: 40px;" /> -->
+  <img alt="Unitree" src="images/sponsors2025/3b_unitree.png"
+       style="height: auto; width: auto; max-width: 250px; margin: 10px;" />
+</p>
+
+<!-- Row 4 -->
+<div style="height: 10px;"></div>
+<p style="text-align: center;">
+  <img alt="MaxInsights" src="images/sponsors2025/4a_maxinsights.png"
+       style="height: auto; width: auto; max-width: 200px; margin: 10px; margin-right: 40px;" />
+  <img alt="Field AI" src="images/sponsors2025/4b_fieldai.png"
+       style="height: auto; width: auto; max-width: 200px; margin: 10px; margin-right: 40px;" />
+  <img alt="Vinmotion" src="images/sponsors2025/4c_vinmotion.png"
+       style="height: auto; width: auto; max-width: 200px; margin: 10px;" />
+</p>
+
+<!-- Row 5 -->
+<div style="height: 10px;"></div>
+<p style="text-align: center;">
+  <img alt="Semio" src="images/sponsors2025/5a_semio.png"
+       style="height: auto; width: auto; max-width: 200px; margin: 10px; margin-right: 40px; vertical-align: -42px;" />
+  <img alt="Robotis" src="images/sponsors2025/5b_robotis.png"
+       style="height: auto; width: auto; max-width: 200px; margin: 10px; margin-right: 40px;" />
+  <img alt="Lightwheel Robotics" src="images/sponsors2025/5c_lightwheel.png"
+       style="height: auto; width: auto; max-width: 200px; margin: 10px;" />
+</p>
+
+<!-- Row 6 -->
+<div style="height: 10px;"></div>
+<p style="text-align: center;">
+  <img alt="Fourier Intelligence" src="images/sponsors2025/6a_fourier.png"
+       style="height: auto; width: auto; max-width: 200px; margin: 10px; margin-right: 40px; vertical-align: -25px;" />
+  <img alt="Hello Robot" src="images/sponsors2025/6b_hellorobot.png"
+       style="height: auto; width: auto; max-width: 200px; margin: 10px;" />
+</p>
+
+<!-- Row 7 -->
+<div style="height: 10px;"></div>
+<p style="text-align: center;">
+  <img alt="Lockheed Martin" src="images/sponsors2025/7a_lockheed.png"
+       style="height: auto; width: auto; max-width: 350px; margin: 10px;" />
+</p>
+
+
+<!-- Row 8 -->
+<div style="height: 10px;"></div>
+<p style="text-align: center;">
+  <img alt="USC Engineering" src="images/sponsors2025/8a_usc_engineering.png"
+       style="height: auto; width: auto; max-width: 177px; margin: 10px; vertical-align: -37px;" />
+  <img alt="USC Computing" src="images/sponsors2025/8b_usc_computing.png"
+       style="height: auto; width: auto; max-width: 500px; margin: 10px;" />
+</p>
+
+---
 The website of the RSS 2024 conference can be found [here]({{ site.baseurl }}/2024/).
 
 <br/>
