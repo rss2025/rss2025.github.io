@@ -142,14 +142,14 @@ RSS has a long history of bringing together researchers in all areas of robotics
 <div style="height: 10px;"></div>
 <p style="text-align: center;">
   <img alt="Toyota Research Institute" src="images/sponsors2025/2_tri.png"
-       style="height: auto; width: auto; max-width: 200px; margin: 10px;" />
+       style="height: auto; width: auto; max-width: 225px; margin: 10px;" />
 </p>
 
 <!-- Row 3 -->
 <div style="height: 10px;"></div>
 <p style="text-align: center;">
-  <!-- <img alt="Google" src="images/sponsors2025/3a_google.png"
-       style="height: auto; width: auto; max-width: 250px; margin: 10px; margin-right: 40px;" /> -->
+  <img alt="Google" src="images/sponsors2025/3a_google.png"
+       style="height: auto; width: auto; max-width: 225px; margin: 10px; margin-right: 40px;" />
   <img alt="Unitree" src="images/sponsors2025/3b_unitree.png"
        style="height: auto; width: auto; max-width: 250px; margin: 10px;" />
 </p>
@@ -183,13 +183,19 @@ RSS has a long history of bringing together researchers in all areas of robotics
        style="height: auto; width: auto; max-width: 200px; margin: 10px; margin-right: 40px; vertical-align: -25px;" />
   <img alt="Hello Robot" src="images/sponsors2025/6b_hellorobot.png"
        style="height: auto; width: auto; max-width: 200px; margin: 10px;" />
+  <img alt="High Torque" src="images/sponsors2025/6c_high_torque.jpg"
+       style="height: auto; width: auto; max-width: 200px; margin: 10px; margin-right: 40px; vertical-align: -25px;" />
 </p>
 
 <!-- Row 7 -->
 <div style="height: 10px;"></div>
 <p style="text-align: center;">
-  <img alt="Lockheed Martin" src="images/sponsors2025/7a_lockheed.png"
-       style="height: auto; width: auto; max-width: 350px; margin: 10px;" />
+  <img alt="Booster" src="images/sponsors2025/7a_booster_robotics.png"
+       style="height: auto; width: auto; max-width: 210px; margin: 10px;" />
+  <img alt="Yondu" src="images/sponsors2025/7b_yondu.png"
+       style="height: auto; width: auto; max-width: 210px; margin: 10px;" />
+  <img alt="Lockheed Martin" src="images/sponsors2025/7c_lockheed.png"
+       style="height: auto; width: auto; max-width: 210px; margin: 10px;" />
 </p>
 
 
