@@ -191,11 +191,11 @@ RSS has a long history of bringing together researchers in all areas of robotics
 <div style="height: 10px;"></div>
 <p style="text-align: center;">
   <img alt="Booster" src="images/sponsors2025/7a_booster_robotics.png"
-       style="height: auto; width: auto; max-width: 210px; margin: 10px;" />
+       style="height: auto; width: auto; max-width: 190px; margin: 10px;" />
   <img alt="Yondu" src="images/sponsors2025/7b_yondu.png"
-       style="height: auto; width: auto; max-width: 210px; margin: 10px;" />
+       style="height: auto; width: auto; max-width: 190px; margin: 10px;" />
   <img alt="Lockheed Martin" src="images/sponsors2025/7c_lockheed.png"
-       style="height: auto; width: auto; max-width: 210px; margin: 10px;" />
+       style="height: auto; width: auto; max-width: 250px; margin: 10px;" />
 </p>
 
 
