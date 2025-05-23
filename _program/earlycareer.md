@@ -4,28 +4,30 @@ title: Early Career Spotlight
 description: Early Career Talks, with title, abstract and speaker bios.
 priority: 7
 invisible: false
-published: false
+published: true
 ---
 
 
 <div id="ec1" class="talk">
   <div class="talk-profile">
-    <img src="{{site.baseurl}}/images/ec_spotlight_2.jpg"/>
+    <img src="{{site.baseurl}}/images/Dorsa_Sadigh_2025.jpg"/>
   </div>
   <div class="talk-speaker">
-    <h3>Stefan Leutenegger</h3>
-    <h4>Assistant Professor</h4>
-    <h4>School of Computation, Information and Technology </h4>
-    <h4>Technical University of Munich (TUM) </h4>
+    <h3>Dorsa Sadigh</h3>
+    <h4>Associate Professor of Computer Science</h4>
+    <h4>Stanford University</h4>
+    <h4>Senior Fellow, Stanford HAI</h4>
+    <h4>Research Scientist, Google DeepMind</h4>
   </div>
 </div>
 
-## Spatial Perception for Real-World Mobile Robots including Drones
+## From Dirt to Data: How Gardening Taught me about Generalist Robot Policies
 {: class="talk-title"}
 
-**Abstract:** To power the next generation mobile robots and drones, the field of spatial perception has made much progress from robust multi-sensor SLAM to dense, semantic, and object-level maps, with the aim of understanding open-ended environments as a basis for mobile robot navigation and environment interaction. I will show recent progress in reliable and real-time state estimation and 3D scene understanding using vision, LiDAR, IMUs, and more. Scenes to be reconstructed may contain dynamic objects and even people, whose poses, postures, and motions we can estimate in a tightly-coupled manner. In our works, we fully embrace the power of machine learning-based approaches, but typically integrated in modular, complex robotic systems that may include model-based methods as well. Our approaches are demonstrated as crucial enablers of a range of robot applications, from mobile manipulation on construction sites to drones exploring obstructed indoor spaces or flying through the forest.
+**Abstract:** In this talk, I will share my journey toward building generalist robot policies—and how it surprisingly mirrors the process of cultivating my backyard garden. I’ll begin by unpacking the key components of robotics foundation models and their promise for generalization across diverse tasks and environments. To ground this discussion, I will introduce StarGen, a taxonomy for evaluating generalization in robot policies, spanning semantic, visual, and behavioral dimensions. Next, I’ll explore what truly enables generalization both algorithmically and in terms of data—drawing an analogy to the delicate process of paintbrush pollination in gardening. I’ll present RT-H: Action Hierarchies using Language Motion, a framework that leverages low-level language abstractions—language motions—to stitch together diverse sources of data. Building on this, I’ll discuss the broader concept of intermediate representations—such as bounding boxes, language-conditioned motions, and trajectory traces—that help bridge the gap between the perceptual strengths of vision-language models and the physical execution required by robots. On the data side, I’ll introduce RoboCrowd, a scalable approach to collecting robotic demonstrations through crowdsourcing and incentive design. I’ll conclude with a look at GeminiRobotics, a system showcasing steerable and interactive capabilities, and discuss its potential to shape the future of human-robot interaction.
 
-**Bio:** Stefan is an Assistant Professor (Tenure Track) at the Technical University of Munich (TUM) in the School of Computation, Information and Technology (CIT) and has further affiliations with the Munich Institute of Robotics and Machine Intelligence (MIRMI) as well as the Munich Data Science Institute (MDSI) and the Munich Center for Machine Learning (MCML). He leads the Smart Robotics Lab (SRL) working at the intersection of perception, mobile robotics, drones, and machine learning. Stefan also still holds the position of a visiting Reader at the Department of Computing of Imperial College London, his previous post. He has also co-founded SLAMcore, a spin-out company aiming at commercialisation of localisation and mapping solutions for robots and drones. Stefan has received a BSc and from ETH Zurich, as well as a PhD on “Unmanned solar airplanes: design and algorithms for efficient and robust autonomous operation” in 2014.
+**Bio:** Dorsa Sadigh is an associate professor in Computer Science and an HAI senior fellow at Stanford University. She is also a research scientist at Google DeepMind.  Her research interests lie in the intersection of robot learning and human-robot interaction. Specifically, she is interested in developing algorithms for adaptive learning agents that can learn from humans and interact with them. Dorsa received her doctoral degree in Electrical Engineering and Computer Sciences (EECS) from UC Berkeley in 2017, and received her bachelor’s degree in EECS from UC Berkeley in 2012.  She is awarded the Sloan Fellowship, PECASE award, NSF CAREER award, ONR Young Investigator award, and MIT TR35.
+
 
 <br/>
 <hr>
