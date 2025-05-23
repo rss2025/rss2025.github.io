@@ -146,7 +146,7 @@ RSS has a long history of bringing together researchers in all areas of robotics
 <!-- Row 2 -->
 <div style="height: 10px;"></div>
 <p style="text-align: center;">
-  <img alt="Toyota Research Institute" src="images/sponsors2025/2_tri_black.png"
+  <img alt="Toyota Research Institute" src="images/sponsors2025/2_tri.png"
        style="height: auto; width: auto; max-width: 225px; margin: 10px;" />
 </p>
 
