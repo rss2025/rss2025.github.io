@@ -223,6 +223,17 @@ published: true
             </table>
 
             <br>
+            <b>Publications Chair</b><br>
+            <table style="margin-left:auto;margin-right:auto;">
+                  <tr>
+                  <td style="width:200px;vertical-align:top;">
+                        <a target="_blank" href="https://jaredstrader.github.io/"> Jared Strader </a><br>
+                        <i>Massachusetts Institute of Technology, USA</i><br>
+                  </td>
+                  </tr>
+            </table>
+
+            <br>
             <b>Submission Chair</b><br>
             <table style="margin-left:auto;margin-right:auto;">
                   <tr>
