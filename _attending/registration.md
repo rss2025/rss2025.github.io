@@ -128,22 +128,22 @@ All RSS 2025 attendees must present a multi-day pass to enter USC. If you plan t
   <img src="{{ site.baseurl }}/images/usc_dorms/img5.jpg" alt="Dorm Image 5" style="width: 28%; height: auto;" class="img-responsive img-same-height" />
 </div>
 
-<p><strong>Is the lodging empty or subleased by current USC students?</strong><br>
+<p id="faq-lodging" style="margin-bottom: 0;" class="faq-question"><strong>Is the lodging empty or subleased by current USC students?</strong></p><p>
 USC Housing manages the dorms. They are not subleased, and they are furnished. Each room includes a bed with attached drawers, a closet without hangers, and a desk. The shared kitchen does not come with pots, pans, microwave, or utensils.  Some rooms may contain two beds, however for RSS each room is strictly single occupancy.</p>
 
-<p><strong>Do we need to bring bedding like pillows and quilts?</strong><br>
+<p id="faq-bedding" style="margin-bottom: 0;" class="faq-question"><strong>Do we need to bring bedding like pillows and quilts?</strong></p><p>
 No, you do not need to bring your own bedding as all rooms are provided with a pillow and blanket per person, along with standard linen service. Standard linen service includes a linen packet (two bath towels, facecloth, top and bottom bed sheets, pillowcase) that is placed on the bed. All linens must be left in your room upon check-out to avoid charges for missing items.</p>
 
-<p><strong>Will the rooms be private or shared? What is the type of the dorm (i.e. single room with public bathrooms, single studio, shared apartment dorm, etc.)?</strong><br>
+<p id="faq-shared" style="margin-bottom: 0;" class="faq-question"><strong>Will the rooms be private or shared? What is the type of the dorm (i.e. single room with public bathrooms, single studio, shared apartment dorm, etc.)?</strong></p><p>
 Each guest will have a private room. Guests should anticipate sharing common areas. </p>
 
-<p><strong>Can the dorms accommodate the spouse/family member of the attendee?</strong><br>
+<p id="faq-family" style="margin-bottom: 0;" class="faq-question"><strong>Can the dorms accommodate the spouse/family member of the attendee?</strong></p><p>
 We cannot accommodate more than one person in one room.</p>
 
-<p><strong>Are attendees allowed to pick roommates if it is a shared room?</strong><br>
+<p id="faq-roommates" style="margin-bottom: 0;" class="faq-question"><strong>Are attendees allowed to pick roommates if it is a shared room?</strong></p><p>
 Shared rooms will not be provided. Each guest will have their own private room. Attendees will not be able to pick who is assigned to their apartment. However, the conference will make apartment assignments to people of the same gender.</p>
 
-<p><strong>What are the check-in and check-out dates for on-campus lodging?</strong><br>
+<p id="faq-dates" style="margin-bottom: 0;" class="faq-question"><strong>What are the check-in and check-out dates for on-campus lodging?</strong></p><p>
 The check-in and check-out dates depend on the registration type:</p>
 
 
@@ -174,13 +174,59 @@ The check-in and check-out dates depend on the registration type:</p>
   </tbody>
 </table>
 
-<p><strong>What are the check-in and check-out hours?</strong><br>
-Check-in can be as early as 8 am, with a 12 pm check-out. Upon check-in, guests will receive a "HOUSING" access card for their assigned space. Check-out must be completed at the same Customer Service Center where guests check-in. All personal items must be cleared out, and the "HOUSING" access card returned. A replacement fee will be assessed for each unreturned card.</p>
+<p id="faq-check-in" style="margin-bottom: 0;" class="faq-question"><strong>What are the check-in and check-out hours?</strong></p>
+<p>Check-in is between 8 am and 12:30 am the following day, with a 12 pm check-out. If the front desk is unattended, guests should call the phone number listed in their housing assignment and instructions email. Staff will be onsite to assist with check-in during the window. </p>
+<p>Upon check-in, guests will receive a "HOUSING" access card for their assigned space. Check-out must be completed at the same Customer Service Center where guests check-in. All personal items must be cleared out, and the "HOUSING" access card returned. A replacement fee will be assessed for each unreturned card.</p>
 
-<p><strong>Which USC dorms will be housing RSS attendees and is there additional information on USC housing policy?</strong><br>
-The three dorms are Cale and Irani Residential (UVS), Nemirovsky and Bohnett Residential (NBC/UVE). Click the links to find policy details and a map for the resident housing you will be assigned:<br>
+<p id="faq-dorms"  style="margin-bottom: 0;" class="faq-question"><strong>Which USC dorms will house RSS attendees and is there additional information on USC housing policy?</strong></p>
+<p>The three dorms are Cale and Irani Residential (UVS), Nemirovsky and Bohnett Residential (NBC/UVE). Click the links to find policy details and a map for the resident housing you will be assigned:<br>
 <a href="https://drive.google.com/file/d/1tcF_yK1Cs-zRxq1QLkYdBWSzds197bPV/view?usp=drive_link" target="_blank">Cale and Irani Residential (UVS)</a>,
 <a href="https://drive.google.com/file/d/1m0eBvLCJVYSL5qKYNRU7PEa3c5D6THuZ/view?usp=drive_link" target="_blank">Nemirovsky and Bohnett Residential (NBC/UVE)</a>.
 </p>
 
 </div>
+
+<!-- inject anchors in faq -->
+<script>
+  function applyAnchorHighlight(id) {
+    document.querySelectorAll('.anchor-highlight').forEach(el =>
+      el.classList.remove('anchor-highlight')
+    );
+    const el = document.getElementById(id);
+    if (el) {
+      el.classList.add('anchor-highlight');
+    }
+  }
+
+  function highlightFromHash() {
+    const hash = window.location.hash;
+    if (hash) applyAnchorHighlight(hash.substring(1));
+  }
+
+  function highlightWithoutJump(event, id) {
+    event.preventDefault();
+    history.replaceState(null, '', '#' + id);
+    applyAnchorHighlight(id);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll('.faq-question').forEach(el => {
+      const id = el.id;
+      if (!id) return;
+
+      const anchor = document.createElement('a');
+      anchor.href = `#${id}`;
+      anchor.textContent = '#';
+      anchor.style.cssText = "margin-left: 0.25em; font-size: 0.9em; color: #bbb; text-decoration: none; visibility: hidden;";
+      anchor.onclick = (e) => highlightWithoutJump(e, id);
+
+      el.onmouseover = () => anchor.style.visibility = 'visible';
+      el.onmouseout = () => anchor.style.visibility = 'hidden';
+
+      el.appendChild(anchor);
+    });
+
+    highlightFromHash();
+    window.addEventListener("hashchange", highlightFromHash);
+  });
+</script>

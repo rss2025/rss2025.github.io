@@ -651,3 +651,7 @@ padding-inline-start: 1.2em;
 .WIN:before{
     content: "[WINNER] ";
 }
+
+.anchor-highlight {
+    background-color: #fff3b0;
+}
