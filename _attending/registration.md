@@ -175,7 +175,7 @@ The check-in and check-out dates depend on the registration type:</p>
 </table>
 
 <p id="faq-check-in" style="margin-bottom: 0;" class="faq-question"><strong>What are the check-in and check-out hours?</strong></p>
-<p>Check-in is between 8 am and 12:30 am the following day, with a 12 pm check-out. If the front desk is unattended (e.g., close to midnight), guests should call the phone number listed in their housing assignment and instructions email. There will be staff onsite to assist with check-in. </p>
+<p>Check-in is between 8 AM and 12:30 AM the following day, with a 12 PM check-out. If the front desk is unattended (e.g., close to midnight), guests should call the phone number listed in their housing assignment and instructions email. There will be staff onsite to assist with check-in. </p>
 <p>Upon check-in, guests will receive a "HOUSING" access card for their assigned space. Check-out must be completed at the same Customer Service Center where guests check-in. All personal items must be cleared out, and the "HOUSING" access card returned. A replacement fee will be assessed for each unreturned card.</p>
 
 <p id="faq-dorms"  style="margin-bottom: 0;" class="faq-question"><strong>Which USC dorms will house RSS attendees and is there additional information on USC housing policy?</strong></p>
