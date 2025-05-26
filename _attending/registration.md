@@ -10,11 +10,12 @@ published: true
 
 
 ### Badge Pick-up & On-Site Registration
+
 * June 20, All Day: TBD
-* June 21, 8am-10am: Epstein Plaza
-* June 21, 11am-8pm: Bovard Auditorium
-* June 22-24, All Day: Bovard Auditorium
-* June 25, All Day: Epstein Plaza
+* June 21, 8am-10am: [Epstein Family Plaza](https://maps.app.goo.gl/p9KCXNDmjfQVQ1W96)
+* June 21, 11am-8pm: [Bovard Auditorium](https://maps.app.goo.gl/UqxnUUnbp2FzdH5G7)
+* June 22-24, All Day: [Bovard Auditorium](https://maps.app.goo.gl/UqxnUUnbp2FzdH5G7)
+* June 25, All Day: [Epstein Family Plaza](https://maps.app.goo.gl/p9KCXNDmjfQVQ1W96)
 
 Note that the registration desk will be closed between 10am and 11am on June 21st.
 
