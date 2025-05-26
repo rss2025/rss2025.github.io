@@ -4,62 +4,62 @@
     "authors": "Zhao-Heng Yin, Changhao Wang, Luis Pineda, Francois Robert Hogan, Chaithanya Krishna Bodduluri, Akash Sharma, Patrick Lancaster, Ishita Prasad, Mrinal Kalakrishnan, Jitendra Malik, Mike Lambeta, Tingfan Wu, Pieter Abbeel, Mustafa Mukadam",
     "keywords": "Control & Dynamics;Grasping & Manipulation;Robot Learning: Foundation Models",
     "pdf": "",
-	"PosterBoardNr": "1"
+	"PosterBoardNr": "24"
   },
   {
     "title": "DOGlove: Dexterous Manipulation with a Low-Cost Open-Source Haptic Force Feedback Glove",
     "authors": "Han Zhang, Songbo Hu, Zhecheng Yuan, Huazhe Xu",
     "keywords": "Mechanisms & Design;Grasping & Manipulation;Robot Learning: Imitation Learning",
     "pdf": "",
-	"PosterBoardNr": "2"
+	"PosterBoardNr": "25"
   },
   {
     "title": "Dexonomy: Synthesizing All Dexterous Grasp Types in a Grasp Taxonomy",
     "authors": "Jiayi Chen, Yubin Ke, Lin Peng, He Wang",
     "keywords": "Grasping & Manipulation;Robot Planning;Robot Learning: Datasets and Benchmarks",
     "pdf": "",
-	"PosterBoardNr": "3"
+	"PosterBoardNr": "26"
   },
   {
     "title": "Dex1B: Learning with 1B Demonstrations for Dexterous Manipulation",
     "authors": "Jianglong Ye, Keyi Wang, Chengjing Yuan, Ruihan Yang, Yiquan Li, Jiyue Zhu, Yuzhe Qin, Xueyan Zou, Xiaolong Wang",
     "keywords": "Grasping & Manipulation",
     "pdf": "",
-	"PosterBoardNr": "4"
+	"PosterBoardNr": "27"
   },
   {
     "title": "Demonstrating Multi-Suction Item Picking at Scale via Multi-Modal Learning of Pick Success",
     "authors": "Che Wang, Jeroen Vanbaar, Chaitanya Mitash, Shuai Li, Dylan Randle, Weiyao Wang, Sumedh Anand Sontakke, Kostas Bekris, Kapil Katyal",
     "keywords": "Grasping & Manipulation;Perceptual Learning;Assembly, Logistics and Manufacturing",
     "pdf": "",
-	"PosterBoardNr": "5"
+	"PosterBoardNr": "28"
   },
   {
     "title": "Vib2Move: In-hand Object Reconfiguration via Fingertip Micro-vibrations",
     "authors": "Xili Yi, Nima Fazeli",
     "keywords": "Grasping & Manipulation;Robot Planning;Control & Dynamics",
     "pdf": "",
-	"PosterBoardNr": "6"
+	"PosterBoardNr": "29"
   },
   {
     "title": "Sim-and-Real Co-Training: A Simple Recipe for Vision-Based Robotic Manipulation",
     "authors": "Abhiram Maddukuri, Zhenyu Jiang, Lawrence Yunliang Chen, Soroush Nasiriany, Yuqi Xie, Yu Fang, Wenqi Huang, Zu Wang, Zhenjia Xu, Nikita Chernyadev, Scott Reed, Ken Goldberg, Ajay Mandlekar, Linxi Fan, Yuke Zhu",
     "keywords": "Grasping & Manipulation;Robot Modeling & Simulation",
     "pdf": "",
-	"PosterBoardNr": "7"
+	"PosterBoardNr": "30"
   },
   {
     "title": "CordViP: Correspondece-based Visuomotor Policy for Dexterous Manipulation in Real-World",
     "authors": "Yankai Fu, Ning Chen, Qiuxuan Feng, Zichen Zhou, Mengzhen Liu, Mingdong Wu, Tianxing Chen, Shanyu Rong, Jiaming Liu, Hao Dong, Shanghang Zhang",
     "keywords": "Robot Learning: Imitation Learning;Grasping & Manipulation",
     "pdf": "",
-	"PosterBoardNr": "8"
+	"PosterBoardNr": "31"
   },
   {
     "title": "Complementarity-Free Multi-Contact Modeling and Optimization for Dexterous Manipulation",
     "authors": "Wanxin Jin",
     "keywords": "Grasping & Manipulation;Robot Modeling & Simulation;Control & Dynamics",
     "pdf": "",
-	"PosterBoardNr": "9"
+	"PosterBoardNr": "32"
   }
 ]

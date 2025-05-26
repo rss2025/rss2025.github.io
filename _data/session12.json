@@ -4,69 +4,69 @@
     "authors": "Ji Yin, Oswin So, Eric Yang Yu, Chuchu Fan, Panagiotis Tsiotras",
     "keywords": "Control & Dynamics;Robot Planning;Autonomous Vehicle Navigation & Mobile Robots",
     "pdf": "",
-	"PosterBoardNr": "10"
+	"PosterBoardNr": "33"
   },
   {
     "title": "Dynamic Safety in Complex Environments: Synthesizing Safety Filters with Poisson\u00e2\u20ac\u2122s Equation",
     "authors": "Gilbert Bahati, Ryan M. Bena, Aaron Ames",
     "keywords": "Control & Dynamics;Autonomous Vehicle Navigation & Mobile Robots;Formal Methods for Robotics",
     "pdf": "",
-	"PosterBoardNr": "11"
+	"PosterBoardNr": "34"
   },
   {
     "title": "Bridging Model Predictive Control and Deep Learning for Scalable Reachability Analysis",
     "authors": "Zeyuan Feng, Le Qiu, Somil Bansal",
     "keywords": "Control & Dynamics",
     "pdf": "",
-	"PosterBoardNr": "12"
+	"PosterBoardNr": "35"
   },
   {
     "title": "Distilling Contact Planning for Fast Trajectory Optimization in Robot Air Hockey",
     "authors": "Julius Jankowski, Ante Mari\u00c4\u2021, Puze Liu, Davide Tateo, Jan Peters, Sylvain Calinon",
     "keywords": "Control & Dynamics;Robot Planning;Robot Learning: Model Learning",
     "pdf": "",
-	"PosterBoardNr": "13"
+	"PosterBoardNr": "36"
   },
   {
     "title": "Leveling the Playing Field: Carefully Comparing Classical and Learned Controllers for Quadrotor Trajectory Tracking",
     "authors": "Pratik Kunapuli, Jake Welde, Dinesh Jayaraman, Vijay Kumar",
     "keywords": "Control & Dynamics;Robot Learning: Reinforcement Learning;Field Robotics (e.g., Aerial, Agricultural, Construction, Space, Underwater Robotics)",
     "pdf": "",
-	"PosterBoardNr": "14"
+	"PosterBoardNr": "37"
   },
   {
     "title": "A Generic Continuous Multi-Joint Spinal Robotic System for Agile and Accurate Behaviors with GNN-MPC method",
     "authors": "Ying Wu, Zida Zhou, RenmingLiu, Lanxiang Zheng, Hui Cheng",
     "keywords": "Bioinspired Robots;Control & Dynamics;Mechanisms & Design",
     "pdf": "",
-	"PosterBoardNr": "15"
+	"PosterBoardNr": "38"
   },
   {
     "title": "Behavior Synthesis via Contact-Aware Fisher Information Maximization",
     "authors": "Hrishikesh Sathyanarayan, Ian Abraham",
     "keywords": "Control & Dynamics;Robot Learning: Model Learning;Robot Planning",
     "pdf": "",
-	"PosterBoardNr": "16"
+	"PosterBoardNr": "39"
   },
   {
     "title": "Geometric Gait Optimization for Kinodynamic Systems Using a Lie Group Integrator",
     "authors": "Yanhao Yang, Ross Hatton",
     "keywords": "Control & Dynamics;Robot Modeling & Simulation;Robot Planning",
     "pdf": "",
-	"PosterBoardNr": "17"
+	"PosterBoardNr": "40"
   },
   {
     "title": "Riemannian Direct Trajectory Optimization of Rigid Bodies on Matrix Lie Groups",
     "authors": "Sangli Teng, Tzu-Yuan Lin, William A Clark, Ram Vasudevan, Maani Ghaffari",
     "keywords": "Control & Dynamics;Robot Planning;Robot Modeling & Simulation",
     "pdf": "",
-	"PosterBoardNr": "18"
+	"PosterBoardNr": "41"
   },
   {
     "title": "Provably-Safe, Online System Identification",
     "authors": "Bohao Zhang, zichang zhou, Ram Vasudevan",
     "keywords": "Control & Dynamics;Robot Planning;Grasping & Manipulation",
     "pdf": "",
-	"PosterBoardNr": "19"
+	"PosterBoardNr": "42"
   }
 ]
