@@ -8,6 +8,19 @@ published: true
 ---
 
 
+
+### Badge Pick-up & On-Site Registration
+* June 20, All Day: TBD
+* June 21, 8am-10am: Epstein Plaza
+* June 21, 11am-8pm: Bovard Auditorium
+* June 22-24, All Day: Bovard Auditorium
+* June 25, All Day: Epstein Plaza
+
+Note that the registration desk will be closed between 10am and 11am on June 21st.
+
+
+
+
 <div width="100%" style="border: solid #aaa 3px; background:#990000; padding: 5px; color: #FFCC00; text-align: center;">
  Click <b><a href="https://site.pheedloop.com/event/RSS2025/home" target="_blank" style="color: #FFCC00; text-decoration: underline;">here</a> to register.</b>
 </div>  
