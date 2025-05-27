@@ -7,16 +7,6 @@ invisible: false
 published: true
 ---
 
-### Badge Pick-Up & On-Site Registration
-
-* June 20, All Day: TBD
-* June 21, 8am-10am: [Epstein Family Plaza](https://maps.app.goo.gl/p9KCXNDmjfQVQ1W96)
-* June 21, 11am-8pm: [Bovard Auditorium](https://maps.app.goo.gl/UqxnUUnbp2FzdH5G7)
-* June 22-24, All Day: [Bovard Auditorium](https://maps.app.goo.gl/UqxnUUnbp2FzdH5G7)
-* June 25, All Day: [Epstein Family Plaza](https://maps.app.goo.gl/p9KCXNDmjfQVQ1W96)
-
-Note that the registration desk will be closed between 10am and 11am on June 21st.
-
 <div width="100%" style="border: solid #aaa 3px; background:#990000; padding: 5px; color: #FFCC00; text-align: center;">
  Click <b><a href="https://site.pheedloop.com/event/RSS2025/home" target="_blank" style="color: #FFCC00; text-decoration: underline;">here</a> to register.</b>
 </div>  
@@ -98,7 +88,9 @@ The registration portal is hosted on PheedLoop at this link: **[site.pheedloop.c
 
 <small>**Except for workshop only attendees, rates for in-person registration include access to all food served during the conference</small>
 
-<!-- <table style="width: 100%; max-width: 600px; border-collapse: collapse; margin: 10px 0;">
+### Badge Pick-Up & On-Site Registration
+
+<table style="width: 100%; max-width: 600px; border-collapse: collapse; margin: 10px 0;">
   <thead>
     <tr style="background-color: #f2f2f2;">
       <th style="text-align: left; padding: 8px; border: 1px solid #ccc;">Date</th>
@@ -113,12 +105,12 @@ The registration portal is hosted on PheedLoop at this link: **[site.pheedloop.c
       <td style="padding: 8px; border: 1px solid #ccc;">TBD</td>
     </tr>
     <tr>
-      <td style="padding: 8px; border: 1px solid #ccc;">June 21</td>
+      <td style="padding: 8px; border: 1px solid #ccc;">*June 21</td>
       <td style="padding: 8px; border: 1px solid #ccc;">8am–10am</td>
       <td style="padding: 8px; border: 1px solid #ccc;"><a href="https://maps.app.goo.gl/p9KCXNDmjfQVQ1W96" target="_blank">Epstein Family Plaza</a></td>
     </tr>
     <tr>
-      <td style="padding: 8px; border: 1px solid #ccc;">June 21</td>
+      <td style="padding: 8px; border: 1px solid #ccc;">*June 21</td>
       <td style="padding: 8px; border: 1px solid #ccc;">11am–8pm</td>
       <td style="padding: 8px; border: 1px solid #ccc;"><a href="https://maps.app.goo.gl/UqxnUUnbp2FzdH5G7" target="_blank">Bovard Auditorium</a></td>
     </tr>
@@ -133,9 +125,10 @@ The registration portal is hosted on PheedLoop at this link: **[site.pheedloop.c
       <td style="padding: 8px; border: 1px solid #ccc;"><a href="https://maps.app.goo.gl/p9KCXNDmjfQVQ1W96" target="_blank">Epstein Family Plaza</a></td>
     </tr>
   </tbody>
-</table> -->
+</table>
 
-<!-- Note that the registration desk will be closed between 10am and 11am on June 21st. -->
+<small>*Note that the registration desk will be closed between 10am and 11am on June 21st.</small>
+
 
 ### Visa and Invitation Letter
 <!-- 
