@@ -250,7 +250,9 @@ published: true
               <td rowspan="2" class="keynote-block">
               <a class="block-link" href="{{ site.baseurl }}/program/keynote/">Keynote: Trevor Darrell</a>
               </td>
-              <td rowspan="2" class="event-block">Test of Time Award</td>
+              <td rowspan="2" class="event-block">
+              <a class="block-link" href="{{ site.baseurl }}/program/testoftimeaward/">Test of Time Award</a>
+              </td>
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">3:30PM</td>
