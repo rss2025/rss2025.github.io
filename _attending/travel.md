@@ -7,7 +7,7 @@ invisible: false
 published: true
 ---
 
-# Travel information
+<!-- # Travel information -->
 
 ## Visa and Invitation Letter
 
