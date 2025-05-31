@@ -138,6 +138,17 @@ published: true
   }
 </style>
 
+
+
+<p>
+	* Poster sessions of all workshops will take place at the [Epstein Family Plaza](https://maps.app.goo.gl/YTtHP12vrTdBQpce9). For workshop locations, see the <a href="{{ site.baseurl }}/program/workshops/">Workshops</a> page.
+	* RSS Pioneers and Pathways@RSS locations will be announced soon.
+	* Poster sessions of the main conference will take place at the [Founders Park](https://maps.app.goo.gl/KBvJUBtyXxn319QG8).
+	* For demo locations, see the <a href="{{ site.baseurl }}/program/demos/">Demos</a> page.
+	* All other events of the main conference will take place at the [Bovard Auditorium](https://maps.app.goo.gl/gmsxcUqwNSfjsuHL8).
+</p>
+
+
 <table class="schedule" cellspacing="0" border="0">
        <tr>
               <td style="width: 5em; border: none; background-color: #E2F0D9;"></td>
