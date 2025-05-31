@@ -7,7 +7,7 @@ invisible: false
 published: true
 ---
 
-<!-- # Travel information -->
+# Travel information
 
 ## Visa and Invitation Letter
 
@@ -76,4 +76,4 @@ In addition, the university provides special rates for several other hotels in/n
 
 
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1G2ehxU2Cmlku-QQ4wRN0AsryPAByfgs&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
+<iframe width="100%" height="300px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/en/map/untitled-map_1233169?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"></iframe><p><a href="//umap.openstreetmap.fr/en/map/untitled-map_1233169?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true">See full screen</a></p>
