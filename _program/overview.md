@@ -190,8 +190,12 @@ published: true
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">11:00AM</td>
-              <td rowspan="1" class="event-block">Early Career Spotlight</td>
-              <td rowspan="1" class="event-block">Early Career Spotlight</td>
+              <td rowspan="1" class="event-block">
+              <a class="block-link" href="{{ site.baseurl }}/program/earlycareer/">Early Career Spotlight:<br>Dorsa Sadigh</a>
+              </td>
+              <td rowspan="1" class="event-block">
+              <a class="block-link" href="{{ site.baseurl }}/program/earlycareer/">Early Career Spotlight:<br>Zac Manchester</a>
+              </td>
               <td rowspan="1" class="event-block">Awards Ceremony</td>
        </tr>
        <tr>
@@ -244,11 +248,11 @@ published: true
        <tr>
               <td style="background-color: #E2F0D950;">3:00PM</td>
               <td rowspan="2" class="keynote-block">
-              <a class="block-link" href="{{ site.baseurl }}/program/keynote/">Keynote: Barbara Webb</a>
+              <a class="block-link" href="{{ site.baseurl }}/program/keynote/">Keynote:<br>Barbara Webb</a>
               </td>
               <td rowspan="2" class="event-block">Past, Present, and Future Panel</td>
               <td rowspan="2" class="keynote-block">
-              <a class="block-link" href="{{ site.baseurl }}/program/keynote/">Keynote: Trevor Darrell</a>
+              <a class="block-link" href="{{ site.baseurl }}/program/keynote/">Keynote:<br>Trevor Darrell</a>
               </td>
               <td rowspan="2" class="event-block">
               <a class="block-link" href="{{ site.baseurl }}/program/testoftimeaward/">Test of Time Award</a>
