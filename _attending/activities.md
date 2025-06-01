@@ -39,4 +39,20 @@ Register here [https://lnkd.in/gYJccwJ9](https://lnkd.in/gYJccwJ9) and bring a f
 
 ---
 
+## Comedy Show Headlined by a Robot (June 23, 2025)
+
+Coincident with RSS 2025, Dr. Naomi Fitter (associate professor at Oregon State University and professional stand-up comedian) is running a comedy show in Santa Monica, an easy ride from USC's campus.  
+
+**Get your tickets [here](https://jetbook.co/e/naughty-but-nerdymaz2) before they sell out! Enjoy $5 off with the discount code: `RSS2025`**
+
+The show features:
+
+-  **Jon the Robot**, an autonomous robotic stand-up comedian. You might recognize Naomi and her robotic sidekick from *TIME Magazine* in 2022 and *NPR* in 2024.  
+
+Other acts include:  
+- **Jackie Kashian**, creator of the New York Times-endorsed Dork Forest podcast and frequent performer on late night TV (e.g., Conan, Comedy Central)
+- **Dr. Ajitesh Srivastava**, a professor by day and comedy performer by night  
+
+---
+
 Stay tuned — we may add more local events and activities to this page as the conference approaches!
