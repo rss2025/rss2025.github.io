@@ -2,7 +2,7 @@
 layout: page
 title: Suggested Activities
 description: Things to do around RSS 2025
-Priority: 3
+priority: 2
 invisible: false
 published: true
 ---

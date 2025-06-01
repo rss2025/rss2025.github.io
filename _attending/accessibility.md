@@ -2,7 +2,7 @@
 layout: page
 title: Accessibility
 description: Accessibility information.
-priority: 4
+priority: 8
 invisible: false
 published: true
 ---

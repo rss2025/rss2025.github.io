@@ -2,7 +2,7 @@
 layout: page
 title: Travel
 description: How to get to RSS
-Priority: 3
+priority: 5
 invisible: false
 published: true
 ---
