@@ -7,7 +7,29 @@ invisible: false
 published: true
 ---
 
-## LeRobot Hackathon (June 14–15, 2025)
+<style>
+  h2 .header-anchor {
+    margin-left: 2px;
+    opacity: 0;
+    color: #888;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 0.8em;
+    transition: opacity 0.2s;
+  }
+
+  h2:hover .header-anchor {
+    opacity: 1;
+  }
+</style>
+
+Discover local events and activities happening around RSS 2025 to make the most of your visit to Los Angeles.
+
+---
+
+<div id="lerobot-hackathon" style="scroll-margin-top: 80px;"></div>
+
+## LeRobot Hackathon (June 14–15, 2025) <a class="header-anchor" href="#lerobot-hackathon">#</a> {#lerobot-hackathon}
 
 <img src="{{site.baseurl}}/images/local2025/lerobot_hackathon_graphic.jpeg" alt="LeRobot Hackathon Banner" style="width: 50%; margin: 20px 0; border-radius: 8px;" />
 
@@ -39,7 +61,9 @@ Register here [https://lnkd.in/gYJccwJ9](https://lnkd.in/gYJccwJ9) and bring a f
 
 ---
 
-## Comedy Show Headlined by a Robot (June 23, 2025)
+<div id="comedy-show" style="scroll-margin-top: 60px;"></div>
+
+## Comedy Show Headlined by a Robot (June 23, 2025) <a class="header-anchor" href="#comedy-show">#</a> {#comedy-show}
 
 Coincident with RSS 2025, Dr. Naomi Fitter (associate professor at Oregon State University and professional stand-up comedian) is running a comedy show in Santa Monica, an easy ride from USC's campus.  
 
@@ -56,3 +80,23 @@ Other acts include:
 ---
 
 Stay tuned — we may add more local events and activities to this page as the conference approaches!
+
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
