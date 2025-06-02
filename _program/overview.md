@@ -98,13 +98,6 @@ published: true
 
 <div style="display: flex; flex-direction: column; gap: 1em; margin-bottom: 2em;">
 
-  <div style="background-color: var(--modern-indigo); padding: 1em 1.2em; border-radius: 6px;">
-    <strong>Main Conference Events:</strong>
-    <ul style="margin: 0.5em 0 0 1em; padding: 0;">
-      <li>All other events of the main conference (keynotes, panels, early career spotlights, and awards) and social events (RoboNight and Farewell Drinks) will take place at the <a href="https://maps.app.goo.gl/gmsxcUqwNSfjsuHL8">Bovard Auditorium</a>.</li>
-    </ul>
-  </div>
-
   <div style="background-color: var(--modern-warm-gray); padding: 1em 1.2em; border-radius: 6px;">
     <strong>RSS Pioneers, Pathways@RSS , and Workshops:</strong>
     <ul style="margin: 0.5em 0 0 1em; padding: 0;">
@@ -118,6 +111,14 @@ published: true
     <ul style="margin: 0.5em 0 0 1em; padding: 0;">
       <li>Poster sessions of the main conference will take place at the <a href="https://maps.app.goo.gl/KBvJUBtyXxn319QG8">Founders Park</a>.</li>
       <li>For demo locations (coming soon), see the <a href="{{ site.baseurl }}/program/demos/">Demos</a> page.</li>
+    </ul>
+  </div>
+
+  <div style="background-color: #e8f5e9; padding: 1em 1.2em; border-radius: 6px;">
+    <strong>Main Conference Events:</strong>
+    <ul style="margin: 0.5em 0 0 1em; padding: 0;">
+       <li>The social events (RoboNight and Farewell Drinks) will take place in <a href="https://maps.app.goo.gl/KBvJUBtyXxn319QG8">Founders Park</a>.</li>
+      <li>All other events of the main conference (keynotes, panels, early career spotlights, and awards) will take place at the <a href="https://maps.app.goo.gl/gmsxcUqwNSfjsuHL8">Bovard Auditorium</a>.</li>
     </ul>
   </div>
 
