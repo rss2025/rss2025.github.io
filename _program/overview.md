@@ -18,48 +18,6 @@ published: true
 }
 </style>
 
-<!-- <style>
-  :root {
-    --google-blue-medium: #d2e3fc;   /* Medium-light blue */
-    --google-green-medium: #c8e6c9;  /* Medium-light green */
-    --google-red-medium: #f4c7c3;    /* Medium-light red */
-    --google-gray-300: #e0e0e0;      /* Slightly darker gray */
-    --google-gray-100: #f1f3f4;      /* Light gray for date */
-    --google-black: #000000;
-  }
-
-  .date-block {
-    background-color: var(--google-gray-100);
-    color: var(--google-black);
-    font-weight: bold;
-  }
-
-  .session-block {
-    background-color: var(--google-blue-medium);
-    color: var(--google-black);
-  }
-
-  .keynote-block {
-    background-color: var(--google-red-medium);
-    color: var(--google-black);
-  }
-
-  .break-block {
-    background-color: var(--google-green-medium);
-    color: var(--google-black);
-  }
-
-  .workshop-block {
-    background-color: var(--google-gray-300);
-    color: var(--google-black);
-  }
-
-  .highlight-block {
-    background-color: var(--google-blue-medium);
-    color: var(--google-black);
-  }
-</style> -->
-
 <style>
   :root {
     --modern-indigo: #e0e7ff;
