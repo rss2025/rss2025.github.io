@@ -46,14 +46,18 @@ For information about the location of the sessions check out the [venue page]({{
 <table id="myTable">
   <tr class="toprowHeader">
     <th >Date</th>
+    <th >Location</th>
     <th >Time</th>
     <th >Session Name and Chairs</th>
   </tr>
  {% for session in site.data.rss2025PaperSessions %}
   <tr session="{{ session.SessionName }}" style="border-bottom: none;">
     <td>{{ session.Date }}</td>
+    <td>
+      <a href="https://maps.app.goo.gl/gmsxcUqwNSfjsuHL8" target="_blank">Bovard Auditorium</a>
+    </td>
     <td>{{ session.Time }}</td>
-    <td colspan=2 >
+    <td>
       <a href="{{ site.baseurl }}/program/papersession?session={{ session.SessionName | url_encode }}&c1={{ session.C1 | url_encode }}&c2={{ session.C2 | url_encode }}&c1a={{ session.C1A | url_encode }}&c2a={{ session.C2A | url_encode }}">
 
       {{ session.SessionName }}
@@ -61,7 +65,9 @@ For information about the location of the sessions check out the [venue page]({{
     </td>
   </tr>
   <tr>
-    <td style="padding-top: 0px;"></td><td style="padding-top: 0px;"></td>
+    <td style="padding-top: 0px;"></td>
+    <td style="padding-top: 0px;"></td>
+    <td style="padding-top: 0px;"></td>
     <td style="padding-top: 0px; font-size: smaller;">{{ session.C1 }}<br> <i>{{ session.C1A }}</i></td>
     <td style="padding-top: 0px; font-size: smaller;">{{ session.C2 }}<br> <i>{{ session.C2A }}</i></td>
   </tr>
