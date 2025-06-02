@@ -96,14 +96,32 @@ published: true
   }
 </style>
 
+<div style="display: flex; flex-direction: column; gap: 1em; margin-bottom: 2em;">
 
+  <div style="background-color: var(--modern-warm-gray); padding: 1em 1.2em; border-radius: 6px;">
+    <strong>RSS Pioneers, Pathways@RSS , and Workshops:</strong>
+    <ul style="margin: 0.5em 0 0 1em; padding: 0;">
+      <li>Poster sessions of all workshops will take place at the <a href="https://maps.app.goo.gl/YTtHP12vrTdBQpce9">Epstein Family Plaza</a>. For workshop locations (coming soon), see the <a href="{{ site.baseurl }}/program/workshops/">Workshops</a> page.</li>
+      <li>RSS Pioneers and Pathways@RSS locations will be announced soon.</li>
+    </ul>
+  </div>
 
-* Poster sessions of all workshops will take place at the [Epstein Family Plaza](https://maps.app.goo.gl/YTtHP12vrTdBQpce9). For workshop locations, see the <a href="{{ site.baseurl }}/program/workshops/">Workshops</a> page.
-* RSS Pioneers and Pathways@RSS locations will be announced soon.
-* Poster sessions of the main conference will take place at the [Founders Park](https://maps.app.goo.gl/KBvJUBtyXxn319QG8).
-* For demo locations, see the <a href="{{ site.baseurl }}/program/demos/">Demos</a> page.
-* All other events of the main conference will take place at the [Bovard Auditorium](https://maps.app.goo.gl/gmsxcUqwNSfjsuHL8).
+  <div style="background-color: var(--modern-indigo); padding: 1em 1.2em; border-radius: 6px;">
+    <strong>Posters and Demos:</strong>
+    <ul style="margin: 0.5em 0 0 1em; padding: 0;">
+      <li>Poster sessions of the main conference will take place at the <a href="https://maps.app.goo.gl/KBvJUBtyXxn319QG8">Founders Park</a>.</li>
+      <li>For demo locations (coming soon), see the <a href="{{ site.baseurl }}/program/demos/">Demos</a> page.</li>
+    </ul>
+  </div>
 
+  <div style="background-color: var(--modern-faded-coral); padding: 1em 1.2em; border-radius: 6px;">
+    <strong>Main Conference Events:</strong>
+    <ul style="margin: 0.5em 0 0 1em; padding: 0;">
+      <li>All other events of the main conference (keynotes, panels, early career spotlights, and awards) and social events (RoboNight and Farewell Drinks) will take place at the <a href="https://maps.app.goo.gl/gmsxcUqwNSfjsuHL8">Bovard Auditorium</a>.</li>
+    </ul>
+  </div>
+
+</div>
 
 <table class="schedule" cellspacing="0" border="0">
        <tr>
