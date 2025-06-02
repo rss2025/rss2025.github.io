@@ -8,6 +8,25 @@ published: true
 ---
 
 <style>
+  .scroll-60 {
+    scroll-margin-top: 60px;
+  }
+
+  .scroll-80 {
+    scroll-margin-top: 80px;
+  }
+
+  /* Adjust for narrow screens where navbar is taller */
+  @media (max-width: 767px) {
+    .scroll-60 {
+      scroll-margin-top: 90px;
+    }
+
+    .scroll-80 {
+      scroll-margin-top: 130px;
+    }
+  }
+
   h2 .header-anchor {
     margin-left: 4px;
     opacity: 0;
@@ -27,7 +46,7 @@ Discover local events and activities happening around RSS 2025 to make the most 
 
 ---
 
-<div id="lerobot-hackathon" style="scroll-margin-top: 80px;"></div>
+<div id="lerobot-hackathon" class="scroll-80"></div>
 
 ## LeRobot Hackathon (June 14–15, 2025)<a class="header-anchor" href="#lerobot-hackathon">#</a> {#lerobot-hackathon}
 
@@ -61,7 +80,7 @@ Register here [https://lnkd.in/gYJccwJ9](https://lnkd.in/gYJccwJ9) and bring a f
 
 ---
 
-<div id="comedy-show" style="scroll-margin-top: 60px;"></div>
+<div id="comedy-show" class="scroll-60"></div>
 
 ## Comedy Show Headlined by a Robot (June 23, 2025)<a class="header-anchor" href="#comedy-show">#</a> {#comedy-show}
 
