@@ -40,6 +40,7 @@ published: true
 
 <!-- <h1 class="page-title">{{ page.title }}</h1> -->
 <h1 class="page-title" style="visibility: hidden;">{{ page.title }}</h1>
+<div id="session-datetime" style="margin-top: -6px; font-size: 0.95em; color: #555; text-align: center;"></div>
 <br/>
 
 <div style="width: 100%; text-align: center;">
@@ -120,6 +121,14 @@ $(document).ready(function() {
     $rows.hide().filter(searchKey).show();
     // $(".page-title").text("Session "+sessionName);
     $(".page-title").text("Session " + sessionName).css("visibility", "visible");
+
+    var sessions = {{ site.data.rss2025PaperSessions | jsonify }};
+    var sessionInfo = sessions.find(s => s.SessionName === sessionName);
+    if (sessionInfo) {
+      var dateTimeStr = "<strong>Date:</strong> " + sessionInfo.Day + ", " + sessionInfo.DateVerbose + ", 2025" +
+                        " &nbsp; | &nbsp; <strong>Time:</strong> " + sessionInfo.Time;
+      $("#session-datetime").html(dateTimeStr);
+    }
 
     param = jQuery.QueryString["c1"];
     if(param)

@@ -4,4 +4,7 @@ build:
 serve:
 	bundle exec jekyll serve
 
+serve-nowatch:
+	bundle exec jekyll serve --no-watch
+
 .PHONY: build serve

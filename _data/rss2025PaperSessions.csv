@@ -1,18 +1,18 @@
-Date,Time,SessionName,SessionLink,C1,C1A,C2,C2A
-21-Jun,2:00pm–3:00pm,1. Perception and Navigation,session1,,,,
-21-Jun,4:30pm–5:30pm,2. VLA Models,session2,,,,
-21-Jun,5:30pm–6:30pm,3. Scaling Robot Learning,session3,,,,
-22-Jun,9:00am–10:30am,4. Perception,session4,,,,
-22-Jun,11:30am–12:30pm,5. Planning,session5,,,,
-22-Jun,2:00pm–3:00pm,6. Manipulation I,session6,,,,
-22-Jun,4:30pm–5:30pm,7. Humanoids,session7,,,,
-22-Jun,5:30pm–6:30pm,8. Imitation Learning I,session8,,,,
-23-Jun,9:00am–10:30am,9. HRI,session9,,,,
-23-Jun,11:30am–12:30pm,10. Multi-Robot Systems,session10,,,,
-23-Jun,2:00pm–3:00pm,11. Manipulation II,session11,,,,
-23-Jun,4:30pm–5:30pm,12. Control and Dynamics,session12,,,,
-23-Jun,5:30pm–6:30pm,13. Mobile Manipulation and Locomotion,session13,,,,
-24-Jun,9:00am–9:30am,14. Robot Design,session14,,,,
-24-Jun,9:30am–10:30am,15. Navigation,session15,,,,
-24-Jun,11:30am–12:30pm,16. Manipulation III,session16,,,,
-24-Jun,2:00pm–3:00pm,17. Imitation Learning II,session17,,,,
+Date,Time,SessionName,SessionLink,C1,C1A,C2,C2A,DateVerbose,Day
+21-Jun,2:00pm–3:00pm,1. Perception and Navigation,session1,,,,,June 21,Saturday
+21-Jun,4:30pm–5:30pm,2. VLA Models,session2,,,,,June 21, Saturday
+21-Jun,5:30pm–6:30pm,3. Scaling Robot Learning,session3,,,,,June 21,Saturday
+22-Jun,9:00am–10:30am,4. Perception,session4,,,,,June 22,Sunday
+22-Jun,11:30am–12:30pm,5. Planning,session5,,,,,June 22,Sunday
+22-Jun,2:00pm–3:00pm,6. Manipulation I,session6,,,,,June 22,Sunday
+22-Jun,4:30pm–5:30pm,7. Humanoids,session7,,,,,June 22,Sunday
+22-Jun,5:30pm–6:30pm,8. Imitation Learning I,session8,,,,,June 22,Sunday
+23-Jun,9:00am–10:30am,9. HRI,session9,,,,,June 23,Monday
+23-Jun,11:30am–12:30pm,10. Multi-Robot Systems,session10,,,,,June 23,Monday
+23-Jun,2:00pm–3:00pm,11. Manipulation II,session11,,,,,June 23,Monday
+23-Jun,4:30pm–5:30pm,12. Control and Dynamics,session12,,,,,June 23,Monday
+23-Jun,5:30pm–6:30pm,13. Mobile Manipulation and Locomotion,session13,,,,,June 23,Monday
+24-Jun,9:00am–9:30am,14. Robot Design,session14,,,,,June 24,Tuesday
+24-Jun,9:30am–10:30am,15. Navigation,session15,,,,,June 24,Tuesday
+24-Jun,11:30am–12:30pm,16. Manipulation III,session16,,,,,June 24,Tuesday
+24-Jun,2:00pm–3:00pm,17. Imitation Learning II,session17,,,,,June 24,Tuesday
