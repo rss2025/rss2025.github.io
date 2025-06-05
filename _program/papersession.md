@@ -125,8 +125,10 @@ $(document).ready(function() {
     var sessions = {{ site.data.rss2025PaperSessions | jsonify }};
     var sessionInfo = sessions.find(s => s.SessionName === sessionName);
     if (sessionInfo) {
+      var locationStr = '<a href="https://maps.app.goo.gl/gmsxcUqwNSfjsuHL8" target="_blank">Bovard Auditorium</a>';
       var dateTimeStr = "<strong>Date:</strong> " + sessionInfo.Day + ", " + sessionInfo.DateVerbose + ", 2025" +
-                        " &nbsp; | &nbsp; <strong>Time:</strong> " + sessionInfo.Time;
+                        " &nbsp; | &nbsp; <strong>Time:</strong> " + sessionInfo.Time +
+                        " &nbsp; | &nbsp; <strong>Location:</strong> " + locationStr;
       $("#session-datetime").html(dateTimeStr);
     }
 
