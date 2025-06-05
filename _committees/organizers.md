@@ -194,7 +194,7 @@ published: true
             <table style="margin-left:auto;margin-right:auto;">
                   <tr>
                   <td style="width:200px;vertical-align:top;">
-                        <a target="_blank" href="https://junhengl.github.io/"> Junheng Li </a><br>
+                        <a target="_blank" href="https://junhengl.github.io/">Junheng Li</a><br>
                         <i>University of Southern California, USA</i><br>
                   </td>
                   </tr>
