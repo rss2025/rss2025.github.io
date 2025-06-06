@@ -54,62 +54,62 @@ RSS has a long history of bringing together researchers in all areas of robotics
     </thead>
     <tbody>
       <tr>
-        <td>January 17, 2025</td>
+        <td><s>January 17, 2025</s></td>
         <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td class="wrap">Abstract/Title Submission Deadline</td>
       </tr>
       <tr>
-        <td>January 24, 2025</td>
+        <td><s>January 24, 2025</s></td>
         <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td class="wrap">Initial Paper and Demo Submission Deadline (this requires a semi-complete pdf of the paper, final title and abstract)</td>
       </tr>
       <tr>
-        <td>January 31, 2025</td>
+        <td><s>January 31, 2025</s></td>
         <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td class="wrap">Final PDF Submission Deadline</td>
       </tr>
       <tr>
-        <td>January 31, 2025</td>
+        <td><s>January 31, 2025</s></td>
         <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td class="wrap">Supplementary Material Submission Deadline</td>
       </tr>
       <tr>
-        <td>February 11, 2025</td>
+        <td><s>February 11, 2025</s></td>
         <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td class="wrap"><a href="https://sites.google.com/view/rsspioneers2025/" target="_blank">RSS Pioneers</a> Application Deadline</td>
       </tr>
       <tr>
-        <td>February 16, 2025</td>
+        <td><s>February 16, 2025</s></td>
         <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td class="wrap">Workshop Proposal Deadline</td>
       </tr>
       <tr>
-        <td>March 17, 2025</td>
+        <td><s>March 17, 2025</s></td>
         <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td class="wrap">Reviews Released and Rebuttal Invitations</td>
       </tr>
       <tr>
-        <td>March 22, 2025</td>
+        <td><s>March 22, 2025</s></td>
         <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td class="wrap">Workshop Decisions Announcement</td>
       </tr>
       <tr>
-        <td>March 24, 2025</td>
+        <td><s>March 24, 2025</s></td>
         <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td class="wrap">Rebuttal Submission Deadline</td>
       </tr>
       <tr>
-        <td>April 10, 2025</td>
+        <td><s>April 10, 2025</s></td>
         <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td class="wrap">Paper and Demo Acceptance Notification</td>
       </tr>
       <tr>
-        <td>April 20, 2025</td>
+        <td><s>April 20, 2025</s></td>
         <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td class="wrap"><a href="https://sites.google.com/view/rsspioneers2025/" target="_blank">RSS Pioneers</a> Notification of Acceptance</td>
       </tr>
       <tr>
-        <td>April 25, 2025</td>
+        <td><s>April 25, 2025</s></td>
         <td class="nowrap">11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td class="wrap">Final Camera Ready Paper Submission</td>
       </tr>

@@ -102,18 +102,18 @@ Please contact the workshop chairs Ayoung Kim (<a href="mailto:ayoungk@snu.ac.kr
     </thead>
     <tbody>
         <tr>
-            <td>February 16, 2025</td>
+            <td><s>February 16, 2025</s></td>
             <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
             <td>Workshop/Tutorial Proposal Submission Deadline</td>
         </tr>
         <tr>
             <!-- <td colspan="2">March 22, 2025</td> -->
-            <td>March 22, 2025</td>
+            <td><s>March 22, 2025</s></td>
             <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
             <td>Proposal Acceptance Notification</td>
         </tr>
         <tr>
-            <td colspan="2">late March/early April, 2025</td>
+            <td colspan="2"><s>late March/early April, 2025</s></td>
             <td>RSS Workshop Organizers Meeting (virtual)</td>
         </tr>
         <tr>

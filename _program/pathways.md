@@ -28,13 +28,13 @@ For instructions and directions at the venue, please check out the [venue page](
     </thead>
     <tbody>
       <tr>
-        <td>March 21, 2025</td>
+        <td><s>March 21, 2025</s></td>
         <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td><a href="https://sites.google.com/lehigh.edu/pathways-rss2025/apply" target="_blank">Pathways@RSS Application</a> Deadline</td>
       </tr>
       <tr>
         <!-- <td colspan="2">April 10, 2025</td> -->
-        <td>April 10, 2025</td>
+        <td><s>April 10, 2025</s></td>
         <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <td>Notification of Acceptance</td>
       </tr>

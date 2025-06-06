@@ -25,20 +25,20 @@ Follow the RSS Pioneers [social media accounts](https://twitter.com/RSSPioneers)
     </thead>
     <tbody>
       <tr>
-        <td>January 17, 2025</td>
+        <td><s>January 17, 2025</s></td>
         <!-- <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td> -->
         <td>—</td>
         <!-- <td>RSS Pioneers Applications Open</td> -->
         <td><a href="https://sites.google.com/view/rsspioneers2025/" target="_blank">RSS Pioneers</a> Applications Open</td>
       </tr>
       <tr>
-        <td>February 11, 2025</td>
+        <td><s>February 11, 2025</s></td>
         <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <!-- <td>RSS Pioneers Applications Deadline</td> -->
         <td><a href="https://sites.google.com/view/rsspioneers2025/" target="_blank">RSS Pioneers</a> Application Deadline</td>
       </tr>
       <tr>
-        <td>April 20, 2025</td>
+        <td><s>April 20, 2025</s></td>
         <td>11:59pm <a href="https://time.is/Anywhere_on_Earth">AoE</a></td>
         <!-- <td>Notification of Acceptance</td> -->
         <td><a href="https://sites.google.com/view/rsspioneers2025/" target="_blank">RSS Pioneers</a> Notification of Acceptance</td>
