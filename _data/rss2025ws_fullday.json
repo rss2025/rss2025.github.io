@@ -1,119 +1,119 @@
 [
   {
     "id": 16,
-    "location": "",
+    "location": "RTH 526",
     "title": "Benchmarking Robot Manipulation: Improving Interoperability and Modularity",
     "website": "https://www.robot-manipulation.org/events/workshops/rss-2025",
     "link": ""
   },
   {
     "id": 17,
-    "location": "",
+    "location": "EEB 248",
     "title": "Brain and Brawn: Robot Hardware-Aware Intelligence",
     "website": "https://rss-hardware-intelligence.github.io/",
     "link": ""
   },
   {
     "id": 18,
-    "location": "",
+    "location": "OHE 122",
     "title": "3rd Workshop on Dexterous Manipulation: Learning and Control with Diverse Data",
     "website": "https://dex-manipulation.github.io/rss2025/",
     "link": ""
   },
   {
     "id": 19,
-    "location": "",
+    "location": "RTH 115",
     "title": "Equivariant Systems: Theory and Applications in State Estimation, Artificial Intelligence and Control",
     "website": "https://equisystems.github.io/",
     "link": ""
   },
   {
     "id": 20,
-    "location": "",
+    "location": "OHE 100C",
     "title": "Gaussian Representations for Robot Autonomy: Challenges and Opportunities",
     "website": "https://sites.google.com/view/gmm-workshop-rss25",
     "link": ""
   },
   {
     "id": 21,
-    "location": "",
+    "location": "RTH 109",
     "title": "2nd Workshop on Generative Modeling Meets Human-Robot Interaction (GenAI-HRI)",
     "website": "https://sites.google.com/view/gai-hri",
     "link": ""
   },
   {
     "id": 22,
-    "location": "",
+    "location": "OHE 100D",
     "title": "Human-in-the-loop Robot Learning: Teaching, Correcting, and Adapting",
     "website": "https://hitl-robot-learning.github.io/",
     "link": ""
   },
   {
     "id": 23,
-    "location": "",
+    "location": "SGM 123",
     "title": "Large Foundation Model for Interactive Robot Learning",
     "website": "https://lfmrss2025.weebly.com/",
     "link": ""
   },
   {
     "id": 24,
-    "location": "",
+    "location": "SGM 124",
     "title": "Workshop on Learned Robot Representations (RoboReps)",
     "website": "https://rss25-roboreps.github.io/",
     "link": ""
   },
   {
     "id": 25,
-    "location": "",
+    "location": "RTH 217",
     "title": "Multi-objective optimization and planning in Robotics",
     "website": "https://sites.google.com/view/moo-rss25/home",
     "link": ""
   },
   {
     "id": 26,
-    "location": "",
+    "location": "RTH 105",
     "title": "Navigating Contact Dynamics in Robotics: Bridging the Gap Between Modeling, Sensing, and Contact-aware Control",
     "website": "https://sites.google.com/colorado.edu/ws-contact-dynamics/home",
     "link": ""
   },
   {
     "id": 27,
-    "location": "",
+    "location": "EEB 132",
     "title": "2nd Workshop on Out-of-Distribution Generalization in Robotics: Towards Trustworthy AI-driven Autonomy",
     "website": "https://sites.google.com/stanford.edu/ood-workshop-rss-25/home",
     "link": ""
   },
   {
     "id": 28,
-    "location": "",
+    "location": "OHE 100B",
     "title": "Resilient Off-road Autonomous Robotics (ROAR)",
     "website": "https://off-roaders.github.io/off-road-workshop-2025/",
     "link": ""
   },
   {
     "id": 29,
-    "location": "",
+    "location": "RTH 211",
     "title": "Robot Evaluation for the Real World",
     "website": "https://sites.google.com/stanford.edu/robot-evaluation-rss-2025/home",
     "link": ""
   },
   {
     "id": 30,
-    "location": "",
+    "location": "OHE 132",
     "title": "Workshop on Scalable and Resilient Multi-Robot Systems: Decision-Making, Coordination, and Learning",
     "website": "https://mrs-workshop.github.io/rss25/",
     "link": ""
   },
   {
     "id": 31,
-    "location": "",
+    "location": "OHE 120",
     "title": "Statistical Uncertainty Quantification in the Era of AI-Enabled Robots",
     "website": "https://sites.google.com/view/rss2025-workshop-uq",
     "link": ""
   },
   {
     "id": 32,
-    "location": "",
+    "location": "OHE 136",
     "title": "Workshop on Whole-body Control and Bimanual Manipulation: Applications in Humanoids and Beyond",
     "website": "https://wcbm-workshop.github.io/",
     "link": ""
