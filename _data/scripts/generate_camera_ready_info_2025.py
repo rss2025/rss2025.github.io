@@ -270,6 +270,11 @@ print(f"\nSaved to {output_path}")
 #based on the rows where paper type == "demo")
 demo_df = df[df["Paper type"].str.lower().str.strip() == "demo"].copy()
 
+#manually add specific papers by paper id
+manual_demo_ids = [93, 129]
+manual_demos = df[df["PaperID"].astype(int).isin(manual_demo_ids)]
+demo_df = pd.concat([demo_df, manual_demos]).drop_duplicates(subset=["PaperID"])
+
 demo_json = []
 # for idx, row in enumerate(demo_df.itertuples(index=False), start=1):
 for _, row in demo_df.iterrows():
@@ -283,6 +288,8 @@ for _, row in demo_df.iterrows():
         "demolocation": "",
         "time": ""
     })
+
+demo_json = sorted(demo_json, key=lambda x: x["papernumber"])
 
 with open("../demos.json", "w") as f:
     import json
