@@ -12,6 +12,10 @@ A major component of [Pathways@RSS](https://sites.google.com/lehigh.edu/pathways
 
 To learn more about [Pathways@RSS](https://sites.google.com/lehigh.edu/pathways-rss2025/home){:target="_blank"} or to apply for the [Fellowship Program](https://sites.google.com/lehigh.edu/pathways-rss2025/home?authuser=0#h.9k5jcvbajbml){:target="_blank"}, please visit the event's [website](https://sites.google.com/lehigh.edu/pathways-rss2025/home){:target="_blank"}. We look forward to supporting the next generation of robotics researchers and helping them chart their paths in this exciting field.
 
+### Location
+
+<a href="{{ site.baseurl }}/program/pathways/">Pathways@RSS</a>  will take place in Room 115 at the <a href="https://maps.app.goo.gl/ceZrio6J48qrKjR2A">Ronald Tutor Hall (RTH)</a>.
+
 <!--
 For instructions and directions at the venue, please check out the [venue page]({{ site.baseurl }}/attending/atvenue/).-->
 
