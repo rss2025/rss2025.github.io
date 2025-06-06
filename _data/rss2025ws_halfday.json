@@ -1,105 +1,105 @@
 [
   {
     "id": 1,
-    "location": "",
+    "location": "OHE 132",
     "title": "Workshop on Continual Robot Learning from Humans",
     "website": "https://continual-robot-learning-from-humans.github.io/",
     "link": ""
   },
   {
     "id": 2,
-    "location": "",
+    "location": "RTH 211",
     "title": "EgoAct - 1st Workshop on Egocentric Perception & Action for Robot Learning",
     "website": "https://egoact.github.io/rss2025",
     "link": ""
   },
   {
     "id": 3,
-    "location": "",
+    "location": "EEB 248",
     "title": "Fast motion planning and control in the era of parallelism",
     "website": "https://sites.google.com/rice.edu/parallelized-planning-control/",
     "link": ""
   },
   {
     "id": 4,
-    "location": "",
+    "location": "OHE 100B",
     "title": "Human-Robot Contact and Manipulation (HRCM)",
     "website": "https://hrcm-workshop.github.io",
     "link": ""
   },
   {
     "id": 5,
-    "location": "",
+    "location": "RTH 217",
     "title": "Leveraging Implicit Methods for Aerial Autonomy",
     "website": "https://im4rob.github.io/",
     "link": ""
   },
   {
     "id": 6,
-    "location": "",
+    "location": "EEB 132",
     "title": "Mobile Manipulation: Emerging Opportunities & Contemporary Challenges",
     "website": "https://rss-moma-2025.github.io/",
     "link": ""
   },
   {
     "id": 7,
-    "location": "",
+    "location": "OHE 100C",
     "title": "MultiSensory Robotics with MultiModal Capabilities",
     "website": "https://sites.google.com/mit.edu/multimodal-robotics",
     "link": ""
   },
   {
     "id": 8,
-    "location": "",
+    "location": "OHE 136",
     "title": "R3: Reasoning for Robust Robot Manipulation in the Open World",
     "website": "https://sites.google.com/view/rss2025r3/home",
     "link": ""
   },
   {
     "id": 9,
-    "location": "",
+    "location": "OHE 100D",
     "title": "Reliable Robotics: Safety and Security in the Face of GenAI",
     "website": "https://sites.google.com/view/rss2025-reliable-robotics/home",
     "link": ""
   },
   {
     "id": 10,
-    "location": "",
+    "location": "RTH 109",
     "title": "Resource Constrained Robotics",
     "website": "https://sites.google.com/view/rc4roboticsrss25",
     "link": ""
   },
   {
     "id": 11,
-    "location": "",
+    "location": "SGM 123",
     "title": "Robot Planning in the Era of Foundation Models (FM4RoboPlan)",
     "website": "https://sites.google.com/brown.edu/fm4roboplan",
     "link": ""
   },
   {
     "id": 12,
-    "location": "",
+    "location": "OHE 122",
     "title": "2nd Workshop on Semantic Reasoning and Goal Understanding in Robotics (SemRob)",
     "website": "https://semrob.github.io",
     "link": ""
   },
   {
     "id": 13,
-    "location": "",
+    "location": "RTH 105",
     "title": "Space Robotics: Toward the Next Generation of Autonomous Missions",
     "website": "https://albee.github.io/space-robotics-rss/",
     "link": ""
   },
   {
     "id": 14,
-    "location": "",
+    "location": "SGM 124",
     "title": "Structured World Models for Robotic Manipulation",
     "website": "https://swomo-rss.github.io/",
     "link": ""
   },
   {
     "id": 15,
-    "location": "",
+    "location": "RTH 526",
     "title": "Unifying Visual SLAM: From Fragmented Datasets to Scalable, Real-World Solutions",
     "website": "https://visual-slam-lab.github.io/unifying-visual-slam/",
     "link": ""
