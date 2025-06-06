@@ -16,6 +16,103 @@ Workshops will take place across two days of the conference on **Saturday, June 
     <img alt="Lely" src="/2024/images/RSS-workshops-map.png" style="width: 70%;" />
 </div> -->
 
+<div style="display: block; width: 100%; height: 20px;"></div>
+
+### Locations
+
+<table class="table table-sm table-bordered" style="width: 100%; max-width: 800px;">
+    <thead>
+        <tr>
+            <th>Abbreviation</th>
+            <th>Building Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>OHE</strong></td>
+            <td>
+                <a href="https://maps.app.goo.gl/7MeyzQTmTTndmX4V7" target="_blank">
+                    Olin Hall of Engineering (OHE)
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>RTH</strong></td>
+            <td>
+                <a href="https://maps.app.goo.gl/ceZrio6J48qrKjR2A" target="_blank">
+                    Ronald Tutor Hall (RTH)
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>EEB</strong></td>
+            <td>
+                <a href="https://maps.app.goo.gl/NdjNejypwhrFyAJo8" target="_blank">
+                    Hughes Aircraft Electrical Engineering Center (EEB)
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>SGM</strong></td>
+            <td>
+                <a href="https://maps.app.goo.gl/pM3eKVpUak6BXmS36" target="_blank">
+                    Seeley G. Mudd Building (SGM)
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+<!-- 
+<table class="table table-sm table-bordered" style="width: 100%; max-width: 800px;">
+    <thead>
+        <tr>
+            <th>Abbreviation</th>
+            <th>Building Name</th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>OHE</strong></td>
+            <td>
+                <a href="https://maps.app.goo.gl/7MeyzQTmTTndmX4V7" target="_blank">
+                    Olin Hall of Engineering (OHE)
+                </a>
+            </td>
+            <td>3650 McClintock Ave, Los Angeles, CA 90089</td>
+        </tr>
+        <tr>
+            <td><strong>RTH</strong></td>
+            <td>
+                <a href="https://maps.app.goo.gl/ceZrio6J48qrKjR2A" target="_blank">
+                    Ronald Tutor Hall (RTH)
+                </a>
+            </td>
+            <td>3710 McClintock Ave, Los Angeles, CA 90089</td>
+        </tr>
+        <tr>
+            <td><strong>EEB</strong></td>
+            <td>
+                <a href="https://maps.app.goo.gl/NdjNejypwhrFyAJo8" target="_blank">
+                    Hughes Aircraft Electrical Engineering Center (EEB)
+                </a>
+            </td>
+            <td>3740 McClintock Ave, Los Angeles, CA 90089</td>
+        </tr>
+        <tr>
+            <td><strong>SGM</strong></td>
+            <td>
+                <a href="https://maps.app.goo.gl/pM3eKVpUak6BXmS36" target="_blank">
+                    Seeley G. Mudd Building (SGM)
+                </a>
+            </td>
+            <td>3620 McClintock Ave, Los Angeles, CA 90089</td>
+        </tr>
+    </tbody>
+</table> -->
+
 
 <div style="display: block; width: 100%; height: 20px;"></div>
 
