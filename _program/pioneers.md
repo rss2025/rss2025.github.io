@@ -14,6 +14,9 @@ Details about the workshop are available at the [workshop website](https://sites
 
 Follow the RSS Pioneers [social media accounts](https://twitter.com/RSSPioneers){:target="_blank"} for more updates.
 
+### Location
+
+<a href="{{ site.baseurl }}/program/pioneers/">RSS Pioneers</a> will take place in Room 526 at the <a href="https://maps.app.goo.gl/ceZrio6J48qrKjR2A">Ronald Tutor Hall (RTH)</a>.
 
 
 ## Important Dates
