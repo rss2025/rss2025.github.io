@@ -98,6 +98,19 @@ Other acts include:
 
 ---
 
+<div id="tri-breakfast" class="scroll-60"></div>
+
+## TRI - RSS Women & Allies Breakfast (June 24, 2025)<a class="header-anchor" href="#tri-breakfast">#</a> {#tri-breakfast}
+
+Toyota Research Institute (TRI) is organizing a women & allies breakfast on June 24th! It is open to all RSS participants and completely free of charge.
+
+**Please register [here](https://docs.google.com/forms/d/e/1FAIpQLSeRWdj1SX-_Uhq0c_zHuIGemQu9QXb0cf1KKGgv21BN5TWTvw/viewform) to attend before the capacity limit is reached.**
+
+- When: Tuesday, June 24th at 8 - 9 am
+- Where: The Franklin Suite, TCC 350/351/352 (click [here](https://maps.app.goo.gl/DwMhMbpij7QLEJabA) to see it on Google Maps)
+
+---
+
 Stay tuned — we may add more local events and activities to this page as the conference approaches!
 
 &nbsp;  
