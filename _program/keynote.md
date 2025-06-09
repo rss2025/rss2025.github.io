@@ -43,6 +43,11 @@ published: true
   </div>
 </div>
 
+## Efficient and Robust Multimodal Intelligence from "Blind" Models to 4D Representations
+{: class="talk-title"}
+
+**Abstract:** Learning-based large models are revolutionizing robotic perception.  Surprisingly, even "blind" text-based large models seem able to model scene structures!  Multimodal models excel even in zero shot settings, yet are prone to hallucination and scale poorly with large images. I'll show how VLM hallucination can be reduced with "Retrospective thinking" tokens, and how efficient inference can be performed on large-format imagery with attentive token decoding.  I'll also cover conditional visual prediction via  Navigation World Models.  Finally, I'll present 4D representations for robotics, which combine dynamic 3D reconstruction with implicit pointwise correspondence, which offers the promise of scalable robotic learning with world- and task-centric representations.
+
 **Bio:** Prof. Darrell is on the faculty of the CS and EE Divisions of the EECS Department at UC Berkeley. He founded and co-leads Berkeley’s Berkeley Artificial Intelligence Research (BAIR) lab, the Berkeley DeepDrive (BDD) Industrial Consortia, and the BAIR Commons program.   He also was Faculty Director of the PATH research center at UC Berkeley from 2015-2021, and led the Vision group at the UC-affiliated International Computer Science Institute in Berkeley from 2008-2014. Prior to that, Prof. Darrell was on the faculty of the MIT EECS department from 1999-2008, where he directed the Vision Interface Group. He was a member of the research staff at Interval Research Corporation from 1996-1999, and received the S.M., and PhD. degrees from MIT in 1991 and 1996, respectively. He obtained the B.S.E. degree from the University of Pennsylvania in 1988. 
 Darrell’s group develops algorithms for large-scale perceptual learning, including object and activity recognition and detection, for a variety of applications including autonomous vehicles, media search, and multimodal interaction with robots and mobile devices. His areas of interest include computer vision, machine learning, natural language processing, and perception-based human computer interfaces.
 
