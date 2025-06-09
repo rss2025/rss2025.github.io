@@ -31,13 +31,15 @@ RSS offers our attendees the opportunity to tour University of Southern Californ
 PI: Yue Wang | Type: Presentation (30 min) | [https://usc-gvl.github.io/](https://usc-gvl.github.io/)  
 Description: Humanoid Teleoperation via VR  
 Location: OHE 136 ([Maps](https://maps.app.goo.gl/3KrHPfemWFSzCpqs5))  
+Time: 4pm
 
 * **SLURM Lab**  
  PI: Daniel Seita | Type: Presentation (30 min) | [https://slurm-lab-usc.github.io/](https://slurm-lab-usc.github.io/)  
  Description: Learning & Manipulation  
  Location: OHE 136 ([Maps](https://maps.app.goo.gl/3KrHPfemWFSzCpqs5))  
+ Time: 4.30pm
 
-* **HaRVI Lab** -- Capacity: 20  
+* **HaRVI Lab**  
  PI: Heather Culbertson | Type: Tour (30 min) | [https://sites.usc.edu/culbertson/](https://sites.usc.edu/culbertson/)  
  Description: Haptics and Virtual Interaction  
  Location: RTH 416 ([Maps](https://maps.app.goo.gl/WkT27kwkSMcGchAd6))  
@@ -52,6 +54,7 @@ Location: OHE 136 ([Maps](https://maps.app.goo.gl/3KrHPfemWFSzCpqs5))
  PI: Erdem Bıyık | Type: Presentation (30 min) | [https://liralab.usc.edu/](https://liralab.usc.edu/)  
  Description: Learning and Interactive Robot Autonomy  
  Location: OHE 136 ([Maps](https://maps.app.goo.gl/3KrHPfemWFSzCpqs5))  
+ Time: 5pm
 
 * **Interaction Lab**  
  PI: Maja Mataric | Type: Tour (30 min) | [https://uscinteractionlab.web.app/](https://uscinteractionlab.web.app/)  
