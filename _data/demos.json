@@ -4,134 +4,134 @@
     "papertitle": "Demonstrating ViSafe: Vision-enabled Safety for High-speed Detect and Avoid",
     "authors": "Parv Kapoor, Ian Higgins, Nikhil Varma Keetha, Jay Patrikar, Brady Moon, Zelin Ye, Yao He, Ivan Cisneros, Changliu Liu, Eunsuk Kang, Sebastian Scherer",
     "link": "/program/papers/2/",
-    "demoday": "",
+    "demoday": "June 21",
     "demolocation": "",
-    "time": ""
+    "time": "12:30-2:00 PM, 6:30-8:00 PM"
   },
   {
     "papernumber": 20,
     "papertitle": "Demonstrating MuJoCo Playground",
     "authors": "Kevin Zakka, Baruch Tabanpour, Qiayuan Liao, Mustafa Haiderbhai, Samuel Holt, Jing Yuan Luo, Arthur Allshire, Erik Frey, Koushil Sreenath, Lueder Alexander Kahrs, Carmelo Sferrazza, Yuval Tassa, Pieter Abbeel",
     "link": "/program/papers/20/",
-    "demoday": "",
+    "demoday": "June 21",
     "demolocation": "",
-    "time": ""
+    "time": "12:30-2:00 PM, 6:30-8:00 PM"
   },
   {
     "papernumber": 21,
     "papertitle": "Demonstrating GPU Parallelized Robot Simulation and Rendering for Generalizable Embodied AI with ManiSkill3",
     "authors": "Stone Tao, Fanbo Xiang, Arth Shukla, Yuzhe Qin, Xander Hinrichsen, Xiaodi Yuan, Chen Bao, Xinsong Lin, Yulin Liu, Tse-Kai Chan, Yuan Gao, Xuanlin Li, Tongzhou Mu, Nan Xiao, Arnav Gurha, Viswesh N., Yong Woo Choi, Yen-Ru Chen, Zhiao Huang, Roberto Calandra, Rui Chen, Shan Luo, Hao Su",
     "link": "/program/papers/21/",
-    "demoday": "",
+    "demoday": "June 21",
     "demolocation": "",
-    "time": ""
+    "time": "12:30-2:00 PM, 6:30-8:00 PM"
   },
   {
     "papernumber": 33,
     "papertitle": "Demonstrating MOSART: Opening Articulated Structures in the Real World",
     "authors": "Arjun Gupta, Michelle Zhang, Rishik Sathua, Saurabh Gupta",
     "link": "/program/papers/33/",
-    "demoday": "",
+    "demoday": "June 22",
     "demolocation": "",
-    "time": ""
+    "time": "12:30-2:00 PM, 6:30-8:00 PM"
   },
   {
     "papernumber": 58,
     "papertitle": "Demonstrating the Octopi-1.5 Visual-Tactile-Language Model",
     "authors": "Samson Yu, Lin Kelvin, Harold Soh",
     "link": "/program/papers/58/",
-    "demoday": "",
+    "demoday": "June 22",
     "demolocation": "",
-    "time": ""
+    "time": "12:30-2:00 PM, 6:30-8:00 PM"
   },
   {
     "papernumber": 59,
     "papertitle": "Demonstrating REASSEMBLE: A Multimodal Dataset for Contact-rich Robotic Assembly and Disassembly",
     "authors": "Daniel Sliwowski, Shail Jadav, Sergej Stanovcic, Jędrzej Orbik, Johannes Heidersberger, Dongheui Lee",
     "link": "/program/papers/59/",
-    "demoday": "",
+    "demoday": "June 22",
     "demolocation": "",
-    "time": ""
+    "time": "12:30-2:00 PM, 6:30-8:00 PM"
   },
   {
     "papernumber": 62,
     "papertitle": "Demonstrating Berkeley Humanoid Lite: An Open-source, Accessible, and Customizable 3D-printed Humanoid Robot",
     "authors": "Yufeng Chi, Qiayuan Liao, Junfeng Long, Xiaoyu Huang, Sophia Shao, Borivoje Nikolic, Zhongyu Li, Koushil Sreenath",
     "link": "/program/papers/62/",
-    "demoday": "",
+    "demoday": "June 22",
     "demolocation": "",
-    "time": ""
+    "time": "12:30-2:00 PM, 6:30-8:00 PM"
   },
   {
     "papernumber": 84,
     "papertitle": "Demonstrating a Control Framework for Physical Human-Robot Interaction Toward Industrial Applications",
     "authors": "Bastien Muraccioli, Mathieu Celerier, Mehdi Benallegue, Gentiane Venture",
     "link": "/program/papers/84/",
-    "demoday": "",
+    "demoday": "June 23",
     "demolocation": "",
-    "time": ""
+    "time": "12:30-2:00 PM, 6:30-8:00 PM"
   },
   {
     "papernumber": 86,
     "papertitle": "Demonstrating Shared Force-Language Embeddings for Natural Human-Robot Communication",
     "authors": "Ravi Tejwani, Karl Angel Velazquez, John Payne, Paolo Bonato, Haruhiko Asada",
     "link": "/program/papers/86/",
-    "demoday": "",
+    "demoday": "June 23",
     "demolocation": "",
-    "time": ""
+    "time": "12:30-2:00 PM, 6:30-8:00 PM"
   },
   {
     "papernumber": 92,
     "papertitle": "Demonstrating Arena 5.0: A Photorealistic ROS2 Simulation Framework for Developing and Benchmarking Social Navigation",
     "authors": "Linh Kästner, Volodymyr Shcherbyna, Harold Soh, Giang Nguyen Huu Truong, Do Duc Anh, Ton Manh Kien, Tim Seeger, Ahmed Martban, Vu Thanh Lam, Nguyen Quoc Hung, Pham Thai Hoang Tung, Tran Dang An, Eva Wiese, Maximilian Ho-Kyoung Schreff",
     "link": "/program/papers/92/",
-    "demoday": "",
+    "demoday": "June 23",
     "demolocation": "",
-    "time": ""
+    "time": "12:30-2:00 PM, 6:30-8:00 PM"
   },
   {
     "papernumber": 93,
     "papertitle": "Safety with Agency: Human-Centered Safety Filter with Application to AI-Assisted Motorsports",
     "authors": "Donggeon David Oh, Justin Lidard, Haimin Hu, Himani Sinhmar, Elle Lazarski, Deepak Edakkattil Gopinath, Emily Sumner, Jonathan Decastro, Guy Rosman, Naomi Leonard, Jaime Fernández Fisac",
     "link": "/program/papers/93/",
-    "demoday": "",
+    "demoday": "June 23",
     "demolocation": "",
-    "time": ""
+    "time": "12:30-2:00 PM, 6:30-8:00 PM"
   },
   {
     "papernumber": 107,
     "papertitle": "Demonstrating Multi-Suction Item Picking at Scale via Multi-Modal Learning of Pick Success",
     "authors": "Che Wang, Jeroen Vanbaar, Chaitanya Mitash, Shuai Li, Dylan Randle, Weiyao Wang, Sumedh Anand Sontakke, Kostas Bekris, Kapil Katyal",
     "link": "/program/papers/107/",
-    "demoday": "",
+    "demoday": "June 23",
     "demolocation": "",
-    "time": ""
+    "time": "12:30-2:00 PM, 6:30-8:00 PM"
   },
   {
     "papernumber": 129,
     "papertitle": "DVS: Dynamic Virtual-Real Simulation Platform for Mobile Robotic Tasks",
     "authors": "Zijie Zheng, Zeshun Li, Yunpeng Wang, Qinghongbing Xie, Long Zeng",
     "link": "/program/papers/129/",
-    "demoday": "",
+    "demoday": "June 23",
     "demolocation": "",
-    "time": ""
+    "time": "12:30-2:00 PM, 6:30-8:00 PM"
   },
   {
     "papernumber": 132,
     "papertitle": "Demonstrating LEAP Hand V3: Low-Cost, Easy-to-Assemble, High-Performance Hand for Robot Learning",
     "authors": "Kenneth Shaw, Deepak Pathak",
     "link": "/program/papers/132/",
-    "demoday": "",
+    "demoday": "June 24",
     "demolocation": "",
-    "time": ""
+    "time": "12:30-2:00 PM, 4:00-5:30 PM"
   },
   {
     "papernumber": 141,
     "papertitle": "Demonstrating CavePI: Autonomous Exploration of Underwater Caves by Semantic Guidance",
     "authors": "Alankrit Gupta, Adnan Abdullah, Xianyao Li, Vaishnav Ramesh, Ioannis Rekleitis, Md Jahidul Islam",
     "link": "/program/papers/141/",
-    "demoday": "",
+    "demoday": "June 24",
     "demolocation": "",
-    "time": ""
+    "time": "12:30-2:00 PM, 4:00-5:30 PM"
   }
 ]
