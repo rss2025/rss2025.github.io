@@ -157,7 +157,7 @@ published: true
               <a class="block-link" href="{{ site.baseurl }}/program/papersession/?session=14.+Robot+Design">14. Robot Design</a>
               </td>
               <td rowspan="19" class="workshop-block" style="text-align: center; vertical-align: middle;">
-              <a href="{{ site.baseurl }}/program/workshops/">Workshops</a> + Tours
+              <a href="{{ site.baseurl }}/program/workshops/">Workshops</a>
               </td>
               <td style="display:none;">&nbsp;</td>
        </tr>
