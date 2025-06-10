@@ -118,6 +118,10 @@ Workshops will take place across two days of the conference on **Saturday, June 
 
 ### Saturday, June 21 
 #### (Half-day Morning Events)
+<div style="margin-bottom: 10px; font-style: italic; color: #333;">
+    <strong>Morning coffee on June 21 will be in <a href="https://maps.app.goo.gl/YTtHP12vrTdBQpce9">Epstein Family Plaza</a> (not Founders Park) from 10:00–11:00 AM.</strong>
+</div>
+
 {% assign innerdays = "19th, tbd" | split: ", " %}
 
 <table class="table table-striped table-workshop">
