@@ -1,18 +1,18 @@
 Date,Time,SessionName,SessionLink,C1,C1A,C2,C2A,DateVerbose,Day
-21-Jun,2:00pm–3:00pm,1. Perception and Navigation,session1,,,,,June 21,Saturday
-21-Jun,4:30pm–5:30pm,2. VLA Models,session2,,,,,June 21, Saturday
-21-Jun,5:30pm–6:30pm,3. Scaling Robot Learning,session3,,,,,June 21,Saturday
-22-Jun,9:00am–10:30am,4. Perception,session4,,,,,June 22,Sunday
-22-Jun,11:30am–12:30pm,5. Planning,session5,,,,,June 22,Sunday
-22-Jun,2:00pm–3:00pm,6. Manipulation I,session6,,,,,June 22,Sunday
-22-Jun,4:30pm–5:30pm,7. Humanoids,session7,,,,,June 22,Sunday
-22-Jun,5:30pm–6:30pm,8. Imitation Learning I,session8,,,,,June 22,Sunday
-23-Jun,9:00am–10:30am,9. HRI,session9,,,,,June 23,Monday
-23-Jun,11:30am–12:30pm,10. Multi-Robot Systems,session10,,,,,June 23,Monday
-23-Jun,2:00pm–3:00pm,11. Manipulation II,session11,,,,,June 23,Monday
-23-Jun,4:30pm–5:30pm,12. Control and Dynamics,session12,,,,,June 23,Monday
-23-Jun,5:30pm–6:30pm,13. Mobile Manipulation and Locomotion,session13,,,,,June 23,Monday
-24-Jun,9:00am–9:30am,14. Robot Design,session14,,,,,June 24,Tuesday
-24-Jun,9:30am–10:30am,15. Navigation,session15,,,,,June 24,Tuesday
-24-Jun,11:30am–12:30pm,16. Manipulation III,session16,,,,,June 24,Tuesday
-24-Jun,2:00pm–3:00pm,17. Imitation Learning II,session17,,,,,June 24,Tuesday
+21-Jun,2:00pm–3:00pm,1. Perception and Navigation,session1,Bernadette Bucher,,Stefan Leutenegger,,June 21,Saturday
+21-Jun,4:30pm–5:30pm,2. VLA Models,session2,Jesse Thomason,,Masha Itkina,,June 21, Saturday
+21-Jun,5:30pm–6:30pm,3. Scaling Robot Learning,session3,Florian Shkurti,,,,June 21,Saturday
+22-Jun,9:00am–10:30am,4. Perception,session4,Nikolay Atanasov,,Ayoung Kim,,June 22,Sunday
+22-Jun,11:30am–12:30pm,5. Planning,session5,Kris Hauser,,Negar Mehr,,June 22,Sunday
+22-Jun,2:00pm–3:00pm,6. Manipulation I,session6,Yunzhu Li,,Roberto Martín-Martín,,June 22,Sunday
+22-Jun,4:30pm–5:30pm,7. Humanoids,session7,Tucker Hermans,,Beomjoon Kim,,June 22,Sunday
+22-Jun,5:30pm–6:30pm,8. Imitation Learning I,session8,Danfei Xu,,Heng Yang,,June 22,Sunday
+23-Jun,9:00am–10:30am,9. HRI,session9,Yonatan Bisk,,Dongheui Lee,,June 23,Monday
+23-Jun,11:30am–12:30pm,10. Multi-Robot Systems,session10,Harish Ravichandar,,,,June 23,Monday
+23-Jun,2:00pm–3:00pm,11. Manipulation II,session11,Dinesh Jayaraman,,Andreea Bobu,,June 23,Monday
+23-Jun,4:30pm–5:30pm,12. Control and Dynamics,session12,Andrea Bajcsy,,Robert Mahony,,June 23,Monday
+23-Jun,5:30pm–6:30pm,13. Mobile Manipulation and Locomotion,session13,Ram Vasudevan,,Xiaolong Wang,,June 23,Monday
+24-Jun,9:00am–9:30am,14. Robot Design,session14,Van Ho,,David Saldaña,,June 24,Tuesday
+24-Jun,9:30am–10:30am,15. Navigation,session15,Sebastian Scherer,,Lukas Schmid,,June 24,Tuesday
+24-Jun,11:30am–12:30pm,16. Manipulation III,session16,Nadia Figueroa,,Mehmet Dogar,,June 24,Tuesday
+24-Jun,2:00pm–3:00pm,17. Imitation Learning II,session17,Rudolf Lioutikov,,Yu Xiang,,June 24,Tuesday

@@ -40,7 +40,6 @@ published: true
 
 <!-- <h1 class="page-title">{{ page.title }}</h1> -->
 <h1 class="page-title" style="visibility: hidden;">{{ page.title }}</h1>
-<div id="session-datetime" style="margin-top: -6px; font-size: 0.95em; color: #555; text-align: center;"></div>
 <br/>
 
 <div style="width: 100%; text-align: center;">
@@ -57,6 +56,9 @@ published: true
     <div id="c2a" class="paper-author-uni"></div>
 </div>
 </div>
+
+<br>
+<div id="session-datetime" style="margin-top: -6px; font-size: 0.95em; color: #555; text-align: center;"></div>
 <hr>
 
 <table id="myTable">
