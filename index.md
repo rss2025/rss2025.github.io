@@ -208,6 +208,11 @@ RSS has a long history of bringing together researchers in all areas of robotics
        style="height: auto; width: auto; max-width: 250px; margin: 10px;" />
 </p>
 
+<!-- Row 7.5 -->
+<p style="text-align: center;">
+  <img alt="Rainier" src="images/sponsors2025/rainier_labs_bw.png"
+       style="height: auto; width: auto; max-width: 250px; margin: 5px;" />
+</p>
 
 <!-- Row 8 -->
 <div style="height: 10px;"></div>
