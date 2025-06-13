@@ -29,7 +29,7 @@ published: true
         {% for workshop in site.data.session1 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ forloop.index }} </span></td>
-            <td>Founders Park</td>
+            <td>Associates Park</td>
             <td>{{ workshop.title }}</td>
             <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>

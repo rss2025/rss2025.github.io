@@ -111,7 +111,7 @@ published: true
   <div style="background-color: var(--modern-soft-gold); padding: 1em 1.2em; border-radius: 6px;">
     <strong>Posters and Demos:</strong>
     <ul style="margin: 0.5em 0 0 1em; padding: 0;">
-      <li>Poster sessions of the main conference will take place at the <a href="https://maps.app.goo.gl/KBvJUBtyXxn319QG8">Founders Park</a>.</li>
+      <li>Poster sessions of the main conference will take place at the <a href="https://maps.app.goo.gl/Hno98qim4BKMVFc59">Associates Park</a>.</li>
       <li>For demo locations (coming soon), see the <a href="{{ site.baseurl }}/program/demos/">Demos</a> page.</li>
     </ul>
   </div>
