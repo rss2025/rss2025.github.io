@@ -8,7 +8,7 @@ published: true
 ---
 
 <div width="100%" style="border: solid #aaa 3px; background:#990000; padding: 5px; color: #FFCC00; text-align: center;">
- Click <b><a href="https://site.pheedloop.com/event/RSS2025/home" target="_blank" style="color: #FFCC00; text-decoration: underline;">here</a> to register.</b>
+ Click <b><a href="https://site.pheedloop.com/event/RSS2025/home" target="_blank" style="color: #FFCC00; text-decoration: underline;">here</a></b> to register.
 </div>  
 
 

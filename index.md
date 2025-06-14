@@ -2,8 +2,12 @@
 layout: default
 title: Home
 ---
-<div style="margin-top: 20px; background-color: #ffcc00; padding: 10px; text-align: center; font-weight: bold; font-size: 18px;">
+<!-- <div style="margin-top: 20px; background-color: #ffcc00; padding: 10px; text-align: center; font-weight: bold; font-size: 18px;">
   The registration portal is now open! Click <a href="{{ site.baseurl }}/attending/registration/" style="color: #0000EE; text-decoration: underline;">here</a> for details.
+</div> -->
+
+<div style="margin-top: 20px; background-color: #ffcc00; padding: 12px 10px 8px 10px; text-align: center; font-weight: bold; font-size: 18px; line-height: 1.2; vertical-align: middle;">
+  Getting ready for your RSS 2025 trip? Please find important <a href="{{ site.baseurl }}/attending/travel/" style="color: #0000EE; text-decoration: underline;">travel information here</a>.
 </div>
 
 
@@ -23,13 +27,14 @@ June 21 &ndash; June 25, 2025<br>Los Angeles, California</h1>
 </div>
 
 <!-- **Announcement 1:** In response to the recent wildfires in Los Angeles, we have made adjustments to the RSS 2025 submission timeline, to show our support to the LA community who is going to generously host us this June. While the abstract/title submission (January 17) and the initial paper submission (January 24) deadlines remain unchanged, the authors will be able to continue updating the pdf of their paper until January 31, 2025 (which is also the supplementary material deadline). For more details, read our [full announcement](/updates/la-wildfires/).
-
+ocial Program
 **Announcement 2:** Submitting an abstract (by the January 17 deadline) or a semi-complete paper (by the January 24 deadline) for a paper that is currently under submission to another conference (e.g. ICRA, ICLR, CVPR) is still considered a double submission and is forbidden by RSS rules. However, if the paper has substantial innovation with respect to the paper that is already in submission (i.e., it would qualify as a different and novel paper and you would not withdraw it even if the paper under review is accepted), you should feel free to submit it to RSS. -->
 
 ### News and Updates
 
 - Registration portal is open [here]({{ site.baseurl }}/attending/registration/).
 - Travel Information is available [here]({{ site.baseurl }}/attending/travel/).
+- Explore the Social Program [here]({{ site.baseurl }}/attending/social/).
 
 ---
 

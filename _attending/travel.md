@@ -7,7 +7,11 @@ invisible: false
 published: true
 ---
 
-# Travel information
+<div class="alert alert-warning" style="border: 1px solid #f0ad4e; padding: 5px; background-color: #fcf8e3; text-align: center;">
+      Haven’t registered yet? Please visit the <a href="{{ site.baseurl }}/attending/registration/" style="color: #004085; text-decoration: underline;">registration page</a> to complete your registration.
+</div>
+
+# Travel Information
 
 ## LA protests and Entering the USC Campus
 While there are still ongoing protests in specific areas of LA, the USC campus has not been affected by the protests and is operating as usual. The USC campus is not open to external people, and you should download the following form to access the campus ([link](https://roboticsconference.org/images/usc_pass/062025_Viterbi_SAC_RSS_Conference.pdf)). At the moment, some downtown LA areas are subject to a curfew: this does not apply to residents in that area (open this [link](https://lacity.gov/highlights/curfew-guidance) for official details). Therefore, if you believe that your hotel is in an area affected by the curfew, we invite you to reach out to your hotel to ask if they suggest carrying specific documents with you during your visit to LA.
