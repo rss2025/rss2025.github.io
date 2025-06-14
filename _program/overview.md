@@ -172,9 +172,9 @@ published: true
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">10:30AM</td>
-              <td rowspan="1" class="break-block">Break + Posters Setup</td>
-              <td rowspan="1" class="break-block">Break + Posters Setup</td>
-              <td rowspan="1" class="break-block">Break + Posters Setup</td>
+              <td rowspan="1" class="break-block">Coffee Break  + Posters Setup</td>
+              <td rowspan="1" class="break-block">Coffee Break  + Posters Setup</td>
+              <td rowspan="1" class="break-block">Coffee Break  + Posters Setup</td>
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">11:00AM</td>
@@ -251,10 +251,10 @@ published: true
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">4:00PM</td>
-              <td rowspan="1" class="break-block">Break</td>
-              <td rowspan="1" class="break-block">Break</td>
-              <td rowspan="1" class="break-block">Break</td>
-              <td rowspan="3" class="break-block">Break + Posters + Tours</td>
+              <td rowspan="1" class="break-block">Coffee Break</td>
+              <td rowspan="1" class="break-block">Coffee Break</td>
+              <td rowspan="1" class="break-block">Coffee Break</td>
+              <td rowspan="3" class="break-block">Coffee Break + Posters + Tours</td>
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">4:30PM</td>
