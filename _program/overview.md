@@ -126,6 +126,8 @@ published: true
 
 </div>
 
+---
+
 <table class="schedule" cellspacing="0" border="0">
        <tr>
               <td style="width: 5em; border: none; background-color: #E2F0D9;"></td>
@@ -306,5 +308,13 @@ published: true
        </tr>
 </table>
 
+---
 
-
+<div style="text-align: center; margin: 3em auto;">
+  <img src="{{ site.baseurl }}/images/local2025/usc_map.png"
+       alt="Map of key RSS 2025 locations on the USC campus"
+       style="max-width: 90%; height: auto; border-radius: 6px;">
+  <div style="margin-top: 0.5em; font-size: 0.9em; color: #666;">
+    Map of key RSS 2025 locations on the USC campus
+  </div>
+</div>

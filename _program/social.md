@@ -2,18 +2,18 @@
 layout: page
 title: Social program
 description: Social program RSS2025
-Priority: 3
+priority: 3
 invisible: false
-published: true
+published: false
 ---
 
 
 <div style="text-align: center; margin: 3em auto;">
   <img src="{{ site.baseurl }}/images/local2025/usc_map.png"
-       alt="Key RSS 2025 locations on the USC campus"
+       alt="Map of key RSS 2025 locations on the USC campus"
        style="max-width: 75%; height: auto; border-radius: 6px;">
   <div style="margin-top: 0.5em; font-size: 0.9em; color: #666;">
-    Key RSS 2025 locations on the USC campus
+    Map of key RSS 2025 locations on the USC campus
   </div>
 </div>
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Pathways@RSS
-priority: 7
+priority: 1
 invisible: false
 published: true
 ---
