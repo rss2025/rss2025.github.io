@@ -24,7 +24,7 @@ published: true
   June 21st, 12:30–1:30pm
 </div> -->
 
-Join us at the Welcome Reception to kick off RSS 2025! The Welcome Reception will take place at <a href="https://maps.app.goo.gl/KBvJUBtyXxn319QG8">Founders Park</a>. Enjoy lunch and connect with fellow attendees before heading to the <a href="https://maps.app.goo.gl/gmsxcUqwNSfjsuHL8">Bovard Auditorium</a> for the official Opening Remarks and the beginning of the main conference!
+Join us at the Welcome Reception to kick off RSS 2025! The Welcome Reception will take place at <a href="https://maps.app.goo.gl/KBvJUBtyXxn319QG8">Founders Park</a>. Enjoy lunch and connect with fellow attendees before heading to the <a href="https://maps.app.goo.gl/gmsxcUqwNSfjsuHL8">Bovard Auditorium</a> for the official *Opening Remarks* and the beginning of the main conference!
 
 ---
 

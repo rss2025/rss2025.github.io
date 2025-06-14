@@ -158,8 +158,11 @@ published: true
               <td rowspan="1" class="session-block">
               <a class="block-link" href="{{ site.baseurl }}/program/papersession/?session=14.+Robot+Design">14. Robot Design</a>
               </td>
-              <td rowspan="19" class="workshop-block" style="text-align: center; vertical-align: middle;">
+              <!-- <td rowspan="19" class="workshop-block" style="text-align: center; vertical-align: middle;">
               <a href="{{ site.baseurl }}/program/workshops/">Workshops</a>
+              </td> -->
+              <td rowspan="19" class="workshop-block">
+              <a class="block-link" href="{{ site.baseurl }}/program/workshops/">Workshops</a>
               </td>
               <td style="display:none;">&nbsp;</td>
        </tr>
@@ -174,9 +177,20 @@ published: true
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">10:30AM</td>
+              <!--
               <td rowspan="1" class="break-block">Coffee Break  + Posters Setup</td>
               <td rowspan="1" class="break-block">Coffee Break  + Posters Setup</td>
               <td rowspan="1" class="break-block">Coffee Break  + Posters Setup</td>
+              -->
+              <td rowspan="1" class="break-block">
+              <a class="block-link" href="{{ site.baseurl }}/attending/social/">Coffee Break  + Posters Setup</a>
+              </td>
+              <td rowspan="1" class="break-block">
+              <a class="block-link" href="{{ site.baseurl }}/attending/social/">Coffee Break  + Posters Setup</a>
+              </td>
+              <td rowspan="1" class="break-block">
+              <a class="block-link" href="{{ site.baseurl }}/attending/social/">Coffee Break  + Posters Setup</a>
+              </td>
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">11:00AM</td>
@@ -205,17 +219,34 @@ published: true
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">12:30PM</td>
-              <td rowspan="2" class="break-block">Welcome Reception Lunch + Poster Setup</td>
+              <!-- <td rowspan="2" class="break-block">Welcome Reception Lunch + Poster Setup</td> -->
+              <td rowspan="2" class="break-block">
+              <a class="block-link" href="{{ site.baseurl }}/attending/social/">Welcome Reception Lunch + Poster Setup</a>
+              </td>
+              <!-- 
               <td rowspan="3" class="break-block">Lunch + Posters</td>
               <td rowspan="3" class="break-block">Lunch + Posters</td>
-              <td rowspan="3" class="break-block">Lunch + Posters</td>
+              <td rowspan="3" class="break-block">Lunch + Posters</td> 
+              -->
+              <td rowspan="3" class="break-block">
+              <a class="block-link" href="{{ site.baseurl }}/attending/social/">Lunch + Posters</a>
+              </td>
+              <td rowspan="3" class="break-block">
+              <a class="block-link" href="{{ site.baseurl }}/attending/social/">Lunch + Posters</a>
+              </td>
+              <td rowspan="3" class="break-block">
+              <a class="block-link" href="{{ site.baseurl }}/attending/social/">Lunch + Posters</a>
+              </td>
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">1:00PM</td>
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">1:30PM</td>
-              <td rowspan="1" class="break-block">Opening address</td>
+              <!-- <td rowspan="1" class="break-block">Opening address</td> -->
+              <td rowspan="1" class="break-block">
+              <a class="block-link" href="{{ site.baseurl }}/attending/social/">Opening Remarks</a>
+              </td>
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">2:00PM</td>
@@ -253,10 +284,27 @@ published: true
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">4:00PM</td>
+              <!--
               <td rowspan="1" class="break-block">Coffee Break</td>
               <td rowspan="1" class="break-block">Coffee Break</td>
               <td rowspan="1" class="break-block">Coffee Break</td>
-              <td rowspan="3" class="break-block">Coffee Break + Posters + Tours</td>
+              -->
+              <td rowspan="1" class="break-block">
+              <a class="block-link" href="{{ site.baseurl }}/attending/social/">Coffee Break</a>
+              </td>
+              <td rowspan="1" class="break-block">
+              <a class="block-link" href="{{ site.baseurl }}/attending/social/">Coffee Break</a>
+              </td>
+              <td rowspan="1" class="break-block">
+              <a class="block-link" href="{{ site.baseurl }}/attending/social/">Coffee Break</a>
+              </td>
+              <!-- <td rowspan="3" class="break-block">Coffee Break + Posters + Tours</td> -->
+              <td rowspan="3" class="break-block">
+              <a href="{{ site.baseurl }}/program/social/">Coffee Break</a> + <a href="{{ site.baseurl }}/program/social/">Posters</a> + <a href="{{ site.baseurl }}/program/labtours/">Tours</a>
+              </td>
+              <!-- <td rowspan="3" class="break-block">
+              <a class="block-link" href="{{ site.baseurl }}/attending/social/">Coffee Break + Posters + Tours</a>
+              </td> -->
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">4:30PM</td>
@@ -292,10 +340,24 @@ published: true
        <tr>
               <td style="background-color: #E2F0D950;">6:30PM</td>
               <td rowspan="3"  style="box-shadow: none;"></td>
+              <!-- 
               <td rowspan="3" class="break-block">RoboNight: Dinner + Posters</td>
               <td rowspan="3" class="break-block">RoboNight: Dinner + Posters</td>
               <td rowspan="3" class="break-block">RoboNight: Dinner + Posters</td>
-              <td rowspan="3" class="break-block">Farewell Reception</td>
+              <td rowspan="3" class="break-block">Farewell Reception</td> 
+              -->
+              <td rowspan="3" class="break-block">
+              <a class="block-link" href="{{ site.baseurl }}/attending/social/">RoboNight: Dinner + Posters</a>
+              </td>
+              <td rowspan="3" class="break-block">
+              <a class="block-link" href="{{ site.baseurl }}/attending/social/">RoboNight: Dinner + Posters</a>
+              </td>
+              <td rowspan="3" class="break-block">
+              <a class="block-link" href="{{ site.baseurl }}/attending/social/">RoboNight: Dinner + Posters</a>
+              </td>
+              <td rowspan="3" class="break-block">
+              <a class="block-link" href="{{ site.baseurl }}/attending/social/">Farewell Reception</a>
+              </td>
        </tr>
        <tr>
               <td style="background-color: #E2F0D950;">7:00PM</td>
