@@ -129,6 +129,9 @@ The registration portal is hosted on PheedLoop at this link: **[site.pheedloop.c
 
 <small>*Note that the registration desk will be closed between 10am and 11am on June 21st.</small>
 
+### Campus Access for RSS Attendees
+
+All RSS 2025 attendees must present a multi-day pass to enter USC. If you plan to walk in and register onsite, download the pass [here]({{ site.baseurl }}/images/usc_pass/062025_Viterbi_SAC_RSS_Conference.pdf) and bring a printed copy with you.
 
 ### Visa and Invitation Letter
 <!-- 
@@ -144,10 +147,6 @@ Organizers will reach out to you with a signed invitation letter, which you can 
 ### Cancellation and Refund Policy
 
 Participants registered for in-person attendance who are not able to fly to Los Angeles for RSS 2025 due to unexpected circumstances that are not under their control, such as inability to acquire a visa or illness, can cancel their registration by **June 10th** and will be reimbursed for the full cost of their original registration. Alternatively, in this scenario, they can transfer the registration to another person at the same registration level (student/academic/industry). Participants who want to cancel or transfer their registration should communicate with the registration chairs, Quan Nguyen (<a href="mailto:quann@usc.edu">quann@usc.edu</a>) and Graeme Best (<a href="mailto:Graeme.Best@uts.edu.au">Graeme.Best@uts.edu.au</a>), and provide proof for the reason of their cancellation in their communication. Starting from **June 11th**, the conference will not be able to consider cancellation and refund the cost of registration.
-
-### Campus Access for RSS Attendees
-
-All RSS 2025 attendees must present a multi-day pass to enter USC. If you plan to walk in and register onsite, download the pass [here]({{ site.baseurl }}/images/usc_pass/062025_Viterbi_SAC_RSS_Conference.pdf) and bring a printed copy with you.
 
 ### Author Registration Requirement
 
