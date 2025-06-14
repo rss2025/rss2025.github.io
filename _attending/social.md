@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Social program
+title: Social Program
 description: Social program RSS2025
 priority: 5
 invisible: false
