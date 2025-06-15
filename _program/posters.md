@@ -3,7 +3,7 @@ layout: page
 title: Posters Information
 description: Poster board numbers and poster roomsdetails
 days: ['Mon', 'Fri']
-priority: 9
+priority: 8
 invisible: false
 published: true
 ---

@@ -3,7 +3,7 @@ layout: page
 title: Demos
 description: Demos times, venues, and details.
 days: ['Mon', 'Fri']
-priority: 9
+priority: 7
 invisible: false
 published: true
 ---

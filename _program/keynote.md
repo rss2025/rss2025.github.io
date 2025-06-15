@@ -2,7 +2,7 @@
 layout: page
 title: Keynote Talks
 description: Keynote talks, with title, abstract and speaker bios.
-priority: 8
+priority: 5
 invisible: false
 published: true
 ---

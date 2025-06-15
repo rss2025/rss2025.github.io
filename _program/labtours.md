@@ -3,7 +3,7 @@ layout: page
 title: Lab Tours
 description: Lab tours, locations, times
 days: ['Mon', 'Fri']
-priority: 9
+priority: 6
 invisible: false
 published: true
 ---

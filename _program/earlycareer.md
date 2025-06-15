@@ -2,7 +2,7 @@
 layout: page
 title: Early Career Spotlight
 description: Early Career Talks, with title, abstract and speaker bios.
-priority: 7
+priority: 4
 invisible: false
 published: true
 ---

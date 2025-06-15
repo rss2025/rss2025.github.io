@@ -2,7 +2,7 @@
 layout: page
 title: RSS Pioneers
 description: RSS Pioneers Info
-priority: 4
+priority: 1
 invisible: false
 published: true
 ---
