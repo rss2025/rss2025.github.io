@@ -60,7 +60,7 @@ published: true
         {% for workshop in site.data.session2 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ forloop.index }} </span></td>
-            <td>Founders Park</td>
+            <td>Associates Park</td>
             <td>{{ workshop.title }}</td>
             <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -90,7 +90,7 @@ published: true
         {% for workshop in site.data.session3 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ forloop.index }} </span></td>
-            <td>Founders Park</td>
+            <td>Associates Park</td>
             <td>{{ workshop.title }}</td>
             <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -120,7 +120,7 @@ published: true
         {% for workshop in site.data.session4 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ forloop.index }} </span></td>
-            <td>Founders Park</td>
+            <td>Associates Park</td>
             <td>{{ workshop.title }}</td>
             <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -149,7 +149,7 @@ published: true
         {% for workshop in site.data.session5 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ forloop.index }} </span></td>
-            <td>Founders Park</td>
+            <td>Associates Park</td>
             <td>{{ workshop.title }}</td>
             <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -178,7 +178,7 @@ published: true
         {% for workshop in site.data.session6 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ forloop.index }} </span></td>
-            <td>Founders Park</td>
+            <td>Associates Park</td>
             <td>{{ workshop.title }}</td>
             <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -206,7 +206,7 @@ published: true
         {% for workshop in site.data.session7 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ forloop.index }} </span></td>
-            <td>Founders Park</td>
+            <td>Associates Park</td>
             <td>{{ workshop.title }}</td>
             <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -235,7 +235,7 @@ published: true
         {% for workshop in site.data.session8 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ forloop.index }} </span></td>
-            <td>Founders Park</td>
+            <td>Associates Park</td>
             <td>{{ workshop.title }}</td>
             <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -265,7 +265,7 @@ published: true
         {% for workshop in site.data.session9 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ forloop.index }} </span></td>
-            <td>Founders Park</td>
+            <td>Associates Park</td>
             <td>{{ workshop.title }}</td>
             <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -294,7 +294,7 @@ published: true
         {% for workshop in site.data.session10 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ forloop.index }} </span></td>
-            <td>Founders Park</td>
+            <td>Associates Park</td>
             <td>{{ workshop.title }}</td>
             <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -325,7 +325,7 @@ published: true
         {% for workshop in site.data.session11 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ forloop.index }} </span></td>
-            <td>Founders Park</td>
+            <td>Associates Park</td>
             <td>{{ workshop.title }}</td>
             <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -355,7 +355,7 @@ published: true
         {% for workshop in site.data.session12 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ forloop.index }} </span></td>
-            <td>Founders Park</td>
+            <td>Associates Park</td>
             <td>{{ workshop.title }}</td>
             <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -384,7 +384,7 @@ published: true
         {% for workshop in site.data.session13 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ forloop.index }} </span></td>
-            <td>Founders Park</td>
+            <td>Associates Park</td>
             <td>{{ workshop.title }}</td>
             <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -413,7 +413,7 @@ published: true
         {% for workshop in site.data.session14 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ forloop.index }} </span></td>
-            <td>Founders Park</td>
+            <td>Associates Park</td>
             <td>{{ workshop.title }}</td>
             <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -442,7 +442,7 @@ published: true
         {% for workshop in site.data.session15 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ forloop.index }} </span></td>
-            <td>Founders Park</td>
+            <td>Associates Park</td>
             <td>{{ workshop.title }}</td>
             <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -471,7 +471,7 @@ published: true
         {% for workshop in site.data.session16 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ forloop.index }} </span></td>
-            <td>Founders Park</td>
+            <td>Associates Park</td>
             <td>{{ workshop.title }}</td>
             <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
@@ -500,7 +500,7 @@ published: true
         {% for workshop in site.data.session17 %}
         <tr>
             <td><span style="font-weight:bold; color: #3a3946;"> {{ forloop.index }} </span></td>
-            <td>Founders Park</td>
+            <td>Associates Park</td>
             <td>{{ workshop.title }}</td>
             <td>{{ workshop.authors }}</td>
             <td>{{ workshop.PosterBoardNr }}</td>
