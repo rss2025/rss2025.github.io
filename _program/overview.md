@@ -101,26 +101,25 @@ published: true
   <div style="background-color: var(--modern-warm-gray); padding: 1em 1.2em; border-radius: 6px;">
     <strong>RSS Pioneers, Pathways@RSS , and Workshops:</strong>
     <ul style="margin: 0.5em 0 0 1em; padding: 0;">
-      <li>Poster sessions of all workshops will take place at the <a href="https://maps.app.goo.gl/YTtHP12vrTdBQpce9">Epstein Family Plaza</a>.</li>
+      <li>Poster sessions of all workshops will take place at <a href="https://maps.app.goo.gl/YTtHP12vrTdBQpce9">Epstein Family Plaza</a>.</li>
       <li>For workshop locations, see the <a href="{{ site.baseurl }}/program/workshops/">Workshops</a> page.</li>
-      <li><a href="{{ site.baseurl }}/program/pathways/">Pathways@RSS</a>  will take place in Room 115 at the <a href="https://maps.app.goo.gl/ceZrio6J48qrKjR2A">Ronald Tutor Hall (RTH)</a>.</li>
-      <li><a href="{{ site.baseurl }}/program/pioneers/">RSS Pioneers</a> will take place in Room 526 at the <a href="https://maps.app.goo.gl/ceZrio6J48qrKjR2A">Ronald Tutor Hall (RTH)</a>.</li>
+      <li><a href="{{ site.baseurl }}/program/pathways/">Pathways@RSS</a>  will take place in Room 115 at <a href="https://maps.app.goo.gl/ceZrio6J48qrKjR2A">Ronald Tutor Hall (RTH)</a>.</li>
+      <li><a href="{{ site.baseurl }}/program/pioneers/">RSS Pioneers</a> will take place in Room 526 at <a href="https://maps.app.goo.gl/ceZrio6J48qrKjR2A">Ronald Tutor Hall (RTH)</a>.</li>
     </ul>
   </div>
 
   <div style="background-color: var(--modern-soft-gold); padding: 1em 1.2em; border-radius: 6px;">
     <strong>Posters and Demos:</strong>
     <ul style="margin: 0.5em 0 0 1em; padding: 0;">
-      <li>Poster sessions of the main conference will take place at the <a href="https://maps.app.goo.gl/Hno98qim4BKMVFc59">Associates Park</a>.</li>
-      <li>For demo locations (coming soon), see the <a href="{{ site.baseurl }}/program/demos/">Demos</a> page.</li>
+      <li>Poster sessions of the main conference and the demos will take place at <a href="https://maps.app.goo.gl/Hno98qim4BKMVFc59">Associates Park</a>.</li>
     </ul>
   </div>
 
   <div style="background-color: #e8f5e9; padding: 1em 1.2em; border-radius: 6px;">
     <strong>Main Conference Events:</strong>
     <ul style="margin: 0.5em 0 0 1em; padding: 0;">
-       <li>The social events (RoboNight and Farewell Reception) will take place at the <a href="https://maps.app.goo.gl/KBvJUBtyXxn319QG8">Founders Park</a>.</li>
-      <li>All other events of the main conference (keynotes, panels, early career spotlights, and awards) will take place at the <a href="https://maps.app.goo.gl/gmsxcUqwNSfjsuHL8">Bovard Auditorium</a>.</li>
+       <li>The social events (RoboNight and Farewell Reception) will take place at <a href="https://maps.app.goo.gl/KBvJUBtyXxn319QG8">Founders Park</a>.</li>
+      <li>All other events of the main conference (keynotes, panels, early career spotlights, and awards) will take place at <a href="https://maps.app.goo.gl/gmsxcUqwNSfjsuHL8">Bovard Auditorium</a>.</li>
     </ul>
   </div>
 
