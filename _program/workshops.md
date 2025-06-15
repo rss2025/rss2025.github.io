@@ -64,6 +64,18 @@ Workshops will take place across two days of the conference on **Saturday, June 
 </table>
 
 
+
+
+<div style="text-align: center; margin: 3em auto;">
+  <img src="{{ site.baseurl }}/images/local2025/workshops.png"
+       alt="Map of RSS 2025 workshop locations"
+       style="max-width: 75%; height: auto; border-radius: 6px;">
+  <div style="margin-top: 0.5em; font-size: 0.9em; color: #666;">
+    Map of RSS 2025 workshop locations
+  </div>
+</div>
+
+
 <!-- 
 <table class="table table-sm table-bordered" style="width: 100%; max-width: 800px;">
     <thead>
@@ -189,14 +201,6 @@ Workshops will take place across two days of the conference on **Saturday, June 
 
 
 
-<div style="text-align: center; margin: 3em auto;">
-  <img src="{{ site.baseurl }}/images/local2025/workshops.png"
-       alt="Map of RSS 2025 workshop locations"
-       style="max-width: 75%; height: auto; border-radius: 6px;">
-  <div style="margin-top: 0.5em; font-size: 0.9em; color: #666;">
-    Map of RSS 2025 workshop locations
-  </div>
-</div>
 
 <span style="color:white; font-size:50px;">&nbsp;</span><br>
 <span style="color:white; font-size:50px;">&nbsp;</span><br>
