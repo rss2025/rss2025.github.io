@@ -12,6 +12,54 @@ published: true
 </div>  
 
 
+### Badge Pick-Up & On-Site Registration
+
+<table style="width: 100%; max-width: 600px; border-collapse: collapse; margin: 10px 0;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="text-align: left; padding: 8px; border: 1px solid #ccc;">Date</th>
+      <th style="text-align: left; padding: 8px; border: 1px solid #ccc;">Time</th>
+      <th style="text-align: left; padding: 8px; border: 1px solid #ccc;">Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ccc;">June 20</td>
+      <td style="padding: 8px; border: 1px solid #ccc;">All Day</td>
+      <td style="padding: 8px; border: 1px solid #ccc;">TBD</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ccc;">*June 21</td>
+      <td style="padding: 8px; border: 1px solid #ccc;">8am–10am</td>
+      <td style="padding: 8px; border: 1px solid #ccc;"><a href="https://maps.app.goo.gl/p9KCXNDmjfQVQ1W96" target="_blank">Epstein Family Plaza</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ccc;">*June 21</td>
+      <td style="padding: 8px; border: 1px solid #ccc;">11am–8pm</td>
+      <td style="padding: 8px; border: 1px solid #ccc;"><a href="https://maps.app.goo.gl/UqxnUUnbp2FzdH5G7" target="_blank">Bovard Auditorium</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ccc;">June 22–24</td>
+      <td style="padding: 8px; border: 1px solid #ccc;">All Day</td>
+      <td style="padding: 8px; border: 1px solid #ccc;"><a href="https://maps.app.goo.gl/UqxnUUnbp2FzdH5G7" target="_blank">Bovard Auditorium</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ccc;">June 25</td>
+      <td style="padding: 8px; border: 1px solid #ccc;">All Day</td>
+      <td style="padding: 8px; border: 1px solid #ccc;"><a href="https://maps.app.goo.gl/p9KCXNDmjfQVQ1W96" target="_blank">Epstein Family Plaza</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<small>*Note that the registration desk will be closed between 10am and 11am on June 21st.</small>
+
+### Campus Access for RSS Attendees
+
+All RSS 2025 attendees must present a multi-day pass to enter USC. If you plan to walk in and register onsite, download the pass [here]({{ site.baseurl }}/images/usc_pass/062025_Viterbi_SAC_RSS_Conference.pdf) and bring a printed copy with you.
+
+
+
+### Registration Rates
 
 <div>&nbsp;</div>
 <!--
@@ -87,51 +135,6 @@ The registration portal is hosted on PheedLoop at this link: **[site.pheedloop.c
 <small>*The registration rates are in USD and are based on the date (Pacific Time) of registration and payment.</small>
 
 <small>**Except for workshop only attendees, rates for in-person registration include access to all food served during the conference</small>
-
-### Badge Pick-Up & On-Site Registration
-
-<table style="width: 100%; max-width: 600px; border-collapse: collapse; margin: 10px 0;">
-  <thead>
-    <tr style="background-color: #f2f2f2;">
-      <th style="text-align: left; padding: 8px; border: 1px solid #ccc;">Date</th>
-      <th style="text-align: left; padding: 8px; border: 1px solid #ccc;">Time</th>
-      <th style="text-align: left; padding: 8px; border: 1px solid #ccc;">Location</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #ccc;">June 20</td>
-      <td style="padding: 8px; border: 1px solid #ccc;">All Day</td>
-      <td style="padding: 8px; border: 1px solid #ccc;">TBD</td>
-    </tr>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #ccc;">*June 21</td>
-      <td style="padding: 8px; border: 1px solid #ccc;">8am–10am</td>
-      <td style="padding: 8px; border: 1px solid #ccc;"><a href="https://maps.app.goo.gl/p9KCXNDmjfQVQ1W96" target="_blank">Epstein Family Plaza</a></td>
-    </tr>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #ccc;">*June 21</td>
-      <td style="padding: 8px; border: 1px solid #ccc;">11am–8pm</td>
-      <td style="padding: 8px; border: 1px solid #ccc;"><a href="https://maps.app.goo.gl/UqxnUUnbp2FzdH5G7" target="_blank">Bovard Auditorium</a></td>
-    </tr>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #ccc;">June 22–24</td>
-      <td style="padding: 8px; border: 1px solid #ccc;">All Day</td>
-      <td style="padding: 8px; border: 1px solid #ccc;"><a href="https://maps.app.goo.gl/UqxnUUnbp2FzdH5G7" target="_blank">Bovard Auditorium</a></td>
-    </tr>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #ccc;">June 25</td>
-      <td style="padding: 8px; border: 1px solid #ccc;">All Day</td>
-      <td style="padding: 8px; border: 1px solid #ccc;"><a href="https://maps.app.goo.gl/p9KCXNDmjfQVQ1W96" target="_blank">Epstein Family Plaza</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<small>*Note that the registration desk will be closed between 10am and 11am on June 21st.</small>
-
-### Campus Access for RSS Attendees
-
-All RSS 2025 attendees must present a multi-day pass to enter USC. If you plan to walk in and register onsite, download the pass [here]({{ site.baseurl }}/images/usc_pass/062025_Viterbi_SAC_RSS_Conference.pdf) and bring a printed copy with you.
 
 ### Visa and Invitation Letter
 <!-- 
