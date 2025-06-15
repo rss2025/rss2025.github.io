@@ -34,14 +34,14 @@ Join us at the Welcome Reception to kick off RSS 2025! The Welcome Reception wil
 <!-- <div style="font-size: 1.5rem; font-weight: 500; color: #666; margin-top: -0.5em; margin-bottom: 1em;">
     June 22–24, 12:30–2:00pm
 </div> -->
-Lunch will be served at Founders Park during each day of the conference. Moreover, during the extended (1.5h) lunch break, the attendees are invited to explore the poster session, demos, and sponsors’ booths that will all be located at <a href="https://maps.app.goo.gl/T7MvVVdzxUcdoGvJ9">Associates Park</a> (a few steps from Founders Park), which also includes a coffee station.
+Lunch will be served at <a href="https://maps.app.goo.gl/KBvJUBtyXxn319QG8">Founders Park</a> during each day of the conference. Moreover, during the extended (1.5h) lunch break, the attendees are invited to explore the poster session, demos, and sponsors’ booths that will all be located at <a href="https://maps.app.goo.gl/T7MvVVdzxUcdoGvJ9">Associates Park</a> (a few steps from <a href="https://maps.app.goo.gl/KBvJUBtyXxn319QG8">Founders Park</a>), which also includes a coffee station.
 
 ---
 
 ## Coffee Breaks
 The main program includes short coffee breaks in the morning and afternoon of each day. These are times to socialize and grab coffee, which will be served right at the entrance of the <a href="https://maps.app.goo.gl/gmsxcUqwNSfjsuHL8">Bovard Auditorium</a>.
 
-<strong>The morning coffee on June 21 during the half day workshops will be served in the <a href="https://maps.app.goo.gl/YTtHP12vrTdBQpce9">Epstein Family Plaza</a> (not Founders Park) from 10:00–11:00am.</strong>
+<strong>The morning coffee on June 21 during the half day workshops will be served in the <a href="https://maps.app.goo.gl/YTtHP12vrTdBQpce9">Epstein Family Plaza</a> (not <a href="https://maps.app.goo.gl/KBvJUBtyXxn319QG8">Founders Park</a>) from 10:00–11:00am.</strong>
 
 ---
 
