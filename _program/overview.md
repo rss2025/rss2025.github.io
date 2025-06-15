@@ -118,7 +118,8 @@ published: true
   <div style="background-color: #e8f5e9; padding: 1em 1.2em; border-radius: 6px;">
     <strong>Main Conference Events:</strong>
     <ul style="margin: 0.5em 0 0 1em; padding: 0;">
-       <li>The social events (RoboNight and Farewell Reception) will take place at <a href="https://maps.app.goo.gl/KBvJUBtyXxn319QG8">Founders Park</a>.</li>
+       <li>The <a href="{{ site.baseurl }}/attending/social/">social events</a> (RoboNight and Farewell Reception) and lunches will take place at <a href="https://maps.app.goo.gl/KBvJUBtyXxn319QG8">Founders Park</a>.</li>
+	   <li>The short coffee breaks will take place in front of <a href="https://maps.app.goo.gl/gmsxcUqwNSfjsuHL8">Bovard Auditorium</a>.</li>
       <li>All other events of the main conference (keynotes, panels, early career spotlights, and awards) will take place at <a href="https://maps.app.goo.gl/gmsxcUqwNSfjsuHL8">Bovard Auditorium</a>.</li>
     </ul>
   </div>
