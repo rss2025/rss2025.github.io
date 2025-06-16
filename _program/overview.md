@@ -7,7 +7,6 @@ invisible: false
 published: true
 ---
 
-
 <style>
 @media (max-width: 600px) {
   .schedule {
@@ -74,15 +73,14 @@ published: true
     height: 100%;
     text-decoration: none;
     color: inherit;
-    /* padding: 0.5em; */
     box-sizing: border-box;
-    justify-content: center;     /* Center horizontally */
-    align-items: center;         /* Center vertically */
-    text-align: center;          /* Ensure multiline text is centered */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 </style>
 
-
+<!-- need for hover effect with blocks -->
 <style>
   .schedule td {
     min-height: 40px !important;
@@ -93,6 +91,26 @@ published: true
   .schedule td:hover {
     filter: brightness(1.2);
     cursor: pointer;
+  }
+</style>
+
+<!-- needed for hover effect with multiple links in block -->
+<style>
+  /* Default: look like normal text */
+  .schedule td a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.15s ease, text-decoration 0.15s ease;
+  }
+
+  /* When hovering over the cell, make links blue */
+  .schedule td:hover a {
+    color: #0000EE;
+  }
+
+  /* When hovering over the actual link text, add underline */
+  .schedule td a:hover {
+    text-decoration: underline;
   }
 </style>
 
@@ -298,9 +316,10 @@ published: true
               <td rowspan="1" class="break-block">
               <a class="block-link" href="{{ site.baseurl }}/attending/social/">Coffee Break</a>
               </td>
-              <!-- <td rowspan="3" class="break-block">Coffee Break + Posters + Tours</td> -->
               <td rowspan="3" class="break-block">
-              <a href="{{ site.baseurl }}/program/social/">Coffee Break</a> + <a href="{{ site.baseurl }}/program/social/">Posters</a> + <a href="{{ site.baseurl }}/program/labtours/">Tours</a>
+              <a href="{{ site.baseurl }}/attending/social/">Coffee Break</a> +
+              <a href="{{ site.baseurl }}/program/posters/">Posters</a> +
+              <a href="{{ site.baseurl }}/program/labtours/">Tours</a>
               </td>
               <!-- <td rowspan="3" class="break-block">
               <a class="block-link" href="{{ site.baseurl }}/attending/social/">Coffee Break + Posters + Tours</a>
