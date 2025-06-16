@@ -1,57 +1,124 @@
 ---
 layout: page
 title: Awards
-description: Award.
-days: ['Mon', 'Fri']
-priority: 9
+description: Awards.
+priority: 7
 invisible: false
-published: false
+published: true
 ---
 
-### Outstanding Demo Paper Award Finalists
+<style>
+.award-card {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 2em;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+.award-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.award-list li {
+  margin-bottom: 1.5em;
+}
+.award-list li.winner {
+  border-left: 4px solid gold;
+  background-color: #fffbe6;
+  padding-left: 6px;
+}
+.winner-label {
+  font-weight: bold;
+  color: #b58900;
+  font-size: 0.9em;
+}
+</style>
 
-**Demonstrating CropFollow++: Robust Under-Canopy Navigation with Keypoints**
+<div class="award-card">
+<h3>Outstanding Systems Paper Award Finalists</h3>
+<ul class="award-list">
+  <li>
+  <!-- <li class="winner"> -->
+    <strong>Building Rome with Convex Optimization</strong><br>
+    <em>Haoyu Han, Heng Yang</em>
+    <!-- <br>
+    <span class="winner-label">Winner: Outstanding Systems Paper Award</span> -->
+  </li>
+  <li>
+  <!-- <li class="winner"> -->
+    <strong>Learned Perceptive Forward Dynamics Model for Safe and Platform-aware Robotic Navigation</strong><br>
+    <em>Pascal Roth, Jonas Frey, Cesar Cadena, Marco Hutter</em>
+    <!-- <br>
+    <span class="winner-label">Winner: Outstanding Systems Paper Award</span> -->
+  </li>
+  <li>
+  <!-- <li class="winner"> -->
+    <strong>FEAST: A Flexible Mealtime-Assistance System Tackling In-the-Wild Personalization</strong><br>
+    <em>Rajat Kumar Jenamani, Tom Silver, Ben Dodson, Shiqin Tong, Anthony Song, Yuting Yang, Ziang Liu, Benjamin Howe, Aimee Whitneck, Tapomayukh Bhattacharjee</em>
+    <!-- <br>
+    <span class="winner-label">Winner: Outstanding Systems Paper Award</span> -->
+  </li>
+  <li>
+  <!-- <li class="winner"> -->
+    <strong>Learning Humanoid Standing-up Control across Diverse Postures</strong><br>
+    <em>Tao Huang, Junli Ren, Huayi Wang, Zirui Wang, Qingwei Ben, Muning Wen, Xiao Chen, Jianan Li, Jiangmiao Pang</em>
+    <!-- <br>
+    <span class="winner-label">Winner: Outstanding Systems Paper Award</span> -->
+  </li>
+</ul>
+</div>
 
-*Arun Narenthiran Sivakumar, Mateus Valverde Gasparino, Michael McGuire, Vitor Akihiro Hisano Higuti, M. Ugur Akcal, Girish Chowdhary*
+<div class="award-card">
+<h3>Outstanding Student Paper Award Finalists</h3>
+<ul class="award-list">
+  <li>
+  <!-- <li class="winner"> -->
+    <strong>Doppler Correspondence: Non-Iterative Scan Matching With Doppler Velocity-Based Correspondence</strong><br>
+    <em>Jiwoo Kim, Geunsik Bae, Changseung Kim, Jinwoo Lee, Woojae Shin, Hyondong Oh</em>
+    <!-- <br>
+    <span class="winner-label">Winner: Outstanding Student Paper Award</span> -->
+  </li>
+  <li>
+  <!-- <li class="winner"> -->
+    <strong>Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL</strong><br>
+    <em>Songyuan Zhang, Oswin So, Mitchell Black, Zachary Serlin, Chuchu Fan</em>
+    <!-- <br>
+    <span class="winner-label">Winner: Outstanding Student Paper Award</span> -->
+  </li>
+  <li>
+  <!-- <li class="winner"> -->
+    <strong>Reactive Diffusion Policy: Slow-Fast Visual-Tactile Policy Learning for Contact-Rich Manipulation</strong><br>
+    <em>Han Xue, Jieji Ren, Wendi Chen, Gu Zhang, Fang Yuan, Guoying Gu, Huazhe Xu, Cewu Lu</em>
+    <!-- <br>
+    <span class="winner-label">Winner: Outstanding Student Paper Award</span> -->
+  </li>
+</ul>
+</div>
 
-**Demonstrating Agile Flight from Pixels without State Estimation**
-
-*Ismail Geles, Leonard Bauersfeld, Angel Romero, Jiaxu Xing, Davide Scaramuzza*
-
-### Outstanding Systems Paper Award Finalists
-
-**Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots**
-
-*Cheng Chi, Zhenjia Xu, Chuer Pan, Eric Cousineau, Benjamin Burchfiel, Siyuan Feng, Russ Tedrake, Shuran Song*
-
-**Khronos: A Unified Approach for Spatio-Temporal Metric-Semantic SLAM in Dynamic Environments**
-
-*Lukas Schmid, Marcus Abate, Yun Chang, Luca Carlone*
-
-### Outstanding Student Paper Award Finalists
-
-**Dynamic On-Palm Manipulation via Controlled Sliding**
-
-*William Yang, Michael Posa*
-
-**Agile But Safe: Learning Collision-Free High-Speed Legged Locomotion**
-
-*Tairan He, Chong Zhang, Wenli Xiao, Guanqi He, Changliu Liu, Guanya Shi*
-
-**ScrewMimic: Bimanual Imitation from Human Videos with Screw Space Projection**
-
-*Arpit Bahety, Priyanka Mandikal, Ben Abbatematteo, Roberto Martín-Martín*
-
-### Outstanding Paper Award Finalists
-
-**Advancing Humanoid Locomotion: Mastering Challenging Terrains with Denoising World Model Learning**
-
-*Xinyang Gu, Yen-Jen Wang, Xiang Zhu, Chengming Shi, Yanjiang Guo, Yichen Liu, Jianyu Chen*
-
-**Real-Time Anomaly Detection and Reactive Planning with Large Language Models**
-
-*Rohan Sinha, Amine Elhafsi, Christopher Agia, Matt Foutter, Edward Schmerling, Marco Pavone*
-
-**Configuration Space Distance Fields for Manipulation Planning**
-
-*Yiming Li, Xuemin Chi, Amirreza Razmjoo, Sylvain Calinon*
+<div class="award-card">
+<h3>Outstanding Paper Award Finalists</h3>
+<ul class="award-list">
+  <li>
+  <!-- <li class="winner"> -->
+    <strong>FAST: Efficient Action Tokenization for Vision-Language-Action Models</strong><br>
+    <em>Karl Pertsch, Kyle Stachowicz, Brian Ichter, Danny Driess, Suraj Nair, Quan Vuong, Oier Mees, Chelsea Finn, Sergey Levine</em>
+    <!-- <br>
+    <span class="winner-label">Winner: Outstanding Paper Award</span> -->
+  </li>
+  <li>
+  <!-- <li class="winner"> -->
+    <strong>FEAST: A Flexible Mealtime-Assistance System Tackling In-the-Wild Personalization</strong><br>
+    <em>Rajat Kumar Jenamani, Tom Silver, Ben Dodson, Shiqin Tong, Anthony Song, Yuting Yang, Ziang Liu, Benjamin Howe, Aimee Whitneck, Tapomayukh Bhattacharjee</em>
+    <!-- <br>
+    <span class="winner-label">Winner: Outstanding Paper Award</span> -->
+  </li>
+  <li>
+  <!-- <li class="winner"> -->
+    <strong>Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL</strong><br>
+    <em>Songyuan Zhang, Oswin So, Mitchell Black, Zachary Serlin, Chuchu Fan</em>
+    <!-- <br>
+    <span class="winner-label">Winner: Outstanding Paper Award</span> -->
+  </li>
+</ul>
+</div>
