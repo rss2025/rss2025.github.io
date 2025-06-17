@@ -4,69 +4,69 @@
     "authors": "Chuanruo Ning, Kuan Fang, Wei-Chiu Ma",
     "keywords": "Grasping & Manipulation;Robot Planning;Robot Learning: Foundation Models",
     "pdf": "",
-	"PosterBoardNr": "15"
+	"PosterBoardNr": "26"
   },
   {
     "title": "Novel Demonstration Generation with Gaussian Splatting Enables Robust One-Shot Manipulation",
     "authors": "Sizhe Yang, Wenye Yu, Jia Zeng, Jun Lv, Kerui Ren, Cewu Lu, Dahua Lin, Jiangmiao Pang",
     "keywords": "Grasping & Manipulation;Robot Learning: Imitation Learning;Robot Learning: Model Learning",
     "pdf": "",
-	"PosterBoardNr": "16"
+	"PosterBoardNr": "28"
   },
   {
     "title": "STDArm: Transfer Visuomotor Policy From Static Data Training to Dynamic Robot Manipulation",
     "authors": "Yifan Duan, Heng Li, Yilong Wu, Wenhao Yu, xinran zhang, Yedong Shen, Jianmin Ji, Yanyong Zhang",
     "keywords": "Grasping & Manipulation;Robot Learning: Imitation Learning;Field Robotics (e.g., Aerial, Agricultural, Construction, Space, Underwater Robotics)",
     "pdf": "",
-	"PosterBoardNr": "17"
+	"PosterBoardNr": "30"
   },
   {
     "title": "PartInstruct: Part-level Instruction Following for Fine-grained Robot Manipulation",
     "authors": "Yifan Yin, Zhengtao Han, Shivam Aarya, Shuhang Xu, Jianxin Wang, Jiawei Peng, Angtian Wang, Alan Yuille, Tianmin Shu",
     "keywords": "Robot Learning: Datasets and Benchmarks;Robot Learning: Imitation Learning;Grasping & Manipulation",
     "pdf": "",
-	"PosterBoardNr": "18"
+	"PosterBoardNr": "32"
   },
   {
     "title": "You Only Teach Once: Learn One-Shot Bimanual Robotic Manipulation from Video Demonstrations",
     "authors": "Huayi Zhou, Ruixiang Wang, Yunxin Tai, Yueci Deng, Guiliang Liu, Kui Jia",
     "keywords": "Grasping & Manipulation;Human-Robot Interaction;Robot Learning: Imitation Learning",
     "pdf": "",
-	"PosterBoardNr": "19"
+	"PosterBoardNr": "34"
   },
   {
     "title": "Manual2Skill: Learning to Read Manuals and Acquire Robotic Skills for Furniture Assembly Using Vision-Language Models",
     "authors": "Chenrui Tie, Shengxiang Sun, Jinxuan Zhu, Yiwei Liu, Jingxiang Guo, Yue Hu, Haonan Chen, Junting Chen, Ruihai Wu, Lin Shao",
     "keywords": "Cognitive Modeling & Knowledge Representation for Robots;Assembly, Logistics and Manufacturing;Robot Learning: Foundation Models",
     "pdf": "",
-	"PosterBoardNr": "20"
+	"PosterBoardNr": "40"
   },
   {
     "title": "Sketch-to-Skill: Bootstrapping Robot Learning with Human Drawn Trajectory Sketches",
     "authors": "Peihong Yu, Amisha Bhaskar, Anukriti Singh, Zahiruddin Mahammad, Pratap Tokekar",
     "keywords": "Grasping & Manipulation;Robot Learning: Reinforcement Learning;Robot Learning: Imitation Learning",
     "pdf": "",
-	"PosterBoardNr": "21"
+	"PosterBoardNr": "42"
   },
   {
     "title": "RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation",
     "authors": "Kun Wu, Chengkai Hou, Jiaming Liu, Zhengping Che, Xiaozhu Ju, Zhuqin Yang, Meng Li, Yinuo Zhao, Zhiyuan Xu, Guang Yang, Shichao Fan, Xinhua Wang, Fei Liao, Zhen Zhao, Guangyu Li, Zhao Jin, Lecheng Wang, Jilei Mao, Ning Liu, Pei Ren, Qiang Zhang, Yaoxu Lyu, Mengzhen Liu, He Jingyang, Yulin Luo, Zeyu Gao, Chenxuan Li, Chenyang Gu, Yankai Fu, Di Wu, Xingyu Wang, Sixiang Chen, Zhenyu Wang, Pengju An, Siyuan Qian, Shanghang Zhang, Jian Tang",
     "keywords": "Robot Learning: Foundation Models;Robot Learning: Datasets and Benchmarks",
     "pdf": "",
-	"PosterBoardNr": "22"
+	"PosterBoardNr": "44"
   },
   {
     "title": "PIN-WM: Learning Physics-INformed World Models for Non-Prehensile Manipulation",
     "authors": "Wenxuan Li, Hang Zhao, Zhiyuan Yu, Yu Du, Qin Zou, Ruizhen Hu, Kai Xu",
     "keywords": "Grasping & Manipulation;Robot Learning: Model Learning;Robot Learning: Reinforcement Learning",
     "pdf": "",
-	"PosterBoardNr": "23"
+	"PosterBoardNr": "48"
   },
   {
     "title": "Hierarchical and Modular Network on Non-prehensile Manipulation in General Environments",
     "authors": "Yoonyoung Cho, Junhyek Han, Jisu Han, Beomjoon Kim",
     "keywords": "Grasping & Manipulation;Robot Learning: Reinforcement Learning",
     "pdf": "",
-	"PosterBoardNr": "24"
+	"PosterBoardNr": "52"
   }
 ]

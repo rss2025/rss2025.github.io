@@ -4,62 +4,62 @@
     "authors": "Annie S Chen, Alec M. Lessing, Yuejiang Liu, Chelsea Finn",
     "keywords": "Robot Learning: Imitation Learning",
     "pdf": "",
-	"PosterBoardNr": "43"
+	"PosterBoardNr": "40"
   },
   {
     "title": "CodeDiffuser: Attention-Enhanced Diffusion Policy via VLM-Generated Code for Instruction Ambiguity",
     "authors": "Guang Yin, Yitong Li, Yixuan Wang, Dale McConachie, Paarth Shah, Kunimatsu Hashimoto, Huan Zhang, Katherine Liu, Yunzhu Li",
     "keywords": "Robot Learning: Imitation Learning;Robot Learning: Foundation Models;Robot Perception, Sensing & Vision;Grasping & Manipulation",
     "pdf": "",
-	"PosterBoardNr": "44"
+	"PosterBoardNr": "42"
   },
   {
     "title": "Can We Detect Failures Without Failure Data? Uncertainty-Aware Runtime Failure Detection for Imitation Learning Policies",
     "authors": "Chen Xu, Tony Khuong Nguyen, Emma Dixon, Christopher Rodriguez, Patrick Miller, Robert Lee, Paarth Shah, Rares Andrei Ambrus, Haruki Nishimura, Masha Itkina",
     "keywords": "Robot Learning: Imitation Learning;Perceptual Learning;Grasping & Manipulation",
     "pdf": "",
-	"PosterBoardNr": "45"
+	"PosterBoardNr": "44"
   },
   {
     "title": "Unified Video Action Model",
     "authors": "Shuang Li, Yihuai Gao, Dorsa Sadigh, Shuran Song",
     "keywords": "Robot Learning: Imitation Learning;Robot Learning: Foundation Models",
     "pdf": "",
-	"PosterBoardNr": "46"
+	"PosterBoardNr": "48"
   },
   {
     "title": "DexWild: Dexterous Human Interactions for In-the-Wild Robot Policies",
     "authors": "Tony Tao, Mohan Kumar Srirama, Jason Jingzhou Liu, Kenneth Shaw, Deepak Pathak",
     "keywords": "Robot Learning: Imitation Learning;Robot Learning: Foundation Models;Grasping & Manipulation",
     "pdf": "",
-	"PosterBoardNr": "47"
+	"PosterBoardNr": "52"
   },
   {
     "title": "From Foresight to Forethought: VLM-In-the-Loop Policy Steering via Latent Alignment",
     "authors": "Yilin Wu, Thomas Tian, Gokul Swamy, Andrea Bajcsy",
     "keywords": "Robot Learning: Imitation Learning;Robot Learning: Foundation Models;Grasping & Manipulation",
     "pdf": "",
-	"PosterBoardNr": "48"
+	"PosterBoardNr": "54"
   },
   {
     "title": "Is Your Imitation Learning Policy Better than Mine? Policy Comparison with Near-Optimal Stopping",
     "authors": "David Snyder, Asher James Hancock, Apurva Badithela, Emma Dixon, Patrick Miller, Rares Andrei Ambrus, Anirudha Majumdar, Masha Itkina, Haruki Nishimura",
     "keywords": "Robot Learning: Imitation Learning;Robot Learning: Foundation Models;Grasping & Manipulation",
     "pdf": "",
-	"PosterBoardNr": "49"
+	"PosterBoardNr": "56"
   },
   {
     "title": "DDAT: Diffusion Policies Enforcing Dynamically Admissible Robot Trajectories",
     "authors": "Jean-Baptiste Bouvier, Kanghyun Ryu, Qiayuan Liao, Koushil Sreenath, Negar Mehr",
     "keywords": "Robot Learning: Imitation Learning;Control & Dynamics;Robot Planning",
     "pdf": "",
-	"PosterBoardNr": "50"
+	"PosterBoardNr": "58"
   },
   {
     "title": "FACTR: Force-Attending Curriculum Training for Contact-Rich Policy Learning",
     "authors": "Jason Jingzhou Liu, Yulong Li, Kenneth Shaw, Tony Tao, Russ Salakhutdinov, Deepak Pathak",
     "keywords": "Robot Learning: Imitation Learning;Grasping & Manipulation;Control & Dynamics",
     "pdf": "",
-	"PosterBoardNr": "51"
+	"PosterBoardNr": "62"
   }
 ]

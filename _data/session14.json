@@ -4,34 +4,34 @@
     "authors": "Anya Zorin, Irmak Guzey, Nikhil X. Bhattasali, Lerrel Pinto",
     "keywords": "Grasping & Manipulation;Mechanisms & Design;Robot Learning: Imitation Learning",
     "pdf": "",
-	"PosterBoardNr": "1"
+	"PosterBoardNr": "2"
   },
   {
     "title": "Demonstrating LEAP Hand V3: Low-Cost, Easy-to-Assemble, High-Performance Hand for Robot Learning",
     "authors": "Kenneth Shaw, Deepak Pathak",
     "keywords": "Grasping & Manipulation;Robot Learning: Imitation Learning;Robot Learning: Reinforcement Learning",
     "pdf": "",
-	"PosterBoardNr": "2"
+	"PosterBoardNr": "36"
   },
   {
     "title": "Tactile sensing enables vertical obstacle negotiation for elongate many-legged robots",
     "authors": "Juntao He, Baxi Chong, Massimiliano Iaschi, Vincent R Nienhusser, Sehoon Ha, Daniel Goldman",
     "keywords": "Bioinspired Robots;Field Robotics (e.g., Aerial, Agricultural, Construction, Space, Underwater Robotics);Mechanisms & Design",
     "pdf": "",
-	"PosterBoardNr": "3"
+	"PosterBoardNr": "4"
   },
   {
     "title": "Boxi: Design Decisions in the Context of Algorithmic Performance for Robotics",
     "authors": "Jonas Frey, Turcan Tuna, Lanke Frank Tarimo Fu, Cedric Weibel, Katharine Patterson, Benjamin Krummenacher, Matthias M\u00c3\u00bcller, Julian Nubert, Maurice Fallon, Cesar Cadena, Marco Hutter",
     "keywords": "Robot Perception, Sensing & Vision;Mechanisms & Design;Robot State Estimation, Localization & Mapping",
     "pdf": "",
-	"PosterBoardNr": "4"
+	"PosterBoardNr": "6"
   },
   {
     "title": "emg2tendon: From sEMG Signals to Tendon Control in Musculoskeletal Hands",
     "authors": "Sagar Verma",
     "keywords": "Grasping & Manipulation;Robot Learning: Datasets and Benchmarks;Robot Learning: Model Learning",
     "pdf": "",
-	"PosterBoardNr": "5"
+	"PosterBoardNr": "10"
   }
 ]

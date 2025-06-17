@@ -4,69 +4,69 @@
     "authors": "Jialong Li, Xuxin Cheng, Tianshu Huang, Shiqi Yang, Ri-Zhao Qiu, Xiaolong Wang",
     "keywords": "Humanoid & Walking Robots;Robot Learning: Imitation Learning;Robot Learning: Reinforcement Learning",
     "pdf": "",
-	"PosterBoardNr": "33"
+	"PosterBoardNr": "16"
   },
   {
     "title": "Demonstrating Berkeley Humanoid Lite: An Open-source, Accessible, and Customizable 3D-printed Humanoid Robot",
     "authors": "Yufeng Chi, Qiayuan Liao, Junfeng Long, Xiaoyu Huang, Sophia Shao, Borivoje Nikolic, Zhongyu Li, Koushil Sreenath",
     "keywords": "Mechanisms & Design;Humanoid & Walking Robots",
     "pdf": "",
-	"PosterBoardNr": "34"
+	"PosterBoardNr": "46"
   },
   {
     "title": "Learning Getting-Up Policies for Real-World Humanoid Robots",
     "authors": "Xialin He, Runpei Dong, Zixuan Chen, Saurabh Gupta",
     "keywords": "Humanoid & Walking Robots;Robot Learning: Reinforcement Learning;Control & Dynamics",
     "pdf": "",
-	"PosterBoardNr": "35"
+	"PosterBoardNr": "18"
   },
   {
     "title": "Learning Humanoid Standing-up Control across Diverse Postures",
     "authors": "Tao Huang, Junli Ren, Huayi Wang, ZiRui Wang, Qingwei Ben, Muning Wen, Xiao Chen, Jianan Li, Jiangmiao Pang",
     "keywords": "Humanoid & Walking Robots;Control & Dynamics;Robot Planning",
     "pdf": "",
-	"PosterBoardNr": "36"
+	"PosterBoardNr": "22"
   },
   {
     "title": "End-to-end Learning of Humanoid Whole-body Control from Natural Language",
     "authors": "Yiyang Shao, Bike Zhang, Qiayuan Liao, Xiaoyu Huang, Yuman Gao, Yufeng Chi, Zhongyu Li, Sophia Shao, Koushil Sreenath",
     "keywords": "Humanoid & Walking Robots;Robot Learning: Reinforcement Learning;Robot Learning: Imitation Learning",
     "pdf": "",
-	"PosterBoardNr": "37"
+	"PosterBoardNr": "24"
   },
   {
     "title": "ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills",
     "authors": "Tairan He, Jiawei Gao, Wenli Xiao, Yuanhang Zhang, Zi Wang, Jiashun Wang, Zhengyi Luo, Guanqi He, Nikhil Sobanbabu, Chaoyi Pan, Zeji Yi, Guannan Qu, Kris Kitani, Jessica K. Hodgins, Linxi Fan, Yuke Zhu, Changliu Liu, Guanya Shi",
     "keywords": "Robot Learning: Reinforcement Learning;Humanoid & Walking Robots;Control & Dynamics",
     "pdf": "",
-	"PosterBoardNr": "38"
+	"PosterBoardNr": "26"
   },
   {
     "title": "A Unified and General Humanoid Whole-Body Controller for Fine-Grained Locomotion",
     "authors": "Yufei Xue, Wentao Dong, Minghuan Liu, Weinan Zhang, Jiangmiao Pang",
     "keywords": "Robot Learning: Reinforcement Learning;Humanoid & Walking Robots;Control & Dynamics",
     "pdf": "",
-	"PosterBoardNr": "39"
+	"PosterBoardNr": "28"
   },
   {
     "title": "BeamDojo: Learning Agile Humanoid Locomotion on Sparse Footholds",
     "authors": "Huayi Wang, ZiRui Wang, Junli Ren, Qingwei Ben, Tao Huang, Weinan Zhang, Jiangmiao Pang",
     "keywords": "Robot Learning: Reinforcement Learning;Humanoid & Walking Robots;Control & Dynamics",
     "pdf": "",
-	"PosterBoardNr": "40"
+	"PosterBoardNr": "30"
   },
   {
     "title": "Gait-Net-augmented Implicit Kino-dynamic MPC for Dynamic Variable-frequency Humanoid Locomotion over Discrete Terrains",
     "authors": "Junheng Li, Ziwei Duan, Junchao Ma, Quan Nguyen",
     "keywords": "Humanoid & Walking Robots;Control & Dynamics;Robot Planning",
     "pdf": "",
-	"PosterBoardNr": "41"
+	"PosterBoardNr": "32"
   },
   {
     "title": "HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit",
     "authors": "Qingwei Ben, Feiyu Jia, Jia Zeng, Junting Dong, Dahua Lin, Jiangmiao Pang",
     "keywords": "Humanoid & Walking Robots;Robot Learning: Reinforcement Learning;Human-Robot Interaction",
     "pdf": "",
-	"PosterBoardNr": "42"
+	"PosterBoardNr": "34"
   }
 ]

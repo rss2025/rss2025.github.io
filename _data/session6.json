@@ -4,62 +4,62 @@
     "authors": "Han Xue, Jieji Ren, Wendi Chen, Gu Zhang, Fang Yuan, Guoying Gu, Huazhe Xu, Cewu Lu",
     "keywords": "Robot Learning: Imitation Learning;Robot Perception, Sensing & Vision;Grasping & Manipulation",
     "pdf": "",
-	"PosterBoardNr": "24"
+	"PosterBoardNr": "2"
   },
   {
     "title": "Physics-Driven Data Generation for Contact-Rich Manipulation via Trajectory Optimization",
     "authors": "Lujie Yang, H.J. Terry Suh, Tong Zhao, Bernhard Paus Graesdal, Tarik Kelestemur, Jiuguang Wang, Tao Pang, Russ Tedrake",
     "keywords": "Grasping & Manipulation;Robot Planning;Robot Learning: Imitation Learning",
     "pdf": "",
-	"PosterBoardNr": "25"
+	"PosterBoardNr": "4"
   },
   {
     "title": "ViTaSCOPE: Visuo-tactile Implicit Representation for In-hand Pose and Extrinsic Contact Estimation",
     "authors": "Jayjun Lee, Nima Fazeli",
     "keywords": "Robot Perception, Sensing & Vision;Robot Modeling & Simulation;Grasping & Manipulation",
     "pdf": "",
-	"PosterBoardNr": "26"
+	"PosterBoardNr": "6"
   },
   {
     "title": "Design of a low-cost and lightweight 6 DoF bimanual arm for dynamic and contact-rich manipulation",
     "authors": "Jaehyung Kim, Jiho Kim, Dongryung Lee, Yujin Jang, Beomjoon Kim",
     "keywords": "Mechanisms & Design;Robot Learning: Reinforcement Learning;Robot Learning: Imitation Learning",
     "pdf": "",
-	"PosterBoardNr": "27"
+	"PosterBoardNr": "8"
   },
   {
     "title": "PP-Tac: Paper Picking Using Omnidirectional Tactile Feedback in Dexterous Robotic Hands",
     "authors": "Pei Lin, Yuzhe Huang, Jianpeng Ma, Chenxi Xiao, Wanlin Li, Ziyuan Jiao",
     "keywords": "Robot Perception, Sensing & Vision;Grasping & Manipulation;Robot Learning: Imitation Learning",
     "pdf": "",
-	"PosterBoardNr": "28"
+	"PosterBoardNr": "10"
   },
   {
     "title": "GeoDEx: A Unified Geometric Framework for Tactile Dexterous and Extrinsic Manipulation under Force Uncertainty",
     "authors": "Sirui Chen, Sergio Francisco Aguilera Marinovic, Soshi Iba, Rana Soltani Zarrin",
     "keywords": "Grasping & Manipulation;Control & Dynamics;Robot Perception, Sensing & Vision",
     "pdf": "",
-	"PosterBoardNr": "29"
+	"PosterBoardNr": "12"
   },
   {
     "title": "Demonstrating the Octopi-1.5 Visual-Tactile-Language Model",
     "authors": "Samson Yu, Lin Kelvin, Harold Soh",
     "keywords": "Robot Learning: Foundation Models",
     "pdf": "",
-	"PosterBoardNr": "30"
+	"PosterBoardNr": "36"
   },
   {
     "title": "Demonstrating REASSEMBLE: A Multimodal Dataset for Contact-rich Robotic Assembly and Disassembly",
     "authors": "Daniel Sliwowski, Shail Jadav, Sergej Stanovcic, J\u00c4\u2122drzej Orbik, Johannes Heidersberger, Dongheui Lee",
     "keywords": "Robot Learning: Datasets and Benchmarks;Grasping & Manipulation;Robot Perception, Sensing & Vision",
     "pdf": "",
-	"PosterBoardNr": "31"
+	"PosterBoardNr": "37"
   },
   {
     "title": "Robust Peg-in-Hole Assembly under Uncertainties via Compliant and Interactive Contact-Rich Manipulation",
     "authors": "Yiting Chen, Kenneth Kimble, Howard H. Qian, Podshara Chanrungmaneekul, Robert Seney, Kaiyu Hang",
     "keywords": "Assembly, Logistics and Manufacturing;Grasping & Manipulation;Formal Methods for Robotics",
     "pdf": "",
-	"PosterBoardNr": "32"
+	"PosterBoardNr": "14"
   }
 ]

@@ -4,62 +4,62 @@
     "authors": "Yaru Niu, Yunzhe Zhang, Mingyang Yu, Changyi Lin, Chenhao Li, Yikai Wang, Yuxiang Yang, Wenhao Yu, Tingnan Zhang, Zhenzhen Li, Jonathan Francis, Bingqing Chen, Jie Tan, Ding Zhao",
     "keywords": "Grasping & Manipulation;Robot Learning: Imitation Learning;Robot Learning: Datasets and Benchmarks",
     "pdf": "",
-	"PosterBoardNr": "43"
+	"PosterBoardNr": "21"
   },
   {
     "title": "Gain Tuning Is Not What You Need: Reward Gain Adaptation for Constrained Locomotion Learning",
     "authors": "Arthicha Srisuchinnawong, Poramate Manoonpong",
     "keywords": "Robot Learning: Reinforcement Learning;Humanoid & Walking Robots;Bioinspired Robots",
     "pdf": "",
-	"PosterBoardNr": "44"
+	"PosterBoardNr": "19"
   },
   {
     "title": "SATA: Safe and Adaptive Torque-Based Locomotion Policies Inspired by Animal Learning",
     "authors": "LI Peizhuo, Hongyi LI, GE SUN, Jin Cheng, Xinrong Yang, Guillaume Bellegarda, Milad Shafiee Ashtiani, Yuhong Cao, Auke Ijspeert, Guillaume Adrien Sartoretti",
     "keywords": "Humanoid & Walking Robots;Robot Learning: Reinforcement Learning;Bioinspired Robots",
     "pdf": "",
-	"PosterBoardNr": "45"
+	"PosterBoardNr": "15"
   },
   {
     "title": "Bridging the Sim-to-Real Gap for Athletic Loco-Manipulation",
     "authors": "Nolan Fey, Gabriel B. Margolis, Martin Peticco, Pulkit Agrawal",
     "keywords": "Humanoid & Walking Robots;Robot Learning: Reinforcement Learning;Robot Learning: Model Learning",
     "pdf": "",
-	"PosterBoardNr": "46"
+	"PosterBoardNr": "13"
   },
   {
     "title": "Adaptive Locomotion on Mud through Proprioceptive Sensing of Substrate Properties",
     "authors": "Shipeng Liu, Jiaze Tang, Siyuan Meng, Feifei Qian",
     "keywords": "Bioinspired Robots;Humanoid & Walking Robots;Field Robotics (e.g., Aerial, Agricultural, Construction, Space, Underwater Robotics)",
     "pdf": "",
-	"PosterBoardNr": "47"
+	"PosterBoardNr": "11"
   },
   {
     "title": "Discrete-Time Hybrid Automata Learning: Legged Locomotion Meets Skateboarding",
     "authors": "Hang Liu, Sangli Teng, Ben Liu, Wei Zhang, Maani Ghaffari",
     "keywords": "Cognitive Modeling & Knowledge Representation for Robots;Robot Learning: Reinforcement Learning;Humanoid & Walking Robots",
     "pdf": "",
-	"PosterBoardNr": "48"
+	"PosterBoardNr": "9"
   },
   {
     "title": "SafeMimic: Towards Safe and Autonomous Human-to-Robot Imitation for Mobile Manipulation",
     "authors": "Arpit Bahety, Arnav Balaji, Ben Abbatematteo, Roberto Mart\u00c3\u00adn-Mart\u00c3\u00adn",
     "keywords": "Grasping & Manipulation;Robot Learning: Imitation Learning;Robot Learning: Reinforcement Learning",
     "pdf": "",
-	"PosterBoardNr": "49"
+	"PosterBoardNr": "7"
   },
   {
     "title": "DVS: Dynamic Virtual-Real Simulation Platform for Mobile Robotic Tasks",
     "authors": "Zijie Zheng, Zeshun Li, Yunpeng Wang, Qinghongbing Xie, Long ZENG",
     "keywords": "Robot Modeling & Simulation;Human-Robot Interaction;Robot Perception, Sensing & Vision",
     "pdf": "",
-	"PosterBoardNr": "50"
+	"PosterBoardNr": "5"
   },
   {
     "title": "Flying Hand: End-Effector-Centric Framework for Versatile Aerial Manipulation Teleoperation and Policy Learning",
     "authors": "Guanqi He, Xiaofeng Guo, Luyi Tang, Yuanhang Zhang, Mohammadreza Mousaei, Jiahe Xu, Junyi Geng, Sebastian Scherer, Guanya Shi",
     "keywords": "Control & Dynamics;Robot Learning: Imitation Learning;Field Robotics (e.g., Aerial, Agricultural, Construction, Space, Underwater Robotics)",
     "pdf": "",
-	"PosterBoardNr": "51"
+	"PosterBoardNr": "3"
   }
 ]
