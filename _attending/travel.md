@@ -14,14 +14,7 @@ published: true
 # Travel Information
 
 ## LA protests and Entering the USC Campus
-While there are still ongoing protests in specific areas of LA, the USC campus has not been affected by the protests and is operating as usual. The USC campus is not open to external people, and you should download the following form to access the campus ([link](https://roboticsconference.org/images/usc_pass/062025_Viterbi_SAC_RSS_Conference.pdf)). At the moment, some downtown LA areas are subject to a curfew: this does not apply to residents in that area (open this [link](https://lacity.gov/highlights/curfew-guidance) for official details). Therefore, if you believe that your hotel is in an area affected by the curfew, we invite you to reach out to your hotel to ask if they suggest carrying specific documents with you during your visit to LA.
-
-## Visa and Invitation Letter
-
-Check [here](https://travel.state.gov/content/travel/en/us-visas.html) to see if you require a visa to enter the United States.
-
-If you need a visa, you should fill [this form](https://docs.google.com/forms/d/1zjslWcSar9Z0ucuQir5jl9OdOQmA-G08GhWAXVC2RnQ/viewform) after you register for RSS. 
-Organizers will reach out to you with a signed invitation letter, which you can use to support your U.S. visa application. Any additional questions and requests may be directed to Junheng Li (<a href='mailto:junhengl@usc.edu'>junhengl@usc.edu</a>).
+While there are still ongoing protests in specific areas of LA, the USC campus has not been affected by the protests and is operating as usual. The USC campus is not open to the general public, so you must download the access pass to enter campus ([link](https://roboticsconference.org/images/usc_pass/062025_Viterbi_SAC_RSS_Conference.pdf)). At the moment, some downtown LA areas are subject to a curfew: this does not apply to residents in that area (open this [link](https://lacity.gov/highlights/curfew-guidance) for official details). Therefore, if you believe that your hotel is in an area affected by the curfew, we invite you to reach out to your hotel to ask if they suggest carrying specific documents with you during your visit to LA.
 
 ## Airports
 
@@ -38,7 +31,7 @@ While Los Angeles has [a significant railway system](https://www.metro.net/ridin
 
 For attendees who want to drive, daily and hourly parking options are available in and around the campus: [https://transnet.usc.edu/index.php/daily-and-hourly-parking/](https://transnet.usc.edu/index.php/daily-and-hourly-parking/)
 
-## Accomodation
+## Accommodation
 
 There is a variety of accommodation choices available around the venue. USC operates a hotel adjacent to the campus, which is a 10 minutes walk from the Bovard Auditorium: [USC Hotel](https://uschotel.usc.edu/). RSS 2025 attendees can use the code "Tommy" to book using the university's special rates.
 
@@ -82,3 +75,12 @@ In addition, the university provides special rates for several other hotels in/n
 ---
 
 <iframe width="100%" height="600px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/en/map/untitled-map_1233169?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=true&tilelayersControl=false&embedControl=false&datalayersControl=false&onLoadPanel=none&captionBar=false&captionMenus=true&captionControl=null&locateControl=true&editinosmControl=false"></iframe>
+
+---
+
+## Visa and Invitation Letter
+
+Check [here](https://travel.state.gov/content/travel/en/us-visas.html) to see if you require a visa to enter the United States.
+
+If you need a visa, you should fill [this form](https://docs.google.com/forms/d/1zjslWcSar9Z0ucuQir5jl9OdOQmA-G08GhWAXVC2RnQ/viewform) after you register for RSS. 
+Organizers will reach out to you with a signed invitation letter, which you can use to support your U.S. visa application. Any additional questions and requests may be directed to Junheng Li (<a href='mailto:junhengl@usc.edu'>junhengl@usc.edu</a>).
