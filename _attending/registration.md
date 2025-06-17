@@ -23,11 +23,11 @@ published: true
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <!--<tr>
       <td style="padding: 8px; border: 1px solid #ccc;">June 20</td>
       <td style="padding: 8px; border: 1px solid #ccc;">All Day</td>
       <td style="padding: 8px; border: 1px solid #ccc;">TBD</td>
-    </tr>
+    </tr>-->
     <tr>
       <td style="padding: 8px; border: 1px solid #ccc;">*June 21</td>
       <td style="padding: 8px; border: 1px solid #ccc;">8am–10am</td>
