@@ -46,6 +46,37 @@ Discover local events and activities happening around RSS 2025 to make the most 
 
 ---
 
+<div id="comedy-show" class="scroll-60"></div>
+
+## Comedy Show Headlined by a Robot (June 23, 2025)<a class="header-anchor" href="#comedy-show">#</a> {#comedy-show}
+
+Coincident with RSS 2025, Dr. Naomi Fitter (associate professor at Oregon State University and professional stand-up comedian) is running a comedy show in Santa Monica, an easy ride from USC's campus.  
+
+**Get your tickets [here](https://jetbook.co/e/naughty-but-nerdymaz2) before they sell out! Enjoy $5 off with the discount code: `RSS2025`**
+
+The show features:
+
+-  **Jon the Robot**, an autonomous robotic stand-up comedian. You might recognize Naomi and her robotic sidekick from *TIME Magazine* in 2022 and *NPR* in 2024.  
+
+Other acts include:  
+- **Jackie Kashian**, creator of the New York Times-endorsed Dork Forest podcast and frequent performer on late night TV (e.g., Conan, Comedy Central)
+- **Dr. Ajitesh Srivastava**, a professor by day and comedy performer by night  
+
+---
+
+<div id="tri-breakfast" class="scroll-60"></div>
+
+## TRI - RSS Women & Allies Breakfast (June 24, 2025)<a class="header-anchor" href="#tri-breakfast">#</a> {#tri-breakfast}
+
+Toyota Research Institute (TRI) is organizing a women & allies breakfast on June 24th! It is open to all RSS participants and completely free of charge.
+
+**Please register [here](https://docs.google.com/forms/d/e/1FAIpQLSeRWdj1SX-_Uhq0c_zHuIGemQu9QXb0cf1KKGgv21BN5TWTvw/viewform) to attend before the capacity limit is reached.**
+
+- When: Tuesday, June 24th at 8 - 9 am
+- Where: The Franklin Suite, TCC 350/351/352 (click [here](https://maps.app.goo.gl/DwMhMbpij7QLEJabA) to see it on Google Maps)
+
+---
+
 <div id="lerobot-hackathon" class="scroll-80"></div>
 
 ## LeRobot Hackathon (June 14–15, 2025)<a class="header-anchor" href="#lerobot-hackathon">#</a> {#lerobot-hackathon}
@@ -77,37 +108,6 @@ We will not just have SO-100s, but wheeled humanoid robots, bimanual mobile mani
 If you're landing in LA for RSS — why not come a few days early and build something cool with us?
 
 Register here [https://lnkd.in/gYJccwJ9](https://lnkd.in/gYJccwJ9) and bring a friend + join the lerobot discord: [https://lnkd.in/d6S42PxY](https://lnkd.in/d6S42PxY)
-
----
-
-<div id="comedy-show" class="scroll-60"></div>
-
-## Comedy Show Headlined by a Robot (June 23, 2025)<a class="header-anchor" href="#comedy-show">#</a> {#comedy-show}
-
-Coincident with RSS 2025, Dr. Naomi Fitter (associate professor at Oregon State University and professional stand-up comedian) is running a comedy show in Santa Monica, an easy ride from USC's campus.  
-
-**Get your tickets [here](https://jetbook.co/e/naughty-but-nerdymaz2) before they sell out! Enjoy $5 off with the discount code: `RSS2025`**
-
-The show features:
-
--  **Jon the Robot**, an autonomous robotic stand-up comedian. You might recognize Naomi and her robotic sidekick from *TIME Magazine* in 2022 and *NPR* in 2024.  
-
-Other acts include:  
-- **Jackie Kashian**, creator of the New York Times-endorsed Dork Forest podcast and frequent performer on late night TV (e.g., Conan, Comedy Central)
-- **Dr. Ajitesh Srivastava**, a professor by day and comedy performer by night  
-
----
-
-<div id="tri-breakfast" class="scroll-60"></div>
-
-## TRI - RSS Women & Allies Breakfast (June 24, 2025)<a class="header-anchor" href="#tri-breakfast">#</a> {#tri-breakfast}
-
-Toyota Research Institute (TRI) is organizing a women & allies breakfast on June 24th! It is open to all RSS participants and completely free of charge.
-
-**Please register [here](https://docs.google.com/forms/d/e/1FAIpQLSeRWdj1SX-_Uhq0c_zHuIGemQu9QXb0cf1KKGgv21BN5TWTvw/viewform) to attend before the capacity limit is reached.**
-
-- When: Tuesday, June 24th at 8 - 9 am
-- Where: The Franklin Suite, TCC 350/351/352 (click [here](https://maps.app.goo.gl/DwMhMbpij7QLEJabA) to see it on Google Maps)
 
 ---
 
