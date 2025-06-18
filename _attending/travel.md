@@ -14,7 +14,9 @@ published: true
 # Travel Information
 
 ## LA protests and Entering the USC Campus
-While there are still ongoing protests in specific areas of LA, the USC campus has not been affected by the protests and is operating as usual. The USC campus is not open to the general public, so you must download the campus access pass to enter campus ([link](https://roboticsconference.org/images/usc_pass/062025_Viterbi_SAC_RSS_Conference.pdf)). At the moment, some downtown LA areas are subject to a curfew: this does not apply to residents in that area (open this [link](https://lacity.gov/highlights/curfew-guidance) for official details). Therefore, if you believe that your hotel is in an area affected by the curfew, we invite you to reach out to your hotel to ask if they suggest carrying specific documents with you during your visit to LA.
+While there are still ongoing protests in specific areas of LA, the USC campus has not been affected by the protests and is operating as usual. The USC campus is not open to the general public, so you must download the campus access pass to enter campus ([link](https://roboticsconference.org/images/usc_pass/062025_Viterbi_SAC_RSS_Conference.pdf)). 
+Earlier, some downtown LA areas were subject to a curfew. These curfews have now been lifted. You can find the latest official updates [here](https://lacity.gov/highlights/curfew-guidance). 
+<!-- At the moment, some downtown LA areas are subject to a curfew: this does not apply to residents in that area (open this [link](https://lacity.gov/highlights/curfew-guidance) for official details). Therefore, if you believe that your hotel is in an area affected by the curfew, we invite you to reach out to your hotel to ask if they suggest carrying specific documents with you during your visit to LA. -->
 
 ## Airports
 

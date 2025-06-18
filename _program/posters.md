@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Posters Information
+title: Posters
 description: Poster board numbers and poster roomsdetails
 days: ['Mon', 'Fri']
 priority: 8
