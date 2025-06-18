@@ -49,7 +49,7 @@ Discover local events and activities happening around RSS 2025 to make the most 
 
 <div id="yondu-board-games" class="scroll-60"></div>
 
-## Bites, Bots, and Board Games
+## Bites, Bots, and Board Games (June 22, 2025)<a class="header-anchor" href="#yondu-board-games">#</a> {#yondu-board-games}
 
 - Date: Sunday, June 22nd at 8 - 11 pm
 - Location: [Yondu HQ - 1262 W 134th St., Gardena, CA 90247](https://maps.app.goo.gl/TYUjwqzSWrd61De88)
