@@ -15,7 +15,7 @@
   },
   {
     "title": "LiDAR Registration with Visual Foundation Models",
-    "authors": "Niclas V\u00c3\u00b6disch, Giovanni Cioffi, Marco Cannici, Wolfram Burgard, Davide Scaramuzza",
+    "authors": "Niclas Vödisch, Giovanni Cioffi, Marco Cannici, Wolfram Burgard, Davide Scaramuzza",
     "keywords": "Robot State Estimation, Localization & Mapping;Robot Learning: Foundation Models;Autonomous Vehicle Navigation & Mobile Robots",
     "pdf": "",
 	"PosterBoardNr": "7"
@@ -71,7 +71,7 @@
   },
   {
     "title": "Map Space Belief Prediction for Manipulation-Enhanced Mapping",
-    "authors": "Joao Marcos Correia Marques, Nils Dengler, Jesper M\u00c3\u00bccke, Tobias Zaenker, Shenlong Wang, Maren Bennewitz, Kris Hauser",
+    "authors": "Joao Marcos Correia Marques, Nils Dengler, Jesper Mücke, Tobias Zaenker, Shenlong Wang, Maren Bennewitz, Kris Hauser",
     "keywords": "Robot Perception, Sensing & Vision;Robot Planning;Grasping & Manipulation",
     "pdf": "",
 	"PosterBoardNr": "23"
