@@ -46,6 +46,21 @@ Discover local events and activities happening around RSS 2025 to make the most 
 
 ---
 
+
+<div id="yondu-board-games" class="scroll-60"></div>
+
+## Bites, Bots, and Board Games
+
+- Date: Sunday, June 22nd at 8 - 11 pm
+- Location: [Yondu HQ - 1262 W 134th St., Gardena, CA 90247](https://maps.app.goo.gl/TYUjwqzSWrd61De88)
+- Transportation: Uber/Lyft to the location (20 min ride).
+
+After a long weekend of attending talks and workshops at RSS, come have fun, make new friends, and eat delicious food at the Yondu warehouse. We'll kickoff the night with a lab tour where you’ll get to teleoperate wheeled humanoid robots and meet our team. Then, we’ll enjoy a catered dinner from a local sushi restaurant in Gardena (vegetarian options available). We’ll end off the night with all sorts of board games, music, and ice cream.
+
+Let us know you're coming here: [https://lu.ma/43oybm6l](https://lu.ma/43oybm6l)
+
+---
+
 <div id="comedy-show" class="scroll-60"></div>
 
 ## Comedy Show Headlined by a Robot (June 23, 2025)<a class="header-anchor" href="#comedy-show">#</a> {#comedy-show}
