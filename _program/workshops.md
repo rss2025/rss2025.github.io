@@ -11,7 +11,7 @@ published: true
 
 Workshops will take place across two days of the conference on **Saturday, June 21 (half-day events held in the morning)** and **Wednesday, June 25 (full-day events)**. Each workshop is organized as a semi-independent event, and has a unique schedule reflecting the planned activities, constraints and preferences of the organizers. Please check the workshop websites for more details on their particular schedules.
 
-
+In case your workshop room becomes too crowded, we have designated three overflow rooms—RTH 306, OHE 542, and OHE 540—where in-person participants can view the workshop via Zoom. Please note that participants in these rooms are expected to use headphones or earphones out of courtesy to others.
 <!-- <div style="text-align: center;">
     <img alt="Lely" src="/2024/images/RSS-workshops-map.png" style="width: 70%;" />
 </div> -->
