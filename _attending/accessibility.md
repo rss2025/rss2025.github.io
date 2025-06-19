@@ -80,10 +80,6 @@ The session presentations will take place on the stage at Bovard Auditorium. The
 Microphones will be used for both speakers and for the question-and-answer sessions.
 
 
-## Induction Loops
-The plenary sessions will be held at the Bovard Auditorium. In Section D of the Auditorium, a hearing loop has been installed. A listener with a hearing aid or cochlear implant can use the hearing loop by setting the device to the ‘T’ position.
-
-
 ## Food
 We will add more details here when they are available.
 
