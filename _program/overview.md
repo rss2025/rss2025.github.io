@@ -130,6 +130,7 @@ published: true
     <strong>Posters and Demos:</strong>
     <ul style="margin: 0.5em 0 0 1em; padding: 0;">
       <li>Poster sessions of the main conference and the demos will take place at <a href="https://maps.app.goo.gl/Hno98qim4BKMVFc59">Associates Park</a>.</li>
+      <li>Poster sessions of the workshops will take place at <a href="https://maps.app.goo.gl/YTtHP12vrTdBQpce9">Epstein Family Plaza</a>.
     </ul>
   </div>
 
