@@ -20,6 +20,8 @@ In case your workshop room becomes too crowded, we have designated three overflo
 
 ### Locations
 
+The poster sessions of the workshops will take place at <a href="https://maps.app.goo.gl/YTtHP12vrTdBQpce9">Epstein Family Plaza</a>. The workshops themselves will take place in the locations listed below.
+
 <table class="table table-sm table-bordered" style="width: 100%; max-width: 800px;">
     <thead>
         <tr>
