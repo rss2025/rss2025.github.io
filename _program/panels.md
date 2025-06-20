@@ -14,42 +14,12 @@ published: true
 
 At RSS 2025, we're excited to be running a dynamic panel on the "Past, Present, and Future of Robotics Research" with a stellar list of leading robotics researchers, thinkers, and presenters. Panellists will discuss key past breakthroughs but also missed opportunities, and whether we can learn from the past to inform future robotics research. We'll tackle where we stand today—what are our biggest successes in and frustrations with current research trends, debate whether are we on the right track, and identify what we might be missing? Finally, we'll look into our collective crystal balls, reaching out 10, 20 or 30 years into the future: what fundamental changes will we see, what will no longer be a research field, and where will it seem like nothing has really changed at all?
 
-<!-- <h3>Moderator</h3>
-<ul style="list-style: none; padding-left: 0;">
-  <li style="margin-bottom: 1em;">
-    <strong>Michael Milford</strong><br>
-    <span style="font-size: 0.95em; color: #555;">Queensland University of Technology</span>
-  </li>
-</ul>
-
-<h3>Panelists</h3>
-<ul style="list-style: none; padding-left: 0;">
-  <li style="margin-bottom: 1em;">
-    <strong>Chelsea Finn</strong><br>
-    <span style="font-size: 0.95em; color: #555;">Stanford University</span>
-  </li>
-  <li style="margin-bottom: 1em;">
-    <strong>Katherine Kuchenbecker</strong><br>
-    <span style="font-size: 0.95em; color: #555;">Max Planck Institute for Intelligent Systems</span>
-  </li>
-  <li style="margin-bottom: 1em;">
-    <strong>Fabio Ramos</strong><br>
-    <span style="font-size: 0.95em; color: #555;">University of Sydney</span>
-  </li>
-  <li style="margin-bottom: 1em;">
-    <strong>Russ Tedrake</strong><br>
-    <span style="font-size: 0.95em; color: #555;">Massachusetts Institute of Technology</span>
-  </li>
-  <li style="margin-bottom: 1em;">
-    <strong>Harold Soh</strong><br>
-    <span style="font-size: 0.95em; color: #555;">National University of Singapore</span>
-  </li>
-</ul> -->
-
 <h3>Moderator</h3>
 <ul style="list-style: none; padding-left: 0;">
   <li style="margin-bottom: 1.2em;">
-    <strong>Michael Milford</strong><br>
+    <a href="https://www.qut.edu.au/about/our-people/academic-profiles/michael.milford" target="_blank">
+        <strong>Michael Milford</strong>
+    </a><br>
     <span style="font-size: 0.95em; color: #555; line-height: 1.4;">
       Queensland University of Technology
     </span>
@@ -60,7 +30,9 @@ At RSS 2025, we're excited to be running a dynamic panel on the "Past, Present, 
 <ul style="list-style: none; padding-left: 0;">
 
   <li style="margin-bottom: 1.2em;">
-    <strong>Chelsea Finn</strong><br>
+    <a href="https://cs.stanford.edu/~cbfinn/" target="_blank">
+        <strong>Chelsea Finn</strong>
+    </a><br>
     <span style="font-size: 0.95em; color: #555; line-height: 1.4;">
       Stanford University<br>
       Physical Intelligence
@@ -68,14 +40,18 @@ At RSS 2025, we're excited to be running a dynamic panel on the "Past, Present, 
   </li>
 
   <li style="margin-bottom: 1.2em;">
-    <strong>Katherine Kuchenbecker</strong><br>
+    <a href="https://is.mpg.de/hi/person/kjk" target="_blank">
+        <strong>Katherine Kuchenbecker</strong>
+    </a><br>
     <span style="font-size: 0.95em; color: #555; line-height: 1.4;">
       Max Planck Institute for Intelligent Systems
     </span>
   </li>
 
   <li style="margin-bottom: 1.2em;">
-    <strong>Fabio Ramos</strong><br>
+    <a href="https://ai.stanford.edu/~cbfinn/" target="_blank">
+        <strong>Fabio Ramos</strong>
+    </a><br>
     <span style="font-size: 0.95em; color: #555; line-height: 1.4;">
       University of Sydney<br>
       NVIDIA
@@ -83,7 +59,9 @@ At RSS 2025, we're excited to be running a dynamic panel on the "Past, Present, 
   </li>
 
   <li style="margin-bottom: 1.2em;">
-    <strong>Russ Tedrake</strong><br>
+    <a href="https://locomotion.csail.mit.edu/russt.html" target="_blank">
+        <strong>Russ Tedrake</strong>
+    </a><br>
     <span style="font-size: 0.95em; color: #555; line-height: 1.4;">
       Massachusetts Institute of Technology<br>
       Toyota Research Institute
@@ -91,8 +69,19 @@ At RSS 2025, we're excited to be running a dynamic panel on the "Past, Present, 
   </li>
 
   <li style="margin-bottom: 1.2em;">
-    <strong>Harold Soh</strong><br>
+    <a href="https://haroldsoh.com/" target="_blank">
+        <strong>Harold Soh</strong>
+    </a><br>
     <span style="font-size: 0.95em; color: #555; line-height: 1.4;">
       National University of Singapore
+    </span>
+  </li>
+
+  <li style="margin-bottom: 1.2em;">
+    <a href="https://engineering.oregonstate.edu/people/geoff-hollinger" target="_blank">
+        <strong>Geoff Hollinger</strong>
+    </a><br>
+    <span style="font-size: 0.95em; color: #555; line-height: 1.4;">
+      Oregon State University
     </span>
   </li>
