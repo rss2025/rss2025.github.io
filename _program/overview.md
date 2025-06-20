@@ -117,12 +117,12 @@ published: true
 <div style="display: flex; flex-direction: column; gap: 1em; margin-bottom: 2em;">
 
   <div style="background-color: var(--modern-warm-gray); padding: 1em 1.2em; border-radius: 6px;">
-    <strong>RSS Pioneers, Pathways@RSS , and Workshops:</strong>
+    <strong>RSS Pioneers, Pathways@RSS, and Workshops:</strong>
     <ul style="margin: 0.5em 0 0 1em; padding: 0;">
       <li>Poster sessions of all workshops will take place at <a href="https://maps.app.goo.gl/YTtHP12vrTdBQpce9">Epstein Family Plaza</a>.</li>
       <li>For workshop locations, see the <a href="{{ site.baseurl }}/program/workshops/">Workshops</a> page.</li>
       <li><a href="{{ site.baseurl }}/program/pathways/">Pathways@RSS</a>  will take place in Room 115 at <a href="https://maps.app.goo.gl/ceZrio6J48qrKjR2A">Ronald Tutor Hall (RTH)</a>.</li>
-      <li><a href="{{ site.baseurl }}/program/pioneers/">RSS Pioneers</a> will take place in Room 526 at <a href="https://maps.app.goo.gl/ceZrio6J48qrKjR2A">Ronald Tutor Hall (RTH)</a>.</li>
+      <li><a href="{{ site.baseurl }}/program/pioneers/">RSS Pioneers</a> will take place in Room 132 at <a href="https://maps.app.goo.gl/RNc715bRFr9B4Zn96">Olin Hall of Engineering (OHE)</a>.</li>
     </ul>
   </div>
 

@@ -16,7 +16,7 @@ Follow the RSS Pioneers [social media accounts](https://twitter.com/RSSPioneers)
 
 ### Location
 
-<a href="{{ site.baseurl }}/program/pioneers/">RSS Pioneers</a> will take place in Room 526 at the <a href="https://maps.app.goo.gl/ceZrio6J48qrKjR2A">Ronald Tutor Hall (RTH)</a>.
+<a href="{{ site.baseurl }}/program/pioneers/">RSS Pioneers</a> will take place in Room 132 at the <a href="https://maps.app.goo.gl/RNc715bRFr9B4Zn96">Olin Hall of Engineering (OHE)</a>.
 
 
 ### Important Dates
