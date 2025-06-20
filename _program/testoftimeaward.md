@@ -14,7 +14,6 @@ With this award, RSS generally wants to foster the discussion of the long term d
 
 It is our great pleasure to announce that the 2025 Test of Time Award goes to:
 
-<hr>
 
 <div style="max-width: 700px; margin: 2em auto; padding: 1.5em; border: 1px solid #ccc; border-radius: 8px; box-shadow: 2px 2px 6px rgba(0,0,0,0.05); text-align: center; font-family: Georgia, serif;">
   <h2 style="margin-top: 0; font-size: 1.4em; letter-spacing: 0.5px;">2025 Award Recipient</h2>
@@ -24,3 +23,6 @@ It is our great pleasure to announce that the 2025 Test of Time Award goes to:
   </p>
   <p style="color: #666; font-size: 1em; margin: 0.3em 0;">Robotics: Science and Systems V, 2009</p>
 </div>
+
+
+Appraisal by Davide Scaramuzza (University of Zurich) and Nikolay Atanasov (University of California, San Diego).
