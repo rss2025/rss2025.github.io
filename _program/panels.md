@@ -49,7 +49,7 @@ At RSS 2025, we're excited to be running a dynamic panel on the "Past, Present, 
   </li>
 
   <li style="margin-bottom: 1.2em;">
-    <a href="https://ai.stanford.edu/~cbfinn/" target="_blank">
+    <a href="https://fabioramos.github.io/Home.html" target="_blank">
         <strong>Fabio Ramos</strong>
     </a><br>
     <span style="font-size: 0.95em; color: #555; line-height: 1.4;">
