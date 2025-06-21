@@ -22,7 +22,7 @@ June 21 &ndash; June 25, 2025<br>Los Angeles, California</h1>
 <!-- ### Important Announcements -->
 
 <div class="alert alert-warning" style="border: 1px solid #f0ad4e; padding: 10px; margin-top: 20px; background-color: #fcf8e3;">
-  <strong>Weekend Access:</strong> On weekends, the only open entrance to the USC campus is the <a href="https://maps.app.goo.gl/QPxY2eyPfaPqxFKQ8" style="color: #721c24; text-decoration: underline;">North Gate at 1064–1000 W Jefferson Blvd</a>. Please plan accordingly.
+  <strong>Weekend Vehicle Access:</strong> On weekends, the only open entrance to the USC campus is the <a href="https://maps.app.goo.gl/QPxY2eyPfaPqxFKQ8" style="color: #721c24; text-decoration: underline;">North Gate at 1064–1000 W Jefferson Blvd</a>. Pedestrian entrances remain open.
 </div>
 
 <div class="alert alert-warning" style="border: 1px solid #f0ad4e; padding: 10px; margin-top: 20px; background-color: #fcf8e3;">

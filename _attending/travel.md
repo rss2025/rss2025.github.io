@@ -18,8 +18,8 @@ While there are still ongoing protests in specific areas of LA, the USC campus h
 Earlier, some downtown LA areas were subject to a curfew. These curfews have now been lifted. You can find the latest official updates [here](https://lacity.gov/highlights/curfew-guidance). 
 <!-- At the moment, some downtown LA areas are subject to a curfew: this does not apply to residents in that area (open this [link](https://lacity.gov/highlights/curfew-guidance) for official details). Therefore, if you believe that your hotel is in an area affected by the curfew, we invite you to reach out to your hotel to ask if they suggest carrying specific documents with you during your visit to LA. -->
 
-<div class="alert alert-warning" style="border: 1px solid #dc3545; padding: 5px; background-color: #f8d7da; color: #721c24; text-align: center">
-  <strong>Weekend Access:</strong> On weekends, the only open entrance to the USC campus is the <a href="https://maps.app.goo.gl/QPxY2eyPfaPqxFKQ8" style="color: #721c24; text-decoration: underline;">North Gate at 1064–1000 W Jefferson Blvd</a>. Please plan accordingly.
+<div class="alert alert-warning" style="border: 1px solid #f0ad4e; padding: 5px; background-color: #fcf8e3; text-align: center;">
+  <strong>Weekend Vehicle Access:</strong> On weekends, the only open entrance to the USC campus is the <a href="https://maps.app.goo.gl/QPxY2eyPfaPqxFKQ8" style="color: #004085; text-decoration: underline;">North Gate at 1064–1000 W Jefferson Blvd</a>. Pedestrian entrances remain open.
 </div>
 
 ## Airports
