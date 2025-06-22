@@ -291,11 +291,13 @@ for _, row in demo_df.iterrows():
 
 demo_json = sorted(demo_json, key=lambda x: x["papernumber"])
 
-with open("../demos.json", "w") as f:
-    import json
-    json.dump(demo_json, f, indent=2, ensure_ascii=False)
+# with open("../demos.json", "w") as f:
+#     import json
+#     json.dump(demo_json, f, indent=2, ensure_ascii=False)
 
-print("Saved to ../demos.json")
+# print("Saved to ../demos.json")
+
+print('Warning skipping generating demos.json due to manualy changes in .md files')
 
 ############################
 #       PAPER PAGES
