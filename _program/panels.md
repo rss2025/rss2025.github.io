@@ -40,11 +40,11 @@ At RSS 2025, we're excited to be running a dynamic panel on the "Past, Present, 
   </li>
 
   <li style="margin-bottom: 1.2em;">
-    <a href="https://is.mpg.de/hi/person/kjk" target="_blank">
-        <strong>Katherine Kuchenbecker</strong>
+    <a href="https://rpm.snu.ac.kr/" target="_blank">
+        <strong>Ayoung Kim</strong>
     </a><br>
     <span style="font-size: 0.95em; color: #555; line-height: 1.4;">
-      Max Planck Institute for Intelligent Systems
+      Seoul National University
     </span>
   </li>
 
