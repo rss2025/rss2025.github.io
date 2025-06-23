@@ -10,11 +10,11 @@ published: true
 
 
 <div style="text-align: center; margin: 3em auto;">
-  <img src="{{ site.baseurl }}/images/local2025/posters_map.png"
+  <img src="{{ site.baseurl }}/images/local2025/posters_map_monday.png"
        alt="Map of RSS 2025 Posters"
        style="max-width: 90%; height: auto; border-radius: 6px;">
   <div style="margin-top: 0.5em; font-size: 0.9em; color: #666;">
-    Map of RSS 2025 Posters
+    Map of RSS 2025 Posters for Monday (6/23)
   </div>
 </div>
 
