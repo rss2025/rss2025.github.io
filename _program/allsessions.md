@@ -58,8 +58,7 @@ For information about the location of the sessions check out the [venue page]({{
     </td>
     <td>{{ session.Time }}</td>
     <td>
-      <a href="{{ site.baseurl }}/program/papersession?session={{ session.SessionName | url_encode }}&c1={{ session.C1 | url_encode }}&c2={{ session.C2 | url_encode }}&c1a={{ session.C1A | url_encode }}&c2a={{ session.C2A | url_encode }}">
-
+      <a href="{{ site.baseurl }}/program/papersession?session={{ session.SessionName | url_encode }}">
       {{ session.SessionName }}
       </a>
     </td>

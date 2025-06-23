@@ -99,70 +99,48 @@ published: true
 
 <script>
 (function($) {
-    $.QueryString = (function(a) {
-        if (a == "") return {};
-        var b = {};
-        for (var i = 0; i < a.length; ++i)
-        {
-            var p=a[i].split('=');
-            if (p.length != 2) continue;
-            b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
-        }
-        return b;
-    })(window.location.search.substr(1).split('&'))
+  $.QueryString = (function(a) {
+    if (a == "") return {};
+    var b = {};
+    for (var i = 0; i < a.length; ++i) {
+      var p = a[i].split('=');
+      if (p.length != 2) continue;
+      b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+    }
+    return b;
+  })(window.location.search.substr(1).split('&'));
 })(jQuery);
- 
-// Usage
-
 
 var $rows = $('#myTable tr');
 $(document).ready(function() {
-    dirtyParam = jQuery.QueryString["session"];
-    sessionName = dirtyParam.replaceAll('%20', ' ').replaceAll('%26','&');
-    searchKey = "tr[session='"+ sessionName +"'],.toprowHeader";
-    $rows.hide().filter(searchKey).show();
-    // $(".page-title").text("Session "+sessionName);
-    $(".page-title").text("Session " + sessionName).css("visibility", "visible");
+  //get the session name from the query string
+  var sessionName = jQuery.QueryString["session"] || "";
 
-    var sessions = {{ site.data.rss2025PaperSessions | jsonify }};
-    var sessionInfo = sessions.find(s => s.SessionName === sessionName);
-    if (sessionInfo) {
-      var locationStr = '<a href="https://maps.app.goo.gl/gmsxcUqwNSfjsuHL8" target="_blank">Bovard Auditorium</a>';
-      var dateTimeStr = "<strong>Date:</strong> " + sessionInfo.Day + ", " + sessionInfo.DateVerbose + ", 2025" +
-                        " &nbsp; | &nbsp; <strong>Time:</strong> " + sessionInfo.Time +
-                        " &nbsp; | &nbsp; <strong>Location:</strong> " + locationStr;
-      $("#session-datetime").html(dateTimeStr);
-    }
+  //use the session name to show/hide relevant rows
+  $rows.hide().filter("tr[session='" + sessionName + "'],.toprowHeader").show();
+  $(".page-title").text("Session " + sessionName).css("visibility", "visible");
 
-    param = jQuery.QueryString["c1"];
-    if(param)
-    {
+  //look up session info from the YAML data
+  var sessions = {{ site.data.rss2025PaperSessions | jsonify }};
+  var sessionInfo = sessions.find(s => s.SessionName === sessionName);
+
+  //set date, time, location
+  if (sessionInfo) {
+    var locationStr = '<a href="https://maps.app.goo.gl/gmsxcUqwNSfjsuHL8" target="_blank">Bovard Auditorium</a>';
+    var dateTimeStr = "<strong>Date:</strong> " + sessionInfo.Day + ", " + sessionInfo.DateVerbose + ", 2025" +
+                      " &nbsp; | &nbsp; <strong>Time:</strong> " + sessionInfo.Time +
+                      " &nbsp; | &nbsp; <strong>Location:</strong> " + locationStr;
+    $("#session-datetime").html(dateTimeStr);
+
+    //populate chairs
+    if (sessionInfo.C1 || sessionInfo.C2) {
       $("#chairedby").text("Chaired By");
+      $("#c1").text(sessionInfo.C1 || "");
+      $("#c1a").text(sessionInfo.C1A || "");
+      $("#c2").text(sessionInfo.C2 || "");
+      $("#c2a").text(sessionInfo.C2A || "");
     }
-    param = jQuery.QueryString["c1"];
-    if(param)
-    {
-      name = param.replaceAll('%20', ' ').replaceAll('%26','&');
-      $("#c1").text(name);
-    }
-    param = jQuery.QueryString["c2"];
-    if(param)
-    {
-      name = param.replaceAll('%20', ' ').replaceAll('%26','&');
-      $("#c2").text(name);
-    }
-    param = jQuery.QueryString["c1a"];
-    if(param)
-    {
-      name = param.replaceAll('%20', ' ').replaceAll('%26','&');
-      $("#c1a").text(name);
-    }
-    param = jQuery.QueryString["c2a"];
-    if(param)
-    {
-      name = param.replaceAll('%20', ' ').replaceAll('%26','&');
-      $("#c2a").text(name);
-    }
+  }
 });
 </script>
 
