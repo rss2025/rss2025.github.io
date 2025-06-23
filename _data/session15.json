@@ -7,13 +7,6 @@
 	"PosterBoardNr": "12"
   },
   {
-    "title": "Generalizing Safety Beyond Collision-Avoidance via Latent-Space Reachability Analysis",
-    "authors": "Kensuke Nakamura, Lasse Peters, Andrea Bajcsy",
-    "keywords": "Formal Methods for Robotics;Robot Learning: Reinforcement Learning;Robot Learning: Model Learning",
-    "pdf": "",
-	"PosterBoardNr": "14"
-  },
-  {
     "title": "Verti-Bench: A General and Scalable Off-Road Mobility Benchmark for Vertically Challenging Terrain",
     "authors": "Tong Xu, Chenhui Pan, Madhan B. Rao, Aniket Datar, Anuj Pokhrel, Yuanjie Lu, Xuesu Xiao",
     "keywords": "Autonomous Vehicle Navigation & Mobile Robots;Field Robotics (e.g., Aerial, Agricultural, Construction, Space, Underwater Robotics);Robot Planning",

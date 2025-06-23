@@ -7,6 +7,13 @@
 	"PosterBoardNr": "49"
   },
   {
+    "title": "Generalizing Safety Beyond Collision-Avoidance via Latent-Space Reachability Analysis",
+    "authors": "Kensuke Nakamura, Lasse Peters, Andrea Bajcsy",
+    "keywords": "Formal Methods for Robotics;Robot Learning: Reinforcement Learning;Robot Learning: Model Learning",
+    "pdf": "",
+	"PosterBoardNr": "29"
+  },
+  {
     "title": "Dynamic Safety in Complex Environments: Synthesizing Safety Filters with Poisson's Equation",
     "authors": "Gilbert Bahati, Ryan M. Bena, Aaron Ames",
     "keywords": "Control & Dynamics;Autonomous Vehicle Navigation & Mobile Robots;Formal Methods for Robotics",
