@@ -201,3 +201,54 @@ published: true
   </li>
 </ul>
 </div>
+
+---
+
+<h3>Award Committee</h3>
+<ul style="list-style: none; padding-left: 0;">
+
+  <li style="margin-bottom: 1.2em;">
+    <a href="https://www.comp.nus.edu.sg/~dyhsu/" target="_blank">
+        <strong>David Hsu</strong>
+    </a><br>
+    <span style="font-size: 0.95em; color: #555; line-height: 1.4;">
+      National University of Singapore
+    </span>
+  </li>
+
+  <li style="margin-bottom: 1.2em;">
+    <a href="http://asrl.utias.utoronto.ca/~tdb/" target="_blank">
+        <strong>Timothy Barfoot</strong>
+    </a><br>
+    <span style="font-size: 0.95em; color: #555; line-height: 1.4;">
+      University of Toronto
+    </span>
+  </li>
+
+  <li style="margin-bottom: 1.2em;">
+    <a href="https://www.tuwien.at/en/etit/ict/asl/team/dongheui-lee" target="_blank">
+        <strong>Dongheui Lee</strong>
+    </a><br>
+    <span style="font-size: 0.95em; color: #555; line-height: 1.4;">
+      TU Wien
+    </span>
+  </li>
+
+  <li style="margin-bottom: 1.2em;">
+    <a href="http://www.cs.cmu.edu/~maxim/" target="_blank">
+        <strong>Maxim Likhachev</strong>
+    </a><br>
+    <span style="font-size: 0.95em; color: #555; line-height: 1.4;">
+      CMU
+    </span>
+  </li>
+
+  <li style="margin-bottom: 1.2em;">
+    <a href="https://irom-lab.princeton.edu/majumdar/" target="_blank">
+        <strong>Anirudha Majumdar</strong>
+    </a><br>
+    <span style="font-size: 0.95em; color: #555; line-height: 1.4;">
+      Princeton University
+    </span>
+  </li>
+  
