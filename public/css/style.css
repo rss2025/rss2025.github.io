@@ -59,6 +59,13 @@ h3 {text-align: left;}
 /* Always show vertical scrollbar, otherwise grid shifts */
 html { overflow-y: scroll;}
 
+/* Needed to extend body to avoid glitching scroll bar*/
+body:after {
+    content: "";
+    display: block;
+    height: 200px;
+  }
+
 /* style of sidebar */
 #sidebar a:link{ color:#333333; }
 #sidebar a:visited{ color:#333333; }

@@ -387,7 +387,7 @@ for i, row in camera_ready_sorted.iterrows():
         prev_id = camera_ready_sorted.iloc[i - 1].PaperID
         prev_link = f'''<a href="{{{{ site.baseurl }}}}/program/papers/{prev_id}/" title="Previous Paper">
             <div class="paper-menu-icon">
-                <i class="fa fa-chevron-left"></i><br>
+                <i class="fas fa-arrow-left"></i><br>
                 <span class="paper-menu-label">Back</span>
             </div>
         </a>'''
@@ -399,7 +399,7 @@ for i, row in camera_ready_sorted.iterrows():
         next_id = camera_ready_sorted.iloc[i + 1].PaperID
         next_link = f'''<a href="{{{{ site.baseurl }}}}/program/papers/{next_id}/" title="Next Paper">
             <div class="paper-menu-icon">
-                <i class="fa fa-chevron-right"></i><br>
+                <i class="fas fa-arrow-right"></i><br>
                 <span class="paper-menu-label">Next</span>
             </div>
         </a>'''
@@ -446,7 +446,7 @@ next_id: "{next_id}"
     {prev_link}
     <a href="{{{{ site.baseurl }}}}/program/papers" title="All Papers">
       <div class="paper-menu-icon">
-        <i class="fa fa-list"></i><br>
+        <i class="fas fa-list"></i><br>
         <span class="paper-menu-label">Papers</span>
       </div>
     </a>
