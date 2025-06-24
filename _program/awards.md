@@ -59,18 +59,34 @@ published: true
 </style>
 
 <div class="award-card">
+<h3>Outstanding Demo Paper Award</h3>
+<ul class="award-list">
+  <li class="winner">
+    <!-- <strong>FEAST: A Flexible Mealtime-Assistance System Tackling In-the-Wild Personalization</strong><br> -->
+    <strong>
+      <a href="https://roboticsconference.org/program/papers/20/" class="paper-link" target="_blank">Demonstrating MuJoCo Playground
+      </a>
+    </strong><br>
+    <em>Kevin Zakka, Baruch Tabanpour, Qiayuan Liao, Mustafa Haiderbhai, Samuel Holt, Jing Yuan Luo, Arthur Allshire, Erik Frey, Koushil Sreenath, Lueder Alexander Kahrs, Carmelo Sferrazza, Yuval Tassa, Pieter Abbeel</em>
+    <br>
+    <span class="winner-label">Winner: Outstanding Demo Paper Award</span>
+  </li>
+</ul>
+</div>
+
+<div class="award-card">
 <h3>Outstanding Systems Paper Award Finalists</h3>
 <ul class="award-list">
-  <li>
-  <!-- <li class="winner"> -->
+  <!-- <li> -->
+  <li class="winner">
     <!-- <strong>Building Rome with Convex Optimization</strong><br> -->
     <strong>
       <a href="https://roboticsconference.org/program/papers/32/" class="paper-link" target="_blank">Building Rome with Convex Optimization
       </a>
     </strong><br>
     <em>Haoyu Han, Heng Yang</em>
-    <!-- <br>
-    <span class="winner-label">Winner: Outstanding Systems Paper Award</span> -->
+    <br>
+    <span class="winner-label">Winner: Outstanding Systems Paper Award</span>
   </li>
   <li>
   <!-- <li class="winner"> -->
@@ -122,16 +138,16 @@ published: true
     <!-- <br>
     <span class="winner-label">Winner: Outstanding Student Paper Award</span> -->
   </li>
-  <li>
-  <!-- <li class="winner"> -->
+  <!-- <li> -->
+  <li class="winner">
     <!-- <strong>Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL</strong><br> -->
     <strong>
       <a href="https://roboticsconference.org/program/papers/27/" class="paper-link" target="_blank">Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL
       </a>
     </strong><br>
     <em>Songyuan Zhang, Oswin So, Mitchell Black, Zachary Serlin, Chuchu Fan</em>
-    <!-- <br>
-    <span class="winner-label">Winner: Outstanding Student Paper Award</span> -->
+    <br>
+    <span class="winner-label">Winner: Outstanding Student Paper Award</span>
   </li>
   <li>
   <!-- <li class="winner"> -->
@@ -161,16 +177,16 @@ published: true
     <!-- <br>
     <span class="winner-label">Winner: Outstanding Paper Award</span> -->
   </li>
-  <li>
-  <!-- <li class="winner"> -->
+  <!-- <li> -->
+  <li class="winner">
     <!-- <strong>FEAST: A Flexible Mealtime-Assistance System Tackling In-the-Wild Personalization</strong><br> -->
     <strong>
       <a href="https://roboticsconference.org/program/papers/83/" class="paper-link" target="_blank">FEAST: A Flexible Mealtime-Assistance System Tackling In-the-Wild Personalization
       </a>
     </strong><br>
     <em>Rajat Kumar Jenamani, Tom Silver, Ben Dodson, Shiqin Tong, Anthony Song, Yuting Yang, Ziang Liu, Benjamin Howe, Aimee Whitneck, Tapomayukh Bhattacharjee</em>
-    <!-- <br>
-    <span class="winner-label">Winner: Outstanding Paper Award</span> -->
+    <br>
+    <span class="winner-label">Winner: Outstanding Paper Award</span>
   </li>
   <li>
   <!-- <li class="winner"> -->
