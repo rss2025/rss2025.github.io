@@ -25,4 +25,4 @@ It is our great pleasure to announce that the 2025 Test of Time Award goes to:
 </div>
 
 
-Appraisal by Davide Scaramuzza (University of Zurich) and Nikolay Atanasov (University of California, San Diego).
+Appraisal by Nikolay Atanasov (University of California, San Diego) and David Saldaña (Lehigh University).
