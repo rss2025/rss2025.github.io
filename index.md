@@ -21,14 +21,19 @@ June 21 &ndash; June 25, 2025<br>Los Angeles, California</h1>
 
 <!-- ### Important Announcements -->
 
-<div class="alert alert-warning" style="border: 1px solid #f0ad4e; padding: 10px; margin-top: 20px; background-color: #fcf8e3;">
+<div class="alert alert-info" style="border: 1px solid #bee5eb; padding: 12px 10px; margin-top: 20px; background-color: #d1ecf1; color: #0c5460;">
+  <p>We sincerely thank all participants—in-person and virtual—for joining us at <i>Robotics: Science and Systems 2025</i>. From inspiring keynotes and technical sessions to vibrant discussions and demos, we hope RSS 2025 was a valuable and memorable experience for everyone.</p>
+  <p><strong>Need a Certificate of Attendance?</strong> Participants who require a certificate can access and download it via their PheedLoop mobile app. Once you open the app, please click on the top-left menu icon and then click “Certificate” to download the digital certificate of attendance.</p>
+</div>
+
+<!-- <div class="alert alert-warning" style="border: 1px solid #f0ad4e; padding: 10px; margin-top: 20px; background-color: #fcf8e3;">
   <strong>Weekend Vehicle Access:</strong> On weekends, the only open entrance to the USC campus is the <a href="https://maps.app.goo.gl/QPxY2eyPfaPqxFKQ8" style="color: #721c24; text-decoration: underline;">North Gate at 1064–1000 W Jefferson Blvd</a>. Pedestrian entrances remain open.
 </div>
 
 <div class="alert alert-warning" style="border: 1px solid #f0ad4e; padding: 10px; margin-top: 20px; background-color: #fcf8e3;">
   <strong>Important Announcement:</strong>
   We want to reassure RSS attendees that the USC campus is unaffected by the recent protests in Los Angeles, and RSS 2025 will proceed as planned. The safety and well-being of our attendees remains our highest priority, and we will continue to monitor the situation and provide timely updates here. See the <a href="{{ site.baseurl }}/attending/travel/" style="color: #0000EE; text-decoration: underline;">Travel</a> page for additional information to help you plan your trip.
-</div>
+</div> -->
 
 
 <!-- **Announcement 1:** In response to the recent wildfires in Los Angeles, we have made adjustments to the RSS 2025 submission timeline, to show our support to the LA community who is going to generously host us this June. While the abstract/title submission (January 17) and the initial paper submission (January 24) deadlines remain unchanged, the authors will be able to continue updating the pdf of their paper until January 31, 2025 (which is also the supplementary material deadline). For more details, read our [full announcement](/updates/la-wildfires/).
