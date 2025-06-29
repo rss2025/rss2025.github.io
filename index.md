@@ -6,9 +6,9 @@ title: Home
   The registration portal is now open! Click <a href="{{ site.baseurl }}/attending/registration/" style="color: #0000EE; text-decoration: underline;">here</a> for details.
 </div> -->
 
-<div style="margin-top: 20px; background-color: #ffcc00; padding: 12px 10px 8px 10px; text-align: center; font-weight: bold; font-size: 18px; line-height: 1.2; vertical-align: middle;">
+<!-- <div style="margin-top: 20px; background-color: #ffcc00; padding: 12px 10px 8px 10px; text-align: center; font-weight: bold; font-size: 18px; line-height: 1.2; vertical-align: middle;">
   Getting ready for your RSS 2025 trip? Please find important <a href="{{ site.baseurl }}/attending/travel/" style="color: #0000EE; text-decoration: underline;">travel information here</a>.
-</div>
+</div> -->
 
 
 
