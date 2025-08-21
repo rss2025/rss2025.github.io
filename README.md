@@ -1,11 +1,9 @@
-# Robotics: Science and Systems website
+# Robotics: Science and Systems Website
 
-Website for the RSS conference written in Jekyll.
+This repository contains the Jekyll-based website for the RSS conference.
 
-To build this website: `bundle exec jekyll build -d $DEST_DIR`
+Each year’s site should be archived under its own subdirectory (e.g., /2024/, /2025/), but the current year should be served from the root (even if maintaining the archived version). Note, github pages builds and serves from the repository automatically, so the site doesn't need to be built manually.
 
-For example, the following will build and serve locally:
-```
-bundle exec jekyll build -d 2025
-bundle exec jekyll serve
-``` 
+For links, use `{{ site.baseurl }}` for all internal links and assets within the current year’s site, but `{{ site.url }}` should be used when linking across years (e.g., pointing from the current site to an archived version).
+
+A Makefile is provided with a few helpful commands: `make serve` runs the site locally with `bundle exec jekyll serve`, and `make build YEAR=<year>` builds the site into `./<year>` with the appropriate `--baseurl`.
