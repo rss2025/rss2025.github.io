@@ -28,8 +28,8 @@ published: true
             <td><span style="font-weight:bold; color: #3a3946;"> {{ workshop.papernumber }} </span></td>
             <td>{{ workshop.demolocation | default: "TBD" }}</td>
             <td>
-                <a href="{{ workshop.link }}">
-                    <strong>{{ workshop.papertitle }}</strong>
+                <a href="{{ site.baseurl }}{{ workshop.link }}">
+                <strong>{{ workshop.papertitle }}</strong>
                 </a>
             </td>
             <!-- <td>{{ workshop.papertitle }}</td> -->

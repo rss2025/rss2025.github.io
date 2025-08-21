@@ -239,7 +239,7 @@ RSS has a long history of bringing together researchers in all areas of robotics
 </p>
 
 ---
-The website of the RSS 2024 conference can be found [here]({{ site.baseurl }}/2024/).
+The website of the RSS 2024 conference can be found [here]({{ site.url }}/2024/).
 
 <br/>
 <br/>

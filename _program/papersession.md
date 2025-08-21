@@ -177,7 +177,8 @@ document.addEventListener("DOMContentLoaded", function () {
     if (session.C1A) urlParams.set("c1a", session.C1A);
     if (session.C2) urlParams.set("c2", session.C2);
     if (session.C2A) urlParams.set("c2a", session.C2A);
-    return "/program/papersession?" + urlParams.toString();
+    // return "/program/papersession?" + urlParams.toString();
+    return "{{ site.baseurl }}/program/papersession?" + urlParams.toString();
   }
 
   const hasPrev = currentIndex > 0;
@@ -226,7 +227,8 @@ document.addEventListener("DOMContentLoaded", function () {
     if (session.C1A) urlParams.set("c1a", session.C1A);
     if (session.C2) urlParams.set("c2", session.C2);
     if (session.C2A) urlParams.set("c2a", session.C2A);
-    return "/program/papersession?" + urlParams.toString();
+    // return "/program/papersession?" + urlParams.toString();
+    return "{{ site.baseurl }}/program/papersession?" + urlParams.toString();
   }
 
   function createSlotLink({ href = "#", iconClass = "", label = "", visible = true }) {
