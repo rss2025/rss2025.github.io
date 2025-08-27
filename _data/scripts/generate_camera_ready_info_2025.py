@@ -69,10 +69,43 @@ def convert_latex_to_html(text):
 
     text = re.sub(r'\$-([^\$]+)-\$', replace_dash_block, text)
 
-    #subscripted greek  $\pi_0$ changed to π₀
+    #subscripted greek e.g., $\pi_0$ changed to π₀
     text = re.sub(
         r'\$(\\[a-zA-Z]+)_([0-9])\$',
         lambda m: latex_symbol_map.get(m.group(1), m.group(1)) + chr(0x2080 + int(m.group(2))),
+        text
+    )
+
+    def _stacked_subsup(s):
+        # regex: base letter/command + sub + sup (any order)
+        pattern = re.compile(
+            r'(?P<base>\\[a-zA-Z]+|[A-Za-z0-9])'
+            r'(?:'
+            r'_(?P<sub1>\{([^{}]+)\}|[^\s^_{}])\^(?P<sup1>\{([^{}]+)\}|[^\s^_{}])'
+            r'|'
+            r'\^(?P<sup2>\{([^{}]+)\}|[^\s^_{}])_(?P<sub2>\{([^{}]+)\}|[^\s^_{}])'
+            r')'
+        )
+
+        def _unwrap(x):
+            if not x:
+                return ''
+            if len(x) >= 2 and x[0] == '{' and x[-1] == '}':
+                return x[1:-1]
+            return x
+
+        def repl(m):
+            base = m.group('base')
+            sub = _unwrap(m.group('sub1') or m.group('sub2'))
+            sup = _unwrap(m.group('sup1') or m.group('sup2'))
+            return f'<span class="msubsup">{base}<sub>{sub}</sub><sup>{sup}</sup></span>'
+
+        return pattern.sub(repl, s)
+
+    # apply inside $...$ only if both '_' and '^' are present
+    text = re.sub(
+        r'\$([^$]+)\$',
+        lambda m: _stacked_subsup(m.group(1)) if ('_' in m.group(1) and '^' in m.group(1)) else m.group(0),
         text
     )
 
@@ -113,7 +146,7 @@ def convert_latex_to_html(text):
     for latex_cmd, symbol in latex_symbol_map.items():
         text = text.replace(latex_cmd, symbol)
 
-    #replace known custom macros
+    #replace known custom macros (determined manually from abstracts)
     special_macro_map = {
         r'\spot': '<span style="font-variant: small-caps;">Spot</span>',
         r'\tutor': '<span style="font-variant: small-caps;">Astrid</span>',
