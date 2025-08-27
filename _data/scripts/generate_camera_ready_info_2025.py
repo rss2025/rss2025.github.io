@@ -544,43 +544,39 @@ next_id: "{next_id}"
 
 print(f"\nWrote {len(camera_ready_df)} markdown files to `{output_dir}/`, with abstracts included.")
 
-############################################
-# generate RSS25-CameraReadyIntegration.csv
-############################################
+#generate camera ready integration for proceedings
+print("\nGenerating camera ready integration .csv...")
+integration_path = "../RSS25-CameraReadyIntegration.csv"
 
-# # Convert abstracts from LaTeX to HTML-safe text
-# camera_ready_df["Abstract"] = camera_ready_df["OriginalPaperNo"].map(abstract_map).fillna("Abstract not available.")
-# # camera_ready_df["Abstract"] = camera_ready_df["Abstract"].apply(convert_latex_to_html)
-# camera_ready_df["Abstract"] = camera_ready_df["Abstract"].apply(
-#     lambda x: convert_latex_to_html(x).replace("\n", " ").replace("\r", " ").strip()
-# )
+def first_author_last_plus_initial(authors_str: str) -> str:
+    # Assumes your normalized "AuthorNames" is comma-separated.
+    first_author = authors_str.split(",")[0].strip()
+    parts = first_author.split()
+    first = parts[0]
+    last = parts[-1]
+    # take the first alphabetic char from the first name as initial
+    initial = next(c for c in first if c.isalpha()).upper()
+    return f"{last}{initial}"
 
-# # Extract first author's last name
-# def get_first_author_lastname(authors_str):
-#     first_author = authors_str.split(",")[0].strip()
-#     parts = first_author.split()
-#     return parts[-1] if parts else "Unknown"
+# HTML-formatted abstracts (same transform used for .md files)
+camera_ready_df["AbstractHTML"] = camera_ready_df["OriginalPaperNo"].map(abstract_map)
+camera_ready_df["AbstractHTML"] = camera_ready_df["AbstractHTML"].apply(
+    lambda x: convert_latex_to_html(x).replace("\n\n", "<br>&nbsp;&nbsp;&nbsp;&nbsp;").replace("\n", " ").strip()
+)
 
-# camera_ready_df["FirstAuthorLastName"] = camera_ready_df["AuthorNames"].apply(get_first_author_lastname)
+# Authors with semicolons
+camera_ready_df["AuthorNamesSemicol"] = camera_ready_df["AuthorNames"].str.replace(", ", "; ", regex=False)
 
-# # Build the list of strings
-# integration_lines = []
-# header = "PaperID#PaperTitle#Abstract#AuthorNames#AuthorNames"
-# integration_lines.append(header)
+# Write with '#' delimiter, no header
+with open(integration_path, "w", encoding="utf-8", newline="") as f:
+    writer = csv.writer(f, delimiter="#", quoting=csv.QUOTE_MINIMAL)
+    for r in camera_ready_df.itertuples(index=False):
+        writer.writerow([
+            r.PaperID,
+            r.PaperTitle,
+            r.AbstractHTML,
+            r.AuthorNamesSemicol,
+            first_author_last_plus_initial(r.AuthorNames),
+        ])
 
-# for row in camera_ready_df.itertuples(index=False):
-#     line = f'{row.PaperID}#{row.PaperTitle}#{row.Abstract}#{row.AuthorNames}#{row.FirstAuthorLastName}'
-#     integration_lines.append(f'"{line}"')
-
-# # Save the file
-# with open("../RSS25-CameraReadyIntegration.csv", "w", encoding="utf-8") as f:
-#     f.write("\n".join(integration_lines))
-
-# print("Saved to ../RSS25-CameraReadyIntegration.csv")
-
-# TODO(jared): add when poster session available
-# #### Poster Session day 1
-# {{: style="margin-top: 10px; color: #555555; text-align: center;" }}
-
-#replace ### Paper {int(paper_id):03d} with ### Paper ID {paper_id} if 
-#going back to S1.1, S1.2, naming convention
+print(f"Saved to {integration_path}")
