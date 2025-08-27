@@ -20,6 +20,7 @@ TODO:(jared):
 import pandas as pd
 import re
 import csv
+import difflib
 import json
 import os
 import html
@@ -165,9 +166,59 @@ df_program = pd.read_csv(program_path, encoding="utf-8")
 
 #load csv papers (from openreview data), we create a mapping here to use
 #titles and abtracts from the openreview data
-abstract_df = pd.read_csv("../openreview_data_2025.csv", encoding="utf-8")
-title_map = dict(zip(abstract_df["Paper No"], abstract_df["Title"]))
-abstract_map = dict(zip(abstract_df["Paper No"], abstract_df["Abstract"]))
+# abstract_df = pd.read_csv("../openreview_data_2025.csv", encoding="utf-8")
+# title_map = dict(zip(abstract_df["Paper No"], abstract_df["Title"]))
+# abstract_map = dict(zip(abstract_df["Paper No"], abstract_df["Abstract"]))
+
+def load_and_validate_updated_abstracts(updated_csv, openreview_csv):
+    #original openreview
+    openreview_df = pd.read_csv(openreview_csv, encoding="utf-8")
+    title_map = dict(zip(openreview_df["Paper No"], openreview_df["Title"]))
+    openreview_abs_map = dict(zip(openreview_df["Paper No"], openreview_df["Abstract"]))
+
+    #updated openreview
+    updated_df = pd.read_csv(updated_csv, encoding="utf-8")
+    abstract_map = dict(zip(updated_df["Paper No"], updated_df["Abstract"]))
+    confirmed_map = dict(zip(updated_df["Paper No"], updated_df["Update Confirmed"]))
+
+    #print papers that 1) changed and confirmed, 2) change and not confirmed, 
+    #and 3) did not change
+    diffs = []
+    warnings = []
+    no_diffs = []
+
+    for k in openreview_abs_map.keys():
+        a = str(openreview_abs_map[k]).strip()
+        b = str(abstract_map[k]).strip()
+        if a != b:
+            diffs.append((k, title_map.get(k, "")))
+            if str(confirmed_map.get(k, "")).strip().lower() == "false":
+                warnings.append((k, title_map.get(k, "")))
+        else:
+            no_diffs.append((k, title_map.get(k, "")))
+
+    # Print differences
+    print(f"[INFO] Abstract differences: {len(diffs)} paper(s).")
+    for paper_no, title in sorted(diffs, key=lambda x: x[0]):
+        print(f"  - Paper No {paper_no}: {title}")
+
+    # Print warnings for unconfirmed updates
+    if warnings:
+        print(f"[WARNING] {len(warnings)} differing paper(s) not confirmed:")
+        for paper_no, title in sorted(warnings, key=lambda x: x[0]):
+            print(f"  - Paper No {paper_no}: {title}")
+
+    # Print no-difference papers
+    print(f"[INFO] No differences: {len(no_diffs)} paper(s).")
+    for paper_no, title in sorted(no_diffs, key=lambda x: x[0]):
+        print(f"  - Paper No {paper_no}: {title}")
+
+    return title_map, abstract_map
+
+title_map, abstract_map = load_and_validate_updated_abstracts(
+    "../rss2025_updated_abstracts.csv",
+    "../openreview_data_2025.csv",
+)
 
 df = df.drop_duplicates(subset=["Paper No"])
 
