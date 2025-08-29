@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Towards Uncertainty Unification: A Case Study for Preference Learning &middot; Robotics: Science and Systems
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/2025/public/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="/2025/public/css/style.css">
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/2025/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/2025/public/RSS2025-favicon-256x256.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <meta name="description" content="RSS 2025, June 21, 2025 - June 25, 2025, Los Angeles, California" />
+  <meta property="og:type" content="event" />
+  <meta property="og:title" content="Towards Uncertainty Unification: A Case Study for Preference Learning | Robotics: Science and Systems" />
+  <meta property="og:description" content="RSS 2025, June 21, 2025 - June 25, 2025, Los Angeles, California" />
+  <meta property="og:url" content="https://roboticsconference.org" />
+  <meta property="og:site_name" content="Robotics: Science and Systems" />
+  <meta name="twitter:card" content="https://roboticsconference.org/images/RSS2025-logo.png" />
+  <meta name="twitter:description" content="RSS 2025, June 21, 2025 - June 25, 2025, Los Angeles, California" />
+  <meta name="twitter:title" content="Towards Uncertainty Unification: A Case Study for Preference Learning | Robotics: Science and Systems" />
+  <meta property="og:image" content="https://roboticsconference.org/images/RSS2025-logo.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Event",
+    "name": "Robotics: Science and Systems",
+    "url": "https://roboticsconference.org",
+    "image": "https://roboticsconference.org/images/RSS2025-logo.png",
+    "logo": "https://roboticsconference.org/images/RSS2025-logo.png",
+    "sameAs": [
+      "https://twitter.com/RoboticsSciSys",
+      "https://www.facebook.com/RoboticsSciSys",
+      "https://www.linkedin.com/in/rss-conference-99b28823b",
+      "http://www.roboticsproceedings.org/"
+    ],
+    "about": {
+      "@type": "Thing",
+      "name": "A Robotics Conference"
+    },
+    "keywords": "robotics, academic conference",
+    "description": "RSS 2025, June 21, 2025 - June 25, 2025, Los Angeles, California",
+    "startDate": "2025-06-21",
+    "endDate": "2025-06-25",
+    "location": "Los Angeles, California"
+  }
+  </script>
+
+  
+
+</head>
+
+
+<body>
+  <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <a href="/2025/">
+                    <img src="/2025/images/RSS2025-logo.png" width="100%" alt="Robotics: Science and Systems 2024 Conference Logo">
+                        </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="215">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-sm-11 col-xs-12 col-lg-offset-4 col-md-offset-2 col-sm-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" style="margin-top: 10px; text-align: center;"
+                        href="/2025/">RSS 2025</a>
+                    <a class="navbar-brand hidden-xs"
+                        href="/2025/">RSS 2025</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <!--li><a href="/2025/blog/">Latest</a></li-->
+                                <li><a href="https://www.roboticsproceedings.org/">RSS Proceedings</a></li>
+                                <!-- <li><a href="https://roboticsconference.org/attending/">Attending RSS</a></li> -->
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">attending<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/attending/registration/">Registration</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/attending/accessibility/">Accessibility</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/attending/travel/">Travel</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/attending/social/">Social Program</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/attending/activities/">Suggested Activities</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">committees<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/committees/organizers/">Organizing Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/committees/pc/">Program Committee</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/committees/foundation/">RSS Foundation</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">information<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/information/presentationInstructions/">Presenter Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/information/authorinfo/">Author Information</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/information/cfp/">Call for Papers and Demos</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/information/cfw/">Call for Workshops</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/reviewps/">Review Process</a></li>
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">program<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/program/overview/">Overview</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/program/allsessions/">Paper Sessions</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/program/papers/">Accepted Papers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/program/workshops/">Workshops</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/program/posters/">Posters</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/program/demos/">Demos</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/program/awards/">Awards</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/program/labtours/">Lab Tours</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/program/keynote/">Keynote Talks</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/program/earlycareer/">Early Career Spotlight</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/program/testoftimeaward/">Test of Time Award</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/program/panels/">Panels</a></li>
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/program/pioneers/">RSS Pioneers</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li><a href="/2025/program/pathways/">Pathways@RSS</a></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 col-lg-offset-1 hidden-xs hidden-sm text-right" id="sidebar"/>
+<!-- No sidebar on small screens -->
+<a class="sidebar-nav-item" href="/2025/">Home</a>
+<!--
+<br>
+ <a class="sidebar-nav-item" href="/2025/blog/">Latest</a>
+-->
+<br>
+<a class="sidebar-nav-item" target="_blank" href="https://www.roboticsproceedings.org/">RSS Proceedings</a>
+<!--
+<br>
+<a class="sidebar-nav-item" href="/2025/attending">Attending RSS</a>
+-->
+
+<br>
+<br>
+
+
+
+
+
+
+
+<b>attending</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/attending/registration/">Registration</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/attending/accessibility/">Accessibility</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/attending/travel/">Travel</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/attending/social/">Social Program</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/attending/activities/">Suggested Activities</a>
+<br>
+
+
+
+
+
+
+<br>
+
+
+
+<b>program</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/program/overview/">Overview</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/program/allsessions/">Paper Sessions</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/program/papers/">Accepted Papers</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/program/workshops/">Workshops</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/program/posters/">Posters</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/program/demos/">Demos</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/program/awards/">Awards</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/program/labtours/">Lab Tours</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/program/keynote/">Keynote Talks</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/program/earlycareer/">Early Career Spotlight</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/program/testoftimeaward/">Test of Time Award</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/program/panels/">Panels</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/program/pioneers/">RSS Pioneers</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/program/pathways/">Pathways@RSS</a>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<b>information</b>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/information/presentationInstructions/">Presenter Information</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/information/authorinfo/">Author Information</a>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/information/cfp/">Call for Papers and Demos</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/information/cfw/">Call for Workshops</a>
+<br>
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/reviewps/">Review Process</a>
+<br>
+
+
+
+<br>
+
+
+
+<b>committees</b>
+<br>
+
+
+
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/committees/organizers/">Organizing Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/committees/pc/">Program Committee</a>
+<br>
+
+
+
+
+
+<a class="sidebar-nav-item" href="/2025/committees/foundation/">RSS Foundation</a>
+<br>
+
+
+
+<br>
+
+
+<b>follow us</b>
+<br>
+<a target="_blank" href="https://twitter.com/RoboticsSciSys"><i class="fab fa-twitter"></i> Twitter </a>
+<br>
+<a target="_blank" href="https://www.facebook.com/RoboticsSciSys"><i class="fab fa-facebook"></i>  Facebook  </a>
+<br>
+<a target="_blank" href="https://www.linkedin.com/in/rss-conference-99b28823b/"><i class="fab fa-linkedin"></i>  LinkedIn  </a>
+<br>
+<a target="_blank" href="https://www.instagram.com/rssconference"><i class="fab fa-instagram"></i>  Instagram  </a>
+<br>
+<a target="_blank" href="https://bsky.app/profile/roboticsscisys.bsky.social"><i class="fab fa-bluesky"></i> Bluesky</a>
+<br>
+
+</div>
+
+      <div class="col-md-8 col-lg-8 col-md-offset-0 col-xs-10 col-xs-offset-1 text-justify content">
+        <div class="page">
+
+  
+  <div class="mini-paper-navbar">
+    
+      <a href="/2025/program/papers/90/" title="Previous Paper">
+        <i class="fa fa-chevron-left"></i>
+      </a>
+    
+    <a href="/2025/program/papers">☰</a>
+    
+      <a href="/2025/program/papers/92/" title="Next Paper">
+        <i class="fa fa-chevron-right"></i>
+      </a>
+    
+  </div>
+
+
+  <h3 class="page-title"><b>Towards Uncertainty Unification: A Case Study for Preference Learning</b></h3>
+  <br/>
+  <div class="paper-authors">
+  <div class="paper-author-box">
+    <div class="paper-author-name">Shaoting Peng, Haonan Chen, Katherine Rose Driggs-Campbell</div>
+    <div class="paper-author-uni"></div>
+  </div>
+</div>
+
+<div class="paper-pdf">
+  <div>
+    <a href="https://www.roboticsproceedings.org/rss21/p091.pdf" title="Download PDF" target="_blank">
+      <img src="/2025/images/paper_link_cardinal_red.png" alt="Paper PDF" width="33" height="40" />
+    </a>
+  </div>
+</div>
+
+<h3 style="margin-top: 10px; text-align: center;" id="paper-id-91">Paper ID 91</h3>
+
+<h3 style="text-align: center;" id="session-9-hri"><a href="/2025/program/papersession?session=9.%20HRI">Session 9. HRI</a></h3>
+
+<h4 style="margin-top: 10px; color: #555555; text-align: center;" id="poster-session-day-3-monday-june-23-1230-200-pm">Poster Session (Day 3): Monday, June 23, 12:30-2:00 PM</h4>
+
+<p style="color:gray; font-size: 120%; text-align: justified;"><b style="color: black;">Abstract: </b>Learning human preferences is essential for human-robot interaction, as it enables robots to adapt their behaviors to align with human expectations and goals. However, the inherent uncertainties in both human behavior and robotic systems make preference learning a challenging task. While probabilistic robotics algorithms offer uncertainty quantification, the integration of human preference uncertainty remains underexplored. To bridge this gap, we introduce uncertainty unification and propose a novel framework, uncertainty-unified preference learning (UUPL), which enhances Gaussian Process (GP)-based preference learning by unifying human and robot uncertainties. Specifically, UUPL includes a human preference uncertainty model that improves GP posterior mean estimation, and an uncertainty-weighted Gaussian Mixture Model (GMM) that enhances GP predictive variance accuracy. Additionally, we design a user-specific calibration process to align uncertainty representations across users, ensuring consistency and reliability in the model performance. Comprehensive experiments and user studies demonstrate that UUPL achieves state-of-the-art performance in both prediction accuracy and user rating. An ablation study further validates the effectiveness of human uncertainty model and uncertainty-weighted GMM of UUPL. Video and code are available at https://sites.google.com/view/uupl-rss25/home.</p>
+
+<div class="paper-menu">
+  <div class="paper-menu-inner">
+    <a href="/2025/program/papers/90/" title="Previous Paper">
+            <div class="paper-menu-icon">
+                <i class="fas fa-arrow-left"></i><br />
+                <span class="paper-menu-label">Back</span>
+            </div>
+        </a>
+    <a href="/2025/program/papers" title="All Papers">
+      <div class="paper-menu-icon">
+        <i class="fas fa-list"></i><br />
+        <span class="paper-menu-label">Papers</span>
+      </div>
+    </a>
+    <a href="/2025/program/papers/92/" title="Next Paper">
+            <div class="paper-menu-icon">
+                <i class="fas fa-arrow-right"></i><br />
+                <span class="paper-menu-label">Next</span>
+            </div>
+        </a>
+  </div>
+</div>
+
+
+</div>
+        <br>
+        <center>
+          <footer style="color: lightslategray;">
+            <small style="line-height: 95%;">
+              <p style="padding-bottom: 2px; margin-bottom: 2px;">This website uses Google Analytics for page views.</p>
+              <p>&copy; 2025 RSS Foundation.</p>
+            </small>
+          </footer>
+        </center>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
