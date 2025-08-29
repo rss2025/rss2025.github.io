@@ -45,7 +45,7 @@ latex_symbol_map = {
     r'\Pi': 'Π', r'\Sigma': 'Σ', r'\Upsilon': 'Υ', r'\Phi': 'Φ', r'\Psi': 'Ψ',
     r'\Omega': 'Ω', r'\Epsilon': 'Ε',
 
-    r'\leq': '≤', r'\geq': '≥', r'\neq': '≠', r'\approx': '≈',
+    r'\leq': '≤', r'\geq': '≥', r'\neq': '≠', r'\approx': '≈', r'\sim': '~',
     r'\times': '×', r'\pm': '±', r'\infty': '∞', r'\circ': '°',
 }
 
@@ -55,6 +55,20 @@ def convert_latex_to_html(text):
 
     #replace backticks with single quotes to avoid showing up as code
     text = re.sub(r'`([^`]+)`', r"'\1'", text)
+
+    #handle \href{url}{text}
+    text = re.sub(
+        r'\\href\{([^{}]+)\}\{([^{}]+)\}',
+        lambda m: f'<a href="{html.escape(m.group(1), quote=True)}">{m.group(2)}</a>',
+        text
+    )
+
+    #handle \url{url}
+    text = re.sub(
+        r'\\url\{([^{}]+)\}',
+        lambda m: f'<a href="{html.escape(m.group(1), quote=True)}">{m.group(1)}</a>',
+        text
+    )
 
     #math mode
     text = re.sub(r'\$\\textit\{([^{}]+)\}\$', r'<em>\1</em>', text)
@@ -204,46 +218,56 @@ df_program = pd.read_csv(program_path, encoding="utf-8")
 # abstract_map = dict(zip(abstract_df["Paper No"], abstract_df["Abstract"]))
 
 def load_and_validate_updated_abstracts(updated_csv, openreview_csv):
-    #original openreview
+    import pandas as pd
+
+    # original openreview
     openreview_df = pd.read_csv(openreview_csv, encoding="utf-8")
     title_map = dict(zip(openreview_df["Paper No"], openreview_df["Title"]))
     openreview_abs_map = dict(zip(openreview_df["Paper No"], openreview_df["Abstract"]))
 
-    #updated openreview
+    # updated openreview
     updated_df = pd.read_csv(updated_csv, encoding="utf-8")
     abstract_map = dict(zip(updated_df["Paper No"], updated_df["Abstract"]))
     confirmed_map = dict(zip(updated_df["Paper No"], updated_df["Update Confirmed"]))
 
-    #print papers that 1) changed and confirmed, 2) change and not confirmed, 
-    #and 3) did not change
-    diffs = []
-    warnings = []
-    no_diffs = []
+    diffs_confirmed = []
+    diffs_not_confirmed = []
+    no_diffs_confirmed = []
+    no_diffs_not_confirmed = []
 
     for k in openreview_abs_map.keys():
         a = str(openreview_abs_map[k]).strip()
         b = str(abstract_map[k]).strip()
+        confirmed = str(confirmed_map.get(k, "")).strip().lower() == "true"
+        title = title_map.get(k, "")
+
         if a != b:
-            diffs.append((k, title_map.get(k, "")))
-            if str(confirmed_map.get(k, "")).strip().lower() == "false":
-                warnings.append((k, title_map.get(k, "")))
+            if confirmed:
+                diffs_confirmed.append((k, title))
+            else:
+                diffs_not_confirmed.append((k, title))
         else:
-            no_diffs.append((k, title_map.get(k, "")))
+            if confirmed:
+                no_diffs_confirmed.append((k, title))
+            else:
+                no_diffs_not_confirmed.append((k, title))
 
     # Print differences
-    print(f"[INFO] Abstract differences: {len(diffs)} paper(s).")
-    for paper_no, title in sorted(diffs, key=lambda x: x[0]):
+    print(f"[INFO] Abstract differences (confirmed): {len(diffs_confirmed)} paper(s).")
+    for paper_no, title in sorted(diffs_confirmed, key=lambda x: x[0]):
         print(f"  - Paper No {paper_no}: {title}")
 
-    # Print warnings for unconfirmed updates
-    if warnings:
-        print(f"[WARNING] {len(warnings)} differing paper(s) not confirmed:")
-        for paper_no, title in sorted(warnings, key=lambda x: x[0]):
-            print(f"  - Paper No {paper_no}: {title}")
+    print(f"[WARNING] Abstract differences (NOT confirmed): {len(diffs_not_confirmed)} paper(s).")
+    for paper_no, title in sorted(diffs_not_confirmed, key=lambda x: x[0]):
+        print(f"  - Paper No {paper_no}: {title}")
 
     # Print no-difference papers
-    print(f"[INFO] No differences: {len(no_diffs)} paper(s).")
-    for paper_no, title in sorted(no_diffs, key=lambda x: x[0]):
+    print(f"[INFO] No differences (confirmed): {len(no_diffs_confirmed)} paper(s).")
+    for paper_no, title in sorted(no_diffs_confirmed, key=lambda x: x[0]):
+        print(f"  - Paper No {paper_no}: {title}")
+
+    print(f"[INFO] No differences (NOT confirmed): {len(no_diffs_not_confirmed)} paper(s).")
+    for paper_no, title in sorted(no_diffs_not_confirmed, key=lambda x: x[0]):
         print(f"  - Paper No {paper_no}: {title}")
 
     return title_map, abstract_map
