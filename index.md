@@ -14,12 +14,14 @@ title: Home
 <h1 class="page-title">{{ site.title }}<br>
 June 21 &ndash; June 25, 2025<br>Los Angeles, California</h1>
 
+
+<!-- recording -->
 <div class="rss-hero">
   <div class="rss-embed-wrap">
     <iframe
       id="rss-yt"
-      title="RSS 2025 Livestream / Replay"
-      src="https://www.youtube.com/embed/nMLoZbxWnpY?rel=0&modestbranding=1"
+      title="RSS 2025 Recording"
+      src="https://www.youtube.com/embed/QqK0IKINJEQ?rel=0&modestbranding=1"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen
@@ -27,11 +29,10 @@ June 21 &ndash; June 25, 2025<br>Los Angeles, California</h1>
   </div>
 
   <div id="dayselector" class="rss-daybar">
-    <button class="daybutton active" data-yt="nMLoZbxWnpY">Jun 21</button>
-    <button class="daybutton" data-yt="VIDEOID_JUN22">Jun 22</button>
-    <button class="daybutton" data-yt="VIDEOID_JUN23">Jun 23</button>
-    <button class="daybutton" data-yt="VIDEOID_JUN24">Jun 24</button>
-    <button class="daybutton" data-yt="VIDEOID_JUN25">Jun 25</button>
+    <button class="daybutton active" data-yt="QqK0IKINJEQ">Jun 21</button>
+    <button class="daybutton" data-yt="qJgmmudGrY8">Jun 22</button>
+    <button class="daybutton" data-yt="b6SVm8zuUcc">Jun 23</button>
+    <button class="daybutton" data-yt="74EDmPwbOYc">Jun 24</button>
   </div>
 </div>
 
@@ -74,6 +75,7 @@ June 21 &ndash; June 25, 2025<br>Los Angeles, California</h1>
     });
   })();
 </script>
+
 
 <!-- ### Important Announcements -->
 
