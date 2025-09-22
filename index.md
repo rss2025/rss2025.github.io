@@ -29,10 +29,10 @@ June 21 &ndash; June 25, 2025<br>Los Angeles, California</h1>
   </div>
 
   <div id="dayselector" class="rss-daybar">
-    <button class="daybutton active" data-yt="QqK0IKINJEQ">Jun 21</button>
-    <button class="daybutton" data-yt="qJgmmudGrY8">Jun 22</button>
-    <button class="daybutton" data-yt="b6SVm8zuUcc">Jun 23</button>
-    <button class="daybutton" data-yt="74EDmPwbOYc">Jun 24</button>
+    <button class="daybutton active" data-yt="QqK0IKINJEQ">Jun 22</button>
+    <button class="daybutton" data-yt="qJgmmudGrY8">Jun 23</button>
+    <button class="daybutton" data-yt="b6SVm8zuUcc">Jun 24</button>
+    <button class="daybutton" data-yt="74EDmPwbOYc">Jun 25</button>
   </div>
 </div>
 
