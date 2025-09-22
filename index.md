@@ -11,13 +11,69 @@ title: Home
 </div> -->
 
 
-
 <h1 class="page-title">{{ site.title }}<br>
 June 21 &ndash; June 25, 2025<br>Los Angeles, California</h1>
 
-<div id="dayselector" style="width: 100%; text-align: center; justify-content: center; display: inline-flex;">
-  <div class="daybutton" link="nMLoZbxWnpY">Jul 11</div>
+<div class="rss-hero">
+  <div class="rss-embed-wrap">
+    <iframe
+      id="rss-yt"
+      title="RSS 2025 Livestream / Replay"
+      src="https://www.youtube.com/embed/nMLoZbxWnpY?rel=0&modestbranding=1"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </div>
+
+  <div id="dayselector" class="rss-daybar">
+    <button class="daybutton active" data-yt="nMLoZbxWnpY">Jun 21</button>
+    <button class="daybutton" data-yt="VIDEOID_JUN22">Jun 22</button>
+    <button class="daybutton" data-yt="VIDEOID_JUN23">Jun 23</button>
+    <button class="daybutton" data-yt="VIDEOID_JUN24">Jun 24</button>
+    <button class="daybutton" data-yt="VIDEOID_JUN25">Jun 25</button>
+  </div>
 </div>
+
+<style>
+  .rss-hero { max-width: 1080px; margin: 0 auto 24px; }
+  .rss-embed-wrap {
+    position: relative; width: 100%; padding-top: 56.25%; /* 16:9 */
+    background: #000; border: 1px solid #e0e0e0;
+  }
+  .rss-embed-wrap iframe {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  }
+  .rss-daybar {
+    display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .daybutton {
+    border: 1px solid #ccc; background: #fff; color: #111;
+    padding: 6px 14px; border-radius: 6px; cursor: pointer;
+    font-weight: 600;
+  }
+  .daybutton:hover { background: #f7f7f7; }
+  .daybutton.active {
+    background: #111; color: #fff; border-color: #111;
+  }
+</style>
+
+<script>
+  (function () {
+    const frame = document.getElementById('rss-yt');
+    const buttons = document.querySelectorAll('#dayselector .daybutton');
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = btn.dataset.yt;
+        buttons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        frame.src = "https://www.youtube.com/embed/" + id + "?rel=0&modestbranding=1&autoplay=1";
+      });
+    });
+  })();
+</script>
 
 <!-- ### Important Announcements -->
 
